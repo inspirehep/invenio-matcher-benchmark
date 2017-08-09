@@ -39,21 +39,56 @@ def generate_no_match_list():
 
 
 def get_mlt_record(inspire_record):
-    match_record = {}
+    records = []
+
     if inspire_record.get('titles'):
-        match_record['titles'] = inspire_record['titles']
+        records.append(
+            {
+                'titles': inspire_record['titles'],
+                'boost': 20
+            }
+        )
     if inspire_record.get('abstracts'):
-        match_record['abstracts'] = inspire_record['abstracts']
+        records.append(
+            {
+                'abstracts': inspire_record['abstracts'],
+                'boost': 20
+            }
+        )
+    if inspire_record.get('report_numbers'):
+        records.append(
+            {
+                'report_numbers': inspire_record['report_numbers'],
+                'boost': 10
+            }
+        )
     if inspire_record.get('authors'):
-        match_record['authors'] = inspire_record['authors'][:3]
-    return match_record
+        records.append(
+            {
+                'authors': inspire_record['authors'][:3]
+            }
+        )
+    return records
+
+
+# def get_mlt_record(inspire_record):
+#     match_record = {}
+#     if inspire_record.get('titles'):
+#         match_record['titles'] = inspire_record['titles']
+#     if inspire_record.get('abstracts'):
+#         match_record['abstracts'] = inspire_record['abstracts']
+#     if inspire_record.get('report_numbers'):
+#         match_record['report_numbers'] = inspire_record['report_numbers']
+#     if inspire_record.get('authors'):
+#         match_record['authors'] = inspire_record['authors'][:3]
+#     return match_record
 
 
 def is_good_match(doi_match_map, recid_match_map, dois, control_number, matched_recid):
     def _got_match(dictionary, key, value):
         return dictionary.get(key) == value
 
-    if any([_got_match(doi_match_map, str(matched_recid), doi) for doi in dois]):
+    if any([_got_match(doi_match_map, doi, str(matched_recid)) for doi in dois]):
         return True
 
     if _got_match(recid_match_map, str(control_number), str(matched_recid)):
@@ -94,21 +129,22 @@ def main(args):
 
     app = create_app()
     with app.app_context():
-
         for filename in filenames:
             with open(filename, 'r') as fd:
-                for i, marcxml in enumerate(split_stream(fd)):
+                for marcxml in split_stream(fd):
                     marc_record = marc_create_record(marcxml, keep_singletons=False)
                     try:
                         inspire_record = overdo_marc_dict(marc_record)
                     except TypeError:
                         # Some bad metadata in the record - skip
                         pass
+
                     control_number = get_value(inspire_record, 'control_number')
                     dois = get_value(inspire_record, 'dois.value')
-                    arxiv_eprints = get_value(inspire_record, 'arxiv_eprints.value')                    
+                    arxiv_eprints = get_value(inspire_record, 'arxiv_eprints.value')        
+                    report_numbers = get_value(inspire_record, 'report_numbers.value')
 
-                    if not dois or not control_number:
+                    if not dois and not control_number:
                         # FIXME all the correct/incorrect match files are based on doi
                         continue
 
@@ -120,8 +156,8 @@ def main(args):
                     # Step 1 - apply exact matches
                     queries_ = [
                         {'type': 'exact', 'match': 'dois.value.raw', 'values': dois},
-                        {'type': 'exact', 'match': 'arxiv_eprints.value.raw',
-                            'values': arxiv_eprints}
+                        {'type': 'exact', 'match': 'arxiv_eprints.value.raw', 'values': arxiv_eprints},
+                        {'type': 'exact', 'match': 'report_numbers.value.raw', 'values': report_numbers}
                     ]
                     matched_exact_records = list(_match(
                         inspire_record,
