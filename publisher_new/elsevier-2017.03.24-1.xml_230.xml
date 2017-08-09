@@ -1,0 +1,643 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.041</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Asthana, Kartikey</subfield>
+    <subfield code="j">ORCID:0000-0001-8702-7377</subfield>
+    <subfield code="v">Department of Aeronautics and Astronautics, Stanford University, CA 94305, USA</subfield>
+    <subfield code="m">kasthana@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Non-linear stabilization of high-order Flux Reconstruction schemes via Fourier-spectral filtering</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">26</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">High-order Flux Reconstruction (FR) schemes have been limited in their application to transonic and supersonic problems on account of numerical instabilities related to the resolution of jump discontinuities. These instabilities arise from aliasing errors associated with the collocation projection of the flux corresponding to the numerical solution onto the polynomial basis of the numerical flux. In this paper, we obtain energy bounds on the numerical solution via FR to prove that stability can be ensured for any polynomial order by the addition of adequate artificial dissipation such that the solution is energy-stable beyond a critical grid resolution. This artificial viscosity is then approximately posed as a Fourier filtering operation which is implemented in the physical space via a strictly local convolution integral. The filter is selectively applied to ‘troubled’ cells as indicated by a discontinuity sensor based on the spectral concentration method. Numerous numerical tests in 1-D and 2-D have been performed. The proposed approach captures shock discontinuities while preserving accuracy in smooth regions of the solution, even for very high polynomial orders such as <math altimg="si1.gif" display="inline" overflow="scroll"><mi>P</mi><mo>=</mo><mn>119</mn></math> . The filtered solution provides reduced total variation, reduced maximum overshoot/undershoot, and even allows sub-element shocks to be localized in the interior of an element.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Flux Reconstruction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Shock capturing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stabilization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Filter</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">López-Morales, Manuel R.</subfield>
+    <subfield code="j">ORCID:0000-0001-5456-0570</subfield>
+    <subfield code="v">Department of Aeronautics and Astronautics, Stanford University, CA 94305, USA</subfield>
+    <subfield code="m">mlopez14@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jameson, Antony</subfield>
+    <subfield code="v">Department of Aeronautics and Astronautics, Stanford University, CA 94305, USA</subfield>
+    <subfield code="m">jameson@baboon.stanford.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">269-294</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chavent, G.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">The local projection <math altimg="si283.gif" display="inline" overflow="scroll"><msup><mrow><mi>P</mi></mrow><mrow><mn>0</mn></mrow></msup><msup><mrow><mi>P</mi></mrow><mrow><mn>1</mn></mrow></msup></math> -discontinuous-Galerkin finite element method for scalar conservation laws</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">RAIRO, Model.Math.Anal.Numer.,23,565</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lesaint, P.</subfield>
+    <subfield code="h">Raviart, P.A.</subfield>
+    <subfield code="t">On a finite element method for solving the neutron transport equation</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Mathematical Aspects of Finite Elements in Partial Differential Equations</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.H.</subfield>
+    <subfield code="h">Hill, T.R.</subfield>
+    <subfield code="t">Triangular mesh methods for the neutron transport equation</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Los Alamos Scientific Laboratory Report LA-UR-73-479</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods, Springer Texts in Applied Mathematics, vol. 54</subfield>
+    <subfield code="v">vol. 54</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">Adaptive discontinuous Galerkin finite element methods for the compressible Euler equations</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,183,508</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remacle, J.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="h">Shephard, M.S.</subfield>
+    <subfield code="t">An adaptive discontinuous Galerkin technique with an orthogonal basis applied to compressible flow problems</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM Rev.,45,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vegt, J.J.W.</subfield>
+    <subfield code="h">van der Ven, H.</subfield>
+    <subfield code="t">Discontinuous Galerkin finite element method with anisotropic local grid refinement for inviscid compressible flows</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,141,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fidkowski, K.J.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Review of output-based error estimation and mesh adaptation in computational fluid dynamics</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">AIAA J.,49,673</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Biswas, R.</subfield>
+    <subfield code="h">Devine, K.D.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="t">Parallel, adaptive finite element methods for conservation laws</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Appl.Numer.Math.,14,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="t">Limiters for high-order discontinuous Galerkin methods</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,226,879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="t">Hierarchical slope limiting in explicit and implicit discontinuous Galerkin methods</subfield>
+    <subfield code="v">257</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,257,1140</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burbeau, A.</subfield>
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="h">Bruneau, Ch.-H.</subfield>
+    <subfield code="t">A problem-independent limiter for high-order Runge–Kutta discontinuous Galerkin methods</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,169,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Visbal, M.R.</subfield>
+    <subfield code="h">Gaitonde, D.V.</subfield>
+    <subfield code="t">Very high-order spatially implicit schemes for computational acoustics on curvilinear meshes</subfield>
+    <subfield code="v">09</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Acoust.,09,1259</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sengupta, T.K.</subfield>
+    <subfield code="h">Bhumkar, Y.</subfield>
+    <subfield code="h">Lakshmanan, V.</subfield>
+    <subfield code="t">Design and analysis of a new filter for LES and DES</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Struct.,87,735</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Lund, T.S.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">A general class of commutative filters for LES in complex geometries</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,146,82</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blackburn, H.M.</subfield>
+    <subfield code="h">Schmidt, S.</subfield>
+    <subfield code="t">Spectral element filtering techniques for large eddy simulation with dynamic estimation</subfield>
+    <subfield code="v">186</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,186,610</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="h">Grohen, R.</subfield>
+    <subfield code="t">Discrete filters for large eddy simulation</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,31,1195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="h">Stolz, S.</subfield>
+    <subfield code="t">A subgrid-scale deconvolution approach for shock capturing</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,178,391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Cacqueray, N.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="t">A shock-capturing methodology based on adaptative spatial filtering for high-order non-linear computations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1447</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Ven, H.</subfield>
+    <subfield code="t">A family of large eddy simulation (LES) filters with nonuniform filter widths</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Phys.Fluids,7,1171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Super viscosity and spectral approximations of nonlinear conservation laws</subfield>
+    <subfield code="y">141999</subfield>
+    <subfield code="q">Numerical Methods for Fluid Dynamics. IV</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="t">Spectral Methods for Time-Dependent Problems, Cambridge Monographs on Applied and Computational Mathematics, vol. 21</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="v">vol. 21</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="t">Filtering in Legendre spectral methods</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Math.Comput.,77,1425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/num.20705</subfield>
+    <subfield code="h">Meister, A.</subfield>
+    <subfield code="h">Ortleb, S.</subfield>
+    <subfield code="h">Sonar, Th.</subfield>
+    <subfield code="t">Application of spectral filtering to discontinuous Galerkin methods on triangulations</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vandeven, H.</subfield>
+    <subfield code="t">Family of spectral filters for discontinuous problems</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Sci.Comput.,6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On the Gibbs phenomenon and its resolution</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM Rev.,39,644</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">Spectral methods for hyperbolic problems</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,128,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10915-013-9748-2</subfield>
+    <subfield code="h">Mirzaee, H.</subfield>
+    <subfield code="h">Ryan, J.K.</subfield>
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="t">Smoothness-increasing accuracy-conserving (SIAC) filters for discontinuous Galerkin solutions: application to structured tetrahedral meshes</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using a new type of WENO limiters on unstructured meshes</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,248,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="h">Xin, J.</subfield>
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="h">Chevaugeon, N.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="t">Shock detection and limiting with discontinuous Galerkin methods for hyperbolic conservation laws</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Appl.Numer.Math.,48,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Persson, J. Peraire</subfield>
+    <subfield code="m">Sub-cell shock capturing for discontinuous Galerkin methods, in: 44th AIAA Aerospace Sciences Meeting and Exhibit 9-12 January, Reno, Nevada</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G.E. Barter, D.L. Darmofal</subfield>
+    <subfield code="m">Shock capturing with higher-order, PDE-based artificial viscosity, in: 18th AIAA Computational Fluid Dynamics Conference 25-28 June, Miami, FL</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cai, W.</subfield>
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Essentially nonoscillatory spectral Fourier methods for shock wave calculations</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Math.Comput.,52,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Oshers, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes. II</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,83,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="h">Cabot, W.H.</subfield>
+    <subfield code="t">Hyperviscosity for shock–turbulence interaction</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,203,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kawai, S.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Localized artificial diffusivity scheme for discontinuity capturing on curvilinear meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">The numerical viscosity of entropy stable schemes for systems of conservation laws. I</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Math.Comput.,49,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Entropy stability theory for difference approximations of nonlinear conservation laws and related time dependent problems</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Acta Numer.,12,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Svärd, M.</subfield>
+    <subfield code="h">Mishra, S.</subfield>
+    <subfield code="t">Shock capturing artificial dissipation for high-order finite difference schemes</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Sci.Comput.,39,454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fisher, T.C.</subfield>
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="t">High-order entropy stable finite difference schemes for nonlinear conservation laws: finite domains</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,252,518</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="h">Fisher, T.C.</subfield>
+    <subfield code="h">Nielsen, E.J.</subfield>
+    <subfield code="h">Frankel, S.H.</subfield>
+    <subfield code="t">Entropy stable spectral collocation schemes for the Navier–Stokes equations: discontinuous interfaces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,B835</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H.T. Huynh</subfield>
+    <subfield code="m">A flux reconstruction approach to high-order schemes including discontinuous Galerkin methods, AIAA Conference Paper-4079</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes for triangular elements</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Sci.Comput.,51,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williams, D.M.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Energy stable flux reconstruction schemes for advection–diffusion problems on tetrahedra</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kopriva, D.A.</subfield>
+    <subfield code="h">Kolias, J.H.</subfield>
+    <subfield code="t">A conservative staggered-grid Chebyshev multidomain method for compressible flows</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,125,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Vinokur, M.</subfield>
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="t">Spectral difference method for unstructured grids I: basic formulation</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,216,780</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10915-014-9882-5</subfield>
+    <subfield code="h">Asthana, K.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">High-order flux reconstruction schemes with minimal dispersion and dissipation</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lopez, M.</subfield>
+    <subfield code="h">Asthana, K.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Families of provably-stable flux reconstruction schemes with correction functions continuous in m derivatives</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Sci.Comput.,47,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Insights from von Neumann analysis of high-order flux reconstruction schemes</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="t">On the non-linear stability of flux reconstruction schemes</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Sci.Comput.,50,434</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gelb, A.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Detection of edges in spectral data</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,7,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gelb, A.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Detection of edges in spectral data. II-Nonlinear enhancement</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,1389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gelb, Anne</subfield>
+    <subfield code="h">Cates, Dennis</subfield>
+    <subfield code="t">Detection of edges in spectral data III-refinement of the concentration method</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Sci.Comput.,36,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Sheshadri, A. Jameson</subfield>
+    <subfield code="m">Shock detection and capturing methods for high order discontinuous-Galerkin finite element methods, in: 32nd AIAA Applied Aerodynamics Conference, Atlanta, GA, 16-20 June</subfield>
+    <subfield code="s">AIAA J.,2014,2688</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sod, G.A.</subfield>
+    <subfield code="t">A survey of several finite difference methods for systems of nonlinear hyperbolic conservation laws</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">The numerical simulation of two-dimensional fluid flow with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Canuto, C.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">Approximation results for orthogonal polynomials in Sobolev spaces</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Math.Comput.,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bernardi, C.</subfield>
+    <subfield code="h">Maday, Yvon</subfield>
+    <subfield code="t">Polynomial interpolation results in Sobolev spaces</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,43,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.R. Bull, A. Jameson</subfield>
+    <subfield code="m">Simulation of the compressible Taylor Green vortex using high-order flux reconstruction schemes, in: 7th AIAA Theoretical Fluid Mechanics Conference, 16-20 June, Atlanta, GA</subfield>
+    <subfield code="s">AIAA Paper,2014,3210</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006403/S0021999115006403.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,573 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.042</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Chiapolino, Alexandre</subfield>
+    <subfield code="v">Aix Marseille Univ, CNRS, Centrale Marseille, M2P2, Marseille, France</subfield>
+    <subfield code="v">RS2N, Chemin de Gaumin, Saint-Zacharie, 83640, France</subfield>
+    <subfield code="m">alexandre.chiapolino@rs2n.eu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Sharpening diffuse interfaces with compressible fluids on unstructured meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Diffuse interface methods with compressible fluids, considered through hyperbolic multiphase flow models, have demonstrated their capability to solve a wide range of complex flow situations in severe conditions (both high and low speeds). These formulations can deal with the presence of shock waves, chemical and physical transformations, such as cavitation and detonation. Compared to existing approaches able to consider compressible materials and interfaces, these methods are conservative with respect to mixture mass, momentum, energy and are entropy preserving. Thanks to these properties they are very robust. However, in many situations, typically in low transient conditions, numerical diffusion at material interfaces is excessive. Several approaches have been developed to lower this weakness. In the present contribution, a specific flux limiter is proposed and inserted into conventional MUSCL type schemes, in the frame of the diffuse interface formulation of Saurel et al. (2009). With this limiter, interfaces are captured with <math altimg="si1.gif" display="inline" overflow="scroll"><mn>3</mn><mo>±</mo><mn>1</mn></math> mesh points depending on the test problem, showing significant improvement in interface representation compared to conventional limiters, such as for example Superbee. The method works on both structured and unstructured meshes and its implementation in existing codes is simple. Computational examples showing method capabilities and accuracy are presented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">multiphase flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">interfaces</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">hyperbolic systems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">unstructured meshes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Godunov method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">MUSCL</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">flux limiter</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Saurel, Richard</subfield>
+    <subfield code="v">Aix Marseille Univ, CNRS, Centrale Marseille, M2P2, Marseille, France</subfield>
+    <subfield code="v">RS2N, Chemin de Gaumin, Saint-Zacharie, 83640, France</subfield>
+    <subfield code="v">IUF, University Institute of France</subfield>
+    <subfield code="m">richard.saurel@univ-amu.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nkonga, Boniface</subfield>
+    <subfield code="v">Université Côte d'Azur, LJAD &amp; INRIA, UMR 7351 CNRS, UNS, Nice Cedex, 06108, France</subfield>
+    <subfield code="m">boniface.nkonga@unice.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. VonNeumann, R. Richtmyer</subfield>
+    <subfield code="m">A method for the numerical calculation of hydrodynamic shocks</subfield>
+    <subfield code="s">J.Appl.Phys.,21,232-237</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Hirt, A. Anthony, J. Cook</subfield>
+    <subfield code="m">An arbitrary Lagrangian-Eulerian computing method for all flow speeds</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227-253</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Caramana, M. Shashkov</subfield>
+    <subfield code="m">Elimination of artificial grid distortion and hourglass-type motions by means of Lagrangian subzonal masses and pressures</subfield>
+    <subfield code="s">J.Comput.Phys.,142,521-561</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Glimm, J. Grove, X. Li, K. Shyue, Y. Zeng, Q. Zhang</subfield>
+    <subfield code="m">Three-dimensional front tracking</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,19,703-727</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Dervieux, F. Thomasset</subfield>
+    <subfield code="m">A finite element method for the simulation of a Rayleigh-Taylor instability, in: Approximation methods for Navier-Stokes problems pp. 145-158</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Fedkiw, T. Aslam, B. Merriman, S. Osher</subfield>
+    <subfield code="m">A non-oscillatory Eulerian approach to interfaces in multimaterial flows (the Ghost Fluid Method)</subfield>
+    <subfield code="s">J.Comput.Phys.,152,457-492</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Cahn, J. Hilliard</subfield>
+    <subfield code="m">Free energy of a nonuniform system. I. Interfacial free energy</subfield>
+    <subfield code="s">J.Chem.Phys.,28,258-267</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Hirt, B. Nichols</subfield>
+    <subfield code="m">Volume of fluid (VOF) method for the dynamics of free boundaries</subfield>
+    <subfield code="s">J.Comput.Phys.,39,201-225</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Saurel, R. Abgrall</subfield>
+    <subfield code="m">A multiphase Godunov method for compressible multifluid and multiphase flows</subfield>
+    <subfield code="s">J.Comput.Phys.,150,425-467</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Kapila, R. Menikoff, J. Bdzil, S. Son, D. Stewart</subfield>
+    <subfield code="m">Two-phase modeling of deflagration-to-detonation transition in granular materials: Reduced equations</subfield>
+    <subfield code="s">Phys.Fluids,13,3002-3024</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Lund</subfield>
+    <subfield code="m">A hierarchy of relaxation models for two-phase flow</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,72,1713-1741</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Abgrall</subfield>
+    <subfield code="m">How to prevent pressure oscillations in multicomponent flow calculations: A quasi conservative approach</subfield>
+    <subfield code="s">J.Comput.Phys.,125,150-160</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Shyue</subfield>
+    <subfield code="m">An efficient shock-capturing algorithm for compressible multicomponent problems</subfield>
+    <subfield code="s">J.Comput.Phys.,142,208-242</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Saurel, R. Abgrall</subfield>
+    <subfield code="m">A simple method for compressible multifluid flows</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,1115-1145</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Allaire, S. Clerc, S. Kokh</subfield>
+    <subfield code="m">A five-equation model for the simulation of interfaces between compressible fluids</subfield>
+    <subfield code="s">J.Comput.Phys.,181,577-616</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Massoni, R. Saurel, B. Nkonga, R. Abgrall</subfield>
+    <subfield code="m">Proposition de méthodes et modèles Eulériens pour les problèmes à interfaces entre fluides compressibles en présence de transfert de chaleur: Some models and Eulerian methods for interface problems between compressible fluids with heat transfer</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,45,1287-1307</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Murrone, H. Guillard</subfield>
+    <subfield code="m">A five equation reduced model for compressible two phase flow problems</subfield>
+    <subfield code="s">J.Comput.Phys.,202,664-698</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Saurel, F. Petitpas, R. Berry</subfield>
+    <subfield code="m">Simple and efficient relaxation methods for interfaces separating compressible fluids, cavitating flows and shocks in multiphase mixtures</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1678-1712</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Pelanti, K. Shyue</subfield>
+    <subfield code="m">A mixture-energy-consistent six-equation two-phase numerical model for fluids with interfaces, cavitation and evaporation waves</subfield>
+    <subfield code="s">J.Comput.Phys.,259,331-357</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Shukla, C. Pantano, J. Freund</subfield>
+    <subfield code="m">An interface capturing method for the simulation of multi-phase compressible flows</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7411-7439</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Tiwari, J. Freund, C. Pantano</subfield>
+    <subfield code="m">A diffuse interface model with immiscibility preservation</subfield>
+    <subfield code="s">J.Comput.Phys.,252,290-309</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Shyue, F. Xiao</subfield>
+    <subfield code="m">An Eulerian interface sharpening algorithm for compressible two-phase flow: The algebraic THINC approach</subfield>
+    <subfield code="s">J.Comput.Phys.,268,326-354</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Loubere, M. Dumbser, S. Diot</subfield>
+    <subfield code="m">A new family of high order unstructured MOOD and ADER finite volume schemes for multidimensional systems of hyperbolic conservation laws</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Petitpas, R. Saurel, E. Franquet, A. Chinnayya</subfield>
+    <subfield code="m">Modelling detonation waves in condensed energetic materials: Multiphase CJ conditions and multidimensional computations</subfield>
+    <subfield code="s">Shock Waves(Germany),19,377-401</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Saurel, P. Boivin, O. Le Métayer</subfield>
+    <subfield code="m">A general formulation for cavitating, boiling and evaporating flows, Computers and Fluids 128  53-64</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Perigaud, R. Saurel</subfield>
+    <subfield code="m">A compressible flow model with capillary effects</subfield>
+    <subfield code="s">J.Comput.Phys.,209,139-178</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">N. Favrie, S. Gavrilyuk, R. Saurel</subfield>
+    <subfield code="m">Solid-fluid diffuse interface model in cases of extreme deformations</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6037-6077</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Ndanou, N. Favrie, S. Gavrilyuk</subfield>
+    <subfield code="m">Multi-solid and multi-fluid diffuse interface model: Applications to dynamic fracture and fragmentation</subfield>
+    <subfield code="s">J.Comput.Phys.,295,523-555</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Shyue</subfield>
+    <subfield code="m">A wave-propagation based volume tracking method for compressible multicomponent flow in two space dimensions</subfield>
+    <subfield code="s">J.Comput.Phys.,215,219-244</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Youngs</subfield>
+    <subfield code="m">Time-dependent multi-material flow with large fluid distortion, Numerical Methods for</subfield>
+    <subfield code="s">Fluid Dynamics,24,273-285</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Olsson, G. Kreiss</subfield>
+    <subfield code="m">A conservative level set method for two phase flow</subfield>
+    <subfield code="s">J.Comput.Phys.,210,225-246</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Kokh, F. Lagoutiere</subfield>
+    <subfield code="m">An anti-diffusive numerical scheme for the simulation of interfaces between compressible fluids by means of a five-equation model</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2773-2809</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. van Leer</subfield>
+    <subfield code="m">Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov's method</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101-136</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Baer, J. Nunziato</subfield>
+    <subfield code="m">A two-phase mixture theory for the deflagration-to-detonation transition (DDT) in reactive granular materials, International Journal of Multiphase Flow 12 (6)  861-889</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Saurel, O. Le Métayer, J. Massoni, S. Gavrilyuk</subfield>
+    <subfield code="m">Shock jump relations for multiphase mixtures with stiff mechanical relaxation</subfield>
+    <subfield code="s">Shock Waves(Germany),16,209-232</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Petitpas, E. Franquet, R. Saurel, O. Le Métayer</subfield>
+    <subfield code="m">A relaxation-projection method for compressible flows. part ii: Artificial heat exchanges for multiphase shocks</subfield>
+    <subfield code="s">J.Comput.Phys.,225,2214-2248</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Petitpas, R. Saurel, E. Franquet, A. Chinnayya</subfield>
+    <subfield code="m">Modelling detonation waves in condensed energetic materials: Multiphase cj conditions and multidimensional computations</subfield>
+    <subfield code="s">Shock Waves(Germany),19,377-401</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schoch, N. Nikiforakis, B. Lee, R. Saurel</subfield>
+    <subfield code="m">Multi-phase simulation of ammonium nitrate emulsion detonations</subfield>
+    <subfield code="s">Combust.Flame,160,1883-1899</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O. Le Métayer, R. Saurel</subfield>
+    <subfield code="m">The Noble-Abel Stiffened-Gas equation of state</subfield>
+    <subfield code="s">Phys.Fluids,28,046102</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O. Le Métayer, J. Massoni, R. Saurel</subfield>
+    <subfield code="m">Elaborating equations of state of a liquid and its vapor for two-phase flow models</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Toro, M. Spruce, W. Spears</subfield>
+    <subfield code="m">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25-34</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Barth, D. Jespersen</subfield>
+    <subfield code="m">The design and application of upwind schemes on unstructured meshes, Proceedings of the AIAA 27th Aerospace Science Meeting (Reno, Nevada)</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Sweby, M. Baines</subfield>
+    <subfield code="m">Convergence of Roe's scheme for the general non-linear scalar wave equation, Numerical Analysis Report, , Reading University</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Roe</subfield>
+    <subfield code="m">Some contributions to the modelling of discontinuous flows, in: Large-scale computations in fluid mechanics,, pp. 163-193</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Leonard</subfield>
+    <subfield code="m">The ULTIMATE conservative difference scheme applied to unsteady one-dimensional advection</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,88,17-74</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Toro</subfield>
+    <subfield code="m">Riemann solvers and numerical methods for fluid dynamics: A practical introduction Science &amp; Business Media</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Sidilkover, P. Roe</subfield>
+    <subfield code="m">Unification of some advection schemes in two dimensions, NASA Contractor Report 195044</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Sweby</subfield>
+    <subfield code="m">High resolution schemes using flux limiters for hyperbolic conservation laws</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,21,995-1011</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. LeVeque</subfield>
+    <subfield code="m">Finite volume methods for hyperbolic problems, Vol. 31, Cambridge University Press</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten</subfield>
+    <subfield code="m">High resolution schemes for hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,49,357-393</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten</subfield>
+    <subfield code="m">On a class of high resolution total-variation-stable finite-difference schemes</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,21,1-23</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. van Leer</subfield>
+    <subfield code="m">Towards the ultimate conservative difference scheme. ii. monotonicity and conservation combined in a second-order scheme</subfield>
+    <subfield code="s">J.Comput.Phys.,14,361-370</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Tadmor</subfield>
+    <subfield code="m">Convenient total variation diminishing conditions for nonlinear difference schemes</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,25,1002-1014</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Lax, B. Wendroff</subfield>
+    <subfield code="m">Systems of conservation laws</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,13,217-237</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Warming, R. Beam</subfield>
+    <subfield code="m">Upwind second-order difference schemes and applications in aerodynamic flows, AIAA Journal 14 (9)  1241-1249</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. LeVeque</subfield>
+    <subfield code="m">Numerical methods for conservation laws, Vol. 132</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Richtmyer</subfield>
+    <subfield code="m">Taylor instability in shock acceleration of compressible fluids</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,13,297-319</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Meshkov</subfield>
+    <subfield code="m">Instability of the interface of two gases accelerated by a shock wave</subfield>
+    <subfield code="s">Fluid Dynamics,4,101-104</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Layes, O. Le Métayer</subfield>
+    <subfield code="m">Quantitative numerical and experimental studies of the shock accelerated heterogeneous bubbles motion</subfield>
+    <subfield code="s">Phys.Fluids,19,042105</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Holt</subfield>
+    <subfield code="m">Underwater explosions</subfield>
+    <subfield code="s">Ann.Rev.Fluid Mech.,9,187-214</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Grove, R. Menikoff</subfield>
+    <subfield code="m">Anomalous reflection of a shock wave at a fluid interface</subfield>
+    <subfield code="s">J.Fluid Mech.,219,313-336</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Chiapolino, P. Boivin, R. Saurel</subfield>
+    <subfield code="m">A simple phase transition relaxation solver for liquid-vapor flows</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Fluids,83,583-605</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Chiapolino, P. Boivin, R. Saurel</subfield>
+    <subfield code="m">A simple phase transition relaxation solver for compressible multicomponent two-phase flows, Computers and Fluids, under revision</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302371/S0021999117302371.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

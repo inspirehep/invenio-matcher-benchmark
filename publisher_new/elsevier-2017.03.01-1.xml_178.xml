@@ -1,0 +1,331 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.asr.2017.01.034</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Schiattarella, Vincenzo</subfield>
+    <subfield code="v">Sapienza University of Rome, School of Aerospace Engineering – ARCAlab, Italy</subfield>
+    <subfield code="m">vincenzo.schiattarella@uniroma1.it</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A novel star identification technique robust to high presence of false objects: The Multi-Poles Algorithm</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-01</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This work proposes a novel technique for the star pattern recognition for the Lost in Space, named Multi-Poles Algorithm. This technique is especially designed to ensure a reliable identification of stars when there is a large number of false objects in the image, such as Single Event Upsets, hot pixels or other celestial bodies. The algorithm identifies the stars using three phases: the acceptance phase, the verification phase and the confirmation phase. The acceptance phase uses a polar technique to yield a set of accepted stars. The verification phase performs a cross-check between two sets of accepted stars providing a new set of verified stars. Finally, the confirmation phase introduces an additional check to discard or to keep a verified star. As a result, this procedure guarantees a high robustness to false objects in the acquired images. A reliable simulator is developed to test the algorithm to obtain accurate numerical results. The star tracker is simulated as a <math altimg="si74.gif" display="inline" overflow="scroll"><mrow><mn>1024</mn><mo>×</mo><mn>1024</mn></mrow></math> Active Pixel Sensor with a 20° Field of View. The sensor noises are added using suitable distribution models. The stars are simulated using the Hipparcos catalog with corrected magnitudes accordingly to the instrumental response of the sensor. The Single Event Upsets are modeled based on typical shapes detected from some missions. The tests are conducted through a Monte Carlo analysis covering the entire celestial sphere. The numerical results are obtained for both a fixed and a variable attitude configuration. In the first case, the angular velocity is zero and the simulations give a success rate of 100% considering a number of false objects up to six times the number of the cataloged stars in the image. The success rate decreases at 66% when the number of false objects is increased to fifteen times the number of cataloged stars. For moderate angular velocities, preliminary results are given for constant rate and direction. By increasing the angular rate, the performances of the proposed algorithm decrease, since the location errors of the stars become much higher.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">COSPAR</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Star pattern recognition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lost in Space</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Single Event Upsets</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">False objects</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Spiller, Dario</subfield>
+    <subfield code="v">Sapienza University of Rome, Dept. of Mech. and Aerospace Eng. (DIMA), Italy</subfield>
+    <subfield code="m">dario.spiller@uniroma1.it</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Curti, Fabio</subfield>
+    <subfield code="v">Sapienza University of Rome, School of Aerospace Engineering – ARCAlab, Italy</subfield>
+    <subfield code="m">fabio.curti@uniroma1.it</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Adv.Space Res.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/TAES.2002.1039401</subfield>
+    <subfield code="h">Accardo, D.</subfield>
+    <subfield code="h">Rufino, G.</subfield>
+    <subfield code="t">Brightness-independent start-up routine for star trackers</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">Accardo and Rufino, 2002</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,38,813</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beaumel, M.</subfield>
+    <subfield code="h">Gorog, F.</subfield>
+    <subfield code="h">Gelin, B.</subfield>
+    <subfield code="h">Nicollet, L.</subfield>
+    <subfield code="h">Marcel, L.O.</subfield>
+    <subfield code="h">Palomba, M.</subfield>
+    <subfield code="h">Pourrouquet, P.</subfield>
+    <subfield code="t">Hydra star tracker for juice environment</subfield>
+    <subfield code="v">154</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">ISBN: 978-0-87703-621-0.</subfield>
+    <subfield code="o">Beaumel et al, 2015</subfield>
+    <subfield code="s">Adv.Astronaut.Sci.Guid.Navigation Control,154,382</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berrighi, G., Procopio, D.</subfield>
+    <subfield code="m">Star sensors and harsh environment. In: Proc. of the 5 th ESA Int. Conf. on Spacecraft Guidance, Navigation and Control Systems. Vol</subfield>
+    <subfield code="s">ESA Spec.Publ.,516,19</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Berrighi and Procopio, 2003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bettarini, R.</subfield>
+    <subfield code="h">Boldrini, F.</subfield>
+    <subfield code="h">Procopio, D.</subfield>
+    <subfield code="h">Temperanza, D.</subfield>
+    <subfield code="t">The APS based star tracker after one year of inflight life</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">ISBN: 978-0-87703-571-8.</subfield>
+    <subfield code="o">Bettarini et al, 2011</subfield>
+    <subfield code="s">Adv.Astronaut.Sci.,141,619</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boldrini, F., Procopio, D., Airy, S., Giulicchi, L.</subfield>
+    <subfield code="m">Miniaturised star tracker (AA-STR) ready to fly. In: Proceedings of the 4th Symposium Small Satellites, Systems and Services. Vol</subfield>
+    <subfield code="s">ESA Spec.Publ.,571,46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Boldrini et al, 2004</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buemi, M., Landi, A., Procopio, D.</subfield>
+    <subfield code="m">Autonomous star tracker for ROSETTA. In: Proceedings of the 4th ESA International Conference on Spacecraft Guidance, Navigation and Control Systems. Vol</subfield>
+    <subfield code="s">ESA Spec.Publ.,425,279</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Buemi et al, 2000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burger, W.</subfield>
+    <subfield code="h">Burge, M.J.</subfield>
+    <subfield code="t">, Texts in Computer Science, </subfield>
+    <subfield code="p">Springer New York (NY)</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">ISBN 978-1-84628-968-2</subfield>
+    <subfield code="o">Burger and Burge, 2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/7.869495</subfield>
+    <subfield code="h">Clouse, D.S.</subfield>
+    <subfield code="h">Padgett, C.W.</subfield>
+    <subfield code="t">Small field-of-view star identification using bayesian decision theory</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">Clouse and Padgett, 2000</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,36,773</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/6.2004-5389</subfield>
+    <subfield code="h">Cole, C.L.</subfield>
+    <subfield code="h">Crassidis, J.</subfield>
+    <subfield code="t">Fast star pattern recognition using spherical triangles</subfield>
+    <subfield code="p">Providence, Rhode Island: AIAA</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="q">AIAA/AAS Astrodynamics Specialist Conference and Exhibit</subfield>
+    <subfield code="o">Cole and Crassidis, 2004</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/1.13314</subfield>
+    <subfield code="h">Cole, C.L.</subfield>
+    <subfield code="h">Crassidis, J.L.</subfield>
+    <subfield code="t">Fast star-pattern recognition using planar triangles</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">Cole and Crassidis, 2006</subfield>
+    <subfield code="s">J.Guid.Control Dyn.,29,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1117/1.3533328</subfield>
+    <subfield code="h">Dunlap, J.C.</subfield>
+    <subfield code="h">Porter, W.C.</subfield>
+    <subfield code="h">Bodegom, E.</subfield>
+    <subfield code="h">Widenhorn, R.</subfield>
+    <subfield code="t">Dark current in an active pixel complementary metal-oxide-semiconductor sensor</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">Dunlap et al, 2011</subfield>
+    <subfield code="s">J.Electron.Imaging,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, D.M.</subfield>
+    <subfield code="t">Star identification techniques</subfield>
+    <subfield code="p">Kluwer Academic Publisher</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="m">ISBN 90-277-0959-9</subfield>
+    <subfield code="e">Werts,James R.</subfield>
+    <subfield code="q">Spacecraft Attitude Determination and Control</subfield>
+    <subfield code="o">Gottlieb, 1978</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0094-5765(99)00238-6</subfield>
+    <subfield code="h">Jørgensen, John L.</subfield>
+    <subfield code="h">Thuesen, Gøsta G.</subfield>
+    <subfield code="h">Betto, Maurizio</subfield>
+    <subfield code="h">Riis, Troels</subfield>
+    <subfield code="t">Radiation impacts on star-tracker performance and vision systems in space</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">Jørgensen et al, 2000</subfield>
+    <subfield code="s">Acta Astronaut.,46,415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/TAES.2008.4560198</subfield>
+    <subfield code="h">Kolomenkin, M.</subfield>
+    <subfield code="h">Pollak, S.</subfield>
+    <subfield code="h">Shimshoni, I.</subfield>
+    <subfield code="h">Lindenbaum, M.</subfield>
+    <subfield code="t">Geometric voting algorithm for star trackers</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">Kolomenkin et al, 2008</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,44,441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lauer, M., Jauregui, L., Kielbassa, S.</subfield>
+    <subfield code="m">Operational experience with autonomous star trackers on ESA interplanetary spacecraft. In: Proceedings of the 20th International Symposium on Space Flight Dynamics, NASA CP--214158</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Lauer et al, 2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/TAES.2007.4383600</subfield>
+    <subfield code="h">Lee, H.</subfield>
+    <subfield code="h">Bang, H.</subfield>
+    <subfield code="t">Star pattern identification technique by modified grid algorithm</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">Lee and Bang, 2007</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,43,1112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/62.180383</subfield>
+    <subfield code="h">Liebe, C.</subfield>
+    <subfield code="t">Pattern recognition of star constellations for spacecraft applications</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">Jan</subfield>
+    <subfield code="o">Liebe, 1993</subfield>
+    <subfield code="s">IEEE Aerosp.Electron.Syst.Mag.,8,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liebe, C., Eisenman, A., Hancock, B., Mellstrom, J., Ratliff, J., Swift, G., Alexander, J., Wadsworth, M., Walker, W.</subfield>
+    <subfield code="m">Star tracker design considerations for the Europa Orbiter mission. In: Proceedings of the Aerospace Conference Vol. 2, pp. 67-81. doi:</subfield>
+    <subfield code="a">doi:10.1109/AERO.1999.793147</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Liebe et al, 1999</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mortari, D.</subfield>
+    <subfield code="h">Neta, B.</subfield>
+    <subfield code="t">K-vector range searching techniques</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">Mortari and Neta, 2000</subfield>
+    <subfield code="s">Adv.Astronaut.Sci.,105,449</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/j.2161-4296.2004.tb00349.x</subfield>
+    <subfield code="h">Mortari, D.</subfield>
+    <subfield code="h">Samaan, M.A.</subfield>
+    <subfield code="h">Bruccoleri, C.</subfield>
+    <subfield code="h">Junkins, J.L.</subfield>
+    <subfield code="t">The pyramid star identification technique</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Mortari et al, 2004</subfield>
+    <subfield code="s">Navigation,51,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/7.570743</subfield>
+    <subfield code="h">Padgett, C.</subfield>
+    <subfield code="h">Kreutz-Delgado, K.</subfield>
+    <subfield code="t">A grid algorithm for autonomous star identification</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">Padgett and Kreutz-Delgado, 1997</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,33,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/TAES.2006.314572</subfield>
+    <subfield code="h">Silani, E.</subfield>
+    <subfield code="h">Lovera, M.</subfield>
+    <subfield code="t">Star identification algorithms: novel approach &amp; comparison study</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">Silani and Lovera, 2006</subfield>
+    <subfield code="s">IEEE Trans.Aerosp.Electron.Syst.,42,1275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3390/a2010093</subfield>
+    <subfield code="h">Spratling, B.B.</subfield>
+    <subfield code="h">Mortari, D.</subfield>
+    <subfield code="t">A survey on star identification algorithms</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">Spratling and Mortari, 2009</subfield>
+    <subfield code="s">Algorithms,2,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vaseghi, S.V.</subfield>
+    <subfield code="t">Advanced Digital Signal Processing and Noise Reduction</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">ISBN: 978-0-470-75406-1.</subfield>
+    <subfield code="o">Vaseghi, 2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wellner, P.D.</subfield>
+    <subfield code="m">Adaptive thresholding for the digitaldesk. Xerox, EPC-110</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Wellner, 1993</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xie, J., Tang, X., Jiang, W.</subfield>
+    <subfield code="m">Fu, X.,. An autonomous star identification algorithm based on the directed circularity pattern. In: International Archives of the Photogrammetry, Remote Sensing and Spatial pp. 333-338</subfield>
+    <subfield code="s">Info.Sci.,39,B1</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Xie et al, 2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xie, J., Wang, X.</subfield>
+    <subfield code="m">A robust autonomous star identification algorithm for zy3 satellite. In: Proceeding of the First International Conference on Agro-Geoinformatics pp. 1-4. </subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="a">doi:10.1109/Agro-Geoinformatics.2012.6311605></subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Xie and Wang, 2012</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0273-1177/aip/S0273117717300819/S0273117717300819.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

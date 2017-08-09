@@ -1,0 +1,566 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nimb.2016.06.017</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Poškus, A.</subfield>
+    <subfield code="v">Department of Solid State Electronics, Vilnius University, Saulėtekio al. 9, bldg. III, Vilnius LT-10222, Lithuania</subfield>
+    <subfield code="m">andrius.poskus@ff.vu.lt</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Evaluation of computational models and cross sections used by MCNP6 for simulation of characteristic X-ray emission from thick targets bombarded by kiloelectronvolt electrons</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">16</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper evaluates the accuracy of the single-event (SE) and condensed-history (CH) models of electron transport in MCNP6.1 when simulating characteristic K α , total K (=K α + K β ) and L α X-ray emission from thick targets bombarded by electrons with energies from 5 keV to 30 keV. It is shown that the MCNP6.1 implementation of the CH model for the K-shell impact ionization leads to underestimation of the K yield by 40% or more for the elements with atomic numbers Z &lt; 15 and overestimation of the K α yield by more than 40% for the elements with Z > 25. The L α yields are underestimated by more than an order of magnitude in CH mode, because MCNP6.1 neglects X-ray emission caused by electron-impact ionization of L, M and higher shells in CH mode (the L α yields calculated in CH mode reflect only X-ray fluorescence, which is mainly caused by photoelectric absorption of bremsstrahlung photons). The X-ray yields calculated by MCNP6.1 in SE mode (using ENDF/B-VII.1 library data) are more accurate: the differences of the calculated and experimental K yields are within the experimental uncertainties for the elements C, Al and Si, and the calculated K α yields are typically underestimated by (20–30)% for the elements with Z > 25, whereas the L α yields are underestimated by (60–70)% for the elements with Z > 49. It is also shown that agreement of the experimental X-ray yields with those calculated in SE mode is additionally improved by replacing the ENDF/B inner-shell electron-impact ionization cross sections with the set of cross sections obtained from the distorted-wave Born approximation (DWBA), which are also used in the PENELOPE code system. The latter replacement causes a decrease of the average relative difference of the experimental X-ray yields and the simulation results obtained in SE mode to approximately 10%, which is similar to accuracy achieved with PENELOPE. This confirms that the DWBA inner-shell impact ionization cross sections are significantly more accurate than the corresponding ENDF/B cross sections when energy of incident electrons is of the order of the binding energy.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Electrons</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">MCNP</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Monte Carlo simulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">X-rays</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Inst.and Methods in Physics Research</subfield>
+    <subfield code="c">65-80</subfield>
+    <subfield code="v">B383</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scott, V.D.</subfield>
+    <subfield code="h">Love, G.</subfield>
+    <subfield code="h">Reed, S.J.B.</subfield>
+    <subfield code="t">Quantitative Electron-probe Microanalysis</subfield>
+    <subfield code="p">Ellis Horwood New York</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bote, D.</subfield>
+    <subfield code="h">Llovet, X.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="t">Monte Carlo simulation of characteristic X-ray emission from thick samples bombarded by kiloelectronvolt electrons</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">105304, pp. 9</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Phys.D Appl.Phys.,41,105304, pp. 9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">MCNP6 User’s Manual, Version 1.0</subfield>
+    <subfield code="p">Los Alamos (NM): Los Alamos National Laboratory, LANL Report LA-CP-13-00634, Rev. 0</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="e">Pelowitz,D.</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X-5 Monte Carlo Team</subfield>
+    <subfield code="t">MCNP – A General Monte Carlo N-Particle Transport Code, Version 5. Volume I: Overview and Theory</subfield>
+    <subfield code="p">Los Alamos National Laboratory, LANL Report LA-UR-03-1987 Los Alamos (NM)</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agostinelli, S.</subfield>
+    <subfield code="t">Geant4 – a simulation toolkit</subfield>
+    <subfield code="v">506</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Nucl.Instrum.Methods Phys.Res.,A506,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allison, J.</subfield>
+    <subfield code="t">Geant4 developments and applications</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,53,270</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirayama, H.</subfield>
+    <subfield code="h">Namito, Y.</subfield>
+    <subfield code="h">Bielajew, A.F.</subfield>
+    <subfield code="h">Wilderman, S.J.</subfield>
+    <subfield code="h">Nelson, W.R.</subfield>
+    <subfield code="t">The EGS5 Code System</subfield>
+    <subfield code="p">Stanford Linear Accelerator Center, Stanford University, SLAC-Report-730</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Salvat</subfield>
+    <subfield code="m">PENELOPE-2014: A Code System for Monte Carlo Simulation of Electron and Photon Transport, OECD Nuclear Energy Agency, Doc. No. NEA/NSC/DOC3</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goudsmit, S.</subfield>
+    <subfield code="h">Saunderson, J.L.</subfield>
+    <subfield code="t">Multiple scattering of electrons</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1940</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Rev.,58,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goudsmit, S.</subfield>
+    <subfield code="h">Saunderson, J.L.</subfield>
+    <subfield code="t">Multiple scattering of electrons. II</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1940</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Rev.,58,36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Molière, G.</subfield>
+    <subfield code="t">Theorie der streuung schneller geladener Teilchen I: Einzelstreuung am abgeschirmten coulomb-feld</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1947</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Z.Naturforsch.,A2,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="t">Monte Carlo calculation of the penetration and diffusion of fast charged particles</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Methods Comp.Phys.,1,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andreo, P.</subfield>
+    <subfield code="h">Brahme, A.</subfield>
+    <subfield code="t">Restricted energy-loss straggling and multiple scattering of electrons in mixed Monte Carlo procedures</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Radiat.Res.,100,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="h">Wang, R.</subfield>
+    <subfield code="t">Multiple-scattering angular deflections and energy-loss straggling</subfield>
+    <subfield code="p">New York: Plenum Press</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="q">Monte Carlo Transport of Electrons and Photons</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seltzer, S.M.</subfield>
+    <subfield code="t">An Overview of ETRAN Monte Carlo Methods</subfield>
+    <subfield code="p">New York: Plenum Press</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="q">Monte Carlo Transport of Electrons and Photons</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">International Commission on Radiation Units and Measurements</subfield>
+    <subfield code="t">Average Energy Required to Produce an Ion Pair</subfield>
+    <subfield code="p">ICRU, ICRU Report 31 Bethesda (MD)</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, H.G.</subfield>
+    <subfield code="t">Recent developments in low-energy electron/photon transport for MCNP6</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Prog.Nucl.Sci.Technol.,4,454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, H.G.</subfield>
+    <subfield code="t">Recent Developments in Low-Energy Electron/Photon Transport for MCNP6</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">(LANL Report LA-UR-12-23333)</subfield>
+    <subfield code="q">Presented at the 12th International Conference on Radiation Shielding (ICRS-12) &amp; 17th Topical Meeting of the Radiation Protection and Shielding Division of the American Nuclear Society (RPSD-12), Nara, Japan, Sep. 2–7</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, H.G.</subfield>
+    <subfield code="t">Quick-Start Guide to Low-Energy Photon/Electron Transport in MCNP6</subfield>
+    <subfield code="p">Los Alamos National Laboratory, LANL Report LA-UR-12-21068 Los Alamos (NM)</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhat, M.</subfield>
+    <subfield code="t">Off-axis X-ray spectra: a comparison of Monte Carlo simulated and computed X-ray spectra with measured spectra</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Med.Phys.,26,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nagatomi, T.</subfield>
+    <subfield code="t">Monte Carlo modeling of electron-excited X-ray emission from bulk materials and thin-film/substrate systems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Surf.Interface Anal.,37,887</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miller, T.M.</subfield>
+    <subfield code="h">Patton, B.W.</subfield>
+    <subfield code="h">Weber, C.F.</subfield>
+    <subfield code="t">Simulation of electron probe microanalysis for the purposes of automated material identification—initial evaluation of available Monte Carlo tools</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Trans.Am.Nucl.Soc.,110,497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">MCNelectron - Open-Source Monte Carlo Code for Simulation of Interaction of High-Energy Electrons and Photons with Matter (, June), [Online]. Available: &lt; ></subfield>
+    <subfield code="u">http://web.vu.lt/ff/a.poskus/mcnelectron/</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">ENDF-6 Formats Manual</subfield>
+    <subfield code="p">Upton (NY): National Nuclear Data Center, Brookhaven National Laboratory</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="e">Trkov,A.</subfield>
+    <subfield code="e">Herman,M.</subfield>
+    <subfield code="e">Brown,D.A.</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bote, D.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="t">Calculations of inner-shell ionization by electron impact with the distorted-wave and plane-wave Born approximations</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">042701</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Rev.,A77,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bote, D.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="h">Jablonski, A.</subfield>
+    <subfield code="h">Powell, C.J.</subfield>
+    <subfield code="t">Cross sections for ionization of K, L and M shells of atoms by impact of electrons and positrons with energies up to 1 GeV: analytical formulas</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">At.Data Nucl.Data Tables,95,871</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bote, D.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="h">Jablonski, A.</subfield>
+    <subfield code="h">Powell, C.J.</subfield>
+    <subfield code="t">Erratum to “Cross sections for ionization of K, L and M shells of atoms by impact of electrons and positrons with energies up to 1 GeV: analytical formulas”</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">At.Data Nucl.Data Tables,97,186</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perkins, S.T.</subfield>
+    <subfield code="h">Cullen, D.E.</subfield>
+    <subfield code="h">Seltzer, S.M.</subfield>
+    <subfield code="t">Tables and Graphs of Electron-Interaction Cross Sections from 10 eV to 100 GeV Derived from the LLNL Evaluated Electron Data Library (EEDL), Z = 1–100, , vol. 31</subfield>
+    <subfield code="p">Lawrence Livermore National Laboratory, Report UCRL-50400 Series Livermore (CA)</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">pp. 486</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seltzer, S.M.</subfield>
+    <subfield code="t">Cross sections for bremsstrahlung production and for electron impact ionization</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Monte Carlo Transport of Electrons and Photons, Chapt.4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Møller, C.</subfield>
+    <subfield code="t">Zur Theorie des Durchgang schneller Elektronen durch Materie</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1932</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Ann.Physik.,14,568</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weizsäcker, C.F.</subfield>
+    <subfield code="t">Ausstrahlung bei Stossen sehr schnellen Elektronen</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1934</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Z.Phys.,88,612</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williams, E.J.</subfield>
+    <subfield code="t">Correlation of certain collision problems with radiation theory</subfield>
+    <subfield code="v">XIII</subfield>
+    <subfield code="y">1935</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Kgl.Danske Videnskab Mat.-fys.Medd.,XIII,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Llovet, X.</subfield>
+    <subfield code="h">Powell, C.J.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="h">Jablonski, A.</subfield>
+    <subfield code="t">Cross sections for inner-shell ionization by electron impact</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">013102</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Phys.Chem.Ref.Data,43,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hink, W.</subfield>
+    <subfield code="h">Ziegler, A.</subfield>
+    <subfield code="t">Der Wirkungsquerschnitt fur die Ionisierung der K-Schale von Aluminium durch Elektronenstoss</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Z.Phys.,226,222</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Merlet, C.</subfield>
+    <subfield code="h">Llovet, X.</subfield>
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="t">Measurements of absolute K-shell ionization cross sections and L-shell X-ray production cross sections of Ge by electron impact</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Rev.,A69,032708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hink, W.</subfield>
+    <subfield code="t">Near K-ionization threshold Auger electron measurements for neon under electron impact</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Monte Carlo Transport of Electrons and Photons, Chapt.4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hippler, R.</subfield>
+    <subfield code="h">Klar, H.</subfield>
+    <subfield code="h">Saeed, K.</subfield>
+    <subfield code="h">McGregor, I.</subfield>
+    <subfield code="h">Duncan, A.J.</subfield>
+    <subfield code="h">Kleinpoppen, H.</subfield>
+    <subfield code="t">Threshold behaviour of Ar K and Xe L3 ionisation by electron impact</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Phys.,B16,L617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schneider, H.</subfield>
+    <subfield code="h">Tobehn, I.</subfield>
+    <subfield code="h">Ebel, F.</subfield>
+    <subfield code="h">Hippler, R.</subfield>
+    <subfield code="t">Absolute cross sections for inner shell ionization by lepton impact</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Rev.Lett.,71,2707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poškus, A.</subfield>
+    <subfield code="t">Monte Carlo estimation of average energy required to produce an ion pair in noble gases by electrons with energies from 1 keV to 100 MeV</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Nucl.Sci.Technol.,52,675</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salvat, F.</subfield>
+    <subfield code="h">Jablonski, A.</subfield>
+    <subfield code="h">Powell, C.J.</subfield>
+    <subfield code="t">ELSEPA—Dirac partial-wave calculation of elastic scattering of electrons and positrons by atoms, positive ions and molecules</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comp.Phys.Commun.,165,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poškus, A.</subfield>
+    <subfield code="t">Evaluation of computational models and cross sections used by MCNP6 for simulation of electron backscattering</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Nucl.Instrum.Methods Phys.Res.,B368,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, L.</subfield>
+    <subfield code="h">Pratt, R.H.</subfield>
+    <subfield code="h">Seltzer, S.M.</subfield>
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="t">Ratio of positron to electron bremsstrahlung energy loss: An approximate scaling law</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Rev.,A33,3002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, J.R.</subfield>
+    <subfield code="t">An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements</subfield>
+    <subfield code="p">University Science Books Sausalito (CA)</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Procop, M.</subfield>
+    <subfield code="t">Measurement of X-ray emission efficiency for K-lines</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Microsc.Microanal.,10,481</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shima, K.</subfield>
+    <subfield code="h">Okuda, M.</subfield>
+    <subfield code="h">Suzuki, E.</subfield>
+    <subfield code="h">Tsubota, T.</subfield>
+    <subfield code="h">Mikumo, T.</subfield>
+    <subfield code="t">Lα X-ray production efficiency from Z = 50–82 thick target elements by electron impacts from threshold energy to 30 keV</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Appl.Phys.,54,1202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Metchnik, V.</subfield>
+    <subfield code="h">Tomlin, S.G.</subfield>
+    <subfield code="t">On the absolute intensity of emission of characteristic X radiation</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Proc.Phys.Soc.,81,956</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fong, L.H.</subfield>
+    <subfield code="h">Tomlin, S.G.</subfield>
+    <subfield code="t">Further studies of the absolute intensity of emission of characteristic X-radiation</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Aust.J.Phys.,22,459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Campbell, A.J.</subfield>
+    <subfield code="t">K X-ray yields from elements of low atomic number</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Proc.R.Soc.,A274,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolby, R.M.</subfield>
+    <subfield code="t">Absolute intensity measurements of the carbon and aluminium X-ray K-lines with a proportional counter</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Brit.J.Appl.Phys.,11,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prasad, M.S.</subfield>
+    <subfield code="h">Joy, D.C.</subfield>
+    <subfield code="t">Measurements of absolute X-Ray generation efficiency for selected K, L, and M-lines</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Scanning,25,210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Green, M.</subfield>
+    <subfield code="h">Cosslett, V.E.</subfield>
+    <subfield code="t">Measurements of K, L and M shell X-ray production efficiencies</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="m">ser. 2</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Brit.J.Appl.Phys.,1,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agarwal, B.K.</subfield>
+    <subfield code="h">Sparrow, J.H.</subfield>
+    <subfield code="t">Line intensities in the soft X-ray region</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Phys.F: Met.Phys.,11,1303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Merlet, C.</subfield>
+    <subfield code="h">Llovet, X.</subfield>
+    <subfield code="t">Absolute determination of characteristic X-ray yields with a wavelength-dispersive spectrometer</subfield>
+    <subfield code="v">155</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Microchim.Acta,155,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dick, C.E.</subfield>
+    <subfield code="h">Lucas, A.C.</subfield>
+    <subfield code="h">Motz, J.M.</subfield>
+    <subfield code="h">Placious, R.C.</subfield>
+    <subfield code="h">Sparrow, J.H.</subfield>
+    <subfield code="t">Large-angle L X-ray production by electrons</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Appl.Phys.,44,815</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perkins, S.T.</subfield>
+    <subfield code="h">Cullen, D.E.</subfield>
+    <subfield code="h">Chen, M.H.</subfield>
+    <subfield code="h">Hubbell, J.H.</subfield>
+    <subfield code="h">Rathkopf, J.</subfield>
+    <subfield code="h">Scofield, J.</subfield>
+    <subfield code="t">Tables and Graphs of Atomic Subshell and Relaxation Data Derived from the LLNL Evaluated Atomic Data Library (EADL), Z = 1–100</subfield>
+    <subfield code="p">Lawrence Livermore National Laboratory, Report UCRL-50400 Series Livermore (CA)</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, H.G.</subfield>
+    <subfield code="t">The EPRDATA Format: A Dialogue</subfield>
+    <subfield code="p">Los Alamos National Laboratory, LANL Report LA-UR-15-26351 Los Alamos (NM)</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0168-583X/S0168583X16X00183/S0168583X1630283X/S0168583X1630283X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,411 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.033</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kalita, P.</subfield>
+    <subfield code="j">ORCID:0000-0002-3832-4030</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Tezpur University, 784028, India</subfield>
+    <subfield code="m">paragmk@tezu.ernet.in</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A novel hybrid approach with multidimensional-like effects for compressible flow computations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A multidimensional scheme achieves good resolution of strong and weak shocks irrespective of whether the discontinuities are aligned with or inclined to the grid. However, these schemes are computationally expensive. This paper achieves similar effects by hybridizing two schemes, namely, AUSM and DRLLF and coupling them through a novel shock switch that operates – unlike existing switches – on the gradient of the Mach number across the cell-interface. The schemes that are hybridized have contrasting properties. The AUSM scheme captures grid-aligned (and strong) shocks crisply but it is not so good for non-grid-aligned weaker shocks, whereas the DRLLF scheme achieves sharp resolution of non-grid-aligned weaker shocks, but is not as good for grid-aligned strong shocks. It is our experience that if conventional shock switches based on variables like density, pressure or Mach number are used to combine the schemes, the desired effect of crisp resolution of grid-aligned and non-grid-aligned discontinuities are not obtained. To circumvent this problem we design a shock switch based - for the first time – on the gradient of the cell-interface Mach number with very impressive results. Thus the strategy of hybridizing two carefully selected schemes together with the innovative design of the shock switch that couples them, affords a method that produces the effects of a multidimensional scheme with a lower computational cost. It is further seen that hybridization of the AUSM scheme with the recently developed DRLLFV scheme using the present shock switch gives another scheme that provides crisp resolution for both shocks and boundary layers. Merits of the scheme are established through a carefully selected set of numerical experiments.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Elsevier Inc. All rights reserved.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">shock switch</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">hybrid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">multidimensional</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">resolution</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dass, A.K.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Indian Institute of Technology Guwahati, 781039, India</subfield>
+    <subfield code="m">anoop@iitg.ernet.in</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. van Leer</subfield>
+    <subfield code="m">Upwind and high-resolution methods for compressible flow: From donor cell to residual distribution schemes</subfield>
+    <subfield code="s">Commun.Comput.Phys.,1,192-206</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Jaisankar, S.V. Raghurama Rao, A Central Rankine-Hugoniot</subfield>
+    <subfield code="m">solver for hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,228,770-798</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.L. Roe</subfield>
+    <subfield code="m">Approximate Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357-372</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B.van Leer</subfield>
+    <subfield code="m">Flux-vector splitting for the Euler equations, L. Notes Phys -Verlag 170  507-512</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.S. Liou, C.J. Steffen</subfield>
+    <subfield code="m">A new flux splitting scheme</subfield>
+    <subfield code="s">J.Comput.Phys.,107,23-39</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.R. Edwards</subfield>
+    <subfield code="m">A low-diffusion flux-splitting scheme for Navier-Stokes calculations, Comput. Fl. 26  635-659</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.J. LeVeque</subfield>
+    <subfield code="m">Finite Volume Methods for Hyperbolic Problems (Cambridge Texts in Applied Mathematics), Cambr r.  233-234</subfield>
+    <subfield code="p">Univ. Pr.</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.W. MacCormack</subfield>
+    <subfield code="m">The effect of viscosity in hypervelocity impact cratering</subfield>
+    <subfield code="s">AIAA Paper,69,354</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Jaisankar, S.V. Raghurama Rao</subfield>
+    <subfield code="m">Diffusion regulation for Euler solvers</subfield>
+    <subfield code="s">J.Comput.Phys.,221,577-599</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Jaisankar, T.S. Sheshadri</subfield>
+    <subfield code="m">Directional Diffusion Regulator (DDR) for some numerical solvers of hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,233,83-99</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.B. Laney</subfield>
+    <subfield code="m">Computational Gasdynamics</subfield>
+    <subfield code="s">Cambridge.Univ.Pr,214,593</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L.M. Mesaros</subfield>
+    <subfield code="m">Multi-dimensional fluctuation splitting schemes for the Euler equations on unstructured grids, PhD Thesis, University of Michigan</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Abgrall, D.D. Santis</subfield>
+    <subfield code="m">Linear and non-linear high order accurate residual distribution schemes for the discretization of the steady compressible Navier-Stokes equations</subfield>
+    <subfield code="s">J.Comput.Phys.,283,329-359</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. S. Balsara</subfield>
+    <subfield code="m">Multidimensional HLLE Riemann solver: Application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1970-1993</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. S. Balsara</subfield>
+    <subfield code="m">A two-dimensional HLLC Riemann solver for conservation laws: Application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7476-7503</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. S. Balsara</subfield>
+    <subfield code="m">Multidimensional Riemann problem with self-similar internal structure. Part I-Application to hyperbolic conservation laws on structured meshes</subfield>
+    <subfield code="s">J.Comput.Phys.,277,163-200</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. S. Balsara, M. Dumbser, R. Abgrall</subfield>
+    <subfield code="m">Multidimensional HLLC Riemann solver for unstructured meshes-with application to Euler and MHD flows</subfield>
+    <subfield code="s">J.Comput.Phys.,261,172-208</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Dumbser, D. S. Balsara</subfield>
+    <subfield code="m">A new efficient formulation of the HLLEM Riemann solver for general conservative and non-conservative hyperbolic systems</subfield>
+    <subfield code="s">J.Comput.Phys.,304,275-319</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten, G. Zwas</subfield>
+    <subfield code="m">Self-adjusting hybrid schemes for shock computations</subfield>
+    <subfield code="s">J.Comput.Phys.,9,568-583</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten, G. Zwas</subfield>
+    <subfield code="m">Switched numerical Shuman filters for shock calculations, J. Engg Mat. 6  207-216</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten</subfield>
+    <subfield code="m">The artificial compression method for computation of shocks and contact discontinuities: III. Self-adjusting hybrid schemes, Mat. Comput. 32  363-389</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Jameson, W. Schmidt, E. Turkel</subfield>
+    <subfield code="m">Numerical solutions of the Euler equations by finite volume methods using Runge-Kutta time stepping schemes</subfield>
+    <subfield code="s">AIAA Paper,81,1259</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Radespiel, N. Kroll</subfield>
+    <subfield code="m">Accurate flux vector splitting for shocks and shear layers</subfield>
+    <subfield code="s">J.Comput.Phys.,121,66-78</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Khoshab, A.A. Dehghan, V. Esfahanian, H.M Darian</subfield>
+    <subfield code="m">Numerical assessment of a shock-detecting sensor for low dissipative high-order simulation of shock-vortex interactions</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Fluids,77,18-42</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Peng, Y. Shen</subfield>
+    <subfield code="m">A novel weighting switch function for uniformly high-order hybrid shock-capturing schemes, Int. J Numer. Meth. Fluids</subfield>
+    <subfield code="a">doi:10.1002/fld.4285</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.W. MacCormack, B.S. Baldwin</subfield>
+    <subfield code="m">A numerical method for solving the Navier-Stokes equations with application to shock boundary layer interactions</subfield>
+    <subfield code="s">AIAA Paper,75,0001</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.C. Swanson, E. Turkel</subfield>
+    <subfield code="m">On central-difference and upwind schemes</subfield>
+    <subfield code="s">J.Comput.Phys.,101,292-306</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H.C. Yee, N.D. Sandham, M.J. Djomehri</subfield>
+    <subfield code="m">Low-dissipative high-order shock-capturing methods using characteristic-based filters</subfield>
+    <subfield code="s">J.Comput.Phys.,150,199-238</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Sjögreen, H.C. Yee</subfield>
+    <subfield code="m">Multiresolution wavelet based adaptive numerical dissipation control for high order methods</subfield>
+    <subfield code="s">J.Sci.Comput.,20,211-255</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L.V. Yu, C.S. Yee, I. Matthias</subfield>
+    <subfield code="m">An entropy-residual shock detector for solving conservation laws using high-order discontinuous Galerkin methods</subfield>
+    <subfield code="s">J.Comput.Phys.,322,448-472</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Kalita, A.K. Dass</subfield>
+    <subfield code="m">Computation of high-speed flows using diffusion regulation, Proc. 40 th Nat. Conf. Fl. Mech. Fl. Pow., NIT Hamirpur, India  1231-1239</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Kalita, A.K. Dass</subfield>
+    <subfield code="m">A diffusion-regulated scheme for the compressible Navier-Stokes equations using a boundary layer sensor, Comput. Fl. 129  91-100</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Kalita, A.K. Dass, A. Sarma</subfield>
+    <subfield code="m">Effects of numerical diffusion on the computation of viscous supersonic flow over a flat plate, Int. J Appl. Comput. Math. 2  663-678</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G.A. Sod</subfield>
+    <subfield code="m">A survey of several finite difference methods for systems of non-linear hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,27,1-31</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Brio, A.R. Zakharian, G.M. Webb</subfield>
+    <subfield code="m">Two-dimensional Riemann solver for Euler equations of gas dynamics</subfield>
+    <subfield code="s">J.Comput.Phys.,167,177-195</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.W. Schulz-Rinne, J.P. Collins, H.M. Glaz</subfield>
+    <subfield code="m">Numerical solution of the Riemann problem for two-dimensional gas dynamics</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,14,1394-1414</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. van Leer</subfield>
+    <subfield code="m">Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov's method</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101-136</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.L. Roe</subfield>
+    <subfield code="m">Characteristic-based schemes for the Euler equations</subfield>
+    <subfield code="s">Ann.Rev.Fluid Mech.,18,337-365</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Jameson</subfield>
+    <subfield code="m">Analysis and design of numerical schemes for gas dynamics, 1: Artificial diffusion, upwind biasing, limiters and their effect on accuracy and multigrid convergence, Int. J Comput. Fluid Dyn. 4  171-218</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Tu, G.H. Yeoh, C. Liu</subfield>
+    <subfield code="m">Computational Fluid Dynamics: A Practical Approach Butterworth-Heinemann  334-344</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E.R. Van Driest</subfield>
+    <subfield code="m">Investigation of laminar boundary layer in compressible fluids using the Crocco method, NACA Technical Note 2597</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D.A. Needham, J.L. Stollery</subfield>
+    <subfield code="m">Boundary layer separation in hypersonic flow</subfield>
+    <subfield code="s">AIAA Paper,66,455</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.C. Coet, B. Chanetz, J.M. Delery</subfield>
+    <subfield code="m">Shock-wave boundary layer interaction with entropy layer effect in hypersonic flow, ONERA, Colloque sur les Ecoulements Hypersoniques, Garchy, France</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Marini</subfield>
+    <subfield code="m">Effects of flow and geometry parameters on shock wave-boundary layer interaction in hypersonic flow</subfield>
+    <subfield code="s">AIAA Paper,98,1570</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. John, V.N. Kulkarni, G. Natarajan</subfield>
+    <subfield code="m">Shock wave boundary layer interactions in hypersonic flows, Int. J Heat Mass Trans. 70  81-90</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302280/S0021999117302280.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

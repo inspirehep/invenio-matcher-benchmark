@@ -1,0 +1,783 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Shah, Swej</subfield>
+    <subfield code="v">Department of Geoscience and Engineering, Faculty of Civil Engineering and Geosciences, Delft University of Technology, P.O. Box 5048, Delft, 2600 GA, The Netherlands</subfield>
+    <subfield code="m">S.Y.Shah@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The multiscale restriction smoothed basis method for fractured porous media (F-MsRSB)</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel multiscale method for multiphase flow in heterogeneous fractured porous media is devised. The discrete fine-scale system is described using an embedded fracture modeling approach, in which the heterogeneous rock (matrix) and highly-conductive fractures are represented on independent grids. Given this fine-scale discrete system, the method first partitions the fine-scale volumetric grid representing the matrix and the lower-dimensional grids representing fractures into independent coarse grids. Then, basis functions for matrix and fractures are constructed by restricted smoothing, which gives a flexible and robust treatment of complex geometrical features and heterogeneous coefficients. From the basis functions one constructs a prolongation operator that maps between the coarse- and fine-scale systems. The resulting method allows for general coupling of matrix and fracture basis functions, giving efficient treatment of a large variety of fracture conductivities. In addition, basis functions can be adaptively updated using efficient global smoothing strategies to account for multiphase flow effects. The method is conservative and because it is described and implemented in algebraic form, it is straightforward to employ it to both rectilinear and unstructured grids. Through a series of challenging test cases for single and multiphase flow, in which synthetic and realistic fracture maps are combined with heterogeneous petrophysical matrix properties, we validate the method and conclude that it is an efficient and accurate approach for simulating flow in complex, large-scale, fractured media.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fractured porous media</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Embedded fractured modeling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale finite-volume methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Restriction smoothed basis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Algebraic iterative multiscale solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Scalable linear solvers</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Reservoir simulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Møyner, Olav</subfield>
+    <subfield code="v">SINTEF, Department of Applied Mathematics, Forskningsveien 1, P.O. Box 124 Blindern, Oslo, N-0314, Norway</subfield>
+    <subfield code="m">Olav.Moyner@sintef.no</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Tene, Matei</subfield>
+    <subfield code="j">ORCID:0000-0003-3300-6823</subfield>
+    <subfield code="v">Department of Geoscience and Engineering, Faculty of Civil Engineering and Geosciences, Delft University of Technology, P.O. Box 5048, Delft, 2600 GA, The Netherlands</subfield>
+    <subfield code="m">M.Tene@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lie, Knut-Andreas</subfield>
+    <subfield code="j">ORCID:0000-0003-0381-677X</subfield>
+    <subfield code="v">SINTEF, Department of Applied Mathematics, Forskningsveien 1, P.O. Box 124 Blindern, Oslo, N-0314, Norway</subfield>
+    <subfield code="m">Knut-Andreas.Lie@sintef.no</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hajibeygi, Hadi</subfield>
+    <subfield code="j">ORCID:0000-0002-8517-8283</subfield>
+    <subfield code="v">Department of Geoscience and Engineering, Faculty of Civil Engineering and Geosciences, Delft University of Technology, P.O. Box 5048, Delft, 2600 GA, The Netherlands</subfield>
+    <subfield code="m">H.Hajibeygi@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">36-57</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="h">Settari, A.</subfield>
+    <subfield code="t">Petroleum Reservoir Simulation</subfield>
+    <subfield code="p">Blitzprint Ltd. Calgary, Alberta</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Wu, X.-H.</subfield>
+    <subfield code="t">A multiscale finite element method for elliptic problems in composite materials and porous media</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,134,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multi-scale finite-volume method for elliptic problems in subsurface flow simulation</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,187,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Adaptive fully implicit multi-scale finite-volume method for multi-phase flow and transport in heterogeneous porous media</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,217,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="t">Multiscale Finite Element Methods: Theory and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kippe, V.</subfield>
+    <subfield code="h">Aarnes, J.E.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A comparison of multiscale methods for elliptic problems in porous media flow</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Geosci.,12,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarnes, J.E.</subfield>
+    <subfield code="h">Kippe, V.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">Mixed multiscale finite elements and streamline methods for reservoir simulation of large geomodels</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Adv.Water Resour.,28,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarnes, J.E.</subfield>
+    <subfield code="h">Krogstad, S.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">Multiscale mixed/mimetic methods on corner-point grids</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Geosci.,12,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Adaptive iterative multiscale finite volume method</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,230,628</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite-volume method for density-driven flow in porous media</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Geosci.,12,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale two-point flux-approximation method</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,275,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/142205-MS</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Deb, R.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite volume method for non-conformal coarse grids arising from faulted porous media</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Monotone multiscale finite volume method</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Geosci.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite-volume method for parabolic problems arising from compressible multiphase flow in porous media</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Operator based multiscale method for compressible flow</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SPE J.,13,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="t">Modeling complex wells with the multi-scale finite volume method</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,228,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Techelpi, H.</subfield>
+    <subfield code="t">Adaptive multiscale finite-volume method for nonlinear multiphase transport in heterogeneous formations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,228,9036</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">The multiscale finite-volume method on stratigraphic grids</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SPE J.,19,816</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="t">Accurate and efficient simulation of multiphase flow in a heterogeneous reservoir by using error estimate and control in the multiscale finite-volume framework</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SPE J.,17,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Bonfigli, G.</subfield>
+    <subfield code="h">Hesse, M.A.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Iterative multiscale finite-volume method</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8604</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Two-stage algebraic multiscale linear solver for highly heterogeneous reservoir models</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SPE J.,17,523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Algebraic multiscale linear solver for heterogeneous elliptic problems</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,259,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tene, M.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Adaptive algebraic multiscale solver for compressible flow in heterogeneous porous media</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,300,679</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trottenberg, U.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Schueller, A.</subfield>
+    <subfield code="t">Multigrid</subfield>
+    <subfield code="p">Elsevier Academic Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Wolfsteiner, C.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multiscale finite-volume formulation for multiphase flow in porous media: black oil formulation of compressible, three-phase flow with gravity</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Geosci.,12,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Compositional multiscale finite-volume formulation</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">SPE J.,19,316</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/163649-MS</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">The multiscale finite volume method on unstructured grids</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cusini, M.</subfield>
+    <subfield code="h">Lukyanov, A.</subfield>
+    <subfield code="h">Natvig, J.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Constrained pressure residual multiscale (CPR-MS) method for fully implicit simulation of multiphase flow in porous media</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,299,472</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barenblatt, G.</subfield>
+    <subfield code="h">Zheltov, Y.</subfield>
+    <subfield code="h">Kochina, I.</subfield>
+    <subfield code="t">Basic concepts in the theory of seepage of homogeneous fluids in fissurized rocks</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Appl.Math.Mech.,5,1286</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warren, J.</subfield>
+    <subfield code="h">Root, P.</subfield>
+    <subfield code="t">The behavior of naturally fractured reservoirs</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SPE J.,3,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kazemi, H.</subfield>
+    <subfield code="t">Pressure transient analysis of naturally fractured reservoirs with uniform fracture distribution</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SPE J.,9,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thomas, L.K.</subfield>
+    <subfield code="h">Dixon, T.N.</subfield>
+    <subfield code="h">Pierson, R.G.</subfield>
+    <subfield code="t">Fractured reservoir simulation</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SPE J.,23,42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baca, R.</subfield>
+    <subfield code="h">Arnett, R.</subfield>
+    <subfield code="h">Langford, D.</subfield>
+    <subfield code="t">Modeling fluid flow in fractured porous rock masses by finite element techniques</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,4,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Lough, M.F.</subfield>
+    <subfield code="h">Jensen, C.L.</subfield>
+    <subfield code="t">Hierarchical modeling of flow in naturally fractured formations with multiple length scales</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Water Resour.Res.,37,443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Jensen, C.L.</subfield>
+    <subfield code="h">Lough, M.F.</subfield>
+    <subfield code="t">Efficient finite-difference model for flow in a reservoir with multiple length-scale fractures</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SPE J.,3,268</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="t">Efficient field-scale simulation of black oil in naturally fractured reservoir through discrete fracture networks and homogenized media</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SPE Reserv.Eval.Eng.,11,750</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Natvig, J.R.</subfield>
+    <subfield code="h">Skaflestad, B.</subfield>
+    <subfield code="h">Bratvedt, F.</subfield>
+    <subfield code="h">Bratvedt, K.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Laptev, V.</subfield>
+    <subfield code="h">Khataniar, S.K.</subfield>
+    <subfield code="t">Multiscale mimetic solvers for efficient streamline simulation of fractured reservoirs</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SPE J.,16,880</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gulbransen, A.F.</subfield>
+    <subfield code="h">Hauge, V.L.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale mixed finite element method for vuggy and naturally fractured reservoirs</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">SPE J.,15,395</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/24900-MS</subfield>
+    <subfield code="h">Barkve, T.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Analysis of reinfiltration in fractured porous media</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="q">Proceedings of SPE Annual Technical Conference and Exhibition</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noorishad, J.</subfield>
+    <subfield code="h">Mehran, M.</subfield>
+    <subfield code="t">An upstream finite element method for solution of transient transport equation in fractured porous media</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Water Resour.Res.,3,588</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/71615-MS</subfield>
+    <subfield code="h">Karimi-Fard, M.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Numerical simulation of water injection in 2D fractured media using discrete-fracture model</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="q">Proceedings of SPE Annual Technical Conference and Exhibition</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karimi-Fard, M.</subfield>
+    <subfield code="h">Durlofsky, L.J.</subfield>
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="t">An efficient discrete-fracture model applicable for general-purpose reservoir simulators</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">SPE J.,9,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/163647-MS</subfield>
+    <subfield code="h">Moinfar, A.</subfield>
+    <subfield code="h">Varavei, A.</subfield>
+    <subfield code="h">Sepehrnoori, K.</subfield>
+    <subfield code="h">Johns, R.T.</subfield>
+    <subfield code="t">Development of a coupled dual continuum and discrete fracture model for the simulation of unconventional reservoirs</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahmed, R.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Huisman, B.A.H.</subfield>
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">Control-volume distributed multi-point flux approximation coupled with a lower-dimensional fracture model</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,284,462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Iterative multiscale finite-volume method for multiphase flow in porous media with complex physics</subfield>
+    <subfield code="p">ETH Zurich Switzerland</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/163666-MS</subfield>
+    <subfield code="h">Moinfar, A.</subfield>
+    <subfield code="h">Sepehrnoori, K.</subfield>
+    <subfield code="h">Johns, R.T.</subfield>
+    <subfield code="h">Varavei, A.</subfield>
+    <subfield code="t">Coupled geomechanics and flow simulation for an embedded discrete fracture model</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Karvounis, D.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">A hierarchical fracture model for the iterative multiscale finite volume method</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3997/2214-4609.20144924</subfield>
+    <subfield code="h">Ligaarden, I.S.</subfield>
+    <subfield code="h">Krokiewski, M.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Schmid, D.W.</subfield>
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">On the Stokes–Brinkman equations for modeling flow in carbonate reservoirs</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="q">Proceedings of ECMOR XII—12th European Conference on the Mathematics of Oil Recovery</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sandve, T.H.</subfield>
+    <subfield code="h">Berre, I.</subfield>
+    <subfield code="h">Keilegavlen, E.</subfield>
+    <subfield code="h">Nordbotten, J.M.</subfield>
+    <subfield code="t">Multiscale simulation of flow and heat transport in fractured geothermal reservoirs: inexact solvers and improved transport upscaling</subfield>
+    <subfield code="p">USA: Stanford University</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">Proceedings of Thirty-Eighth Workshop on Geothermal Reservoir Engineering</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173200-MS</subfield>
+    <subfield code="h">Tene, M.</subfield>
+    <subfield code="h">Al Kobaisi, M.S.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Algebraic multiscale solver for flow in heterogeneous fractured porous media</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tene, M.</subfield>
+    <subfield code="h">Al Kobaisi, M.S.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Algebraic multiscale method for flow in heterogeneous porous media with embedded discrete fractures (F-AMS)</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173265-MS</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale method based on restriction-smoothed basis functions suitable for general grids in high contrast media</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale restriction-smoothed basis method for high contrast porous media represented on unstructured grids</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,304,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173265-PA</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale restriction-smoothed basis method for compressible black-oil models</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SPE J.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s11242-016-0682-2</subfield>
+    <subfield code="h">Hilden, S.T.</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Bao, K.</subfield>
+    <subfield code="t">Multiscale simulation of polymer flooding with shear effects</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Transp.Porous Media</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christie, M.A.</subfield>
+    <subfield code="h">Blunt, M.J.</subfield>
+    <subfield code="t">Tenth SPE comparative solution project: a comparison of upscaling techniques</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">SPE Reserv.Eval.Eng.,4,308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karypis, G.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">A fast and high quality multilevel scheme for partitioning irregular graphs</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,20,359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Algebraic multiscale solver for flow in heterogeneous porous media</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,259,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">SIAM USA</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">The MATLAB Reservoir Simulation Toolbox (MRST), versiona, SINTEF Applied Mathematics, May</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">An Introduction to Reservoir Simulation Using MATLAB: User Guide for the Matlab Reservoir Simulation Toolbox (MRST)</subfield>
+    <subfield code="p">SINTEF ICT</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/113906-MS</subfield>
+    <subfield code="h">Fung, L.S.K.</subfield>
+    <subfield code="h">Dogru, A.H.</subfield>
+    <subfield code="t">Distributed unstructured grid infrastructure for complex reservoir simulation</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="q">Proceedings of Europec/EAGE Conference and Exhibition</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173226-MS</subfield>
+    <subfield code="h">Kozlova, A.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Natvig, J.R.</subfield>
+    <subfield code="h">Watanabe, S.</subfield>
+    <subfield code="h">Zhou, Y.</subfield>
+    <subfield code="h">Bratvedt, K.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="t">A real-field multiscale black-oil reservoir simulator</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanek, P.</subfield>
+    <subfield code="h">Mandel, J.</subfield>
+    <subfield code="h">Brezina, M.</subfield>
+    <subfield code="t">Algebraic multigrid by smoothed aggregation for second and fourth order elliptic problems</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Computing,56,179</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanek, P.</subfield>
+    <subfield code="t">Acceleration of convergence of a two-level algorithm by smoothing transfer operator</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Appl.Math.,37,265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="h">Vanek, P.</subfield>
+    <subfield code="t">An aggregation multigrid solver for convection–diffusion problems on unstructured meshes</subfield>
+    <subfield code="p">Center for Computational Mathematics, University of Colorado at Boulder</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">Technical report</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Krogstad, S.</subfield>
+    <subfield code="h">Ligaarden, I.S.</subfield>
+    <subfield code="h">Natvig, J.R.</subfield>
+    <subfield code="h">Nilsen, H.M.</subfield>
+    <subfield code="h">Skaflestad, B.</subfield>
+    <subfield code="t">Open-source MATLAB implementation of consistent discretisations on complex grids</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Comput.Geosci.,16,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173317-MS</subfield>
+    <subfield code="h">Krogstad, S.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Nilsen, H.M.</subfield>
+    <subfield code="h">Raynaud, X.</subfield>
+    <subfield code="h">Skaflestad, B.</subfield>
+    <subfield code="t">MRST-AD – an open-source framework for rapid prototyping and evaluation of reservoir simulation problems</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">Proceedings of SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bisdom, K.</subfield>
+    <subfield code="h">Gauthier, B.D.M.</subfield>
+    <subfield code="h">Bertotti, G.</subfield>
+    <subfield code="h">Hardebol, N.J.</subfield>
+    <subfield code="t">Calibrating discrete fracture-network models with a carbonate three-dimensional outcrop fracture network: implications for naturally fractured reservoir modeling</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Am.Assoc.Pet.Geol.Bull.,24,1351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pollock, D.W.</subfield>
+    <subfield code="t">Semianalytical computation of path lines for finite-difference models</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Ground Water,26,743</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00113/S0021999116301267/S0021999116301267.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

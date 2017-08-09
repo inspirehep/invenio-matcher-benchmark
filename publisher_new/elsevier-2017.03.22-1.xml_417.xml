@@ -1,0 +1,828 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.01.025</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Pathak, Ashish</subfield>
+    <subfield code="v">Department of Mechanical Engineering, University of Massachusetts-Dartmouth, North Dartmouth, MA 02747, United States</subfield>
+    <subfield code="m">apathak@umassd.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A 3D, fully Eulerian, VOF-based solver to study the interaction between two fluids and moving rigid bodies using the fictitious domain method</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-04-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">27</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a three-dimensional (3D) and fully Eulerian approach to capturing the interaction between two fluids and moving rigid structures by using the fictitious domain and volume-of-fluid (VOF) methods. The solid bodies can have arbitrarily complex geometry and can pierce the fluid–fluid interface, forming contact lines. The three-phase interfaces are resolved and reconstructed by using a VOF-based methodology. Then, a consistent scheme is employed for transporting mass and momentum, allowing for simulations of three-phase flows of large density ratios. The Eulerian approach significantly simplifies numerical resolution of the kinematics of rigid bodies of complex geometry and with six degrees of freedom. The fluid–structure interaction (FSI) is computed using the fictitious domain method. The methodology was developed in a message passing interface (MPI) parallel framework accelerated with graphics processing units (GPUs). The computationally intensive solution of the pressure Poisson equation is ported to GPUs, while the remaining calculations are performed on CPUs. The performance and accuracy of the methodology are assessed using an array of test cases, focusing individually on the flow solver and the FSI in surface-piercing configurations. Finally, an application of the proposed methodology in simulations of the ocean wave energy converters is presented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-phase</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid–structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Volume-of-fluid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Moving rigid bodies</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-material reconstruction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Raessi, Mehdi</subfield>
+    <subfield code="v">Department of Mechanical Engineering, University of Massachusetts-Dartmouth, North Dartmouth, MA 02747, United States</subfield>
+    <subfield code="m">mraessi@umassd.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">87-113</subfield>
+    <subfield code="v">311</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eriksson, M.</subfield>
+    <subfield code="h">Isberg, J.</subfield>
+    <subfield code="h">Leijon, M.</subfield>
+    <subfield code="t">Hydrodynamic modelling of a direct drive wave energy converter</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.Eng.Sci.,43,1377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garnaud, X.</subfield>
+    <subfield code="h">Mei, C.C.</subfield>
+    <subfield code="t">Wave-power extraction by a compact array of buoys</subfield>
+    <subfield code="v">635</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Fluid Mech.,635,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Y.</subfield>
+    <subfield code="h">Kring, D.C.</subfield>
+    <subfield code="h">Sclavounos, P.D.</subfield>
+    <subfield code="t">Linear and nonlinear interactions of surface waves with bodies by a three-dimensional Rankine panel method</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Appl.Ocean Res.,19,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bai, W.</subfield>
+    <subfield code="h">Taylor, R.E.</subfield>
+    <subfield code="t">Higher-order boundary element simulation of fully nonlinear wave radiation by oscillating vertical cylinders</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Appl.Ocean Res.,28,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrant, P.</subfield>
+    <subfield code="h">Touzé, D.L.</subfield>
+    <subfield code="h">Pelletier, K.</subfield>
+    <subfield code="t">Non-linear time-domain models for irregular wave diffraction about offshore structures</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,43,1257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vinayan, V.</subfield>
+    <subfield code="h">Kinnas, S.A.</subfield>
+    <subfield code="t">A numerical nonlinear analysis of two-dimensional ventilating entry of surface-piercing hydrofoils with effects of gravity</subfield>
+    <subfield code="v">658</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Fluid Mech.,658,383</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mei, C.C.</subfield>
+    <subfield code="h">Stiassnie, M.</subfield>
+    <subfield code="h">Yue, D.K.-P.</subfield>
+    <subfield code="t">Theory and Applications of Ocean Surface Waves: Nonlinear Aspects, , vol. 23</subfield>
+    <subfield code="p">World Scientific</subfield>
+    <subfield code="v">vol. 23</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morison, J.</subfield>
+    <subfield code="h">Johnson, J.</subfield>
+    <subfield code="h">Schaaf, S.</subfield>
+    <subfield code="t">The force exerted by surface waves on piles</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Pet.Technol.,2,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tezduyar, T.</subfield>
+    <subfield code="h">Behr, M.</subfield>
+    <subfield code="h">Liou, J.</subfield>
+    <subfield code="t">A new strategy for finite element computations involving moving boundaries and interfaces – the deforming–spatial–domain/space–time procedure: I. The concept and the preliminary numerical tests</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,94,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Torii, R.</subfield>
+    <subfield code="h">Oshima, M.</subfield>
+    <subfield code="h">Kobayashi, T.</subfield>
+    <subfield code="h">Takagi, K.</subfield>
+    <subfield code="h">Tezduyar, T.E.</subfield>
+    <subfield code="t">Computer modeling of cardiovascular fluid–structure interactions with the deforming-spatial-domain/stabilized space–time formulation</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,1885</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tezduyar, T.E.</subfield>
+    <subfield code="h">Sathe, S.</subfield>
+    <subfield code="t">Modelling of fluid–structure interactions with the space–time finite elements: solution techniques</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,54,855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gan, H.</subfield>
+    <subfield code="h">Chang, J.</subfield>
+    <subfield code="h">Feng, J.</subfield>
+    <subfield code="h">Hu, H.</subfield>
+    <subfield code="t">Direct numerical simulation of the sedimentation of solid particles with thermal convection</subfield>
+    <subfield code="v">481</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Fluid Mech.,481,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wan, D.</subfield>
+    <subfield code="h">Turek, S.</subfield>
+    <subfield code="t">An efficient multigrid-FEM method for the simulation of solid liquid two phase flows</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,203,561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carlson, M.</subfield>
+    <subfield code="h">Mucha, P.J.</subfield>
+    <subfield code="h">Turk, G.</subfield>
+    <subfield code="t">Rigid fluid: animating the interplay between rigid bodies and fluid</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">ACM Trans.Graph.,23,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sharma, N.</subfield>
+    <subfield code="h">Patankar, N.A.</subfield>
+    <subfield code="t">A fast computation technique for the direct numerical simulation of rigid particulate flows</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,205,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haeri, S.</subfield>
+    <subfield code="h">Shrimpton, J.S.</subfield>
+    <subfield code="t">On the application of immersed boundary, fictitious domain and body-conformal mesh methods to many particle multiphase flows</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,40,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="t">Combined immersed-boundary/b-spline methods for simulations of flow in complex geometries</subfield>
+    <subfield code="p">Stanford: NASA Ames Research Center, Stanford University Center of Turbulence Research</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">Annual Research Briefs</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Acharya, S.</subfield>
+    <subfield code="t">A hybrid immersed boundary and material point method for simulating 3D fluid–structure interaction problems</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,2151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, H.H.</subfield>
+    <subfield code="h">Joseph, D.D.</subfield>
+    <subfield code="t">Direct simulation of fluid particle motions</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,3,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fekken, G.</subfield>
+    <subfield code="t">Numerical simulation of free-surface flow with moving objects</subfield>
+    <subfield code="p">University of Groningen Groningen, The Netherlands</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Hesla</subfield>
+    <subfield code="m">The dynamical simulation of two-dimensional fluid/particle systems, Unpublished notes</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="h">Pan, T.-W.</subfield>
+    <subfield code="h">Hesla, T.I.</subfield>
+    <subfield code="h">Joseph, D.D.</subfield>
+    <subfield code="t">A distributed Lagrange multiplier/fictitious domain method for particulate flows</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,25,755</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, N.A.</subfield>
+    <subfield code="h">Singh, P.</subfield>
+    <subfield code="h">Joseph, D.D.</subfield>
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="h">Pan, T.W.</subfield>
+    <subfield code="t">A new formulation of the distributed Lagrange multiplier/fictitious domain method for particulate flows</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,26,1509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, N.</subfield>
+    <subfield code="t">A formulation for fast computations of rigid particulate flows</subfield>
+    <subfield code="v">2001</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Cent.Turbul.Res.Annu.Res.Briefs,2001,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Apte, S.V.</subfield>
+    <subfield code="h">Finn, J.R.</subfield>
+    <subfield code="t">A variable-density fictitious domain method for particulate flows with broad range of particle–fluid density ratios</subfield>
+    <subfield code="v">243</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,243,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghasemi, A.</subfield>
+    <subfield code="h">Pathak, A.</subfield>
+    <subfield code="h">Raessi, M.</subfield>
+    <subfield code="t">Computational simulation of the interactions between moving rigid bodies and incompressible two-fluid flows</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Fluids,94,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rauschenberger, P.</subfield>
+    <subfield code="h">Weigand, B.</subfield>
+    <subfield code="t">Direct numerical simulation of rigid bodies in multiphase flow within an Eulerian framework</subfield>
+    <subfield code="v">291</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,291,238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallier, S.</subfield>
+    <subfield code="h">Lemaire, E.</subfield>
+    <subfield code="h">Lobry, L.</subfield>
+    <subfield code="h">Peters, F.</subfield>
+    <subfield code="t">A fictitious domain approach for the simulation of dense suspensions</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,256,367</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Court, S.</subfield>
+    <subfield code="h">Fournié, M.</subfield>
+    <subfield code="t">A fictitious domain finite element method for simulations of fluid–structure interactions: the Navier–Stokes equations coupled with a moving solid</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Fluids Struct.,55,398</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lage, M.</subfield>
+    <subfield code="h">Lopes, H.</subfield>
+    <subfield code="h">Carvalho, M. d. S.</subfield>
+    <subfield code="t">Flows with suspended and floating particles</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7736</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fadaifard, H.</subfield>
+    <subfield code="t">Computational two-phase flow and fluid–structure interaction with application to seabed scour</subfield>
+    <subfield code="p">The University of Texas at Austin</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anbarsooz, M.</subfield>
+    <subfield code="h">Passandideh-Fard, M.</subfield>
+    <subfield code="h">Moghiman, M.</subfield>
+    <subfield code="t">Numerical simulation of a submerged cylindrical wave energy converter</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Renew.Energy,64,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Singh, P.</subfield>
+    <subfield code="h">Joseph, D.</subfield>
+    <subfield code="t">Fluid dynamics of floating particles</subfield>
+    <subfield code="v">530</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Fluid Mech.,530,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Madhavan, S.</subfield>
+    <subfield code="t">Investigation of vortical and interfacial particulate flows</subfield>
+    <subfield code="p">University of Alberta</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="t">Time-dependent multi-material flow with large fluid distortion</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="e">Morton,K.W.</subfield>
+    <subfield code="e">Baines,M.J.</subfield>
+    <subfield code="q">Numerical Methods for Fluid Dynamics</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="t">An interface tracking method for a 3D Eulerian hydrodynamics code</subfield>
+    <subfield code="p">AWRE</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="m">Tech. rep. 44/92/35</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Wachem, B.</subfield>
+    <subfield code="h">Zastawny, M.</subfield>
+    <subfield code="h">Zhao, F.</subfield>
+    <subfield code="h">Mallouppas, G.</subfield>
+    <subfield code="t">Modelling of gas–solid turbulent channel flow with non-spherical particles with large Stokes numbers</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,68,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pathak, A.</subfield>
+    <subfield code="h">Raessi, M.</subfield>
+    <subfield code="t">A three-dimensional volume-of-fluid method for reconstructing and advecting three-material interfaces forming contact lines</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,307,550</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahn, H.T.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Multi-material interface reconstruction on generalized polyhedral meshes</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,226,2096</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, G.</subfield>
+    <subfield code="h">Lian, Y.</subfield>
+    <subfield code="h">Guo, Y.</subfield>
+    <subfield code="h">Jemison, M.</subfield>
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Helms, T.</subfield>
+    <subfield code="h">Arienti, M.</subfield>
+    <subfield code="t">Incompressible multiphase flow and encapsulation simulations using the moment-of-fluid method</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,79,456</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raessi, M.</subfield>
+    <subfield code="t">On modeling surface tension-dominant, large density ratio, two-phase flows</subfield>
+    <subfield code="p">University of Toronto Canada</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raessi, M.</subfield>
+    <subfield code="h">Pitsch, H.</subfield>
+    <subfield code="t">Consistent mass and momentum transport for simulating incompressible interfacial flows with large density ratios using the level set method</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Fluids,63,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rudman, M.</subfield>
+    <subfield code="t">A volume tracking method for incompressible multifluid flows with large density variations</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,28,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kleefsman, K.</subfield>
+    <subfield code="h">Fekken, G.</subfield>
+    <subfield code="h">Veldman, A.</subfield>
+    <subfield code="h">Iwanowski, B.</subfield>
+    <subfield code="h">Buchner, B.</subfield>
+    <subfield code="t">A volume-of-fluid based simulation method for wave impact problems</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,206,363</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Iafrati, A.</subfield>
+    <subfield code="h">Babanin, A.</subfield>
+    <subfield code="h">Onorato, M.</subfield>
+    <subfield code="t">Modulational instability, wave breaking, and formation of large-scale dipoles in the atmosphere</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Phys.Rev.Lett.,110,184504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harlow, F.H.</subfield>
+    <subfield code="h">Welch, J.E.</subfield>
+    <subfield code="t">Numerical calculation of time-dependent viscous incompressible flow of fluid with free surface</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Phys.Fluids,8,2182</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">Numerical solution of the Navier–Stokes equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Math.Comput.,22,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Codyer, S.R.</subfield>
+    <subfield code="h">Raessi, M.</subfield>
+    <subfield code="h">Khanna, G.</subfield>
+    <subfield code="t">Using graphics processing units to accelerate numerical simulations of interfacial incompressible flows</subfield>
+    <subfield code="p">American Society of Mechanical Engineers</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">ASME 2012 Fluids Engineering Division Summer Meeting Collocated with the ASME 2012 Heat Transfer Summer Conference and the ASME 2012 10th International Conference on Nanochannels, Microchannels, and Minichannels</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Avdicevic, B.</subfield>
+    <subfield code="t">A parallel, three-dimensional and two-fluid interfacial flow code with applications to pulsed water jets</subfield>
+    <subfield code="p">University of Toronto</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Master's thesis</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tonon, F.</subfield>
+    <subfield code="t">Explicit exact formulas for the 3-D tetrahedron inertia tensor in terms of its vertex coordinates</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Math.Stat.,1,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D.B. Kothe, R.C. Mjolsness, M.D. Torrey</subfield>
+    <subfield code="m">RIPPLE: a computer program for incompressible flows with free surfaces, available to DOE and DOE contractors from OSTI</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, P.</subfield>
+    <subfield code="h">Lay, N.</subfield>
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Ohta, M.</subfield>
+    <subfield code="t">An improved sharp interface method for viscoelastic and viscous two-phase flows</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Sci.Comput.,35,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="t">Perspective on Eulerian Finite Volume Methods for Incompressible Interfacial Flows</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Francois, M.M.</subfield>
+    <subfield code="h">Cummins, S.J.</subfield>
+    <subfield code="h">Dendy, E.D.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="h">Sicilian, J.M.</subfield>
+    <subfield code="h">Williams, M.W.</subfield>
+    <subfield code="t">A balanced-force algorithm for continuous and sharp interfacial surface tension models within a volume tracking frameworks</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,213,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Moyce, W.</subfield>
+    <subfield code="t">An experimental study of the collapse of liquid columns on a rigid horizontal plane</subfield>
+    <subfield code="v">244</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.Lond.,244,312</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bussmann, M.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="h">Sicilian, J.M.</subfield>
+    <subfield code="t">Modeling high density ratio incompressible interfacial flows</subfield>
+    <subfield code="p">American Society of Mechanical Engineers</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="q">ASME 2002 Joint US–European Fluids Engineering Division Conference</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hieu, P.D.</subfield>
+    <subfield code="h">Katsutoshi, T.</subfield>
+    <subfield code="h">Ca, V.T.</subfield>
+    <subfield code="t">Numerical simulation of breaking waves using a two-phase flow model</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Appl.Math.Model.,28,983</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maronnier, V.</subfield>
+    <subfield code="h">Picasso, M.</subfield>
+    <subfield code="h">Rappaz, J.</subfield>
+    <subfield code="t">Numerical simulation of free surface flows</subfield>
+    <subfield code="v">155</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,155,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, Y.</subfield>
+    <subfield code="h">Tan, H.H.</subfield>
+    <subfield code="h">Zhang, B.</subfield>
+    <subfield code="t">A high-resolution characteristics-based implicit dual time-stepping VOF method for free surface flow simulation on unstructured grids</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,183,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="h">Yang, C.</subfield>
+    <subfield code="h">Oñate, E.</subfield>
+    <subfield code="t">On the simulation of flows with violent free surface motion</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,5597</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colagrossi, A.</subfield>
+    <subfield code="h">Landrini, M.</subfield>
+    <subfield code="t">Numerical simulation of interfacial flows by smoothed particle hydrodynamics</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,191,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Lok, T.-S.</subfield>
+    <subfield code="t">Variational and momentum preservation aspects of smooth particle hydrodynamic formulations</subfield>
+    <subfield code="v">180</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,180,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, C.-L.</subfield>
+    <subfield code="h">Lee, H.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="h">Weber, L.J.</subfield>
+    <subfield code="t">A level set characteristic Galerkin finite element method for free surface flows</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,49,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marchandise, E.</subfield>
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="t">A stabilized finite element method using a discontinuous level set approach for solving two phase incompressible flows</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Comput.Phys.,219,780</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, B.-H.</subfield>
+    <subfield code="h">Park, J.-C.</subfield>
+    <subfield code="h">Kim, M.-H.</subfield>
+    <subfield code="h">Hwang, S.-C.</subfield>
+    <subfield code="t">Step-by-step improvement of MPS method in simulating violent free-surface motions and impact-loads</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,1113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ataie-Ashtiani, B.</subfield>
+    <subfield code="h">Farhadi, L.</subfield>
+    <subfield code="t">A stable moving-particle semi-implicit method for free surface flows</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Fluid Dyn.Res.,38,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, S.Y.</subfield>
+    <subfield code="h">Yabe, T.</subfield>
+    <subfield code="t">The unified simulation for incompressible and compressible flow by the predictor–corrector scheme based on the CIP method</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Comput.Phys.Commun.,119,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kelecy, F.</subfield>
+    <subfield code="h">Pletcher, R.</subfield>
+    <subfield code="t">The development of a free surface capturing approach for multidimensional free surface flows in closed containers</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">J.Comput.Phys.,138,939</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Murrone, A.</subfield>
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="t">A five equation reduced model for compressible two phase flow problems</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,202,664</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Issa, R.</subfield>
+    <subfield code="h">Violeau, D.</subfield>
+    <subfield code="t">Test-case 2, 3D dambreaking, Release 1.1</subfield>
+    <subfield code="p">ERCOFTAC, SPH European Research Interest Community SIG, Electricite De France, Laboratoire National d'hydaulique et Environnement</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ito, S.</subfield>
+    <subfield code="t">Study of transient heave oscillation of a floating cylinder</subfield>
+    <subfield code="p">Massachusetts Institute Technology</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="m">Master's thesis</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maskell, S.</subfield>
+    <subfield code="h">Ursell, F.</subfield>
+    <subfield code="t">The transient motion of a floating body</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Fluid Mech.,44,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jung, K.H.</subfield>
+    <subfield code="h">Chang, K.</subfield>
+    <subfield code="h">Jo, H.J.</subfield>
+    <subfield code="t">Viscous effect on the roll motion of a rectangular structure</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Eng.Mech.,132,190</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Calderer, A.</subfield>
+    <subfield code="h">Kang, S.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">Level set immersed boundary method for coupled simulation of air/water interaction with complex floating structures</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Comput.Phys.,277,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bailey, D.</subfield>
+    <subfield code="h">Griffiths, D.</subfield>
+    <subfield code="h">Maskell, S.</subfield>
+    <subfield code="t">On the experimental observation of a heaving sphere</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Schiffstechnik, Forschungsh.Schiffbau Schiffsmaschinenbau,23,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beck, R.</subfield>
+    <subfield code="h">Liapis, S.</subfield>
+    <subfield code="t">Transient motions of floating bodies at zero forward speed</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Ship Res.,31,164</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Damaren, C.J.</subfield>
+    <subfield code="t">Time-domain floating body dynamics by rational approximation of the radiation impedance and diffraction mapping</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">Ocean Eng.,27,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yettou, E.-M.</subfield>
+    <subfield code="h">Desrochers, A.</subfield>
+    <subfield code="h">Champoux, Y.</subfield>
+    <subfield code="t">Experimental study on the water impact of a symmetrical wedge</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Fluid Dyn.Res.,38,47</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00046/S0021999116000334/S0021999116000334.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

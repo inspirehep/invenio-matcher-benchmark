@@ -1,0 +1,411 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.018</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Yang, L.M.</subfield>
+    <subfield code="v">Department of Aerodynamics, College of Aerospace Engineering, Nanjing University of Aeronautics and Astronautics, Yudao Street, Nanjing, Jiangsu, 210016, China</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Development of discrete gas kinetic scheme for simulation of 3D viscous incompressible and compressible flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">16</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The sphere function-based gas kinetic scheme (GKS), which was presented by Shu and his coworkers [23] for simulation of inviscid compressible flows, is extended to simulate 3D viscous incompressible and compressible flows in this work. Firstly, we use certain discrete points to represent the spherical surface in the phase velocity space. Then, integrals along the spherical surface for conservation forms of moments, which are needed to recover 3D Navier–Stokes equations, are approximated by integral quadrature. The basic requirement is that these conservation forms of moments can be exactly satisfied by weighted summation of distribution functions at discrete points. It was found that the integral quadrature by eight discrete points on the spherical surface, which forms the D3Q8 discrete velocity model, can exactly match the integral. In this way, the conservative variables and numerical fluxes can be computed by weighted summation of distribution functions at eight discrete points. That is, the application of complicated formulations resultant from integrals can be replaced by a simple solution process. Several numerical examples including laminar flat plate boundary layer, 3D lid-driven cavity flow, steady flow through a 90° bending square duct, transonic flow around DPW-W1 wing and supersonic flow around NACA0012 airfoil are chosen to validate the proposed scheme. Numerical results demonstrate that the present scheme can provide reasonable numerical results for 3D viscous flows.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discrete gas kinetic scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">3D viscous flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discrete velocity model</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sphere function</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shu, C.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, National University of Singapore, 10 Kent Ridge Crescent, 119260, Singapore</subfield>
+    <subfield code="m">mpeshuc@nus.edu.sg</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Y.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, National University of Singapore, 10 Kent Ridge Crescent, 119260, Singapore</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sun, Y.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, National University of Singapore, 10 Kent Ridge Crescent, 119260, Singapore</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">129-144</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, H.Z.</subfield>
+    <subfield code="t">Gas-kinetic schemes for compressible flow of real gases</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Comput.Math.Appl.,41,723</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Mao, M.</subfield>
+    <subfield code="h">Tang, L.</subfield>
+    <subfield code="t">A multidimensional gas-kinetic BGK scheme for hypersonic viscous flow</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,203,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Omar, A.A.</subfield>
+    <subfield code="h">Chit, O.J.</subfield>
+    <subfield code="h">Hsuh, L.J.</subfield>
+    <subfield code="h">Asrar, W.</subfield>
+    <subfield code="t">Finite difference gas-kinetic BGK scheme for compressible inviscid flow computation</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,22,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiong, S.</subfield>
+    <subfield code="h">Zhong, C.</subfield>
+    <subfield code="h">Zhuo, C.</subfield>
+    <subfield code="h">Li, K.</subfield>
+    <subfield code="h">Chen, X.</subfield>
+    <subfield code="h">Cao, J.</subfield>
+    <subfield code="t">Numerical simulation of compressible turbulent flow via improved gas-kinetic BGK scheme</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,67,1833</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, L.</subfield>
+    <subfield code="t">Progress in gas-kinetic upwind schemes for the solution of Euler/Navier–Stokes equations – I: overview</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Fluids,56,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kumar, G.</subfield>
+    <subfield code="h">Girimaji, S.S.</subfield>
+    <subfield code="h">Kerimo, J.</subfield>
+    <subfield code="t">WENO-enhanced gas-kinetic scheme for direct simulations of compressible transition and turbulence</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,234,499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, L.M.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Zhao, N.</subfield>
+    <subfield code="h">Lu, Z.L.</subfield>
+    <subfield code="t">Circular function-based gas-kinetic scheme for simulation of inviscid compressible flows</subfield>
+    <subfield code="v">255</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,255,540</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, L.M.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="t">A simple distribution function-based gas-kinetic scheme for simulation of viscous incompressible and compressible flows</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,274,611</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="t">A difference method for numerical calculation of discontinuous solutions of the equations of hydrodynamics</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Mat.Sb.,89,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme V. A second order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Approximate Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liou, M.S.</subfield>
+    <subfield code="h">Steffen, C.J.</subfield>
+    <subfield code="t">A new flux splitting scheme</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,107,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blazek, J.</subfield>
+    <subfield code="t">Computation Fluid Dynamics: Principle and Application</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pullin, D.I.</subfield>
+    <subfield code="t">Direct simulation methods for compressible inviscid ideal-gas flow</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,34,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mandal, J.C.</subfield>
+    <subfield code="h">Deshpande, S.M.</subfield>
+    <subfield code="t">Kinetic flux vector splitting for Euler equations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,23,447</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chou, S.Y.</subfield>
+    <subfield code="h">Baganoff, D.</subfield>
+    <subfield code="t">Kinetic flux–vector splitting for the Navier–Stokes equations</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,130,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chae, D.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="h">Rho, O.H.</subfield>
+    <subfield code="t">Development of an improved gas-kinetic BGK scheme for inviscid and viscous flows</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,158,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A gas-kinetic BGK scheme for the Navier–Stokes equations and its connection with artificial dissipation and Godunov method</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,171,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tian, C.T.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Chan, K.L.</subfield>
+    <subfield code="h">Deng, L.C.</subfield>
+    <subfield code="t">A three-dimensional multidimensional gas-kinetic scheme for the Navier–Stokes equations under gravitational fields</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,226,2003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, J.</subfield>
+    <subfield code="h">Qian, Y.H.</subfield>
+    <subfield code="t">Implicit gas-kinetic BGK scheme with multigrid for 3D stationary transonic high-Reynolds number flows</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Fluids,66,21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Yang, L.M.</subfield>
+    <subfield code="t">Explicit formulations of gas-kinetic flux solver for simulation of incompressible and compressible viscous flows</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,300,492</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, L.M.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="t">A three-dimensional explicit sphere function-based gas-kinetic flux solver for simulation of inviscid compressible flows</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,295,322</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhatnagar, P.L.</subfield>
+    <subfield code="h">Gross, E.P.</subfield>
+    <subfield code="h">Krook, M.</subfield>
+    <subfield code="t">A model for collision processes in gases. I. Small amplitude processes in charged and neutral one-component systems</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Rev.,94,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wang, L.</subfield>
+    <subfield code="h">Chew, Y.T.</subfield>
+    <subfield code="t">Numerical computation of three-dimensional incompressible Navier–Stokes equations in primitive variable form by DQ method</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,43,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pan, L.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A third-order gas-kinetic scheme for three-dimensional inviscid and viscous flow computations</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Fluids,119,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Yang, L.M.</subfield>
+    <subfield code="t">Three-dimensional lattice Boltzmann flux solver and its applications to incompressible isothermal and thermal flows</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Commun.Comput.Phys.,18,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Humphrey, J.A.C.</subfield>
+    <subfield code="h">Taylor, A.M.K.</subfield>
+    <subfield code="h">Whitelaw, J.H.</subfield>
+    <subfield code="t">Laminar flow in a square duct of strong curvature</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Fluid Mech.,83,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, J.Y.</subfield>
+    <subfield code="h">Yang, S.C.</subfield>
+    <subfield code="h">Chen, Y.N.</subfield>
+    <subfield code="h">Hsu, C.A.</subfield>
+    <subfield code="t">Implicit weighted ENO schemes for the three-dimensional incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,146,464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yuan, L.</subfield>
+    <subfield code="t">Comparison of implicit multigrid schemes for three-dimensional incompressible flows</subfield>
+    <subfield code="v">177</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,177,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">White, F.M.</subfield>
+    <subfield code="t">Viscous Fluid Flow</subfield>
+    <subfield code="p">McGraw-Hill New York</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frink, N.T.</subfield>
+    <subfield code="m">3rd AIAA CFD Drag Prediction Workshop</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vassberg, J.C.</subfield>
+    <subfield code="h">Tinoco, E.N.</subfield>
+    <subfield code="h">Mani, M.</subfield>
+    <subfield code="t">Summary of the third AIAA CFD drag prediction workshop</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA Paper 2007-0260</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morrison, J.</subfield>
+    <subfield code="t">3rd AIAA CFD Drag Prediction Workshop</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spalart, P.R.</subfield>
+    <subfield code="h">Allmaras, S.A.</subfield>
+    <subfield code="t">A one-equation turbulence model for aerodynamic flows</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">AIAA Paper 92-0439</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Numerical Simulation of Compressible Navier–Stokes Flows: A GAMM Workshop, vol. 18</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="e">Bristeau,M.O.</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Forsyth, P.A.</subfield>
+    <subfield code="h">Jiang, H.</subfield>
+    <subfield code="t">Nonlinear iteration methods for high speed laminar compressible Navier–Stokes equations</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Fluids,26,249</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00125/S0021999116301553/S0021999116301553.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,1190 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.039</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Tripathy, Rohit</subfield>
+    <subfield code="v">School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47906, USA</subfield>
+    <subfield code="m">rtripath@purdue.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Gaussian processes with built-in dimensionality reduction: Applications to high-dimensional uncertainty propagation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">33</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Uncertainty quantification (UQ) tasks, such as model calibration, uncertainty propagation, and optimization under uncertainty, typically require several thousand evaluations of the underlying computer codes. To cope with the cost of simulations, one replaces the real response surface with a cheap surrogate based, e.g., on polynomial chaos expansions, neural networks, support vector machines, or Gaussian processes (GP). However, the number of simulations required to learn a generic multivariate response grows exponentially as the input dimension increases. This curse of dimensionality can only be addressed, if the response exhibits some special structure that can be discovered and exploited. A wide range of physical responses exhibit a special structure known as an active subspace (AS). An AS is a linear manifold of the stochastic space characterized by maximal response variation. The idea is that one should first identify this low dimensional manifold, project the high-dimensional input onto it, and then link the projection to the output. If the dimensionality of the AS is low enough, then learning the link function is a much easier problem than the original problem of learning a high-dimensional function. The classic approach to discovering the AS requires gradient information, a fact that severely limits its applicability. Furthermore, and partly because of its reliance to gradients, it is not able to handle noisy observations. The latter is an essential trait if one wants to be able to propagate uncertainty through stochastic simulators, e.g., through molecular dynamics codes. In this work, we develop a probabilistic version of AS which is gradient-free and robust to observational noise. Our approach relies on a novel Gaussian process regression with built-in dimensionality reduction. In particular, the AS is represented as an orthogonal projection matrix that serves as yet another covariance function hyper-parameter to be estimated from the data. To train the model, we design a two-step maximum likelihood optimization procedure that ensures the orthogonality of the projection matrix by exploiting recent results on the Stiefel manifold, i.e., the manifold of matrices with orthogonal columns. The additional benefit of our probabilistic formulation, is that it allows us to select the dimensionality of the AS via the Bayesian information criterion. We validate our approach by showing that it can discover the right AS in synthetic examples without gradient information using both noiseless and noisy observations. We demonstrate that our method is able to discover the same AS as the classical approach in a challenging one-hundred-dimensional problem involving an elliptic stochastic partial differential equation with random conductivity. Finally, we use our approach to study the effect of geometric and material uncertainties in the propagation of solitary waves in a one dimensional granular system.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Active subspace</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Uncertainty quantification</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Gaussian process regression</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dimensionality reduction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stiefel manifold</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Granular crystals</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bilionis, Ilias</subfield>
+    <subfield code="v">School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47906, USA</subfield>
+    <subfield code="m">ibilion@purdue.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gonzalez, Marcial</subfield>
+    <subfield code="v">School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47906, USA</subfield>
+    <subfield code="m">marcial-gonzalez@purdue.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">191-223</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, R.C.</subfield>
+    <subfield code="t">Uncertainty Quantification: Theory, Implementation, and Applications</subfield>
+    <subfield code="p">SIAM Philadelphia</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, W.</subfield>
+    <subfield code="t">Efficient uncertainty analysis methods for multidisciplinary robust design</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">AIAA J.,40,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D'Auria, F.</subfield>
+    <subfield code="h">Galassi, G.M.</subfield>
+    <subfield code="t">Outline of the uncertainty methodology based on accuracy extrapolation</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Nucl.Technol.,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ress.2004.03.002</subfield>
+    <subfield code="h">Oberkampf, W.</subfield>
+    <subfield code="h">Helton, J.</subfield>
+    <subfield code="h">Joslyn, C.</subfield>
+    <subfield code="h">Wojtkiewicz, S.</subfield>
+    <subfield code="h">Ferson, S.</subfield>
+    <subfield code="t">Challenge problems: uncertainty in system response given uncertain parameters</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Reliab.Eng.Syst.Saf.,85,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, J.S.</subfield>
+    <subfield code="t">Monte Carlo Strategies in Scientific Computing</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robert, C.P.</subfield>
+    <subfield code="t">Monte Carlo Statistical Methods</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1995.1209</subfield>
+    <subfield code="h">Morokoff, W.J.</subfield>
+    <subfield code="h">Caflisch, R.E.</subfield>
+    <subfield code="t">Quasi-Monte Carlo integration</subfield>
+    <subfield code="v">122</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">URL ://WOS:A1995TK08000003</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,122,218</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00211-011-0377-0</subfield>
+    <subfield code="h">Barth, A.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="h">Zollinger, N.</subfield>
+    <subfield code="t">Multi-level Monte Carlo finite element method for elliptic PDEs with stochastic coefficients</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL ://WOS:000293955400005</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Numer.Math.,119,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/110845537</subfield>
+    <subfield code="h">Kuo, F.Y.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="h">Sloan, I.H.</subfield>
+    <subfield code="t">Quasi-Monte Carlo finite element methods for a class of elliptic partial differential equations with random coefficients</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">URL ://WOS:000312733000024</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,3351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tarantola, A.</subfield>
+    <subfield code="t">Inverse Problem Theory and Methods for Model Parameter Estimation</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.5194/gmd-8-1071-2015</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Drewniak, B.A.</subfield>
+    <subfield code="h">Constantinescu, E.M.</subfield>
+    <subfield code="t">Crop physiology calibration in the clm</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">gMD</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Geosci.Model Dev.,8,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spall, J.C.</subfield>
+    <subfield code="t">Introduction to Stochastic Optimization</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Koutsourelakis, P.S.</subfield>
+    <subfield code="t">Free energy computations by minimization of Kullback–Leibler divergence: an efficient adaptive biasing potential method for sparse representations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3849</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4789308</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">A stochastic optimization approach to coarse-graining using a relative-entropy framework</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">URL ://WOS:000314725900030</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Chem.Phys.,138,044313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Monte Carlo is fundamentally unsound</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="m">://WOS:A1987J438900021</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Statistician,36,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S1064827501387826</subfield>
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">The Wiener–Askey polynomial chaos for stochastic differential equations</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,619</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/040615201</subfield>
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="h">Hesthaven, J.</subfield>
+    <subfield code="t">High-order collocation methods for differential equations with random inputs</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,1118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="t">Efficient collocational approach for parametric uncertainty analysis</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Commun.Comput.Phys.,2,293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/100786356</subfield>
+    <subfield code="h">Ivo, B.</subfield>
+    <subfield code="h">Fabio, N.</subfield>
+    <subfield code="h">Raúl, T.</subfield>
+    <subfield code="t">A stochastic collocation method for elliptic partial differential equations with random input data</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM Rev.,52,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.4003259</subfield>
+    <subfield code="h">Sankaran, S.</subfield>
+    <subfield code="h">Marsden, A.L.</subfield>
+    <subfield code="t">A stochastic collocation method for uncertainty quantification and propagation in cardiovascular simulations</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Biomech.Eng.,133,031001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A:1011255519438</subfield>
+    <subfield code="h">Gutmann, H.-M.</subfield>
+    <subfield code="t">A radial basis function method for global optimization</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Glob.Optim.,19,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10898-004-0570-0</subfield>
+    <subfield code="h">Regis, R.G.</subfield>
+    <subfield code="h">Shoemaker, C.</subfield>
+    <subfield code="t">Constrained global optimization of expensive black box functions using radial basis functions</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Glob.Optim.,31,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/120861345</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Multidimensional adaptive relevance vector machines for uncertainty quantification</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,B881</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.01.006</subfield>
+    <subfield code="h">Ma, X.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">An adaptive hierarchical sparse grid collocation algorithm for the solution of stochastic differential equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3084</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Currin, C.</subfield>
+    <subfield code="h">Mitchell, T.</subfield>
+    <subfield code="h">Morris, M.</subfield>
+    <subfield code="h">Ylvisaker, D.</subfield>
+    <subfield code="t">A bayesian approach to the design and analysis of computer experiments</subfield>
+    <subfield code="p">Oak Ridge Laboratory</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="m">Report</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sacks, J.</subfield>
+    <subfield code="h">Welch, W.J.</subfield>
+    <subfield code="h">Mitchell, T.</subfield>
+    <subfield code="h">Wynn, H.P.</subfield>
+    <subfield code="t">Design and analysis of computer experiments</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Stat.Sci.,4,409</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2307/2290511</subfield>
+    <subfield code="h">Currin, C.</subfield>
+    <subfield code="h">Mitchell, T.</subfield>
+    <subfield code="h">Morris, M.</subfield>
+    <subfield code="h">Ylvisaker, D.</subfield>
+    <subfield code="t">Bayesian prediction of deterministic functions, with applications to the design and analysis of computer experiments</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">URL ://WOS:A1991GU05000017</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Am.Stat.Assoc.,86,953</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2012.04.047</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Multi-output local gaussian process regression: applications to uncertainty quantification</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5718</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lockwood, B.A.</subfield>
+    <subfield code="h">Anitescu, M.</subfield>
+    <subfield code="t">Gradient-enhanced universal kriging for uncertainty propagation</subfield>
+    <subfield code="v">170</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,170,168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2013.01.011</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="h">Konomi, B.A.</subfield>
+    <subfield code="h">Lin, G.</subfield>
+    <subfield code="t">Multi-output separable gaussian process: towards an efficient, fully bayesian paradigm for uncertainty quantification</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,241,212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0266-5611/30/1/015004</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Solution of inverse problems with limited forward solver evaluations: a bayesian perspective</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Inverse Probl.,30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rasmussen, C.E.</subfield>
+    <subfield code="h">Williams, C.K.I.</subfield>
+    <subfield code="t">Gaussian Processes for Machine Learning</subfield>
+    <subfield code="p">MIT Press Cambridge</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">URL ://WOS:000279925100014</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Bayes–Hermite quadrature</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">URL ://WOS:A1991GN00500002</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Stat.Plan.Inference,29,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="h">Kennedy, M.C.</subfield>
+    <subfield code="h">Oakley, J.E.</subfield>
+    <subfield code="t">Uncertainty analysis and other inference tools for complex computer codes</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">URL ://WOS:000169678800022</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Bayesian Stat.,6,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oakley, J.</subfield>
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Bayesian inference for the uncertainty distribution of computer model outputs</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">URL ://WOS:000179774400004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Biometrika,89,769</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1467-9868.2004.05304.x</subfield>
+    <subfield code="h">Oakley, J.E.</subfield>
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Probabilistic sensitivity analysis of complex models: a bayesian approach</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">URL ://WOS:000223126500013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,66,751</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, P.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="t">Uncertainty propagation using infinite mixture of gaussian processes and variational bayesian inference</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,284,291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-3-319-11259-6_16-1</subfield>
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Bayesian Uncertainty Propagation Using Gaussian Processes</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1162/neco.1992.4.3.415</subfield>
+    <subfield code="h">Mackay, D.J.C.</subfield>
+    <subfield code="t">Bayesian interpolation</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">URL ://WOS:A1992HZ47600010</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Neural Comput.,4,415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Balaprakash, R.B. Gramacy, S.M. Wild</subfield>
+    <subfield code="m">Active-learning-based surrogate models for empirical performance tuning</subfield>
+    <subfield code="a">doi:10.1109/CLUSTER.2013.6702683</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A:1012771025575</subfield>
+    <subfield code="h">Jones, D.R.</subfield>
+    <subfield code="t">A taxonomy of global optimization methods based on response surfaces</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">URL ://WOS:000172071700001</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Glob.Optim.,21,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emmerich, M.</subfield>
+    <subfield code="h">Beume, N.</subfield>
+    <subfield code="h">Naujoks, B.</subfield>
+    <subfield code="t">An EMO algorithm using the hypervolume measure as selection criterion</subfield>
+    <subfield code="v">3410</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">URL ://WOS:000229021300005</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Evol.Multi-Crit.Optim.,3410,62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bengio, Y.</subfield>
+    <subfield code="h">Delalleau, O.</subfield>
+    <subfield code="h">Le Roux, N.</subfield>
+    <subfield code="t">The curse of highly variable functions for local kernel machines</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="q">Neural Information Processing Systems</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.42.10.767</subfield>
+    <subfield code="h">Bellman, R.</subfield>
+    <subfield code="t">Dynamic programming and Lagrange multipliers</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1956</subfield>
+    <subfield code="m">URL ://WOS:A1956WL58800014</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,42,767</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saltelli, A.</subfield>
+    <subfield code="h">Ratto, M.</subfield>
+    <subfield code="h">Andres, T.</subfield>
+    <subfield code="h">Campolongo, F.</subfield>
+    <subfield code="h">Cariboni, J.</subfield>
+    <subfield code="h">Gatelli, D.</subfield>
+    <subfield code="h">Saisana, M.</subfield>
+    <subfield code="h">Tarantola, S.</subfield>
+    <subfield code="t">Global Sensitivity Analysis the Primer</subfield>
+    <subfield code="p">John Wiley Chichester, England; Hoboken, NJ</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith Ralph, C.</subfield>
+    <subfield code="t">Uncertainty Quantification: Theory, Implementation, and Applications</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Neal, R.M.</subfield>
+    <subfield code="t">Bayesian Learning for Neural Networks, vol. 118</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Neal, R.M.</subfield>
+    <subfield code="t">Assessing Relevance Determination Methods Using DELVE</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="h">Spanos, P.D.</subfield>
+    <subfield code="t">Stochastic Finite Elements: A Spectral Approach</subfield>
+    <subfield code="p">Dover Publications Minneola, NY</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/14786440109462720</subfield>
+    <subfield code="h">Pearson, K.</subfield>
+    <subfield code="t">Liii. On lines and planes of closest fit to systems of points in space</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1901</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Philos.Mag.Ser.6,2,559</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ma, X.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Kernel principal component analysis for stochastic input model generation</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7311</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/a:1019188517934</subfield>
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="h">Alis, O.F.</subfield>
+    <subfield code="t">General foundations of high-dimensional model representations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">URL ://WOS:000083110100006</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Math.Chem.,25,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/a:1010979129659</subfield>
+    <subfield code="h">Alis, O.F.</subfield>
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="t">Efficient implementation of high dimensional model representations</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">URL ://WOS:000170079400003</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Math.Chem.,29,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/jp010450t</subfield>
+    <subfield code="h">Li, G.Y.</subfield>
+    <subfield code="h">Rosenthal, C.</subfield>
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="t">High dimensional model representations</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">URL ://WOS:000170506700001</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Phys.Chem.A, Mol.Spectrosc.Kinet.Environ.Gen.Theory,105,7765</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/a:1013172329778</subfield>
+    <subfield code="h">Li, G.Y.</subfield>
+    <subfield code="h">Wang, S.W.</subfield>
+    <subfield code="h">Rosenthal, C.</subfield>
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="t">High dimensional model representations generated from low dimensional data samples. 1. mp-cut-hdmr</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">URL ://WOS:000173573000001</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Math.Chem.,30,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/cnm.1118</subfield>
+    <subfield code="h">Chowdhury, R.</subfield>
+    <subfield code="h">Rao, B.N.</subfield>
+    <subfield code="h">Prasad, A.M.</subfield>
+    <subfield code="t">High-dimensional model representation for structural reliability analysis</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">URL ://WOS:000265311100001</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Commun.Numer.Methods Eng.,25,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.01.033</subfield>
+    <subfield code="h">Ma, X.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">An adaptive high-dimensional stochastic model representation technique for the solution of stochastic partial differential equations</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">URL ://WOS:000276784300018</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3884</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wei, J.</subfield>
+    <subfield code="h">Lin, G.</subfield>
+    <subfield code="h">Jiang, L.J.</subfield>
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="t">Analysis of variance-based mixed multiscale finite element method and applications in stochastic two-phase flows</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL ://WOS:000344199600001</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Int.J.Uncertain.Quantificat.,4,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.4208/cicp.270913.020414a</subfield>
+    <subfield code="h">Zhang, Z.W.</subfield>
+    <subfield code="h">Hu, X.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Lin, G.</subfield>
+    <subfield code="h">Yan, M.K.</subfield>
+    <subfield code="t">An adaptive ANOVA-based data-driven stochastic method for elliptic PDEs with random coefficient</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL ://WOS:000340787900001</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Commun.Comput.Phys.,16,571</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plate, T.A.</subfield>
+    <subfield code="t">Accuracy versus interpretability in flexible modeling: implementing a tradeoff using gaussian process models</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Behaviormetrika,26,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1214/10-ba505</subfield>
+    <subfield code="h">Kaufman, C.G.</subfield>
+    <subfield code="h">Sain, S.R.</subfield>
+    <subfield code="t">Bayesian functional ANOVA modeling using Gaussian process prior distributions</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">URL ://WOS:000275781600008</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Bayesian Anal.,5,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Durrande, N.</subfield>
+    <subfield code="h">Ginsbourger, D.</subfield>
+    <subfield code="h">Roustant, O.</subfield>
+    <subfield code="r">arXiv:1111.6233</subfield>
+    <subfield code="t">Additive covariance kernels for high-dimensional Gaussian process modeling</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duvenaud, D.</subfield>
+    <subfield code="h">Nickisch, H.</subfield>
+    <subfield code="h">Rasmussen, C.E.</subfield>
+    <subfield code="t">Additive Gaussian processes</subfield>
+    <subfield code="v">vol. 24</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gliboa, E.</subfield>
+    <subfield code="h">Saatci, Y.</subfield>
+    <subfield code="h">Cunningham, J.</subfield>
+    <subfield code="t">Scaling multidimensional inference for structured Gaussian processes</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">30th International Conference on Machine Learning</subfield>
+    <subfield code="o">64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10463-013-0436-7</subfield>
+    <subfield code="h">Nguyen, X.</subfield>
+    <subfield code="h">Gelfand, A.E.</subfield>
+    <subfield code="t">Bayesian nonparametric modeling for functional analysis of variance</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL ://WOS:000336426500004</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Ann.Inst.Stat.Math.,66,495</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Russi, T.M.</subfield>
+    <subfield code="t">Uncertainty quantification with experimental data and complex system models</subfield>
+    <subfield code="p">UC Berkeley</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/140983598</subfield>
+    <subfield code="h">Constantine, P.G.</subfield>
+    <subfield code="h">Dow, E.</subfield>
+    <subfield code="h">Wang, Q.Q.</subfield>
+    <subfield code="t">Active subspace methods in theory and practice: applications to kriging surfaces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL ://WOS:000346838800023</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A3030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.G. Constantine</subfield>
+    <subfield code="m">A quick-and-dirty check for a one-dimensional active subspace</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.G. Constantine, M. Emory, F. Palacios, N. Kseib, G. Iaccarino</subfield>
+    <subfield code="m">Quantification of margins and uncertainties using an active subspace method for approximating bounds</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Constantine, D. Gleich</subfield>
+    <subfield code="m">Computing active subspaces with Monte Carlo, arXiv Pre-print</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Q. Wang, H. Chen, R. Hu, P. Constantine</subfield>
+    <subfield code="m">Conditional sampling and experiment design for quantifying manufacturing error of transonic airfoil</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.G. Constantine, A. Doostan, Q. Wang, G. Iaccarino</subfield>
+    <subfield code="m">A surrogate accelerated bayesian inverse analysis of the hyshot ii flight data</subfield>
+    <subfield code="a">doi:10.2514/6.2011-2037</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.G. Constantine, B. Zaharatos, M. Campanelli</subfield>
+    <subfield code="m">Discovering an active subspace in a single-diode solar cell model, arXiv Pre-print</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Lukaczyk, F. Palacios, J.J. Alonso, P.G. Constantine</subfield>
+    <subfield code="m">Active subspaces for shape optimization</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cageo.2015.07.001</subfield>
+    <subfield code="h">Jefferson, J.L.</subfield>
+    <subfield code="h">Gilbert, J.M.</subfield>
+    <subfield code="h">Constantine, P.G.</subfield>
+    <subfield code="h">Maxwell, R.M.</subfield>
+    <subfield code="t">Active subspaces for sensitivity analysis and dimension reduction of an integrated hydrologic model</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Comput.Geosci.,83,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-246X.2006.02978.x</subfield>
+    <subfield code="h">Plessix, R.E.</subfield>
+    <subfield code="t">A review of the adjoint-state method for computing the gradient of a functional with geophysical applications</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">URL ://WOS:000241766800001</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Geophys.J.Int.,167,495</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Griewank, A.</subfield>
+    <subfield code="t">Evaluating Derivatives Principles and Techniques of Algorithmic Differentiation, Principles and Techniques of Algorithmic Differentiation, </subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics SIAM Philadelphia, PA</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0003-2670(86)80028-9</subfield>
+    <subfield code="h">Geladi, P.</subfield>
+    <subfield code="h">Kowalski, B.R.</subfield>
+    <subfield code="t">Partial least-squares regression – a tutorial</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="m">URL ://WOS:A1986E477500001</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Anal.Chim.Acta,185,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/s0169-7439(01)00155-1</subfield>
+    <subfield code="h">Wold, S.</subfield>
+    <subfield code="h">Sjostrom, M.</subfield>
+    <subfield code="h">Eriksson, L.</subfield>
+    <subfield code="t">PLS-regression: a basic tool of chemometrics</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">URL ://WOS:000172360800006</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Chemom.Intell.Lab.Syst.,58,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brereton, R.G.</subfield>
+    <subfield code="t">Chemometrics: Data Analysis for the Laboratory and Chemical Plant</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3109/10837450.2014.898656</subfield>
+    <subfield code="h">Ferreira, A.P.</subfield>
+    <subfield code="h">Tobyn, M.</subfield>
+    <subfield code="t">Multivariate analysis in the pharmaceutical industry: enabling process understanding and improvement in the PAT and QbD era</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">URL ://MEDLINE:24641280</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Pharm.Dev.Technol.,20,513</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ijpharm.2011.10.007</subfield>
+    <subfield code="h">Kim, S.</subfield>
+    <subfield code="h">Kano, M.</subfield>
+    <subfield code="h">Nakagawa, H.</subfield>
+    <subfield code="h">Hasebe, S.</subfield>
+    <subfield code="t">Estimation of active pharmaceutical ingredients content using locally weighted partial least squares and statistical wavelength selection</subfield>
+    <subfield code="v">421</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL ://WOS:000298527400009</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Int.J.Pharm.,421,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/0916069</subfield>
+    <subfield code="h">Byrd, R.H.</subfield>
+    <subfield code="h">Lu, P.H.</subfield>
+    <subfield code="h">Nocedal, J.</subfield>
+    <subfield code="h">Zhu, C.Y.</subfield>
+    <subfield code="t">A limited memory algorithm for bound constrained optimization</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">URL ://WOS:A1995RR54100011</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,16,1190</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Murphy, K.</subfield>
+    <subfield code="t">Machine Learning: A Probabilistic Perspective, Adaptive Computation and Machine Learning</subfield>
+    <subfield code="p">MIT Press Cambridge, MA</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">84</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldberg, P.W.</subfield>
+    <subfield code="h">Williams, C.K.I.</subfield>
+    <subfield code="h">Bishop, C.M.</subfield>
+    <subfield code="t">Regression with input-dependent noise: a gaussian process treatment</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">URL ://WOS:000075130700070</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Adv.Neural Inf.Process.Syst.,10,493</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plagemann, C.</subfield>
+    <subfield code="h">Kersting, K.</subfield>
+    <subfield code="h">Burgard, W.</subfield>
+    <subfield code="t">Nonstationary gaussian process regression using point estimates of local smoothness</subfield>
+    <subfield code="v">5212</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">URL ://WOS:000260075900014</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Proc.Mach.Learn.Knowl.Disc.Databases, II,5212,204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1699114</subfield>
+    <subfield code="h">Metropolis, N.</subfield>
+    <subfield code="h">Rosenbluth, A.W.</subfield>
+    <subfield code="h">Rosenbluth, M.N.</subfield>
+    <subfield code="h">Teller, A.H.</subfield>
+    <subfield code="h">Teller, E.</subfield>
+    <subfield code="t">Equation of state calculations by fast computing machines</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1953</subfield>
+    <subfield code="m">URL ://WOS:A1953UC11200020</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">J.Chem.Phys.,21,1087</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2307/2334940</subfield>
+    <subfield code="h">Hastings, W.K.</subfield>
+    <subfield code="t">Monte Carlo sampling methods using Markov chains and their applications</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="m">URL ://WOS:A1970G040300009</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">Biometrika,57,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s11222-006-9438-0</subfield>
+    <subfield code="h">Haario, H.</subfield>
+    <subfield code="h">Laine, M.</subfield>
+    <subfield code="h">Mira, A.</subfield>
+    <subfield code="h">Saksman, E.</subfield>
+    <subfield code="t">Dram: efficient adaptive mcmc</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">URL ://WOS:000241260600002</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">Stat.Comput.,16,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Lukaczyk, F. Palacios, J.J. Alonso, P.G. Constantine</subfield>
+    <subfield code="m">Active subspaces for shape optimization</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dow, E.</subfield>
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="t">Output based dimensionality reduction of geometric variability in compressor blades</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">51st AIAA Aerospace Sciences Meeting</subfield>
+    <subfield code="o">91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Van Loan, C.F.</subfield>
+    <subfield code="t">Matrix Computations, Johns Hopkins Studies in the Mathematical Sciences, </subfield>
+    <subfield code="p">Johns Hopkins University Press Baltimore</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="m">URL Contributor biographical information</subfield>
+    <subfield code="o">92</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muirhead, R.J.</subfield>
+    <subfield code="t">Aspects of Multivariate Statistical Theory, Wiley Series in Probability and Mathematical Statistics. Probability and Mathematical Statistics, </subfield>
+    <subfield code="p">John Wiley &amp; Sons New York</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10107-012-0584-1</subfield>
+    <subfield code="h">Wen, Z.</subfield>
+    <subfield code="h">Yin, W.</subfield>
+    <subfield code="t">A feasible method for optimization with orthogonality constraints</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">Publ.Math.Optim.Soc.,142,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A%3A1008306431147</subfield>
+    <subfield code="h">Jones, D.R.</subfield>
+    <subfield code="h">Schonlau, M.</subfield>
+    <subfield code="h">Welch, W.J.</subfield>
+    <subfield code="t">Efficient global optimization of expensive black-box functions</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">J.Glob.Optim.,13,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaynes, E.T.</subfield>
+    <subfield code="t">Probability Theory: The Logic of Science, Cambridge</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">96</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Neal, R.M.</subfield>
+    <subfield code="t">Probabilistic inference using Markov chain Monte Carlo methods</subfield>
+    <subfield code="p">University of Toronto</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">Tech. Rep. CRG-TR-93-1</subfield>
+    <subfield code="o">97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A:1008923215028</subfield>
+    <subfield code="h">Neal, R.M.</subfield>
+    <subfield code="t">Annealed importance sampling</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">98</subfield>
+    <subfield code="s">Stat.Comput.,11,125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bishop, C.M.</subfield>
+    <subfield code="t">Pattern Recognition and Machine Learning, Information Science and Statistics</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">GPy</subfield>
+    <subfield code="t">GPy: a gaussian process framework in python (since 2012)</subfield>
+    <subfield code="o">100</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bilionis, I.</subfield>
+    <subfield code="h">Tripathy, R.</subfield>
+    <subfield code="t">Py-aspgp (2015)</subfield>
+    <subfield code="o">101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nesterenko, V.</subfield>
+    <subfield code="t">Dynamics of Heterogeneous Materials</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Porter, M.</subfield>
+    <subfield code="h">Kevrekidis, P.</subfield>
+    <subfield code="h">Daraio, C.</subfield>
+    <subfield code="t">Granular crystals: nonlinear dynamics meets materials engineering</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">103</subfield>
+    <subfield code="s">Phys.Today,68,44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sen, S.</subfield>
+    <subfield code="h">Hong, J.</subfield>
+    <subfield code="h">Bang, J.</subfield>
+    <subfield code="h">Avalos, E.</subfield>
+    <subfield code="h">Doney, R.</subfield>
+    <subfield code="t">Solitary waves in the granular chain</subfield>
+    <subfield code="v">462</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">104</subfield>
+    <subfield code="s">Phys.Rep.,462,21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.72.016603</subfield>
+    <subfield code="h">Daraio, C.</subfield>
+    <subfield code="h">Nesterenko, V.F.</subfield>
+    <subfield code="h">Herbold, E.B.</subfield>
+    <subfield code="h">Jin, S.</subfield>
+    <subfield code="t">Strongly nonlinear waves in a chain of teflon beads</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">105</subfield>
+    <subfield code="s">Phys.Rev.,E72,016603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s11340-014-9866-2</subfield>
+    <subfield code="h">Yang, J.</subfield>
+    <subfield code="h">Gonzalez, M.</subfield>
+    <subfield code="h">Kim, E.</subfield>
+    <subfield code="h">Agbasi, C.</subfield>
+    <subfield code="h">Sutton, M.</subfield>
+    <subfield code="t">Attenuation of solitary waves and localization of breathers in 1d granular crystals visualized via high speed photography</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">106</subfield>
+    <subfield code="s">Exp.Mech.,54,1043</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s11340-011-9544-6</subfield>
+    <subfield code="h">Leonard, A.</subfield>
+    <subfield code="h">Fraternali, F.</subfield>
+    <subfield code="h">Daraio, C.</subfield>
+    <subfield code="t">Directional wave propagation in a highly nonlinear square packing of spheres</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">107</subfield>
+    <subfield code="s">Exp.Mech.,53,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.75.021304</subfield>
+    <subfield code="h">Herbold, E.B.</subfield>
+    <subfield code="h">Nesterenko, V.F.</subfield>
+    <subfield code="t">Shock wave structure in a strongly nonlinear lattice with viscous dissipation</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">108</subfield>
+    <subfield code="s">Phys.Rev.,E75,021304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.102.024102</subfield>
+    <subfield code="h">Carretero-González, R.</subfield>
+    <subfield code="h">Khatri, D.</subfield>
+    <subfield code="h">Porter, M.A.</subfield>
+    <subfield code="h">Kevrekidis, P.G.</subfield>
+    <subfield code="h">Daraio, C.</subfield>
+    <subfield code="t">Dissipative solitary waves in granular crystals</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">109</subfield>
+    <subfield code="s">Phys.Rev.Lett.,102,024102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.85.016604</subfield>
+    <subfield code="h">Gonzalez, M.</subfield>
+    <subfield code="h">Yang, J.</subfield>
+    <subfield code="h">Daraio, C.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="t">Mesoscopic approach to granular crystal dynamics</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">110</subfield>
+    <subfield code="s">Phys.Rev.,E85,016604</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10035-013-0449-1</subfield>
+    <subfield code="h">Pal, R.</subfield>
+    <subfield code="h">Awasthi, A.</subfield>
+    <subfield code="h">Geubelle, P.</subfield>
+    <subfield code="t">Wave propagation in elasto-plastic granular systems</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">111</subfield>
+    <subfield code="s">Granul.Matter,15,747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jmps.2011.10.004</subfield>
+    <subfield code="h">Gonzalez, M.</subfield>
+    <subfield code="h">Cuitiño, A.M.</subfield>
+    <subfield code="t">A nonlocal contact formulation for confined granular systems</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">112</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,60,333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1467-9868.2010.00765.x</subfield>
+    <subfield code="h">Girolami, M.</subfield>
+    <subfield code="h">Calderhead, B.</subfield>
+    <subfield code="t">Riemann manifold Langevin and Hamiltonian Monte Carlo methods</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">113</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,73,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/biomet/82.4.711</subfield>
+    <subfield code="h">Green, P.J.</subfield>
+    <subfield code="t">Reversible jump Markov chain Monte Carlo computation and bayesian model determination</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">114</subfield>
+    <subfield code="s">Biometrika,82,711</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S002199911630184X/S002199911630184X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

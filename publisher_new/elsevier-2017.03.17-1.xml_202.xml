@@ -1,0 +1,942 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.027</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Vilar, François</subfield>
+    <subfield code="j">ORCID:0000-0003-3909-684X</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, USA</subfield>
+    <subfield code="m">francois.p.vilar@gmail.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Positivity-preserving cell-centered Lagrangian schemes for multi-material compressible flows: From first-order to high-orders. Part I: The one-dimensional case</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">One of the main issues in the field of numerical schemes is to ally robustness with accuracy. Considering gas dynamics, numerical approximations may generate negative density or pressure, which may lead to nonlinear instability and crash of the code. This phenomenon is even more critical using a Lagrangian formalism, the grid moving and being deformed during the calculation. Furthermore, most of the problems studied in this framework contain very intense rarefaction and shock waves. In this paper, the admissibility of numerical solutions obtained by high-order finite-volume-scheme-based methods, such as the discontinuous Galerkin (DG) method, the essentially non-oscillatory (ENO) and the weighted ENO (WENO) finite volume schemes, is addressed in the one-dimensional Lagrangian gas dynamics framework. After briefly recalling how to derive Lagrangian forms of the 1D gas dynamics system of equations, a discussion on positivity-preserving approximate Riemann solvers, ensuring first-order finite volume schemes to be positive, is then given. This study is conducted for both ideal gas and non-ideal gas equations of state (EOS), such as the Jones–Wilkins–Lee (JWL) EOS or the Mie–Grüneisen (MG) EOS, and relies on two different techniques: either a particular definition of the local approximation of the acoustic impedances arising from the approximate Riemann solver, or an additional time step constraint relative to the cell volume variation. Then, making use of the work presented in [89,90,22] , this positivity study is extended to high-orders of accuracy, where new time step constraints are obtained, and proper limitation is required. Through this new procedure, scheme robustness is highly improved and hence new problems can be tackled. Numerical results are provided to demonstrate the effectiveness of these methods.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Positivity-preserving high-order methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cell-centered Lagrangian schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Updated and total Lagrangian formulations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Godunov-type method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-material compressible flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Equations of state</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Riemann solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shu, Chi-Wang</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, USA</subfield>
+    <subfield code="m">shu@dam.brown.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Maire, Pierre-Henri</subfield>
+    <subfield code="v">CEA/CESTA, 15 Avenue des Sablières CS 6001, Le Barp cedex, 33 116, France</subfield>
+    <subfield code="m">maire@celia.u-bordeaux1.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">385-415</subfield>
+    <subfield code="v">312</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Ovadia, J.</subfield>
+    <subfield code="t">A Lagrangian discontinuous Galerkin-type method on unstructured meshes to solve hydrodynamics problems</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,44,645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aguirre, M.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Carreño, A.A.</subfield>
+    <subfield code="t">A vertex centred finite volume Jamson–Schmidt–Turkel (JST) algorithm for a mixed conservation formulation in solid dynamics</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comp.Physiol.,259,672</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aguirre, M.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Lee, C.H.</subfield>
+    <subfield code="t">An upwind vertex centred finite volume solver for Lagrangian solid dynamics</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,300,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, R.W.</subfield>
+    <subfield code="h">Dobrev, V.A.</subfield>
+    <subfield code="h">Kolev, Tz.V.</subfield>
+    <subfield code="h">Rieben, R.N.</subfield>
+    <subfield code="t">Monotonicity in high-order curvilinear finite element ALE remap</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barlow, A.J.</subfield>
+    <subfield code="t">A high order cell centred dual grid Lagrangian Godunov scheme</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Fluids,83,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ben-Artzi, M.</subfield>
+    <subfield code="h">Falcovitz, J.</subfield>
+    <subfield code="t">Generalized Riemann Problems in Computational Fluids Dynamics</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berthon, C.</subfield>
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Sangam, A.</subfield>
+    <subfield code="t">A local entropy minimum principle for deriving entropy preserving schemes</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Lagrangian ADER–WENO finite volume schemes on unstructured triangular meshes based on genuinely multidimensional HLL Riemann solvers</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,267,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Arbitrary–Lagrangian–Eulerian one-step WENO finite volume schemes on unstructured triangular meshes</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Commun.Comput.Phys.,14,1174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A direct Arbitrary–Lagrangian–Eulerian ADER–WENO finite volume scheme on unstructured tetrahedral meshes for conservative and non-conservative hyperbolic systems in 3D</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,275,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">High-order ADER–WENO ALE schemes on unstructured triangular meshes-application of several node solvers to hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,76,737</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="t">High order cell-centered Lagrangian-type finite volume schemes with time-accurate local time stepping on unstructured triangular meshes</subfield>
+    <subfield code="v">291</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,291,120</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Direct Arbitrary–Lagrangian–Eulerian ADER–MOOD finite volume schemes for multidimensional hyperbolic conservation laws</subfield>
+    <subfield code="v">292</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,292,56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boutin, B.</subfield>
+    <subfield code="h">Deriaz, E.</subfield>
+    <subfield code="h">Hoch, P.</subfield>
+    <subfield code="h">Navaro, P.</subfield>
+    <subfield code="t">Extension of ALE methodology to unstructured conical meshes</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">ESAIM Proc.,32,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burton, D.E.</subfield>
+    <subfield code="h">Carney, T.C.</subfield>
+    <subfield code="h">Morgan, N.R.</subfield>
+    <subfield code="h">Sambasivan, S.K.</subfield>
+    <subfield code="h">Shashkov, M.J.</subfield>
+    <subfield code="t">A cell-centered Lagrangian Godunov-like method for solid dynamics</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,83,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Caramana, E.J.</subfield>
+    <subfield code="h">Burton, D.E.</subfield>
+    <subfield code="h">Shashkov, M.J.</subfield>
+    <subfield code="h">Whalen, P.P.</subfield>
+    <subfield code="t">The construction of compatible hydrodynamics algorithms utilizing conservation of total energy</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,146,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Caramana, E.J.</subfield>
+    <subfield code="h">Shashkov, M.J.</subfield>
+    <subfield code="t">Elimination of artificial grid distortion and hourglass-type motions by means of Lagrangian subzonal masses and pressures</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,142,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carré, G.</subfield>
+    <subfield code="h">Delpino, S.</subfield>
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="h">Labourasse, E.</subfield>
+    <subfield code="t">A cell-centered Lagrangian hydrodynamics scheme in arbitrary dimension</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5160</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A high order ENO conservative Lagrangian type scheme for the compressible Euler equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A third-order conservative Lagrangian type scheme on curvilinear meshes for the compressible Euler equations</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Commun.Comput.Phys.,4,1008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity-preserving Lagrangian scheme for multi-material compressible flow</subfield>
+    <subfield code="v">257</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,257,143</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Second order symmetry-preserving conservative Lagrangian scheme for compressible Euler equations in two-dimensional cylindrical coordinates</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,272,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clark, R.</subfield>
+    <subfield code="t">The evolution of HOBO</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Phys.Commun.,48,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.-Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Collela, P.</subfield>
+    <subfield code="t">Glimm's method for gas dynamics</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.,3,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crowley, W.</subfield>
+    <subfield code="t">Proceedings of the Second international Conference on Numerical Methods in Fluid Dynamics</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crowley, W.</subfield>
+    <subfield code="t">Free-Lagrangian methods for compressible hydrodynamics in two space dimensions</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Proceedings of the First International Conference on Free-Lagrange Methods</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">Lagrangian systems of conservation laws</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Numer.Math.,89,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">Lois de conservation euleriennes, lagrangiennes et méthodes numériques, Mathématiques et Applications, </subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobrev, V.A.</subfield>
+    <subfield code="h">Ellis, T.E.</subfield>
+    <subfield code="h">Kolev, Tz.V.</subfield>
+    <subfield code="h">Rieben, R.N.</subfield>
+    <subfield code="t">Curvilinear finite elements for Lagrangian hydrodynamics</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,65,1295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobrev, V.A.</subfield>
+    <subfield code="h">Ellis, T.E.</subfield>
+    <subfield code="h">Kolev, Tz.V.</subfield>
+    <subfield code="h">Rieben, R.N.</subfield>
+    <subfield code="t">High order curvilinear finite elements for Lagrangian hydrodynamics</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,606</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobrev, V.A.</subfield>
+    <subfield code="h">Ellis, T.E.</subfield>
+    <subfield code="h">Kolev, Tz.V.</subfield>
+    <subfield code="h">Rieben, R.N.</subfield>
+    <subfield code="t">High order curvilinear finite elements for axisymmetric Lagrangian hydrodynamics</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Fluids</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dukowicz, J.K.</subfield>
+    <subfield code="t">A general, non-iterative Riemann solver for Godunov's method</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,61,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="t">High-order unstructured Lagrangian one-step WENO finite volume schemes for non-conservative hyperbolic systems: applications to compressible multi-phase flows</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Fluids,86,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dvorkin, E.N.</subfield>
+    <subfield code="h">Goldschmit, M.B.</subfield>
+    <subfield code="t">Nonlinear Continua</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="t">On Godunov-type method for gas dynamics</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,9,445</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Sjögreen, B.J.</subfield>
+    <subfield code="t">On Godunov-type methods near low densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Estivalezes, J.L.</subfield>
+    <subfield code="h">Villedieu, P.</subfield>
+    <subfield code="t">High-order positivity preserving kinetic schemes for the Euler compressible Euler equations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,33,2050</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Gerbeau, J.-F.</subfield>
+    <subfield code="h">Rallu, A.</subfield>
+    <subfield code="t">FIVER: a finite volume method based on exact two-phase Riemann problems and sparse grids for multi-material flows with large density jumps</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fritts, M.</subfield>
+    <subfield code="h">Boris, J.</subfield>
+    <subfield code="t">The Lagrangian solution of transient problems in hydrodynamics using a triangular mesh</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,31,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallice, G.</subfield>
+    <subfield code="t">Positive and entropy stable Godunov-type schemes for gas dynamics and MHD equations in Lagrangian or Eulerian coordinates</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Numer.Math.,94,673</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Germain, P.</subfield>
+    <subfield code="t">Mécanique, vol. I</subfield>
+    <subfield code="p">Ellipses</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goad, W.B.</subfield>
+    <subfield code="t">WAT: a numerical method for two-dimensional unsteady fluid flow</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="m">Technical report LAMS 2365</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godlewski, E.</subfield>
+    <subfield code="h">Raviart, P.-A.</subfield>
+    <subfield code="t">Hyperbolic Systems of Conservation Laws</subfield>
+    <subfield code="p">Springer Verlag</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="h">Zabrodine, A.</subfield>
+    <subfield code="h">Ivanov, M.</subfield>
+    <subfield code="h">Kraiko, A.</subfield>
+    <subfield code="h">Prokopov, G.</subfield>
+    <subfield code="t">Résolution numérique des problèmes multidimensionnels de la dynamique des gaz</subfield>
+    <subfield code="p">Editions Mir</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grittings, M.</subfield>
+    <subfield code="t">Trix: a free-Lagrangian hydrocode</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="q">Proceedings of the Advances in the Free-Lagrange Method Conference</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gurtin, M.E.</subfield>
+    <subfield code="h">Fried, E.</subfield>
+    <subfield code="h">Anand, L.</subfield>
+    <subfield code="t">The Mechanics and Thermodynamics of Continua</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Chakravarthy, S.</subfield>
+    <subfield code="t">Uniformly high order essentially non-oscillatory schemes, III</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,71,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">Van Leer, B.</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="h">Amsden, A.</subfield>
+    <subfield code="h">Cook, J.L.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian computing method for all flow speeds</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jia, Z.</subfield>
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="t">A new high-order discontinuous Galerkin spectral finite element for Lagrangian gas dynamics in two-dimensions</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,230,2496</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kolev, Tz.V.</subfield>
+    <subfield code="h">Rieben, R.N.</subfield>
+    <subfield code="t">A tensor artificial viscosity using a finite element approach</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme, V: a second-order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Finite Volume Methods for Hyperbolic Problems, Cambridge Texts in Applied Mathematics, vol. 31</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Linde, T.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Robust Euler codes</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA paper 97-2098</subfield>
+    <subfield code="q">Thirteenth Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">High order conservative Lagrangian scheme with Lax–Wendroff type time discretization for the compressible Euler equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8872</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.-D.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Chan, T.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,115,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="t">A high-order one-step sub-cell force-based discretization for cell-centered Lagrangian hydrodynamics on polygonal grids</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Comput.Fluids,46,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="t">Contribution to the numerical modeling of inertial confinement fusion</subfield>
+    <subfield code="p">Habilitation à Diriger des Recherches, Bordeaux University</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">available at</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Rebourcet, B.</subfield>
+    <subfield code="t">A nominally second-order cell-centered Lagrangian scheme for simulating elastic–plastic flows on two-dimensional unstructured grids</subfield>
+    <subfield code="v">235</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,235,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Ovadia, J.</subfield>
+    <subfield code="t">A cell-centered Lagrangian scheme for two-dimensional compressible flow problems</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,29,1781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="t">A second-order cell-centered Lagrangian scheme for two-dimensional compressible flow problems</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,1417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Menikoff, R.</subfield>
+    <subfield code="t">Equations of state and fluid dynamics</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Technical report LA-UR-07-3989</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A Godunov-like point-centered essentially Lagrangian hydrodynamic approach</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,281,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A point-centered arbitrary Lagrangian Eulerian hydrodynamic approach for tetrahedral meshes</subfield>
+    <subfield code="v">290</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,290,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">On Godunov-type schemes for Lagrangian gas dynamics</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,31,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perthame, B.</subfield>
+    <subfield code="t">Second-order Boltzmann schemes for compressible Euler equations in one and two space dimensions</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,29,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perthame, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On positivity preserving finite volume schemes for Euler equations</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Numer.Math.,73,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Pino, S.</subfield>
+    <subfield code="t">A curvilinear finite-volume method to solve compressible gas dynamics in semi-Lagrangian coordinates</subfield>
+    <subfield code="v">348</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">C.R.Math.,348,1027</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plohr, B.J.</subfield>
+    <subfield code="h">Sharp, D.H.</subfield>
+    <subfield code="t">A conservative Eulerian formulation of the equations for elastic flows</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Adv.Appl.Math.,9,481</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richtmyer, R.D.</subfield>
+    <subfield code="h">Morton, K.W.</subfield>
+    <subfield code="t">Difference Methods for Initial-Value Problems</subfield>
+    <subfield code="p">John Wiley</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Approximative Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sahota, M.</subfield>
+    <subfield code="t">An explicit–implicit solution of the hydrodynamic and radiation equations</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="q">Proceedings of the Advances in the Free-Lagrange Method Conference</subfield>
+    <subfield code="o">76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salençon, J.</subfield>
+    <subfield code="t">Mécanique des milieux continus, volume I, concepts généraux</subfield>
+    <subfield code="p">Editions de l'Ecole Polytechnique</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scovazzi, G.</subfield>
+    <subfield code="t">Lagrangian shock hydrodynamics on tetrahedral meshes: a stable and accurate variational multiscale approach</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Phys.,231,8029</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scovazzi, G.</subfield>
+    <subfield code="h">Shadid, J.</subfield>
+    <subfield code="h">Love, E.</subfield>
+    <subfield code="h">Rider, W.</subfield>
+    <subfield code="t">A conservative nodal variational multiscale method for Lagrangian shock hydrodynamics</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,3059</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Spear, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vilar, F.</subfield>
+    <subfield code="t">Cell-centered discontinuous Galerkin discretization for two-dimensional Lagrangian hydrodynamics</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Comput.Fluids,64,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vilar, F.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Cell-centered discontinuous Galerkin discretizations for two-dimensional scalar conservation laws on unstructured grids and for one-dimensional Lagrangian hydrodynamics</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">Comput.Fluids,46,498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vilar, F.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A discontinuous Galerkin discretization for solving the two-dimensional gas dynamics equations written under total Lagrangian formulation on general unstructured grids</subfield>
+    <subfield code="v">276</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">J.Comput.Phys.,276,188</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vilar, F.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="t">Positivity-preserving cell-centered Lagrangian schemes for multi-material compressible flows: from first-order to high-orders, part II: the two-dimensional case</subfield>
+    <subfield code="v">312</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">J.Comput.Phys.,312,416</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Wohlbie, J.</subfield>
+    <subfield code="t">Three-dimensional finite element arbitrary Lagrangian–Eulerian method for shock hydrodynamics on unstructured grids</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Comput.Fluids,92,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Wohlbie, J.</subfield>
+    <subfield code="t">A nodal Godunov method for Lagrangian shock hydrodynamics on unstructured tetrahedral grids</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,76,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilkins, M.L.</subfield>
+    <subfield code="t">Calculation of Elastic–Plastic Flows, Methods in Computational Physics, vol. 3</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="v">vol. 3</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">88</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On maximum-principle-satisfying high order schemes for scalar conservation laws</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3091</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On positivity preserving high order discontinuous Galerkin schemes for compressible Euler equations on rectangular meshes</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8918</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity preserving high order discontinuous Galerkin schemes for compressible Euler equations with source term</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity preserving high order finite difference WENO schemes for compressible Euler equations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2245</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00058/S0021999116000917/S0021999116000917.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,650 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.055</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cui, Tiangang</subfield>
+    <subfield code="v">Massachusetts Institute of Technology, Cambridge, uMA 02139, USA</subfield>
+    <subfield code="m">tcui@mit.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Scalable posterior approximations for large-scale Bayesian inverse problems via likelihood-informed parameter and state reduction</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Two major bottlenecks to the solution of large-scale Bayesian inverse problems are the scaling of posterior sampling algorithms to high-dimensional parameter spaces and the computational cost of forward model evaluations. Yet incomplete or noisy data, the state variation and parameter dependence of the forward model, and correlations in the prior collectively provide useful structure that can be exploited for dimension reduction in this setting—both in the parameter space of the inverse problem and in the state space of the forward model. To this end, we show how to jointly construct low-dimensional subspaces of the parameter space and the state space in order to accelerate the Bayesian solution of the inverse problem. As a byproduct of state dimension reduction, we also show how to identify low-dimensional subspaces of the data in problems with high-dimensional observations. These subspaces enable approximation of the posterior as a product of two factors: (i) a projection of the posterior onto a low-dimensional parameter subspace, wherein the original likelihood is replaced by an approximation involving a reduced model; and (ii) the marginal prior distribution on the high-dimensional complement of the parameter subspace. We present and compare several strategies for constructing these subspaces using only a limited number of forward and adjoint model simulations. The resulting posterior approximations can rapidly be characterized using standard sampling techniques, e.g., Markov chain Monte Carlo. Two numerical examples demonstrate the accuracy and efficiency of our approach: inversion of an integral equation in atmospheric remote sensing, where the data dimension is very high; and the inference of a heterogeneous transmissivity field in a groundwater system, which involves a partial differential equation forward model with high dimensional state and parameters.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Inverse problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bayesian inference</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dimension reduction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Model reduction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Low-rank approximation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Markov chain Monte Carlo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Marzouk, Youssef</subfield>
+    <subfield code="v">Massachusetts Institute of Technology, Cambridge, uMA 02139, USA</subfield>
+    <subfield code="m">ymarz@mit.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Willcox, Karen</subfield>
+    <subfield code="v">Massachusetts Institute of Technology, Cambridge, uMA 02139, USA</subfield>
+    <subfield code="m">kwillcox@mit.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">363-387</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tarantola, A.</subfield>
+    <subfield code="t">Inverse Problem Theory and Methods for Model Parameter Estimation</subfield>
+    <subfield code="p">Society for Industrial Mathematics Philadelphia</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kaipio, J.P.</subfield>
+    <subfield code="h">Somersalo, E.</subfield>
+    <subfield code="t">Statistical and Computational Inverse Problems, , vol. 160</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="v">vol. 160</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Inverse problems: a Bayesian perspective</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Acta Numer.,19,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Markov Chain Monte Carlo in Practice, vol. 2</subfield>
+    <subfield code="p">CRC Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="e">Gilks,W.R.</subfield>
+    <subfield code="e">Richardson,S.</subfield>
+    <subfield code="e">Spiegelhalter,D.J.</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, J.S.</subfield>
+    <subfield code="t">Monte Carlo Strategies in Scientific Computing</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Handbook of Markov Chain Monte Carlo</subfield>
+    <subfield code="p">Taylor &amp; Francis</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="e">Brooks,S.</subfield>
+    <subfield code="e">Gelman,A.</subfield>
+    <subfield code="e">Jones,G.</subfield>
+    <subfield code="e">Meng,X.L.</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Metropolis, N.</subfield>
+    <subfield code="h">Rosenbluth, A.W.</subfield>
+    <subfield code="h">Rosenbluth, M.N.</subfield>
+    <subfield code="h">Teller, A.H.</subfield>
+    <subfield code="h">Teller, E.</subfield>
+    <subfield code="t">Equation of state calculations by fast computing machines</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1953</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Chem.Phys.,21,1087</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hastings, W.</subfield>
+    <subfield code="t">Monte Carlo sampling using Markov chains and their applications</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Biometrika,57,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Gelman, A.</subfield>
+    <subfield code="h">Gilks, W.R.</subfield>
+    <subfield code="t">Weak convergence and optimal scaling of random walk Metropolis algorithms</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Ann.Appl.Probab.,7,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Rosenthal, J.S.</subfield>
+    <subfield code="t">Optimal scaling of discrete approximations to Langevin diffusions</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,60,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Rosenthal, J.S.</subfield>
+    <subfield code="t">Optimal scaling of various Metropolis–Hastings algorithms</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Stat.Sci.,16,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mattingly, J.C.</subfield>
+    <subfield code="h">Pillai, N.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Diffusion limits of the random walk Metropolis algorithm in high dimensions</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Ann.Appl.Probab.,22,881</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pillai, N.S.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Thiery, A.H.</subfield>
+    <subfield code="t">Optimal scaling and diffusion limits for the Langevin algorithm in high dimensions</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Ann.Appl.Probab.,22,2320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spantini, A.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Tenorio, L.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="t">Optimal low-rank approximation of linear Bayesian inverse problems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,A2451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Spantini, A.</subfield>
+    <subfield code="t">Likelihood-informed dimension reduction for nonlinear inverse problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Inverse Probl.,30,114015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="h">Willcox, K.E.</subfield>
+    <subfield code="t">Data-driven model reduction for the Bayesian solution of inverse problems</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,102,966</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Law, K.J.H.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="t">Dimension-independent likelihood-informed MCMC</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,304,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noor, A.</subfield>
+    <subfield code="h">Andersen, C.</subfield>
+    <subfield code="h">Peters, J.</subfield>
+    <subfield code="t">Reduced basis technique for collapse analysis of shells</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">AIAA J.,19,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sirovich, L.</subfield>
+    <subfield code="t">Turbulence and the dynamics of coherent structures. Part 1: coherent structures</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Q.Appl.Math.,45,561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holmes, P.</subfield>
+    <subfield code="h">Lumley, J.</subfield>
+    <subfield code="h">Berkooz, G.</subfield>
+    <subfield code="t">Turbulence, Coherent Structures, and Dynamical Systems and Symmetry</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patera, A.T.</subfield>
+    <subfield code="h">Rozza, G.</subfield>
+    <subfield code="t">Reduced basis approximation and a posteriori error estimation for parametrized partial differential equations</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">MIT Pappalardo Monographs in Mechanical Engineering</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christen, J.A.</subfield>
+    <subfield code="h">Fox, C.</subfield>
+    <subfield code="t">MCMC using an approximation</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Graph.Stat.,14,795</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="t">Bayesian calibration of geothermal reservoir models via Markov Chain Monte Carlo</subfield>
+    <subfield code="p">The University of Auckland</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="t">Dimensionality reduction and polynomial chaos acceleration of Bayesian inference in inverse problems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1862</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karhunen, K.</subfield>
+    <subfield code="t">Über lineare methoden in der wahrscheinlichkeitsrechnung</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1947</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Ann.Acad.Sci.Fenn.Ser.A I Math.-Phys.,37,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Loève, M.</subfield>
+    <subfield code="t">Probability Theory, Vol. II, Graduate Texts in Mathematics, vol. 46</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="v">vol. 46</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="h">Spanos, P.</subfield>
+    <subfield code="t">Stochastic Finite Elements: A Spectral Approach</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">The Wiener–Askey polynomial chaos for stochastic differential equations</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,619</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="t">Numerical Methods for Stochastic Computations: A Spectral Method Approach</subfield>
+    <subfield code="p">Princeton University Press Princeton</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lipponen, A.</subfield>
+    <subfield code="h">Seppänen, A.</subfield>
+    <subfield code="h">Kaipio, J.P.</subfield>
+    <subfield code="t">Electrical impedance tomography imaging with reduced-order model based on proper orthogonal decomposition</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Electron.Imaging,22,023008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ma, X.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">An efficient data-driven Bayesian inference approach to inverse problems based on adaptive sparse grid collocation method</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Inverse Probl.,25,035013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Higdon, D.</subfield>
+    <subfield code="t">Space and space-time modeling using process convolutions</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="e">Anderson,C.</subfield>
+    <subfield code="e">Barnett,V.</subfield>
+    <subfield code="e">Chatwin,P.C.</subfield>
+    <subfield code="e">El-Shaarawi,A.H.</subfield>
+    <subfield code="q">Quantitative Methods for Current Environmental Issues</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lieberman, C.</subfield>
+    <subfield code="h">Willcox, K.E.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">Parameter and state model reduction for large-scale statistical inverse problems</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,2523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Flath, H.P.</subfield>
+    <subfield code="h">Wilcox, L.C.</subfield>
+    <subfield code="h">Akcelik, V.</subfield>
+    <subfield code="h">Hill, J.</subfield>
+    <subfield code="h">Waanders, B.V.B.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">Fast algorithms for Bayesian uncertainty quantification in large-scale linear inverse problems based on low-rank partial Hessian approximations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Wilcox, L.C.</subfield>
+    <subfield code="h">Burstedde, C.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">A stochastic Newton MCMC method for large-scale statistical inverse problems with application to seismic inversion</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,A1460</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bui-Thanh, T.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Stadler, G.</subfield>
+    <subfield code="t">A computational framework for infinite-dimensional Bayesian inverse problems. Part I: The linearized case, with application to global seismic inversion</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A2494</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Petra, N.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Stadler, G.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">A computational framework for infinite-dimensional Bayesian inverse problems: Part II. Stochastic Newton MCMC with application to ice sheet flow inverse problems</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Förstner, W.</subfield>
+    <subfield code="h">Boudewijn, M.</subfield>
+    <subfield code="t">A metric for covariance matrices</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="q">Geodesy: The Challenge of the 3rd Millennium</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parlett, B.N.</subfield>
+    <subfield code="t">The Symmetric Eigenvalue Problem</subfield>
+    <subfield code="p">Prentice-Hall</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Astrid, P.</subfield>
+    <subfield code="h">Weiland, S.</subfield>
+    <subfield code="h">Willcox, K.E.</subfield>
+    <subfield code="h">Backx, T.</subfield>
+    <subfield code="t">Missing point estimation in models described by proper orthogonal decomposition</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">IEEE Trans.Autom.Control,53,2237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barrault, M.</subfield>
+    <subfield code="h">Maday, Y.</subfield>
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Patera, A.T.</subfield>
+    <subfield code="t">An “empirical interpolation” method: application to efficient reduced-basis discretization of partial differential equations</subfield>
+    <subfield code="v">339</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">C.R.Math.,339,667</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chaturantabut, S.</subfield>
+    <subfield code="h">Sorensen, D.C.</subfield>
+    <subfield code="t">Nonlinear model reduction via discrete empirical interpolation</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,2737</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Zabaras, N.</subfield>
+    <subfield code="t">Using Bayesian statistics in the estimation of heat source in radiation</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,48,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Galbally, D.</subfield>
+    <subfield code="h">Fidkowski, K.</subfield>
+    <subfield code="h">Willcox, K.E.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">Nonlinear model reduction for uncertainty quantification in large scale inverse problems</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,81,1581</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Loan, C.F.V.</subfield>
+    <subfield code="t">Matrix Computations</subfield>
+    <subfield code="p">JHU Press</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Halko, N.</subfield>
+    <subfield code="h">Martinsson, P.</subfield>
+    <subfield code="h">Tropp, J.A.</subfield>
+    <subfield code="t">Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM Rev.,53,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liberty, E.</subfield>
+    <subfield code="h">Woolfe, F.</subfield>
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="h">Tygert, M.</subfield>
+    <subfield code="t">Randomized algorithms for the low-rank approximation of matrices</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,104,20167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Atchadé, Y.F.</subfield>
+    <subfield code="t">An adaptive version for the Metropolis adjusted Langevin algorithm with a truncated drift</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Methodol.Comput.Appl.Probab.,8,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="h">Tu, X.</subfield>
+    <subfield code="t">Implicit sampling for particle filters</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Rev.,D106,17249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morzfeld, M.</subfield>
+    <subfield code="h">Tu, X.</subfield>
+    <subfield code="h">Atkins, E.</subfield>
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">A random map implementation of implicit filters</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2049</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bardsley, J.M.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Haario, H.</subfield>
+    <subfield code="h">Laine, M.</subfield>
+    <subfield code="t">Randomize-then-optimize: a method for sampling from posterior distributions in nonlinear inverse problems</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1895</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Sparse deterministic approximation of Bayesian inverse problems</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Inverse Probl.,28,045003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schillings, C.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="t">Sparse, adaptive Smolyak quadratures for Bayesian inverse problems</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Inverse Probl.,29,065011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, P.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="t">Sparse-grid, reduced-basis Bayesian inversion</subfield>
+    <subfield code="v">297</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,297,84</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Owen, A.B.</subfield>
+    <subfield code="t">Monte Carlo Theory, Methods and Examples</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haario, H.</subfield>
+    <subfield code="h">Laine, M.</subfield>
+    <subfield code="h">Lehtinen, M.</subfield>
+    <subfield code="h">Saksman, E.</subfield>
+    <subfield code="h">Tamminen, J.</subfield>
+    <subfield code="t">Markov chain Monte Carlo methods for high dimensional inversion in remote sensing</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,66,591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tamminen, J.</subfield>
+    <subfield code="t">Adaptive Markov chain Monte Carlo algorithms with geophysical applications</subfield>
+    <subfield code="p">Finnish Meteorological Institute</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coleman, T.F.</subfield>
+    <subfield code="h">Li, Y.</subfield>
+    <subfield code="t">On the convergence of interior-reflective newton methods for nonlinear minimization subject to bounds</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Math.Program.,67,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coleman, T.F.</subfield>
+    <subfield code="h">Li, Y.</subfield>
+    <subfield code="t">An interior trust region approach for nonlinear minimization subject to bounds</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">SIAM J.Optim.,6,418</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lindgren, F.</subfield>
+    <subfield code="h">Rue, H.</subfield>
+    <subfield code="h">Lindström, J.</subfield>
+    <subfield code="t">An explicit link between Gaussian fields and Gaussian Markov random fields: the stochastic partial differential equation approach</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,73,423</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300183/S0021999116300183.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

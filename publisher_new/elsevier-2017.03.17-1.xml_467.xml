@@ -1,0 +1,664 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.050</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Quaife, Bryan</subfield>
+    <subfield code="v">Department of Scientific Computing, Florida State University, Tallahassee, FL, 32306, United States</subfield>
+    <subfield code="m">bquaife@fsu.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Adaptive time stepping for vesicle suspensions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present an adaptive high-order accurate time-stepping numerical scheme for the flow of vesicles suspended in Stokesian fluids. Our scheme can be summarized as an approximate implicit spectral deferred correction (SDC) method. Applying a fully-implicit SDC scheme to vesicle flows is prohibitively expensive. For this reason we introduce several approximations. Our scheme is based on a semi-implicit linearized low-order time stepping method. (Our discretization is spectrally accurate in space.) We expect that the accuracy can be arbitrary-order, but our examples suffer from order reduction which limits the observed accuracy to third-order. We also use invariant properties of vesicle flows, constant area and boundary length in two dimensions, to reduce the computational cost of error estimation for adaptive time stepping. We present results in two dimensions for single-vesicle flows, constricted geometry flows, converging flows, and flows in a Couette apparatus. We experimentally demonstrate that the proposed scheme enables automatic selection of the time step size and high-order accuracy.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Vesicle suspensions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive time stepping</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral deferred correction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Particulate flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stokesian flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Biros, George</subfield>
+    <subfield code="v">Institute for Computational Engineering and Sciences, The University of Texas at Austin, Austin, TX, 78712, United States</subfield>
+    <subfield code="m">gbiros@acm.org</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">478-499</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aland, Sebastian</subfield>
+    <subfield code="h">Egerer, Sabine</subfield>
+    <subfield code="h">Lowengrub, John</subfield>
+    <subfield code="h">Voight, Axel</subfield>
+    <subfield code="t">Diffuse interface models of locally inextensible vesicles in a viscous fluid</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,277,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alpert, B.K.</subfield>
+    <subfield code="t">Hybrid Gauss-trapezoidal quadrature rules</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,20,1551</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.M.</subfield>
+    <subfield code="h">Ruuth, S.J.</subfield>
+    <subfield code="h">Wetton, B.T.R.</subfield>
+    <subfield code="t">Implicit–explicit methods for time-dependent partial differential equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,32,797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beaucourt, J.</subfield>
+    <subfield code="h">Rioual, F.</subfield>
+    <subfield code="h">Séon, T.</subfield>
+    <subfield code="h">Biben, T.</subfield>
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">Steady to unsteady dynamics of a vesicle in a flow</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Rev.,E69,011906</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Biben, T.</subfield>
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">Tumbling of vesicles under shear flow within an advected-field approach</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Rev.,E67,031908</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Biben, Thierry</subfield>
+    <subfield code="h">Kassner, Klaus</subfield>
+    <subfield code="h">Misbah, Chaouqi</subfield>
+    <subfield code="t">Phase-field approach to three-dimensional vesicle dynamics</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Phys.Rev.,E72,041921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Böhmer, K.</subfield>
+    <subfield code="h">Stetter, H.J.</subfield>
+    <subfield code="t">Defect Correction Methods, Theory and Applications</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscarino, Sebastiano</subfield>
+    <subfield code="t">Error analysis of IMEX Runge–Kutta methods derived from differential-algebraic systems</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,45,1600</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bourlioux, Anne</subfield>
+    <subfield code="h">Layton, Anita T.</subfield>
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">High-order multi-implicit spectral deferred correction methods for problems of reactive flow</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,189,651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouzarth, Elizabeth L.</subfield>
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">A multirate time integrator for regularized Stokeslets</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bu, Sunyoung</subfield>
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">Semi-implicit Krylov deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="p">Proceedings of the 15th American Conference on Applied Mathematics, AMATH'09, Stevens Point, Wisconsin, USA, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bu, Sunyoung</subfield>
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">Semi-implicit Krylov deferred correction methods for differential algebraic equations</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Math.Comput.,81,2127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cantat, I.</subfield>
+    <subfield code="h">Kassner, K.</subfield>
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">Vesicles in haptotaxis with hydrodynamical dissipation</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Eur.Phys.J.,E10,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, A.J.</subfield>
+    <subfield code="h">Macdonald, C.B.</subfield>
+    <subfield code="h">Ong, B.W.</subfield>
+    <subfield code="h">Spiteri, R.J.</subfield>
+    <subfield code="t">Revisionist integral deferred correction with adaptive step-size control</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,10,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, Andrew</subfield>
+    <subfield code="h">Ong, Benjamin</subfield>
+    <subfield code="t">Implicit parallel time integrators</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Sci.Comput.,49,167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, Andrew</subfield>
+    <subfield code="h">Ong, Benjamin</subfield>
+    <subfield code="h">Qiu, Jing-Mei</subfield>
+    <subfield code="t">Comments on high-order integrators embedded within integral deferred correction methods</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,4,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, Andrew J.</subfield>
+    <subfield code="h">Macdonald, Colin B.</subfield>
+    <subfield code="h">Ong, Benjamin W.</subfield>
+    <subfield code="t">Parallel high-order integrators</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,818</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, Andrew J.</subfield>
+    <subfield code="h">Haynes, Ronald D.</subfield>
+    <subfield code="h">Ong, Benjamin W.</subfield>
+    <subfield code="t">A parallel space–time algorithm</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Du, Qiang</subfield>
+    <subfield code="h">Zhang, Jian</subfield>
+    <subfield code="t">Adaptive finite element method for a phase field bending elasticity model of vesicle membrane deformations</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,1634</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dutt, A.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Spectral deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">BIT Numer.Math.,40,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emmett, Matthew</subfield>
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">Toward and efficient parallel in time method for partial differential equations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,7,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dahlquist, Germund G.</subfield>
+    <subfield code="h">Liniger, Werner</subfield>
+    <subfield code="h">Nevanlinna, Olavi</subfield>
+    <subfield code="t">Stability of two-step methods for variable integration steps</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,20,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghigliotti, G.</subfield>
+    <subfield code="h">Rahimian, A.</subfield>
+    <subfield code="h">Biros, G.</subfield>
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">Vesicle migration and spatial organization driven by flow line curvature</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.Lett.,106,028101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, Ernest</subfield>
+    <subfield code="h">Wanner, Gerhard</subfield>
+    <subfield code="t">Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, Ernest</subfield>
+    <subfield code="h">Wanner, Gerhard</subfield>
+    <subfield code="h">Nørsett, Syvert Paul</subfield>
+    <subfield code="t">Solving Ordinary Differential Equations I: Nonstiff Problems</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hansen, Anders C.</subfield>
+    <subfield code="h">Strain, John</subfield>
+    <subfield code="t">On the order of deferred correction</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Appl.Numer.Math.,61,961</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10915-014-9933-y</subfield>
+    <subfield code="h">Hsieh, Po-Wen</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="h">Yang, Suh-Yuh</subfield>
+    <subfield code="h">You, Cheng-Shu</subfield>
+    <subfield code="t">An unconditionally energy stable penalty immersed boundary method for simulating the dynamics of an inextensible interface interacting with a solid particle</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Sci.Comput.,64,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="h">Jia, Jun</subfield>
+    <subfield code="h">Minion, Michael</subfield>
+    <subfield code="t">Accelerating the convergence of spectral deferred correction methods</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,214,633</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="h">Xiang, Yang</subfield>
+    <subfield code="t">An integral equation method for epitaxial step-flow growth simulations</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,216,724</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="h">Jia, Jun</subfield>
+    <subfield code="h">Minion, Michael</subfield>
+    <subfield code="t">Arbitrary order Krylov deferred correction methods for differential algebraic equations</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,221,739</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jia, Jun</subfield>
+    <subfield code="h">Huang, Jingfang</subfield>
+    <subfield code="t">Krylov deferred correction accelerated method of lines transpose for parabolic equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1739</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kaoui, B.</subfield>
+    <subfield code="h">Tahiri, N.</subfield>
+    <subfield code="h">Biben, T.</subfield>
+    <subfield code="h">Ez-Zahraouy, H.</subfield>
+    <subfield code="h">Benyoussef, A.</subfield>
+    <subfield code="h">Biros, G.</subfield>
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">What dictates red blood cell shapes and dynamics in the microvasculature?</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Phys.Rev.,E,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Yongsam</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="t">Simulating the dynamics of inextensible vesicles by the penalty immersed boundary method</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laadhari, Aymen</subfield>
+    <subfield code="h">Saramito, Pierre</subfield>
+    <subfield code="h">Misbah, Chaouqi</subfield>
+    <subfield code="t">Computing the dynamics of biomembranes by combining conservative level set and adaptive finite element methods</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,263,328</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lindberg, Bengt</subfield>
+    <subfield code="t">Error estimation and iterative improvement for discretization algorithms</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">BIT Numer.Math.,20,486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="h">Speck, R.</subfield>
+    <subfield code="h">Bolten, M.</subfield>
+    <subfield code="h">Emmett, M.</subfield>
+    <subfield code="h">Ruprecht, D.</subfield>
+    <subfield code="r">arXiv:1407.6486</subfield>
+    <subfield code="t">Interweaving PFASST and parallel multigrid</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Minion, Michael L.</subfield>
+    <subfield code="t">Semi-implicit spectral deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Commun.Math.Sci.,1,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Misbah, C.</subfield>
+    <subfield code="t">Vacillating breathing and tumbling of vesicles under shear flow</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Rev.Lett.,96</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, D.G.</subfield>
+    <subfield code="h">Lubensky, Tom C.</subfield>
+    <subfield code="t">Shape transitions of fluid vesicles and red blood cells in capillary flows</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,102,14159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ong, Benjamin</subfield>
+    <subfield code="h">Melfi, Andrew</subfield>
+    <subfield code="h">Christlieb, Andrew</subfield>
+    <subfield code="r">arXiv:1209.4297v1</subfield>
+    <subfield code="t">Parallel semi-implicit time integrators</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">The axisymmetric deformation of a red blood cell in uniaxial straining Stokes flow</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Fluid Mech.,216,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quaife, Bryan</subfield>
+    <subfield code="h">Biros, George</subfield>
+    <subfield code="t">High-volume fraction simulations of two-dimensional vesicle suspensions</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,274,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rahimian, Abtin</subfield>
+    <subfield code="h">Lashuk, Ilya</subfield>
+    <subfield code="h">Veerapaneni, Shravan K.</subfield>
+    <subfield code="h">Chandramowlishwaran, Aparna</subfield>
+    <subfield code="h">Malhotra, Dhairya</subfield>
+    <subfield code="h">Moon, Logan</subfield>
+    <subfield code="h">Sampath, Rahul</subfield>
+    <subfield code="h">Shringarpure, Aashay</subfield>
+    <subfield code="h">Vetter, Jeffrey</subfield>
+    <subfield code="h">Vuduc, Richard</subfield>
+    <subfield code="h">Zorin, Denis</subfield>
+    <subfield code="h">Biros, George</subfield>
+    <subfield code="t">Petascale direct numerical simulation of blood flow on 200K cores and heterogeneous architectures</subfield>
+    <subfield code="p">Piscataway, NJ, USA: IEEE Press</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="q">SC '10: Proceedings of the 2010 ACM/IEEE Conference on Supercomputing</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rahimian, Abtin</subfield>
+    <subfield code="h">Kumar Veerapaneni, Shravan</subfield>
+    <subfield code="h">Biros, George</subfield>
+    <subfield code="t">Dynamic simulation of locally inextensible vesicles suspended in an arbitrary two-dimensional domain, a boundary integral method</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6466</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rahimian, Abtin</subfield>
+    <subfield code="h">Veerapaneni, Shravan K.</subfield>
+    <subfield code="h">Zorin, Denis</subfield>
+    <subfield code="h">Biros, George</subfield>
+    <subfield code="t">Boundary integral method for the flow of vesicles with viscosity contrast in three dimensions</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,298,766</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramanujan, S.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">Deformation of liquid capsules enclosed by elastic membranes in simple shear flow: large deformations and the effect of fluid viscosities</subfield>
+    <subfield code="v">361</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Fluid Mech.,361,117</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sackmann, E.</subfield>
+    <subfield code="t">Supported membranes: scientific and practical applications</subfield>
+    <subfield code="v">271</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Science,271,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Skeel, Robert D.</subfield>
+    <subfield code="t">A theoretical framework for proving accuracy results for deferred corrections</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,19,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sohn, J.S.</subfield>
+    <subfield code="h">Tseng, Y.-H.</subfield>
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Voigt, A.</subfield>
+    <subfield code="h">Lowengrub, J.S.</subfield>
+    <subfield code="t">Dynamics of multicomponent vesicles in a viscous fluid</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,229,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Speck, Robert</subfield>
+    <subfield code="h">Ruprecht, Daniel</subfield>
+    <subfield code="h">Emmett, Matthew</subfield>
+    <subfield code="h">Bolten, Matthias</subfield>
+    <subfield code="h">Krause, Rolf</subfield>
+    <subfield code="t">A space–time parallel solver for the three-dimensional heat equation</subfield>
+    <subfield code="v">vol. 25</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Advances in Parallel Computing,vol. 25,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10543-014-0517-x</subfield>
+    <subfield code="h">Speck, Robert</subfield>
+    <subfield code="h">Ruprecht, Daniel</subfield>
+    <subfield code="h">Emmett, Matthew</subfield>
+    <subfield code="h">Minion, Michael</subfield>
+    <subfield code="h">Bolten, Matthias</subfield>
+    <subfield code="h">Krause, Rolf</subfield>
+    <subfield code="t">A multi-level spectral deferred correction method</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">BIT Numer.Math.,55,843</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Speck, Robert</subfield>
+    <subfield code="h">Ruprecht, Daniel</subfield>
+    <subfield code="h">Minion, Michael</subfield>
+    <subfield code="h">Emmett, Matthew</subfield>
+    <subfield code="h">Krause, Rolf</subfield>
+    <subfield code="r">arXiv:1401.7824</subfield>
+    <subfield code="t">Inexact spectral deferred corrections</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stetter, Hans J.</subfield>
+    <subfield code="t">Analysis of Discretization Methods for Ordinary Differential Equations, Springer Tracts in Natural Philosophy, vol. 23</subfield>
+    <subfield code="v">vol. 23</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sukumaran, S.</subfield>
+    <subfield code="h">Seifert, U.</subfield>
+    <subfield code="t">Influence of shear flow on vesicles near a wall: a numerical study</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Phys.Rev.Lett.,E64,011916</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veerapaneni, S.K.</subfield>
+    <subfield code="h">Gueyffier, D.</subfield>
+    <subfield code="h">Zorin, D.</subfield>
+    <subfield code="h">Biros, G.</subfield>
+    <subfield code="t">A boundary integral method for simulating the dynamics of inextensible vesicles suspended in a viscous fluid in 2D</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veerapaneni, Shravan K.</subfield>
+    <subfield code="h">Rahimian, Abtin</subfield>
+    <subfield code="h">Biros, George</subfield>
+    <subfield code="h">Zorin, Denis</subfield>
+    <subfield code="t">A fast algorithm for simulating vesicle flows in three dimensions</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,230,5610</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weiser, Martin</subfield>
+    <subfield code="t">Faster SDC convergence on non-equidistant grids by DIRK sweeps</subfield>
+    <subfield code="p">ZIB Takustr. 7, 14195, Berlin</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">Technical Report 13-30</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Winkel, Mathias</subfield>
+    <subfield code="h">Speck, Robert</subfield>
+    <subfield code="h">Ruprecht, Daniel</subfield>
+    <subfield code="t">A high-order Boris integrator</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,295,456</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, Hong</subfield>
+    <subfield code="h">Shaqfeh, Eric S.G.</subfield>
+    <subfield code="t">The dynamics of a vesicle in simple shear flow</subfield>
+    <subfield code="v">674</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Fluid Mech.,674,578</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, Hong</subfield>
+    <subfield code="h">Shaqfeh, Eric S.G.</subfield>
+    <subfield code="t">The dynamics of a non-dilute vesicle suspension in simple shear flow</subfield>
+    <subfield code="v">725</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Fluid Mech.,725,709</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S0021999115007901/S0021999115007901.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

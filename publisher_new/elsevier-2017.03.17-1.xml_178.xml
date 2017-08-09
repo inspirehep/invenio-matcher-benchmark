@@ -1,0 +1,687 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.028</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ueckermann, M.P.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Massachusetts Institute of Technology, 77 Mass. Avenue, Cambridge, MA 02139, United States</subfield>
+    <subfield code="m">mpuecker@mit.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Hybridizable discontinuous Galerkin projection methods for Navier–Stokes and Boussinesq equations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">32</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Schemes for the incompressible Navier–Stokes and Boussinesq equations are formulated and derived combining the novel Hybridizable Discontinuous Galerkin (HDG) method, a projection method, and Implicit–Explicit Runge–Kutta (IMEX-RK) time-integration schemes. We employ an incremental pressure correction and develop the corresponding HDG finite element discretization including consistent edge-space fluxes for the velocity predictor and pressure correction. We then derive the proper forms of the element-local and HDG edge-space final corrections for both velocity and pressure, including the HDG rotational correction. We also find and explain a consistency relation between the HDG stability parameters of the pressure correction and velocity predictor. We discuss and illustrate the effects of the time-splitting error. We then detail how to incorporate the HDG projection method time-split within standard IMEX-RK time-stepping schemes. Our high-order HDG projection schemes are implemented for arbitrary, mixed-element unstructured grids, with both straight-sided and curved meshes. In particular, we provide a quadrature-free integration method for a nodal basis that is consistent with the HDG method. To prevent numerical oscillations, we develop a selective nodal limiting approach. Its applications show that it can stabilize high-order schemes while retaining high-order accuracy in regions where the solution is sufficiently smooth. We perform spatial and temporal convergence studies to evaluate the properties of our integration and selective limiting schemes and to verify that our solvers are properly formulated and implemented. To complete these studies and to illustrate a range of properties for our new schemes, we employ an unsteady tracer advection benchmark, a manufactured solution for the steady diffusion and Stokes equations, and a standard lock-exchange Boussinesq problem.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hybridizable DG</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Projection methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">IMEX-RK</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Selective limiter</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Quadrature-free</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Navier–Stokes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Boussinesq</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Ocean modeling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lermusiaux, P.F.J.</subfield>
+    <subfield code="j">ORCID:0000-0002-1869-3883</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Massachusetts Institute of Technology, 77 Mass. Avenue, Cambridge, MA 02139, United States</subfield>
+    <subfield code="m">pierrel@mit.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">390-421</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahnert, T.</subfield>
+    <subfield code="h">Bärwolff, G.</subfield>
+    <subfield code="t">Numerical comparison of hybridized discontinuous Galerkin and finite volume methods for incompressible flow</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,76,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.N.</subfield>
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Marini, L.D.</subfield>
+    <subfield code="t">Unified analysis of discontinuous Galerkin methods for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.</subfield>
+    <subfield code="h">Ruuth, S.</subfield>
+    <subfield code="h">Spiteri, R.</subfield>
+    <subfield code="t">Implicit–explicit Runge–Kutta methods for time-dependent partial differential equations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Appl.Numer.Math.,25,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barter, G.E.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Shock capturing with higher-order, PDE-based artificial viscosity</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA paper 3823:2007</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barter, G.E.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Shock capturing with PDE-based artificial viscosity for DGFEM: Part i. formulation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comp.Physiol.,229,1810</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blossey, P.N.</subfield>
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="t">Selective monotonicity preservation in scalar advection</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,227,5160</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.</subfield>
+    <subfield code="t">Numerical solution of the Navier–Stokes equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Math.Comput.,22,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/080726653</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Gopalakrishnan, J.</subfield>
+    <subfield code="t">The derivation of hybridizable discontinuous Galerkin methods for Stokes flow</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,1092</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Tvb Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws. II. General framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws. V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection-dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.Y.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Tvb Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws. iv. the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/070706616</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Gopalakrishnan, J.</subfield>
+    <subfield code="h">Lazarov, R.</subfield>
+    <subfield code="t">Unified hybridization of discontinuous Galerkin, mixed, and continuous Galerkin methods for second order elliptic problems</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,1319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Guzmán, J.</subfield>
+    <subfield code="h">Wang, H.</subfield>
+    <subfield code="t">Superconvergent discontinuous Galerkin methods for second-order elliptic problems</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Math.Comput.,78,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Gopalakrishnan, J.</subfield>
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Sayas, F.J.</subfield>
+    <subfield code="t">Analysis of HDG methods for Stokes flow</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Math.Comput.,80,723</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10236-010-0363-6</subfield>
+    <subfield code="h">Deleersnijder, E.</subfield>
+    <subfield code="h">Legat, V.</subfield>
+    <subfield code="h">Lermusiaux, P.F.J.</subfield>
+    <subfield code="t">Multi-scale modelling of coastal, shelf and global ocean dynamics</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Ocean Dyn.,60,1357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Denaro, F.M.</subfield>
+    <subfield code="t">On the application of the Helmholtz–Hodge decomposition in projection methods for incompressible flows with general boundary conditions</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,43,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="t">Numerical Methods for Wave Equations in Geophysical Fluid Dynamics, Texts Appl. Math., vol. 32</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="v">vol. 32</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferziger, J.H.</subfield>
+    <subfield code="h">Peric, M.</subfield>
+    <subfield code="t">Computational Methods for Fluid Dynamics</subfield>
+    <subfield code="p">Springer New York, NY</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fringer, O.</subfield>
+    <subfield code="h">Gerritsen, M.</subfield>
+    <subfield code="h">Street, R.</subfield>
+    <subfield code="t">An unstructured-grid, finite-volume, nonhydrostatic, parallel coastal ocean simulator</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Ocean Model.,14,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geiser, J.</subfield>
+    <subfield code="t">Iterative operator-splitting methods with higher-order time integration methods and applications for parabolic partial differential equations</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,217,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guermond, J.</subfield>
+    <subfield code="h">Minev, P.</subfield>
+    <subfield code="h">Shen, J.</subfield>
+    <subfield code="t">An overview of projection methods for incompressible flows</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,6011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10236-010-0349-4</subfield>
+    <subfield code="h">Haley, P.J.</subfield>
+    <subfield code="h">Lermusiaux, P.F.J.</subfield>
+    <subfield code="t">Multiscale two-way embedding schemes for free-surface primitive equations in the “Multidisciplinary Simulation, Estimation and Assimilation System”</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Ocean Dyn.,60,1497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Härtel, C.</subfield>
+    <subfield code="h">Meiburg, E.</subfield>
+    <subfield code="h">Necker, F.</subfield>
+    <subfield code="t">Analysis and direct numerical simulation of the flow at a gravity-current head. Part 1. Flow topology and front speed for slip and no-slip boundaries</subfield>
+    <subfield code="v">418</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Fluid Mech.,418,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.</subfield>
+    <subfield code="h">Kirby, R.</subfield>
+    <subfield code="t">Filtering in Legendre spectral methods</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Math.Comput.,77,1425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods, Texts Appl. Math., vol. 54</subfield>
+    <subfield code="p">Springer New York, NY</subfield>
+    <subfield code="v">vol. 54</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Ackerer, P.</subfield>
+    <subfield code="h">Mosé, R.</subfield>
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Philippe, B.</subfield>
+    <subfield code="t">New two-dimensional slope limiters for discontinuous Galerkin methods on arbitrary meshes</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,61,2566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huerta, A.</subfield>
+    <subfield code="h">Casoni, E.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">A simple shock-capturing technique for high-order discontinuous Galerkin methods</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,69,1614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, L.</subfield>
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Khoo, B.</subfield>
+    <subfield code="t">A high-order hybridizable discontinuous Galerkin method for elliptic interface problems</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,93,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kennedy, C.</subfield>
+    <subfield code="h">Carpenter, M.</subfield>
+    <subfield code="t">Additive Runge–Kutta schemes for convection–diffusion–reaction equations</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Appl.Numer.Math.,44,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">To cg or to hdg: a comparative study</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Sci.Comput.,51,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="t">Limiters for high-order discontinuous Galerkin methods</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,226,276</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10236-013-0655-8</subfield>
+    <subfield code="h">Lermusiaux, P.F.J.</subfield>
+    <subfield code="h">Schröter, J.</subfield>
+    <subfield code="h">Danilov, S.</subfield>
+    <subfield code="h">Iskandarani, M.</subfield>
+    <subfield code="h">Pinardi, N.</subfield>
+    <subfield code="h">Westerink, J.J.</subfield>
+    <subfield code="t">Multiscale modeling of coastal, shelf and global ocean dynamics</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Ocean Dyn.,63,1341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lermusiaux, P.F.J.</subfield>
+    <subfield code="h">Ueckermann, M.P.</subfield>
+    <subfield code="h">Mirabito, C.</subfield>
+    <subfield code="h">Haley, P.J.</subfield>
+    <subfield code="h">Aoussou, J.</subfield>
+    <subfield code="t">High order hybridizable discontinuous Galerkin projection schemes for incompressible Navier–Stokes and ocean primitive equations: derivation details</subfield>
+    <subfield code="p">Department of Mechanical Engineering, Massachusetts Institute of Technology Cambridge, Massachusetts, USA</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">MSEAS Report 20</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, C.A.</subfield>
+    <subfield code="t">Nonconforming discretization and a posteriori error estimators for adaptive spectral element techniques</subfield>
+    <subfield code="p">MIT</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="m">Ph.D. Thesis</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michoski, C.</subfield>
+    <subfield code="h">Mirabito, C.</subfield>
+    <subfield code="h">Dawson, C.</subfield>
+    <subfield code="h">Wirasaet, D.</subfield>
+    <subfield code="h">Kubatko, E.</subfield>
+    <subfield code="h">Westerink, J.</subfield>
+    <subfield code="t">Adaptive hierarchic transformations for dynamically p-enriched slope-limiting over discontinuous Galerkin systems of generalized equations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8028</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Mirabito, P.J. Haley Jr., P.F.J. Lermusiaux</subfield>
+    <subfield code="m">Verification and evaluation of hybridizable discontinuous Galerkin schemes for non-hydrostatic ocean modeling using the method of manufactured solutions,, in preparation</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Persson, P.O.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">Rans solutions using high order discontinuous Galerkin methods</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA Paper 914</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for linear convection–diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for nonlinear convection–diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">A hybridizable discontinuous Galerkin method for Stokes flow</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,582</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">A hybridizable discontinuous Galerkin method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Orlando, FL</subfield>
+    <subfield code="q">Proc. of the 48th AIAA Aerospace Sciences Meeting and Exhibit</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1147</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Roca, X.</subfield>
+    <subfield code="h">Moro, D.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">A hybridized multiscale discontinuous Galerkin method for compressible flows</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">AIAA Paper 689</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oreskes, N.</subfield>
+    <subfield code="h">Shrader-Frechette, K.</subfield>
+    <subfield code="h">Belitz, K.</subfield>
+    <subfield code="t">Verification, validation, and confirmation of numerical models in the earth sciences</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Science,263,641</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Solano, M.E.</subfield>
+    <subfield code="t">Hybridizable discontinuous Galerkin method for curved domains</subfield>
+    <subfield code="p">University of Minnesota</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">A hybridizable discontinuous Galerkin method for the compressible Euler and Navier–Stokes equations</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">AIAA Paper 363:2010</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An embedded discontinuous Galerkin method for the compressible Euler and Navier–Stokes equations</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA Paper 3228</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Persson, P.O.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">Sub-cell shock capturing for discontinuous Galerkin methods</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">AIAA paper 112</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using weno limiters</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Verification and Validation in Computational Science and Engineering</subfield>
+    <subfield code="p">Hermosa Albuquerque</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schütz, J.</subfield>
+    <subfield code="h">May, G.</subfield>
+    <subfield code="t">A hybrid mixed method for the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">240</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,240,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="h">Fix, G.J.</subfield>
+    <subfield code="t">An Analysis of the Finite Element Method, , vol. 212</subfield>
+    <subfield code="p">Prentice Hall Englewood Cliffs, NJ</subfield>
+    <subfield code="v">vol. 212</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF00247696</subfield>
+    <subfield code="h">Témam, R.</subfield>
+    <subfield code="t">Sur l'approximation de la solution des équations de Navier–Stokes par la méthode des pas fractionnaires (II)</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Arch.Ration.Mech.Anal.,33,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Timmermans, L.</subfield>
+    <subfield code="h">Minev, P.</subfield>
+    <subfield code="h">Van De Vosse, F.</subfield>
+    <subfield code="t">An approximate projection scheme for incompressible flow using spectral elements</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,22,673</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ueckermann, M.</subfield>
+    <subfield code="t">Towards next generation ocean models: novel discontinuous Galerkin schemes for 2D unsteady biogeochemical models</subfield>
+    <subfield code="p">Massachusetts Institute of Technology, Department of Mechanical Engineering</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">Master's thesis</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ueckermann, M.</subfield>
+    <subfield code="t">High order hybrid discontinuous Galerkin regional ocean modelling</subfield>
+    <subfield code="p">Massachusetts Institute of Technology, Department of Mechanical Engineering</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10236-010-0351-x</subfield>
+    <subfield code="h">Ueckermann, M.P.</subfield>
+    <subfield code="h">Lermusiaux, P.F.J.</subfield>
+    <subfield code="t">High-order schemes for 2D unsteady biogeochemical ocean models</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Ocean Dyn.,60,1415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.P. Ueckermann, C. Mirabito, P.J. Haley Jr., P.F.J. Lermusiaux</subfield>
+    <subfield code="m">High order hybridizable discontinuous galerkin projection schemes for non-hydrostatic physical-biogeochemical ocean modeling,, in preparation</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Facilitating the adoption of unstructured high-order methods amongst a wider community of fluid dynamicists</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Math.Model.Nat.Phenom.,6,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waluga, C.</subfield>
+    <subfield code="h">Egger, H.</subfield>
+    <subfield code="t">An implementation of hybrid discontinuous Galerkin methods in dune</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">Advances in DUNE</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using weno limiters II: unstructured meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4330</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S0021999115007688/S0021999115007688.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

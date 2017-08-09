@@ -1,0 +1,532 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.043</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Vanharen, Julien</subfield>
+    <subfield code="j">ORCID:0000-0002-0408-2467</subfield>
+    <subfield code="v">Centre Européen de Recherche et de Formation Avancée en Calcul Scientifique (CERFACS), 42 avenue Gaspard Coriolis, Toulouse Cedex 01, 31057, France</subfield>
+    <subfield code="m">julien.vanharen@cerfacs.fr</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Revisiting the spectral analysis for high-order spectral discontinuous methods</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The spectral analysis is a basic tool to characterise the behaviour of any convection scheme. By nature, the solution projected onto the Fourier basis enables to estimate the dissipation and the dispersion associated with the spatial discretisation of the hyperbolic linear problem. In this paper, we wish to revisit such analysis, focusing attention on two key points. The first point concerns the effects of time integration on the spectral analysis. It is shown with standard high-order Finite Difference schemes dedicated to aeroacoustics that the time integration has an effect on the required number of points per wavelength. The situation depends on the choice of the coupled schemes (one for time integration, one for space derivative and one for the filter) and here, the compact scheme with its eighth-order filter seems to have a better spectral accuracy than the considered dispersion-relation preserving scheme with its associated filter, especially in terms of dissipation. Secondly, such a coupled space–time approach is applied to the new class of high-order spectral discontinuous approaches, focusing especially on the Spectral Difference method. A new way to address the specific spectral behaviour of the scheme is introduced first for wavenumbers in <math altimg="si1.gif" display="inline" overflow="scroll"><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy="false">]</mo></math> , following the Matrix Power method. For wavenumbers above π , an aliasing phenomenon always occurs but it is possible to understand and to control the aliasing of the signal. It is shown that aliasing depends on the polynomial degree and on the number of time steps. A new way to define dissipation and dispersion is introduced and applied to wavenumbers larger than π . Since the new criteria recover the previous results for wavenumbers below π , the new proposed approach is an extension of all the previous ones dealing with dissipation and dispersion errors. At last, since the standard Finite Difference schemes can serve as reference solution for their capability in aeroacoustics, it is shown that the Spectral Difference method is as accurate as (or even more accurate) than the considered Finite Difference schemes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Space–time spectral analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral discontinuous</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite Difference</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Aeroacoustics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Aliasing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Matrix Power Method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Puigt, Guillaume</subfield>
+    <subfield code="v">Centre Européen de Recherche et de Formation Avancée en Calcul Scientifique (CERFACS), 42 avenue Gaspard Coriolis, Toulouse Cedex 01, 31057, France</subfield>
+    <subfield code="m">guillaume.puigt@cerfacs.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vasseur, Xavier</subfield>
+    <subfield code="v">ISAE-SUPAERO, 10 avenue Edouard Belin, BP 54032, Toulouse Cedex 4, 31055, France</subfield>
+    <subfield code="m">xavier.vasseur@isae.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Boussuge, Jean-François</subfield>
+    <subfield code="v">Centre Européen de Recherche et de Formation Avancée en Calcul Scientifique (CERFACS), 42 avenue Gaspard Coriolis, Toulouse Cedex 01, 31057, France</subfield>
+    <subfield code="m">jean-francois.boussuge@cerfacs.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sagaut, Pierre</subfield>
+    <subfield code="v">Aix Marseille Univ, CNRS, Centrale Marseille, M2P2 UMR 7340, Marseille, 13451, France</subfield>
+    <subfield code="m">pierre.sagaut@univ-amu.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">379-402</subfield>
+    <subfield code="v">337</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rai, M.M.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Direct simulations of turbulent flow using finite-difference schemes</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,96,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(92)90324-R</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Compact finite difference schemes with spectral-like resolution</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,103,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1993.1142</subfield>
+    <subfield code="h">Tam, C.K.</subfield>
+    <subfield code="h">Webb, J.C.</subfield>
+    <subfield code="t">Dispersion–relation–preserving finite difference schemes for computational acoustics</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,107,262</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.</subfield>
+    <subfield code="h">Hill, T.</subfield>
+    <subfield code="t">Triangular Mesh Methods for the Neutron Transport Equation</subfield>
+    <subfield code="p">Los Alamos National Laboratory New Mexico, USA</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Tech. Report LU-UR-73-279</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite method for conservation laws II: general framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws IV: the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods – Algorithms, Analysis and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kopriva, D.</subfield>
+    <subfield code="h">Kolias, J.</subfield>
+    <subfield code="t">A conservative staggered-grid Chebyshev multidomain method for compressible flows</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,125,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Vinokur, M.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Spectral difference method for unstructured grids I: basic formulation</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,216,780</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">May, G.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Spectral difference method for unstructured grids II: extension to the Euler equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Sci.Comput.,32,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liang, C.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Spectral difference method for compressible flow on unstructured grids with mixed elements</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2847</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids: basic formulation</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,178,210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids II: extension to two-dimensional scalar equation</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,179,665</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids III: one dimensional system and partition optimization</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Sci.Comput.,20,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Zang, L.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids IV: extension to two-dimensional systems</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,194,716</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Vinokur, M.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids V: extension to three-dimensional systems</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,212,454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, H.</subfield>
+    <subfield code="t">A flux reconstruction approach to high-order schemes including discontinuous Galerkin methods</subfield>
+    <subfield code="p">18th AIAA Computational Fluid Dynamics Conference, 25–28 June, Miami, FL, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA Paper 2007-4079</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="t">A unifying lifting collocation penalty formulation including the discontinuous Galerkin, spectral volume/difference methods for conservation laws on mixed grids</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Sci.Comput.,47,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes for triangular elements</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Sci.Comput.,51,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, H.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="t">High-order methods for computational fluid dynamics: a brief review of compact differential formulations on unstructured grids</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Fluids,98,209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allaneau, Y.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Connections between the filtered discontinuous Galerkin method and the flux reconstruction approach to high order discretizations</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,3626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vichnevetsky, R.</subfield>
+    <subfield code="h">Bowles, J.</subfield>
+    <subfield code="t">Fourier Analysis of Numerical Approximation of Hyperbolic Equations, SIAM Studies in Applied Mathematics, </subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, F.</subfield>
+    <subfield code="h">Hussaini, M.</subfield>
+    <subfield code="h">Rasetarinera, P.</subfield>
+    <subfield code="t">An analysis of the discontinuous Galerkin method for wave propagation problems</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,151,921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">An analysis of three different formulations of the discontinuous Galerkin method for diffusion equations</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Math.Methods Appl.Sci.,13,395</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kannan, R.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">LGD2: a variant of the LDG flux formulation for the spectral volume method</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Sci.Comput.,46,314</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van den Abeele, K.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">On the stability and accuracy of the spectral difference method</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Sci.Comput.,37,162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Insights from von Neumann analysis of high-order flux reconstruction schemes</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10915-014-9882-5</subfield>
+    <subfield code="h">Asthana, K.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">High-order flux reconstruction schemes with minimal dispersion and dissipation</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Sci.Comput.,62,913</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2003.09.003</subfield>
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="t">A family of low dispersive and low dissipative explicit schemes for flow and noise computations</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,194,194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaitonde, D.</subfield>
+    <subfield code="h">Visbal, M.</subfield>
+    <subfield code="t">Further development of a Navier–Stokes solution procedure based on higher-order formulas</subfield>
+    <subfield code="p">37th AIAA Aerospace Sciences Meeting, January, Reno, Nevada, 1999</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">AIAA Paper 1999-557</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aikens, K.M.</subfield>
+    <subfield code="h">Dhamankar, N.S.</subfield>
+    <subfield code="h">Martha, C.S.</subfield>
+    <subfield code="h">Situ, Y.</subfield>
+    <subfield code="h">Blaisdell, G.A.</subfield>
+    <subfield code="t">Equilibrium wall model for large eddy simulations of jets for aeroacoustics</subfield>
+    <subfield code="p">AIAA SciTech, 52nd Aerospace Sciences Meeting, 13–17 January, National Harbor, Maryland, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">AIAA Paper 2014-0180</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Bras, S.</subfield>
+    <subfield code="h">Deniau, H.</subfield>
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Daviller, G.</subfield>
+    <subfield code="t">Development of compressible large-eddy simulations combining high-order schemes and wall modeling</subfield>
+    <subfield code="p">AIAA Aviation 21st AIAA/CEAS Aeroacoustics Conference, 22–26 June, Dallas, TX, 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA Paper 2015-3135</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.10.042</subfield>
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">de Cacqueray, N.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="t">A shock-capturing methodology based on adaptative spatial filtering for high-order non-linear computations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1447</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramboer, J.</subfield>
+    <subfield code="h">Broeckhoven, T.</subfield>
+    <subfield code="h">Smirnov, S.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="t">Optimization of time integration schemes coupled to spatial discretization for use in CAA applications</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,213,777</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sengupta, T.</subfield>
+    <subfield code="h">Dipankar, A.</subfield>
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="t">Error dynamics: beyond von Neumann analysis</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sengupta, T.</subfield>
+    <subfield code="t">High Accuracy Computing Methods: Fluid Flows and Wave Phenomena</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Axelsson, O.</subfield>
+    <subfield code="t">Iterative Solution Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.</subfield>
+    <subfield code="h">Van Loan, C.</subfield>
+    <subfield code="t">Matrix Computations</subfield>
+    <subfield code="p">Johns Hopkins University Press Baltimore, MD, USA</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/meca/2013056</subfield>
+    <subfield code="h">Cambier, L.</subfield>
+    <subfield code="h">Heib, S.</subfield>
+    <subfield code="h">Plot, S.</subfield>
+    <subfield code="t">The Onera elsA CFD software: input from research and feedback from industry</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Mech.Ind.,14,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.03.027</subfield>
+    <subfield code="h">Fosso Pouangué, A.</subfield>
+    <subfield code="h">Deniau, H.</subfield>
+    <subfield code="h">Sicot, F.</subfield>
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="t">Curvilinear finite-volume schemes using high-order compact interpolation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5090</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="h">Juvé, D.</subfield>
+    <subfield code="t">Computation of flow noise using source terms in linearized Euler's equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">AIAA J.,40,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cassagne, A.</subfield>
+    <subfield code="h">Boussuge, J.-F.</subfield>
+    <subfield code="h">Villedieu, N.</subfield>
+    <subfield code="h">Puigt, G.</subfield>
+    <subfield code="h">D'Ast, I.</subfield>
+    <subfield code="h">Genot, A.</subfield>
+    <subfield code="t">JAGUAR: a new CFD code dedicated to massively parallel high-order LES computations on complex geometry</subfield>
+    <subfield code="p">50th 3AF International Conference on Applied Aerodynamics, Toulouse, France, 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cassagne, A.</subfield>
+    <subfield code="h">Puigt, G.</subfield>
+    <subfield code="h">Boussuge, J.</subfield>
+    <subfield code="t">High-Order Method for a New Generation of Large Eddy Simulation Solver</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Tech. Rep., Partnership for Advanced Computing in Europe (PRACE), available online at</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A proof of the stability of the spectral difference method for all orders of accuracy</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Sci.Comput.,45,348</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00053/S0021999117301468/S0021999117301468.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

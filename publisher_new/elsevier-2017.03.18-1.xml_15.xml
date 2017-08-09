@@ -1,0 +1,478 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.026</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Tschisgale, Silvio</subfield>
+    <subfield code="v">Institut für Strömungsmechanik, Technische Universität Dresden, George-Bähr Str. 3c, Dresden, 01062, Germany</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A non-iterative immersed boundary method for spherical particles of arbitrary density ratio</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper an immersed boundary method with semi-implicit fluid-solid coupling for mobile particles of arbitrary density ratio is developed. The new scheme does not require any iterations to balance fluid forces and particle forces at the interface. A new formulation of the particle equations of motion is proposed which not only accounts for the particle itself but also for a Lagrangian layer surrounding the particle surface. Furthermore, it is shown by analytical considerations that the six equations for the linear and angular velocity of the spherical particle decouple which allows their sequential solution. On this basis a new time integration scheme is obtained which is unconditionally stable for all fluid-solid density ratios and enables large time steps, with Courant numbers around unity. The new scheme is extensively validated for various test cases and its convergence is assessed. An appealing issue is that compared to existing immersed boundary methods the new scheme only alters coefficients in the particle equations and the order of the steps, making it easy to implement in present codes with explicit coupling. This substantially extends the field of application of such methods.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Immersed boundary method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Semi-implicit forcing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Light particle</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kempe, Tobias</subfield>
+    <subfield code="v">Institut für Strömungsmechanik, Technische Universität Dresden, George-Bähr Str. 3c, Dresden, 01062, Germany</subfield>
+    <subfield code="v">Institut für Luft- und Kältetechnik gGmbH Dresden, Bertolt-Brecht-Allee 20, Dresden, 01309, Germany</subfield>
+    <subfield code="m">tobias.kempe@ilkdresden.de</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fröhlich, Jochen</subfield>
+    <subfield code="v">Institut für Strömungsmechanik, Technische Universität Dresden, George-Bähr Str. 3c, Dresden, 01062, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Aland, S. Schwarz, J. Fröhlich, and A. Voigt</subfield>
+    <subfield code="m">Modeling and numerical approximations for bubbles in liquid metal</subfield>
+    <subfield code="s">Eur.Phys.J.ST,220,185-194</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Bagchi and S. Balachandar</subfield>
+    <subfield code="m">Effect of free rotation on the motion of a solid sphere in linear shear flow at moderate Re</subfield>
+    <subfield code="s">Phys.Fluids,14,2719-2737</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W.-P. Breugem</subfield>
+    <subfield code="m">A second-order accurate immersed boundary method for fully resolved simulations of particle-laden flows</subfield>
+    <subfield code="s">J.Comput.Phys.,231,4469-4498</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Burman and M. A. Fernández</subfield>
+    <subfield code="m">Stabilization of explicit coupling in fluid-structure interaction involving fluid incompressibility. Comput. Meth. Appl. Mech. Eng., 198:766 - 784</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Dušek</subfield>
+    <subfield code="m">Reference data, private communication</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. A. Fadlun, R. Verzicco, P. Orlandi, and J. Mohd-Yusof</subfield>
+    <subfield code="m">Combined immmersed-boundary finite-difference methods for three-dimensional complex flow simulations</subfield>
+    <subfield code="s">J.Comput.Phys.,161,35-60</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Farassat</subfield>
+    <subfield code="m">Introduction to generalized functions with applications in aerodynamics and aeroacoustics. NASA Technical Paper 3428 (Hampton, Virginia: NASA Langley Research Center)</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. A. Fernández, J.-F. Gerbeau, and C. Grandmont</subfield>
+    <subfield code="m">A projection algorithm for fluid-structure interaction problems with strong added-mass effect. C.R. Math 342:279 - 284</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. H. Ferzinger and M. Peric</subfield>
+    <subfield code="m">Computational Methods for Fluid Dynamics Verlag</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Francois, E. Uzgoren, J. Jackson, and W. Shyy</subfield>
+    <subfield code="m">Multigrid computations with the immersed boundary technique for multiphase flows. Int. J Numer. Methods Heat Fluid, 14:98-115</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Fröhlich, S. Schwarz, S. Heitkam, C. Santarelli, C. Zhang, T. Vogt, S. Boden, A. Andruszkiewicz, K. Eckert, and S. Odenbach</subfield>
+    <subfield code="m">Influence of magnetic fields on the behavior of bubbles in liquid metals. The</subfield>
+    <subfield code="s">Eur.Phys.J.ST,220,167-183</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Guidoboni, R. Glowinski, N. Cavallini, and S. Canic</subfield>
+    <subfield code="m">Stable loosely-coupled-type algorithm for fluid-structure interaction in blood flow</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6916-6937</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. H. Harlow and J. E. Welch</subfield>
+    <subfield code="m">Numerical calculation of time-dependent viscous incompressible flow of fluid with free surface</subfield>
+    <subfield code="s">Phys.Fluids,8,2182-2189</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Heitkam, W. Drenckhan, and J. Fröhlich</subfield>
+    <subfield code="m">Packing spheres tightly: influence of mechanical stability on close-packed sphere structures</subfield>
+    <subfield code="s">Phys.Rev.Lett.,108,148302</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Höfler and S. Schwarzer</subfield>
+    <subfield code="m">Navier-Stokes simulation with constraint forces: finite-difference method for particle-laden flows and complex geometries</subfield>
+    <subfield code="s">Phys.Rev.Lett.,2,7146-7160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Jenny</subfield>
+    <subfield code="m">and Dušek. Efficient numerical method for the direct numerical simulation of the flow past a single light moving spherical body in transitional regimes</subfield>
+    <subfield code="s">J.Comput.Phys.,194,215-232</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Jenny and G. Dušek</subfield>
+    <subfield code="m">J.and Bouchet. Instabilities and transition of a sphere falling or ascending freely in a newtonian fluid</subfield>
+    <subfield code="s">J.Fluid Mech.,508,201-239</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kajishima and S. Takiguchi</subfield>
+    <subfield code="m">Interaction between particle clusters and particle-induced turbulence. Int. J Heat Fluid Flow, 23:639-646</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kajishima, S. Takiguchi, H. Hamasaki, and Y. Miyake</subfield>
+    <subfield code="m">Turbulence structure of particle-laden flow in a vertical plane channel due to vortex shedding. JSME Int J., Ser. B 44:526-535</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kempe and J. Fröhlich</subfield>
+    <subfield code="m">Collision modelling for the interface-resolved simulation of spherical particles in viscous fluids</subfield>
+    <subfield code="s">J.Fluid Mech.,709,445-489</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kempe and J. Fröhlich</subfield>
+    <subfield code="m">An improved immersed boundary method with direct forcing for the simulation of particle laden flows</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3663-3684</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kempe, M. Lennartz, S. Schwarz, and J. Fröhlich</subfield>
+    <subfield code="m">Imposing the free-slip condition with a continuous forcing immersed boundary method</subfield>
+    <subfield code="s">J.Comput.Phys.,282,183-209</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Kempe, B. Vowinckel, and J. Fröhlich</subfield>
+    <subfield code="m">On the relevance of collision modeling for interface-resolving simulations of sediment transport in open channel flow. Int. J Multiphase Flow, 58:214-235</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Kim, D. Kim, and H. Choi</subfield>
+    <subfield code="m">An immersed-boundary finite-volume method for simulations of flow in complex geometries</subfield>
+    <subfield code="s">J.Comput.Phys.,171,132-150</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. T. Layton</subfield>
+    <subfield code="m">An efficient numerical method for the two-fluid stokes equations with a moving immersed boundary</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,2147-2155</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Leopardi</subfield>
+    <subfield code="m">A partition of the unit sphere into regions of equal area and small diameter. Electron. Trans. Numer. Anal., 25:309-327</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Z. Li and K. Ito</subfield>
+    <subfield code="m">The Immersed Interface Method: Numerical Solutions of PDEs Involving Interfaces and Irregular Domains. Society for Industrial Mathematics</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Meier, G. Yadigaroglu, and B. L. Smith</subfield>
+    <subfield code="m">A novel technique for including surface tension in PLIC-VOF methods</subfield>
+    <subfield code="s">Eur.J.Mech.B Fluids,B21,61-73</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Mittal and G. Iaccarino</subfield>
+    <subfield code="m">Immersed boundary methods</subfield>
+    <subfield code="s">Ann.Rev.Fluid Mech.,37,239-261</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Mohd-Yusof</subfield>
+    <subfield code="m">Combined immersed boundary /B-Spline method for simulations of flows in complex geometries. Center for Turbulence Research. Annual Research Briefs. NASA Ames / Stanford University, pages 317-327</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">N. Mordant and J.-F. Pinton</subfield>
+    <subfield code="m">Velocity measurement of a settling sphere</subfield>
+    <subfield code="s">Eur.Phys.J.,B18,343-352</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Onural</subfield>
+    <subfield code="m">Impulse functions over curves and surfaces and their applications to diffraction</subfield>
+    <subfield code="s">J.Math.Anal.Appl.,322,18-27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Osher and R. P. Fedkiw</subfield>
+    <subfield code="m">Level set methods: An overview and some recent results</subfield>
+    <subfield code="s">J.Comput.Phys.,169,463-502</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ch Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="h">S. Peskin</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220-252</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ch The immersed boundary method</subfield>
+    <subfield code="h">S. Peskin</subfield>
+    <subfield code="s">Acta Numer.,11,479-517</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ch Improved volume conservation in the computation of flows with immersed elastic boundaries</subfield>
+    <subfield code="h">S. Peskin and B. F. Printz</subfield>
+    <subfield code="s">J.Comput.Phys.,105,33-46</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Prosperetti and G. Tryggvason</subfield>
+    <subfield code="m">Computational Methods for Multiphase Flow. Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. M. Roma</subfield>
+    <subfield code="m">Ch. S. Peskin, and M. J. Berger An adaptive version of the immersed boundary method</subfield>
+    <subfield code="s">J.Comput.Phys.,153,509-534</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Santarelli and J. Fröhlich</subfield>
+    <subfield code="m">On the pair correlation function in a bubble swarm</subfield>
+    <subfield code="s">Kerntech.,1,50-51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Santarelli, S. Schwarz, and J. Fröhlich</subfield>
+    <subfield code="m">Numerical simulation of light ellipsoidal particles in vertical turbulent channel flow. 8th ICMF International Conference on Multiphase Flow, Jeju, Korea</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Scardovelli and S. Zaleski</subfield>
+    <subfield code="m">Direct numerical simulation of free-surface and interfacial flow</subfield>
+    <subfield code="s">Ann.Rev.Fluid Mech.,31,567-603</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schwarz and J. Fröhlich</subfield>
+    <subfield code="m">Representation of deformable bubbles by analytically defined shapes in an immersed boundary method. Proceedings ICNAAM, American Institute of Physics Conference Series, T.E. Simos, G.Psihoyios, C.Tsitouras and Z. Anastassi (eds.) 1479:104-108</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schwarz and J. Fröhlich</subfield>
+    <subfield code="m">Simulation of a bubble chain in a container of high aspect ratio exposed to a magnetic field. The</subfield>
+    <subfield code="s">Eur.Phys.J.ST,220,195-205</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schwarz and J. Fröhlich</subfield>
+    <subfield code="m">Numerical study of single bubble motion in liquid metal exposed to a longitudinal magnetic field. Int. J Multiphase Flow, 62:134 - 151</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schwarz, T. Kempe, and J. Fröhlich</subfield>
+    <subfield code="m">A temporal discretization scheme to compute the motion of light particles in viscous flows by an immersed boundary method</subfield>
+    <subfield code="s">J.Comput.Phys.,281,591-613</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Schwarz, T. Kempe, and J. Fröhlich</subfield>
+    <subfield code="m">An immersed boundary method for the simulation of bubbles with varying shape</subfield>
+    <subfield code="s">J.Comput.Phys.,315,124-149</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Sotiropoulos and X. Yang</subfield>
+    <subfield code="m">Immersed boundary methods for simulating fluid structure interaction. Prog. Aerosp</subfield>
+    <subfield code="s">Science,65,1-21</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Sussman, E. Fatemi, P. Smereka, and S. Osher</subfield>
+    <subfield code="m">An improved level set method for incompressible two-phase flows. Comput. Fluids, 27:663 - 680</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Tryggvason, R. Scardovelli, and S. Zaleski</subfield>
+    <subfield code="m">Direct Numerical Simulations of Gas-Liquid Multiphase Flows. Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Uhlmann</subfield>
+    <subfield code="m">An immersed boundary method with direct forcing for the simulation of particulate flows</subfield>
+    <subfield code="s">J.Comput.Phys.,209,448-476</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Uhlmann and J. Dušek</subfield>
+    <subfield code="m">The motion of a single heavy sphere in ambient fluid: a benchmark for interface-resolved particulate flow simulations with significant relative velocities. Int. J Multiphase Flow, 59:221 - 243</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Vowinckel, T. Kempe, and J. Fröhlich</subfield>
+    <subfield code="m">Fluid-particle interaction in turbulent open channel flow with fully-resolved mobile beds. Adv. Water Resour., 72:32-44</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Vowinckel, T. Kempe, J. Fröhlich, and V.I. Nikora</subfield>
+    <subfield code="m">Numerical simulation of sediment transport in open channel flow. In Murillo, R., editor River Flow, pages 507-514</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Yang, X. Zhang, Z. Li, and G.-W. He</subfield>
+    <subfield code="m">A smoothing technique for discrete delta functions with application to immersed boundary method in moving boundary simulations</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7821-7836</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302218/S0021999117302218.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

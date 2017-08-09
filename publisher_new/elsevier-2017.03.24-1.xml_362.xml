@@ -1,0 +1,550 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.050</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Xia, Jianlin</subfield>
+    <subfield code="j">ORCID:0000-0002-9653-9312</subfield>
+    <subfield code="v">Department of Mathematics, Purdue University, West Lafayette, IN, 47907, USA</subfield>
+    <subfield code="m">xiaj@math.purdue.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Effective matrix-free preconditioning for the augmented immersed interface method</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present effective and efficient matrix-free preconditioning techniques for the augmented immersed interface method (AIIM). AIIM has been developed recently and is shown to be very effective for interface problems and problems on irregular domains. GMRES is often used to solve for the augmented variable(s) associated with a Schur complement A in AIIM that is defined along the interface or the irregular boundary. The efficiency of AIIM relies on how quickly the system for A can be solved. For some applications, there are substantial difficulties involved, such as the slow convergence of GMRES (particularly for free boundary and moving interface problems), and the inconvenience in finding a preconditioner (due to the situation that only the products of A and vectors are available). Here, we propose matrix-free structured preconditioning techniques for AIIM via adaptive randomized sampling, using only the products of A and vectors to construct a hierarchically semiseparable matrix approximation to A . Several improvements over existing schemes are shown so as to enhance the efficiency and also avoid potential instability. The significance of the preconditioners includes: (1) they do not require the entries of A or the multiplication of <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="bold">A</mi></mrow><mrow><mi>T</mi></mrow></msup></math> with vectors; (2) constructing the preconditioners needs only <math altimg="si2.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi mathvariant="normal">log</mi><mo>⁡</mo><mi>N</mi><mo stretchy="false">)</mo></math> matrix–vector products and <math altimg="si3.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></math> storage, where N is the size of A ; (3) applying the preconditioners needs only <math altimg="si3.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></math> flops; (4) they are very flexible and do not require any a priori knowledge of the structure of A . The preconditioners are observed to significantly accelerate the convergence of GMRES, with heuristical justifications of the effectiveness. Comprehensive tests on several important applications are provided, such as Navier–Stokes equations on irregular domains with traction boundary conditions, interface problems in incompressible flows, mixed boundary problems, and free boundary problems. The preconditioning techniques are also useful for several other problems and methods.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Augmented immersed interface method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Schur complement system</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GMRES</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Matrix-free preconditioning</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hierarchically semiseparable structure</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive randomized compression</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Zhilin</subfield>
+    <subfield code="v">Center for Research in Scientific Computation, Department of Mathematics, North Carolina State University, Raleigh, NC, 27695, USA</subfield>
+    <subfield code="m">zhilin@math.ncsu.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ye, Xin</subfield>
+    <subfield code="j">ORCID:0000-0002-9550-4687</subfield>
+    <subfield code="v">Department of Mathematics, Purdue University, West Lafayette, IN, 47907, USA</subfield>
+    <subfield code="m">ye83@purdue.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">295-312</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Glaz, H.M.</subfield>
+    <subfield code="t">A second-order projection method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,85,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bellavia, S.</subfield>
+    <subfield code="h">Gondzio, J.</subfield>
+    <subfield code="h">Morini, B.</subfield>
+    <subfield code="t">A matrix-free preconditioner for sparse symmetric positive definite systems and least-squares problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benzi, M.</subfield>
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Liesen, J.</subfield>
+    <subfield code="t">Numerical solution of saddle point problems</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Acta Numer.,14,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cullum, J.</subfield>
+    <subfield code="h">Tůma, M.</subfield>
+    <subfield code="t">Matrix-free preconditioning using partial matrix estimation</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">BIT Numer.Math.,46,711</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Borne, S.</subfield>
+    <subfield code="h">Grasedyck, L.</subfield>
+    <subfield code="t"><math altimg="si226.gif" display="inline" overflow="scroll"><mi mathvariant="script">H</mi></math> -matrix preconditioners in convection-dominated problems</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,27,1172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandrasekaran, S.</subfield>
+    <subfield code="h">Dewilde, P.</subfield>
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Pals, T.</subfield>
+    <subfield code="t">A fast ULV decomposition solver for hierarchically semiseparable representations</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,28,603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duintjer Tebbens, J.</subfield>
+    <subfield code="h">Tůma, M.</subfield>
+    <subfield code="t">Preconditioner updates for solving sequences of linear systems in matrix-free environment</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,17,997</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Sweeping preconditioner for the Helmholtz equation: hierarchical matrix representation</subfield>
+    <subfield code="v">LXIV</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Pure Appl.Math.,LXIV,0697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giraud, L.</subfield>
+    <subfield code="h">Haidar, A.</subfield>
+    <subfield code="t">Parallel algebraic hybrid solvers for large 3D convection–diffusion problems</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Numer.Algorithms,51,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gondzio, J.</subfield>
+    <subfield code="t">Matrix-free interior point method</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Optim.Appl.,51,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grasedyck, L.</subfield>
+    <subfield code="h">Kriemann, R.</subfield>
+    <subfield code="h">Le Borne, S.</subfield>
+    <subfield code="t">Parallel black box <math altimg="si226.gif" display="inline" overflow="scroll"><mi mathvariant="script">H</mi></math> -LU preconditioning for elliptic boundary value problems</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Vis.Sci.,11,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greenbaum, A.</subfield>
+    <subfield code="h">Pták, V.</subfield>
+    <subfield code="h">Strakoš, Z.</subfield>
+    <subfield code="t">Any nonincreasing convergence curve is possible for GMRES</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,17,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Eisenstat, S.C.</subfield>
+    <subfield code="t">Efficient algorithms for computing a strong-rank revealing QR factorization</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,17,848</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Li, X.S.</subfield>
+    <subfield code="h">Vassilevski, P.S.</subfield>
+    <subfield code="t">Direction-preserving and Schur-monotonic semiseparable approximations of symmetric positive definite matrices</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,31,2650</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Halko, N.</subfield>
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Tropp, J.</subfield>
+    <subfield code="t">Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM Rev.,53,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="t">A hybrid method for moving interface problems with application to the Hele–Shaw flow</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,134,236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hunter, J.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="t">Autophobic spreading of drops</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,183,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, R.</subfield>
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Divide and conquer low-rank preconditioners for symmetric matrices</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A2069</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="t">A fast iterative algorithm for elliptic interface problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,230</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.05.003</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Cai, Q.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="h">Luo, R.</subfield>
+    <subfield code="t">A semi-implicit augmented IIM for Navier–Stokes equations with open and traction boundary conditions</subfield>
+    <subfield code="v">297</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="t">The Immersed Interface Method – Numerical Solutions of PDEs Involving Interfaces and Irregular Domains, SIAM Frontier Series in Applied Mathematics, vol. FR33</subfield>
+    <subfield code="v">vol. FR33</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="t">An augmented approach for Stokes equations with a discontinuous viscosity and singular forces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Fluids,36,622</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="h">He, G.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="t">An augmented method for free boundary problems with moving contact lines</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,39,1033</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="t">New finite difference methods based on IIM for inextensible interfaces in incompressible flows</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">ESIAM Appl.Math.,1,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Z. Li, H. Mikayelyan</subfield>
+    <subfield code="m">Fine numerical analysis of the crack-tip position for a Mumford-Shah minimizer, submitted for publication</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="t">A numerical study of electro-migration voiding by evolving level set functions on a fixed Cartesian grid</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,152,281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liberty, E.</subfield>
+    <subfield code="h">Woolfe, F.</subfield>
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="h">Tygert, M.</subfield>
+    <subfield code="t">Randomized algorithms for the low-rank approximation of matrices</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,104,20167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, L.</subfield>
+    <subfield code="h">Lu, J.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Fast construction of hierarchical matrix representation from matrix–vector multiplication</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, J.</subfield>
+    <subfield code="t">Open and traction boundary conditions for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">de Hoop, M.V.</subfield>
+    <subfield code="t">Parallel randomized and matrix-free direct solvers for large structured dense linear systems</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lukšan, L.</subfield>
+    <subfield code="h">Vlček, Jan</subfield>
+    <subfield code="t">Efficient tridiagonal preconditioner for the matrix-free truncated Newton method</subfield>
+    <subfield code="v">235</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Appl.Math.Comput.,235,394</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="t">A fast randomized algorithm for computing a hierarchically semiseparable representation of a matrix</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,32,1251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pan, V.Y.</subfield>
+    <subfield code="h">Ivolgin, D.</subfield>
+    <subfield code="h">Murphy, B.</subfield>
+    <subfield code="h">Rosholt, R.E.</subfield>
+    <subfield code="h">Tang, Y.</subfield>
+    <subfield code="h">Yan, X.</subfield>
+    <subfield code="t">Additive preconditioning for matrix computations</subfield>
+    <subfield code="v">432</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Linear Algebra Appl.,432,1070</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pan, V.Y.</subfield>
+    <subfield code="h">Qian, G.</subfield>
+    <subfield code="t">Randomized preprocessing of homogeneous linear systems of equations</subfield>
+    <subfield code="v">432</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Linear Algebra Appl.,432,3272</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">The immersed boundary method</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Acta Numer.,11,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Polizzi, E.</subfield>
+    <subfield code="h">Sameh, A.H.</subfield>
+    <subfield code="t">A parallel hybrid banded system solver: the SPIKE algorithm</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Parallel Comput.,32,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vecharynski, E.</subfield>
+    <subfield code="h">Langou, J.</subfield>
+    <subfield code="t">Any admissible cycle-convergence behavior is possible for restarted GMRES at its initial cycles</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,18,499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vogel, J.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Cauley, S.</subfield>
+    <subfield code="h">Balakrishnan, V.</subfield>
+    <subfield code="t">Superfast divide-and-conquer method and perturbation analysis for structured eigenvalue solutions</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woolfe, F.</subfield>
+    <subfield code="h">Liberty, E.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="h">Tygert, M.</subfield>
+    <subfield code="t">A fast randomized algorithm for approximation of matrices</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,25,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, G.</subfield>
+    <subfield code="h">Xu, W.</subfield>
+    <subfield code="h">Zhang, Y.</subfield>
+    <subfield code="h">Wei, Y.</subfield>
+    <subfield code="t">A preconditioned conjugate gradient algorithm for GeneRank with application to microarray data mining</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Data Min.Knowl.Discov.,26,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xi, Y.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Chan, R.</subfield>
+    <subfield code="t">A fast randomized eigensolver with structured LDL factorization update</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,35,974</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="t">On the complexity of some hierarchical structured matrix algorithms</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,33,388</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="t">Randomized sparse direct solvers</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,34,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="t">Efficient structured multifrontal factorization for general large sparse matrices</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A832</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Chandrasekaran, S.</subfield>
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Li, X.S.</subfield>
+    <subfield code="t">Fast algorithms for hierarchically semiseparable matrices</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,17,953</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="t">Robust approximate Cholesky factorization of rank-structured symmetric positive definite matrices</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,31,2899</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Xi, Y.</subfield>
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="t">A superfast structured solver for Toeplitz linear systems via randomized sampling</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,33,837</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ying, W.-J.</subfield>
+    <subfield code="h">Henriquez, C.S.</subfield>
+    <subfield code="t">A kernel-free boundary integral method for elliptic boundary value problems</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1046</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006580/S0021999115006580.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,408 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.050</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">D'Elia, Marta</subfield>
+    <subfield code="v">Center for Computing Research, Sandia National Laboratories, MS-1320, Albuquerque, NM, 87185-1320, USA</subfield>
+    <subfield code="m">mdelia@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Optimization-based mesh correction with volume and convexity constraints</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We consider the problem of finding a mesh such that 1) it is the closest, with respect to a suitable metric, to a given source mesh having the same connectivity, and 2) the volumes of its cells match a set of prescribed positive values that are not necessarily equal to the cell volumes in the source mesh. This volume correction problem arises in important simulation contexts, such as satisfying a discrete geometric conservation law and solving transport equations by incremental remapping or similar semi-Lagrangian transport schemes. In this paper we formulate volume correction as a constrained optimization problem in which the distance to the source mesh defines an optimization objective, while the prescribed cell volumes, mesh validity and/or cell convexity specify the constraints. We solve this problem numerically using a sequential quadratic programming (SQP) method whose performance scales with the mesh size. To achieve scalable performance we develop a specialized multigrid-based preconditioner for optimality systems that arise in the application of the SQP method to the volume correction problem. Numerical examples illustrate the importance of volume correction, and showcase the accuracy, robustness and scalability of our approach.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lagrangian motion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Incremental remap</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Semi-Lagrangian transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Departure volume correction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Volume fraction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Passive tracer transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ridzal, Denis</subfield>
+    <subfield code="v">Center for Computing Research, Sandia National Laboratories, MS-1320, Albuquerque, NM, 87185-1320, USA</subfield>
+    <subfield code="m">dridzal@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Peterson, Kara J.</subfield>
+    <subfield code="v">Center for Computing Research, Sandia National Laboratories, MS-1320, Albuquerque, NM, 87185-1320, USA</subfield>
+    <subfield code="m">kjpeter@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bochev, Pavel</subfield>
+    <subfield code="v">Center for Computing Research, Sandia National Laboratories, MS-1320, Albuquerque, NM, 87185-1320, USA</subfield>
+    <subfield code="m">pbbochev@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shashkov, Mikhail</subfield>
+    <subfield code="v">X-Computational Physics, XCP-4, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+    <subfield code="m">shashkov@lanl.gov</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">455-477</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Campbell, J.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">A compatible Lagrangian hydrodynamics algorithm for unstructured grids</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Selçuk J.Appl.Math.,4,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(74)90051-5</subfield>
+    <subfield code="h">Hirt, C.</subfield>
+    <subfield code="h">Amsden, A.</subfield>
+    <subfield code="h">Cook, J.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian computing method for all flow speeds</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2001.6847</subfield>
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A semi-Lagrangian high-order method for Navier–Stokes equations</subfield>
+    <subfield code="v">172</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,172,658</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1256/qj.02.69</subfield>
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Wood, N.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="t">Slice: a semi-Lagrangian inherently conserving and efficient scheme for transport problems</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,128,2801</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1175/1520-0493(1995)123&lt;1213:AECMRF>2.0.CO;2</subfield>
+    <subfield code="h">Rancic, M.</subfield>
+    <subfield code="t">An efficient, conservative, monotonic remapping for semi-Lagrangian transport algorithms</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Mon.Weather Rev.,123,1213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2000.6465</subfield>
+    <subfield code="h">Dukowicz, J.K.</subfield>
+    <subfield code="h">Baumgardner, J.R.</subfield>
+    <subfield code="t">Incremental remapping as a transport/advection algorithm</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,160,318</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/3.61273</subfield>
+    <subfield code="h">Thomas, P.D.</subfield>
+    <subfield code="h">Lombard, C.K.</subfield>
+    <subfield code="t">Geometric conservation law and its application to flow computations on moving grids</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">AIAA J.,17,1030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/130921738</subfield>
+    <subfield code="h">Heinkenschloss, M.</subfield>
+    <subfield code="h">Ridzal, D.</subfield>
+    <subfield code="t">A matrix-free trust-region SQP method for equality constrained optimization</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Control Optim.,24,1507</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.10.036</subfield>
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="t">A conservative semi-Lagrangian multi-tracer transport scheme (CSLAM) on the cubed-sphere grid</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1401</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7825(94)90218-6</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="t">Godunov type method on non-structured meshes for three-dimensional moving boundary problems</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,113,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7825(96)01028-6</subfield>
+    <subfield code="h">Lesoinne, M.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">Geometric conservation laws for flow problems with moving boundaries and deformable meshes, and their impact on aeroelastic computations</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,134,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0045-7825(00)00173-0</subfield>
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">On the significance of the geometric conservation law for flow computations on moving meshes</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,1467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/040621077</subfield>
+    <subfield code="h">Arbogast, T.</subfield>
+    <subfield code="h">Huang, C.-S.</subfield>
+    <subfield code="t">A fully mass and volume conserving implementation of a characteristic method for transport problems</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,28,2001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.01.009</subfield>
+    <subfield code="h">Arbogast, T.</subfield>
+    <subfield code="h">Huang, C.-S.</subfield>
+    <subfield code="t">A fully conservative Eulerian–Lagrangian method for a convection-diffusion problem in a solenoidal field</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/09077415X</subfield>
+    <subfield code="h">Arbogast, T.</subfield>
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="t">Convergence of a fully conservative volume corrected characteristic method for transport problems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,48,797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s002110050453</subfield>
+    <subfield code="h">Douglas, J.</subfield>
+    <subfield code="h">Huang, C.-S.</subfield>
+    <subfield code="h">Pereira, F.</subfield>
+    <subfield code="t">The modified method of characteristics with adjusted advection</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Numer.Math.,83,353</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2011.01.029</subfield>
+    <subfield code="h">Cossette, J.-F.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">A Monge–Ampère enhancement for semi-Lagrangian methods</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">10th ICFD Conference Series on Numerical Methods for Fluid Dynamics,46,180</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.05.016</subfield>
+    <subfield code="h">Cossette, J.-F.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Charbonneau, P.</subfield>
+    <subfield code="t">The Monge–Ampère trajectory correction for semi-Lagrangian schemes</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,274,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ciarlet, P.</subfield>
+    <subfield code="t">The Finite Element Method for Elliptic Problems, SIAM Classics in Applied Mathematics, </subfield>
+    <subfield code="p">SIAM Philadelphia</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nocedal, J.</subfield>
+    <subfield code="h">Wright, S.J.</subfield>
+    <subfield code="t">Numerical Optimization</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF01940877</subfield>
+    <subfield code="h">Matoušek, J.</subfield>
+    <subfield code="h">Sharir, M.</subfield>
+    <subfield code="h">Welzl, E.</subfield>
+    <subfield code="t">A subexponential bound for linear programming</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Algorithmica,16,498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/08072471X</subfield>
+    <subfield code="h">Curtis, F.</subfield>
+    <subfield code="h">Nocedal, J.</subfield>
+    <subfield code="h">Wächter, A.</subfield>
+    <subfield code="t">A matrix-free algorithm for equality constrained optimization problems with rank-deficient Jacobians</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Control Optim.,20,1224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/060674004</subfield>
+    <subfield code="h">Byrd, R.</subfield>
+    <subfield code="h">Curtis, F.</subfield>
+    <subfield code="h">Nocedal, J.</subfield>
+    <subfield code="t">An inexact SQP method for equality constrained optimization</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Control Optim.,19,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gee, M.</subfield>
+    <subfield code="h">Siefert, C.</subfield>
+    <subfield code="h">Hu, J.</subfield>
+    <subfield code="h">Tuminaro, R.</subfield>
+    <subfield code="h">Sala, M.</subfield>
+    <subfield code="t">ML 5.0 smoothed aggregation user's guide</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">Tech. Rep. SAND2006-2649</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3233/SPR-2012-0355</subfield>
+    <subfield code="h">Heroux, M.A.</subfield>
+    <subfield code="h">Willenbring, J.M.</subfield>
+    <subfield code="t">A new overview of the Trilinos project</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Sci.Program.,20,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/0733033</subfield>
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">High-resolution conservative algorithms for advection in incompressible flow</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,33,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dukowicz, J.</subfield>
+    <subfield code="h">Cline, M.C.</subfield>
+    <subfield code="h">Addessio, F.L.</subfield>
+    <subfield code="t">A general topology Godunov method</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,82,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S1064827599355153</subfield>
+    <subfield code="h">Murphy, M.</subfield>
+    <subfield code="h">Golub, G.</subfield>
+    <subfield code="h">Wathen, A.</subfield>
+    <subfield code="t">A note on preconditioning for indefinite linear systems</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,1969</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leonard, B.P.</subfield>
+    <subfield code="h">Lock, A.P.</subfield>
+    <subfield code="h">MacVean, M.K.</subfield>
+    <subfield code="t">Conservative explicit unrestricted-time-step multidimensional constancy preserving advection schemes</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Mon.Weather Rev.,124,2588</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, S.-J.</subfield>
+    <subfield code="h">Rood, R.B.</subfield>
+    <subfield code="t">Multidimensional flux-form semi-Lagrangian transport schemes</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Mon.Weather Rev.,124,2046</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="t">Atmospheric tracer transport schemes: desirable properties and a semi-Lagrangian view on finite-volume discretizations</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Lauritzen,P.H.</subfield>
+    <subfield code="e">Jablonowski,C.</subfield>
+    <subfield code="e">Taylor,M.A.</subfield>
+    <subfield code="e">Nair,R.D.</subfield>
+    <subfield code="q">Numerical Techniques for Global Atmospheric Models</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X0006X/S0021999116001224/S0021999116001224.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

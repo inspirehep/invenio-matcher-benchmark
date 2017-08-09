@@ -1,0 +1,535 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">grim: A Flexible, Conservative Scheme for Relativistic Fluid Theories</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Hot, diffuse, relativistic plasmas such as sub-Eddington black-hole accretion flows are expected to be collisionless, yet are commonly modeled as a fluid using ideal general relativistic magnetohydrodynamics (GRMHD). Dissipative effects such as heat conduction and viscosity can be important in a collisionless plasma and will potentially alter the dynamics and radiative properties of the flow from that in ideal fluid models, we refer to models that include these processes as Extended GRMHD. Here we describe a new conservative code, grim, that enables all of the above and additional physics to be efficiently incorporated. grim combines time evolution and primitive variable inversion needed for conservative schemes into a single step using an algorithm that only requires the residuals of the governing equations as inputs. This algorithm enables the code to be physics agnostic as well as flexibility regarding time-stepping schemes. grim runs on CPUs, as well as on GPUs, using the same code. We formulate a performance model and use it to show that our implementation runs optimally on both architectures. grim correctly captures classical GRMHD test problems as well as a new suite of linear and nonlinear test problems with anisotropic conduction and viscosity in special and general relativity. As tests and example applications, we resolve the shock substructure due to the presence of dissipation, and report on relativistic versions of the magneto-thermal instability and heat flux driven buoyancy instability, which arise due to anisotropic heat conduction, and of the firehose instability, which occurs due to anisotropic pressure (i.e., viscosity). Finally, we show an example integration of an accretion flow around a Kerr black hole, using Extended GRMHD.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">accretion, accretion disks</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">magnetohydrodynamics</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">plasmas</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">relativistic processes</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">92</subfield>
+  <subfield code="v">837</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/1538-4357/aa5f55</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">21</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-07</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-3927-2850</subfield>
+  <subfield code="a">Chandra, Mani</subfield>
+  <subfield code="v">Department of Astronomy - U. of Illinois - 1110 West Green Street - Urbana - IL - 61801 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Foucart, Francois</subfield>
+  <subfield code="v">Lawrence Berkeley National Laboratory - 1 Cyclotron Road - Berkeley - CA 94720 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0001-7451-8935</subfield>
+  <subfield code="a">Gammie, Charles F.</subfield>
+  <subfield code="v">Department of Astronomy - U. of Illinois - 1110 West Green Street - Urbana - IL - 61801 - USA</subfield>
+  <subfield code="v">Department of Astronomy - U. of Illinois - 1002 West Green Street - Urbana - IL - 61801 - USA</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">First, we take a half step to go from {P}_{n}\to {P}_{n+1/2}, where the index n+1/2 indicates the half time step. The temporal integrals for the fluxes {\partial }_{i}{F}^{i}, for the explicit sources SE, and for the spatial derivative terms in the sources are evaluated explicitly using \int {dt}(.)\,\to ({\rm{\Delta }}t/2){(.)}_{n}, whereas the sources SI are treated implicitly using \int {dt}(.)\to ({\rm{\Delta }}t/2)({(.)}_{n+1/2}+{(.)}_{n}). This leads to the following discrete form \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\displaystyle \frac{U({P}_{n+1/2})-U({P}_{n})}{{\rm{\Delta }}t/2}+\displaystyle \frac{{F}_{\mathrm{right}}^{1}({P}_{n})-{F}_{\mathrm{left}}^{1}({P}_{n})}{{\rm{\Delta }}{X}^{1}}\\ &amp;&amp;\quad +\ldots \,=\,\displaystyle \frac{1}{2}({S}^{I}({P}_{n+1/2})+{S}^{I}({P}_{n}))\\ &amp;&amp;\quad +{S}^{E}({P}_{n})+{A}^{t}({P}_{n})\displaystyle \frac{{P}_{n+1/2}-{P}_{n}}{{\rm{\Delta }}t/2}+{A}^{i}({P}_{n}){\partial }_{i}{P}_{n}\end{eqnarray} \end{align*} \tag{ 12 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Next, we take a full step from {P}_{n}\to {P}_{n+1}. The temporal integrals for {\partial }_{i}{F}^{i}, SE, and {A}^{i}(P){\partial }_{i}P are evaluated using \int {dt}(.)\to {\rm{\Delta }}t{(.)}_{n+1/2}+O({\rm{\Delta }}{t}^{2}). This is performed using {P}_{n+1/2} obtained from the half step. The source terms SI are treated implicitly using \int {dt}(.)\to {\rm{\Delta }}t({(.)}_{n+1}+{(.)}_{n})+O({\rm{\Delta }}{t}^{2})</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\displaystyle \frac{U({P}_{n+1})-U({P}_{n})}{{\rm{\Delta }}t}+\displaystyle \frac{{F}_{\mathrm{right}}^{1}({P}_{n+1/2})-{F}_{\mathrm{left}}^{1}({P}_{n+1/2})}{{\rm{\Delta }}{X}^{1}}\\ &amp;&amp;\quad +\ldots \,=\,\displaystyle \frac{1}{2}({S}^{I}({P}_{n+1})+{S}^{I}({P}_{n}))\\ &amp;&amp;\quad +{S}^{E}({P}_{n+1/2})+{A}^{t}({P}_{n+1/2})\displaystyle \frac{{P}_{n+1}-{P}_{n}}{{\rm{\Delta }}t}\\ &amp;&amp;\quad +{A}^{i}({P}_{n+1/2}){\partial }_{i}{P}_{n+1/2}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 13 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Initialize {\lambda }^{k}=1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">If | | R({P}^{k}+{\lambda }^{k}\delta {P}^{k})| | \lt | | R({P}_{k})| | (1-{\epsilon }_{{BT}}{\lambda }^{k}), accept the new guess {P}^{k+1}={P}^{k}+{\lambda }^{k}\delta {P}^{k} for the primitive variables and exit the line search. Otherwise, continue to the computation of a new {\lambda }^{k}. In grim, we set the small parameter {\epsilon }_{{BT}}={10}^{-4}. If this condition is satisfied, we know that the current guess {P}^{k}+{\lambda }^{k}\delta {P}^{k} provides at least some improvement over the previous guess Pk</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Find the new line search parameter {\lambda }_{\mathrm{new}} by minimizing the function \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;f({\lambda }^{k})=| | R({P}^{k}+{\lambda }^{k}\delta {P}^{k})| {| }^{2},\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 24 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} modeling f as a quadratic function of λ and using the fact that {df}/d\lambda [\lambda =0]=-2f(0) (because \delta {P}^{k} is the solution of the linear problem at Pk). We then have \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{\lambda }_{\mathrm{new}}^{k}=\displaystyle \frac{f(0)}{f({\lambda }_{\mathrm{old}}^{k})+(2{\lambda }_{\mathrm{old}}^{k}-1)f(0)}{\lambda }_{\mathrm{old}}^{2}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 25 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} We then set {\lambda }^{k}={\lambda }_{\mathrm{new}}^{k} and go back to the previous step</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">When the temperature decreases outward {dT}/{dz}\lt 0 against gravity in the presence of magnetic field lines that are perpendicular to the temperature gradient,, 14: #apjaa5f55fn10 the plasma is unstable to the magneto-thermal instability (MTI</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Balbus,: #apjaa5f55bib2)</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">When the temperature increases outwards {dT}/{dz}\gt 0 against gravity in the presence of magnetic field lines that are parallel to the temperature gradient,, 15: #apjaa5f55fn11 the plasma is unstable to the heat flux driven buoyancy instability (HBI</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Quataert,: #apjaa5f55bib29)</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">General Relativistic Implicit Magnetohydrodynamics: : hash used in this paper: 70bcd77</subfield>
+  <subfield code="u">http://github.com/afd-illinois/grim</subfield>
+  <subfield code="u">http://github.com/afd-illinois/grim.Commit</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">This is an unconventional definition of source terms, but it allows us to use a notation that is as closely analogous to non-relativistic fluids as possible</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">We are currently testing a version that uses a face-centered formulation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">At present, 75 units tests</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">9</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">www.top500.org:</subfield>
+  <subfield code="u">http://www.top500.org</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">For the exact form of the definitions, please refer to the source code</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">Comparing a single CPU core to an entire GPU is not representative of how CPUs are used in production runs. Using a single core of a CPU leads to bandwidths that are much lower than the peak. In order to saturate the bandwidth, it is necessary to use \gtrsim 50 \% of all available cores</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="m">balbusaur: :</subfield>
+  <subfield code="u">http://bit.ly/2bEGW4l</subfield>
+  <subfield code="u">http://bit.ly/2bEGW4l</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">The limits \chi,\nu \to 0 need to be taken carefully because diffusion coefficients appear in the denominator of the higher order terms (\sim \tilde{q}{{\rm{\nabla }}}_{\mu }{u}^{\mu },{\rm{\Delta }}\tilde{P}{{\rm{\nabla }}}_{\mu }{u}^{\mu }) in (, 39: #apjaa5f55eqn39), and (, 40: #apjaa5f55eqn40), where \tilde{q}\sim q/\sqrt{\chi },{\rm{\Delta }}\tilde{P}\sim {\rm{\Delta }}P/\sqrt{\nu }. To obtain the correct limit, rescale (, 39: #apjaa5f55eqn39) by \sqrt{\chi }, and then take \chi \to 0, leading to q\to 0. The limit {\rm{\Delta }}P\to 0 follows similarly</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">When the field lines are aligned along the negative temperature gradient {dT}/{dz}\lt 0, the system is MTI stable</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">When the field lines are aligned perpendicular to the positive temperature gradient {dT}/{dz}\gt 0, the system is HBI stable</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Balay S., Abhyankar S., Adams M. F. et al.</subfield>
+  <subfield code="m">PETSc :</subfield>
+  <subfield code="u">http://www.mcs.anl.gov/petsc</subfield>
+  <subfield code="u">http://www.mcs.anl.gov/petsc</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Balbus S. A.</subfield>
+  <subfield code="s">Astrophys.J.,534,420</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/308732</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...534..420B</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">502024</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Beckwith K. and Stone J. M.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,193,6</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/193/1/6</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011ApJS..193....6B</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">884770</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Blandford R. D. and Znajek R. L.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,179,433</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/179.3.433</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1977MNRAS.179..433B</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="0">128256</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Braginskii S. I.</subfield>
+  <subfield code="m">RvPP 1 205, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1965RvPP....1..205B</subfield>
+  <subfield code="y">1965</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chandra M., Gammie C. F., Foucart F. and Quataert E.</subfield>
+  <subfield code="s">Astrophys.J.,810,162</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/810/2/162</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...810..162C</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1386458</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Colella P. and Woodward P. R.</subfield>
+  <subfield code="m">JCoPh 54 174, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1016/0021-9991(84)90143-8</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1984JCoPh..54..174C</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="0">180307</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Eckart C.</subfield>
+  <subfield code="s">Phys.Rev.,58,919</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1103/PhysRev.58.919</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1940PhRv...58..919E</subfield>
+  <subfield code="y">1940</subfield>
+  <subfield code="0">41404</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Evans C. R. and Hawley J. F.</subfield>
+  <subfield code="s">Astrophys.J.,332,659</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/166684</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1988ApJ...332..659E</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="0">275673</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Fishbone L. G. and Moncrief V.</subfield>
+  <subfield code="s">Astrophys.J.,207,962</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/154565</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1976ApJ...207..962F</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Foucart F., Chandra M., Gammie C. F. and Quataert E.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,456,1332</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv2687</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.456.1332F</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1404817</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gammie C. F., McKinney J. C. and Tóth G.</subfield>
+  <subfield code="s">Astrophys.J.,589,444</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/374594</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2003ApJ...589..444G</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">612266</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gardiner T. A. and Stone J. M.</subfield>
+  <subfield code="m">JCoPh 205 509, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1016/j.jcp.2004.11.016</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2005JCoPh.205..509G</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">675532</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Harten A., Lax P. and van Leer B.</subfield>
+  <subfield code="m">SIAMR 25 35, Crossref:</subfield>
+  <subfield code="a">doi:10.1137/1025002</subfield>
+  <subfield code="y">1983</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hiscock W. A. and Lindblom L.</subfield>
+  <subfield code="m">AnPhy 151 466, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1016/0003-4916(83)90288-9</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1983AnPhy.151..466H</subfield>
+  <subfield code="y">1983</subfield>
+  <subfield code="0">198985</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hiscock W. A. and Lindblom L.</subfield>
+  <subfield code="s">Phys.Rev.,31,725</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.31.725</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1985PhRvD..31..725H</subfield>
+  <subfield code="y">1985</subfield>
+  <subfield code="0">226699</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hiscock W. A. and Lindblom L.</subfield>
+  <subfield code="m">a PhLA 131 509, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1016/0375-9601(88)90679-2</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1988PhLA..131..509H</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hiscock W. A. and Lindblom L.</subfield>
+  <subfield code="m">b Mathematics and General Relativity, Contemporary Mathematics, Vol. 71 J. A. Isenberg (eds.) (Providence, RI: American Mathematical Society)</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Israel W. and Stewart J. M.</subfield>
+  <subfield code="m">AnPhy 118 341, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1016/0003-4916(79)90130-1</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1979AnPhy.118..341I</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="0">143160</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Jiang G.-S. and Shu C.-W.</subfield>
+  <subfield code="m">JCoPh 126 202, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1006/jcph.1996.0130</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996JCoPh.126..202J</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Komissarov S. S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,303,343</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.1999.02244.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999MNRAS.303..343K</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Liu X.-D., Osher S. and Chan T.</subfield>
+  <subfield code="m">JCoPh 115 200, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1006/jcph.1994.1187</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1994JCoPh.115..200L</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mahadevan R. and Quataert E.</subfield>
+  <subfield code="s">Astrophys.J.,490,605</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/304908</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1997ApJ...490..605M</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">443110</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McKinney J. C. and Gammie C. F.</subfield>
+  <subfield code="s">Astrophys.J.,611,977</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/422244</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004ApJ...611..977M</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">649090</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McKinney J. C., Tchekhovskoy A. and Blandford R. D.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,423,3083</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.21074.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012MNRAS.423.3083M</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1085182</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Michel F. C.</subfield>
+  <subfield code="s">Astrophys.Space Sci.,15,153</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/BF00649949</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1972Ap&amp;SS..15..153M</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Mo&amp;sacute</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">cibrodzka M Crossref: ADS:</subfield>
+  <subfield code="h">Gammie C. F., Dolence J. C., Shiokawa H. and Leung P. K.</subfield>
+  <subfield code="s">Astrophys.J.,706,497</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/706/1/497</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ApJ...706..497M</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">832569</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Noble S. C., Gammie C. F., McKinney J. C. and Del Zanna L.</subfield>
+  <subfield code="s">Astrophys.J.,641,626</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/500349</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006ApJ...641..626N</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">700635</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Quataert E.</subfield>
+  <subfield code="s">Astrophys.J.,673,758</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/525248</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...673..758Q</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">765942</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">SageMath,, The Sage Mathematics Software System (Version 7.3), The Sage Developers : ADS:</subfield>
+  <subfield code="u">http://www.sagemath.org</subfield>
+  <subfield code="u">http://www.sagemath.org</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...673..758Q</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sharma P., Quataert E. and Stone J. M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,389,1815</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.13686.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008MNRAS.389.1815S</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">783070</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tchekhovskoy A., Narayan R. and McKinney J. C.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,418,L79</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1745-3933.2011.01147.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.418L..79T</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">921873</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Toro E. F., Spruce M. and Speares W.</subfield>
+  <subfield code="m">ShWav 4 25, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/BF01414629</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1994ShWav...4...25T</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tóth G.</subfield>
+  <subfield code="m">JCoPh 161 605, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1006/jcph.2000.6519</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000JCoPh.161..605T</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Yalamanchili P., Arshad U., Mohammed Z. et al.</subfield>
+  <subfield code="m">ArrayFire: a general purpose GPU library, github :</subfield>
+  <subfield code="u">https://github.com/arrayfire/arrayfire</subfield>
+  <subfield code="u">https://github.com/arrayfire/arrayfire</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Yuan F. and Narayan R.</subfield>
+  <subfield code="s">Ann.Rev.Astron.Astrophys.,52,529</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1146/annurev-astro-082812-141003</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ARA&amp;A..52..529Y</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1275930</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

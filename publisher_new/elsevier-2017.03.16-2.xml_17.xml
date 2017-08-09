@@ -1,0 +1,395 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.055</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Slattery, Stuart R.</subfield>
+    <subfield code="v">Oak Ridge National Laboratory, 1 Bethel Valley Rd., Oak Ridge, TN 37831, USA</subfield>
+    <subfield code="m">slatterysr@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Mesh-free data transfer algorithms for partitioned multiphysics problems: Conservation, accuracy, and parallelism</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we analyze and extend mesh-free algorithms for three-dimensional data transfer problems in partitioned multiphysics simulations. We first provide a direct comparison between a mesh-based weighted residual method using the common-refinement scheme and two mesh-free algorithms leveraging compactly supported radial basis functions: one using a spline interpolation and one using a moving least square reconstruction. Through the comparison we assess both the conservation and accuracy of the data transfer obtained from each of the methods. We do so for a varying set of geometries with and without curvature and sharp features and for functions with and without smoothness and with varying gradients. Our results show that the mesh-based and mesh-free algorithms are complementary with cases where each was demonstrated to perform better than the other. We then focus on the mesh-free methods by developing a set of algorithms to parallelize them based on sparse linear algebra techniques. This includes a discussion of fast parallel radius searching in point clouds and restructuring the interpolation algorithms to leverage data structures and linear algebra services designed for large distributed computing environments. The scalability of our new algorithms is demonstrated on a leadership class computing facility using a set of basic scaling studies. These scaling studies show that for problems with reasonable load balance, our new algorithms for both spline interpolation and moving least square reconstruction demonstrate both strong and weak scalability using more than 100,000 MPI processes with billions of degrees of freedom in the data transfer operation.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Data transfer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphysics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel algorithms</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Moving least square</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spline interpolation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">164-188</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michler, C.</subfield>
+    <subfield code="h">van Brummelen, E.</subfield>
+    <subfield code="h">Hulshoff, S.</subfield>
+    <subfield code="h">de Borst, R.</subfield>
+    <subfield code="t">The relevance of conservation for stability and accuracy of numerical methods for fluid–structure interaction</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,192,4195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cebral, J.R.</subfield>
+    <subfield code="h">Lohner, R.</subfield>
+    <subfield code="t">Conservative load projection and tracking for fluid–structure problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">AIAA J.,35,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Lesoinne, M.</subfield>
+    <subfield code="h">LeTallec, P.</subfield>
+    <subfield code="t">Load and motion transfer algorithms for fluid/structure interaction problems with non-matching discrete interfaces: momentum and energy conservation, optimal discretization and application to aeroelasticity</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,157,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Heath, M.T.</subfield>
+    <subfield code="t">Common-refinement-based data transfer between non-matching mesh in multiphysics simulation</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,61,2402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farrell, P.</subfield>
+    <subfield code="h">Piggott, M.</subfield>
+    <subfield code="h">Pain, C.</subfield>
+    <subfield code="h">Gorman, G.</subfield>
+    <subfield code="h">Wilson, C.</subfield>
+    <subfield code="t">Conservative interpolation between unstructured meshes via supermesh construction</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,198,2632</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jain, A.</subfield>
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="t">Overlaying surface meshes: extension and parallelization</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="e">Brewer,M.</subfield>
+    <subfield code="e">Marcum,D.</subfield>
+    <subfield code="q">Proceedings of the 16th International Meshing Roundtable</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beckert, A.</subfield>
+    <subfield code="h">Wendland, H.</subfield>
+    <subfield code="t">Multivariate interpolation for fluid–structure-interaction problems using radial basis functions</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Aerosp.Sci.Technol.,5,125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quaranta, G.</subfield>
+    <subfield code="h">Masarati, P.</subfield>
+    <subfield code="h">Mantegazza, P.</subfield>
+    <subfield code="t">A conservative mesh-free approach for fluid–structure interface problems</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="q">Int. Conf. on Computational Methods for Coupled Problems in Science and Engineering</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rendall, T.</subfield>
+    <subfield code="h">Allen, C.</subfield>
+    <subfield code="t">Unified fluid–structure interpolation and mesh motion using radial basis functions</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,74,1519</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rendall, T.</subfield>
+    <subfield code="h">Allen, C.</subfield>
+    <subfield code="t">Improved radial basis function fluid–structure coupling via efficient localized implementation</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,78,1188</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Costin, W.</subfield>
+    <subfield code="h">Allen, C.</subfield>
+    <subfield code="t">Radial basis function interpolation for data transfer across a mesh interface</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">20th AIAA Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rendall, T.</subfield>
+    <subfield code="h">Allen, C.</subfield>
+    <subfield code="t">Evaluation of RBFs for volume data interpolation in CFD</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,72,748</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cordero-Gracia, M.</subfield>
+    <subfield code="h">Gomez, M.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">A radial basis function algorithm for simplified fluid–structure data transfer</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Boer, H.B.A.</subfield>
+    <subfield code="h">van Zuijlen, A.H.</subfield>
+    <subfield code="t">Review of coupling methods for non-matching meshes</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,196,1515</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaiman, R.</subfield>
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Geubelle, P.</subfield>
+    <subfield code="h">Loth, E.</subfield>
+    <subfield code="t">Assessment of conservative load transfer for fluid–solid interface with non-matching meshes</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,64,2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaiman, R.</subfield>
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Geubelle, P.</subfield>
+    <subfield code="h">Loth, E.</subfield>
+    <subfield code="t">Conservative load transfer along curved fluid–solid interface with non-matching meshes</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,218,372</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, R.</subfield>
+    <subfield code="h">Hansen, G.</subfield>
+    <subfield code="h">Newman, C.</subfield>
+    <subfield code="t">The role of data transfer on the selection of a single vs. multiple mesh architecture for tightly coupled multiphysics applications</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Appl.Math.Comput.,217,8943</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wellmer, G.</subfield>
+    <subfield code="h">Reimer, L.</subfield>
+    <subfield code="h">Flister, H.</subfield>
+    <subfield code="h">Behr, M.</subfield>
+    <subfield code="h">Ballmann, J.</subfield>
+    <subfield code="t">A comparison of fluid/structure coupling methods for reduced structural models</subfield>
+    <subfield code="v">vol. 122</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Management &amp; Minimization of Uncertainty &amp; Errors,vol. 122,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yokota, R.</subfield>
+    <subfield code="h">Barba, L.</subfield>
+    <subfield code="h">Knepley, M.</subfield>
+    <subfield code="t">PetRBF – a parallel <math altimg="si118.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></math> algorithm for radial basis function interpolation with Gaussians</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,1793</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cuomo, S.</subfield>
+    <subfield code="h">Galletti, A.</subfield>
+    <subfield code="h">Giunta, G.</subfield>
+    <subfield code="h">Starace, A.</subfield>
+    <subfield code="t">Surface reconstruction from scattered point via RBF interpolation on GPU</subfield>
+    <subfield code="p">2013 Federated Conference on Computer Science and Information Systems, FedCSIS, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cordero-Gracia, M.</subfield>
+    <subfield code="h">Gomez, M.</subfield>
+    <subfield code="h">Ponsin, J.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">An interpolation tool for aerodynamic mesh deformation problems based on octree decomposition</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Aerosp.Sci.Technol.,23,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Heath, M.T.</subfield>
+    <subfield code="t">Overlaying surface meshes, Part I: Algorithms</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Int.J.Comput.Geom.Appl.,14,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Heath, M.T.</subfield>
+    <subfield code="t">Overlaying surface meshes, Part II: Topology preservation and feature matching</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Comput.Geom.Appl.,14,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buhmann, M.</subfield>
+    <subfield code="t">Radial basis functions</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Acta Numer.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahrem, R.</subfield>
+    <subfield code="h">Beckert, A.</subfield>
+    <subfield code="h">Wendland, H.</subfield>
+    <subfield code="t">A meshless spatial coupling scheme for large-scale fluid–structure-interaction problems</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Model.Eng.Sci.,12,121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bentley, J.</subfield>
+    <subfield code="t">Multidimensional binary search trees used for associative searching</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Commun.ACM,18,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heroux, M.A.</subfield>
+    <subfield code="h">Bartlett, R.A.</subfield>
+    <subfield code="h">Howle, V.E.</subfield>
+    <subfield code="h">Hoekstra, R.J.</subfield>
+    <subfield code="h">Hu, J.J.</subfield>
+    <subfield code="h">Kolda, T.G.</subfield>
+    <subfield code="h">Lehoucq, R.B.</subfield>
+    <subfield code="h">Long, K.R.</subfield>
+    <subfield code="h">Pawlowski, R.P.</subfield>
+    <subfield code="h">Phipps, E.T.</subfield>
+    <subfield code="h">Salinger, A.G.</subfield>
+    <subfield code="h">Thornquist, H.K.</subfield>
+    <subfield code="h">Tuminaro, R.S.</subfield>
+    <subfield code="h">Willenbring, J.M.</subfield>
+    <subfield code="h">Williams, A.</subfield>
+    <subfield code="h">Stanley, K.S.</subfield>
+    <subfield code="t">An overview of the Trilinos project</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,31,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="t">GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, E.</subfield>
+    <subfield code="h">Bai, Z.</subfield>
+    <subfield code="h">Bischof, C.</subfield>
+    <subfield code="h">Blackford, S.</subfield>
+    <subfield code="h">Demmel, J.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="h">Du Croz, J.</subfield>
+    <subfield code="h">Greenbaum, A.</subfield>
+    <subfield code="h">Hammarling, S.</subfield>
+    <subfield code="h">McKenney, A.</subfield>
+    <subfield code="h">Sorensen, D.</subfield>
+    <subfield code="t">LAPACK Users' Guide</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics Philadelphia, PA</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Forum, M.P.</subfield>
+    <subfield code="t">MPI: a message-passing interface standard</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="m">Tech. rep., Knoxville, TN, USA</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Slattery, S.</subfield>
+    <subfield code="h">Wilson, P.</subfield>
+    <subfield code="h">Pawlowski, R.</subfield>
+    <subfield code="t">The Data Transfer Kit: a geometric rendezvous-based tool for multiphysics data transfer</subfield>
+    <subfield code="p">International Conference on Mathematics &amp; Computational Methods Applied to Nuclear Science &amp; Engineering, M&amp;C; 2013, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">DataTransferKit GitHub website</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keyes, D.E.</subfield>
+    <subfield code="t">How scalable is domain decomposition in practice?</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="q">Proceedings of the 11th International Conference on Domain Decomposition Methods</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00246/S0021999115008037/S0021999115008037.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

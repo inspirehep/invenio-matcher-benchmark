@@ -1,0 +1,656 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.077</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Saye, R.I.</subfield>
+    <subfield code="v">Lawrence Berkeley National Laboratory and Department of Mathematics, University of California, Berkeley, Berkeley, CA 94720, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Multiscale modelling of evolving foams</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">29</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a set of multi-scale interlinked algorithms to model the dynamics of evolving foams. These algorithms couple the key effects of macroscopic bubble rearrangement, thin film drainage, and membrane rupture. For each of the mechanisms, we construct consistent and accurate algorithms, and couple them together to work across the wide range of space and time scales that occur in foam dynamics. These algorithms include second order finite difference projection methods for computing incompressible fluid flow on the macroscale, second order finite element methods to solve thin film drainage equations in the lamellae and Plateau borders, multiphase Voronoi Implicit Interface Methods to track interconnected membrane boundaries and capture topological changes, and Lagrangian particle methods for conservative liquid redistribution during rearrangement and rupture. We derive a full set of numerical approximations that are coupled via interface jump conditions and flux boundary conditions, and show convergence for the individual mechanisms. We demonstrate our approach by computing a variety of foam dynamics, including coupled evolution of three-dimensional bubble clusters attached to an anchored membrane and collapse of a foam cluster.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Foams</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Voronoi Implicit Interface Methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale multiphysics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interface dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bubbles</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Thin-film equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sethian, J.A.</subfield>
+    <subfield code="v">Lawrence Berkeley National Laboratory and Department of Mathematics, University of California, Berkeley, Berkeley, CA 94720, United States</subfield>
+    <subfield code="m">sethian@math.berkeley.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">273-301</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1995.1098</subfield>
+    <subfield code="h">Adalsteinsson, D.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">A fast level set method for propagating interfaces</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,118,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(02)00057-8</subfield>
+    <subfield code="h">Adalsteinsson, David</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Transport and diffusion of material quantities on propagating interfaces via level set methods</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,185,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1998.6090</subfield>
+    <subfield code="h">Adalsteinsson, David</subfield>
+    <subfield code="h">Sethian, James A.</subfield>
+    <subfield code="t">The fast construction of extension velocities in level set methods</subfield>
+    <subfield code="v">148</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,148,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1998.5890</subfield>
+    <subfield code="h">Almgren, Ann S.</subfield>
+    <subfield code="h">Bell, John B.</subfield>
+    <subfield code="h">Colella, Phillip</subfield>
+    <subfield code="h">Howell, Louis H.</subfield>
+    <subfield code="h">Welcome, Michael L.</subfield>
+    <subfield code="t">A conservative adaptive projection method for the variable density incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,142,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/B:APOM.0000034537.55985.44</subfield>
+    <subfield code="h">Becker, Jürgen</subfield>
+    <subfield code="h">Grün, Günther</subfield>
+    <subfield code="h">Lenz, Martin</subfield>
+    <subfield code="h">Rumpf, Martin</subfield>
+    <subfield code="t">Numerical methods for fourth order nonlinear degenerate diffusion problems</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Appl.Math.,47,517</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2001.6937</subfield>
+    <subfield code="h">Bertalmio, Marcelo</subfield>
+    <subfield code="h">Cheng, Li-Tien</subfield>
+    <subfield code="h">Osher, Stanley</subfield>
+    <subfield code="h">Sapiro, Guillermo</subfield>
+    <subfield code="t">Variational problems and partial differential equations on implicit surfaces</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,174,759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3934/dcds.2011.29.1367</subfield>
+    <subfield code="h">Bertozzi, Andrea L.</subfield>
+    <subfield code="h">Ju, Ning</subfield>
+    <subfield code="h">Lu, Hsiang-Weir</subfield>
+    <subfield code="t">A biharmonic-modified forward time stepping method for fourth order nonlinear diffusion equations</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Discrete Contin.Dyn.Syst.,29,1367</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nature09069</subfield>
+    <subfield code="h">Bird, J.C.</subfield>
+    <subfield code="h">de Ruiter, R.</subfield>
+    <subfield code="h">Courbin, L.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Daughter bubble cascades produced by folding of ruptured thin films</subfield>
+    <subfield code="v">465</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Nature,465,759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(92)90240-Y</subfield>
+    <subfield code="h">Brackbill, J.U.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="h">Zemach, C.</subfield>
+    <subfield code="t">A continuum method for modeling surface tension</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,100,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10586458.1992.10504253</subfield>
+    <subfield code="h">Brakke, K.</subfield>
+    <subfield code="t">The Surface Evolver</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Exp.Math.,1,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112002007930</subfield>
+    <subfield code="h">Breward, C.J.W.</subfield>
+    <subfield code="h">Howell, P.D.</subfield>
+    <subfield code="t">The drainage of a foam lamella</subfield>
+    <subfield code="v">458</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Fluid Mech.,458,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1993.1092</subfield>
+    <subfield code="h">Chopp, D.L.</subfield>
+    <subfield code="t">Computing minimal surfaces via level set curvature flow</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,106,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S106482750037617X</subfield>
+    <subfield code="h">Chopp, D.L.</subfield>
+    <subfield code="t">Some improvements of the Fast Marching Method</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,230</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1090/S0025-5718-1968-0242392-2</subfield>
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">Numerical solution of the Navier–Stokes equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Math.Comput.,22,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Douglas, J.</subfield>
+    <subfield code="h">Dupont, T.</subfield>
+    <subfield code="t">Alternating-direction Galerkin methods on rectangles</subfield>
+    <subfield code="p">Numerical Solution of Partial Differential Equations, II (SYNSPADE 1970), Proc. Sympos. Univ. of Maryland, College Park, Md., 1970, 1971</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.97.226101</subfield>
+    <subfield code="h">Durand, M.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Relaxation time of the topological T1 process in a two-dimensional foam</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Rev.Lett.,97,226101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dziuk, G.</subfield>
+    <subfield code="h">Elliott, C.M.</subfield>
+    <subfield code="t">Surface finite elements for parabolic equations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Math.,25,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2005.11.031</subfield>
+    <subfield code="h">Greer, John B.</subfield>
+    <subfield code="h">Bertozzi, Andrea L.</subfield>
+    <subfield code="h">Sapiro, Guillermo</subfield>
+    <subfield code="t">Fourth order partial differential equations on general geometries</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,216,216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s002110000197</subfield>
+    <subfield code="h">Grün, G.</subfield>
+    <subfield code="h">Rumpf, M.</subfield>
+    <subfield code="t">Nonnegativity preserving convergent schemes for the thin film equation</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Numer.Math.,87,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.86.2685</subfield>
+    <subfield code="h">Hilgenfeldt, S.</subfield>
+    <subfield code="h">Kraynik, A.M.</subfield>
+    <subfield code="h">Koehler, S.A.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">An accurate von Neumann's law for three-dimensional foams</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Rev.Lett.,86,2685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A:1022685018867</subfield>
+    <subfield code="h">Howell, P.D.</subfield>
+    <subfield code="t">Surface-tension-driven flow on a moving curved surface</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Eng.Math.,45,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S095679250500625X</subfield>
+    <subfield code="h">Howell, P.D.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">On the absence of marginal pinching in thin free films</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Eur.J.Appl.Math.,16,569</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.03.035</subfield>
+    <subfield code="h">Kim, Yongsam</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">Numerical simulations of two-dimensional foam by the Immersed Boundary Method</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.4208/cicp.181210.080811s</subfield>
+    <subfield code="h">Kim, Yongsam</subfield>
+    <subfield code="h">Seol, Yunchang</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">The immersed boundary method for two-dimensional foam with topological changes</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.82.4232</subfield>
+    <subfield code="h">Koehler, S.A.</subfield>
+    <subfield code="h">Hilgenfeldt, S.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Liquid flow through aqueous foams: the node-dominated foam drainage equation</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Rev.Lett.,82,4232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcis.2003.12.061</subfield>
+    <subfield code="h">Koehler, S.A.</subfield>
+    <subfield code="h">Hilgenfeldt, S.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Foam drainage on the microscale: I. Modeling flow through single Plateau borders</subfield>
+    <subfield code="v">276</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,276,420</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/1367-2630/12/7/073031</subfield>
+    <subfield code="h">Kornek, U.</subfield>
+    <subfield code="h">Müller, F.</subfield>
+    <subfield code="h">Harth, K.</subfield>
+    <subfield code="h">Hahn, A.</subfield>
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="h">Stannarius, R.</subfield>
+    <subfield code="t">Oscillations of soap bubbles</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">New J.Phys.,12,073031</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LuxRender</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nature05745</subfield>
+    <subfield code="h">MacPherson, R.D.</subfield>
+    <subfield code="h">Srolovitz, D.J.</subfield>
+    <subfield code="t">The von Neumann relation generalized to coarsening of three-dimensional microstructures</subfield>
+    <subfield code="v">446</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Nature,446,1053</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112068000832</subfield>
+    <subfield code="h">Miller, C.A.</subfield>
+    <subfield code="h">Scriven, L.E.</subfield>
+    <subfield code="t">The oscillations of a fluid droplet immersed in another fluid</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Fluid Mech.,32,417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1722511</subfield>
+    <subfield code="h">Mullins, W.W.</subfield>
+    <subfield code="t">Two-dimensional motion of idealized grain boundaries</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1956</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Appl.Phys.,27,900</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S003614459529284X</subfield>
+    <subfield code="h">Myers, T.G.</subfield>
+    <subfield code="t">Thin films with high surface tension</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM Rev.,40,441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcis.2001.8176</subfield>
+    <subfield code="h">Nguyen, Anh V.</subfield>
+    <subfield code="t">Liquid drainage in single Plateau borders of foam</subfield>
+    <subfield code="v">249</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,249,194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/RevModPhys.69.931</subfield>
+    <subfield code="h">Oron, A.</subfield>
+    <subfield code="h">Davis, S.H.</subfield>
+    <subfield code="h">Bankoff, S.G.</subfield>
+    <subfield code="t">Long-scale evolution of thin liquid films</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Rev.Mod.Phys.,69,931</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(88)90002-2</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Fronts propagating with curvature-dependent speed: algorithms based on Hamilton–Jacobi formulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S0036144503429121</subfield>
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="t">A simple mesh generator in Matlab</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM Rev.,46,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plateau, J.</subfield>
+    <subfield code="t">Statique expérimentale et théorique des liquides soumis aux seules forces moléculaires</subfield>
+    <subfield code="p">Gauthier-Villars, Trubner et cie Paris, France</subfield>
+    <subfield code="y">1873</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Polthier, Konrad</subfield>
+    <subfield code="t">Computational aspects of discrete minimal surfaces</subfield>
+    <subfield code="p">American Mathematical Society</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="e">Hoffman,D.</subfield>
+    <subfield code="q">Global Theory of Minimal Surfaces, Proceedings of the Clay Mathematics Institute 2001 Summer School</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.98.244501</subfield>
+    <subfield code="h">Ritacco, Hernán</subfield>
+    <subfield code="h">Kiefer, Flavien</subfield>
+    <subfield code="h">Langevin, Dominique</subfield>
+    <subfield code="t">Lifetime of bubble rafts: cooperativity and avalanches</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Rev.Lett.,98,244501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00366-013-0335-9</subfield>
+    <subfield code="h">Saye, R.I.</subfield>
+    <subfield code="t">An algorithm to mesh interconnected surfaces via the Voronoi interface</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Eng.Comput.,31,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2140/camcos.2014.9.107</subfield>
+    <subfield code="h">Saye, R.I.</subfield>
+    <subfield code="t">High-order methods for computing distances to implicitly defined surfaces</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,9,107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.1111557108</subfield>
+    <subfield code="h">Saye, R.I.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">The Voronoi Implicit Interface Method for computing multiphase physics</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.,108,19498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2012.04.004</subfield>
+    <subfield code="h">Saye, R.I.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Analysis and applications of the Voronoi Implicit Interface Method</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6051</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1126/science.1230623</subfield>
+    <subfield code="h">Saye, R.I.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Multiscale modeling of membrane rearrangement, drainage, and rupture in evolving foams</subfield>
+    <subfield code="v">340</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Science,340,720</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saye, Robert</subfield>
+    <subfield code="t">The Voronoi Implicit Interface Method with applications to multiphase fluid flow and multiscale modelling of foam dynamics</subfield>
+    <subfield code="p">University of California Berkeley</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.93.4.1591</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">A fast marching level set method for monotonically advancing fronts</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.,93,1591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Level Set Methods and Fast Marching Methods: Evolving Interfaces in Geometry, Fluid Mechanics, Computer Vision, and Materials Sciences</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.03.001</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="h">Shan, Ying</subfield>
+    <subfield code="t">Solving partial differential equations on irregular domains with moving interfaces, with applications to superconformal electrodeposition in semiconductor manufacturing</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,227,6411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fluid.35.101101.161105</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="h">Smereka, Peter</subfield>
+    <subfield code="t">Level set methods for fluid interfaces</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,35,341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.857686</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">A simple derivation of the time-dependent convective-diffusion equation for surfactant transport along a deforming interface</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Fluids,A2,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1998.6106</subfield>
+    <subfield code="h">Sussman, Mark</subfield>
+    <subfield code="h">Almgren, Ann S.</subfield>
+    <subfield code="h">Bell, John B.</subfield>
+    <subfield code="h">Colella, Phillip</subfield>
+    <subfield code="h">Howell, Louis H.</subfield>
+    <subfield code="h">Welcome, Michael L.</subfield>
+    <subfield code="t">An adaptive level set approach for incompressible two-phase flows</subfield>
+    <subfield code="v">148</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,148,81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1994.1155</subfield>
+    <subfield code="h">Sussman, Mark</subfield>
+    <subfield code="h">Smereka, Peter</subfield>
+    <subfield code="h">Osher, Stanley</subfield>
+    <subfield code="t">A level set approach for computing solutions to incompressible two-phase flow</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,114,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.64.021507</subfield>
+    <subfield code="h">Vandewalle, N.</subfield>
+    <subfield code="h">Lentz, J.F.</subfield>
+    <subfield code="t">Cascades of popping bubbles along air/foam interfaces</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Phys.Rev.,E64,021507</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.86.179</subfield>
+    <subfield code="h">Vandewalle, N.</subfield>
+    <subfield code="h">Lentz, J.F.</subfield>
+    <subfield code="h">Dorbolo, S.</subfield>
+    <subfield code="h">Brisbois, F.</subfield>
+    <subfield code="t">Avalanches of popping bubbles in collapsing foams</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Phys.Rev.Lett.,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">von Neumann, J.</subfield>
+    <subfield code="t">Metal Interfaces</subfield>
+    <subfield code="p">Cleveland: American Society for Metals</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="e">Herring,C.</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcis.2006.03.023</subfield>
+    <subfield code="h">Wang, Zebin</subfield>
+    <subfield code="h">Narsimhan, Ganesan</subfield>
+    <subfield code="t">Model for Plateau border drainage of power-law fluid with mobile interface and its application to foam drainage</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,300,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weaire, D.L.</subfield>
+    <subfield code="h">Hutzler, S.</subfield>
+    <subfield code="t">The Physics of Foams</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S0036142998335698</subfield>
+    <subfield code="h">Zhornitskaya, L.</subfield>
+    <subfield code="h">Bertozzi, A.L.</subfield>
+    <subfield code="t">Positivity-preserving numerical schemes for lubrication-type equations</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,523</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300158/S0021999116300158.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

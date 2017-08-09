@@ -1,0 +1,348 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.055</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jiang, Lijian</subfield>
+    <subfield code="v">Institute of Mathematics, Hunan University, Changsha, 410082, China</subfield>
+    <subfield code="m">ljjiang@hnu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Model's sparse representation based on reduced mixed GMsFE basis methods</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-04</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper, we propose a model's sparse representation based on reduced mixed generalized multiscale finite element (GMsFE) basis methods for elliptic PDEs with random inputs. A typical application for the elliptic PDEs is the flow in heterogeneous random porous media. Mixed generalized multiscale finite element method (GMsFEM) is one of the accurate and efficient approaches to solve the flow problem in a coarse grid and obtain the velocity with local mass conservation. When the inputs of the PDEs are parameterized by the random variables, the GMsFE basis functions usually depend on the random parameters. This leads to a large number degree of freedoms for the mixed GMsFEM and substantially impacts on the computation efficiency. In order to overcome the difficulty, we develop reduced mixed GMsFE basis methods such that the multiscale basis functions are independent of the random parameters and span a low-dimensional space. To this end, a greedy algorithm is used to find a set of optimal samples from a training set scattered in the parameter space. Reduced mixed GMsFE basis functions are constructed based on the optimal samples using two optimal sampling strategies: basis-oriented cross-validation and proper orthogonal decomposition. Although the dimension of the space spanned by the reduced mixed GMsFE basis functions is much smaller than the dimension of the original full order model, the online computation still depends on the number of coarse degree of freedoms. To significantly improve the online computation, we integrate the reduced mixed GMsFE basis methods with sparse tensor approximation and obtain a sparse representation for the model's outputs. The sparse representation is very efficient for evaluating the model's outputs for many instances of parameters. To illustrate the efficacy of the proposed methods, we present a few numerical examples for elliptic PDEs with multsicale and random inputs. In particular, a two-phase flow model in random porous media is simulated by the proposed sparse representation method.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mixed generalized multiscale finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Basis-oriented cross-validation method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Least-squares method of snapshots</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sparse tensor approximation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Qiuqi</subfield>
+    <subfield code="v">College of Mathematics and Econometrics, Hunan University, Changsha, 410082, China</subfield>
+    <subfield code="m">qiuqili@hnu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Aarnes, Y. Efendiev and L. Jiang</subfield>
+    <subfield code="m">Mixed multiscale finite element methods using limited global information, Multiscale Modeling and Simulation, 7 , pp. 655-676</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Allaire and R. Brizzi</subfield>
+    <subfield code="m">A multiscale finite element method for numerical homogennization, Multiscale Modelling and Simulation, 4 , pp. 790-812</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Arbogast and K. J. Boyd</subfield>
+    <subfield code="m">Subgrid upscaling and mixed multiscale finite elements</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,44,1150-1171</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Arbogast, G. Pencheva, M.F. Wheeler, and I. Yotov</subfield>
+    <subfield code="m">A multiscale mortar mixed finite element method, Multiscale Modelling and Simulation, 6 , pp. 319-346</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Beylkin and M. Mohlenkamp</subfield>
+    <subfield code="m">Algorithms for numerical analysis in high dimensions</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,2133-2159</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Buffa, Y. Maday, A. Patera, C. Prud'homme, and G. Turinici</subfield>
+    <subfield code="m">A priori convergence of the greedy algorithm for the parametrized reduced basis method, ESAIM: Mathematical Modelling and Numerical</subfield>
+    <subfield code="s">Analysis,46,595-603</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Chen, J.S. Hesthaven, Y. Maday, and J. Rodríguez</subfield>
+    <subfield code="m">Certified reduced basis methods and output bounds for the harmonic Maxwell's equations</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,970-996</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Z. Chen and T. Hou</subfield>
+    <subfield code="m">A mixed multiscale finite element method for elliptic problems with oscillating coefficients</subfield>
+    <subfield code="s">Math.Comput.,72,541-576</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Chevreuil, R. Lebrun, A. Nouy, and P. Rai</subfield>
+    <subfield code="m">A least-squares method for sparse low rank approximation of multivariate functions /ASA Journal on Uncertainty Quantification, 3 , pp. 897-921</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Chinesta, P. Ladeveze, and E. Cueto</subfield>
+    <subfield code="m">A short review on model order reduction based on proper generalized decomposition, Arch. Comput. Methods Eng, 18 , pp. 395-404</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Christie and M. Blunt</subfield>
+    <subfield code="m">Tenth SPE comparative solution project: A comparison of upscaling techniques, SPE Reser. Eval. Eng., 4 , pp. 308-317</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Chung, Y. Efendiev, and C. Lee</subfield>
+    <subfield code="m">Mixed generalized multiscale finite element methods and applications, Multiscale Modelling and Simulation, 13 , pp. 338-366</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Doostan and G. Iaccarino</subfield>
+    <subfield code="m">A least-squares approximation of partial differential equations with high-dimensional random inputs</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4332-4345</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Doostan, G. Iaccarino, and N. Etemadi</subfield>
+    <subfield code="m">A least-squares approximation of high-dimensional uncertain systems, Annual Research Briefs, Center for Turbulence Research, Stanford University, , pp. 121-132</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Dostert, Y. Efendiev, and T. Hou</subfield>
+    <subfield code="m">Multiscale finite element methods for stochastic porous media flow equations and application to uncertainty quantification, Comput. Methods Appl. Mech. Engrg. 197 , pp. 3445-3455</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">W. E and B. Engquist, The heterogeneous multi-scale methods, Comm</subfield>
+    <subfield code="s">Math.Sci.,1,87-133</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Efendiev, J. Galvis, and T.Y. Hou</subfield>
+    <subfield code="m">Generalized multiscale finite element methods (gmsfem)</subfield>
+    <subfield code="s">J.Comput.Phys.,251,116-135</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Efendiev, J. Galvis, and F. Thomines</subfield>
+    <subfield code="m">A systematic coarse-scale model reduction technique for parameter-dependent flows in highly heterogeneous media and its applications, Multiscale Modelling and Simulation, 10 , pp. 1317-1343</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Efendiev and T. Hou</subfield>
+    <subfield code="m">Multiscale finite element methods: Theory and Applications Science and Business Media</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Eftang, M. Grepl, and A. Patera</subfield>
+    <subfield code="m">A posteriori error bounds for the empirical interpolation method</subfield>
+    <subfield code="s">Compt.Rend.Math.,348,575-579</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Elad</subfield>
+    <subfield code="m">Sparse and redundant representations: from theory to applications in signal and image processing</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Gao, X. Tan, and E. Chung</subfield>
+    <subfield code="m">Application of the generalized multiscale finite element method in parameter-dependent PDE simulations with a variable-separation technique</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,300,183-191</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. L. Gerner and K. Veroy</subfield>
+    <subfield code="m">Certified reduced basis methods for parametrized saddle point problems</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,A2812-A2836</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. González, A. Ammar, F. Chinesta, and E. Cueto</subfield>
+    <subfield code="m">Recent advances on the use of separated representations, Int. J Numer. Meth. Engng, 81 , pp. 637-661</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Handler, K. Housiadas, and A. Beris</subfield>
+    <subfield code="m">Karhunen-loeve representations of turbulent channel flows using the method of snapshots</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Fluids,52,1339-1360</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Hellman, P.Henning and A. Målqvist</subfield>
+    <subfield code="m">Multiscale mixed finite elements, DCDS-S, 9 , pp. 1269-1298</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Hughes, G. Feijoo, L. Mazzei, and J. Quincy</subfield>
+    <subfield code="m">The variational multiscale method - a paradigm for computational mechanics, Comput. Methods Appl. Mech. Engrg, 166 , pp. 3-24</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Huynh, G. Rozza, S. Sen, and A. Patera</subfield>
+    <subfield code="m">A successive constraint linear optimization method for lower bounds of parametric coercivity and inf-sup stability constants</subfield>
+    <subfield code="s">Compt.Rend.Math.,345,473-478</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Jiang, I. Mishev, and Y. Li</subfield>
+    <subfield code="m">Stochastic mixed multiscale finite element methods and their applications in random porous media, Comput. Methods Appl. Mech. Engrg. 199 , pp. 2721-2741</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Jiang and Q. Li</subfield>
+    <subfield code="m">Reduced multiscale finite element basis methods for elliptic pdes with parameterized inputs</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,301,101-120</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Jiang and M. Presho</subfield>
+    <subfield code="m">A resourceful splitting technique with applications to deterministic and stochastic multiscale finite element methods, Multiscale Modelling and Simulation, 10 , pp. 954-985</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Loeve</subfield>
+    <subfield code="m">Probability theory</subfield>
+    <subfield code="s">Grad.Texts Math.,46,0-387</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">N. Nguyen</subfield>
+    <subfield code="m">A multiscale reduced-basis method for parametrized elliptic partial differential equations with multiple scales</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9807-9822</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Quarteroni, G. Rozza, and A. Manzoni</subfield>
+    <subfield code="m">Certified reduced basis approximation for parametrized partial differential equations and applications, Journal of Mathematics in Industry, 1 , pp. 1-49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Rozza, D. Huynh, and A. Patera</subfield>
+    <subfield code="m">Reduced basis approximation and a posteriori error estimation for affinely parametrized elliptic coercive partial differential equations, Arch Comput Methods Eng. 15 , pp. 229-275</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">I. Rish, and G. Grabarnik</subfield>
+    <subfield code="m">Sparse modeling: theory, algorithms, and applications, CRC Press</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W. Schilders</subfield>
+    <subfield code="m">H. van der Vorst, and J. Rommes, Model Order Reduction: Theory, Research Aspects and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Tropp and A. Gilbert</subfield>
+    <subfield code="m">Signal recovery from random measurements via orthogonal matching pursuit, Information Theory Transactions on. 53 , pp. 4655-4666</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301584/S0021999117301584.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,426 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.040</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Amritkar, Amit</subfield>
+    <subfield code="j">ORCID:0000-0002-3779-8541</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Virginia Tech, United States</subfield>
+    <subfield code="v">Department of Mathematics, Virginia Tech, United States</subfield>
+    <subfield code="m">amritkar@vt.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Recycling Krylov subspaces for CFD applications and a new hybrid recycling solver</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">16</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We focus on robust and efficient iterative solvers for the pressure Poisson equation in incompressible Navier–Stokes problems. Preconditioned Krylov subspace methods are popular for these problems, with BiCGStab and GMRES(m) most frequently used for nonsymmetric systems. BiCGStab is popular because it has cheap iterations, but it may fail for stiff problems, especially early on as the initial guess is far from the solution. Restarted GMRES is better, more robust, in this phase, but restarting may lead to very slow convergence. Therefore, we evaluate the rGCROT method for these systems. This method recycles a selected subspace of the search space (called recycle space) after a restart. This generally improves the convergence drastically compared with GMRES(m). Recycling subspaces is also advantageous for subsequent linear systems, if the matrix changes slowly or is constant. However, rGCROT iterations are still expensive in memory and computation time compared with those of BiCGStab. Hence, we propose a new, hybrid approach that combines the cheap iterations of BiCGStab with the robustness of rGCROT. For the first few time steps the algorithm uses rGCROT and builds an effective recycle space, and then it recycles that space in the rBiCGStab solver.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Linear solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Krylov subspace recycling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">CFD</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Preconditioner</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Recycling GCROT</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Recycling BiCGStab</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">de Sturler, Eric</subfield>
+    <subfield code="v">Department of Mathematics, Virginia Tech, United States</subfield>
+    <subfield code="m">sturler@vt.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Świrydowicz, Katarzyna</subfield>
+    <subfield code="v">Department of Mathematics, Virginia Tech, United States</subfield>
+    <subfield code="m">kswirydo@vt.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Tafti, Danesh</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Virginia Tech, United States</subfield>
+    <subfield code="m">dtafti@exchange.vt.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ahuja, Kapil</subfield>
+    <subfield code="v">Computer Science and Engineering, IIT, Indore, India</subfield>
+    <subfield code="m">kahuja@iiti.ac.in</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">222-237</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, S.</subfield>
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="h">Paulino, G.H.</subfield>
+    <subfield code="t">Large-scale topology optimization using preconditioned Krylov subspace methods with recycling</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,69,2441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barrett, R.</subfield>
+    <subfield code="h">Berry, M.</subfield>
+    <subfield code="h">Chan, T.F.</subfield>
+    <subfield code="h">Demmel, J.</subfield>
+    <subfield code="h">Donato, J.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="h">Eijkhout, V.</subfield>
+    <subfield code="h">Pozo, R.</subfield>
+    <subfield code="h">Romine, C.</subfield>
+    <subfield code="h">van der Vorst, H.A.</subfield>
+    <subfield code="t">Templates for the Solution of Linear Systems: Building Blocks for Iterative Methods</subfield>
+    <subfield code="p">SIAM Philadelphia, PA</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parks, M.L.</subfield>
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="h">Mackey, G.</subfield>
+    <subfield code="h">Johnson, D.D.</subfield>
+    <subfield code="h">Maiti, S.</subfield>
+    <subfield code="t">Recycling Krylov subspaces for sequences of linear systems</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,28,1651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="t">Nested Krylov methods based on GCR</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,67,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="t">Inner-outer methods with deflation for linear systems with multiple right-hand sides</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Proceedings of the Householder Symposium on Numerical Algebra</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, R.B.</subfield>
+    <subfield code="t">GMRES with deflated restarting</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="t">Truncation strategies for optimal Krylov subspace methods</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,36,864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahuja, K.</subfield>
+    <subfield code="h">Benner, P.</subfield>
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="h">Feng, L.</subfield>
+    <subfield code="r">http://arxiv.org/abs/1406.2831</subfield>
+    <subfield code="t">Recycling BiCGStab with an application to parametric model order reduction</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press, available from</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hicken, J.E.</subfield>
+    <subfield code="h">Zingg, D.W.</subfield>
+    <subfield code="t">A simplified and flexible variant of GCROT for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,1672</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hicken, J.</subfield>
+    <subfield code="h">Osusky, M.</subfield>
+    <subfield code="h">Zingg, D.</subfield>
+    <subfield code="t">Comparison of parallel preconditioners for a Newton–Krylov flow solver</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="e">Kuzmin,A.</subfield>
+    <subfield code="q">Computational Fluid Dynamics 2010</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leung, T.M.</subfield>
+    <subfield code="h">Zingg, D.W.</subfield>
+    <subfield code="t">Aerodynamic shape optimization of wings using a parallel Newton–Krylov approach</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">AIAA J.,50,540</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Lucas, P.</subfield>
+    <subfield code="h">van Gijzen, M.</subfield>
+    <subfield code="h">Bijl, H.</subfield>
+    <subfield code="t">A general algorithm for reusing Krylov subspace information. I. Unsteady Navier–Stokes</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">NASA/Technical Memorandum 2010-216190</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Niu, Q.</subfield>
+    <subfield code="h">Lu, L.-Z.</subfield>
+    <subfield code="h">Liu, G.</subfield>
+    <subfield code="t">Accelerated GCRO-DR method for solving sequences of systems of linear equations</subfield>
+    <subfield code="v">253</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,253,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meng, J.</subfield>
+    <subfield code="h">Zhu, P.-Y.</subfield>
+    <subfield code="h">Li, H.-B.</subfield>
+    <subfield code="t">A block method for linear systems with multiple right-hand sides</subfield>
+    <subfield code="v">255</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,255,544</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mohamed, K.</subfield>
+    <subfield code="h">Nadarajah, S.</subfield>
+    <subfield code="h">Paraschivoiu, M.</subfield>
+    <subfield code="t">Krylov recycling techniques for unsteady simulation of turbulent aerodynamic flows</subfield>
+    <subfield code="p">26th International Congress of the Aeronautical Sciences, Anchorage, Alaska, 2008</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">GenIDLEST – A Scalable Parallel Computational Tool for Simulating Complex Turbulent Flows</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">New York 10016–5990</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="h">Vanka, S.P.</subfield>
+    <subfield code="t">A numerical study of the effects of spanwise rotation on turbulent channel flow</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Fluids A: Fluid Dyn.(1989–1993),3,642</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">Time-accurate techniques for turbulent heat transfer analysis in complex geometries</subfield>
+    <subfield code="p">Southampton, UK: WIT</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Amano,R.S.</subfield>
+    <subfield code="e">Sundén,B.</subfield>
+    <subfield code="q">Computational Fluid Dynamics and Heat Transfer: Emerging Topics</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gopalakrishnan, P.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">A parallel boundary fitted dynamic mesh solver for applications to flapping flight</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Fluids,38,1592</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amritkar, A.R.</subfield>
+    <subfield code="h">Deb, S.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">Efficient parallel CFD-DEM simulations using OpenMP</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,256,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nagendra, K.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="h">Viswanath, K.</subfield>
+    <subfield code="t">A new approach for conjugate heat transfer problems using immersed boundary method for curvilinear grid based solvers</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,267,225</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gopalakrishnan, P.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">Effect of wing flexibility on lift and thrust production in flapping flight</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">AIAA J.,48,865</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amritkar, A.R.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="h">Liu, R.</subfield>
+    <subfield code="h">Kufrin, R.</subfield>
+    <subfield code="h">Chapman, B.</subfield>
+    <subfield code="t">OpenMP parallelism for fluid and fluid–particulate systems</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Parallel Comput.,38,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amritkar, A.</subfield>
+    <subfield code="h">Tafti, D.</subfield>
+    <subfield code="t">Computational fluid dynamics computations using a preconditioned Krylov solver on graphical processing units</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Fluids Eng.,138,011402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">Performance enhancement on microprocessors with hierarchical memory systems for solving large sparse linear systems</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.,13,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amritkar, A.R.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">CFD computations using a preconditioned Krylov solver on GPUs</subfield>
+    <subfield code="p">American Society of Mechanical Engineers</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">ASME 2014 4th Joint US–Europe Fluids Engineering Division Summer Meeting and the 12th International Conference on Nanochannels, Microchannels, and Minichannels</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">Uniprocessor performance enhancement with additive Schwarz preconditioners on Origin 2000</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Adv.Eng.Softw.,29,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Świrydowicz, K.</subfield>
+    <subfield code="h">de Sturler, E.</subfield>
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Xu, X.</subfield>
+    <subfield code="t">Efficient solvers and preconditioners for CFD applications on GPUs</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in preparation</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Parallel Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="t">GMRES: A generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnoldi, W.E.</subfield>
+    <subfield code="t">The principle of minimized iterations in the solution of the matrix eigenvalue problem</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1951</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Q.Appl.Math.,9,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simoncini, V.</subfield>
+    <subfield code="h">Szyld, D.B.</subfield>
+    <subfield code="t">Interpreting IDR as a Petrov–Galerkin method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,1898</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vorst, H.A.</subfield>
+    <subfield code="t">BI-CGSTAB: a fast and smoothly converging variant of BI-CG for the solution of nonsymmetric linear systems</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,13,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahuja, K.</subfield>
+    <subfield code="t">Recycling Krylov subspaces and preconditioners</subfield>
+    <subfield code="p">Virginia Tech, Adviser: Eric de Sturler</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moser, R.D.</subfield>
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Mansour, N.N.</subfield>
+    <subfield code="t">Direct numerical simulation of turbulent channel flow up to <math altimg="si79.gif" display="inline" overflow="scroll"><mrow><mi mathvariant="normal">Re</mi></mrow><mo>=</mo><mn>590</mn></math></subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Fluids,11,943</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006336/S0021999115006336.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

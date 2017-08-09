@@ -1,0 +1,556 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.028</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Do, Seongju</subfield>
+    <subfield code="v">Department of Mathematical Sciences, Seoul National University, Seoul, 151-747, Republic of Korea</subfield>
+    <subfield code="m">dsj@snu.ac.kr</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Wavelet-based adaptation methodology combined with finite difference WENO to solve ideal magnetohydrodynamics</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper, we present an accurate and efficient wavelet-based adaptive weighted essentially non-oscillatory (WENO) scheme for hydrodynamics and ideal magnetohydrodynamics (MHD) equations arising from the hyperbolic conservation systems. The proposed method works with the finite difference weighted essentially non-oscillatory (FD-WENO) method in space and the third order total variation diminishing (TVD) Runge–Kutta (RK) method in time. The philosophy of this work is to use the lifted interpolating wavelets as not only detector for singularities but also interpolator. Especially, flexible interpolations can be performed by an inverse wavelet transformation. When the divergence cleaning method introducing auxiliary scalar field ψ is applied to the base numerical schemes for imposing divergence-free condition to the magnetic field in a MHD equation, the approximations to derivatives of ψ require the neighboring points. Moreover, the fifth order WENO interpolation requires large stencil to reconstruct high order polynomial. In such cases, an efficient interpolation method is necessary. The adaptive spatial differentiation method is considered as well as the adaptation of grid resolutions. In order to avoid the heavy computation of FD-WENO, in the smooth regions fixed stencil approximation without computing the non-linear WENO weights is used, and the characteristic decomposition method is replaced by a component-wise approach. Numerical results demonstrate that with the adaptive method we are able to resolve the solutions that agree well with the solution of the corresponding fine grid.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wavelet</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">WENO</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hyperbolic conservation laws</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Ideal MHD equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Euler equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Haojun</subfield>
+    <subfield code="v">School of Materials, Mechanical &amp; Automation Engineering, Yanbian University of Science and Technology, Yanji, Jilin, 133000, People's Republic of China</subfield>
+    <subfield code="m">hjli@yust.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kang, Myungjoo</subfield>
+    <subfield code="v">Department of Mathematical Sciences, Seoul National University, Seoul, 151-747, Republic of Korea</subfield>
+    <subfield code="m">mkang@snu.ac.kr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes, II</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,83,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.-Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">High Order Finite Difference and Finite Volume WENO Schemes and Discontinuous Galerkin Methods for CFD</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">Tech. rep. 2001-11</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Spectral and High Order Methods for Partial Differential Equations</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer-Verlag</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="e">Hesthaven,J.S.</subfield>
+    <subfield code="e">Ronquist,E.M.</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, C.</subfield>
+    <subfield code="h">Qiu, J.-M.</subfield>
+    <subfield code="h">Christlieb, A.</subfield>
+    <subfield code="t">Adaptive mesh refinement based on high order finite difference WENO scheme for multi-scale simulations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,230,3780</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Rumpf, T.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">Efficient, high accuracy ADER-WENO schemes for hydrodynamics and divergence-free magnetohydrodynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2480</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aboiyar, T.</subfield>
+    <subfield code="h">Georgoulis, E.H.</subfield>
+    <subfield code="h">Iske, A.</subfield>
+    <subfield code="t">Adaptive ADER methods using kernel-based polyharmonic spline WENO reconstruction</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,3251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Hidago, A.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">ADER-WENO finite volume schemes with space–time adaptive mesh refinement</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,248,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Bowman, C.</subfield>
+    <subfield code="t">Second-generation wavelet collocation method for the solution of partial differential equations</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,165,660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alves, M.A.</subfield>
+    <subfield code="h">Cruz, P.</subfield>
+    <subfield code="h">Mendes, A.</subfield>
+    <subfield code="h">Magalhaes, F.D.</subfield>
+    <subfield code="h">Pinho, F.T.</subfield>
+    <subfield code="h">Oliveira, P.J.</subfield>
+    <subfield code="t">Adaptive multiresolution approach for solution of hyperbolic PDEs</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,3909</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Solving multi-dimensional evolution problems with localized structures using second generation wavelets</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,17,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Kevlahan, N.K.-R.</subfield>
+    <subfield code="t">An adaptive multilevel wavelet collocation method for elliptic problems</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,206,412</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Regele, J.</subfield>
+    <subfield code="h">Vasilyev, O.</subfield>
+    <subfield code="t">An adaptive wavelet-collocation method for shock computations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,23,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schneider, K.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Wavelet methods in computational fluid dynamics</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,42,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reckinger, S.J.</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Comprehensive numerical methodology for direct numerical simulations of compressible Rayleigh–Taylor instability</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,313,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brio, M.</subfield>
+    <subfield code="h">Wu, C.</subfield>
+    <subfield code="t">An upwind differencing scheme for the equations of ideal magnetohydrodynamics</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,75,400</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, Dinshaw S.</subfield>
+    <subfield code="h">Shu, Chi-Wang</subfield>
+    <subfield code="t">Monotonicity preserving weighted essentially non-oscillatory schemes with increasingly high order of accuracy</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,160,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossmanith, J.A.</subfield>
+    <subfield code="t">A Wave Propagation Method with Constrained Transport for Ideal and Shallow Water Magnetohydrodynamics</subfield>
+    <subfield code="p">University of Washington</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henrick, A.K.</subfield>
+    <subfield code="h">Aslam, T.D.</subfield>
+    <subfield code="h">Powers, J.M.</subfield>
+    <subfield code="t">Mapped weighted essentially non-oscillatory schemes: achieving optimal order near critical points</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,207,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borges, R.</subfield>
+    <subfield code="h">Carmona, M.</subfield>
+    <subfield code="h">Costa, B.</subfield>
+    <subfield code="h">Don, W.S.</subfield>
+    <subfield code="t">An improved weighted essentially non-oscillatory scheme for hyperbolic conservation laws</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.</subfield>
+    <subfield code="h">Costa, B.</subfield>
+    <subfield code="h">Don, W.S.</subfield>
+    <subfield code="t">High order weighted essentially non-oscillatory WENO-Z schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1766</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ha, Y.</subfield>
+    <subfield code="h">Kim, C.H.</subfield>
+    <subfield code="h">Lee, Y.J.</subfield>
+    <subfield code="h">Yoon, J.</subfield>
+    <subfield code="t">An improved weighted essentially non-oscillatory scheme with a new smoothness indicator</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,232,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, H.</subfield>
+    <subfield code="h">Do, S.</subfield>
+    <subfield code="h">Kang, M.</subfield>
+    <subfield code="t">A wavelet-based adaptive WENO algorithm for Euler equations</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Fluids,123,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donoho, D.L.</subfield>
+    <subfield code="t">Interpolating Wavelet Transforms</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">Tech. rep.</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sweldens, W.</subfield>
+    <subfield code="t">The lifting scheme: a construction of second generation wavelets</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Math.Anal.,29,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sweldens, W.</subfield>
+    <subfield code="t">The lifting scheme: a custom-design construction of biorthogonal wavelets</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,315,186</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dedner, A.</subfield>
+    <subfield code="h">Kemm, F.</subfield>
+    <subfield code="h">Kröner, D.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="h">Schnitzer, T.</subfield>
+    <subfield code="h">Wesenberg, M.</subfield>
+    <subfield code="t">Hyperbolic divergence cleaning for the MHD equations</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,175,645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bristeau, M.</subfield>
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="h">Periaux, J.</subfield>
+    <subfield code="t">Numerical methods for the Navier–Stokes equations. Applications to the simulation of compressible and incompressible viscous flows</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Phys.Rep.,6,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davis, M.E.</subfield>
+    <subfield code="t">Numerical Methods and Modeling for Chemical Engineers</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, Dinshaw S.</subfield>
+    <subfield code="t">Divergence-free adaptive mesh refinement for magnetohydrodynamics</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,174,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nejadmalayeri, A.</subfield>
+    <subfield code="h">Vezolainen, A.</subfield>
+    <subfield code="h">Brown-Dymkoski, E.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Parallel adaptive wavelet collocation method for PDEs</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,298,237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bochner, S.</subfield>
+    <subfield code="h">Chandrasekharan, K.</subfield>
+    <subfield code="t">Fourier Transforms</subfield>
+    <subfield code="p">Princeton University Press</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Garain, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">An efficient class of WENO schemes with adaptive order</subfield>
+    <subfield code="v">326</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,326,780</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Domingues, M.O.</subfield>
+    <subfield code="h">Gomes, S.M.</subfield>
+    <subfield code="h">Roussel, O.</subfield>
+    <subfield code="h">Schneider, K.</subfield>
+    <subfield code="t">An adaptive multiresolution scheme with local time stepping for evolutionary PDEs</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3758</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pärt-Enander, E.</subfield>
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="t">Conservative and non-conservative interpolation between overlapping grids for finite volume solutions of hyperbolic problems</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Fluids,23,551</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Local adaptive mesh refinement for shock hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,82,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lax, P.</subfield>
+    <subfield code="h">Liu, X.-D.</subfield>
+    <subfield code="t">Solution of two-dimensional Riemann problems of gas dynamics by positive schemes</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,19,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tóth, G.</subfield>
+    <subfield code="t">The <math altimg="si103.gif" display="inline" overflow="scroll"><mi mathvariant="normal">∇</mi><mo>⋅</mo><mi>B</mi><mo>=</mo><mn>0</mn></math> constraint in shock-capturing magnetohydrodynamics codes</subfield>
+    <subfield code="v">161</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,161,605</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brackbill, J.U.</subfield>
+    <subfield code="h">Barnes, D.C.</subfield>
+    <subfield code="t">The effect of nonzero <math altimg="si104.gif" display="inline" overflow="scroll"><mi mathvariant="normal">∇</mi><mo>⋅</mo><mi>B</mi></math> on the numerical solution of the magnetohydrodynamic equations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,35,426</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF00218230</subfield>
+    <subfield code="h">Brackbill, Jeremiah</subfield>
+    <subfield code="t">Fluid modeling of magnetized plasmas</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Space Sci.Rev.,42,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="t">A comparison between divergence-cleaning and staggered-mesh formulations for numerical magnetohydrodynamics</subfield>
+    <subfield code="v">602</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Astrophys.J.,602,1079</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Orszag, S.A.</subfield>
+    <subfield code="h">Tang, C.-M.</subfield>
+    <subfield code="t">Small-scale structure of two-dimensional magnetohydrodynamic turbulence</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Fluid Mech.,90,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/0915019</subfield>
+    <subfield code="h">Zachary, Andrew L.</subfield>
+    <subfield code="h">Malagoli, Andrea</subfield>
+    <subfield code="h">Colella, Phillip</subfield>
+    <subfield code="t">A higher-order Godunov method for multidimensional ideal magnetohydrodynamics</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,15,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">A simple finite difference scheme for multidimensional magnetohydrodynamical equations</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,142,331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ryu, Dongsu</subfield>
+    <subfield code="h">Miniati, Francesco</subfield>
+    <subfield code="h">Jones, T.W.</subfield>
+    <subfield code="h">Frank, Adam</subfield>
+    <subfield code="t">A divergence-free upwind code for multidimensional magnetohydrodynamic flows</subfield>
+    <subfield code="v">509</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Astrophys.J.,509,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/177009</subfield>
+    <subfield code="h">Frank, A.</subfield>
+    <subfield code="h">Jones, T.W.</subfield>
+    <subfield code="h">Ryu, D.</subfield>
+    <subfield code="h">Gaalaas, J.B.</subfield>
+    <subfield code="r">astro-ph/9510115</subfield>
+    <subfield code="t">The magnetohydrodynamic Kelvin–Helmholtz instability: a two-dimensional numerical study</subfield>
+    <subfield code="v">460</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Astrophys.J.,460,777</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Spicer, D.S.</subfield>
+    <subfield code="t">A staggered mesh algorithm using high order Godunov fluxes to ensure solenoidal magnetic fields in magnetohydrodynamic simulations</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,149,270</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302231/S0021999117302231.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

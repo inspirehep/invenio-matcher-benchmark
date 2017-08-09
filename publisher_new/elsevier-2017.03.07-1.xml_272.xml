@@ -1,0 +1,448 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.026</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Martins, Diogo M.C.</subfield>
+    <subfield code="v">LAETA, IDMEC, Instituto Superior Técnico, Univerisidade de Lisboa, Lisboa, Portugal</subfield>
+    <subfield code="m">diogomatiasmartins@tecnico.ulisboa.pt</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Continuity constrained least-squares interpolation for SFO suppression in immersed boundary methods</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A new immersed boundary interpolation for discrete forcing methods is presented. The method decreases spurious oscillations in the pressure field and consequently in the body force calculations which are a common issue in several immersed boundary methods. The method applies a continuity constraint in the least-squares interpolation, and guarantees that adjacent interpolation polynomials are continuous between each other. This approach strictly enforces continuity in the flow reconstruction domain, reducing time discontinuities caused by the boundary conditions applied at the immersed boundary. Several moving body problems test cases are simulated, including a three dimensional one, to demonstrate the new method's capability of computing stable pressure fields, even for coarse grids and small CFL numbers, which are known to increase the pressure oscillations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Immersed boundary (IB)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spurious force oscillations (SFO)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discrete forcing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Flow reconstruction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Least-squares</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Moving body problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Albuquerque, Duarte M.S.</subfield>
+    <subfield code="j">ORCID:0000-0003-3649-544X</subfield>
+    <subfield code="v">LAETA, IDMEC, Instituto Superior Técnico, Univerisidade de Lisboa, Lisboa, Portugal</subfield>
+    <subfield code="m">duartealbuquerque@tecnico.ulisboa.pt</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pereira, José C.F.</subfield>
+    <subfield code="v">LAETA, IDMEC, Instituto Superior Técnico, Univerisidade de Lisboa, Lisboa, Portugal</subfield>
+    <subfield code="m">jcfpereira@tecnico.ulisboa.pt</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">608-626</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, Rajat</subfield>
+    <subfield code="h">Iaccarino, Gianluca</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">Flow patterns around heart valves: a numerical method</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,10,252</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">The immersed boundary method</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Acta Numer.,11,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="h">Peskin, Charles S.</subfield>
+    <subfield code="t">An immersed boundary method with formal second-order accuracy and reduced numerical viscosity</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,160,705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldstein, D.</subfield>
+    <subfield code="h">Handler, R.</subfield>
+    <subfield code="h">Sirovich, L.</subfield>
+    <subfield code="t">Modeling a no-slip flow boundary with an external force field</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,105,354</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Zhilin</subfield>
+    <subfield code="h">Lai, Ming-Chih</subfield>
+    <subfield code="t">The immersed interface method for the Navier–Stokes equations with singular forces</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,171,822</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mariano, Felipe Pamplona</subfield>
+    <subfield code="h">Moreira, L. de Q.</subfield>
+    <subfield code="h">de Silveira-Neto, A.</subfield>
+    <subfield code="h">da Silva, Carlos Bettencourt</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">A new incompressible Navier–Stokes solver combining Fourier pseudo-spectral and immersed boundary methods</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Model.Eng.Sci.,59,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferreira de Sousa, Paulo J.S.A.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="h">Allen, James J.</subfield>
+    <subfield code="t">Two-dimensional compact finite difference immersed boundary method</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,65,609</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, Jinmo</subfield>
+    <subfield code="h">You, Donghyun</subfield>
+    <subfield code="t">An implicit ghost-cell immersed boundary method for simulations of moving body problems with control of spurious force oscillations</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,233,295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Uhlmann, Markus</subfield>
+    <subfield code="t">An immersed boundary method with direct forcing for the simulation of particulate flows</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,209,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Jianming</subfield>
+    <subfield code="h">Balaras, Elias</subfield>
+    <subfield code="t">An embedded-boundary formulation for large-eddy simulation of turbulent flows interacting with moving boundaries</subfield>
+    <subfield code="v">215</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,215,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seo, Jung Hee</subfield>
+    <subfield code="h">Mittal, Rajat</subfield>
+    <subfield code="t">A sharp-interface immersed boundary method with improved mass conservation and reduced spurious pressure oscillations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, Jongho</subfield>
+    <subfield code="h">Kim, Jungwoo</subfield>
+    <subfield code="h">Choi, Haecheon</subfield>
+    <subfield code="h">Yang, Kyung-Soo</subfield>
+    <subfield code="t">Sources of spurious force oscillations from an immersed boundary method for moving-body problems</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,230,2677</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, Haoxiang</subfield>
+    <subfield code="h">Dai, Hu</subfield>
+    <subfield code="h">Ferreira de Sousa, Paulo J.S.A.</subfield>
+    <subfield code="h">Yin, Bo</subfield>
+    <subfield code="t">On the numerical oscillation of the direct-forcing immersed-boundary method for moving boundaries</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Fluids,56,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meinke, Matthias</subfield>
+    <subfield code="h">Schneiders, Lennart</subfield>
+    <subfield code="h">Günther, Claudia</subfield>
+    <subfield code="h">Schröder, Wolfgang</subfield>
+    <subfield code="t">A cut-cell method for sharp moving boundaries in cartesian grids</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,85,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Y.</subfield>
+    <subfield code="h">Zhou, C.H.</subfield>
+    <subfield code="h">Ai, J.Q.</subfield>
+    <subfield code="t">Improvement of mass conservation and reduction of spurious oscillations for the local DFD method</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,29,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Xiaolei</subfield>
+    <subfield code="h">Zhang, Xing</subfield>
+    <subfield code="h">Li, Zhilin</subfield>
+    <subfield code="h">He, Guo-Wei</subfield>
+    <subfield code="t">A smoothing technique for discrete delta functions with application to immersed boundary method in moving boundary simulations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7821</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Jungwoo</subfield>
+    <subfield code="h">Kim, Dongjoo</subfield>
+    <subfield code="h">Choi, Haecheon</subfield>
+    <subfield code="t">An immersed-boundary finite-volume method for simulations of flow in complex geometries</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,171,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanella, Marcos</subfield>
+    <subfield code="h">Balaras, Elias</subfield>
+    <subfield code="t">A moving-least-squares reconstruction for embedded-boundary formulations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanella, Marcos</subfield>
+    <subfield code="h">Rabenold, Patrick</subfield>
+    <subfield code="h">Balaras, Elias</subfield>
+    <subfield code="t">A direct-forcing embedded-boundary method with adaptive mesh refinement for fluid structure interaction problems</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, Lin</subfield>
+    <subfield code="h">Mathur, Sanjay R.</subfield>
+    <subfield code="h">Murthy, Jayathi Y.</subfield>
+    <subfield code="t">An unstructured finite-volume method for incompressible flows with complex immersed boundaries</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,58,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yildirim, B.</subfield>
+    <subfield code="h">Lin, Sun</subfield>
+    <subfield code="h">Mathur, Sanjay</subfield>
+    <subfield code="h">Murthy, Jayathi Y.</subfield>
+    <subfield code="t">A parallel implementation of fluid–solid interaction solver using an immersed boundary method</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,86,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, Stephan</subfield>
+    <subfield code="h">Kempe, Tobias</subfield>
+    <subfield code="h">Fröhlich, Jochen</subfield>
+    <subfield code="t">An immersed boundary method for the simulation of bubbles with varying shape</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,315,124</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magalhães, João P.P.</subfield>
+    <subfield code="h">Albuquerque, Duarte M.S.</subfield>
+    <subfield code="h">Pereira, José M.C.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">Adaptive mesh finite-volume calculation of 2d lid-cavity corner vortices</subfield>
+    <subfield code="v">243</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,243,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Albuquerque, Duarte M.S.</subfield>
+    <subfield code="h">Pereira, José M.C.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">Residual least-squares error estimate for unstructured h-adaptive meshes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,67,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Issa, Raad I.</subfield>
+    <subfield code="t">Solution of the implicitly discretised fluid flow equations by operator-splitting</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,62,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, Suhas V.</subfield>
+    <subfield code="h">Spalding, D. Brian</subfield>
+    <subfield code="t">A calculation procedure for heat, mass and momentum transfer in three-dimensional parabolic flows</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,15,1787</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhie, C.M.</subfield>
+    <subfield code="h">Chow, W.L.</subfield>
+    <subfield code="t">Numerical study of the turbulent flow past an airfoil with trailing edge separation</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">AIAA J.,21,1525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kumar, Manish</subfield>
+    <subfield code="h">Roy, Somnath</subfield>
+    <subfield code="h">Ali, M. Sujaat</subfield>
+    <subfield code="t">An efficient immersed boundary algorithm for simulation of flows in curved and moving geometries</subfield>
+    <subfield code="v">129</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Fluids,129,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shih, T.</subfield>
+    <subfield code="h">Tan, C.</subfield>
+    <subfield code="h">Hwang, B.</subfield>
+    <subfield code="t">Effects of grid staggering on numerical schemes</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,9,193</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kobayashi, M.</subfield>
+    <subfield code="h">Pereira, José M.C.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">A conservative Finite-Volume second-order accurate projection method on hybrid unstructured grids</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,150,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pereira, José M.C.</subfield>
+    <subfield code="h">Kobayashi, M.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">A fourth-order-accurate finite volume compact method for the incompressible Navier–Stokes solutions</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,167,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dütsch, H.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="h">Becker, S.</subfield>
+    <subfield code="h">Lienhart, H.</subfield>
+    <subfield code="t">Low-Reynolds-number flow around an oscillating circular cylinder at low Keulegan–Carpenter numbers</subfield>
+    <subfield code="v">360</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Fluid Mech.,360,249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z. Jane</subfield>
+    <subfield code="t">Two dimensional mechanism for insect hovering</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Rev.Lett.,85,2216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Dokyun</subfield>
+    <subfield code="h">Choi, Haecheon</subfield>
+    <subfield code="t">Two-dimensional mechanism of hovering flight by single flapping wing</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Mech.Sci.Technol.,21,207</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eldredge, Jeff D.</subfield>
+    <subfield code="t">Numerical simulation of the fluid dynamics of 2d rigid body motion with the vortex particle method</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,221,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Albuquerque, Duarte M.S.</subfield>
+    <subfield code="h">Pereira, José M.C.</subfield>
+    <subfield code="h">Pereira, José C.F.</subfield>
+    <subfield code="t">Calculation of a deformable membrane airfoil in hovering flight</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Comput.Model.Eng.Sci.,72,337</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00041/S0021999117301195/S0021999117301195.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,139 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1142/S0219749917500137</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Parmar, Jupinder</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A formulation of a matrix sparsity approach for the quantum ordered search algorithm</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-01-13</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">One specific subset of quantum algorithms is Grovers Ordered Search Problem (OSP), the quantum counterpart of the classical binary search algorithm, which utilizes oracle functions to produce a specified value within an ordered database. Classically, the optimal algorithm is known to have a log2N complexity; however, Grovers algorithm has been found to have an optimal complexity between the lower bound of ((lnN−1)∕π≈0.221log2N) and the upper bound of 0.433log2N. We sought to lower the known upper bound of the OSP. With Farhi et al. MITCTP 2815 (1999), arXiv:quant-ph/9901059], we see that the OSP can be resolved into a translational invariant algorithm to create quantum query algorithm restraints. With these restraints, one can find Laurent polynomials for various k — queries — and N — database sizes — thus finding larger recursive sets to solve the OSP and effectively reducing the upper bound. These polynomials are found to be convex functions, allowing one to make use of convex optimization to find an improvement on the known bounds. According to Childs et al. [Phys. Rev. A 75 (2007) 032335], semidefinite programming, a subset of convex optimization, can solve the particular problem represented by the constraints. We were able to implement a program abiding to their formulation of a semidefinite program (SDP), leading us to find that it takes an immense amount of storage and time to compute. To combat this setback, we then formulated an approach to improve results of the SDP using matrix sparsity. Through the development of this approach, along with an implementation of a rudimentary solver, we demonstrate how matrix sparsity reduces the amount of time and storage required to compute the SDP — overall ensuring further improvements will likely be made to reach the theorized lower bound.</subfield>
+    <subfield code="9">World Scientific</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="d">World Scientific Publishing Company</subfield>
+    <subfield code="g">2017</subfield>
+    <subfield code="e">Article</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Grover's ordered search problem</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">quantum algorithm</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">sparse semidefinite program</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rahman, Saarim</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Thiara, Jaskaran</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">International Journal of Quantum Information</subfield>
+    <subfield code="n">02</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="c">1750013</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="h">L. K. Grover</subfield>
+    <subfield code="m">A fast quantum mechanical algorithm for database search, in Proc. Twenty-Eighth Annual ACM Symp. Theory of Computing, G. L. Miller (eds.) (ACM, New York,), pp. 212-219</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="h">E. Farhi, J. Goldstone, S. Gutmann and M. Sipser</subfield>
+    <subfield code="m">MIT CTP #2815 , arXiv:</subfield>
+    <subfield code="r">quant-ph/9901059</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="0">494234</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="h">A. Childs, A. Landahl and P. Parrilo</subfield>
+    <subfield code="s">Phys.Rev.,A75,032335</subfield>
+    <subfield code="m">arXiv: [, arXiv:</subfield>
+    <subfield code="r">quant-ph/0608161</subfield>
+    <subfield code="r">quant-ph/0608161</subfield>
+    <subfield code="a">doi:10.1103/PhysRevA.75.032335</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">M. Nielsen and I. L. Chuang</subfield>
+    <subfield code="m">Quantum Computation and Quantum Information (Cambridge University Press,)</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="h">P. Høyer, J. Neerbek and Y. Shi</subfield>
+    <subfield code="s">Algorithmica,34,429</subfield>
+    <subfield code="m">arXiv: [, arXiv:</subfield>
+    <subfield code="r">quant-ph/0009032</subfield>
+    <subfield code="r">quant-ph/0009032</subfield>
+    <subfield code="a">doi:10.1007/s00453-002-0976-3</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">B. Jacokes</subfield>
+    <subfield code="m">An improved quantum algorithm for searching an ordered list , Available at</subfield>
+    <subfield code="u">http://web.mit.edu/rsi/www/pdfs/papers/2003/2003-brianj.pdf</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">7</subfield>
+    <subfield code="h">L. Fejer</subfield>
+    <subfield code="s">J.Reine Angew.Math.,146,52</subfield>
+    <subfield code="y">1915</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">8</subfield>
+    <subfield code="h">F. Riesz</subfield>
+    <subfield code="s">J.Reine Angew.Math.,146,83</subfield>
+    <subfield code="y">1915</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">9</subfield>
+    <subfield code="h">M. Andersen and L. Vandenberghe</subfield>
+    <subfield code="m">CVXOPT, Available at</subfield>
+    <subfield code="u">http://cvxopt.org/copyright.html</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">10</subfield>
+    <subfield code="m">NumPy, Available at</subfield>
+    <subfield code="u">http://www.numpy.org/</subfield>
+    <subfield code="9">refextract</subfield>
+  </datafield>
+</record>

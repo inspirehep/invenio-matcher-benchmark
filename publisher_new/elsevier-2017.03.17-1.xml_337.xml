@@ -1,0 +1,283 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.058</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Celik, Ismail B.</subfield>
+    <subfield code="v">WVU Mechanical and Aerospace Engineering Department, PO Box 6070, Morgantown, WV 26506, United States</subfield>
+    <subfield code="m">Ismail.celik@mail.wvu.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Prediction of discretization error using the error transport equation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This study focuses on an approach to quantify the discretization error associated with numerical solutions of partial differential equations by solving an error transport equation (ETE). The goal is to develop a method that can be used to adequately predict the discretization error using the numerical solution on only one grid/mesh. The primary problem associated with solving the ETE is the formulation of the error source term which is required for accurately predicting the transport of the error. In this study, a novel approach is considered which involves fitting the numerical solution with a series of locally smooth curves and then blending them together with a weighted spline approach. The result is a continuously differentiable analytic expression that can be used to determine the error source term. Once the source term has been developed, the ETE can easily be solved using the same solver that is used to obtain the original numerical solution. The new methodology is applied to the two-dimensional Navier–Stokes equations in the laminar flow regime. A simple unsteady flow case is also considered. The discretization error predictions based on the methodology presented in this study are in good agreement with the ‘true error’. While in most cases the error predictions are not quite as accurate as those from Richardson extrapolation, the results are reasonable and only require one numerical grid. The current results indicate that there is much promise going forward with the newly developed error source term evaluation technique and the ETE.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discretization error</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Error transport equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Parsons, Don Roscoe</subfield>
+    <subfield code="v">WVU Mechanical and Aerospace Engineering Department, PO Box 6070, Morgantown, WV 26506, United States</subfield>
+    <subfield code="m">dparsons6@gmail.com</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mehta, U.</subfield>
+    <subfield code="h">Oberkampf, W.</subfield>
+    <subfield code="h">Sindir, M.</subfield>
+    <subfield code="h">Conlisk, A.</subfield>
+    <subfield code="t">Guide for the Verification and Validation of Computational Fluid Dynamics Simulations</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.</subfield>
+    <subfield code="t">Review of code and solution verification procedures for computational simulation</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,205,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Quantification of uncertainty in computational fluid dynamics</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,29,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Verification and Validation in Computational Science and Engineering</subfield>
+    <subfield code="p">Hermosa Publ.</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Fundamentals of Computational Fluid Dynamics</subfield>
+    <subfield code="p">Hermosa Publishers</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Hu, G.</subfield>
+    <subfield code="h">Shaffer, C.</subfield>
+    <subfield code="t">Limitations of Richardson extrapolation and some possible remedies</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Fluids Eng.,127,795</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.</subfield>
+    <subfield code="h">Zhang, W.M.</subfield>
+    <subfield code="t">Application of Richardson extrapolation to some simple turbulent flow calculations</subfield>
+    <subfield code="p">Proc. of Symp. on Quantification of Uncertainty in Computational Fluid Dynamics, Washington, DC, 1993</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.</subfield>
+    <subfield code="h">Karatekin, O.</subfield>
+    <subfield code="t">Numerical experiments on application of Richardson extrapolation with nonuniform grids</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Fluids Eng.,119,584</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.</subfield>
+    <subfield code="h">Chen, C.J.</subfield>
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="h">Scheurer, G.</subfield>
+    <subfield code="t">Quantification of Uncertainty in Computational Fluid Dynamics</subfield>
+    <subfield code="p">ASME Fluids Engineering Summer Meeting, Washington, DC, 1993</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">A method for uniform reporting of grid refinement studies</subfield>
+    <subfield code="p">New York: ASME</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="e">Celik,I.</subfield>
+    <subfield code="q">Proc. of Symp. on Quantification of Uncertainty in Computational Fluid Dynamics</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Fundamentals of Verification and Validation</subfield>
+    <subfield code="p">Hermosa Publishers</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.</subfield>
+    <subfield code="h">Hu, G.</subfield>
+    <subfield code="t">Single grid error estimation using error transport equation</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Fluids Eng.,126,778</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.D.</subfield>
+    <subfield code="h">Trepanier, J.Y.</subfield>
+    <subfield code="h">Camarero, R.</subfield>
+    <subfield code="t">An a posteriori error estimation method based on an error equation</subfield>
+    <subfield code="p">Proc. of the AIAA 13th CFD Conf., Snowmass, CO, 1997</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Junkins, J.</subfield>
+    <subfield code="h">Miller, G.</subfield>
+    <subfield code="h">Jancaitis, J.</subfield>
+    <subfield code="t">A weighting function approach to modeling of irregular surfaces</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Geophys.Res.,78,1794</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hay, A.</subfield>
+    <subfield code="h">Visonneau, M.</subfield>
+    <subfield code="t">Error estimation using the error transport equation for finite-volume methods and arbitrary meshes</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,20,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hardy, R.</subfield>
+    <subfield code="t">Theory and applications of the multiquadric–biharmonic method 20 years of discovery 1968–1988</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Math.Appl.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carr, J.C.</subfield>
+    <subfield code="h">Beaston, R.K.</subfield>
+    <subfield code="h">Cherrie, J.B.</subfield>
+    <subfield code="h">Mitchell, T.J.</subfield>
+    <subfield code="h">Fright, W.R.</subfield>
+    <subfield code="h">McCallum, B.C.</subfield>
+    <subfield code="t">Reconstruction and representation of 3D objects with radial basis functions</subfield>
+    <subfield code="p">Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques, New Zealand, 2001</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parsons, D.</subfield>
+    <subfield code="t">Prediction of Discretization Error Using Error Transport Equation</subfield>
+    <subfield code="p">West Virginia University</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Ph.D.</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldstein, R.J.</subfield>
+    <subfield code="h">Eriksen, V.J.</subfield>
+    <subfield code="h">Olson, R.M.</subfield>
+    <subfield code="h">Eckert, E.R.G.</subfield>
+    <subfield code="t">Laminar separation reattachment and transition flow over a downstream-facing step</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Trans.ASME J.Basic Eng.,92,732</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Denham, M.K.</subfield>
+    <subfield code="h">Patrick, M.A.</subfield>
+    <subfield code="t">Laminar flow over a downstream facing step in a two-dimensional flow channel</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Trans.Inst.Chem.Eng.,52,361</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ethridge, D.W.</subfield>
+    <subfield code="h">Kemp, P.H.</subfield>
+    <subfield code="t">Measurements of turbulent flow downstream of a backward facing step</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Fluid Mech.,86,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Armaly, B.F.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="h">Pereira, J.C.F.</subfield>
+    <subfield code="h">Schoenung, B.</subfield>
+    <subfield code="t">Experimental and theoretical investigation of backward-facing step flow</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Fluid Mech.,127,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghia, U.</subfield>
+    <subfield code="h">Ghia, K.N.</subfield>
+    <subfield code="h">Shin, C.T.</subfield>
+    <subfield code="t">High-Re solutions for incompressible flow using the Navier–Stokes equations and a multigrid method</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,48,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">ASME V&amp;V; 20</subfield>
+    <subfield code="t">Standard for Verification and Validation in Computational Fluid Dynamics and Heat Transfer</subfield>
+    <subfield code="p">American Society of Mechanical Engineers</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celik, I.B.</subfield>
+    <subfield code="h">Ma, Z.</subfield>
+    <subfield code="h">Benyahia, S.</subfield>
+    <subfield code="t">Discretization error estimation in transient flow simulations</subfield>
+    <subfield code="p">Proceedings of ASME Fluids Engineering Summer Meeting, July 10–14, 2016, Washington, DC, 2016</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">Paper #: FEDSM 2016-7919</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301614/S0021999117301614.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

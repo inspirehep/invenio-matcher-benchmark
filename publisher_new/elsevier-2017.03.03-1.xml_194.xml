@@ -1,0 +1,973 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.014</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Dumbser, Michael</subfield>
+    <subfield code="v">Laboratory of Applied Mathematics, Department of Civil, Environmental and Mechanical Engineering, University of Trento, Via Mesiano 77, Trento, I-38123, Italy</subfield>
+    <subfield code="m">michael.dumbser@unitn.it</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A new efficient formulation of the HLLEM Riemann solver for general conservative and non-conservative hyperbolic systems</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">45</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper a new, simple and universal formulation of the HLLEM Riemann solver (RS) is proposed that works for general conservative and non-conservative systems of hyperbolic equations. For non-conservative PDE, a path-conservative formulation of the HLLEM RS is presented for the first time in this paper. The HLLEM Riemann solver is built on top of a novel and very robust path-conservative HLL method. It thus naturally inherits the positivity properties and the entropy enforcement of the underlying HLL scheme. However, with just the slight additional cost of evaluating eigenvectors and eigenvalues of intermediate characteristic fields, we can represent linearly degenerate intermediate waves with a minimum of smearing.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Path-conservative HLLEM Riemann solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Resolution of linearly degenerate intermediate waves</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conservation laws and general hyperbolic PDE with non-conservative terms</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Well-balanced scheme for single and two-layer shallow water equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Euler equations with real equation of state and multiphase flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">RMHD/MHD equations and nonlinear elasticity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Balsara, Dinshaw S.</subfield>
+    <subfield code="v">Physics Department, University of Notre Dame du Lac, 225 Nieuwland Science Hall, Notre Dame, IN, 46556, USA</subfield>
+    <subfield code="m">dbalsara@nd.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">275-319</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">How to prevent pressure oscillations in multicomponent flow calculations: a quasi conservative approach</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,125,150</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Karni, S.</subfield>
+    <subfield code="t">A comment on the computation of non-conservative products</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrianov, N.</subfield>
+    <subfield code="h">Warnecke, G.</subfield>
+    <subfield code="t">The Riemann problem for the Baer–Nunziato two-phase flow model</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,212,434</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Antón, L.</subfield>
+    <subfield code="h">Miralles, J.A.</subfield>
+    <subfield code="h">Martí, J.M.</subfield>
+    <subfield code="h">Ibáñez, J.M.</subfield>
+    <subfield code="h">Aloy, M.A.</subfield>
+    <subfield code="h">Mimica, P.</subfield>
+    <subfield code="t">Relativistic magnetohydrodynamics: renormalized eigenvectors and full wave decomposition Riemann solver</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,188,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baehr, H.D.</subfield>
+    <subfield code="h">Kabelac, S.</subfield>
+    <subfield code="t">Thermodynamik</subfield>
+    <subfield code="p">Springer Berlin, Heidelberg</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baer, M.R.</subfield>
+    <subfield code="h">Nunziato, J.W.</subfield>
+    <subfield code="t">A two-phase mixture theory for the deflagration-to-detonation transition (DDT) in reactive granular materials</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,12,861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.</subfield>
+    <subfield code="t">Total variation diminishing scheme for relativistic magneto-hydrodynamics</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,132,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Self-adjusting, positivity preserving high order schemes for hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional HLLE Riemann solver: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1970</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A two-dimensional HLLC Riemann solver for conservation laws: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure. Part I – Application to hyperbolic conservation laws on structured meshes</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,277,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Three dimensional HLL Riemann solver for conservation laws on structured meshes; application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,295,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure. Part II – Application to hyperbolic conservation laws on unstructured meshes</subfield>
+    <subfield code="v">287</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,287,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Multidimensional HLLC Riemann solver for unstructured meshes – with application to Euler and MHD flows</subfield>
+    <subfield code="v">261</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,261,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barton, P.T.</subfield>
+    <subfield code="h">Drikakis, D.</subfield>
+    <subfield code="h">Romenski, E.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="t">Exact and approximate solutions of Riemann problems in non-linear elasticity</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7046</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermúdez, A.</subfield>
+    <subfield code="h">Vázquez, M.E.</subfield>
+    <subfield code="t">Upwind methods for hyperbolic conservation laws with source terms</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Fluids,23,1049</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bernetti, R.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Exact solution of the Riemann problem for the shallow water equations with discontinuous bottom geometry</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Billett, S.J.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">On WAF-type schemes for multidimensional hyperbolic conservation laws</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,130,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Canestrelli, A.</subfield>
+    <subfield code="h">Siviglia, A.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Well-balanced high-order centered schemes for non-conservative hyperbolic systems. Applications to shallow water equations with fixed and mobile bed</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Adv.Water Resour.,32,834</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Fernández-Nieto, E.</subfield>
+    <subfield code="t">A class of computationally fast first order finite volume solvers: PVM methods</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,A2173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Fernández-Nieto, E.D.</subfield>
+    <subfield code="h">Morales de Luna, T.</subfield>
+    <subfield code="h">Narbona-Reina, G.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">A HLLC scheme for nonconservative hyperbolic problems. Application to turbidity currents with sediment transport</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,47,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Gallardo, J.M.</subfield>
+    <subfield code="h">López, J.A.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Well-balanced high order extensions of Godunov's method for semilinear balance laws</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,46,1012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.amc.2015.06.104</subfield>
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Gallardo, J.M.</subfield>
+    <subfield code="h">Marquina, A.</subfield>
+    <subfield code="t">Approximate Osher–Solomon schemes for hyperbolic systems</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Appl.Math.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Gallardo, J.M.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">High-order finite volume schemes based on reconstruction of states for solving hyperbolic systems with nonconservative products. Applicationsto shallow-water systems</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Math.Comput.,75,1103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">LeFloch, P.G.</subfield>
+    <subfield code="h">Muñoz-Ruiz, M.L.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Why many theories of shock waves are necessary: convergence error in formally path-consistent schemes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Pardo, A.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">On some fast well-balanced first order solvers for nonconservative systems</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Math.Comput.,79,1427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">Random choice solution of hyperbolic systems</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,22,517</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">A direct Eulerian MUSCL scheme for gas dynamics</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,6,104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">The piecewise parabolic method (PPM) for gas-dynamical simulations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,54,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Correia, J.M.</subfield>
+    <subfield code="h">LeFloch, P.G.</subfield>
+    <subfield code="h">Thanh, M.D.</subfield>
+    <subfield code="t">Hyperbolic conservation laws with Lipschitz continuous flux-functions. The Riemann problem</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Bol.Soc.Bras.Mat.,32,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morales de Luna, T.</subfield>
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Relation between PVM schemes and simple Riemann solvers</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,30,1315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dedner, A.</subfield>
+    <subfield code="h">Kemm, F.</subfield>
+    <subfield code="h">Kröner, D.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="h">Schnitzer, T.</subfield>
+    <subfield code="h">Wesenberg, M.</subfield>
+    <subfield code="t">Hyperbolic divergence cleaning for the MHD equations</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,175,645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Degond, P.</subfield>
+    <subfield code="h">Peyrard, P.F.</subfield>
+    <subfield code="h">Russo, G.</subfield>
+    <subfield code="h">Villedieu, P.</subfield>
+    <subfield code="t">Polynomial upwind schemes for hyperbolic systems</subfield>
+    <subfield code="v">328</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">C.R.Acad.Sci.Paris, Ser.,I328,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deledicque, V.</subfield>
+    <subfield code="h">Papalexandris, M.V.</subfield>
+    <subfield code="t">An exact Riemann solver for compressible two-phase flow models containing non-conservative products</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,222,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">A unified framework for the construction of one-step finite volume and discontinuous Galerkin schemes on unstructured meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Castro, M.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">ADER schemes on unstructured meshes for non-conservative hyperbolic systems: applications to geophysical flows</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Fluids,38,1731</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.amc.2015.08.042</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A conservative, weakly nonlinear semi-implicit finite volume method for the compressible Navier–Stokes equations with general equation of state</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Appl.Math.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A staggered semi-implicit spectral discontinuous Galerkin scheme for the shallow water equations</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Appl.Math.Comput.,219,8057</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Hidalgo, A.</subfield>
+    <subfield code="h">Castro, M.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">FORCE schemes on unstructured meshes II: non-conservative hyperbolic systems</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Iben, U.</subfield>
+    <subfield code="h">Ioriatti, M.</subfield>
+    <subfield code="t">An efficient semi-implicit finite volume method for axially symmetric compressible flows in compliant tubes</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Appl.Numer.Math.,89,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Iben, U.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">Efficient implementation of high order unstructured WENO schemes for cavitating flows</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Fluids,86,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Käser, M.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Quadrature-free non-oscillatory finite volume schemes on unstructured meshes for nonlinear hyperbolic systems</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,226,204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">A simple extension of the Osher Riemann solver to non-conservative hyperbolic systems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Sci.Comput.,48,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">On universal Osher-type schemes for general nonlinear hyperbolic conservation laws</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Commun.Comput.Phys.,10,635</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="t">On Godunov-type methods for gas dynamics</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,25,294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="h">Sjogreen, B.</subfield>
+    <subfield code="t">On Godunov-type methods near low densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falle, S.A.E.G.</subfield>
+    <subfield code="t">On the inadmissibility of non-evolutionary shocks</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Plasma Phys.,65,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallardo, J.M.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="t">On a well-balanced high-order finite volume scheme for shallow water equations with topography and dry areas</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,227,574</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giacomazzo, B.</subfield>
+    <subfield code="h">Rezzolla, L.</subfield>
+    <subfield code="t">The exact solution of the Riemann problem in relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">562</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Fluid Mech.,562,223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="t">Finite difference methods for the computation of discontinuous solutions of the equations of fluid dynamics</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Math.USSR Sb.,47,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="h">Romenski, E.I.</subfield>
+    <subfield code="t">Nonstationary equations of the nonlinear theory of elasticity in Euler coordinates</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Appl.Mech.Tech.Phys.,13,868</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="h">Romenski, E.I.</subfield>
+    <subfield code="t">Thermodynamics, conservation laws, and symmetric forms of differential equations in mechanics of continuous media</subfield>
+    <subfield code="p">New York: John Wiley</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="q">Computational Fluid Dynamics Review 1995</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="h">Romenski, E.I.</subfield>
+    <subfield code="t">Elements of Continuum Mechanics and Conservation Laws</subfield>
+    <subfield code="p">Kluwer Academic/Plenum Publishers</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gosse, L.</subfield>
+    <subfield code="t">A well-balanced flux-vector splitting scheme designed for hyperbolic systems of conservation laws with source terms</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Comput.Math.Appl.,39,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gosse, L.</subfield>
+    <subfield code="t">A well-balanced scheme using non-conservative products designed for hyperbolic systems of conservation laws with source terms</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,11,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Honkkila, V.</subfield>
+    <subfield code="h">Janhunen, P.</subfield>
+    <subfield code="t">HLLC solver for ideal relativistic MHD</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,223,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Isaacson, E.</subfield>
+    <subfield code="h">Temple, B.</subfield>
+    <subfield code="t">Nonlinear resonance in systems of conservation laws</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,52,1260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kemm, F.</subfield>
+    <subfield code="t">On the origin of divergence errors in MHD simulations and consequences for numerical schemes</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,8,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.amc.2015.05.079</subfield>
+    <subfield code="h">Kemm, F.</subfield>
+    <subfield code="t">Roe-type schemes for shallow water magnetohydrodynamics with hyperbolic divergence cleaning</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Appl.Math.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Balancing source terms and flux gradients in high-resolution Godunov methods: the quasi-steady wavepropagation algorithm</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,146,346</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dal Maso, G.</subfield>
+    <subfield code="h">LeFloch, P.G.</subfield>
+    <subfield code="h">Murat, F.</subfield>
+    <subfield code="t">Definition and weak stability of nonconservative products</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Math.Pures Appl.,74,483</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">An HLLC Riemann solver for relativistic flows – I. Hydrodynamics</subfield>
+    <subfield code="v">364</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,364,126</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">An HLLC Riemann solver for relativistic flows – II. Magnetohydrodynamics</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,368,1040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muñoz, M.L.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Godunov method for nonconservative hyperbolic systems</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,41,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Müller, L.O.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Well-balanced high-order numerical schemes for one-dimensional blood flow in vessels with varying mechanical properties</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,242,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Müller, S.</subfield>
+    <subfield code="h">Voss, A.</subfield>
+    <subfield code="t">The Riemann problem for the Euler equations with nonconvex and nonsmooth equation of state: construction of wave curves</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,28,651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Solomon, F.</subfield>
+    <subfield code="t">Upwind difference schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Math.Comput.,38,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Numerical methods for nonconservative hyperbolic systems: a theoretical framework</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,44,300</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pelanti, M.</subfield>
+    <subfield code="h">Bouchut, F.</subfield>
+    <subfield code="h">Mangeney, A.</subfield>
+    <subfield code="t">A Roe-type scheme for two-phase shallow granular flows over variable topography</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,42,851</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pitman, E.B.</subfield>
+    <subfield code="h">Le, L.</subfield>
+    <subfield code="t">A two-fluid model for avalanche and debris flows</subfield>
+    <subfield code="v">363</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A363,1573</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rezzolla, L.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="t">An improved exact Riemann solver for relativistic hydrodynamics</subfield>
+    <subfield code="v">449</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">J.Fluid Mech.,449,395</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhebergen, S.</subfield>
+    <subfield code="h">Bokhove, O.</subfield>
+    <subfield code="h">van der Vegt, J.J.W.</subfield>
+    <subfield code="t">Discontinuous Galerkin finite element methods for hyperbolic nonconservative partial differential equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1887</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ritter, A.</subfield>
+    <subfield code="t">Die Fortpflanzung der Wasserwellen</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1892</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Z.Ver.Dtsch.Ing.,36,947</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Approximate Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Notes on the eigensystem of magnetohydrodynamics</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,56,57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rusanov, V.V.</subfield>
+    <subfield code="t">Calculation of interaction of non-steady shock waves with obstacles</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Math.Phys.USSR,1,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.amc.2015.05.137</subfield>
+    <subfield code="h">Sánchez-Linares, C.</subfield>
+    <subfield code="h">Morales de Luna, T.</subfield>
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="t">A HLLC scheme for Ripa model</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Appl.Math.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A simple method for compressible multifluid flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,1115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A multiphase Godunov method for compressible multifluid and multiphase flows</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">J.Comput.Phys.,150,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Petitpas, F.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Modelling phase transition in metastable liquids: application to cavitating and flashing flows</subfield>
+    <subfield code="v">607</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">J.Fluid Mech.,607,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwendeman, D.W.</subfield>
+    <subfield code="h">Wahle, C.W.</subfield>
+    <subfield code="h">Kapila, A.K.</subfield>
+    <subfield code="t">The Riemann problem and a high-resolution Godunov method for a model of compressible two-phase flow</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">J.Comput.Phys.,212,490</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Span, R.</subfield>
+    <subfield code="h">Wagner, W.</subfield>
+    <subfield code="t">Equations of state for technical applications. II. Results for nonpolar fluids</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Int.J.Thermophys.,24,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tavelli, M.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A high order semi-implicit discontinuous Galerkin method for the two dimensional shallow water equations on staggered unstructured meshes</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Appl.Math.Comput.,234,623</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Romenski, E.I.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">MUSTA-type upwind fluxes for non-linear elasticity</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,73,897</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tokareva, S.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">HLLC-type Riemann solver for the Baer–Nunziato equations of compressible two-phase flow</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3573</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Shock-Capturing Methods for Free-Surface Shallow Flows</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Billet, S.J.</subfield>
+    <subfield code="t">Centered TVD schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,20,44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Torrilhon, M.</subfield>
+    <subfield code="t">Non-uniform convergence of finite volume schemes for Riemann problems of ideal magnetohydrodynamics</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">J.Comput.Phys.,192,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toumi, I.</subfield>
+    <subfield code="t">A weak formulation of Roe's approximate Riemann solver</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">J.Comput.Phys.,102,360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Zanna, L.</subfield>
+    <subfield code="h">Bucciantini, N.</subfield>
+    <subfield code="h">Londrillo, P.</subfield>
+    <subfield code="t">An efficient shock-capturing central-type scheme for multidimensional relativistic flows II. Magnetohydrodynamics</subfield>
+    <subfield code="v">400</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">Astron.Astrophys.,400,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Zanna, L.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Bucciantini, N.</subfield>
+    <subfield code="h">Londrillo, P.</subfield>
+    <subfield code="t">ECHO: an Eulerian conservative high order scheme for general relativistic magnetohydrodynamics and magnetodynamics</subfield>
+    <subfield code="v">473</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">Astron.Astrophys.,473,11</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00210/S0021999115006786/S0021999115006786.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

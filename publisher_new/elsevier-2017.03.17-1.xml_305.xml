@@ -1,0 +1,394 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.01.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Shen, Zhijun</subfield>
+    <subfield code="v">Institute of Applied Physics and Computational Mathematics, LCP, P.O. Box 8009-26, Beijing, 100088, China</subfield>
+    <subfield code="v">Center for Applied Physics and Technology, HEDPS, Peking University, China</subfield>
+    <subfield code="m">shen_zhijun@iapcm.ac.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A robust HLLC-type Riemann solver for strong shock</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-03-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">It is well known that for the Eulerian equations the numerical schemes that can accurately capture contact discontinuity usually suffer from some disastrous carbuncle phenomenon, while some more dissipative schemes, such as the HLL scheme, are free from this kind of shock instability. Hybrid schemes to combine a dissipative flux with a less dissipative flux can cure the shock instability, but also may lead to other problems, such as certain arbitrariness of choosing switching parameters or contact interface becoming smeared. In order to overcome these drawbacks, this paper proposes a simple and robust HLLC-type Riemann solver for inviscid, compressible gas flows, which is capable of preserving sharp contact surface and is free from instability. The main work is to construct a HLL-type Riemann solver and a HLLC-type Riemann solver by modifying the shear viscosity of the original HLL and HLLC methods. Both of the two new schemes are positively conservative under some typical wavespeed estimations. Moreover, a linear matrix stability analysis for the proposed schemes is accomplished, which illustrates the HLLC-type solver with shear viscosity is stable whereas the HLL-type solver with vorticity wave is unstable. Our arguments and numerical experiments demonstrate that the inadequate dissipation associated to the shear wave may be a unique reason to cause the instability.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Godunov methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HLL scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HLLC scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical shock instability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stability analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yan, Wei</subfield>
+    <subfield code="v">Institute of Applied Physics and Computational Mathematics, LCP, P.O. Box 8009-26, Beijing, 100088, China</subfield>
+    <subfield code="m">wyanmath01@sina.com</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yuan, Guangwei</subfield>
+    <subfield code="v">Institute of Applied Physics and Computational Mathematics, LCP, P.O. Box 8009-26, Beijing, 100088, China</subfield>
+    <subfield code="m">yuan_guangwei@iapcm.ac.cn</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">185-206</subfield>
+    <subfield code="v">309</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional HLLE Riemann solver: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1970</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A two-dimensional HLLC Riemann solver for conservation laws: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Multidimensional HLLC Riemann solver for unstructured meshes – with application to Euler and MHD flows</subfield>
+    <subfield code="v">261</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,261,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chauvat, Y.</subfield>
+    <subfield code="h">Moschetta, J.M.</subfield>
+    <subfield code="h">Gressier, J.</subfield>
+    <subfield code="t">Shock wave numerical structure and the carbuncle phenomenon</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,47,903</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davis, S.F.</subfield>
+    <subfield code="t">Simplified second-order Godunov-type methods</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,9,445</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Morschetta, J.M.</subfield>
+    <subfield code="h">Gressier, J.</subfield>
+    <subfield code="t">A matrix stability analysis of the carbuncle phenomenon</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,197,647</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Sjogreen, B.</subfield>
+    <subfield code="t">On Godunov-type methods near low density</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gressier, J.</subfield>
+    <subfield code="h">Moschetta, J.M.</subfield>
+    <subfield code="t">Robustness versus accuracy in shock-wave computations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,33,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, K.</subfield>
+    <subfield code="h">Wu, H.</subfield>
+    <subfield code="h">Yu, H.</subfield>
+    <subfield code="h">Yan, D.</subfield>
+    <subfield code="t">Cure for numerical shock instability in HLLC solver</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,65,1026</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, S.D.</subfield>
+    <subfield code="h">Lee, B.J.</subfield>
+    <subfield code="h">Lee, H.J.</subfield>
+    <subfield code="h">Jeung, I.S.</subfield>
+    <subfield code="t">Robust HLLC Riemann solver with weighted average flux scheme for strong shock</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7634</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, S.S.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="h">Rho, O.H.</subfield>
+    <subfield code="h">Hong, S.K.</subfield>
+    <subfield code="t">Cures for the shock instability: development of a shock-stable Roe scheme</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,185,342</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liou, M.S.</subfield>
+    <subfield code="t">Mass Flux schemes and connection to shock instability</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,160,623</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Macrossan, M.N.</subfield>
+    <subfield code="h">Oliver, R.I.</subfield>
+    <subfield code="t">A kinetic theory solution method for the Navier–Stokes equations</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,17,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mandal, J.C.</subfield>
+    <subfield code="h">Panwar, V.</subfield>
+    <subfield code="t">Robust HLL-type Riemann solver capable of resolving contact discontinuity</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,63,148</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moschetta, J.M.</subfield>
+    <subfield code="t">Mass flux computation as a key to the carbuncle phenomenon</subfield>
+    <subfield code="p">Kluwer Academic/Plenum Publishers</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="e">Toro,E.F.</subfield>
+    <subfield code="q">Godunov Methods, Theory and Applications</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="h">Kitamura, K.</subfield>
+    <subfield code="t">Very simple, carbuncle-free, boundary-layer-resolving, rotated-hybrid Riemann solvers</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2560</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noh, W.F.</subfield>
+    <subfield code="t">Errors for calculations of strong shocks using an artificial viscosity and an artificial heat flux</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,72,78</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pandolfi, M.</subfield>
+    <subfield code="h">D'Ambrosio, D.</subfield>
+    <subfield code="t">Numerical instabilities in upwind methods: analysis and cures for the carbuncle phenomenon</subfield>
+    <subfield code="v">166</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,166,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peery, K.M.</subfield>
+    <subfield code="h">Imlay, S.T.</subfield>
+    <subfield code="t">Blunt body flow simulations</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="m">AIAA paper 88-2924</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pullin, D.I.</subfield>
+    <subfield code="t">Direct simulation methods for compressible inviscid ideal gas flow</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,34,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quirk, J.</subfield>
+    <subfield code="t">A contribution to the great Riemann solver debate</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,18,555</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ren, Y.X.</subfield>
+    <subfield code="t">A robust shock-capturing scheme based on rotated Riemann solvers</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,32,1379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sanders, R.</subfield>
+    <subfield code="h">Morano, E.</subfield>
+    <subfield code="h">Druguet, M.C.</subfield>
+    <subfield code="t">Multidimensional dissipation for upwind schemes: stability and applications to gas dynamics</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,145,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Z.J.</subfield>
+    <subfield code="h">Yan, W.</subfield>
+    <subfield code="h">Yuan, G.W.</subfield>
+    <subfield code="t">A robust and contact resolving Riemann solver on unstructured mesh, part I, Euler method</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,268,432</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Z.J.</subfield>
+    <subfield code="h">Yan, W.</subfield>
+    <subfield code="h">Yuan, G.W.</subfield>
+    <subfield code="t">A Stability Analysis of Hybrid Schemes to Cure Shock Instability</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Commun.Comput.Phys.,15,1320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Z.J.</subfield>
+    <subfield code="h">Yan, W.</subfield>
+    <subfield code="h">Lv, G.X.</subfield>
+    <subfield code="t">Behavior of viscous solutions in Lagrangian formulation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4522</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, M.</subfield>
+    <subfield code="h">Takayama, K.</subfield>
+    <subfield code="t">An artificially upstream flux vector splitting scheme for the Euler equations</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,189,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">The numerical simulation of two-dimensional fluid flow with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, H.</subfield>
+    <subfield code="h">Shen, L.J.</subfield>
+    <subfield code="h">Shen, Z.J.</subfield>
+    <subfield code="t">A hybrid numerical method to cure numerical shock instability</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Commun.Comput.Phys.,8,1264</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="t">Dissipative mechanism in Godunov-type schemes</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,37,1</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00022/S0021999116000024/S0021999116000024.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

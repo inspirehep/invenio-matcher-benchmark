@@ -1,0 +1,563 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.030</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Morgan, Nathaniel R.</subfield>
+    <subfield code="v">X-Computational Physics Division, Los Alamos National Laboratory, P.O. Box 1663, Los Alamos, NM, USA</subfield>
+    <subfield code="m">nmorgan@lanl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">3D level set methods for evolving fronts on tetrahedral meshes with adaptive mesh refinement</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The level set method is commonly used to model dynamically evolving fronts and interfaces. In this work, we present new methods for evolving fronts with a specified velocity field or in the surface normal direction on 3D unstructured tetrahedral meshes with adaptive mesh refinement (AMR). The level set field is located at the nodes of the tetrahedral cells and is evolved using new upwind discretizations of Hamilton–Jacobi equations combined with a Runge–Kutta method for temporal integration. The level set field is periodically reinitialized to a signed distance function using an iterative approach with a new upwind gradient. The details of these level set and reinitialization methods are discussed. Results from a range of numerical test problems are presented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by-nc-nd/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Level set</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hamilton–Jacobi</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Eulerian</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement (AMR)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Advection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Point-centered</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite difference</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tetrahedral meshes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">3D</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Waltz, Jacob I.</subfield>
+    <subfield code="v">X-Computational Physics Division, Los Alamos National Laboratory, P.O. Box 1663, Los Alamos, NM, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">492-512</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Numerical discretization of the first-order Hamilton–Jacobi equation on triangular meshes</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,49,1339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Numerical discretization of boundary conditions for first-order Hamilton–Jacobi equations</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,41,2233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aslam, T.</subfield>
+    <subfield code="h">Bdzil, J.</subfield>
+    <subfield code="h">Stewart, S.</subfield>
+    <subfield code="t">Level set methods applied to modeling detonation shock dynamics</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,126,390</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barth, T.</subfield>
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Numerical schemes for the Hamilton–Jacobi and level set equations on triangulated domains</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,145,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bdzil, J.</subfield>
+    <subfield code="h">Stewart, S.</subfield>
+    <subfield code="h">Jackson, T.</subfield>
+    <subfield code="t">Program burn algorithms based on detonation shock dynamics: discrete approximations of detonation flows with discontinuous front models</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,174,870</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="t">Multidimensional Discretization of Conservation Laws for Unstructured Polyhedral Grids</subfield>
+    <subfield code="p">Lawrence Livermore National Laboratory</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="m">Technical Report UCRL-JC-118306</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Carney, T.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Sambasivan, S.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">A cell centered Lagrangian Godunov-like method of solid dynamics</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Fluids,83,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A high-order vertex-based central ENO finite-volume scheme for three-dimensional compressible flows</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Fluids,114,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cooper</subfield>
+    <subfield code="t">Explosive Engineering</subfield>
+    <subfield code="p">Wiley-VCH</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crandall, M.</subfield>
+    <subfield code="h">Lions, P.</subfield>
+    <subfield code="t">Two approximations of solutions of Hamilton–Jacobi equations</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Math.Comput.,43,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doebling, S.</subfield>
+    <subfield code="t">Impact of Numerical Treatment of Shocks on Verification Assessment of the FLAG Lagrangian Hydrodynamics Code Using the Sedov Problem</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Technical report</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Enright, D.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="h">Ferziger, J.</subfield>
+    <subfield code="h">Mitchell, I.</subfield>
+    <subfield code="t">A hybrid particle level set method for improved interface capturing</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,183,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Coupling an Eulerian fluid calculation to a Lagrangian solid calculation with ghost fluid method</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,175,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="h">Aslam, T.</subfield>
+    <subfield code="h">Merriman, B.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">A non-oscillatory Eulerian approach to interface in multimaterial flows (the ghost fluid method)</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,152,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="h">Aslam, T.</subfield>
+    <subfield code="h">Xu, S.</subfield>
+    <subfield code="t">The ghost fluid method for deflagration and detonation discontinuities</subfield>
+    <subfield code="v">154</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,154,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fortmeier, O.</subfield>
+    <subfield code="h">Bücker, H. Martin</subfield>
+    <subfield code="t">Parallel re-initialization of level set functions on distributed unstructured tetrahedral grids</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kees, C.</subfield>
+    <subfield code="h">Akkerman, I.</subfield>
+    <subfield code="h">Farthing, M.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="t">A conservative level set method suitable for variable-order approximations and unstructured meshes</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4536</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, C.</subfield>
+    <subfield code="h">Dolbow, J.</subfield>
+    <subfield code="h">Mucha, P.</subfield>
+    <subfield code="t">A narrow-band gradient-augmented level set method</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,273,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.-G.</subfield>
+    <subfield code="h">Yan, W.</subfield>
+    <subfield code="h">Chan, C.</subfield>
+    <subfield code="t">Numerical schemes for Hamilton–Jacobi equations on unstructured meshes</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Numer.Math.,94,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lo, B.</subfield>
+    <subfield code="h">Shopple, John</subfield>
+    <subfield code="t">An interface-fitted finite element level set method with application to solidification and solvation</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Commun.Comput.Phys.,10,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Losasso, F.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Simulating water and smoke with an octree data structure</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">ACM Trans.Graph.,23,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">Volume consistency in a staggered grid</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3731</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lv, X.</subfield>
+    <subfield code="h">Zou, Q.</subfield>
+    <subfield code="h">Zhao, Y.</subfield>
+    <subfield code="h">Reeve, D.</subfield>
+    <subfield code="t">A novel coupled level set and volume of fluid method for sharp interface capturing on 3d tetrahedral grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maire, P-H.</subfield>
+    <subfield code="t">A high-order cell-centered Lagrangian scheme for two-dimensional compressible fluid flows on unstructured mesh</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Min, C.</subfield>
+    <subfield code="t">On reinitializing level set functions</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2764</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Min, C.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="t">A second order accurate level set method on non-graded adaptive cartesian grids</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,225,300</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="t">A New Liquid-Vapor Phase Transition Technique for the Level Set Method</subfield>
+    <subfield code="p">Georgia Institute of Technology</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A Godunov-like point-centered essentially Lagrangian hydrodynamic approach</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,281,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A point-centered arbitrary Lagrangian Eulerian hydrodynamic approach for tetrahedral meshes</subfield>
+    <subfield code="v">290</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,290,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Level set methods: an overview and some recent results</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,169,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Level Set Methods and Dynamic Implicit Surfaces</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Fronts propagating with curvature dependent speed: algorithms based on Hamilton–Jacobi formulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rider, W.</subfield>
+    <subfield code="h">Kothe, D.</subfield>
+    <subfield code="t">Reconstructing volume tracking</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,141,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Level Set Methods and Fast Marching Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Son, G.</subfield>
+    <subfield code="t">A numerical method for bubble motion with phase change</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,39,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Son, G.</subfield>
+    <subfield code="t">Efficient implementation of a coupled level-set and volume-of-fluid method for three-dimensional incompressible two-phase flows</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,43,549</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Son, G.</subfield>
+    <subfield code="h">Dhir, V.</subfield>
+    <subfield code="t">Numerical simulation of film boiling near critical pressures with a level set method</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Heat Transf.,120,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Almgren, A.</subfield>
+    <subfield code="h">Bell, J.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Howell, L.</subfield>
+    <subfield code="h">Welcome, M.</subfield>
+    <subfield code="t">An adaptive level set approach for incompressible two-phase flows</subfield>
+    <subfield code="v">148</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,148,81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Fatemi, E.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">An improved level set method for incompressible two-phase flows</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Fluids,27,663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">A level set approach for computing solutions to incompressible two-phase flow</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,114,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thomas, P.D.</subfield>
+    <subfield code="h">Lombard, C.K.</subfield>
+    <subfield code="t">Geometric conservation law and its application to flow computations on moving grids</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">AIAA J.,17,1030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="t">Microfluidics simulation using adaptive unstructured grids</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,46,939</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="t">Parallel adaptive refinement for unsteady flow calculations on 3D unstructured grids</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,46,37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Risinger, L.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">Verification of a three-dimensional unstructured finite element method using analytic and manufactured solutions</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Fluids,81,57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A three-dimensional finite element arbitrary Lagrangian–Eulerian method for shock hydrodynamics on unstructured grids</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Comput.Fluids,92,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Whalen, P.</subfield>
+    <subfield code="t">Algebraic limitations on two-dimensional hydrodynamics simulations</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,124,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zalesak, S.</subfield>
+    <subfield code="t">Fully multidimensional flux-corrected transport algorithms for fluids</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,31,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">High-order WENO schemes for Hamilton–Jacobi equations on triangular meshes</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,1005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="t">Hermite WENO schemes for Hamilton–Jacobi equations on unstructured meshes</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,254,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zukas, J.</subfield>
+    <subfield code="h">Walters, W.</subfield>
+    <subfield code="t">Explosive Effects and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00041/S0021999117301237/S0021999117301237.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

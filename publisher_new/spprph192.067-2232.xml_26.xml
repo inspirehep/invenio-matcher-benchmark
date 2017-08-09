@@ -1,0 +1,155 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Shadow Extraction from High-Resolution Remote Sensing Images Based on Gram-Schmidt Orthogonalization in Lab Space</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">This chapter proposes a new method of high resolution optical remote sensing image shadow extraction algorithm based on Gram-Schmidt orthogonalization addressing the issues of current shadow extraction algorithm’s complex modelling and low efficiency in computation, the basic idea of which is that the inner product of different orthogonal vectors equals to zero. The basic steps are as follow: First, the transform of the image from RGB space to Lab space is conducted based on the principle of human visual system, then the values of L/a/b shall all be confined in the range of [0, 255], which shall be stored in the three channels of RGB respectively for the following process. Colour inversion of the shadow is necessary due to its cool-colour darkness on the image and the inverted warm colour is convenient for the follow process. Take samples from the colour inverted image and the three corresponding channel values of image pixels will be used as feature vectors. Then obtain the mean values of samples of the same class for each channel, which will be processed as the feature vector for that class. Finally, the Gram-Schmidt orthogonalization computation shall be conducted for the eigenvector of each class to obtain the corresponding orthogonalization vector, and then use the corresponding orthogonalization vector of shadow characteristic vector as weight to enhance the colour feature vectors of the shadow meanwhile reducing the colour feature vectors of non-shadowed in order to extract the shadow from the image. Comparing with the current shadow extraction algorithm, the effectiveness of the method proposed in the chapter is verified.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Height-resolution remote sensing</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Shadow extraction</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Gram-Schmidt orthogonalization</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">RGB</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Lab space</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">8</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Springer Proc.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">321-328</subfield>
+  <subfield code="v">192</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/978-3-319-49184-4_32</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">ConferencePaper</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Guo, Jianhua</subfield>
+  <subfield code="v">School of Geomatics - Liaoning Technical U. - Fuxin - 123000 - Liaoning - China</subfield>
+  <subfield code="v">SASMAC - National Administration of Surveying - Mapping and Geoinformation - Beijing - 100048 - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Yang, Fan</subfield>
+  <subfield code="v">School of Geomatics - Liaoning Technical U. - Fuxin - 123000 - Liaoning - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Tan, Hai</subfield>
+  <subfield code="v">School of Geomatics - Liaoning Technical U. - Fuxin - 123000 - Liaoning - China</subfield>
+  <subfield code="v">SASMAC - National Administration of Surveying - Mapping and Geoinformation - Beijing - 100048 - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Lei, Bing</subfield>
+  <subfield code="v">School of Geomatics - Liaoning Technical U. - Fuxin - 123000 - Liaoning - China</subfield>
+  <subfield code="v">SASMAC - National Administration of Surveying - Mapping and Geoinformation - Beijing - 100048 - China</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">H. Etemadnia, and M. R. Etemadnia</subfield>
+  <subfield code="t">Automatic Image Shadow Identification using LPF in Homomorphic Processing System.</subfield>
+  <subfield code="m">in International Conference on Digital Image Computing: Techniques &amp; Applications, pp. 429-438</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">E. Salvador, A. Cavallaro, and T. Ebrahimi</subfield>
+  <subfield code="t">Cast shadow segmentation using invariant color features</subfield>
+  <subfield code="m">Computer Vision &amp; Image Understanding, vol. 95, no. 2, pp. 238-259</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">A. M. Polidorio, F. C. Flores, N. N. Imai, A. M. G. Tommaselli, and C. Franco</subfield>
+  <subfield code="t">Automatic Shadow Segmentation in Aerial Color Images</subfield>
+  <subfield code="m">pp. 270-277</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">H. Ma, Q. Qin, and X. Shen</subfield>
+  <subfield code="t">Shadow Segmentation and Compensation in High Resolution Satellite Images.</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="m">International Geoscience &amp; Remote Sensing Symposium, IGARSS, July 8-11,, Boston, Massachusetts, USA, Proceedings, pp. 1036-1039</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">J. Yang</subfield>
+  <subfield code="t">A Shadow Removal Method for High Resolution Remote Sensing Image</subfield>
+  <subfield code="m">Geomatics &amp; Information Science of Wuhan University, vol. 33, no. 1, pp. 17-20</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">J. H. Zhou, Y. F. Zhou, X. H. Guo, and Z. Ren</subfield>
+  <subfield code="t">Methods of extracting distribution information of plants at urban darken areas and repairing their brightness</subfield>
+  <subfield code="m">Journal of East China Normal University, vol. 39, no. 6, pp. 1-9</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">S. H. Rezatofighi, H. Soltanian-Zadeh, R. Sharifian, and R. A. Zoroofi</subfield>
+  <subfield code="t">A New Approach to White Blood Cell Nucleus Segmentation Based on Gram-Schmidt Orthogonalization.</subfield>
+  <subfield code="m">International Conference on Digital Image Processing, pp. 107-111</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">K. L. Chung, Y. R. Lin, and Y. H. Huang</subfield>
+  <subfield code="t">Efficient Shadow Detection of Color Aerial Images Based on Successive Thresholding Scheme</subfield>
+  <subfield code="m">Transactions on Geoscience &amp; Remote Sensing, vol. 47, no. 2, pp. 671-682</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">L. Jiahang</subfield>
+  <subfield code="t">Study on Automatic Recognition of High Resolution Optical Remotely Sensed Images Based on Visual Feature</subfield>
+  <subfield code="m">Shanghai Jiao Tong University</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">X. F. Zhao, and H. U. Xiao-Wen</subfield>
+  <subfield code="t">Remote Sensing Images Shadow Detection Based on Color Models</subfield>
+  <subfield code="m">Science Technology &amp; Engineering, vol. 5, pp. 20-22</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

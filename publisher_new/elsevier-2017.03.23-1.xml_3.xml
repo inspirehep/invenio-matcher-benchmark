@@ -1,0 +1,394 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.08.009</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ţene, Matei</subfield>
+    <subfield code="j">ORCID:0000-0003-3300-6823</subfield>
+    <subfield code="v">Department of Geoscience and Engineering, Faculty of Civil Engineering and Geosciences, Delft University of Technology, P.O. Box 5048, Delft, 2600 GA, The Netherlands</subfield>
+    <subfield code="m">m.tene@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Adaptive algebraic multiscale solver for compressible flow in heterogeneous porous media</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">16</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper presents the development of an Adaptive Algebraic Multiscale Solver for Compressible flow (C-AMS) in heterogeneous porous media. Similar to the recently developed AMS for incompressible (linear) flows (Wang et al., 2014) [19] , C-AMS operates by defining primal and dual-coarse blocks on top of the fine-scale grid. These coarse grids facilitate the construction of a conservative (finite volume) coarse-scale system and the computation of local basis functions, respectively. However, unlike the incompressible (elliptic) case, the choice of equations to solve for basis functions in compressible problems is not trivial. Therefore, several basis function formulations (incompressible and compressible, with and without accumulation) are considered in order to construct an efficient multiscale prolongation operator. As for the restriction operator, C-AMS allows for both multiscale finite volume (MSFV) and finite element (MSFE) methods. Finally, in order to resolve high-frequency errors, fine-scale (pre- and post-) smoother stages are employed. In order to reduce computational expense, the C-AMS operators (prolongation, restriction, and smoothers) are updated adaptively. In addition to this, the linear system in the Newton–Raphson loop is infrequently updated. Systematic numerical experiments are performed to determine the effect of the various options, outlined above, on the C-AMS convergence behaviour. An efficient C-AMS strategy for heterogeneous 3D compressible problems is developed based on overall CPU times. Finally, C-AMS is compared against an industrial-grade Algebraic MultiGrid (AMG) solver. Results of this comparison illustrate that the C-AMS is quite efficient as a nonlinear solver, even when iterated to machine accuracy.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Heterogeneous porous media</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Scalable linear solvers</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale finite volume method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Iterative multiscale methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Algebraic multiscale methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Yixuan</subfield>
+    <subfield code="v">Department of Energy Resources Engineering, Stanford University, 367 Panama St., Rm. 065, Stanford, CA, 94305-2220, USA</subfield>
+    <subfield code="m">yixuanw@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hajibeygi, Hadi</subfield>
+    <subfield code="j">ORCID:0000-0002-8517-8283</subfield>
+    <subfield code="v">Department of Geoscience and Engineering, Faculty of Civil Engineering and Geosciences, Delft University of Technology, P.O. Box 5048, Delft, 2600 GA, The Netherlands</subfield>
+    <subfield code="m">h.hajibeygi@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">679-694</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Wu, X.-H.</subfield>
+    <subfield code="t">A multiscale finite element method for elliptic problems in composite materials and porous media</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,134,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Wu, X.-H.</subfield>
+    <subfield code="h">Cai, Z.</subfield>
+    <subfield code="t">Convergence of a multiscale finite element method for elliptic problems with rapidly oscillating coefficients</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Math.Comput.,68,913</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="t">Multiscale Finite Element Methods: Theory and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="h">Ginting, V.</subfield>
+    <subfield code="h">Hou, T.</subfield>
+    <subfield code="h">Ewing, R.</subfield>
+    <subfield code="t">Convergence of a nonconforming multiscale finite element method</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,888</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarnes, J.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="t">Multiscale domain decomposition methods for elliptic problems with high aspect ratios</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Acta Math.Appl.,18,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multi-scale finite-volume method for elliptic problems in subsurface flow simulation</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,187,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Adaptive fully implicit multi-scale finite-volume method for multi-phase flow and transport in heterogeneous porous media</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,217,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kippe, V.</subfield>
+    <subfield code="h">Aarnes, J.E.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A comparison of multiscale methods for elliptic problems in porous media flow</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Geosci.,12,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trottenberg, U.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Schueller, A.</subfield>
+    <subfield code="t">Multigrid</subfield>
+    <subfield code="p">Elsevier Academic Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Operator based multiscale method for compressible flow</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SPE J.,13,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Two-stage algebraic multiscale linear solver for highly heterogeneous reservoir models</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">SPE 141473-PA</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">SPE J.,17,523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite-volume method for density-driven flow in porous media</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Geosci.,12,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Techelpi, H.</subfield>
+    <subfield code="t">Adaptive multiscale finite-volume method for nonlinear multiphase transport in heterogeneous formations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,228,9036</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Bonfigli, G.</subfield>
+    <subfield code="h">Hesse, M.A.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Iterative multiscale finite-volume method</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8604</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Karvounis, D.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">A hierarchical fracture model for the iterative multiscale finite volume method</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="t">Accurate and efficient simulation of multiphase flow in a heterogeneous reservoir by using error estimate and control in the multiscale finite-volume framework</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SPE J.,17,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wolfsteiner, C.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Well modeling in the multiscale finite volume method for subsurface flow simulation</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM Multiscale Model.Simul.,5,900</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Compositional multiscale finite-volume formulation</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SPE J.,19,316</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Algebraic multiscale linear solver for heterogeneous elliptic problems</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,259,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cortinovis, D.</subfield>
+    <subfield code="h">Jenny, Patrick</subfield>
+    <subfield code="t">Iterative Galerkin-enriched multiscale finite-volume method</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,277,248</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moyner, O.</subfield>
+    <subfield code="h">Lie, K.A.</subfield>
+    <subfield code="t">A multiscale two-point flux-approximation method</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,275,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="h">Settari, A.</subfield>
+    <subfield code="t">Petroleum Reservoir Simulation</subfield>
+    <subfield code="p">Blitzprint Ltd. Cagary, Alberta</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite-volume method for compressible multiphase flow in porous media</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,216,616</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Wolfsteiner, C.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multiscale finite-volume formulation for multiphase flow in porous media: black oil formulation of compressible, three-phase flow with gravity</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Geosci.,12,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Multiscale finite-volume method for parabolic problems arising from compressible multiphase flow in porous media</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">SIAM Philadelphia, USA</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stuben, K.</subfield>
+    <subfield code="t">SAMG User's Manual</subfield>
+    <subfield code="p">Fraunhofer Institute SCAI</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remy, N.</subfield>
+    <subfield code="h">Boucher, A.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="t">Applied Geostatistics with SGeMS: A User's Guide</subfield>
+    <subfield code="p">Cambridge University Press New York</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="h">Galvis, J.</subfield>
+    <subfield code="h">Wu, X.H.</subfield>
+    <subfield code="t">Multiscale finite element methods for high-contrast problems using local spectral basis functions</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,230,937</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonfigli, G.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">An efficient multi-scale Poisson solver for the incompressible Navier–Stokes equations with immersed boundaries</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4568</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173259-MS</subfield>
+    <subfield code="h">Manea, A.M.</subfield>
+    <subfield code="h">Sewall, J.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Parallel multiscale linear solver for highly detailed reservoir models</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">Proceedings of SPE RSS</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolean, V.</subfield>
+    <subfield code="h">Jolivet, P.</subfield>
+    <subfield code="h">Nataf, F.</subfield>
+    <subfield code="h">Spillane, N.</subfield>
+    <subfield code="h">Xiang, H.</subfield>
+    <subfield code="t">Two-level domain decomposition methods for highly heterogeneous Darcy equations. Connections with multiscale methods</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Oil Gas Sci.Technol.,69,731</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115005264/S0021999115005264.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,574 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.032</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Moncorgé, A.</subfield>
+    <subfield code="j">ORCID:0000-0001-8497-7916</subfield>
+    <subfield code="v">TOTAL E&amp;P; UK, Geoscience Research Center, Aberdeen, UK</subfield>
+    <subfield code="v">Institute of Fluid Dynamics, ETH Zurich, Zurich, Switzerland</subfield>
+    <subfield code="m">arthur.moncorge@total.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Modified sequential fully implicit scheme for compositional flow simulation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The fully implicit (FI) method is widely used for numerical modeling of multiphase flow and transport in porous media. The FI method is unconditionally stable, but that comes at the cost of a low-order approximation and high computational cost. The FI method entails iterative linearization and solution of fully-coupled linear systems with mixed elliptic/hyperbolic character. However, in methods that treat the near-elliptic (flow) and hyperbolic (transport) separately, such as multiscale formulations, sequential solution strategies are used to couple the flow (pressures and velocities) and the transport (saturations/compositions). The most common sequential schemes are: the implicit pressure explicit saturation (IMPES), and the sequential fully implicit (SFI) schemes. Problems of practical interest often involve tightly coupled nonlinear interactions between the multiphase flow and the multi-component transport. For such problems, the IMPES approach usually suffers from prohibitively small timesteps in order to obtain stable numerical solutions. The SFI method, on the other hand, does not suffer from a temporal stability limit, but the convergence rate can be extremely slow. This slow convergence rate of SFI can offset the gains obtained from separate and specialized treatments of the flow and transport problems. In this paper, we analyze the nonlinear coupling between flow and transport for compressible, compositional systems with complex interphase mass transfer. We isolate the nonlinear effects related to transmissibility and compressibility from those due to interphase mass transfer, and we propose a modified SFI (m-SFI) method. The new scheme involves enriching the ‘standard’ pressure equation with coupling between the pressure and the saturations/compositions. The modification resolves the convergence problems associated with SFI and provides a strong basis for using sequential formulations for general-purpose simulation. For a wide parameter range, we show that the proposed m-SFI algorithm is as robust as the FI method with a comparable convergence rate.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonlinear dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical flow simulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sequential implicit</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Operator splitting</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Coupled flow and transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiscale methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Flow in porous media</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compositional formulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-component transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compositional reservoir simulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Tchelepi, H.A.</subfield>
+    <subfield code="v">Energy Resources Engineering Department, Stanford University, Stanford, CA, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jenny, P.</subfield>
+    <subfield code="v">Institute of Fluid Dynamics, ETH Zurich, Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">98-115</subfield>
+    <subfield code="v">337</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/030600655</subfield>
+    <subfield code="h">Aarnes, J.E.</subfield>
+    <subfield code="t">On the use of a mixed multiscale finite element method for greater flexibility and increased speed or improved accuracy in reservoir simulation</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Multiscale Model.Simul.,2,421</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/10515-PA</subfield>
+    <subfield code="h">Acs, G.</subfield>
+    <subfield code="h">Doleschall, S.</subfield>
+    <subfield code="h">Farkas, E.</subfield>
+    <subfield code="t">General purpose compositional model</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,25,543</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/81909-PA</subfield>
+    <subfield code="h">Arbogast, T.</subfield>
+    <subfield code="h">Bryant, S.L.</subfield>
+    <subfield code="t">A two-scale numerical subgrid technique for waterflood simulations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,7,446</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="h">Settari, A.</subfield>
+    <subfield code="t">Petroleum Reservoir Simulation</subfield>
+    <subfield code="p">Applied Science Publishers</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="h">Wong, T.W.</subfield>
+    <subfield code="t">Considerations in the development of multipurpose reservoir simulation models</subfield>
+    <subfield code="p">Proceedings of 1st and 2nd International Forum on Reservoir Simulation, Alpbach, Austria, Sept 12–16, 1988 and Sept 4–8, 1989, 1989</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/96809-MS</subfield>
+    <subfield code="h">Cao, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="h">Wallis, J.</subfield>
+    <subfield code="h">Yardumian, H.</subfield>
+    <subfield code="t">Parallel scalable unstructured CPR-type linear solver for reservoir simulation</subfield>
+    <subfield code="p">Society of Petroleum Engineers (SPE)</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="q">SPE Annual Technical Conference and Exhibition</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1090/s0025-5718-02-01441-2</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="t">A mixed multiscale finite element method for elliptic problems with oscillating coefficients</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Math.Comput.,72,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/72469-PA</subfield>
+    <subfield code="h">Christie, M.A.</subfield>
+    <subfield code="h">Blunt, M.J.</subfield>
+    <subfield code="t">Tenth SPE comparative solution project: a comparison of upscaling techniques</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SPE Reserv.Eval.Eng.,4,308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">CMG-STARS, Computer Modeling Group, Calgary, Alberta, Canada</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/8284-PA</subfield>
+    <subfield code="h">Coats, K.H.</subfield>
+    <subfield code="t">An equation of state compositional model</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,20,363</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/65092-PA</subfield>
+    <subfield code="h">Coats, K.H.</subfield>
+    <subfield code="t">A note on IMPES and some IMPES-based simulation models</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,5,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/84924-PA</subfield>
+    <subfield code="h">Coats, K.H.</subfield>
+    <subfield code="t">IMPES stability: selection of stable timesteps</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,8,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/85956-PA</subfield>
+    <subfield code="h">Coats, K.H.</subfield>
+    <subfield code="t">IMPES stability: the CFL limit</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,8,291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/6724-PA</subfield>
+    <subfield code="h">Crookston, R.B.</subfield>
+    <subfield code="h">Culham, W.E.</subfield>
+    <subfield code="h">Chen, W.H.</subfield>
+    <subfield code="t">A numerical simulation model for thermal recovery processes</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,19,37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(86)90127-0</subfield>
+    <subfield code="h">Forsyth, P.A.</subfield>
+    <subfield code="h">Sammon, P.H.</subfield>
+    <subfield code="t">Practical considerations for adaptive implicit methods in reservoir simulation</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,62,265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/6891-PA</subfield>
+    <subfield code="h">Fussell, L.T.</subfield>
+    <subfield code="h">Fussell, D.D.</subfield>
+    <subfield code="t">An iterative technique for compositional reservoir models</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,19,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/163664-PA</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Compositional multiscale finite-volume formulation</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,19,316</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1997.5682</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Wu, X.-H.</subfield>
+    <subfield code="t">A multiscale finite element method for elliptic problems in composite materials and porous media</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,134,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(03)00075-5</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multi-scale finite-volume method for elliptic problems in subsurface flow simulation</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,187,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2006.01.028</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Adaptive fully implicit multi-scale finite-volume method for multi-phase flow and transport in heterogeneous porous media</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,217,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/6890-PA</subfield>
+    <subfield code="h">Kazemi, H.</subfield>
+    <subfield code="h">Vestal, C.R.</subfield>
+    <subfield code="h">Shank, D.G.</subfield>
+    <subfield code="t">An efficient multicomponent numerical simulator</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,18,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/11483-MS</subfield>
+    <subfield code="h">Kendall, R.P.</subfield>
+    <subfield code="h">Morrell, G.O.</subfield>
+    <subfield code="h">Peaceman, D.W.</subfield>
+    <subfield code="h">Silliman, W.J.</subfield>
+    <subfield code="h">Watts, J.W.</subfield>
+    <subfield code="t">Development of a multiple application reservoir simulator for use on a vector computer</subfield>
+    <subfield code="p">Society of Petroleum Engineers (SPE)</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="q">Middle East Oil Technical Conference and Exhibition</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/16000-MS</subfield>
+    <subfield code="h">Killough, J.E.</subfield>
+    <subfield code="h">Kossack, C.A.</subfield>
+    <subfield code="t">Fifth comparative solution project: evaluation of miscible flood simulators</subfield>
+    <subfield code="p">Society of Petroleum Engineers (SPE)</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="q">SPE Symposium on Reservoir Simulation</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10596-007-9069-3</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Wolfsteiner, C.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multiscale finite-volume formulation for multiphase flow in porous media: black oil formulation of compressible, three-phase flow with gravity</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Geosci.,12,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(03)00346-2</subfield>
+    <subfield code="h">Li, B.</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Huan, G.</subfield>
+    <subfield code="t">The sequential method for the black-oil reservoir simulation on unstructured grids</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,192,36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3997/2214-4609.201601893</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Natvig, J.R.</subfield>
+    <subfield code="h">Kozlova, A.</subfield>
+    <subfield code="h">Bratvedt, K.</subfield>
+    <subfield code="h">Watanabe, S.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="t">Successful application of multiscale methods in a real reservoir simulator environment</subfield>
+    <subfield code="p">15th European Conference on the Mathematics of Oil Recovery 2016, ECMOR XV, Aug 2016</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/915-PA</subfield>
+    <subfield code="h">Lorentz, J.</subfield>
+    <subfield code="h">Bray, B.G.</subfield>
+    <subfield code="h">Clark, C.R.</subfield>
+    <subfield code="t">Calculating viscosities of reservoir fluids from their compositions</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Pet.Technol.,16,1171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/2796-PA</subfield>
+    <subfield code="h">MacDonald, R.C.</subfield>
+    <subfield code="t">Methods for numerical simulation of water and gas coning</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,10,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/i160070a001</subfield>
+    <subfield code="h">Martin, J.J.</subfield>
+    <subfield code="t">Cubic equations of state-which?</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Ind.Eng.Chem.Fundam.,18,81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/111610-PA</subfield>
+    <subfield code="h">Moncorgé, A.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Stability criteria for thermal adaptive implicit compositional flows</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,14,311</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/161615-MS</subfield>
+    <subfield code="h">Moncorgé, A.</subfield>
+    <subfield code="h">Patacchini, L.</subfield>
+    <subfield code="h">de Loubens, R.</subfield>
+    <subfield code="t">Multi-phase, multi-component simulation framework for advanced recovery mechanisms</subfield>
+    <subfield code="p">Society of Petroleum Engineers (SPE)</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">Abu Dhabi International Petroleum Conference and Exhibition</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.10.010</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale restriction-smoothed basis method for high contrast porous media represented on unstructured grids</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,304,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/173265-PA</subfield>
+    <subfield code="h">Møyner, O.</subfield>
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="t">A multiscale restriction-smoothed basis method for compressible black-oil models</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,21,2079</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/9306-PA</subfield>
+    <subfield code="h">Nghiem, L.X.</subfield>
+    <subfield code="h">Fong, D.K.</subfield>
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="t">Compositional modeling with an equation of state (includes associated papers 10894 and 10903)</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,21,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/2981-PA</subfield>
+    <subfield code="h">Nolen, J.S.</subfield>
+    <subfield code="h">Berry, D.W.</subfield>
+    <subfield code="t">Tests of the stability and time-step sensitivity of semi-implicit reservoir stimulation techniques</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,12,253</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/i160057a011</subfield>
+    <subfield code="h">Peng, D.-Y.</subfield>
+    <subfield code="h">Robinson, D.B.</subfield>
+    <subfield code="t">A new two-constant equation of state</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Ind.Eng.Chem.Fundam.,15,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/cr60137a013</subfield>
+    <subfield code="h">Redlich, O.</subfield>
+    <subfield code="h">Kwong, J.N.S.</subfield>
+    <subfield code="t">On the thermodynamics of solutions. V. An equation of state. Fugacities of gaseous solutions</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Chem.Rev.,44,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sheldon, J.W.</subfield>
+    <subfield code="h">Zondek, B.</subfield>
+    <subfield code="h">Cardwell, W.T.</subfield>
+    <subfield code="t">One-dimensional, incompressible, noncapillary two-phase fluid flow in porous media</subfield>
+    <subfield code="v">216</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Trans.AIME,216,290</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0009-2509(72)80096-4</subfield>
+    <subfield code="h">Soave, G.</subfield>
+    <subfield code="t">Equilibrium constants from a modified Redlich–Kwong equation of state</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Chem.Eng.Sci.,27,1197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/4542-MS</subfield>
+    <subfield code="h">Spillette, A.G.</subfield>
+    <subfield code="h">Hillestad, J.G.</subfield>
+    <subfield code="h">Stone, H.L.</subfield>
+    <subfield code="t">A high-stability sequential solution approach to reservoir simulation</subfield>
+    <subfield code="p">Society of Petroleum Engineers (SPE)</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="q">Fall Meeting of the Society of Petroleum Engineers of AIME</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/1518-g</subfield>
+    <subfield code="h">Stone, H.L.</subfield>
+    <subfield code="h">Stone, A.O.</subfield>
+    <subfield code="t">Analysis of gas-cap or dissolved-gas drive reservoirs</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,1,92</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stueben, K.</subfield>
+    <subfield code="t">An introduction to algebraic multigrid</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">Appendix in book “Multigrid” by U. Trottenberg, C.W. Oosterlee, A. Schueller</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/10120-PA</subfield>
+    <subfield code="h">Thomas, G.W.</subfield>
+    <subfield code="h">Thurnau, D.H.</subfield>
+    <subfield code="t">Reservoir simulation using an adaptive implicit method</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,23,759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.petrol.2011.10.012</subfield>
+    <subfield code="h">Voskov, D.V.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Comparison of nonlinear formulations for two-phase multi-component EoS based simulation</subfield>
+    <subfield code="v">82–83</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Pet.Sci.Eng.,82–83,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/12244-PA</subfield>
+    <subfield code="h">Watts, J.W.</subfield>
+    <subfield code="t">A compositional formulation of the pressure and saturation equations</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SPE Reserv.Eng.,1,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/10516-PA</subfield>
+    <subfield code="h">Young, L.C.</subfield>
+    <subfield code="h">Stephenson, R.E.</subfield>
+    <subfield code="t">A generalized compositional approach for reservoir simulation</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,23,727</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/119183-PA</subfield>
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multiscale finite-volume formulation for saturation equations</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Soc.Pet.Eng.J.,17,198</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00053/S0021999117301250/S0021999117301250.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

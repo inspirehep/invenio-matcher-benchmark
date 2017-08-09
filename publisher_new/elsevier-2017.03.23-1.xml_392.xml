@@ -1,0 +1,198 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.06.002</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Keady, Kendra P.</subfield>
+    <subfield code="v">CCS-2, Los Alamos National Laboratory, P.O. Box 1663, Los Alamos, NM, 87545, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Stability of Monte Carlo k -eigenvalue simulations with CMFD feedback</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we perform a Fourier stability analysis of MC-CMFD, a hybrid Monte Carlo k -eigenvalue method that utilizes coarse mesh finite difference (CMFD) feedback. The MC-CMFD method is nonlinear and contains random statistical errors; both of these features are inconsistent with the direct application of a Fourier stability analysis. To accomplish this analysis, we first formulate a non-random iteration method that approximates MC-CMFD, by assuming an infinite number of Monte Carlo particles per cycle. Then we (i) linearize this method, and (ii) Fourier-analyze the linearized method to theoretically predict its convergence properties. Finally, we demonstrate by direct numerical simulations that the Fourier analysis of the linearized non-random method accurately predicts the stability and fission source convergence rate (during the inactive cycles) of the original nonlinear MC-CMFD method. We do this by comparing the predictions of the Fourier analysis to simulations that utilize (i) a high-fidelity <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">S</mi></mrow><mrow><mi mathvariant="normal">N</mi></mrow></msub></math> -CMFD code (which has no random statistical errors), and (ii) a MC-CMFD code (which has random statistical errors). The Fourier analysis and our two test codes confirm that the MC-CMFD method is stable if the optical thickness of the coarse grid (in the low-order CMFD calculation) is sufficiently small. However, the spectral radius increases monotonically with the coarse grid size, and if the latter exceeds a critical value, the MC-CMFD method becomes unstable. We discuss some implications of our results for practical MC-CMFD simulations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Neutron transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hybrid methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">k -eigenvalue problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fourier analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">k-eigenvalue problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Larsen, Edward W.</subfield>
+    <subfield code="v">University of Michigan Department of Nuclear Engineering, Radiological Sciences, 2355 Bonisteel Blvd., Ann Arbor, MI, 48109, United States</subfield>
+    <subfield code="m">edlarsen@umich.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">947-964</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, M.J.</subfield>
+    <subfield code="h">Joo, H.G.</subfield>
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">A feasibility study of CMFD acceleration in Monte Carlo eigenvalue calculation</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Trans.Kor.Nucl.Soc.Autumn Meeting</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Young, M.T.H.</subfield>
+    <subfield code="h">Brown, F.B.</subfield>
+    <subfield code="h">Kiedrowski, B.C.</subfield>
+    <subfield code="h">Martin, W.R.</subfield>
+    <subfield code="t">Coarse mesh finite difference in MCNP5</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">LA-UR-11-04384</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, M.J.</subfield>
+    <subfield code="h">Joo, H.G.</subfield>
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">Investigation of CMFD accelerated Monte Carlo eigenvalue calculation with simplified low dimensional multigroup formulation</subfield>
+    <subfield code="p">Proc. PHYSOR 2010, Pittsburgh, Pennsylvania, May 9–14, 2010, 2010</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, M.J.</subfield>
+    <subfield code="h">Joo, H.G.</subfield>
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">Monte Carlo reactor calculation with substantially reduced number of cycles</subfield>
+    <subfield code="p">Proc. PHYSOR 2012, Knoxville, Tennessee, April 15–20, 2012, 2012</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, M.J.</subfield>
+    <subfield code="h">Joo, H.G.</subfield>
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">Coarse mesh finite difference formulation for accelerated Monte Carlo eigenvalue calculation</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Ann.Nucl.Energy,65,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Romano, P.K.</subfield>
+    <subfield code="t">OpenMC: a state-of-the-art Monte Carlo code for research and development</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Ann.Nucl.Energy</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.L.</subfield>
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="t">Fast iterative methods for discrete-ordinates particle transport calculations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Prog.Nucl.Energy,40,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="h">Kelley, B.W.</subfield>
+    <subfield code="t">The relationship between the coarse-mesh finite difference and the coarse-mesh diffusion synthetic acceleration methods</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,178,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, K.S.</subfield>
+    <subfield code="h">Rhodes, J.D.</subfield>
+    <subfield code="t">Full-core, 2-D, LWR core calculations with CASMO-4E</subfield>
+    <subfield code="p">Proc. PHYSOR 2002, Seoul, Korea, October 7–10, 2002, 2002</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Downar, T.J.</subfield>
+    <subfield code="h">Kim, Y.</subfield>
+    <subfield code="t">Convergence analysis of the nonlinear coarse-mesh finite difference method for one-dimensional fixed-source neutron diffusion problem</subfield>
+    <subfield code="v">147</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,147,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hong, S.G.</subfield>
+    <subfield code="h">Kim, K.-S.</subfield>
+    <subfield code="h">Song, J.S.</subfield>
+    <subfield code="t">Fourier convergence analysis of the rebalance methods for discrete ordinates transport equations in eigenvalue problems</subfield>
+    <subfield code="v">164</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,164,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keady, K.</subfield>
+    <subfield code="t">Stabilization and acceleration methods for Monte Carlo reactor core k -eigenvalue problems</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">Ph.D. dissertation</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="p">Organization for Economic Cooperation and Development/Nuclear Energy Agency</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Herman, B.R.</subfield>
+    <subfield code="h">Forget, B.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">Progress toward Monte Carlo-thermal hydraulic coupling using low-order nonlinear diffusion acceleration methods</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Ann.Nucl.Energy</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116302273/S0021999116302273.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

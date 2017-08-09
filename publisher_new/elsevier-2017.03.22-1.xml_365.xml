@@ -1,0 +1,431 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.021</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cotter, C.J.</subfield>
+    <subfield code="j">ORCID:0000-0001-7962-8324</subfield>
+    <subfield code="v">Department of Mathematics, Imperial College London, South Kensington Campus, London, SW7 2AZ, United Kingdom</subfield>
+    <subfield code="m">colin.cotter@imperial.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Embedded discontinuous Galerkin transport schemes with localised limiters</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-04-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">11</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Motivated by finite element spaces used for representation of temperature in the compatible finite element approach for numerical weather prediction, we introduce locally bounded transport schemes for (partially-)continuous finite element spaces. The underlying high-order transport scheme is constructed by injecting the partially-continuous field into an embedding discontinuous finite element space, applying a stable upwind discontinuous Galerkin (DG) scheme, and projecting back into the partially-continuous space; we call this an embedded DG transport scheme. We prove that this scheme is stable in <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msup></math> provided that the underlying upwind DG scheme is. We then provide a framework for applying limiters for embedded DG transport schemes. Standard DG limiters are applied during the underlying DG scheme. We introduce a new localised form of element-based flux-correction which we apply to limiting the projection back into the partially-continuous space, so that the whole transport scheme is bounded. We provide details in the specific case of tensor-product finite element spaces on wedge elements that are discontinuous P1/Q1 in the horizontal and continuous P2 in the vertical. The framework is illustrated with numerical tests.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Slope limiters</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Flux corrected transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Convection-dominated transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical weather prediction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kuzmin, D.</subfield>
+    <subfield code="v">Institute of Applied Mathematics, Dortmund University of Technology, Vogelpothsweg 87, Dortmund, D-44227, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">363-373</subfield>
+    <subfield code="v">311</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bao, L.</subfield>
+    <subfield code="h">Klöfkorn, R.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="t">Horizontally explicit and vertically implicit (HEVI) time discretization scheme for a discontinuous Galerkin nonhydrostatic model</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Mon.Weather Rev.,143,972</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barth, T.</subfield>
+    <subfield code="h">Jespersen, D.</subfield>
+    <subfield code="t">The design and application of upwind schemes on unstructured meshes</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="m">AIAA Paper 89-0366</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Biswas, R.</subfield>
+    <subfield code="h">Devine, K.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="t">Parallel adaptive finite element methods for conservation laws</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Appl.Numer.Math.,14,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brdar, S.</subfield>
+    <subfield code="h">Baldauf, M.</subfield>
+    <subfield code="h">Dedner, A.</subfield>
+    <subfield code="h">Klöfkorn, R.</subfield>
+    <subfield code="t">Comparison of dynamical cores for NWP models: comparison of COSMO and Dune</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,27,453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burbeau, A.</subfield>
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="h">Bruneau, C.-H.</subfield>
+    <subfield code="t">A problem-independent limiter for high-order Runge–Kutta discontinuous Galerkin methods</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,169,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection-dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cotter, C.</subfield>
+    <subfield code="h">Shipton, J.</subfield>
+    <subfield code="t">Mixed finite elements for numerical weather prediction</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7076</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="t">A finite element exterior calculus framework for the rotating shallow-water equations</subfield>
+    <subfield code="v">257</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,257,1506</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davies, T.</subfield>
+    <subfield code="h">Cullen, M.</subfield>
+    <subfield code="h">Malcolm, A.</subfield>
+    <subfield code="h">Mawson, M.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">White, A.</subfield>
+    <subfield code="h">Wood, N.</subfield>
+    <subfield code="t">A new dynamical core for the Met Office's global and regional modelling of the atmosphere</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,131,1759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dennis, J.</subfield>
+    <subfield code="h">Edwards, J.</subfield>
+    <subfield code="h">Evans, K.J.</subfield>
+    <subfield code="h">Guba, O.</subfield>
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Mirin, A.A.</subfield>
+    <subfield code="h">St-Cyr, A.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Worley, P.H.</subfield>
+    <subfield code="t">CAM-SE: a scalable spectral element dynamical core for the Community Atmosphere Model</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.,26,74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fournier, A.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Tribbia, J.J.</subfield>
+    <subfield code="t">The spectral element atmosphere model (SEAM): high-resolution parallel computation and localized resolution of regional dynamics</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Mon.Weather Rev.,132,726</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Kelly, J.F.</subfield>
+    <subfield code="h">Constantinescu, E.</subfield>
+    <subfield code="t">Implicit-explicit formulations of a three-dimensional nonhydrostatic unified model of the atmosphere (NUMA)</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,B1162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guba, O.</subfield>
+    <subfield code="h">Taylor, M.</subfield>
+    <subfield code="h">St-Cyr, A.</subfield>
+    <subfield code="t">Optimization-based limiters for the spectral element method</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,267,176</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Ackerer, P.</subfield>
+    <subfield code="h">Mosé, R.</subfield>
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Philippe, B.</subfield>
+    <subfield code="t">New two-dimensional slope limiters for discontinuous Galerkin methods on arbitrary meshes</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,61,2566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kelly, J.F.</subfield>
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="t">Continuous and discontinuous Galerkin methods for a scalable three-dimensional nonhydrostatic atmospheric model: limited-area mode</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7988</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="h">Xin, J.</subfield>
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="h">Chevaugeon, N.</subfield>
+    <subfield code="h">Flaherty, J.</subfield>
+    <subfield code="t">Shock detection and limiting with discontinuous Galerkin methods for hyperbolic conservation laws</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Appl.Numer.Math.,48,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="t">A vertex-based hierarchical slope limiter for p-adaptive discontinuous Galerkin methods</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,233,3077</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="t">Slope limiting for discontinuous Galerkin approximations with a possibly non-orthogonal Taylor basis</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,71,1178</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="h">Kosík, A.</subfield>
+    <subfield code="h">Aizinger, V.</subfield>
+    <subfield code="t">Anisotropic slope limiting in discontinuous Galerkin methods for transport equations</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="h">Möller, M.</subfield>
+    <subfield code="h">Shadid, J.N.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Failsafe flux limiting and constrained data projections for equations of gas dynamics</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8766</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="h">Turek, S.</subfield>
+    <subfield code="t">Flux correction tools for finite elements</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,175,525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.</subfield>
+    <subfield code="t">High-resolution conservative algorithms for advection in incompressible flow</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,33,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="t">Applied CFD Techniques: An Introduction Based on Finite Element Methods</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="h">Morgan, K.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Vahdati, M.</subfield>
+    <subfield code="t">Finite element flux-corrected transport (FEM–FCT) for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,7,1093</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marras, S.</subfield>
+    <subfield code="h">Kelly, J.F.</subfield>
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Vázquez, M.</subfield>
+    <subfield code="t">Variational multiscale stabilization of high-order spectral elements for the advection–diffusion equation</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marras, S.</subfield>
+    <subfield code="h">Kelly, J.F.</subfield>
+    <subfield code="h">Moragues, M.</subfield>
+    <subfield code="h">Müller, A.</subfield>
+    <subfield code="h">Kopera, M.A.</subfield>
+    <subfield code="h">Vázquez, M.</subfield>
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Houzeaux, G.</subfield>
+    <subfield code="h">Jorba, O.</subfield>
+    <subfield code="t">A review of element-based Galerkin methods for numerical weather prediction: finite elements, spectral elements, and discontinuous Galerkin</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Arch.Comput.Methods Eng.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marras, S.</subfield>
+    <subfield code="h">Moragues, M.</subfield>
+    <subfield code="h">Vázquez, M.</subfield>
+    <subfield code="h">Jorba, O.</subfield>
+    <subfield code="h">Houzeaux, G.</subfield>
+    <subfield code="t">Simulations of moist convection by a variational multiscale stabilized finite element method</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,252,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McRae, A.T.</subfield>
+    <subfield code="h">Bercea, G.-T.</subfield>
+    <subfield code="h">Mitchell, L.</subfield>
+    <subfield code="h">Ham, D.A.</subfield>
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="r">arXiv:1411.2940</subfield>
+    <subfield code="t">Automated generation and symbolic manipulation of tensor product finite elements</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">preprint</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McRae, A.T.</subfield>
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="t">Energy- and enstrophy-conserving schemes for the shallow-water equations, based on mimetic finite elements</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,2223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">Melvin, T.</subfield>
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="t">Analysis of a mixed finite-element pair proposed for an atmospheric dynamical core</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,139,1239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="t">Horizontal grids for global weather and climate prediction models: a review</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,138,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thomas, S.J.</subfield>
+    <subfield code="h">Loft, R.D.</subfield>
+    <subfield code="t">The NCAR spectral element climate dynamical core: semi-implicit Eulerian formulation</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Sci.Comput.,25,307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tu, S.</subfield>
+    <subfield code="h">Aliabadi, S.</subfield>
+    <subfield code="t">A slope limiting procedure in discontinuous Galerkin finite element method for gasdynamics applications</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Numer.Anal.Model.,2,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Maximum-principle-satisfying and positivity-preserving high-order schemes for conservation laws: survey and new developments</subfield>
+    <subfield code="v">467</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Proc.R.Soc.,A467,2752</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00046/S0021999116000759/S0021999116000759.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

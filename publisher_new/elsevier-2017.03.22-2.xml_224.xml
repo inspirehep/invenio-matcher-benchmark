@@ -1,0 +1,471 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.056</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Marti, P.</subfield>
+    <subfield code="j">ORCID:0000-0002-3936-1503</subfield>
+    <subfield code="v">Department of Applied Mathematics, University of Colorado, Boulder, CO, 80309, USA</subfield>
+    <subfield code="v">Institute of Geophysics, ETH Zurich, Zurich, 8092, Switzerland</subfield>
+    <subfield code="m">philippe.marti@colorado.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A fully spectral methodology for magnetohydrodynamic calculations in a whole sphere</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">20</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a fully spectral methodology for magnetohydrodynamic (MHD) calculations in a whole sphere. The use of Jones–Worland polynomials for the radial expansion guarantees that the physical variables remain infinitely differentiable throughout the spherical volume. Furthermore, we present a mathematically motivated and systematic strategy to relax the very stringent time step constraint that is present close to the origin when a spherical harmonic expansion is used for the angular direction. The new constraint allows for significant savings even on relatively simple solutions as demonstrated on the so-called full sphere benchmark, a specific problem with a very accurately-known solution. The numerical implementation uses a 2D data decomposition which allows it to scale to thousands of cores on present-day high performance computing systems. In addition to validation results, we also present three new whole sphere dynamo solutions that present a relatively simple structure.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sphere</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">CFL condition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HPC</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dynamo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Orthogonal poylnomials</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">MHD</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jackson, A.</subfield>
+    <subfield code="v">Institute of Geophysics, ETH Zurich, Zurich, 8092, Switzerland</subfield>
+    <subfield code="m">ajackson@ethz.ch</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">403-422</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.M.</subfield>
+    <subfield code="h">Ruuth, S.J.</subfield>
+    <subfield code="h">Wetton, B.T.R.</subfield>
+    <subfield code="t">Implicit explicit methods for time-dependent partial–differential equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,32,797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Backus, G.</subfield>
+    <subfield code="h">Parker, R.L.</subfield>
+    <subfield code="h">Constable, C.</subfield>
+    <subfield code="t">Foundations of Geomagnetism</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, England</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Birta, L.G.</subfield>
+    <subfield code="h">Yang, M.</subfield>
+    <subfield code="h">Abourabia, O.</subfield>
+    <subfield code="t">An adaptive approach to stepsize control in ode solvers</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Math.Comput.Simul.,35,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boyd, J.P.</subfield>
+    <subfield code="t">Chebyshev and Fourier Spectral Methods</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braginsky, S.I.</subfield>
+    <subfield code="h">Roberts, P.H.</subfield>
+    <subfield code="t">Equations governing convection in Earth's core and the geodynamo</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Geophys.Astrophys.Fluid Dyn.,79,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandrasekhar, S.</subfield>
+    <subfield code="t">Hydrodynamic and Hydromagnetic Stability</subfield>
+    <subfield code="p">Clarendon Press Oxford</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christensen, U.</subfield>
+    <subfield code="h">Olson, P.</subfield>
+    <subfield code="h">Glatzmaier, G.A.</subfield>
+    <subfield code="t">Numerical modelling of the geodynamo: a systematic parameter study</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Geophys.J.Int.,138,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christensen, U.R.</subfield>
+    <subfield code="h">Aubert, J.</subfield>
+    <subfield code="h">Cardin, P.</subfield>
+    <subfield code="h">Dormy, E.</subfield>
+    <subfield code="h">Gibbons, S.</subfield>
+    <subfield code="h">Glatzmaier, G.A.</subfield>
+    <subfield code="h">Grote, E.</subfield>
+    <subfield code="h">Honkura, Y.</subfield>
+    <subfield code="h">Jones, C.</subfield>
+    <subfield code="h">Kono, M.</subfield>
+    <subfield code="h">Matsushima, M.</subfield>
+    <subfield code="h">Sakuraba, A.</subfield>
+    <subfield code="h">Takahashi, F.</subfield>
+    <subfield code="h">Tilgner, A.</subfield>
+    <subfield code="h">Wicht, J.</subfield>
+    <subfield code="h">Zhang, K.</subfield>
+    <subfield code="t">A numerical dynamo benchmark</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Phys.Earth Planet.Inter.,128,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davidson, P.A.</subfield>
+    <subfield code="t">An Introduction to Magnetohydrodynamics</subfield>
+    <subfield code="p">Cambridge University Press Cambridge Books Online</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gautschi, W.</subfield>
+    <subfield code="t">Computational aspects of three-term recurrence relations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM Rev.,9,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Glatzmaier, G.A.</subfield>
+    <subfield code="h">Roberts, P.H.</subfield>
+    <subfield code="t">A three-dimensional convective dynamo solution with rotating and finitely conducting inner core and mantle</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Earth Planet.Inter.,91,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Welsch, J.H.</subfield>
+    <subfield code="t">Calculation of Gauss quadrature rules</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="m">+s1–s10</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Math.Comput.,23,221</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gustafsson, K.</subfield>
+    <subfield code="h">Soderlind, G.</subfield>
+    <subfield code="t">Control strategies for the iterative solution of nonlinear equations in ODE solvers</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hollerbach, R.</subfield>
+    <subfield code="t">The Range of Timescales on which the Geodynamo Operates, Earth's Core: Dynamics, Structure, Rotation, vol. 31</subfield>
+    <subfield code="p">Amer. Geophys. Union</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hollerbach, R.</subfield>
+    <subfield code="h">Nore, C.</subfield>
+    <subfield code="h">Marti, P.</subfield>
+    <subfield code="h">Vantieghem, S.</subfield>
+    <subfield code="h">Luddens, F.</subfield>
+    <subfield code="h">Léorat, J.</subfield>
+    <subfield code="t">Parity-breaking flows in precessing spherical containers</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Rev.,E87,053020</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jackson, A.</subfield>
+    <subfield code="h">Sheyko, A.</subfield>
+    <subfield code="h">Marti, P.</subfield>
+    <subfield code="h">Tilgner, A.</subfield>
+    <subfield code="h">Cébron, D.</subfield>
+    <subfield code="h">Vantieghem, S.</subfield>
+    <subfield code="h">Simitev, R.</subfield>
+    <subfield code="h">Busse, F.</subfield>
+    <subfield code="h">Zhan, X.</subfield>
+    <subfield code="h">Schubert, G.</subfield>
+    <subfield code="h">Takehiro, S.</subfield>
+    <subfield code="h">Sasaki, Y.</subfield>
+    <subfield code="h">Hayashi, Y.-Y.</subfield>
+    <subfield code="h">Ribeiro, A.</subfield>
+    <subfield code="h">Nore, C.</subfield>
+    <subfield code="h">Guermond, J.-L.</subfield>
+    <subfield code="t">A spherical shell numerical dynamo benchmark with pseudo-vacuum magnetic boundary conditions</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Geophys.J.Int.,196,712</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Julien, K.</subfield>
+    <subfield code="h">Watson, M.</subfield>
+    <subfield code="t">Efficient multi-dimensional solution of PDEs using Chebyshev spectral methods</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comp.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lanczos, C.</subfield>
+    <subfield code="t">Trigonometric interpolation of empirical and analytical functions</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1938</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Math.Phys.,17,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, K.</subfield>
+    <subfield code="h">Livermore, P.W.</subfield>
+    <subfield code="h">Jackson, A.</subfield>
+    <subfield code="t">An optimal Galerkin scheme to solve the kinematic dynamo eigenvalue problem in a full sphere</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8666</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, Y.</subfield>
+    <subfield code="h">Marti, P.</subfield>
+    <subfield code="h">Noir, J.</subfield>
+    <subfield code="t">Shear-driven parametric instability in a precessing sphere</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Fluids,27,046601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Livermore, P.W.</subfield>
+    <subfield code="h">Jones, C.A.</subfield>
+    <subfield code="h">Worland, S.J.</subfield>
+    <subfield code="t">Spectral radial basis functions for full sphere computations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marti, P.</subfield>
+    <subfield code="h">Schaeffer, N.</subfield>
+    <subfield code="h">Hollerbach, R.</subfield>
+    <subfield code="h">Cébron, D.</subfield>
+    <subfield code="h">Nore, C.</subfield>
+    <subfield code="h">Luddens, F.</subfield>
+    <subfield code="h">Guermond, J.-L.</subfield>
+    <subfield code="h">Aubert, J.</subfield>
+    <subfield code="h">Takehiro, S.</subfield>
+    <subfield code="h">Sasaki, Y.</subfield>
+    <subfield code="h">Hayashi, Y.-Y.</subfield>
+    <subfield code="h">Simitev, R.</subfield>
+    <subfield code="h">Busse, F.</subfield>
+    <subfield code="h">Vantieghem, S.</subfield>
+    <subfield code="h">Jackson, A.</subfield>
+    <subfield code="t">Full sphere hydrodynamic and dynamo benchmarks</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Geophys.J.Int.,197,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matsushima, T.</subfield>
+    <subfield code="h">Marcus, P.</subfield>
+    <subfield code="t">A spectral method for polar coordinates</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,120,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">NIST Handbook of Mathematical Functions</subfield>
+    <subfield code="p">New York, NY: Cambridge University Press</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Olver,F.W.J.</subfield>
+    <subfield code="e">Lozier,D.W.</subfield>
+    <subfield code="e">Boisvert,R.F.</subfield>
+    <subfield code="e">Clark,C.W.</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, T.N.</subfield>
+    <subfield code="h">Soliman, I.M.</subfield>
+    <subfield code="t">Influence matrix technique for the numerical spectral simulation of viscous incompressible flows</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,7,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, P.H.</subfield>
+    <subfield code="h">Wu, C.-C.</subfield>
+    <subfield code="t">On the modified Taylor constraint</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Geophys.Astrophys.Fluid Dyn.,108,696</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schaeffer, N.</subfield>
+    <subfield code="t">Efficient spherical harmonic transforms aimed at pseudospectral numerical simulations</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Geochem.Geophys.Geosyst.,14,751</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schmidt, A.</subfield>
+    <subfield code="t">Erdmagnetismus</subfield>
+    <subfield code="y">1917</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Enzyklopädie der mathematischen Wissenschaften</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, W.E.</subfield>
+    <subfield code="h">Sloan, I.H.</subfield>
+    <subfield code="t">Product-integration rules based on the zeros of Jacobi-polynomials</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,17,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stellmach, S.</subfield>
+    <subfield code="h">Hansen, U.</subfield>
+    <subfield code="t">An efficient spectral method for the simulation of dynamos in Cartesian geometry and its implementation on massively parallel computers</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Geochem.Geophys.Geosyst.,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stevenson, D.J.</subfield>
+    <subfield code="t">Planetary magnetic fields</subfield>
+    <subfield code="v">208</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Earth Planet.Sci.Lett.,208,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Takahashi, F.</subfield>
+    <subfield code="h">Matsushima, M.</subfield>
+    <subfield code="h">Honkura, Y.</subfield>
+    <subfield code="t">Scale variability in convection-driven MHD dynamos at low Ekman number</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Phys.Earth Planet.Inter.,167,168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tarduno, J.A.</subfield>
+    <subfield code="h">Cottrell, R.D.</subfield>
+    <subfield code="h">Watkeys, M.K.</subfield>
+    <subfield code="h">Hofmann, A.</subfield>
+    <subfield code="h">Doubrovine, P.V.</subfield>
+    <subfield code="h">Mamajek, E.E.</subfield>
+    <subfield code="h">Liu, D.</subfield>
+    <subfield code="h">Sibeck, D.G.</subfield>
+    <subfield code="h">Neukirch, L.P.</subfield>
+    <subfield code="h">Usui, Y.</subfield>
+    <subfield code="t">Geodynamo, solar wind, and magnetopause 3.4 to 3.45 billion years ago</subfield>
+    <subfield code="v">327</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Science,327,1238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Usman, A.</subfield>
+    <subfield code="h">Hall, G.</subfield>
+    <subfield code="t">Equilibrium states for predictor-corrector methods</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,89,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Usman, A.</subfield>
+    <subfield code="h">Hall, G.</subfield>
+    <subfield code="t">Alternative stepsize strategies for Adams predictor-corrector codes</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,116,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verkley, W.</subfield>
+    <subfield code="t">A spectral model for two-dimensional incompressible fluid flow in a circular basin</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,136,100</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Worland, S.</subfield>
+    <subfield code="t">Magnetoconvection in rapidly rotating spheres</subfield>
+    <subfield code="p">University of Exeter</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zatman, S.</subfield>
+    <subfield code="h">Bloxham, J.</subfield>
+    <subfield code="t">On the dynamical implications of models of Bs in the Earth's core</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Geophys.J.Int.,138,679</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00222/S0021999115007330/S0021999115007330.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

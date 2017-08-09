@@ -1,0 +1,493 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.008</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kristopher Garrett, C.</subfield>
+    <subfield code="v">Computer Science and Mathematics Division, Oak Ridge National Laboratory, Oak Ridge, TN, United States</subfield>
+    <subfield code="m">garrettck@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Optimization and large scale computation of an entropy-based moment closure</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present computational advances and results in the implementation of an entropy-based moment closure, <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi>N</mi></mrow></msub></math> , in the context of linear kinetic equations, with an emphasis on heterogeneous and large-scale computing platforms. Entropy-based closures are known in several cases to yield more accurate results than closures based on standard spectral approximations, such as <math altimg="si2.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi>N</mi></mrow></msub></math> , but the computational cost is generally much higher and often prohibitive. Several optimizations are introduced to improve the performance of entropy-based algorithms over previous implementations. These optimizations include the use of GPU acceleration and the exploitation of the mathematical properties of spherical harmonics, which are used as test functions in the moment formulation. To test the emerging high-performance computing paradigm of communication bound simulations, we present timing results at the largest computational scales currently available. These results show, in particular, load balancing issues in scaling the <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi>N</mi></mrow></msub></math> algorithm that do not appear for the <math altimg="si2.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi>N</mi></mrow></msub></math> algorithm. We also observe that in weak scaling tests, the ratio in time to solution of <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi>N</mi></mrow></msub></math> to <math altimg="si2.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi>N</mi></mrow></msub></math> decreases.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Kinetic equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Moment methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPU computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spherical harmonics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High performance computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hauck, Cory</subfield>
+    <subfield code="v">Computer Science and Mathematics Division, Oak Ridge National Laboratory, Oak Ridge, TN, United States</subfield>
+    <subfield code="v">Department of Mathematics, University of Tennessee, Knoxville, TN, United States</subfield>
+    <subfield code="m">hauckc@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hill, Judith</subfield>
+    <subfield code="v">Oak Ridge Leadership Computing Facility, Oak Ridge National Laboratory, Oak Ridge, TN, United States</subfield>
+    <subfield code="m">hilljc@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">573-590</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahrens, Cory</subfield>
+    <subfield code="h">Beylkin, Gregory</subfield>
+    <subfield code="t">Rotationally invariant quadratures for the sphere</subfield>
+    <subfield code="v">465</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Proc.R.Soc., Math.Phys.Eng.Sci.,465,3103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alldredge, G.W.</subfield>
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="h">Tits, A.L.</subfield>
+    <subfield code="t">High-order entropy-based closures for linear transport in slab geometry II: a computational study of the optimization problem</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,B361</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alldredge, Graham W.</subfield>
+    <subfield code="h">Hauck, Cory D.</subfield>
+    <subfield code="h">O'Leary, Dianne P.</subfield>
+    <subfield code="h">Tits, André L.</subfield>
+    <subfield code="t">Adaptive change of basis in entropy-based moment closures for linear kinetic equations</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,258,489</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Atkinson, Kendall</subfield>
+    <subfield code="t">Numerical integration on the sphere</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Aust.Math.Soc.Ser.,B23,332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Atkinson, Kendall</subfield>
+    <subfield code="h">Han, Weimin</subfield>
+    <subfield code="t">Spherical Harmonics and Approximations on the Unit Sphere: An Introduction</subfield>
+    <subfield code="p">Springer-Verlag Berlin Heidelberg</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berthon, C.</subfield>
+    <subfield code="h">Frank, M.</subfield>
+    <subfield code="h">Sarazin, C.</subfield>
+    <subfield code="h">Turpault, R.</subfield>
+    <subfield code="t">Numerical methods for balance laws with space dependent flux: application to radiotherapy dose calculation</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Commun.Comput.Phys.,10,1184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, Thomas A.</subfield>
+    <subfield code="t">Forms of approximate radiation transport</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">Technical Report SAND2002-1778</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, Thomas A.</subfield>
+    <subfield code="h">Holloway, James Paul</subfield>
+    <subfield code="t">One-dimensional Riemann solvers and the maximum entropy closure</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Quant.Spectrosc.Radiat.Transf.,69,543</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coulombel, Jean-François</subfield>
+    <subfield code="h">Golse, François</subfield>
+    <subfield code="h">Goudon, Thierry</subfield>
+    <subfield code="t">Diffusion approximation and entropy-based moment closure for kinetic equations</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Asymptot.Anal.,45,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Curto, Raúl E.</subfield>
+    <subfield code="h">Fialkow, Lawrence A.</subfield>
+    <subfield code="t">Recursiveness, positivity and truncated moment problems</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Houst.J.Math.,4,603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davison, B.</subfield>
+    <subfield code="t">Neutron Transport Theory</subfield>
+    <subfield code="p">Clarendon Press Oxford, England</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deshpande, S.M.</subfield>
+    <subfield code="t">Kinetic theory based new upwind methods for inviscid compressible flows</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics, New York, 1986</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="m">Paper 86-0275</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Feugeas, J.-L.</subfield>
+    <subfield code="t">Étude théorique et numérique d'une hiérarchie de modèles aux moments pour le transfert radiatif</subfield>
+    <subfield code="v">329</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">C.R.Acad.Sci.Paris, I.,329,915</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Feugeas, J.-L.</subfield>
+    <subfield code="h">Frank, M.</subfield>
+    <subfield code="t">Angular moment model for the Fokker–Planck equation</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Eur.Phys.J.,D60,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duclous, R.</subfield>
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Frank, M.</subfield>
+    <subfield code="t">A deterministic partial differential equation model for dose calculation in electron radiotherapy</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Med.Biol.,55,3843</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garrett, C. Kristopher</subfield>
+    <subfield code="h">Hauck, Cory D.</subfield>
+    <subfield code="t">A comparison of moment closures for linear kinetic transport equations: the line source benchmark</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Transp.Theory Stat.Phys.,42,203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goudon, Thierry</subfield>
+    <subfield code="h">Lin, Chunjin</subfield>
+    <subfield code="t">Analysis of the M1 model: well-posedness and diffusion asymptotics</subfield>
+    <subfield code="v">402</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Math.Anal.Appl.,402,579</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Groth, Clinton</subfield>
+    <subfield code="h">McDonald, James</subfield>
+    <subfield code="t">Towards physically realizable and hyperbolic moment closures for kinetic theory</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Contin.Mech.Thermodyn.,21,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">Van Leer</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="t">High-order entropy-based closures for linear transport in slab geometry</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Commun.Math.Sci.,9,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hauck, Cory D.</subfield>
+    <subfield code="h">Levermore, C. David</subfield>
+    <subfield code="h">Tits, André L.</subfield>
+    <subfield code="t">Convex duality and entropy-based moment closures: characterizing degenerate densities</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Control Optim.,47,1977</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Homeier, Herbert H.H.</subfield>
+    <subfield code="h">Otto Steinborn, E.</subfield>
+    <subfield code="t">Some properties of the coupling coefficients of real spherical harmonics and their relation to Gaunt coefficients</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Proceedings of the Second Electronic Computational Chemistry Conference,368,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Junk, M.</subfield>
+    <subfield code="t">Maximum entropy for reduced moment problems</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,10,1001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karlin, Samuel</subfield>
+    <subfield code="h">Shapley, Lloyd S.</subfield>
+    <subfield code="t">Geometry and Moment Spaces</subfield>
+    <subfield code="p">RAND Corporation</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lasserre, Jean B.</subfield>
+    <subfield code="t">Semidefinite programming for gradient and Hessian computation in maximum entropy estimation</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="q">46th IEEE Conference on Decision and Control, 2007</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lebedev, V.I.</subfield>
+    <subfield code="t">Quadratures on a sphere</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">USSR Comput.Math.Math.Phys.,16,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lebedev, V.I.</subfield>
+    <subfield code="t">Spherical quadrature formulas exact to orders 25–29</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Sib.Math.J.,18,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lebedev, V.I.</subfield>
+    <subfield code="t">A quadrature formula for the sphere of 59th algebraic order of accuracy</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Russian Acad.Sci.Dokl.Math.,50,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lebedev, V.I.</subfield>
+    <subfield code="h">Laikov, D.N.</subfield>
+    <subfield code="t">A quadrature formula for the sphere of the 131st algebraic order of accuracy</subfield>
+    <subfield code="v">vol. 59</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Dokl.Math.,vol. 59,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lebedev, V.I.</subfield>
+    <subfield code="h">Skorokhodov, A.L.</subfield>
+    <subfield code="t">Quadrature formulas of orders 41, 47, and 53 for the sphere</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Russian Acad.Sci.Dokl.Math.,45,587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levermore, C.D.</subfield>
+    <subfield code="t">Moment closure hierarchies for kinetic theory</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Stat.Phys.,83,1021</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lewis, E.E.</subfield>
+    <subfield code="h">Miller, W.F.</subfield>
+    <subfield code="t">Computational Methods of Neutron Transport</subfield>
+    <subfield code="p">John Wiley and Sons New York</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">González, M.</subfield>
+    <subfield code="h">Audit, E.</subfield>
+    <subfield code="h">Huynh, P.</subfield>
+    <subfield code="t">Heracles: a three-dimensional radiation hydrodynamics code</subfield>
+    <subfield code="v">464</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Astron.Astrophys.,464,429</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McDonald, James</subfield>
+    <subfield code="h">Torrilhon, Manuel</subfield>
+    <subfield code="t">Affordable robust moment closures for CFD based on the maximum-entropy hierarchy</subfield>
+    <subfield code="v">251</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,251,500</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monreal, Philipp</subfield>
+    <subfield code="h">Frank, Martin</subfield>
+    <subfield code="r">arXiv:0812.3063</subfield>
+    <subfield code="t">Higher order minimum entropy approximations in radiative transfer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv preprint</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicolaï, Ph.</subfield>
+    <subfield code="h">Feugeas, J.-L.</subfield>
+    <subfield code="h">Regan, C.</subfield>
+    <subfield code="h">Olazabal-Loumé, M.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Morreeuw, J.-P.</subfield>
+    <subfield code="h">Tikhonchuk, V.</subfield>
+    <subfield code="t">Effect of the plasma-generated magnetic field on relativistic electron transport</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Phys.Rev.,E84,016402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="y">2009</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Architectures, Technology for Extreme Scale Computing</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perthame, B.</subfield>
+    <subfield code="t">Boltzmann type schemes for gas dynamics and the entropy property</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,27,1405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perthame, B.</subfield>
+    <subfield code="t">Second-order Boltzmann schemes for compressible Euler equations in one and two space dimensions</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,29,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pomraning, G.C.</subfield>
+    <subfield code="t">The Equations of Radiation Hydrodynamics</subfield>
+    <subfield code="p">Pergamon Press New York</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rasch, J.</subfield>
+    <subfield code="h">Yu, A.</subfield>
+    <subfield code="t">Efficient storage scheme for precalculated Wigner 3j, 6j and Gaunt coefficients</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,25,1416</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Yousef</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics Philadelphia, PA</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schneider, J.</subfield>
+    <subfield code="t">Entropic approximation in kinetic theory</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,38,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shohat, James Alexander</subfield>
+    <subfield code="h">Tamarkin, Jacob David</subfield>
+    <subfield code="t">The Problem of Moments</subfield>
+    <subfield code="p">American Mathematical Society New York</subfield>
+    <subfield code="y">1943</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turpault, R.</subfield>
+    <subfield code="t">A multigroup M1 model for radiation hydrodynamics and applications</subfield>
+    <subfield code="p">American Institute of Physics</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="e">Ketsdever,A.D.</subfield>
+    <subfield code="e">Muntz,E.P.</subfield>
+    <subfield code="q">23rd International Symposium on Rarefied Gas Dynamics</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Walters, W.</subfield>
+    <subfield code="t">Use of the Chebyshev–Legendre quadrature set in discrete-ordinate codes</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="m">Technical Report LA-UR-87-3621</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wright, D.</subfield>
+    <subfield code="h">Frank, M.</subfield>
+    <subfield code="h">Klar, A.</subfield>
+    <subfield code="t">The minimum entropy approximation to the radiative transfer equation</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Proc.Symp.Appl.Math.,67,987</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00192/S0021999115005896/S0021999115005896.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

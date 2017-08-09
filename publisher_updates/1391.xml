@@ -1,0 +1,1605 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.048</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Sousbie, Thierry</subfield>
+    <subfield code="v">Institut d'Astrophysique de Paris, CNRS, UMR 7095, UPMC, 98bis, bd Arago, Paris, F-75014, France</subfield>
+    <subfield code="v">Department of Physics, The University of Tokyo, Tokyo, 113-0033, Japan</subfield>
+    <subfield code="v">Research Center for the Early Universe, School of Science, The University of Tokyo, Tokyo, 113-0033, Japan</subfield>
+    <subfield code="m">tsousbie@gmail.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">ColDICE : A parallel Vlasov–Poisson solver using moving adaptive simplicial tessellation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">54</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Resolving numerically Vlasov–Poisson equations for initially cold systems can be reduced to following the evolution of a three-dimensional sheet evolving in six-dimensional phase-space. We describe a public parallel numerical algorithm consisting in representing the phase-space sheet with a conforming, self-adaptive simplicial tessellation of which the vertices follow the Lagrangian equations of motion. The algorithm is implemented both in six- and four-dimensional phase-space. Refinement of the tessellation mesh is performed using the bisection method and a local representation of the phase-space sheet at second order relying on additional tracers created when needed at runtime. In order to preserve in the best way the Hamiltonian nature of the system, refinement is anisotropic and constrained by measurements of local Poincaré invariants. Resolution of Poisson equation is performed using the fast Fourier method on a regular rectangular grid, similarly to particle in cells codes. To compute the density projected onto this grid, the intersection of the tessellation and the grid is calculated using the method of Franklin and Kankanhalli [65–67] generalised to linear order. As preliminary tests of the code, we study in four dimensional phase-space the evolution of an initially small patch in a chaotic potential and the cosmological collapse of a fluctuation composed of two sinusoidal waves. We also perform a “warm” dark matter simulation in six-dimensional phase-space that we use to check the parallel scaling of the code.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Vlasov–Poisson</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tessellation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Simplicial mesh</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dark matter</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Colombi, Stéphane</subfield>
+    <subfield code="v">Institut d'Astrophysique de Paris, CNRS, UMR 7095, UPMC, 98bis, bd Arago, Paris, F-75014, France</subfield>
+    <subfield code="v">Yukawa Institute for Theoretical Physics, Kyoto University, Kyoto, 606-8502, Japan</subfield>
+    <subfield code="m">colombi@iap.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">644-697</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarseth, S.J.</subfield>
+    <subfield code="t">From NBODY1 to NBODY6: the growth of an industry</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Publ.Astron.Soc.Pac.,111,1333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarseth, S.J.</subfield>
+    <subfield code="h">Lin, D.N.C.</subfield>
+    <subfield code="h">Papaloizou, J.C.B.</subfield>
+    <subfield code="t">On the collapse and violent relaxation of protoglobular clusters</subfield>
+    <subfield code="v">324</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Astrophys.J.,324,288</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aarseth, S.J.</subfield>
+    <subfield code="h">Turner, E.L.</subfield>
+    <subfield code="h">Gott, J.R.</subfield>
+    <subfield code="t">N-body simulations of galaxy clustering. I – Initial conditions and galaxy collapse times</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Astrophys.J.,228,664</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Kaehler, R.</subfield>
+    <subfield code="t">Tracing the dark matter sheet in phase space</subfield>
+    <subfield code="v">427</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,427,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahrens, J.</subfield>
+    <subfield code="h">Geveci, B.</subfield>
+    <subfield code="h">Law, C.</subfield>
+    <subfield code="t">An End-User Tool for Large Data Visualization, Visualization Handbook</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alard, C.</subfield>
+    <subfield code="t">Dark matter haloes and self-similarity</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,428,340</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alard, C.</subfield>
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="t">A cloudy Vlasov solution</subfield>
+    <subfield code="v">359</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,359,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alimi, J.-M.</subfield>
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Pellat, R.</subfield>
+    <subfield code="h">Sygnet, J.-F.</subfield>
+    <subfield code="h">Moutarde, F.</subfield>
+    <subfield code="t">Collisionless formation of filaments in an expanding universe</subfield>
+    <subfield code="v">354</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Astrophys.J.,354,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Angulo, R.E.</subfield>
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="t">The warm dark matter halo mass function below the cut-off scale</subfield>
+    <subfield code="v">434</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,434,3337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Appel, A.W.</subfield>
+    <subfield code="t">An efficient program for many-body simulation</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,6,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arber, T.D.</subfield>
+    <subfield code="h">Vann, R.G.L.</subfield>
+    <subfield code="t">A critical comparison of Eulerian-grid-based Vlasov solvers</subfield>
+    <subfield code="v">180</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,180,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.N.</subfield>
+    <subfield code="h">Mukherjee, A.</subfield>
+    <subfield code="h">Pouly, L.</subfield>
+    <subfield code="t">Locally adapted tetrahedral meshes using bisection</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,22,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ayachit, U.</subfield>
+    <subfield code="t">The ParaView Guide: A Parallel Visualization Application</subfield>
+    <subfield code="p">Kitware</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bagla, J.S.</subfield>
+    <subfield code="t">TreePM: a code for cosmological N-body simulations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Astrophys.Astron.,23,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bänsch, E.</subfield>
+    <subfield code="t">An adaptive finite-element strategy for the three-dimensional time-dependent Navier–Stokes equations</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,36,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barnes, J.</subfield>
+    <subfield code="h">Hut, P.</subfield>
+    <subfield code="t">A hierarchical <math altimg="si548.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mi mathvariant="normal">log</mi><mo>⁡</mo><mi>N</mi><mo stretchy="false">)</mo></math> force-calculation algorithm</subfield>
+    <subfield code="v">324</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Nature,324,446</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bernardeau, F.</subfield>
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Gaztañaga, E.</subfield>
+    <subfield code="h">Scoccimarro, R.</subfield>
+    <subfield code="t">Large-scale structure of the Universe and cosmological perturbation theory</subfield>
+    <subfield code="v">367</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Rep.,367,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="h">Feix, M.</subfield>
+    <subfield code="t">Non linear electron plasma oscillation: the “water bag model”</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Lett.,A28,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="h">Feix, M.R.</subfield>
+    <subfield code="t">Un modèle dans l'espace des phases pour l'étude des plasmas non collisionnels: le “water bag”</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Phys.,31,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bertschinger, E.</subfield>
+    <subfield code="t">Simulations of structure formation in the Universe</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Annu.Rev.Astron.Astrophys.,36,599</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Besse, N.</subfield>
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="t">Gyro-water-bag approach in nonlinear gyrokinetic turbulence</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3973</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Besse, N.</subfield>
+    <subfield code="h">Latu, G.</subfield>
+    <subfield code="h">Ghizzo, A.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="t">A wavelet-MRA-based adaptive semi-Lagrangian method for the relativistic Vlasov Maxwell system</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7889</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Besse, N.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="t">Semi-Lagrangian schemes for the Vlasov equation on an unstructured mesh of phase space</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,191,341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Binney, J.</subfield>
+    <subfield code="t">Regular and irregular orbits in galactic bars</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,201,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Binney, J.</subfield>
+    <subfield code="t">Discreteness effects in cosmological N-body simulations</subfield>
+    <subfield code="v">350</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,350,939</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Binney, J.</subfield>
+    <subfield code="h">Knebe, A.</subfield>
+    <subfield code="t">Two-body relaxation in cosmological simulations</subfield>
+    <subfield code="v">333</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,333,378</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Binney, J.</subfield>
+    <subfield code="h">Tremaine, S.</subfield>
+    <subfield code="t">Galactic Dynamics</subfield>
+    <subfield code="p">Princeton University Press</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boily, C.M.</subfield>
+    <subfield code="h">Athanassoula, E.</subfield>
+    <subfield code="h">Kroupa, P.</subfield>
+    <subfield code="t">Scaling up tides in numerical models of galaxy and halo formation</subfield>
+    <subfield code="v">332</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,332,971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Adam, J.-C.</subfield>
+    <subfield code="h">Pellat, R.</subfield>
+    <subfield code="t">On the way of understanding particle-in-cell simulations of gravitational clustering</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Astron.Astrophys.,144,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Hivon, E.</subfield>
+    <subfield code="h">Juszkiewicz, R.</subfield>
+    <subfield code="t">Perturbative Lagrangian approach to gravitational instability</subfield>
+    <subfield code="v">296</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Astron.Astrophys.,296,575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="t">Cosmological simulations using the hierarchical tree method</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,68,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Juszkiewicz, R.</subfield>
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Pellat, R.</subfield>
+    <subfield code="t">Weakly nonlinear gravitational instability for arbitrary Omega</subfield>
+    <subfield code="v">394</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Astrophys.J.Lett.,394,L5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boylan-Kolchin, M.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Jenkins, A.</subfield>
+    <subfield code="h">Lemson, G.</subfield>
+    <subfield code="t">Resolving cosmic structure formation with the Millennium-II simulation</subfield>
+    <subfield code="v">398</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,398,1150</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brönnimann, H.</subfield>
+    <subfield code="h">Burnikel, C.</subfield>
+    <subfield code="h">Pion, S.</subfield>
+    <subfield code="t">Interval arithmetic yields efficient dynamic filters for computational geometry</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Discrete Appl.Math.,109,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brönnimann, H.</subfield>
+    <subfield code="h">Fabri, A.</subfield>
+    <subfield code="h">Giezeman, G.-J.</subfield>
+    <subfield code="h">Hert, S.</subfield>
+    <subfield code="h">Hoffmann, M.</subfield>
+    <subfield code="h">Kettner, L.</subfield>
+    <subfield code="h">Pion, S.</subfield>
+    <subfield code="h">Schirra, S.</subfield>
+    <subfield code="t">2D and 3D linear geometry kernel</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">CGAL Editorial Board, CGAL User and Reference Manual</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bryan, G.L.</subfield>
+    <subfield code="h">Norman, M.L.</subfield>
+    <subfield code="h">O'Shea, B.W.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="h">Wise, J.H.</subfield>
+    <subfield code="h">Turk, M.J.</subfield>
+    <subfield code="h">Reynolds, D.R.</subfield>
+    <subfield code="h">Collins, D.C.</subfield>
+    <subfield code="h">Wang, P.</subfield>
+    <subfield code="h">Skillman, S.W.</subfield>
+    <subfield code="h">Smith, B.</subfield>
+    <subfield code="h">Harkness, R.P.</subfield>
+    <subfield code="h">Bordner, J.</subfield>
+    <subfield code="h">Kim, J.-h.</subfield>
+    <subfield code="h">Kuhlen, M.</subfield>
+    <subfield code="h">Xu, H.</subfield>
+    <subfield code="h">Goldbaum, N.</subfield>
+    <subfield code="h">Hummels, C.</subfield>
+    <subfield code="h">Kritsuk, A.G.</subfield>
+    <subfield code="h">Tasker, E.</subfield>
+    <subfield code="h">Skory, S.</subfield>
+    <subfield code="h">Simpson, C.M.</subfield>
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Oishi, J.S.</subfield>
+    <subfield code="h">So, G.C.</subfield>
+    <subfield code="h">Zhao, F.</subfield>
+    <subfield code="h">Cen, R.</subfield>
+    <subfield code="h">Li, Y.</subfield>
+    <subfield code="t">ENZO: an adaptive mesh refinement code for astrophysics</subfield>
+    <subfield code="v">211</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,211,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buchert, T.</subfield>
+    <subfield code="t">Lagrangian theory of gravitational instability of Friedman–Lemaitre cosmologies and the ‘Zel'dovich approximation’</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,254,729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buchert, T.</subfield>
+    <subfield code="h">Ehlers, J.</subfield>
+    <subfield code="t">Lagrangian theory of gravitational instability of Friedman–Lemaitre cosmologies – second-order approach: an improved model for non-linear clustering</subfield>
+    <subfield code="v">264</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,264,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burnikel, C.</subfield>
+    <subfield code="h">Funke, S.</subfield>
+    <subfield code="h">Seel, M.</subfield>
+    <subfield code="t">Exact geometric predicates using cascaded computation</subfield>
+    <subfield code="p">ACM</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="q">Proceedings of the Fourteenth Annual Symposium on Computational Geometry</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Campos Pinto, M.</subfield>
+    <subfield code="r">arXiv:1112.1859</subfield>
+    <subfield code="t">Smooth particle methods without smoothing</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, C.Z.</subfield>
+    <subfield code="h">Knorr, G.</subfield>
+    <subfield code="t">The integration of the Vlasov equation in configuration space</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,22,330</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clutton-Brock, M.</subfield>
+    <subfield code="t">The gravitational field of flat galaxies</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Astrophys.Space Sci.,16,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="t">Dynamics of the large-scale structure of the universe: N -body techniques</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">New Astron.Rev.,45,373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Sousbie, T.</subfield>
+    <subfield code="h">Peirani, S.</subfield>
+    <subfield code="h">Plum, G.</subfield>
+    <subfield code="h">Suto, Y.</subfield>
+    <subfield code="t">Vlasov versus N-body: the Hénon sphere</subfield>
+    <subfield code="v">450</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,450,3724</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Touma, J.</subfield>
+    <subfield code="t">Vlasov Poisson: the waterbag method revisited</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Commun.Nonlinear Sci.Numer.Simul.,13,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Touma, J.</subfield>
+    <subfield code="t">Vlasov–Poisson in 1D: waterbags</subfield>
+    <subfield code="v">441</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,441,2414</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Couchman, H.M.P.</subfield>
+    <subfield code="t">Mesh-refined P3M – a fast adaptive N-body algorithm</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Astrophys.J.Lett.,368,L23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coulette, D.</subfield>
+    <subfield code="h">Besse, N.</subfield>
+    <subfield code="t">Numerical comparisons of gyrokinetic multi-water-bag models</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,248,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crouseilles, N.</subfield>
+    <subfield code="h">Mehrenberger, M.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="t">Conservative semi-Lagrangian schemes for Vlasov equations</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1927</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crouseilles, N.</subfield>
+    <subfield code="h">Respaud, T.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="t">A forward semi-Lagrangian method for the numerical solution of the Vlasov equation</subfield>
+    <subfield code="v">180</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.Phys.Commun.,180,1730</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cuperman, S.</subfield>
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lecar, M.</subfield>
+    <subfield code="t">A phase-space boundary integration of the Vlasov equation for collisionless one-dimensional stellar systems</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Proceedings of the IAU Colloquium No.10,13,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dehnen, W.</subfield>
+    <subfield code="h">Read, J.I.</subfield>
+    <subfield code="t">N-body simulations of gravitational dynamics</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Eur.Phys.J.Plus,126,55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Depackh, D.C.</subfield>
+    <subfield code="t">The water-bag model of a sheet electron beamy</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1962</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Electron.Control,13,417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Diemand, J.</subfield>
+    <subfield code="h">Moore, B.</subfield>
+    <subfield code="h">Stadel, J.</subfield>
+    <subfield code="h">Kazantzidis, S.</subfield>
+    <subfield code="t">Two-body relaxation in cold dark matter simulations</subfield>
+    <subfield code="v">348</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,348,977</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolag, K.</subfield>
+    <subfield code="h">Borgani, S.</subfield>
+    <subfield code="h">Schindler, S.</subfield>
+    <subfield code="h">Diaferio, A.</subfield>
+    <subfield code="h">Bykov, A.M.</subfield>
+    <subfield code="t">Simulation techniques for cosmological simulations</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Space Sci.Rev.,134,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doroshkevich, A.G.</subfield>
+    <subfield code="h">Kotok, E.V.</subfield>
+    <subfield code="h">Poliudov, A.N.</subfield>
+    <subfield code="h">Shandarin, S.F.</subfield>
+    <subfield code="h">Sigov, I.S.</subfield>
+    <subfield code="h">Novikov, I.D.</subfield>
+    <subfield code="t">Two-dimensional simulation of the gravitational system dynamics and formation of the large-scale structure of the universe</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,192,321</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doroshkevich, A.G.</subfield>
+    <subfield code="h">Ryaben'kii, V.S.</subfield>
+    <subfield code="h">Shandarin, S.F.</subfield>
+    <subfield code="t">Nonlinear theory of the development of potential perturbations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Astrophysics,9,144</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dritschel, D.G.</subfield>
+    <subfield code="t">Contour dynamics and contour surgery: numerical algorithms for extended, high-resolution modelling of vortex dynamics in two-dimensional, inviscid, incompressible flows</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Comput.Phys.Rep.,10,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edelsbrunner, H.</subfield>
+    <subfield code="h">Mucke, E.P.</subfield>
+    <subfield code="t">Simulation of simplicity: a technique to cope with degenerate cases in geometric algorithms</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">ACM Trans.Graph.,9,66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efstathiou, G.</subfield>
+    <subfield code="h">Davis, M.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="t">Numerical techniques for large cosmological N-body simulations</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,57,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eisenberg, M.A.</subfield>
+    <subfield code="h">Malvern, L.E.</subfield>
+    <subfield code="t">On finite element integration in natural co-ordinates</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,7,574</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Felippa, C.A.</subfield>
+    <subfield code="t">Advanced finite elements methods</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Filbet, F.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="t">Conservative numerical schemes for the Vlasov equation</subfield>
+    <subfield code="v">172</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,172,166</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fousse, L.</subfield>
+    <subfield code="h">Hanrot, G.</subfield>
+    <subfield code="h">Lefèvre, V.</subfield>
+    <subfield code="h">Pélissier, P.</subfield>
+    <subfield code="h">Zimmermann, P.</subfield>
+    <subfield code="t">MPFR: a multiple-precision binary floating-point library with correct rounding</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,33,13:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franklin, W.R.</subfield>
+    <subfield code="t">Rays—new representation for polygons and polyhedra</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Comput.Vis.Graph.Image Process.,22,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franklin, W.R.</subfield>
+    <subfield code="t">Polygon properties calculated from the vertex neighborhoods</subfield>
+    <subfield code="p">ACM</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="q">Proceedings of the Third Annual Symposium on Computational Geometry</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franklin, W.R.</subfield>
+    <subfield code="h">Kankanhalli, M.S.</subfield>
+    <subfield code="t">Volumes from overlaying 3-d triangulations in parallel</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="q">Advances in Spatial Databases</subfield>
+    <subfield code="o">67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fujiwara, T.</subfield>
+    <subfield code="t">Vlasov simulations of stellar systems – infinite homogeneous case</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Publ.Astron.Soc.Jpn.,33,531</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fujiwara, T.</subfield>
+    <subfield code="t">Integration of the collisionless Boltzmann equation for spherical stellar systems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Publ.Astron.Soc.Jpn.,35,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gelato, S.</subfield>
+    <subfield code="h">Chernoff, D.F.</subfield>
+    <subfield code="h">Wasserman, I.</subfield>
+    <subfield code="t">An adaptive hierarchical particle–mesh code with isolated boundary conditions</subfield>
+    <subfield code="v">480</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Astrophys.J.,480,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goodman, J.</subfield>
+    <subfield code="h">Heggie, D.C.</subfield>
+    <subfield code="h">Hut, P.</subfield>
+    <subfield code="t">On the exponential instability of N-body systems</subfield>
+    <subfield code="v">415</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Astrophys.J.,415,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gott, J.R.</subfield>
+    <subfield code="h">Jurić, M.</subfield>
+    <subfield code="h">Schlegel, D.</subfield>
+    <subfield code="h">Hoyle, F.</subfield>
+    <subfield code="h">Vogeley, M.</subfield>
+    <subfield code="h">Tegmark, M.</subfield>
+    <subfield code="h">Bahcall, N.</subfield>
+    <subfield code="h">Brinkmann, J.</subfield>
+    <subfield code="t">A map of the Universe</subfield>
+    <subfield code="v">624</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Astrophys.J.,624,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Granlund, T.</subfield>
+    <subfield code="t">The GNU multiple precision arithmetic library, release 4.1.4</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Güçlü, Y.</subfield>
+    <subfield code="h">Christlieb, A.J.</subfield>
+    <subfield code="h">Hitchon, W.N.G.</subfield>
+    <subfield code="t">Arbitrarily high order convected scheme solution of the Vlasov–Poisson system</subfield>
+    <subfield code="v">270</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Comput.Phys.,270,711</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gutnic, M.</subfield>
+    <subfield code="h">Haefele, M.</subfield>
+    <subfield code="h">Paun, I.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="t">Vlasov simulations on an adaptive phase-space grid</subfield>
+    <subfield code="v">164</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Comput.Phys.Commun.,164,214</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="t">Multi-scale initial conditions for cosmological simulations</subfield>
+    <subfield code="v">415</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,415,2101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="h">Kaehler, R.</subfield>
+    <subfield code="t">A new approach to simulating collisionless dark matter fluids</subfield>
+    <subfield code="v">434</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,434,1171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hahn, O.</subfield>
+    <subfield code="h">Angulo, R.E.</subfield>
+    <subfield code="t">An adaptively refined phase-space element method for cosmological simulations and collisionless dynamics</subfield>
+    <subfield code="v">455</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,455,1115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heath, R.E.</subfield>
+    <subfield code="h">Gamba, I.M.</subfield>
+    <subfield code="h">Morrison, P.J.</subfield>
+    <subfield code="h">Michler, C.</subfield>
+    <subfield code="t">A discontinuous Galerkin method for the Vlasov–Poisson system</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">J.Comput.Phys.,231,1140</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="t">Performance characteristics of tree codes</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,64,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="h">Barnes, J.E.</subfield>
+    <subfield code="t">Are some N-body algorithms intrinsically less collisional than others?</subfield>
+    <subfield code="v">349</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Astrophys.J.,349,562</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="h">Ostriker, J.P.</subfield>
+    <subfield code="t">A self-consistent field method for galactic dynamics</subfield>
+    <subfield code="v">386</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Astrophys.J.,386,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ho-Le, K.</subfield>
+    <subfield code="t">Finite element mesh generation methods: a review and classification</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">Comput.Aided Des.,20,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hockney, R.W.</subfield>
+    <subfield code="t">, Methods in Computational Physics, vol. 9</subfield>
+    <subfield code="v">vol. 9</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">84</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hockney, R.W.</subfield>
+    <subfield code="h">Eastwood, J.W.</subfield>
+    <subfield code="t">Computer Simulation Using Particles</subfield>
+    <subfield code="p">McGraw-Hill New York</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hozumi, S.</subfield>
+    <subfield code="t">A phase-space approach to collisionless stellar systems using a particle method</subfield>
+    <subfield code="v">487</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Astrophys.J.,487,617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">James, R.A.</subfield>
+    <subfield code="t">The solution of Poisson's equation for isolated source distributions</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">J.Comput.Phys.,25,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Janin, G.</subfield>
+    <subfield code="t">Numerical experiments with a one-dimensional gravitational system by a Euler-type method</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">Astron.Astrophys.,11,188</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jing, Y.P.</subfield>
+    <subfield code="h">Suto, Y.</subfield>
+    <subfield code="t">The density profiles of the dark matter halo are not universal</subfield>
+    <subfield code="v">529</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">Astrophys.J.Lett.,529,L69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jing, Y.P.</subfield>
+    <subfield code="h">Suto, Y.</subfield>
+    <subfield code="t">Triaxial modeling of halo density profiles with high-resolution N-body simulations</subfield>
+    <subfield code="v">574</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">Astrophys.J.,574,538</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Joyce, M.</subfield>
+    <subfield code="h">Marcos, B.</subfield>
+    <subfield code="h">Sylos Labini, F.</subfield>
+    <subfield code="t">Energy ejection in the collapse of a cold spherical self-gravitating cloud</subfield>
+    <subfield code="v">397</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,397,775</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karypis, G.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">Parallel multilevel series k-way partitioning scheme for irregular graphs</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">SIAM Rev.,41,278</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karypis, G.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">Multilevel k-way hypergraph partitioning</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">VLSI Des.,11,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lab, Karypis</subfield>
+    <subfield code="t">METIS – family of graph and hypergraph partitioning software</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">94</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klimas, A.J.</subfield>
+    <subfield code="t">A method for overcoming the velocity space filamentation problem in collisionless plasma model solutions</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">J.Comput.Phys.,68,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klimas, A.J.</subfield>
+    <subfield code="h">Farrell, W.M.</subfield>
+    <subfield code="t">A splitting algorithm for Vlasov simulation with filamentation filtration</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">J.Comput.Phys.,110,150</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klypin, A.</subfield>
+    <subfield code="h">Prada, F.</subfield>
+    <subfield code="h">Yepes, G.</subfield>
+    <subfield code="h">Heß, S.</subfield>
+    <subfield code="h">Gottlöber, S.</subfield>
+    <subfield code="t">Halo abundance matching: accuracy and conditions for numerical convergence</subfield>
+    <subfield code="v">447</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">97</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,447,3693</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klypin, A.A.</subfield>
+    <subfield code="h">Shandarin, S.F.</subfield>
+    <subfield code="t">Three-dimensional numerical model of the formation of large-scale structure in the Universe</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">98</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,204,891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knebe, A.</subfield>
+    <subfield code="h">Green, A.</subfield>
+    <subfield code="h">Binney, J.</subfield>
+    <subfield code="t">Multi-level adaptive particle mesh (MLAPM): a c code for cosmological simulations</subfield>
+    <subfield code="v">325</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">99</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,325,845</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatsu, E.</subfield>
+    <subfield code="h">Smith, K.M.</subfield>
+    <subfield code="h">Dunkley, J.</subfield>
+    <subfield code="h">Bennett, C.L.</subfield>
+    <subfield code="h">Gold, B.</subfield>
+    <subfield code="h">Hinshaw, G.</subfield>
+    <subfield code="h">Jarosik, N.</subfield>
+    <subfield code="h">Larson, D.</subfield>
+    <subfield code="h">Nolta, M.R.</subfield>
+    <subfield code="h">Page, L.</subfield>
+    <subfield code="h">Spergel, D.N.</subfield>
+    <subfield code="h">Halpern, M.</subfield>
+    <subfield code="h">Hill, R.S.</subfield>
+    <subfield code="h">Kogut, A.</subfield>
+    <subfield code="h">Limon, M.</subfield>
+    <subfield code="h">Meyer, S.S.</subfield>
+    <subfield code="h">Odegard, N.</subfield>
+    <subfield code="h">Tucker, G.S.</subfield>
+    <subfield code="h">Weiland, J.L.</subfield>
+    <subfield code="h">Wollack, E.</subfield>
+    <subfield code="h">Wright, E.L.</subfield>
+    <subfield code="t">Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: cosmological interpretation</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">100</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,192,18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kossaczký, I.</subfield>
+    <subfield code="t">A recursive approach to local mesh refinement in two and three dimensions</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">101</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,55,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kravtsov, A.V.</subfield>
+    <subfield code="h">Klypin, A.A.</subfield>
+    <subfield code="h">Khokhlov, A.M.</subfield>
+    <subfield code="t">Adaptive refinement tree: a new high-resolution N-body code for cosmological simulations</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">102</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,111,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lahav, O.</subfield>
+    <subfield code="h">Lilje, P.B.</subfield>
+    <subfield code="h">Primack, J.R.</subfield>
+    <subfield code="h">Rees, M.J.</subfield>
+    <subfield code="t">Dynamical effects of the cosmological constant</subfield>
+    <subfield code="v">251</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">103</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,251,128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, A.</subfield>
+    <subfield code="h">Joe, B.</subfield>
+    <subfield code="t">On the shape of tetrahedra from bisection</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">104</subfield>
+    <subfield code="s">Math.Comput.,63,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lo, S.</subfield>
+    <subfield code="t">Finite element mesh generation and adaptive meshing</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">105</subfield>
+    <subfield code="s">Prog.Struct.Eng.Mater.,4,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martel, H.</subfield>
+    <subfield code="h">Shapiro, P.R.</subfield>
+    <subfield code="t">A convenient set of comoving cosmological variables and their application</subfield>
+    <subfield code="v">297</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">106</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,297,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mehrenberger, M.</subfield>
+    <subfield code="h">Violard, E.</subfield>
+    <subfield code="h">Hoenen, O.</subfield>
+    <subfield code="h">Campos Pinto, M.</subfield>
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="t">A parallel adaptive Vlasov solver based on hierarchical finite element interpolation</subfield>
+    <subfield code="v">558</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">107</subfield>
+    <subfield code="s">Nucl.Instrum.Methods Phys.Res.,A558,188</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meiss, J.</subfield>
+    <subfield code="t">Symplectic maps, variational principles, and transport</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">108</subfield>
+    <subfield code="s">Rev.Mod.Phys.,64,795</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="t">Simulation of gravitational superclustering of massive neutrinos</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">109</subfield>
+    <subfield code="s">Phys.Rev.Lett.,48,894</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="t">Massive neutrinos in large-scale gravitational clustering</subfield>
+    <subfield code="v">264</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">110</subfield>
+    <subfield code="s">Astrophys.J.,264,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="t">Two-dimensional simulation of the gravitational superclustering of collisionless particles</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">111</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,202,595</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="r">arXiv:0709.0745</subfield>
+    <subfield code="t">Comment on ‘Discreteness Effects in Simulations of Hot/Warm Dark Matter’ by J. Wang and S.D.M. White</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="h">Shandarin, S.F.</subfield>
+    <subfield code="h">Splinter, R.J.</subfield>
+    <subfield code="h">Suto, Y.</subfield>
+    <subfield code="t">Demonstrating discreteness and collision error in cosmological N-body simulations of dark matter gravitational clustering</subfield>
+    <subfield code="v">479</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">113</subfield>
+    <subfield code="s">Astrophys.J.Lett.,479,L79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moore, B.</subfield>
+    <subfield code="h">Governato, F.</subfield>
+    <subfield code="h">Quinn, T.</subfield>
+    <subfield code="h">Stadel, J.</subfield>
+    <subfield code="h">Lake, G.</subfield>
+    <subfield code="t">Resolving the structure of cold dark matter halos</subfield>
+    <subfield code="v">499</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">114</subfield>
+    <subfield code="s">Astrophys.J.Lett.,499,L5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moutarde, F.</subfield>
+    <subfield code="h">Alimi, J.-M.</subfield>
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Pellat, R.</subfield>
+    <subfield code="t">Scale invariance and self-similar behavior of dark matter halos</subfield>
+    <subfield code="v">441</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">115</subfield>
+    <subfield code="s">Astrophys.J.,441,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moutarde, F.</subfield>
+    <subfield code="h">Alimi, J.-M.</subfield>
+    <subfield code="h">Bouchet, F.R.</subfield>
+    <subfield code="h">Pellat, R.</subfield>
+    <subfield code="h">Ramani, A.</subfield>
+    <subfield code="t">Precollapse scale invariance in gravitational instability</subfield>
+    <subfield code="v">382</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">116</subfield>
+    <subfield code="s">Astrophys.J.,382,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nakamura, T.</subfield>
+    <subfield code="h">Yabe, T.</subfield>
+    <subfield code="t">Cubic interpolated propagation scheme for solving the hyper-dimensional Vlasov–Poisson equation in phase space</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">117</subfield>
+    <subfield code="s">Comput.Phys.Commun.,120,122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Navarro, J.F.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="t">The structure of cold dark matter halos</subfield>
+    <subfield code="v">462</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">118</subfield>
+    <subfield code="s">Astrophys.J.,462,563</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Navarro, J.F.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="t">A universal density profile from hierarchical clustering</subfield>
+    <subfield code="v">490</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">119</subfield>
+    <subfield code="s">Astrophys.J.,490,493</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishida, M.T.</subfield>
+    <subfield code="h">Yoshizawa, M.</subfield>
+    <subfield code="h">Watanabe, Y.</subfield>
+    <subfield code="h">Inagaki, S.</subfield>
+    <subfield code="h">Kato, S.</subfield>
+    <subfield code="t">Vlasov simulations of stellar disks – Part two – nonaxisymmetric case</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">120</subfield>
+    <subfield code="s">Publ.Astron.Soc.Jpn.,33,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peebles, P.J.E.</subfield>
+    <subfield code="t">The Large-Scale Structure of the Universe</subfield>
+    <subfield code="p">Princeton University Press Princeton, NJ</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pinto, M.C.</subfield>
+    <subfield code="h">Mehrenberger, M.</subfield>
+    <subfield code="t">Convergence of an adaptive semi-Lagrangian scheme for the Vlasov–Poisson system</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">122</subfield>
+    <subfield code="s">Numer.Math.,108,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ade, P.A.R.</subfield>
+    <subfield code="h">Aghanim, N.</subfield>
+    <subfield code="h">Armitage-Caplan, C.</subfield>
+    <subfield code="h">Arnaud, M.</subfield>
+    <subfield code="h">Ashdown, M.</subfield>
+    <subfield code="h">Atrio-Barandela, F.</subfield>
+    <subfield code="h">Aumont, J.</subfield>
+    <subfield code="h">Baccigalupi, C.</subfield>
+    <subfield code="h">Banday, A.J.</subfield>
+    <subfield code="t">Planck 2013 results. XVI. Cosmological parameters</subfield>
+    <subfield code="v">571</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">123</subfield>
+    <subfield code="s">Astron.Astrophys.,571,A16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ade, P.A.R.</subfield>
+    <subfield code="h">Aghanim, N.</subfield>
+    <subfield code="h">Arnaud, M.</subfield>
+    <subfield code="h">Ashdown, M.</subfield>
+    <subfield code="h">Aumont, J.</subfield>
+    <subfield code="h">Baccigalupi, C.</subfield>
+    <subfield code="h">Banday, A.J.</subfield>
+    <subfield code="h">Barreiro, R.B.</subfield>
+    <subfield code="h">Bartlett, J.G.</subfield>
+    <subfield code="r">arXiv:1502.01589</subfield>
+    <subfield code="t">Planck 2015 results. XIII. Cosmological parameters</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">124</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Power, C.</subfield>
+    <subfield code="h">Navarro, J.F.</subfield>
+    <subfield code="h">Jenkins, A.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">Stadel, J.</subfield>
+    <subfield code="h">Quinn, T.</subfield>
+    <subfield code="t">The inner structure of ΛCDM haloes – I. A numerical convergence study</subfield>
+    <subfield code="v">338</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">125</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,338,14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qiu, J.-M.</subfield>
+    <subfield code="h">Christlieb, A.</subfield>
+    <subfield code="t">A conservative high order semi-Lagrangian WENO method for the Vlasov equation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">126</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rasio, F.A.</subfield>
+    <subfield code="h">Shapiro, S.L.</subfield>
+    <subfield code="h">Teukolsky, S.A.</subfield>
+    <subfield code="t">Solving the Vlasov equation in general relativity</subfield>
+    <subfield code="v">344</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">127</subfield>
+    <subfield code="s">Astrophys.J.,344,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rivara, M.-C.</subfield>
+    <subfield code="t">Mesh refinement processes based on the generalized bisection of simplices</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">128</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,21,604</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, K.V.</subfield>
+    <subfield code="h">Berk, H.L.</subfield>
+    <subfield code="t">Nonlinear evolution of a two-stream instability</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">129</subfield>
+    <subfield code="s">Phys.Rev.Lett.,19,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossmanith, J.A.</subfield>
+    <subfield code="h">Seal, D.C.</subfield>
+    <subfield code="t">A positivity-preserving high-order semi-Lagrangian discontinuous Galerkin scheme for the Vlasov–Poisson equations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">130</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shandarin, S.</subfield>
+    <subfield code="h">Habib, S.</subfield>
+    <subfield code="h">Heitmann, K.</subfield>
+    <subfield code="t">Cosmic web, multistream flows, and tessellations</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">131</subfield>
+    <subfield code="s">Phys.Rev.,D85,083005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shlosman, I.</subfield>
+    <subfield code="h">Hoffman, Y.</subfield>
+    <subfield code="h">Shaviv, G.</subfield>
+    <subfield code="t">Non-linear dynamic stability of spherical stellar systems</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">132</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,189,723</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shoucri, M.M.</subfield>
+    <subfield code="h">Gagne, R.R.J.</subfield>
+    <subfield code="t">Splitting schemes for the numerical solution of a two-dimensional Vlasov equation</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">133</subfield>
+    <subfield code="s">J.Comput.Phys.,27,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sonnendrücker, E.</subfield>
+    <subfield code="h">Roche, J.</subfield>
+    <subfield code="h">Bertrand, P.</subfield>
+    <subfield code="h">Ghizzo, A.</subfield>
+    <subfield code="t">The semi-Lagrangian method for the numerical resolution of the Vlasov equation</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">134</subfield>
+    <subfield code="s">J.Comput.Phys.,149,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Splinter, R.J.</subfield>
+    <subfield code="t">A nested-grid particle–mesh code for high-resolution simulations of gravitational instability in cosmology</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">135</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,281,281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Splinter, R.J.</subfield>
+    <subfield code="h">Melott, A.L.</subfield>
+    <subfield code="h">Shandarin, S.F.</subfield>
+    <subfield code="h">Suto, Y.</subfield>
+    <subfield code="t">Fundamental discreteness limitations of cosmological N-body clustering simulations</subfield>
+    <subfield code="v">497</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">136</subfield>
+    <subfield code="s">Astrophys.J.,497,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="t">The cosmological simulation code GADGET-2</subfield>
+    <subfield code="v">364</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">137</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,364,1105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Vogelsberger, M.</subfield>
+    <subfield code="h">Ludlow, A.</subfield>
+    <subfield code="h">Jenkins, A.</subfield>
+    <subfield code="h">Helmi, A.</subfield>
+    <subfield code="h">Navarro, J.F.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="t">The Aquarius Project: the subhaloes of galactic haloes</subfield>
+    <subfield code="v">391</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">138</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,391,1685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">Yoshida, N.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="t">GADGET: a code for collisionless and gasdynamical cosmological simulations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">139</subfield>
+    <subfield code="s">New Astron.,6,79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stadel, J.</subfield>
+    <subfield code="h">Potter, D.</subfield>
+    <subfield code="h">Moore, B.</subfield>
+    <subfield code="h">Diemand, J.</subfield>
+    <subfield code="h">Madau, P.</subfield>
+    <subfield code="h">Zemp, M.</subfield>
+    <subfield code="h">Kuhlen, M.</subfield>
+    <subfield code="h">Quilis, V.</subfield>
+    <subfield code="t">Quantifying the heart of darkness with GHALO – a multibillion particle simulation of a galactic halo</subfield>
+    <subfield code="v">398</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">140</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,398,L21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suisalu, I.</subfield>
+    <subfield code="h">Saar, E.</subfield>
+    <subfield code="t">An adaptive multigrid solver for high-resolution cosmological simulations</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">141</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,274,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Taruya, S. Colombi</subfield>
+    <subfield code="m">in preparation</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">142</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teyssier, R.</subfield>
+    <subfield code="t">Cosmological hydrodynamics with adaptive mesh refinement. A new high resolution code called RAMSES</subfield>
+    <subfield code="v">385</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">143</subfield>
+    <subfield code="s">Astron.Astrophys.,385,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Umeda, T.</subfield>
+    <subfield code="t">A conservative and non-oscillatory scheme for Vlasov code simulations</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">144</subfield>
+    <subfield code="s">Earth Planets Space,60,773</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Utsumi, T.</subfield>
+    <subfield code="h">Kunugi, T.</subfield>
+    <subfield code="h">Koga, J.</subfield>
+    <subfield code="t">A numerical method for solving the one-dimensional Vlasov—Poisson equation in phase space</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">145</subfield>
+    <subfield code="s">Comput.Phys.Commun.,108,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Albada, T.S.</subfield>
+    <subfield code="h">van Gorkom, J.H.</subfield>
+    <subfield code="t">Experimental stellar dynamics for systems with axial symmetry</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">146</subfield>
+    <subfield code="s">Astron.Astrophys.,54,121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Viel, M.</subfield>
+    <subfield code="h">Becker, G.D.</subfield>
+    <subfield code="h">Bolton, J.S.</subfield>
+    <subfield code="h">Haehnelt, M.G.</subfield>
+    <subfield code="t">Warm dark matter as a solution to the small scale crisis: new constraints from high redshift Lyman- α forest data</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">147</subfield>
+    <subfield code="s">Phys.Rev.,D88,043502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Villumsen, J.V.</subfield>
+    <subfield code="t">A new hierarchical particle–mesh code for very large scale cosmological N-body simulations</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">148</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,71,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waldvogel, J.</subfield>
+    <subfield code="t">The Newtonian potential of homogeneous polyhedra</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">149</subfield>
+    <subfield code="s">Z.Angew.Math.Phys.,30,388</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Watanabe, Y.</subfield>
+    <subfield code="h">Inagaki, S.</subfield>
+    <subfield code="h">Nishida, M.T.</subfield>
+    <subfield code="h">Tanaka, Y.D.</subfield>
+    <subfield code="h">Kato, S.</subfield>
+    <subfield code="t">Vlasov simulations of stellar disks – Part one – axisymmetric case</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">150</subfield>
+    <subfield code="s">Publ.Astron.Soc.Jpn.,33,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, G.</subfield>
+    <subfield code="t">A new parallel N-Body gravity solver: TPM</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">151</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,98,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoshikawa, K.</subfield>
+    <subfield code="h">Yoshida, N.</subfield>
+    <subfield code="h">Umemura, M.</subfield>
+    <subfield code="t">Direct integration of the collisionless Boltzmann equation in six-dimensional phase space: self-gravitating systems</subfield>
+    <subfield code="v">762</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">152</subfield>
+    <subfield code="s">Astrophys.J.,762,116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zaki, S.I.</subfield>
+    <subfield code="h">Gardner, L.R.T.</subfield>
+    <subfield code="h">Boyd, T.J.M.</subfield>
+    <subfield code="t">A finite element code for the simulation of one-dimensional Vlasov plasmas. I – Theory</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">153</subfield>
+    <subfield code="s">J.Comput.Phys.,79,184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zel'dovich, Y.B.</subfield>
+    <subfield code="t">Gravitational instability: an approximate theory for large density perturbations</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">154</subfield>
+    <subfield code="s">Astron.Astrophys.,5,84</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.-B.</subfield>
+    <subfield code="t">A parallel algorithm for adaptive local refinement of tetrahedral meshes using bisection</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">155</subfield>
+    <subfield code="s">Numer.Math.: Theory Methods Appl.,2,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zienkiewicz, O.C.</subfield>
+    <subfield code="h">Taylor, R.L.</subfield>
+    <subfield code="h">Zhu, J.Z.</subfield>
+    <subfield code="t">The Finite Element Method: Its Basis and Fundamentals</subfield>
+    <subfield code="p">Elsevier/Butterworth–Heinemann Oxford</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">156</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116301930/S0021999116301930.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

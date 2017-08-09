@@ -1,0 +1,665 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.079</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Qin, Tong</subfield>
+    <subfield code="j">ORCID:0000-0003-0659-3292</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, United States</subfield>
+    <subfield code="m">tong_qin@brown.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Bound-preserving discontinuous Galerkin methods for relativistic hydrodynamics</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper, we develop a discontinuous Galerkin (DG) method to solve the ideal special relativistic hydrodynamics (RHD) and design a bound-preserving (BP) limiter for this scheme by extending the idea in X. Zhang and C.-W. Shu, (2010) [56] . For RHD, the density and pressure are positive and the velocity is bounded by the speed of light. One difficulty in numerically solving the RHD in its conservative form is that the failure of preserving these physical bounds will result in ill-posedness of the problem and blowup of the code, especially in extreme relativistic cases. The standard way in dealing with this difficulty is to add extra numerical dissipation, while in doing so there is no guarantee of maintaining the high order of accuracy. Our BP limiter has the following features. It can theoretically guarantee to preserve the physical bounds for the numerical solution and maintain its designed high order accuracy. The limiter is local to the cell and hence is very easy to implement. Moreover, it renders <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>1</mn></mrow></msup></math> -stability to the numerical scheme. Numerical experiments are performed to demonstrate the good performance of this bound-preserving DG scheme. Even though we only discuss the BP limiter for DG schemes, it can be applied to high order finite volume schemes, such as weighted essentially non-oscillatory (WENO) finite volume schemes as well.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bound-preserving</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Relativistic hydrodynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a"><math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>1</mn></mrow></msup></math> -stability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">[formula omitted]-stability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shu, Chi-Wang</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, United States</subfield>
+    <subfield code="m">shu@dam.brown.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yang, Yang</subfield>
+    <subfield code="v">Department of Mathematical Sciences, Michigan Technological University, Houghton, MI, 49931, United States</subfield>
+    <subfield code="m">yyang7@mtu.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">323-347</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Centrella, J.</subfield>
+    <subfield code="h">Wilson, J.R.</subfield>
+    <subfield code="t">Planar numerical cosmology II: the difference equations and numerical tests</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,54,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws IV: the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.-Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws II: general framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">The piecewise parabolic method (PPM) for gas-dynamical simulations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,54,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Zanna, L.</subfield>
+    <subfield code="h">Bucciantini, N.</subfield>
+    <subfield code="t">An efficient shock-capturing central-type scheme or multidimensional relativistic flows I. Hydrodynamics</subfield>
+    <subfield code="v">390</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Astron.Astrophys.,390,1177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolezal, A.</subfield>
+    <subfield code="h">Wong, S.</subfield>
+    <subfield code="t">Relativistic hydrodynamics and essentially non-oscillatory shock capturing scheme</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,120,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donat, R.</subfield>
+    <subfield code="h">Font, J.A.</subfield>
+    <subfield code="h">Ibáñez, J.M.</subfield>
+    <subfield code="h">Marquina, A.</subfield>
+    <subfield code="t">A flux-split algorithm applied to relativistic flows</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,146,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duncan, G.C.</subfield>
+    <subfield code="h">Hughes, P.A.</subfield>
+    <subfield code="t">Simulations of relativistic extragalactic jets</subfield>
+    <subfield code="v">436</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Astrophys.J.,436,L119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eulderink, F.</subfield>
+    <subfield code="t">Numerical relativistic hydrodynamics</subfield>
+    <subfield code="p">Rijksuniverteit te Leiden Leiden, Netherlands</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eulderink, F.</subfield>
+    <subfield code="h">Mellema, G.</subfield>
+    <subfield code="t">Special relativistic jet collimation by inertial confinement</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Astron.Astrophys.,284,654</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Strong stability-preserving high-order time discretization methods</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM Rev.,43,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, P.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">An adaptive moving mesh method for two-dimensional relativistic hydrodynamics</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Commun.Comput.Phys.,11,114</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, X.</subfield>
+    <subfield code="h">Adams, N.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity preserving method for high-order conservative schemes solving compressible Euler equations</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,242,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kunik, M.</subfield>
+    <subfield code="h">Qamar, S.</subfield>
+    <subfield code="h">Warnecke, G.</subfield>
+    <subfield code="t">Kinetic schemes for the relativistic gas dynamics</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Numer.Math.,97,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lucas-Serrano, A.</subfield>
+    <subfield code="h">Font, J.</subfield>
+    <subfield code="h">Ibáñez, J.M.</subfield>
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="t">Assessment of a high-resolution central scheme for the solution of the relativistic hydrodynamics equations</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Astron.Astrophys.,428,703</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marquina, A.</subfield>
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Ibáñez, J.</subfield>
+    <subfield code="h">Miralles, J.</subfield>
+    <subfield code="h">Donat, R.</subfield>
+    <subfield code="t">Ultrarelativistic hydrodynamics – high-resolution shock-capturing methods</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Astron.Astrophys.,258,566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Ibáñez, J.</subfield>
+    <subfield code="h">Miralles, J.A.</subfield>
+    <subfield code="t">Numerical relativistic hydrodynamics: local characteristic approach</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Phys.Rev.,D43,3794</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="t">The analytical solution of the Riemann problem in relativistic hydrodynamics</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Fluid Mech.,258,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="t">Extension of the piecewise parabolic method to one-dimensional relativistic hydrodynamics</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,123,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="t">Numerical hydrodynamics in special relativity</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Living Rev.Relativ.,6,7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martí, J.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="h">Font, J.</subfield>
+    <subfield code="h">Ibáñez, J.</subfield>
+    <subfield code="h">Marquina, A.</subfield>
+    <subfield code="t">Morphology and dynamics of relativistic jets</subfield>
+    <subfield code="v">479</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Astrophys.J.,479,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">An HLLC Riemann solver for relativistic flows – I. Hydrodynamics</subfield>
+    <subfield code="v">364</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,364,126</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Plewa, T.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">The piecewise parabolic method for multidimensional relativistic fluid dynamics</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,160,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">von Neumann, J.</subfield>
+    <subfield code="h">Richtmyer, R.D.</subfield>
+    <subfield code="t">A method for the numerical calculation of hydrodynamical shocks</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Appl.Phys.,21,232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Shea, B.</subfield>
+    <subfield code="h">Bryan, G.</subfield>
+    <subfield code="h">Bordner, J.</subfield>
+    <subfield code="h">Norman, M.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="h">Harkness, R.</subfield>
+    <subfield code="h">Kritsuk, A.</subfield>
+    <subfield code="t">Introducing Enzo, an AMR cosmology application</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="e">Plewa,T.</subfield>
+    <subfield code="e">Linde,T.</subfield>
+    <subfield code="e">Weirs,V.G.</subfield>
+    <subfield code="q">Springer Lecture Notes in Computational Science and Engineering</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qamar, S.</subfield>
+    <subfield code="h">Warnecke, G.</subfield>
+    <subfield code="t">A high-order kinetic flux-splitting method for the relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,205,182</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qiu, J.X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using WENO limiters</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quirk, J.</subfield>
+    <subfield code="t">A contribution to the great Riemann solver debate</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,18,555</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Radice, D.</subfield>
+    <subfield code="h">Rezzolla, L.</subfield>
+    <subfield code="t">Discontinuous Galerkin methods for general-relativistic hydrodynamics: formulation and application to spherical symmetric spacetimes</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Phys.Rev.,D84,024010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.H.</subfield>
+    <subfield code="h">Hill, T.R.</subfield>
+    <subfield code="t">Triangular mesh methods for the Neutron transport equation</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Los Alamos Scientific Laboratory Report LA-UR-73-479, Los Alamos, NM</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richtmyer, R.D.</subfield>
+    <subfield code="h">Morton, K.W.</subfield>
+    <subfield code="t">Difference Methods for Initial-Value Problems</subfield>
+    <subfield code="p">Wiley–Interscience New York</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schneider, V.</subfield>
+    <subfield code="h">Katscher, U.</subfield>
+    <subfield code="h">Rischke, D.</subfield>
+    <subfield code="h">Waldhauser, B.</subfield>
+    <subfield code="h">Maruhn, J.</subfield>
+    <subfield code="h">Munz, C.</subfield>
+    <subfield code="t">New algorithm for ultra-relativistic numerical hydrodynamics</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,105,92</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schulz-Rinne, C.W.</subfield>
+    <subfield code="h">Collins, J.P.</subfield>
+    <subfield code="h">Glaz, H.M.</subfield>
+    <subfield code="t">Numerical solution of the Riemann problem for two dimensional gas dynamics</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,14,1394</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB uniformly high-order schemes for conservation laws</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Math.Comput.,49,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total-variation-diminishing time discretizations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,9,1073</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taub, A.</subfield>
+    <subfield code="t">Relativistic Rankine–Hugoniot equations</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">1948</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Rev.,74,328</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tchekhovskoy, A.</subfield>
+    <subfield code="h">McKinney, J.</subfield>
+    <subfield code="h">Narayan, R.</subfield>
+    <subfield code="t">A WENO-based general relativistic numerical scheme – I. Hydrodynamics</subfield>
+    <subfield code="v">379</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,379,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teyssier, R.</subfield>
+    <subfield code="t">Cosmology hydrodynamics with adaptive mesh refinement. A new high resolution code called RAMSES</subfield>
+    <subfield code="v">385</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Astron.Astrophys.,385,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, C.</subfield>
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Ning, J.</subfield>
+    <subfield code="t">Robust high order discontinuous Galerkin schemes for two-dimensional gaseous detonations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,231,653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, P.</subfield>
+    <subfield code="h">Abel, T.</subfield>
+    <subfield code="h">Zhang, W.</subfield>
+    <subfield code="t">Relativistic hydrodynamics flows using spatial and temporal adaptive structured mesh refinement</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,176,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilson, J.R.</subfield>
+    <subfield code="t">Numerical study of fluid flow in a Kerr space</subfield>
+    <subfield code="v">173</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Astrophys.J.,173,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilson, J.R.</subfield>
+    <subfield code="t">A numerical method for relativistic hydrodynamics</subfield>
+    <subfield code="p">Cambridge, UK: Cambridge University Press</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="e">Smarr,L.L.</subfield>
+    <subfield code="q">Sources of Gravitational Radiation</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, K.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">Finite volume local evolution Galerkin method for two-dimensional relativistic hydrodynamics</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,256,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, K.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">High-order accurate physical-constraints-preserving finite difference WENO schemes for special relativistic hydrodynamics</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,298,539</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xing, Y.</subfield>
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity preserving high order well balanced discontinuous Galerkin methods for the shallow water equations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Adv.Water Resour.,33,1476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Z.F.</subfield>
+    <subfield code="t">Parametrized maximum principle preserving flux limiters for high order schemes solving hyperbolic conservation laws: one-dimensional scalar problem</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Math.Comput.,83,310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Discontinuous Galerkin method for hyperbolic equations involving δ -singularities: negative-order norm error estimates and applications</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Numer.Math.,124,753</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Wei, D.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Discontinuous Galerkin method for Krause's consensus models and pressureless Euler equations</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,252,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Z.</subfield>
+    <subfield code="h">He, P.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">A direct Eulerian GRP scheme for relativistic hydrodynamics: one-dimensional case</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7964</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Z.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">A direct Eulerian GRP scheme for relativistic hydrodynamics: two-dimensional case</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, W.</subfield>
+    <subfield code="h">MacFadyen, A.</subfield>
+    <subfield code="t">RAM: a relativistic adaptive mesh refinement hydrodynamics code</subfield>
+    <subfield code="v">164</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,164,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On maximum-principle-satisfying high order schemes for scalar conservation laws</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3091</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">On positivity preserving high order discontinuous Galerkin schemes for compressible Euler equations on rectangular meshes</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8918</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Positivity-preserving high order discontinuous Galerkin schemes for compressible Euler equations with source terms</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Maximum-principle-satisfying and positivity-preserving high order schemes for conservation laws: survey and new developments</subfield>
+    <subfield code="v">467</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Proc.R.Soc.,A467,2752</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A minimum entropy principle of high order schemes for gas dynamics equations</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Numer.Math.,121,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Xia, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Maximum-principle-satisfying and positivity-preserving high order discontinuous Galerkin schemes for conservation laws on triangular meshes</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Sci.Comput.,50,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, J.</subfield>
+    <subfield code="h">He, P.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">Steger–Warming flux vector splitting method for special relativistic hydrodynamics</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Math.Methods Appl.Sci.,37,1003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, J.</subfield>
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods with WENO limiter for the special relativistic hydrodynamics</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,242,138</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300201/S0021999116300201.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

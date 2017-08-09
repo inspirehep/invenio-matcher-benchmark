@@ -1,0 +1,952 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.ascom.2017.03.002</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Beck, R.</subfield>
+    <subfield code="v">Department of Physics of Complex Systems, Eötvös Loránd University, 1/A. Pázmány Péter sétány, Budapest, 1117, Hungary</subfield>
+    <subfield code="v">Department of Physics and Astronomy, The Johns Hopkins University, 3400 N Charles Street, Baltimore, MD, 21218, USA</subfield>
+    <subfield code="m">beckrob23@caesar.elte.hu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Photo-z-SQL: Integrated, flexible photometric redshift computation in a database</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-27</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a flexible template-based photometric redshift estimation framework, implemented in C#, that can be seamlessly integrated into a SQL database (or DB) server and executed on-demand in SQL. The DB integration eliminates the need to move large photometric datasets outside a database for redshift estimation, and utilizes the computational capabilities of DB hardware. The code is able to perform both maximum likelihood and Bayesian estimation, and can handle inputs of variable photometric filter sets and corresponding broad-band magnitudes. It is possible to take into account the full covariance matrix between filters, and filter zero points can be empirically calibrated using measurements with given redshifts. The list of spectral templates and the prior can be specified flexibly, and the expensive synthetic magnitude computations are done via lazy evaluation, coupled with a caching of results. Parallel execution is fully supported. For large upcoming photometric surveys such as the LSST, the ability to perform in-place photo-z calculation would be a significant advantage. Also, the efficient handling of variable filter sets is a necessity for heterogeneous databases, for example the Hubble Source Catalog, and for cross-match services such as SkyQuery. We illustrate the performance of our code on two reference photo-z estimation testing datasets, and provide an analysis of execution time and scalability with respect to different configurations. The code is available for download at https://github.com/beckrob/Photo-z-SQL .</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Galaxies: distances and redshifts</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Techniques: photometric</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Astronomical databases: miscellaneous</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dobos, L.</subfield>
+    <subfield code="v">Department of Physics of Complex Systems, Eötvös Loránd University, 1/A. Pázmány Péter sétány, Budapest, 1117, Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Budavári, T.</subfield>
+    <subfield code="v">Department of Physics and Astronomy, The Johns Hopkins University, 3400 N Charles Street, Baltimore, MD, 21218, USA</subfield>
+    <subfield code="v">Department of Applied Mathematics and Statistics, The Johns Hopkins University, 3400 N Charles Street, Baltimore, MD, 21218, USA</subfield>
+    <subfield code="v">Department of Computer Science, The Johns Hopkins University, 3400 N Charles Street, Baltimore, MD, 21218, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Szalay, A.S.</subfield>
+    <subfield code="v">Department of Physics and Astronomy, The Johns Hopkins University, 3400 N Charles Street, Baltimore, MD, 21218, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Csabai, I.</subfield>
+    <subfield code="v">Department of Physics of Complex Systems, Eötvös Loránd University, 1/A. Pázmány Péter sétány, Budapest, 1117, Hungary</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Astron.Comput.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0067-0049/219/1/12</subfield>
+    <subfield code="h">Alam, S.</subfield>
+    <subfield code="h">Albareti, F.D.</subfield>
+    <subfield code="h">Allende Prieto, C.</subfield>
+    <subfield code="h">Anders, F.</subfield>
+    <subfield code="h">Anderson, S.F.</subfield>
+    <subfield code="h">Anderton, T.</subfield>
+    <subfield code="h">Andrews, B.H.</subfield>
+    <subfield code="h">Armengaud, E.</subfield>
+    <subfield code="h">Aubourg, É.</subfield>
+    <subfield code="h">Bailey, S.</subfield>
+    <subfield code="r">arXiv:1501.00963</subfield>
+    <subfield code="t">The eleventh and twelfth data releases of the sloan digital sky survey: Final data from SDSS-III</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1501.00963</subfield>
+    <subfield code="o">Alam et al (2015</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,219,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1046/j.1365-8711.2002.04988.x</subfield>
+    <subfield code="h">Arnouts, S.</subfield>
+    <subfield code="h">Moscardini, L.</subfield>
+    <subfield code="h">Vanzella, E.</subfield>
+    <subfield code="h">Colombi, S.</subfield>
+    <subfield code="h">Cristiani, S.</subfield>
+    <subfield code="h">Fontana, A.</subfield>
+    <subfield code="h">Giallongo, E.</subfield>
+    <subfield code="h">Matarrese, S.</subfield>
+    <subfield code="h">Saracco, P.</subfield>
+    <subfield code="r">astro-ph/0109453</subfield>
+    <subfield code="t">Measuring the redshift evolution of clustering: the hubble deep field south</subfield>
+    <subfield code="v">329</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">arXiv:astro-ph/0109453</subfield>
+    <subfield code="o">Arnouts et al (2002</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,329,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stw1009</subfield>
+    <subfield code="h">Beck, R.</subfield>
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="r">arXiv:1603.09708</subfield>
+    <subfield code="t">Photometric redshifts for the SDSS data release 12</subfield>
+    <subfield code="v">460</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">arXiv:1603.09708</subfield>
+    <subfield code="o">Beck et al (2016</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,460,1371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beck, R., Lin, C.-A., Ishida, E.E.O., Gieseke, F., de Souza, R.S., Costa-Duarte, M.V., Hattab, M.W., Krone-Martins, A.</subfield>
+    <subfield code="m">for the COIN Collaboration,, On the realistic validation of photometric redshifts, or why Teddy will never be Happy. ArXiv e-prints</subfield>
+    <subfield code="r">arXiv:1701.08748</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Beck et al (2017</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/308947</subfield>
+    <subfield code="h">Benítez, N.</subfield>
+    <subfield code="r">astro-ph/9811189</subfield>
+    <subfield code="t">Bayesian photometric redshift estimation</subfield>
+    <subfield code="v">536</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">arXiv:astro-ph/9811189</subfield>
+    <subfield code="o">Benítez (2000</subfield>
+    <subfield code="s">Astrophys.J.,536,571</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bolzonella, M.</subfield>
+    <subfield code="h">Miralles, J.-M.</subfield>
+    <subfield code="h">Pelló, R.</subfield>
+    <subfield code="r">astro-ph/0003380</subfield>
+    <subfield code="t">Photometric redshifts based on standard SED fitting procedures</subfield>
+    <subfield code="v">363</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">arXiv:astro-ph/0003380</subfield>
+    <subfield code="o">Bolzonella et al (2000</subfield>
+    <subfield code="s">Astron.Astrophys.,363,476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/591786</subfield>
+    <subfield code="h">Brammer, G.B.</subfield>
+    <subfield code="h">van Dokkum, P.G.</subfield>
+    <subfield code="h">Coppi, P.</subfield>
+    <subfield code="r">arXiv:0807.1533</subfield>
+    <subfield code="t">EAZY: A fast, public photometric redshift code</subfield>
+    <subfield code="v">686</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0807.1533</subfield>
+    <subfield code="o">Brammer et al (2008</subfield>
+    <subfield code="s">Astrophys.J.,686,1503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/0004-6361/201424383</subfield>
+    <subfield code="h">Brescia, M.</subfield>
+    <subfield code="h">Cavuoti, S.</subfield>
+    <subfield code="h">Longo, G.</subfield>
+    <subfield code="h">De Stefano, V.</subfield>
+    <subfield code="r">arXiv:1407.2527</subfield>
+    <subfield code="t">A catalog of photometric redshifts for the SDSS-DR9 galaxies</subfield>
+    <subfield code="v">568</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1407.2527</subfield>
+    <subfield code="o">Brescia et al (2014</subfield>
+    <subfield code="s">Astron.Astrophys.,568,A126</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/695/1/747</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="r">arXiv:0811.2600</subfield>
+    <subfield code="t">A unified framework for photometric redshifts</subfield>
+    <subfield code="v">695</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0811.2600</subfield>
+    <subfield code="o">Budavári (2009</subfield>
+    <subfield code="s">Astrophys.J.,695,747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/MCSE.2013.41</subfield>
+    <subfield code="h">Budavari, T.</subfield>
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="t">SkyQuery: Federating astronomy archives</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Budavari et al (2013</subfield>
+    <subfield code="s">Comput.Sci.Eng.,15,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/167900</subfield>
+    <subfield code="h">Cardelli, J.A.</subfield>
+    <subfield code="h">Clayton, G.C.</subfield>
+    <subfield code="h">Mathis, J.S.</subfield>
+    <subfield code="t">The relationship between infrared, optical, and ultraviolet extinction</subfield>
+    <subfield code="v">345</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">Cardelli et al (1989</subfield>
+    <subfield code="s">Astrophys.J.,345,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/712/1/511</subfield>
+    <subfield code="h">Carliles, S.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Heinis, S.</subfield>
+    <subfield code="h">Priebe, C.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="t">Random forests for photometric redshifts</subfield>
+    <subfield code="v">712</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">Carliles et al (2010</subfield>
+    <subfield code="s">Astrophys.J.,712,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/505530</subfield>
+    <subfield code="h">Coe, D.</subfield>
+    <subfield code="h">Benítez, N.</subfield>
+    <subfield code="h">Sánchez, S.F.</subfield>
+    <subfield code="h">Jee, M.</subfield>
+    <subfield code="h">Bouwens, R.</subfield>
+    <subfield code="h">Ford, H.</subfield>
+    <subfield code="r">astro-ph/0605262</subfield>
+    <subfield code="t">Galaxies in the hubble ultra deep field. I. Detection, multiband photometry, photometric redshifts, and morphology</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">arXiv:astro-ph/0605262</subfield>
+    <subfield code="o">Coe et al (2006</subfield>
+    <subfield code="s">Astron.J.,132,926</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/117720</subfield>
+    <subfield code="h">Connolly, A.J.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Koo, D.C.</subfield>
+    <subfield code="h">Kron, R.G.</subfield>
+    <subfield code="h">Munn, J.A.</subfield>
+    <subfield code="r">astro-ph/9508100</subfield>
+    <subfield code="t">Slicing through multicolor space: Galaxy redshifts from broadband photometry</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">arXiv:astro-ph/9508100</subfield>
+    <subfield code="o">Connolly et al (1995</subfield>
+    <subfield code="s">Astron.J.,110,2655</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/345883</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Connolly, A.J.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Győry, Z.</subfield>
+    <subfield code="h">Benítez, N.</subfield>
+    <subfield code="h">Annis, J.</subfield>
+    <subfield code="h">Brinkmann, J.</subfield>
+    <subfield code="h">Eisenstein, D.</subfield>
+    <subfield code="h">Fukugita, M.</subfield>
+    <subfield code="h">Gunn, J.</subfield>
+    <subfield code="h">Kent, S.</subfield>
+    <subfield code="h">Lupton, R.</subfield>
+    <subfield code="h">Nichol, R.C.</subfield>
+    <subfield code="h">Stoughton, C.</subfield>
+    <subfield code="r">astro-ph/0211080</subfield>
+    <subfield code="t">The application of photometric redshifts to the SDSS early data release</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">arXiv:astro-ph/0211080</subfield>
+    <subfield code="o">Csabai et al (2003</subfield>
+    <subfield code="s">Astron.J.,125,580</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/301159</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Connolly, A.J.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="r">astro-ph/9910389</subfield>
+    <subfield code="t">Reconstructing galaxy spectral energy distributions from broadband photometry</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">arXiv:astro-ph/9910389</subfield>
+    <subfield code="o">Csabai et al (2000</subfield>
+    <subfield code="s">Astron.J.,119,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/asna.200710817</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Trencséni, M.</subfield>
+    <subfield code="h">Herczegh, G.</subfield>
+    <subfield code="h">Józsa, P.</subfield>
+    <subfield code="h">Purger, N.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="t">Multidimensional indexing tools for the virtual observatory</subfield>
+    <subfield code="v">328</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">Csabai et al (2007</subfield>
+    <subfield code="s">Astron.Nachr.,328,852</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/775/2/93</subfield>
+    <subfield code="h">Dahlen, T.</subfield>
+    <subfield code="h">Mobasher, B.</subfield>
+    <subfield code="h">Faber, S.M.</subfield>
+    <subfield code="h">Ferguson, H.C.</subfield>
+    <subfield code="h">Barro, G.</subfield>
+    <subfield code="h">Finkelstein, S.L.</subfield>
+    <subfield code="h">Finlator, K.</subfield>
+    <subfield code="h">Fontana, A.</subfield>
+    <subfield code="h">Gruetzbauch, R.</subfield>
+    <subfield code="h">Johnson, S.</subfield>
+    <subfield code="h">Pforr, J.</subfield>
+    <subfield code="h">Salvato, M.</subfield>
+    <subfield code="h">Wiklind, T.</subfield>
+    <subfield code="h">Wuyts, S.</subfield>
+    <subfield code="h">Acquaviva, V.</subfield>
+    <subfield code="h">Dickinson, M.E.</subfield>
+    <subfield code="h">Guo, Y.</subfield>
+    <subfield code="h">Huang, J.</subfield>
+    <subfield code="h">Huang, K.-H.</subfield>
+    <subfield code="h">Newman, J.A.</subfield>
+    <subfield code="h">Bell, E.F.</subfield>
+    <subfield code="h">Conselice, C.J.</subfield>
+    <subfield code="h">Galametz, A.</subfield>
+    <subfield code="h">Gawiser, E.</subfield>
+    <subfield code="h">Giavalisco, M.</subfield>
+    <subfield code="h">Grogin, N.A.</subfield>
+    <subfield code="h">Hathi, N.</subfield>
+    <subfield code="h">Kocevski, D.</subfield>
+    <subfield code="h">Koekemoer, A.M.</subfield>
+    <subfield code="h">Koo, D.C.</subfield>
+    <subfield code="h">Lee, K.-S.</subfield>
+    <subfield code="h">McGrath, E.J.</subfield>
+    <subfield code="h">Papovich, C.</subfield>
+    <subfield code="h">Peth, M.</subfield>
+    <subfield code="h">Ryan, R.</subfield>
+    <subfield code="h">Somerville, R.</subfield>
+    <subfield code="h">Weiner, B.</subfield>
+    <subfield code="h">Wilson, G.</subfield>
+    <subfield code="r">arXiv:1308.5353</subfield>
+    <subfield code="t">A critical assessment of photometric redshift methods: A candels investigation</subfield>
+    <subfield code="v">775</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:1308.5353</subfield>
+    <subfield code="o">Dahlen et al (2013</subfield>
+    <subfield code="s">Astrophys.J.,775,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-3-642-31235-9_10</subfield>
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Budavari, T.</subfield>
+    <subfield code="h">Li, N.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="t">SkyQuery: An implementation of a parallel probabilistic join engine for cross-identification of multiple astronomical databases</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">Scientific and Statistical Database Management—24th International Conference, SSDBM 2012, Chania, Crete, Greece, June 25–27, 2012. Proceedings</subfield>
+    <subfield code="o">Dobos et al (2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Blakeley, J.</subfield>
+    <subfield code="h">Falck, B.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="t">An array library for microsoft SQL server with astrophysical applications</subfield>
+    <subfield code="v">vol. 461</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">Dobos et al (2012</subfield>
+    <subfield code="s">ASP Conf.Ser.,vol. 461,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/1966895.1966897</subfield>
+    <subfield code="h">Dobos, L.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Blakeley, J.A.</subfield>
+    <subfield code="h">Budavari, T.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Tomic, D.</subfield>
+    <subfield code="h">Milovanovic, M.</subfield>
+    <subfield code="h">Tintor, M.</subfield>
+    <subfield code="h">Jovanovic, A.</subfield>
+    <subfield code="t">Array requirements for scientific applications and an implementation for microsoft SQL server</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">Proceedings of the 2011 EDBT/ICDT Workshop on Array Databases, Uppsala, Sweden, March 25, 2011</subfield>
+    <subfield code="o">Dobos et al (2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-6256/139/4/1628</subfield>
+    <subfield code="h">Doi, M.</subfield>
+    <subfield code="h">Tanaka, M.</subfield>
+    <subfield code="h">Fukugita, M.</subfield>
+    <subfield code="h">Gunn, J.E.</subfield>
+    <subfield code="h">Yasuda, N.</subfield>
+    <subfield code="h">Ivezić, Ž.</subfield>
+    <subfield code="h">Brinkmann, J.</subfield>
+    <subfield code="h">de Haars, E.</subfield>
+    <subfield code="h">Kleinman, S.J.</subfield>
+    <subfield code="h">Krzesinski, J.</subfield>
+    <subfield code="h">French Leger, R.</subfield>
+    <subfield code="r">arXiv:1002.3701</subfield>
+    <subfield code="t">Photometric response functions of the sloan digital sky survey imager</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:1002.3701</subfield>
+    <subfield code="o">Doi et al (2010</subfield>
+    <subfield code="s">Astron.J.,139,1628</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-6256/142/3/72</subfield>
+    <subfield code="h">Eisenstein, D.J.</subfield>
+    <subfield code="h">Weinberg, D.H.</subfield>
+    <subfield code="h">Agol, E.</subfield>
+    <subfield code="h">Aihara, H.</subfield>
+    <subfield code="h">Allende Prieto, C.</subfield>
+    <subfield code="h">Anderson, S.F.</subfield>
+    <subfield code="h">Arns, J.A.</subfield>
+    <subfield code="h">Aubourg, É.</subfield>
+    <subfield code="h">Bailey, S.</subfield>
+    <subfield code="h">Balbinot, E.</subfield>
+    <subfield code="r">arXiv:1101.1529</subfield>
+    <subfield code="t">SDSS-III: Massive spectroscopic surveys of the distant universe, the milky way, and extra-solar planetary systems</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">arXiv:1101.1529</subfield>
+    <subfield code="o">Eisenstein et al (2011</subfield>
+    <subfield code="s">Astron.J.,142,72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/316293</subfield>
+    <subfield code="h">Fitzpatrick, E.L.</subfield>
+    <subfield code="r">astro-ph/9809387</subfield>
+    <subfield code="t">Correcting for the effects of interstellar extinction</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">arXiv:astro-ph/9809387</subfield>
+    <subfield code="o">Fitzpatrick (1999</subfield>
+    <subfield code="s">Publ.Astron.Soc.Pac.,111,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/715/2/823</subfield>
+    <subfield code="h">Gerdes, D.W.</subfield>
+    <subfield code="h">Sypniewski, A.J.</subfield>
+    <subfield code="h">McKay, T.A.</subfield>
+    <subfield code="h">Hao, J.</subfield>
+    <subfield code="h">Weis, M.R.</subfield>
+    <subfield code="h">Wechsler, R.H.</subfield>
+    <subfield code="h">Busha, M.T.</subfield>
+    <subfield code="r">arXiv:0908.4085</subfield>
+    <subfield code="t">ArborZ: Photometric redshifts using boosted decision trees</subfield>
+    <subfield code="v">715</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:0908.4085</subfield>
+    <subfield code="o">Gerdes et al (2010</subfield>
+    <subfield code="s">Astrophys.J.,715,823</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Han, B., Zhang, Y., Zhong, S., Zhao, Y.</subfield>
+    <subfield code="m">Astronomical data fusion tool based on PostgreSQL. ArXiv e-prints</subfield>
+    <subfield code="r">arXiv:1609.01079</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Han et al (2016</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/0004-6361/201014885</subfield>
+    <subfield code="h">Hildebrandt, H.</subfield>
+    <subfield code="h">Arnouts, S.</subfield>
+    <subfield code="h">Capak, P.</subfield>
+    <subfield code="h">Moustakas, L.A.</subfield>
+    <subfield code="h">Wolf, C.</subfield>
+    <subfield code="h">Abdalla, F.B.</subfield>
+    <subfield code="h">Assef, R.J.</subfield>
+    <subfield code="h">Banerji, M.</subfield>
+    <subfield code="h">Benítez, N.</subfield>
+    <subfield code="h">Brammer, G.B.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Carliles, S.</subfield>
+    <subfield code="h">Coe, D.</subfield>
+    <subfield code="h">Dahlen, T.</subfield>
+    <subfield code="h">Feldmann, R.</subfield>
+    <subfield code="h">Gerdes, D.</subfield>
+    <subfield code="h">Gillis, B.</subfield>
+    <subfield code="h">Ilbert, O.</subfield>
+    <subfield code="h">Kotulla, R.</subfield>
+    <subfield code="h">Lahav, O.</subfield>
+    <subfield code="h">Li, I.H.</subfield>
+    <subfield code="h">Miralles, J.-M.</subfield>
+    <subfield code="h">Purger, N.</subfield>
+    <subfield code="h">Schmidt, S.</subfield>
+    <subfield code="h">Singal, J.</subfield>
+    <subfield code="r">arXiv:1008.0658</subfield>
+    <subfield code="t">PHAT: PHoto-z accuracy testing</subfield>
+    <subfield code="v">523</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:1008.0658</subfield>
+    <subfield code="o">Hildebrandt et al (2010</subfield>
+    <subfield code="s">Astron.Astrophys.,523,A31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/0004-6361:20065138</subfield>
+    <subfield code="h">Ilbert, O.</subfield>
+    <subfield code="h">Arnouts, S.</subfield>
+    <subfield code="h">McCracken, H.J.</subfield>
+    <subfield code="h">Bolzonella, M.</subfield>
+    <subfield code="h">Bertin, E.</subfield>
+    <subfield code="h">Le Fèvre, O.</subfield>
+    <subfield code="h">Mellier, Y.</subfield>
+    <subfield code="h">Zamorani, G.</subfield>
+    <subfield code="h">Pellò, R.</subfield>
+    <subfield code="h">Iovino, A.</subfield>
+    <subfield code="h">Tresse, L.</subfield>
+    <subfield code="h">Le Brun, V.</subfield>
+    <subfield code="h">Bottini, D.</subfield>
+    <subfield code="h">Garilli, B.</subfield>
+    <subfield code="h">Maccagni, D.</subfield>
+    <subfield code="h">Picat, J.P.</subfield>
+    <subfield code="h">Scaramella, R.</subfield>
+    <subfield code="h">Scodeggio, M.</subfield>
+    <subfield code="h">Vettolani, G.</subfield>
+    <subfield code="h">Zanichelli, A.</subfield>
+    <subfield code="h">Adami, C.</subfield>
+    <subfield code="h">Bardelli, S.</subfield>
+    <subfield code="h">Cappi, A.</subfield>
+    <subfield code="h">Charlot, S.</subfield>
+    <subfield code="h">Ciliegi, P.</subfield>
+    <subfield code="h">Contini, T.</subfield>
+    <subfield code="h">Cucciati, O.</subfield>
+    <subfield code="h">Foucaud, S.</subfield>
+    <subfield code="h">Franzetti, P.</subfield>
+    <subfield code="h">Gavignaud, I.</subfield>
+    <subfield code="h">Guzzo, L.</subfield>
+    <subfield code="h">Marano, B.</subfield>
+    <subfield code="h">Marinoni, C.</subfield>
+    <subfield code="h">Mazure, A.</subfield>
+    <subfield code="h">Meneux, B.</subfield>
+    <subfield code="h">Merighi, R.</subfield>
+    <subfield code="h">Paltani, S.</subfield>
+    <subfield code="h">Pollo, A.</subfield>
+    <subfield code="h">Pozzetti, L.</subfield>
+    <subfield code="h">Radovich, M.</subfield>
+    <subfield code="h">Zucca, E.</subfield>
+    <subfield code="h">Bondi, M.</subfield>
+    <subfield code="h">Bongiorno, A.</subfield>
+    <subfield code="h">Busarello, G.</subfield>
+    <subfield code="h">de La Torre, S.</subfield>
+    <subfield code="h">Gregorini, L.</subfield>
+    <subfield code="h">Lamareille, F.</subfield>
+    <subfield code="h">Mathez, G.</subfield>
+    <subfield code="h">Merluzzi, P.</subfield>
+    <subfield code="h">Ripepi, V.</subfield>
+    <subfield code="h">Rizzo, D.</subfield>
+    <subfield code="h">Vergani, D.</subfield>
+    <subfield code="r">astro-ph/0603217</subfield>
+    <subfield code="t">Accurate photometric redshifts for the CFHT legacy survey calibrated using the VIMOS VLT deep survey</subfield>
+    <subfield code="v">457</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">arXiv:astro-ph/0603217</subfield>
+    <subfield code="o">Ilbert et al (2006</subfield>
+    <subfield code="s">Astron.Astrophys.,457,841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/690/2/1236</subfield>
+    <subfield code="h">Ilbert, O.</subfield>
+    <subfield code="h">Capak, P.</subfield>
+    <subfield code="h">Salvato, M.</subfield>
+    <subfield code="h">Aussel, H.</subfield>
+    <subfield code="h">McCracken, H.J.</subfield>
+    <subfield code="h">Sanders, D.B.</subfield>
+    <subfield code="h">Scoville, N.</subfield>
+    <subfield code="h">Kartaltepe, J.</subfield>
+    <subfield code="h">Arnouts, S.</subfield>
+    <subfield code="h">Le Floc’h, E.</subfield>
+    <subfield code="h">Mobasher, B.</subfield>
+    <subfield code="h">Taniguchi, Y.</subfield>
+    <subfield code="h">Lamareille, F.</subfield>
+    <subfield code="h">Leauthaud, A.</subfield>
+    <subfield code="h">Sasaki, S.</subfield>
+    <subfield code="h">Thompson, D.</subfield>
+    <subfield code="h">Zamojski, M.</subfield>
+    <subfield code="h">Zamorani, G.</subfield>
+    <subfield code="h">Bardelli, S.</subfield>
+    <subfield code="h">Bolzonella, M.</subfield>
+    <subfield code="h">Bongiorno, A.</subfield>
+    <subfield code="h">Brusa, M.</subfield>
+    <subfield code="h">Caputi, K.I.</subfield>
+    <subfield code="h">Carollo, C.M.</subfield>
+    <subfield code="h">Contini, T.</subfield>
+    <subfield code="h">Cook, R.</subfield>
+    <subfield code="h">Coppa, G.</subfield>
+    <subfield code="h">Cucciati, O.</subfield>
+    <subfield code="h">de la Torre, S.</subfield>
+    <subfield code="h">de Ravel, L.</subfield>
+    <subfield code="h">Franzetti, P.</subfield>
+    <subfield code="h">Garilli, B.</subfield>
+    <subfield code="h">Hasinger, G.</subfield>
+    <subfield code="h">Iovino, A.</subfield>
+    <subfield code="h">Kampczyk, P.</subfield>
+    <subfield code="h">Kneib, J.-P.</subfield>
+    <subfield code="h">Knobel, C.</subfield>
+    <subfield code="h">Kovac, K.</subfield>
+    <subfield code="h">Le Borgne, J.F.</subfield>
+    <subfield code="h">Le Brun, V.</subfield>
+    <subfield code="h">Fèvre, O.L.</subfield>
+    <subfield code="h">Lilly, S.</subfield>
+    <subfield code="h">Looper, D.</subfield>
+    <subfield code="h">Maier, C.</subfield>
+    <subfield code="h">Mainieri, V.</subfield>
+    <subfield code="h">Mellier, Y.</subfield>
+    <subfield code="h">Mignoli, M.</subfield>
+    <subfield code="h">Murayama, T.</subfield>
+    <subfield code="h">Pellò, R.</subfield>
+    <subfield code="h">Peng, Y.</subfield>
+    <subfield code="h">Pérez-Montero, E.</subfield>
+    <subfield code="h">Renzini, A.</subfield>
+    <subfield code="h">Ricciardelli, E.</subfield>
+    <subfield code="h">Schiminovich, D.</subfield>
+    <subfield code="h">Scodeggio, M.</subfield>
+    <subfield code="h">Shioya, Y.</subfield>
+    <subfield code="h">Silverman, J.</subfield>
+    <subfield code="h">Surace, J.</subfield>
+    <subfield code="h">Tanaka, M.</subfield>
+    <subfield code="h">Tasca, L.</subfield>
+    <subfield code="h">Tresse, L.</subfield>
+    <subfield code="h">Vergani, D.</subfield>
+    <subfield code="h">Zucca, E.</subfield>
+    <subfield code="r">arXiv:0809.2101</subfield>
+    <subfield code="t">Cosmos photometric redshifts with 30-bands for 2-deg <math altimg="si229.gif" display="inline" id="mml229" overflow="scroll"><msup><mrow></mrow><mrow><mn>2</mn></mrow></msup></math></subfield>
+    <subfield code="v">690</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0809.2101</subfield>
+    <subfield code="o">Ilbert et al (2009</subfield>
+    <subfield code="s">Astrophys.J.,690,1236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ivezic, Z., Tyson, J.A., Abel, B., Acosta, E., Allsman, R., AlSayyad, Y., Anderson, S.F., Andrew, J., Angel, R., Angeli, G., Ansari, R., Antilogus, P., Arndt, K.T., Astier, P., Aubourg, E., Axelrod, T., Bard, D.J., Barr, J.D., Barrau, A., Bartlett, J.G., Bauman, B.J., Beaumont, S., Becker, A.C., Becla, J., Beldica, C., Bellavia, S., Blanc, G., Blandford, R.D., Bloom, J.S., Bogart, J., Borne, K., Bosch, J.F., Boutigny, D., Brandt, W.N., Brown, M.E., Bullock, J.S., Burchat, P., Burke, D.L., Cagnoli, G., Calabrese, D., Chandrasekharan, S., Chesley, S., Cheu, E.C., Chiang, J., Claver, C.F., Connolly, A.J., Cook, K.H., Cooray, A., Covey, K.R., Cribbs, C., Cui, W., Cutri, R., Daubard, G., Daues, G., Delgado, F., Digel, S., Doherty, P., Dubois, R., Dubois-Felsmann, G.P., Durech, J., Eracleous, M., Ferguson, H., Frank, J., Freemon, M., Gangler, E., Gawiser, E., Geary, J.C., Gee, P., Geha, M., Gibson, R.R., Gilmore, D.K., Glanzman, T., Goodenow, I., Gressler, W.J., Gris, P., Guyonnet, A., Hascall, P.A., Haupt, J., Hernandez, F., Hogan, C., Huang, D., Huffer, M.E., Innes, W.R., Jacoby, S.H., Jain, B., Jee, J., Jernigan, J.G., Jevremovic, D., Johns, K., Jones, R.L., Juramy-Gilles, C., Juric, M., Kahn, S.M., Kalirai, J.S., Kallivayalil, N., Kalmbach, B., Kantor, J.P., Kasliwal, M.M., Kessler, R., Kirkby, D., Knox, L., Kotov, I., Krabbendam, V.L., Krughoff, S., Kubanek, P., Kuczewski, J., Kulkarni, S., Lambert, R., Le Guillou, L., Levine, D., Liang, M., Lim, K., Lintott, C., Lupton, R.H., Mahabal, A., Marshall, P., Marshall, S., May, M., McKercher, R., Migliore, M., Miller, M., Mills, D.J., Monet, D.G., Moniez, M., Neill, D.R., Nief, J., Nomerotski, A., Nordby, M., O’Connor, P., Oliver, J., Olivier, S.S., Olsen, K., Ortiz, S., Owen, R.E., Pain, R., Peterson, J.R., Petry, C.E., Pierfederici, F., Pietrowicz, S., Pike, R., Pinto, P.A., Plante, R., Plate, S., Price, P.A., Prouza, M., Radeka, V., Rajagopal, J., Rasmussen, A., Regnault, N., Ridgway, S.T., Ritz, S., Rosing, W., Roucelle, C., Rumore, M.R., Russo, S., Saha, A., Sassolas, B., Schalk, T.L., Schindler, R.H., Schneider, D.P., Schumacher, G., Sebag, J., Sembroski, G.H., Seppala, L.G., Shipsey, I., Silvestri, N., Smith, J.A., Smith, R.C., Strauss, M.A., Stubbs, C.W., Sweeney, D., Szalay, A., Takacs, P., Thaler, J.J., Van Berg, R.</subfield>
+    <subfield code="m">Vanden Berk, D., Vetter, K., Virieux, F., Xin, B., Walkowicz, L., Walter, C.W., Wang, D.L., Warner, M., Willman, B., Wittman, D., Wolff, S.C., Wood-Vasey, W.M., Yoachim, P LSST: from science drivers to reference design and anticipated data products. ArXiv e-prints</subfield>
+    <subfield code="r">arXiv:0805.2366</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="0">785865</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Ivezic et al (2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/301004</subfield>
+    <subfield code="h">Lupton, R.H.</subfield>
+    <subfield code="h">Gunn, J.E.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="r">astro-ph/9903081</subfield>
+    <subfield code="t">A modified magnitude system that produces well-behaved magnitudes, colors, and errors even for low signal-to-noise ratio measurements</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">arXiv:astro-ph/9903081</subfield>
+    <subfield code="o">Lupton et al (1999</subfield>
+    <subfield code="s">Astron.J.,118,1406</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/173713</subfield>
+    <subfield code="h">O’Donnell, J.E.</subfield>
+    <subfield code="t">R <math altimg="si230.gif" display="inline" id="mml230" overflow="scroll"><msub><mrow></mrow><mrow><mi>n</mi><mi>u</mi></mrow></msub></math> -dependent optical and near-ultraviolet extinction</subfield>
+    <subfield code="v">422</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">O’Donnell (1994</subfield>
+    <subfield code="s">Astrophys.J.,422,158</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/160817</subfield>
+    <subfield code="h">Oke, J.B.</subfield>
+    <subfield code="h">Gunn, J.E.</subfield>
+    <subfield code="t">Secondary standard stars for absolute spectrophotometry</subfield>
+    <subfield code="v">266</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">Oke and Gunn (1983</subfield>
+    <subfield code="s">Astrophys.J.,266,713</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/737/2/103</subfield>
+    <subfield code="h">Schlafly, E.F.</subfield>
+    <subfield code="h">Finkbeiner, D.P.</subfield>
+    <subfield code="r">arXiv:1012.4804</subfield>
+    <subfield code="t">Measuring reddening with sloan digital sky survey stellar spectra and recalibrating SFD</subfield>
+    <subfield code="v">737</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">arXiv:1012.4804</subfield>
+    <subfield code="o">Schlafly and Finkbeiner (2011</subfield>
+    <subfield code="s">Astrophys.J.,737,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/305772</subfield>
+    <subfield code="h">Schlegel, D.J.</subfield>
+    <subfield code="h">Finkbeiner, D.P.</subfield>
+    <subfield code="h">Davis, M.</subfield>
+    <subfield code="r">astro-ph/9710327</subfield>
+    <subfield code="t">Maps of dust infrared emission for use in estimation of reddening and cosmic microwave background radiation foregrounds</subfield>
+    <subfield code="v">500</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">arXiv:astro-ph/9710327</subfield>
+    <subfield code="o">Schlegel et al (1998</subfield>
+    <subfield code="s">Astrophys.J.,500,525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scranton, R., Connolly, A.J., Szalay, A.S., Lupton, R.H., Johnston, D., Budavari, T., Brinkman, J., Fukugita, M.</subfield>
+    <subfield code="m">Photometric covariance in multi-band surveys: Understanding the photometric error in the SDSS. ArXiv Astrophysics e-prints arXiv:</subfield>
+    <subfield code="r">astro-ph/0508564</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="0">690823</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Scranton et al (2005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/750/2/99</subfield>
+    <subfield code="h">Tonry, J.L.</subfield>
+    <subfield code="h">Stubbs, C.W.</subfield>
+    <subfield code="h">Lykke, K.R.</subfield>
+    <subfield code="h">Doherty, P.</subfield>
+    <subfield code="h">Shivvers, I.S.</subfield>
+    <subfield code="h">Burgett, W.S.</subfield>
+    <subfield code="h">Chambers, K.C.</subfield>
+    <subfield code="h">Hodapp, K.W.</subfield>
+    <subfield code="h">Kaiser, N.</subfield>
+    <subfield code="h">Kudritzki, R.-P.</subfield>
+    <subfield code="h">Magnier, E.A.</subfield>
+    <subfield code="h">Morgan, J.S.</subfield>
+    <subfield code="h">Price, P.A.</subfield>
+    <subfield code="h">Wainscoat, R.J.</subfield>
+    <subfield code="r">arXiv:1203.0297</subfield>
+    <subfield code="t">The Pan-STARRS1 photometric system</subfield>
+    <subfield code="v">750</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">arXiv:1203.0297</subfield>
+    <subfield code="o">Tonry et al (2012</subfield>
+    <subfield code="s">Astrophys.J.,750,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/427710</subfield>
+    <subfield code="h">Wadadekar, Y.</subfield>
+    <subfield code="r">astro-ph/0412005</subfield>
+    <subfield code="t">Estimating photometric redshifts using support vector machines</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">arXiv:astro-ph/0412005</subfield>
+    <subfield code="o">Wadadekar (2005</subfield>
+    <subfield code="s">Publ.Astron.Soc.Pac.,117,79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/300592</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Bahcall, N.</subfield>
+    <subfield code="h">Turner, E.L.</subfield>
+    <subfield code="r">astro-ph/9804195</subfield>
+    <subfield code="t">A catalog of color-based redshift estimates for <math altimg="si231.gif" display="inline" id="mml231" overflow="scroll"><mi>Z</mi><mo>&lt;</mo><mo>∼</mo><mn>4</mn></math> galaxies in the hubble deep field</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">arXiv:astro-ph/9804195</subfield>
+    <subfield code="o">Wang et al (1998</subfield>
+    <subfield code="s">Astron.J.,116,2081</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.3847/0004-6256/151/6/134</subfield>
+    <subfield code="h">Whitmore, B.C.</subfield>
+    <subfield code="h">Allam, S.S.</subfield>
+    <subfield code="h">Budavári, T.</subfield>
+    <subfield code="h">Casertano, S.</subfield>
+    <subfield code="h">Downes, R.A.</subfield>
+    <subfield code="h">Donaldson, T.</subfield>
+    <subfield code="h">Fall, S.M.</subfield>
+    <subfield code="h">Lubow, S.H.</subfield>
+    <subfield code="h">Quick, L.</subfield>
+    <subfield code="h">Strolger, L.-G.</subfield>
+    <subfield code="h">Wallace, G.</subfield>
+    <subfield code="h">White, R.L.</subfield>
+    <subfield code="r">arXiv:1602.04861</subfield>
+    <subfield code="t">Version 1 of the hubble source catalog</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">arXiv:1602.04861</subfield>
+    <subfield code="o">Whitmore et al (2016</subfield>
+    <subfield code="s">Astron.J.,151,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/301513</subfield>
+    <subfield code="h">York, D.G.</subfield>
+    <subfield code="h">Adelman, J.</subfield>
+    <subfield code="h">Anderson, Jr., J.E.</subfield>
+    <subfield code="h">Anderson, S.F.</subfield>
+    <subfield code="h">Annis, J.</subfield>
+    <subfield code="h">Bahcall, N.A.</subfield>
+    <subfield code="h">Bakken, J.A.</subfield>
+    <subfield code="h">Barkhouser, R.</subfield>
+    <subfield code="h">Bastian, S.</subfield>
+    <subfield code="h">Berman, E.</subfield>
+    <subfield code="h">Boroski, W.N.</subfield>
+    <subfield code="h">Bracker, S.</subfield>
+    <subfield code="h">Briegel, C.</subfield>
+    <subfield code="h">Briggs, J.W.</subfield>
+    <subfield code="h">Brinkmann, J.</subfield>
+    <subfield code="h">Brunner, R.</subfield>
+    <subfield code="h">Burles, S.</subfield>
+    <subfield code="h">Carey, L.</subfield>
+    <subfield code="h">Carr, M.A.</subfield>
+    <subfield code="h">Castander, F.J.</subfield>
+    <subfield code="h">Chen, B.</subfield>
+    <subfield code="h">Colestock, P.L.</subfield>
+    <subfield code="h">Connolly, A.J.</subfield>
+    <subfield code="h">Crocker, J.H.</subfield>
+    <subfield code="h">Csabai, I.</subfield>
+    <subfield code="h">Czarapata, P.C.</subfield>
+    <subfield code="h">Davis, J.E.</subfield>
+    <subfield code="h">Doi, M.</subfield>
+    <subfield code="h">Dombeck, T.</subfield>
+    <subfield code="h">Eisenstein, D.</subfield>
+    <subfield code="h">Ellman, N.</subfield>
+    <subfield code="h">Elms, B.R.</subfield>
+    <subfield code="h">Evans, M.L.</subfield>
+    <subfield code="h">Fan, X.</subfield>
+    <subfield code="h">Federwitz, G.R.</subfield>
+    <subfield code="h">Fiscelli, L.</subfield>
+    <subfield code="h">Friedman, S.</subfield>
+    <subfield code="h">Frieman, J.A.</subfield>
+    <subfield code="h">Fukugita, M.</subfield>
+    <subfield code="h">Gillespie, B.</subfield>
+    <subfield code="h">Gunn, J.E.</subfield>
+    <subfield code="h">Gurbani, V.K.</subfield>
+    <subfield code="h">de Haas, E.</subfield>
+    <subfield code="h">Haldeman, M.</subfield>
+    <subfield code="h">Harris, F.H.</subfield>
+    <subfield code="h">Hayes, J.</subfield>
+    <subfield code="h">Heckman, T.M.</subfield>
+    <subfield code="h">Hennessy, G.S.</subfield>
+    <subfield code="h">Hindsley, R.B.</subfield>
+    <subfield code="h">Holm, S.</subfield>
+    <subfield code="h">Holmgren, D.J.</subfield>
+    <subfield code="h">Huang, C.-H.</subfield>
+    <subfield code="h">Hull, C.</subfield>
+    <subfield code="h">Husby, D.</subfield>
+    <subfield code="h">Ichikawa, S.-I.</subfield>
+    <subfield code="h">Ichikawa, T.</subfield>
+    <subfield code="h">Ivezić, Ž.</subfield>
+    <subfield code="h">Kent, S.</subfield>
+    <subfield code="h">Kim, R.S.J.</subfield>
+    <subfield code="h">Kinney, E.</subfield>
+    <subfield code="h">Klaene, M.</subfield>
+    <subfield code="h">Kleinman, A.N.</subfield>
+    <subfield code="h">Kleinman, S.</subfield>
+    <subfield code="h">Knapp, G.R.</subfield>
+    <subfield code="h">Korienek, J.</subfield>
+    <subfield code="h">Kron, R.G.</subfield>
+    <subfield code="h">Kunszt, P.Z.</subfield>
+    <subfield code="h">Lamb, D.Q.</subfield>
+    <subfield code="h">Lee, B.</subfield>
+    <subfield code="h">Leger, R.F.</subfield>
+    <subfield code="h">Limmongkol, S.</subfield>
+    <subfield code="h">Lindenmeyer, C.</subfield>
+    <subfield code="h">Long, D.C.</subfield>
+    <subfield code="h">Loomis, C.</subfield>
+    <subfield code="h">Loveday, J.</subfield>
+    <subfield code="h">Lucinio, R.</subfield>
+    <subfield code="h">Lupton, R.H.</subfield>
+    <subfield code="h">MacKinnon, B.</subfield>
+    <subfield code="h">Mannery, E.J.</subfield>
+    <subfield code="h">Mantsch, P.M.</subfield>
+    <subfield code="h">Margon, B.</subfield>
+    <subfield code="h">McGehee, P.</subfield>
+    <subfield code="h">McKay, T.A.</subfield>
+    <subfield code="h">Meiksin, A.</subfield>
+    <subfield code="h">Merelli, A.</subfield>
+    <subfield code="h">Monet, D.G.</subfield>
+    <subfield code="h">Munn, J.A.</subfield>
+    <subfield code="h">Narayanan, V.K.</subfield>
+    <subfield code="h">Nash, T.</subfield>
+    <subfield code="h">Neilsen, E.</subfield>
+    <subfield code="h">Neswold, R.</subfield>
+    <subfield code="h">Newberg, H.J.</subfield>
+    <subfield code="h">Nichol, R.C.</subfield>
+    <subfield code="h">Nicinski, T.</subfield>
+    <subfield code="h">Nonino, M.</subfield>
+    <subfield code="h">Okada, N.</subfield>
+    <subfield code="h">Okamura, S.</subfield>
+    <subfield code="h">Ostriker, J.P.</subfield>
+    <subfield code="h">Owen, R.</subfield>
+    <subfield code="h">Pauls, A.G.</subfield>
+    <subfield code="h">Peoples, J.</subfield>
+    <subfield code="h">Peterson, R.L.</subfield>
+    <subfield code="h">Petravick, D.</subfield>
+    <subfield code="h">Pier, J.R.</subfield>
+    <subfield code="h">Pope, A.</subfield>
+    <subfield code="h">Pordes, R.</subfield>
+    <subfield code="h">Prosapio, A.</subfield>
+    <subfield code="h">Rechenmacher, R.</subfield>
+    <subfield code="h">Quinn, T.R.</subfield>
+    <subfield code="h">Richards, G.T.</subfield>
+    <subfield code="h">Richmond, M.W.</subfield>
+    <subfield code="h">Rivetta, C.H.</subfield>
+    <subfield code="h">Rockosi, C.M.</subfield>
+    <subfield code="h">Ruthmansdorfer, K.</subfield>
+    <subfield code="h">Sandford, D.</subfield>
+    <subfield code="h">Schlegel, D.J.</subfield>
+    <subfield code="h">Schneider, D.P.</subfield>
+    <subfield code="h">Sekiguchi, M.</subfield>
+    <subfield code="h">Sergey, G.</subfield>
+    <subfield code="h">Shimasaku, K.</subfield>
+    <subfield code="h">Siegmund, W.A.</subfield>
+    <subfield code="h">Smee, S.</subfield>
+    <subfield code="h">Smith, J.A.</subfield>
+    <subfield code="h">Snedden, S.</subfield>
+    <subfield code="h">Stone, R.</subfield>
+    <subfield code="h">Stoughton, C.</subfield>
+    <subfield code="h">Strauss, M.A.</subfield>
+    <subfield code="h">Stubbs, C.</subfield>
+    <subfield code="h">SubbaRao, M.</subfield>
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Szapudi, I.</subfield>
+    <subfield code="h">Szokoly, G.P.</subfield>
+    <subfield code="h">Thakar, A.R.</subfield>
+    <subfield code="h">Tremonti, C.</subfield>
+    <subfield code="h">Tucker, D.L.</subfield>
+    <subfield code="h">Uomoto, A.</subfield>
+    <subfield code="h">Vanden Berk, D.</subfield>
+    <subfield code="h">Vogeley, M.S.</subfield>
+    <subfield code="h">Waddell, P.</subfield>
+    <subfield code="h">Wang, S.-I.</subfield>
+    <subfield code="h">Watanabe, M.</subfield>
+    <subfield code="h">Weinberg, D.H.</subfield>
+    <subfield code="h">Yanny, B.</subfield>
+    <subfield code="h">Yasuda, N.</subfield>
+    <subfield code="r">astro-p/0006396</subfield>
+    <subfield code="t">The sloan digital sky survey: Technical summary</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">arXiv:astro-p/0006396</subfield>
+    <subfield code="o">York et al (2000</subfield>
+    <subfield code="s">Astron.J.,120,1579</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/2213-1337/aip/S2213133716301202/S2213133716301202.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

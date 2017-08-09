@@ -1,0 +1,93 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Macrossan, Michael N.</subfield>
+    <subfield code="v">Centre for Hypersonics, Department of Mechanical and Mining Engineering, University of Queensland, Australia</subfield>
+    <subfield code="m">m.macrossan@uq.edu.au</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Restricted Collision List method for faster Direct Simulation Monte-Carlo (DSMC) collisions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">8</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The ‘Restricted Collision List’ (RCL) method for speeding up the calculation of DSMC Variable Soft Sphere collisions, with Borgnakke–Larsen (BL) energy exchange, is presented. The method cuts down considerably on the number of random collision parameters which must be calculated (deflection and azimuthal angles, and the BL energy exchange factors). A relatively short list of these parameters is generated and the parameters required in any cell are selected from this list. The list is regenerated at intervals approximately equal to the smallest mean collision time in the flow, and the chance of any particle re-using the same collision parameters in two successive collisions is negligible. The results using this method are indistinguishable from those obtained with standard DSMC. The CPU time saving depends on how much of a DSMC calculation is devoted to collisions and how much is devoted to other tasks, such as moving particles and calculating particle interactions with flow boundaries. For 1-dimensional calculations of flow in a tube, the new method saves 20% of the CPU time per collision for VSS scattering with no energy exchange. With RCL applied to rotational energy exchange, the CPU saving can be greater; for small values of the rotational collision number, for which most collisions involve some rotational energy exchange, the CPU may be reduced by 50% or more.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">DSMC collisions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">BL energy exchange</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Speed-up</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">1-8</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows</subfield>
+    <subfield code="p">Clarendon Oxford</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koura, K.</subfield>
+    <subfield code="h">Matsumoto, H.</subfield>
+    <subfield code="t">Variable soft-sphere molecular model for air species</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Fluids,A4,1083</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borgnakke, C.</subfield>
+    <subfield code="h">Larsen, P.S.</subfield>
+    <subfield code="t">Statistical collision model for Monte-Carlo simulation of polyatomic gas mixture</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,18,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Macrossan, M.N.</subfield>
+    <subfield code="t">Searching for a near-neighbor particle in DSMC cells using pseudo-subcells</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5857</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00125/S0021999116301528/S0021999116301528.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

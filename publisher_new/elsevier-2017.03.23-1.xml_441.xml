@@ -1,0 +1,705 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.036</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Du, Tao</subfield>
+    <subfield code="v">Department of Mathematics, Institute of Natural Sciences, MOE-LSC, Shanghai Jiao Tong University, Shanghai, China</subfield>
+    <subfield code="m">duty1998@sjtu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A fast algorithm for the simulation of arterial pulse waves</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">15</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">One-dimensional models have been widely used in studies of the propagation of blood pulse waves in large arterial trees. Under a periodic driving of the heartbeat, traditional numerical methods, such as the Lax–Wendroff method, are employed to obtain asymptotic periodic solutions at large times. However, these methods are severely constrained by the CFL condition due to large pulse wave speed. In this work, we develop a new numerical algorithm to overcome this constraint. First, we reformulate the model system of pulse wave propagation using a set of Riemann variables and derive a new form of boundary conditions at the inlet, the outlets, and the bifurcation points of the arterial tree. The new form of the boundary conditions enables us to design a convergent iterative method to enforce the boundary conditions. Then, after exchanging the spatial and temporal coordinates of the model system, we apply the Lax–Wendroff method in the exchanged coordinate system, which turns the large pulse wave speed from a liability to a benefit, to solve the wave equation in each artery of the model arterial system. Our numerical studies show that our new algorithm is stable and can perform ∼15 times faster than the traditional implementation of the Lax–Wendroff method under the requirement that the relative numerical error of blood pressure be smaller than one percent, which is much smaller than the modeling error.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Blood pulse wave</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Riemann variables</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lax–Wendroff method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Large wave speed</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fast algorithm</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hu, Dan</subfield>
+    <subfield code="v">Department of Mathematics, Institute of Natural Sciences, MOE-LSC, Shanghai Jiao Tong University, Shanghai, China</subfield>
+    <subfield code="m">hudan80@sjtu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Cai, David</subfield>
+    <subfield code="v">Department of Mathematics, Institute of Natural Sciences, MOE-LSC, Shanghai Jiao Tong University, Shanghai, China</subfield>
+    <subfield code="v">Courant Institute of Mathematical Sciences, Center for Neural Science, New York University, New York, USA</subfield>
+    <subfield code="v">NYUAD Institute, New York University Abu Dhabi, PO Box 129188, Abu Dhabi, United Arab Emirates</subfield>
+    <subfield code="m">cai@cims.nyu.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">450-464</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Porkert, M.</subfield>
+    <subfield code="t">The Essentials of Chinese Diagnostics</subfield>
+    <subfield code="p">Acta Medicinae Sinensis Zurich</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Conrad, L.I.</subfield>
+    <subfield code="t">The Western Medical Tradition: 800 BC to AD 1800, vol. 1</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1161/01.hyp.33.5.1111</subfield>
+    <subfield code="h">Blacher, J.</subfield>
+    <subfield code="h">Asmar, R.</subfield>
+    <subfield code="h">Djane, S.</subfield>
+    <subfield code="h">London, G.M.</subfield>
+    <subfield code="h">Safar, M.E.</subfield>
+    <subfield code="t">Aortic pulse wave velocity as a marker of cardiovascular risk in hypertensive patients</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Hypertension,33,1111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev-fluid-122109-160730</subfield>
+    <subfield code="h">van de Vosse, F.N.</subfield>
+    <subfield code="h">Stergiopulos, N.</subfield>
+    <subfield code="t">Pulse wave propagation in the arterial tree</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,43,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9290(92)90060-e</subfield>
+    <subfield code="h">Stergiopulos, N.</subfield>
+    <subfield code="h">Young, D.F.</subfield>
+    <subfield code="h">Rogge, T.R.</subfield>
+    <subfield code="t">Computer simulation of arterial flow with applications to arterial and aortic stenoses</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Biomech.,25,1477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9681(56)90158-8</subfield>
+    <subfield code="h">Lax, H.</subfield>
+    <subfield code="h">Feinberg, A.W.</subfield>
+    <subfield code="h">Cohen, B.M.</subfield>
+    <subfield code="t">Studies of the arterial pulse wave: I. The normal pulse wave and its modification in the presence of human arteriosclerosis</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1956</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Chronic.Dis.,3,618</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1161/01.hyp.33.6.1392</subfield>
+    <subfield code="h">McVeigh, G.E.</subfield>
+    <subfield code="h">Bratteli, C.W.</subfield>
+    <subfield code="h">Morgan, D.J.</subfield>
+    <subfield code="h">Alinder, C.M.</subfield>
+    <subfield code="h">Glasser, S.P.</subfield>
+    <subfield code="h">Finkelstein, S.M.</subfield>
+    <subfield code="h">Cohn, J.N.</subfield>
+    <subfield code="t">Age-related abnormalities in arterial compliance identified by pressure pulse contour analysis aging and arterial compliance</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Hypertension,33,1392</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1161/01.cir.20.6.1106</subfield>
+    <subfield code="h">Lax, H.</subfield>
+    <subfield code="h">Feinberg, A.W.</subfield>
+    <subfield code="h">Urban, W.</subfield>
+    <subfield code="t">Abnormalities of the arterial pulse wave in young diabetic subjects</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Circulation,20,1106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1201/b13568</subfield>
+    <subfield code="h">Nichols, W.</subfield>
+    <subfield code="h">O'Rourke, M.</subfield>
+    <subfield code="h">Vlachopoulos, C.</subfield>
+    <subfield code="t">McDonald's Blood flow in Arteries 6th Edition: Theoretical, Experimental and Clinical Principles</subfield>
+    <subfield code="p">CRC Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00125-007-0918-3</subfield>
+    <subfield code="h">Stehouwer, C.D.A.</subfield>
+    <subfield code="h">Henry, R.M.A.</subfield>
+    <subfield code="h">Ferreira, I.</subfield>
+    <subfield code="t">Arterial stiffness in diabetes and the metabolic syndrome: a pathway to cardiovascular disease</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Diabetologia,51,527</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1177/028418518802900308</subfield>
+    <subfield code="h">Christensen, T.</subfield>
+    <subfield code="h">Neubauer, B.</subfield>
+    <subfield code="t">Increased arterial wall stiffness and thickness in medium-sized arteries in patients with insulin-dependent diabetes mellitus</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Acta Radiologica,29,299</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shoji, T.</subfield>
+    <subfield code="h">Emoto, M.</subfield>
+    <subfield code="h">Shinohara, K.</subfield>
+    <subfield code="h">Kakiya, R.</subfield>
+    <subfield code="h">Tsujimoto, Y.</subfield>
+    <subfield code="h">Kishimoto, H.</subfield>
+    <subfield code="h">Ishimura, E.</subfield>
+    <subfield code="h">Tabata, T.</subfield>
+    <subfield code="h">Nishizawa, Y.</subfield>
+    <subfield code="t">Diabetes mellitus, aortic stiffness, and cardiovascular mortality in end-stage renal disease</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Am.Soc.Nephrol.,12,2117</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1161/01.hyp.26.1.2</subfield>
+    <subfield code="h">O'Rourke, M.</subfield>
+    <subfield code="t">Mechanical principles in arterial disease</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Hypertension,26,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9290(92)90248-y</subfield>
+    <subfield code="h">Johnson, G.A.</subfield>
+    <subfield code="h">Borovetz, H.S.</subfield>
+    <subfield code="h">Anderson, J.L.</subfield>
+    <subfield code="t">A model of pulsatile flow in uniform deformable vessel</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Biomech.,25,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10558-007-9031-y</subfield>
+    <subfield code="h">Azer, K.</subfield>
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">A one-dimensional model of blood flow in arteries with friction and convection based on the womersley velocity profile</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Cardiovascular Engineering,7,51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0025-5564(73)90027-8</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Lubliner, J.</subfield>
+    <subfield code="t">On the one-dimensional theory of blood flow in the larger vessels</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Math.Biosci.,18,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/s0006-3495(66)86690-0</subfield>
+    <subfield code="h">Barnard, A.C.L.</subfield>
+    <subfield code="h">Hunt, W.A.</subfield>
+    <subfield code="h">Timlake, W.P.</subfield>
+    <subfield code="h">Varley, E.</subfield>
+    <subfield code="t">A theory of fluid flow in compliant tubes</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Biophys.J.,6,717</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1152/ajpheart.00200.2006</subfield>
+    <subfield code="h">Huo, Y.</subfield>
+    <subfield code="h">Kassab, G.S.</subfield>
+    <subfield code="t">Pulsatile blood flow in the entire coronary arterial tree: theory and experiment</subfield>
+    <subfield code="v">291</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Am.J.Physiol., Heart Circ.Physiol.,291,H1074</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1152/ajpheart.00987.2006</subfield>
+    <subfield code="h">Huo, Y.</subfield>
+    <subfield code="h">Kassab, G.S.</subfield>
+    <subfield code="t">A hybrid one-dimensional/womersley model of pulsatile blood flow in the entire coronary arterial tree</subfield>
+    <subfield code="v">292</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Am.J.Physiol., Heart Circ.Physiol.,292,H2623</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/b:engi.0000007979.32871.e2</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="h">Franke, V.</subfield>
+    <subfield code="h">Peiró, J.</subfield>
+    <subfield code="h">Parker, K.</subfield>
+    <subfield code="t">One-dimensional modelling of a vascular network in space-time variables</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Eng.Math.,47,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2007.05.020</subfield>
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Parametric uncertainty analysis of pulse wave propagation in a model of a human arterial network</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alastruey, J.</subfield>
+    <subfield code="h">Parker, K.H.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Arterial pulse wave haemodynamics</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="e">Anderson,</subfield>
+    <subfield code="q">11th International Conference on Pressure Surges</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jbiomech.2007.05.027</subfield>
+    <subfield code="h">Matthys, K.S.</subfield>
+    <subfield code="h">Alastruey, J.</subfield>
+    <subfield code="h">Peiró, J.</subfield>
+    <subfield code="h">Khir, A.W.</subfield>
+    <subfield code="h">Segers, P.</subfield>
+    <subfield code="h">Verdonck, P.R.</subfield>
+    <subfield code="h">Parker, K.H.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Pulse wave propagation in a model human arterial network: assessment of 1-d numerical simulations against in vitro measurements</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Biomech.,40,3476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10255840290010670</subfield>
+    <subfield code="h">Wan, J.</subfield>
+    <subfield code="h">Steele, B.</subfield>
+    <subfield code="h">Spicer, S.A.</subfield>
+    <subfield code="h">Strohband, S.</subfield>
+    <subfield code="h">Feijóo, G.R.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Taylor, C.A.</subfield>
+    <subfield code="t">A one-dimensional finite element method for simulation-based medical planning for cardiovascular disease</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Biomech.Biomed.Eng.,5,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/tbme.2003.812201</subfield>
+    <subfield code="h">Steele, B.N.</subfield>
+    <subfield code="h">Wan, J.</subfield>
+    <subfield code="h">Ku, J.P.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Taylor, C.A.</subfield>
+    <subfield code="t">In vivo validation of a one-dimensional finite-element method for predicting blood flow in cardiovascular bypass grafts</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">IEEE Trans.Biomed.Eng.,50,649</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/cnm.1117</subfield>
+    <subfield code="h">Mynard, J.P.</subfield>
+    <subfield code="h">Nithiarasu, P.</subfield>
+    <subfield code="t">A 1d arterial blood flow model incorporating ventricular pressure, aortic valve and regional coronary flow using the locally conservative galerkin (LCG) method</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Commun.Numer.Methods Eng.,24,367</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/b:engi.0000007980.01347.29</subfield>
+    <subfield code="h">Formaggia, L.</subfield>
+    <subfield code="h">Lamponi, D.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">One-dimensional models for blood flow in arteries</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Eng.Math.,47,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.4005472</subfield>
+    <subfield code="h">Saito, M.</subfield>
+    <subfield code="h">Ikenaga, Y.</subfield>
+    <subfield code="h">Matsukawa, M.</subfield>
+    <subfield code="h">Watanabe, Y.</subfield>
+    <subfield code="h">Asada, T.</subfield>
+    <subfield code="h">Lagrée, P.-Y.</subfield>
+    <subfield code="t">One-dimensional model for propagation of a pressure wave in a model of the human arterial network: comparison of theoretical and experimental results</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Biomech.Eng.,133,121005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jbiomech.2009.01.010</subfield>
+    <subfield code="h">Liang, F.Y.</subfield>
+    <subfield code="h">Takagi, S.</subfield>
+    <subfield code="h">Himeno, R.</subfield>
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="t">Biomechanical characterization of ventricular–arterial coupling during aging: a multi-scale model study</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Biomech.,42,692</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/cnm.2711</subfield>
+    <subfield code="h">Eck, V.</subfield>
+    <subfield code="h">Feinberg, J.</subfield>
+    <subfield code="h">Langtangen, H.</subfield>
+    <subfield code="h">Hellevik, L.</subfield>
+    <subfield code="t">Stochastic sensitivity analysis for timing and amplitude of pressure waves in the arterial system</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1152/ajpheart.00175.2015</subfield>
+    <subfield code="h">Willemet, M.</subfield>
+    <subfield code="h">Chowienczyk, P.</subfield>
+    <subfield code="h">Alastruey, J.</subfield>
+    <subfield code="t">A database of virtual healthy subjects to assess the accuracy of foot-to-foot pulse wave velocities for estimation of aortic stiffness</subfield>
+    <subfield code="v">309</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Am.J.Physiol., Heart Circ.Physiol.,309,H663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richtmyer, R.D.</subfield>
+    <subfield code="t">A survey of difference methods for non-steady fluid dynamics</subfield>
+    <subfield code="p">National Center for Atmospheric Research</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1114/1.1326031</subfield>
+    <subfield code="h">Olufsen, M.S.</subfield>
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="h">Kim, W.Y.</subfield>
+    <subfield code="h">Pedersen, E.M.</subfield>
+    <subfield code="h">Nadim, A.</subfield>
+    <subfield code="h">Larsen, J.</subfield>
+    <subfield code="t">Numerical simulation and experimental validation of blood flow in arteries with structured-tree outflow conditions</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Ann.Biomed.Eng.,28,1281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/s0036139999355199</subfield>
+    <subfield code="h">Smith, N.P.</subfield>
+    <subfield code="h">Pullan, A.J.</subfield>
+    <subfield code="h">Hunter, P.J.</subfield>
+    <subfield code="t">An anatomically based model of transient coronary blood flow in the heart</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,62,990</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1142/s0219519411004666</subfield>
+    <subfield code="h">San, O.</subfield>
+    <subfield code="h">Staples, A.E.</subfield>
+    <subfield code="t">An improved model for reduced-order physiological fluid flows</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Mech.Med.Biol.,12,1250052</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Itu, L.M.</subfield>
+    <subfield code="h">Suciu, C.</subfield>
+    <subfield code="h">Postelnicu, A.</subfield>
+    <subfield code="h">Moldoveanu, F.</subfield>
+    <subfield code="t">Analysis of outflow boundary condition implementations for 1d blood flow models</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">E-Health and Bioengineering Conference (EHB)</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/icbbe.2009.5163145</subfield>
+    <subfield code="h">Nisam, P.R.</subfield>
+    <subfield code="h">Binu, L.S.</subfield>
+    <subfield code="h">Sukesh, A.K.</subfield>
+    <subfield code="t">One dimensional modeling and computation of blood flow and pressure of a stented artery</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="q">2009 3rd International Conference on Bioinformatics and Biomedical Engineering</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olufsen, M.S.</subfield>
+    <subfield code="t">Modeling the arterial system with reference to an anesthesia simulator</subfield>
+    <subfield code="p">Department of Mathematics, Roskilde University</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">Phd thesis</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/bf01448839</subfield>
+    <subfield code="h">Courant, R.</subfield>
+    <subfield code="h">Friedrichs, K.</subfield>
+    <subfield code="h">Lewy, H.</subfield>
+    <subfield code="t">Über die partiellen differenzengleichungen der mathematischen physik</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1928</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Math.Ann.,100,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10255842.2014.948428</subfield>
+    <subfield code="h">Wang, X.</subfield>
+    <subfield code="h">Fullana, J.-M.</subfield>
+    <subfield code="h">Lagrée, P.-Y.</subfield>
+    <subfield code="t">Verification and comparison of four numerical schemes for a 1d viscoelastic blood flow model</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Methods Biomech.Biomed.Eng.,18,1704</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ijheatmasstransfer.2003.10.041</subfield>
+    <subfield code="h">He, Y.</subfield>
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="h">Himeno, R.</subfield>
+    <subfield code="t">A one-dimensional thermo-fluid model of blood circulation in the human upper limb</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,47,2735</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rudinger, G.</subfield>
+    <subfield code="t">Reviews of current mathematical methods for the analysis of blood flow</subfield>
+    <subfield code="p">Denver, Colorado: ASME</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="q">Biomedical Fluid Mechanics Symposium</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/bf02441569</subfield>
+    <subfield code="h">Taylor, L.A.</subfield>
+    <subfield code="h">Gerrard, J.H.</subfield>
+    <subfield code="t">Pressure-radius relationships for elastic tubes and their application to arteries: part 1-theoretical relationships</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Med.Biol.Eng.,15,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olufsen, M.S.</subfield>
+    <subfield code="t">Structured tree outflow condition for blood flow in larger systemic arteries</subfield>
+    <subfield code="v">276</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Am.J.Physiol., Heart Circ.Physiol.,276,H257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1113/jphysiol.1955.sp005276</subfield>
+    <subfield code="h">Womersley, J.R.</subfield>
+    <subfield code="t">Method for the calculation of velocity, rate of flow and viscous drag in arteries when the pressure gradient is known</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1955</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Physiol.,127,553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-1-4419-6363-5</subfield>
+    <subfield code="h">Westerhof, N.</subfield>
+    <subfield code="h">Stergiopulos, N.</subfield>
+    <subfield code="h">Noble, M.I.M.</subfield>
+    <subfield code="t">Snapshots of Hemodynamics: An Aid for Clinical Research and Graduate Education</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oka, S.</subfield>
+    <subfield code="h">Nakai, M.</subfield>
+    <subfield code="t">Optimality principle in vascular bifurcation</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Biorheology,24,737</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1159/000046485</subfield>
+    <subfield code="h">Podesser, B.K.</subfield>
+    <subfield code="h">Neumann, F.</subfield>
+    <subfield code="h">Neumann, M.</subfield>
+    <subfield code="h">Schreiner, W.</subfield>
+    <subfield code="h">Wollenek, G.</subfield>
+    <subfield code="h">Mallinger, R.</subfield>
+    <subfield code="t">Outer radius-wall thickness ratio, a postmortem quantitative histology in human coronary arteries</subfield>
+    <subfield code="v">163</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Acta Anat.,163,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mirzaee, M.R.</subfield>
+    <subfield code="h">Ghasemalizadeh, O.</subfield>
+    <subfield code="h">Firoozabadi, B.</subfield>
+    <subfield code="t">Simulating of human cardiovascular system and blood vessel obstruction using lumped method</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">World Acad.Sci., Eng.Technol.,41,366</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jbiomech.2003.09.007</subfield>
+    <subfield code="h">Wang, J.J.</subfield>
+    <subfield code="h">Parker, K.H.</subfield>
+    <subfield code="t">Wave propagation in a model of the arterial circulation</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Biomech.,37,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gow, B.S.</subfield>
+    <subfield code="t">An electrical caliper for measurement of pulsatile arterial diameter changes in vivo</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Appl.Physiol.,21,1122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-1-4613-8634-6_4</subfield>
+    <subfield code="h">Nichols, W.W.</subfield>
+    <subfield code="h">O'Rourke, M.F.</subfield>
+    <subfield code="h">Avolio, A.P.</subfield>
+    <subfield code="h">Yaginuma, T.</subfield>
+    <subfield code="h">Murgo, J.P.</subfield>
+    <subfield code="h">Pepine, C.J.</subfield>
+    <subfield code="h">Conti, C.R.</subfield>
+    <subfield code="t">Age-related changes in left ventricular/arterial coupling</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="q">Ventricular/Vascular Coupling</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1371/journal.pone.0128597</subfield>
+    <subfield code="h">Du, T.</subfield>
+    <subfield code="h">Hu, D.</subfield>
+    <subfield code="h">Cai, D.</subfield>
+    <subfield code="t">Outflow boundary conditions for blood flow in arterial trees</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">PLoS One,10,e0128597</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/cic.1995.482563</subfield>
+    <subfield code="h">Van der Geest, R.J.</subfield>
+    <subfield code="h">Buller, V.G.M.</subfield>
+    <subfield code="h">Reiber, J.H.C.</subfield>
+    <subfield code="t">Automated quantification of flow velocity and volume in the ascending and descending aorta using flow velocity mapping</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="q">Computers in Cardiology 1995</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/tbme.2008.2003093</subfield>
+    <subfield code="h">Valdez-Jasso, D.</subfield>
+    <subfield code="h">Haider, M.</subfield>
+    <subfield code="h">Banks, H.</subfield>
+    <subfield code="h">Santana, D.B.</subfield>
+    <subfield code="h">Germán, Y.Z.</subfield>
+    <subfield code="h">Armentano, R.L.</subfield>
+    <subfield code="h">Olufsen, M.S.</subfield>
+    <subfield code="t">Analysis of viscoelastic wall properties in ovine arteries</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">IEEE Trans.Biomed.Eng.,56,210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.4004532</subfield>
+    <subfield code="h">Raghu, R.</subfield>
+    <subfield code="h">Vignon-Clementel, I.E.</subfield>
+    <subfield code="h">Figueroa, C.A.</subfield>
+    <subfield code="h">Taylor, C.A.</subfield>
+    <subfield code="t">Comparative study of viscoelastic arterial wall models in nonlinear one-dimensional finite element simulations of blood flow</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Biomech.Eng.,133,081003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9290(75)90030-5</subfield>
+    <subfield code="h">Saito, G.E.</subfield>
+    <subfield code="h">Vander Werff, T.J.</subfield>
+    <subfield code="t">The importance of viscoelasticity in arterial blood flow models</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Biomech.,8,237</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00071/S0021999116001881/S0021999116001881.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

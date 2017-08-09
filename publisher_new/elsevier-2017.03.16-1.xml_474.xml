@@ -1,0 +1,332 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.004</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Veeraragavan, A.</subfield>
+    <subfield code="j">ORCID:0000-0001-6810-2204</subfield>
+    <subfield code="v">The University of Queensland, School of Mechanical and Mining Engineering, St. Lucia, Brisbane, QLD 4072, Australia</subfield>
+    <subfield code="m">anandv@uq.edu.au</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Use of the method of manufactured solutions for the verification of conjugate heat transfer solvers</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">13</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper demonstrates the use of the method of manufactured solutions to verify the implementation of tightly coupled conjugate heat transfer for fluid–solid solvers. The interface conditions in the prescribed manufactured solutions were implemented to mimic real effects such as no-slip, and temperature/heat flux match between the solid and fluid domains. The newly developed solid heat transfer solver was verified in standalone mode using this prescribed manufactured solution and was found to have no apparent coding errors. Our pre-existing in-house compressible fluid solver (Eilmer) was used to demonstrate the conjugate heat transfer implementation. Both the fluid and solid solvers showed an expected spatial order of convergence of 2.0 in the standalone mode. The coupled conjugate heat transfer mode also showed no coding errors and demonstrated that the spatial order of convergence was again 2.0. The one-sided spatial discretisation utilised to enforce the tight coupling for the interface conditions were effectively equivalent to a central difference. Hence, the overall spatial order of the error convergence for the entire domain, including the interface, was 2.0. The method prescribed in this work can be extended for verification of other conjugate heat transfer solvers, in particular for compressible flow scenarios where analytical solutions may not be readily available.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conjugate heat transfer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Method of manufactured solutions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical verification</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Beri, J.</subfield>
+    <subfield code="v">The University of Queensland, School of Mechanical and Mining Engineering, St. Lucia, Brisbane, QLD 4072, Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gollan, R.J.</subfield>
+    <subfield code="v">The University of Queensland, School of Mechanical and Mining Engineering, St. Lucia, Brisbane, QLD 4072, Australia</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">308-320</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fiebig, M.</subfield>
+    <subfield code="h">Grosse-Gorgemann, A.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Mitra, N.K.</subfield>
+    <subfield code="t">Conjugate heat transfer of a finned tube Part A: heat transfer behavior and occurrence of heat transfer reversal</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Numer.Heat Transf., Part A, Appl.,28,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fedorov, A.G.</subfield>
+    <subfield code="h">Viskanta, R.</subfield>
+    <subfield code="t">Three-dimensional conjugate heat transfer in the microchannel heat sink for electronic packaging</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,43,399</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kassab, A.</subfield>
+    <subfield code="h">Divo, E.</subfield>
+    <subfield code="h">Heidmann, J.</subfield>
+    <subfield code="h">Steinthorsson, E.</subfield>
+    <subfield code="h">Rodriguez, F.</subfield>
+    <subfield code="t">BEM/FVM conjugate heat transfer analysis of a three-dimensional film cooled turbine blade</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Numer.Methods Heat Fluid Flow,13,581</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kaisare, N.S.</subfield>
+    <subfield code="h">Vlachos, D.G.</subfield>
+    <subfield code="t">A review on microcombustion: fundamentals, devices and applications</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,38,321</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, X.</subfield>
+    <subfield code="h">Veeraragavan, A.</subfield>
+    <subfield code="t">Experimental investigation of flame stability limits of a mesoscale combustor with thermally orthotropic walls</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Appl.Therm.Eng.,85,234</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veeraragavan, A.</subfield>
+    <subfield code="t">On flame propagation in narrow channels with enhanced wall thermal conduction</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Energy,93,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nagendra, K.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="h">Viswanath, K.</subfield>
+    <subfield code="t">A new approach for conjugate heat transfer problems using immersed boundary method for curvilinear grid based solvers</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,267,225</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qu, W.</subfield>
+    <subfield code="h">Mudawar, I.</subfield>
+    <subfield code="t">Analysis of three-dimensional heat transfer in micro-channel heat sinks</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,45,3973</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steinberg, S.</subfield>
+    <subfield code="h">Roache, P.J.</subfield>
+    <subfield code="t">Symbolic manipulation and computational fluid dynamics</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,57,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="t">Review of code and solution verification procedures for computational simulation</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,205,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Oberkampf, W.L.</subfield>
+    <subfield code="t">A comprehensive framework for verification, validation, and uncertainty quantification in scientific computing</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,2131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veluri, S.P.</subfield>
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Luke, E.A.</subfield>
+    <subfield code="t">Comprehensive code verification techniques for finite volume CFD codes</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Fluids,70,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shunn, L.</subfield>
+    <subfield code="h">Ham, F.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Verification of variable-density flow solvers using manufactured solutions</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3801</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lindström, J.</subfield>
+    <subfield code="h">Nordström, J.</subfield>
+    <subfield code="t">A stable and high-order accurate conjugate heat transfer problem</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duchaine, F.</subfield>
+    <subfield code="h">Corpron, A.</subfield>
+    <subfield code="h">Pons, L.</subfield>
+    <subfield code="h">Moureau, V.</subfield>
+    <subfield code="h">Nicoud, F.</subfield>
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="t">Development and assessment of a coupled strategy for conjugate heat transfer with large eddy simulation: application to a cooled turbine blade</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,30,1129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gollan, R.J.</subfield>
+    <subfield code="h">Jacobs, P.A.</subfield>
+    <subfield code="t">About the formulation, verification and validation of the hypersonic flow solver Eilmer</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,73,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jacobs, P.</subfield>
+    <subfield code="h">Gollan, R.</subfield>
+    <subfield code="h">Potter, D.</subfield>
+    <subfield code="t">The compressible flow CFD project</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Eilmer page</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, X.</subfield>
+    <subfield code="h">Gollan, R.</subfield>
+    <subfield code="h">Jacobs, P.</subfield>
+    <subfield code="h">Veeraragavan, A.</subfield>
+    <subfield code="t">Numerical simulations of premixed combustion in narrow channels</subfield>
+    <subfield code="p">19th Australasian Fluid Mechanics Conference, Melbourne, Australia, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schäfer, M.</subfield>
+    <subfield code="t">Computational Engineering Introduction to Numerical Methods</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nance, D.V.</subfield>
+    <subfield code="t">Finite volume algorithms for heat conduction</subfield>
+    <subfield code="p">Airforce Research Laboratory Munitions Directorate AFRL/RWPC</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Tech. Rep. AFRL-RW-EG-TR-2010-049</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrero, P.</subfield>
+    <subfield code="h">D'Ambrosio, D.</subfield>
+    <subfield code="t">A numerical method for conjugate heat transfer problems in hypersonic flows</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">no. AIAA 220-4247</subfield>
+    <subfield code="q">40th AIAA Thermophysics Conference</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kazemi-Kamyab, V.</subfield>
+    <subfield code="h">van Zuijlen, A.</subfield>
+    <subfield code="h">Bijl, H.</subfield>
+    <subfield code="t">Analysis and application of high order implicit Runge–Kutta schemes for unsteady conjugate heat transfer: a strongly-coupled approach</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,272,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henshaw, W.D.</subfield>
+    <subfield code="h">Chand, K.K.</subfield>
+    <subfield code="t">A composite grid solver for conjugate heat transfer in fluid–structure systems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Domino, S.</subfield>
+    <subfield code="h">Wagner, G.</subfield>
+    <subfield code="h">Luketa-Hanlin, A.</subfield>
+    <subfield code="h">Black, A.</subfield>
+    <subfield code="h">Sutherland, J.</subfield>
+    <subfield code="t">Verification for multi-mechanics applications</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">no. AIAA 2007-1933</subfield>
+    <subfield code="q">48th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Nelson, C.C.</subfield>
+    <subfield code="h">Smith, T.M.</subfield>
+    <subfield code="h">Ober, C.C.</subfield>
+    <subfield code="t">Verification of Euler/Navier–Stokes codes using the method of manufactured solutions</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,44,599</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veeraragavan, A.</subfield>
+    <subfield code="h">Dellimore, K.</subfield>
+    <subfield code="h">Cadou, C.P.</subfield>
+    <subfield code="t">Two-dimensional analytical model of heat transfer for flames in channels</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Thermophys.Heat Transf.,23,551</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veeraragavan, A.</subfield>
+    <subfield code="h">Cadou, C.</subfield>
+    <subfield code="t">Theoretical study of conjugate heat transfer effects on temperature profiles in parallel flow with embedded heat sources</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,53,1699</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">SymPy: Python library for symbolic mathematics</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00246/S0021999115008190/S0021999115008190.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

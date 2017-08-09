@@ -1,0 +1,549 @@
+<record>
+  <controlfield tag="001">1416731</controlfield>
+  <controlfield tag="005">20160802162002.0</controlfield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="2">DOI</subfield>
+    <subfield code="9">IEEE</subfield>
+    <subfield code="a">10.1109/TNS.2015.2426216</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">INSPIRETeX</subfield>
+    <subfield code="a">Bawej:2015tmz</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">DESY</subfield>
+    <subfield code="z">DA16-kp04bf</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">CDS</subfield>
+    <subfield code="a">1711011</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Bawej, Tomasz</subfield>
+    <subfield code="u">CERN</subfield>
+    <subfield code="v">CERN, Geneva, Switzerland</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The New CMS DAQ System for Run-2 of the LHC</subfield>
+  </datafield>
+  <datafield tag="246" ind1=" " ind2=" ">
+    <subfield code="a">The New CMS DAQ System for Run-2 of the LHC</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">5</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="9">IEEE</subfield>
+    <subfield code="a">The data acquisition (DAQ) system of the CMS experiment at the CERN Large Hadron Collider assembles events at a rate of 100 kHz, transporting event data at an aggregate throughput of 100 GB/s to the high level trigger (HLT) farm. The HLT farm selects interesting events for storage and offline analysis at a rate of around 1 kHz. The DAQ system has been redesigned during the accelerator shutdown in 2013/14. The motivation is twofold: Firstly, the current compute nodes, networking, and storage infrastructure will have reached the end of their lifetime by the time the LHC restarts. Secondly, in order to handle higher LHC luminosities and event pileup, a number of sub-detectors will be upgraded, increasing the number of readout channels and replacing the off-detector readout electronics with a μTCA implementation. The new DAQ architecture will take advantage of the latest developments in the computing industry. For data concentration, 10/40 Gb/s Ethernet technologies will be used, as well as an implementation of a reduced TCP/IP in FPGA for a reliable transport between custom electronics and commercial computing hardware. A Clos network based on 56 Gb/s FDR Infiniband has been chosen for the event builder with a throughput of ~ 4 Tb/s. The HLT processing is entirely file based. This allows the DAQ and HLT systems to be independent, and to use the HLT software in the same way as for the offline processing. The fully built events are sent to the HLT with 1/10/40 Gb/s Ethernet via network file systems. Hierarchical collection of HLT accepted events and monitoring meta-data are stored into a global file system. This paper presents the requirements, technical choices, and performance of the new system.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="a">IEEE</subfield>
+    <subfield code="c">batchupload</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="9">CERN</subfield>
+    <subfield code="a">CDS-1711011</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="a">L</subfield>
+    <subfield code="d">2016-01-28</subfield>
+    <subfield code="s">abs</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="a">L</subfield>
+    <subfield code="d">2016-01-31</subfield>
+    <subfield code="s">printed</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="d">2016-02-08</subfield>
+    <subfield code="a">L</subfield>
+    <subfield code="s">final</subfield>
+    <subfield code="a">L</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">Instrumentation</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">data acquisition</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">field programmable gate arrays</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">high energy physics instrumentation computing</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">local area networks</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">readout electronics</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">CERN Large Hadron Collider</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">CMS DAQ system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">CMS experiment</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Clos network based-FDR Infiniband</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Ethernet technology</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">FPGA</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">HLT farm</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">LHC</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Run-2</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">computing industry</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">frequency 100 kHz</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">global file system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">high level trigger farm</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">higher LHC luminosities</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">network file system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">off-detector readout electronics</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">offline analysis</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">readout channels</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">reduced TCP/IP</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">storage analysis</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Bandwidth</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Data acquisition</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Field programmable gate arrays</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">IP networks</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Large Hadron Collider</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Switches</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Throughput</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">high energy physics;</subfield>
+  </datafield>
+  <datafield tag="693" ind1=" " ind2=" ">
+    <subfield code="e">CERN-LHC-CMS</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">activity report</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">electronics: readout</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">data acquisition</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">computer: network</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">CMS</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">trigger</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">computer: communications</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">programming</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Behrens, Ulf</subfield>
+    <subfield code="u">DESY</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Branson, James</subfield>
+    <subfield code="u">UC, San Diego</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chaze, Olivier</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Cittolin, Sergio</subfield>
+    <subfield code="u">UC, San Diego</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Darlea, Georgiana-Lavinia</subfield>
+    <subfield code="u">MIT</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Deldicque, Christian</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dobson, Marc</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dupont, Aymeric</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Erhan, Samim</subfield>
+    <subfield code="u">UCLA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Forrest, Andrew</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gigi, Dominique</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Glege, Frank</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gomez-Ceballos, Guillelmo</subfield>
+    <subfield code="u">MIT</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gomez-Reino, Robert</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hegeman, Jeroen</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Holzner, Andre</subfield>
+    <subfield code="u">UC, San Diego</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Masetti, Lorenzo</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Meijers, Frans</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Meschi, Emilio</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mommsen, Remigius K.</subfield>
+    <subfield code="u">Fermilab</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Morovic, Srecko</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nunez-Barranco-Fernandez, Carlos</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">O'Dell, Vivian</subfield>
+    <subfield code="u">Fermilab</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Orsini, Luciano</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Paus, Christoph</subfield>
+    <subfield code="u">MIT</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Petrucci, Andrea</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pieri, Marco</subfield>
+    <subfield code="u">UC, San Diego</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Racz, Attila</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sakulin, Hannes</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schwick, Christoph</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Stieger, Benjamin</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sumorok, Konstanty</subfield>
+    <subfield code="u">MIT</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Veverka, Jan</subfield>
+    <subfield code="u">MIT</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zejdl, Petr</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="c">1099-1103</subfield>
+    <subfield code="n">3</subfield>
+    <subfield code="p">IEEE Trans.Nucl.Sci.</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="w">C14-05-26.2</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:inspirehep.net:1416731</subfield>
+    <subfield code="p">INSPIRE:HEP</subfield>
+    <subfield code="p">CDS</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">CORE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">ConferencePaper</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-0-1-0-0</subfield>
+    <subfield code="t">2016-02-09 14:18:23</subfield>
+    <subfield code="v">Invenio/1.1.2.1260-aa76f refextract/1.5.44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">390839</subfield>
+    <subfield code="c">CMS Collaboration</subfield>
+    <subfield code="m">The Compact Muon Solenoid Technical Proposal. Geneva, Switzerland: CERN</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="r">CERN-LHCC-94-38</subfield>
+    <subfield code="y">1994</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="c">CMS Collaboration</subfield>
+    <subfield code="h">R. Adolphi et al.</subfield>
+    <subfield code="m">: Art.IDS08004</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">JINST,3,S08004</subfield>
+    <subfield code="t">The CMS experiment at CERNLHC</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">541210</subfield>
+    <subfield code="c">CMS Collaboration</subfield>
+    <subfield code="m">CMS The TriDAS Project: Technical Design Report, Volume 1: The Trigger Systems. Geneva, Switzerland: CERN</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="r">CERN-LHCC-2000-038</subfield>
+    <subfield code="y">2000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">609493</subfield>
+    <subfield code="c">CMS Collaboration</subfield>
+    <subfield code="m">The TriDAS Project, Technical Design Report, Volume 2: Data Acquisition and High-Level Trigger. Geneva, Switzerland: CERN</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="r">CERN-LHCC-2002-026</subfield>
+    <subfield code="y">2002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">G. Bauer et al.</subfield>
+    <subfield code="m">Art. ID 012031</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,513,012031</subfield>
+    <subfield code="t">Automating the CMS DAQ</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A.Racz,R.McLaren</subfield>
+    <subfield code="m">andE.vanderBij CERN,[Online]. Available:</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="t">The S-Link64bit extension specification: S-LINK64</subfield>
+    <subfield code="u">http://hsi.web.cern.ch/HSI/s-link/spec/</subfield>
+    <subfield code="y">2003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Racz</subfield>
+    <subfield code="m">presented at the xTCA Interest Group Meeting, TWEPP, Perugia, Italy, Sep.[Online]. Available:</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="t">New CMS DAQ link development</subfield>
+    <subfield code="u">http://indico.cern.ch/event/228972/session/23/contribution/234</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">G.Bauer et al.</subfield>
+    <subfield code="m">Atr. ID C12039</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">JINST,8,C12039</subfield>
+    <subfield code="t">10GbpsTCP/IP streamsfromtheFPGA fortheCMS DAQ event builder network</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">E. Hazen et al.</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">JINST,8,C12036</subfield>
+    <subfield code="t">The AMC13XG: A new generation clock/ timing/DAQ module for CMS MicroTCA</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">G. Bauer et al.</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,513,012042</subfield>
+    <subfield code="t">10 Gbps TCP/IP streams from the FPGA for high energyphysics</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. E. Leiserson</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">IEEE Trans.Comput.,C34,892-901</subfield>
+    <subfield code="t">Fat-trees: Uni versal networks for hardware-efficient supercomputing</subfield>
+    <subfield code="y">1985</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Bawej et al.</subfield>
+    <subfield code="m">IEEE Trans. Nucl. Sci.,, submitted for publication</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="t">Achieving high performance with TCP over 40GbE on NUMA architectures for CMS data acquisition</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.Clos</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Bell Syst.Tech.J.,32,406-424</subfield>
+    <subfield code="t">Astudyofnon-blockingswitchingnetworks</subfield>
+    <subfield code="y">1953</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">1360131</subfield>
+    <subfield code="h">T.Bawej et al.</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">PoS,TIPP2014,190</subfield>
+    <subfield code="t">Boostingeventbuildingperformanceusinginfiniband FDR for CMS upgrade</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Culley, D. Garcia, J. Hilland, B. Metzler, and R. Recio</subfield>
+    <subfield code="m">IETF RFC-5040,[Online]. Available :</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="t">A remote direct memory access proto col specification</subfield>
+    <subfield code="u">http://www.ietf.org/rfc/rfc5040.txt</subfield>
+    <subfield code="y">2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.D.Jones et al.</subfield>
+    <subfield code="m">in Proc. CHEP’06 Conf</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="t">ThenewCMSdatamodelandframework</subfield>
+    <subfield code="y">2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">G. Bauer et al.</subfield>
+    <subfield code="m">Art. ID 022011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,219,022011</subfield>
+    <subfield code="t">The CMS data acquisition system software</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="h">G. Bauer et al.</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,513,012025</subfield>
+    <subfield code="t">Prototype of a file-based high-level trigger in CMS</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">The Lustre filesystem, [Online]. Available:</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="u">http://www.lustre.or</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,498 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.019</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Moura, R.C.</subfield>
+    <subfield code="j">ORCID:0000-0002-8565-6468</subfield>
+    <subfield code="v">ITA, Instituto Tecnológico de Aeronáutica, São José dos Campos, SP, Brazil</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Lyapunov exponents and adaptive mesh refinement for high-speed flows using a discontinuous Galerkin scheme</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper proposes two important improvements to shock-capturing strategies using a discontinuous Galerkin scheme, namely, accurate shock identification via finite-time Lyapunov exponent (FTLE) operators and efficient shock treatment through a point-implicit discretization of a PDE-based artificial viscosity technique. The advocated approach is based on the FTLE operator, originally developed in the context of dynamical systems theory to identify certain types of coherent structures in a flow. We propose the application of FTLEs in the detection of shock waves and demonstrate the operator's ability to identify strong and weak shocks equally well. The detection algorithm is coupled with a mesh refinement procedure and applied to transonic and supersonic flows. While the proposed strategy can be used potentially with any numerical method, a high-order discontinuous Galerkin solver is used in this study. In this context, two artificial viscosity approaches are employed to regularize the solution near shocks: an element-wise constant viscosity technique and a PDE-based smooth viscosity model. As the latter approach is more sophisticated and preferable for complex problems, a point-implicit discretization in time is proposed to reduce the extra stiffness introduced by the PDE-based technique, making it more competitive in terms of computational cost.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-speed flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite-time Lyapunov exponent</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Silva, A.F.C.</subfield>
+    <subfield code="j">ORCID:0000-0002-8125-6010</subfield>
+    <subfield code="v">ITA, Instituto Tecnológico de Aeronáutica, São José dos Campos, SP, Brazil</subfield>
+    <subfield code="m">andref@ita.br</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bigarella, E.D.V.</subfield>
+    <subfield code="v">EMBRAER, Commercial Aviation, São José dos Campos, SP, Brazil</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fazenda, A.L.</subfield>
+    <subfield code="j">ORCID:0000-0002-4052-1113</subfield>
+    <subfield code="v">UNIFESP, Universidade Federal do Estado de São Paulo, São José dos Campos, SP, Brazil</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ortega, M.A.</subfield>
+    <subfield code="v">ITA, Instituto Tecnológico de Aeronáutica, São José dos Campos, SP, Brazil</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">9-27</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rheinboldt, W.C.</subfield>
+    <subfield code="t">On a theory of mesh-refinement processes</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,17,766</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="h">Oliver, J.</subfield>
+    <subfield code="t">Adaptive mesh refinement for hyperbolic partial differential equations</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,53,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Local adaptive mesh refinement for shock hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,82,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arney, D.C.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="t">An adaptive local mesh refinement method for time-dependent partial differential equations</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Appl.Numer.Math.,5,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ripley, R.C.</subfield>
+    <subfield code="h">Lien, F.-S.</subfield>
+    <subfield code="h">Yovanovich, M.M.</subfield>
+    <subfield code="t">Adaptive unstructured mesh refinement of supersonic channel flows</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,18,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shadden, S.</subfield>
+    <subfield code="h">Lekien, F.</subfield>
+    <subfield code="h">Marsden, J.</subfield>
+    <subfield code="t">Definition and properties of Lagrangian coherent structures from finite-time Lyapunov exponents in two-dimensional aperiodic flows</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Physica,D212,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moura, R.C.</subfield>
+    <subfield code="t">A high-order unstructured discontinuous Galerkin finite element method for aerodynamics</subfield>
+    <subfield code="p">Division of Aeronautical Engineering, Technological Institute of Aeronautics Brazil</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Dissertation (MSc)</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Silveira, A.S.</subfield>
+    <subfield code="h">Moura, R.C.</subfield>
+    <subfield code="h">Silva, A.F.C.</subfield>
+    <subfield code="h">Ortega, M.A.</subfield>
+    <subfield code="t">Higher-order surface treatment for discontinuous Galerkin methods with applications to aerodynamics</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,79,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.O. Persson, J. Peraire</subfield>
+    <subfield code="m">Sub-cell shock capturing for discontinuous Galerkin methods, in: Proc. 44th AIAA Aero. Sci, Meet Reno, Nevada</subfield>
+    <subfield code="s">AIAA Paper,2006,112</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G.E. Barter, D.L. Darmofal</subfield>
+    <subfield code="m">Shock capturing with higher-order, PDE-based artificial viscosity, in: Proc. 18th AIAA CFD Conf Miami, Florida</subfield>
+    <subfield code="s">AIAA Paper,2007,3823</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barter, G.E.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Shock capturing with PDE-based artificial viscosity for DGFEM: Part I. Formulation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1810</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="t">Limiters for high-order discontinuous Galerkin methods</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,226,879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kusmin, D.</subfield>
+    <subfield code="t">A vertex-based hierarchical slope limiter for p-adaptive discontinuous Galerkin methods</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,233,3077</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meister, A.</subfield>
+    <subfield code="h">Ortleb, S.</subfield>
+    <subfield code="h">Sonar, T.</subfield>
+    <subfield code="t">Application of spectral filtering to discontinuous Galerkin methods on triangulations</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,28,1840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">A simple weighted essentially nonoscillatory limiter for Runge–Kutta discontinuous Galerkin methods</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,232,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Facilitating the adoption of unstructured high-order methods amongst a wider community of fluid dynamicists</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Math.Model.Nat.Phenom.,6,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Sherwin, S.</subfield>
+    <subfield code="t">Spectral/hp Element Methods for Computational Fluid Dynamics</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics – A Practical Introduction</subfield>
+    <subfield code="p">Springer Verlag Berlin</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Approximate Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="h">Lowrie, R.B.</subfield>
+    <subfield code="t">The use of classical Lax–Friedrichs Riemann solvers with discontinuous Galerkin methods</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,40,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,131,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="h">Mariotti, G.</subfield>
+    <subfield code="h">Pedinotti, S.</subfield>
+    <subfield code="h">Savini, M.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for inviscid and viscous turbomachinery flows</subfield>
+    <subfield code="p">Antwerpen, Belgium: Technologisch Instituut</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">Proc. 2nd Eur. Conf. Turbomach. Fl. Dyn. Thermodyn.</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Manzini, G.</subfield>
+    <subfield code="h">Marini, L.D.</subfield>
+    <subfield code="h">Pietra, P.</subfield>
+    <subfield code="h">Russo, A.</subfield>
+    <subfield code="t">Discontinuous Galerkin approximations for elliptic problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,16,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huerta, A.</subfield>
+    <subfield code="h">Casoni, E.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">A simple shock-capturing technique for high-order discontinuous Galerkin methods</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,69,1614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barter, G.E.</subfield>
+    <subfield code="t">Shock capturing with PDE-based artificial viscosity for an adaptive, higher-order discontinuous Galerkin finite element method</subfield>
+    <subfield code="p">Department of Aeronautics and Astronautics, Massachusetts Institute of Technology Cambridge, USA</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thareja, R.R.</subfield>
+    <subfield code="h">Stewart, J.R.</subfield>
+    <subfield code="h">Hassan, O.</subfield>
+    <subfield code="h">Morgan, K.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">A point implicit unstructured grid solver for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,9,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O. Peroomian, S. Chakravarthy, S. Palaniswamy, U. Goldberg</subfield>
+    <subfield code="m">Convergence acceleration for unified-grid formulation using preconditioned implicit relaxation, in: Proc. 36th AIAA Aero. Sci, Meet Reno, Nevada</subfield>
+    <subfield code="s">AIAA Paper,116,12-14</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franco, E.</subfield>
+    <subfield code="h">Pekarek, D.</subfield>
+    <subfield code="h">Peng, J.</subfield>
+    <subfield code="h">Dabiri, J.O.</subfield>
+    <subfield code="t">Geometry of unsteady fluid transport during fluid-structure interactions</subfield>
+    <subfield code="v">589</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Fluid Mech.,589,125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B.M. Cardwell, K. Mohseni, A Lagrangian</subfield>
+    <subfield code="m">view of vortex shedding and reattachment behavior in the wake of a 2D airfoil, in: Proc. 37th AIAA Fl. Dyn. Conf Miami, Florida</subfield>
+    <subfield code="s">AIAA Paper,2007,4231</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salman, H.</subfield>
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="h">Haller, G.</subfield>
+    <subfield code="t">Predicting transport by Lagrangian coherent structures with a high-order method</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,21,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haller, G.</subfield>
+    <subfield code="t">Distinghished material surfaces and coherent structures in three-dimensional fluid flow</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Physica,D149,248</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Padberg, K.</subfield>
+    <subfield code="h">Hauff, T.</subfield>
+    <subfield code="h">Jenko, F.</subfield>
+    <subfield code="h">Junge, O.</subfield>
+    <subfield code="t">Lagrangian structures and transport in turbulent magnetized plasmas</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">New J.Phys.,9,400</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhagatwala, A.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">A modified artificial viscosity approach for compressible turbulence simulations</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,14,4965</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Premasuthan, C. Liang, A. Jameson</subfield>
+    <subfield code="m">Computation of flows with shocks using spectral difference scheme with artificial viscosity, in: Proc. 48th AIAA Aero. Sci, Meet Orlando, Florida</subfield>
+    <subfield code="s">AIAA Paper,2010,1449</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moro, D.</subfield>
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">Dilation-based shock capturing for high-order methods</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,1,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="t">A simple mesh generator in Matlab</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM Rev.,46,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Persson, P.O.</subfield>
+    <subfield code="t">Mesh generation for implicit geometries</subfield>
+    <subfield code="p">Department of Mathematics, Massachusetts Institute of Technology Cambridge, USA</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toulorge, T.</subfield>
+    <subfield code="h">Desmet, W.</subfield>
+    <subfield code="t">CFL conditions for Runge–Kutta discontinuous Galerkin methods on triangular grids</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4657</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gassner, G.J.</subfield>
+    <subfield code="h">Hindenlang, F.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">A Runge–Kutta based discontinuous Galerkin method with time accurate local time stepping</subfield>
+    <subfield code="v">vol. 2</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Advances in Computational Fluid Dynamics,vol. 2,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, J.D.</subfield>
+    <subfield code="t">Modern Compressible Flow: With Historical Perspective</subfield>
+    <subfield code="p">McGraw–Hill New York</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pandolfi, M.</subfield>
+    <subfield code="h">D'Ambrosio, D.</subfield>
+    <subfield code="t">Numerical instabilities in upwind methods: analysis and cures for the “carbuncle” phenomenon</subfield>
+    <subfield code="v">166</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,166,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">The numerical simulation of two-dimensional fluid flow with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnone, A.</subfield>
+    <subfield code="h">Liou, M.</subfield>
+    <subfield code="h">Povinelli, L.A.</subfield>
+    <subfield code="t">Integration of Navier–Stokes equations using dual time stepping and a multigrid method</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">AIAA J.,33,985</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">DeRango, S.</subfield>
+    <subfield code="h">Zingg, D.</subfield>
+    <subfield code="t">Improvements to a dual-time-stepping method for computing unsteady flows</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">AIAA J.,35,1548</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00125/S0021999116301565/S0021999116301565.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

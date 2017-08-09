@@ -1,0 +1,269 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The experiment editor: supporting inquiry-based learning with virtual labs</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Inquiry-based learning is a pedagogical approach where students are motivated to pose their own questions when facing problems or scenarios. In physics learning, students are turned into scientists who carry out experiments, collect and analyze data, formulate and evaluate hypotheses, and so on. Lab experimentation is essential for inquiry-based learning, yet there is a drawback with traditional hands-on labs in the high costs associated with equipment, space, and maintenance staff. Virtual laboratories are helpful to reduce these costs. This paper enriches the virtual lab ecosystem by providing an integrated environment to automate experimentation tasks. In particular, our environment supports: (i) scripting and running experiments on virtual labs, and (ii) collecting and analyzing data from the experiments. The current implementation of our environment supports virtual labs created with the authoring tool Easy Java/Javascript Simulations. Since there are public repositories with hundreds of freely available labs created with this tool, the potential applicability to our environment is considerable.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Eur.J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">035702</subfield>
+  <subfield code="v">38</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6404/aa5dc1</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">12</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-09</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Galan, D.</subfield>
+  <subfield code="v">Dept. de Informática y Automática - Universidad Nacional de Educación a Distancia - E-28040 Madrid - Spain</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Heradio, R.</subfield>
+  <subfield code="v">Dept. de Ingeniería de Software y Sistemas Informáticos - Universidad Nacional de Educación a Distancia - E-28040 Madrid - Spain</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">de la Torre, L.</subfield>
+  <subfield code="v">Dept. de Informática y Automática - Universidad Nacional de Educación a Distancia - E-28040 Madrid - Spain</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Dormido, S.</subfield>
+  <subfield code="v">Dept. de Informática y Automática - Universidad Nacional de Educación a Distancia - E-28040 Madrid - Spain</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Esquembre, F.</subfield>
+  <subfield code="v">Dept. de Matemáticas - Universidad de Murcia - Campus de Espinardo - E-30071 Murcia - Spain</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Virtual labs: EjsS VLs are standalone applications that can be run independently. EE supports loading EjsS VLs, running them, and exchanging information with them by accessing their public variables and methods</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Data Tool: the Data Tool program is an open source project, created by Brown and Christian, and available at OSP : It supports plotting data, computing basic statistical information (e.g., mean, standard deviation, etc), computing linear, quadratic or cubic fits, showing the slope (tangent) and the area under a curve, etc. EE embeds Data Tool, enabling this way of collecting and analyzing data from experiments in a single integrated environment. In figure, 1: #ejpaa5dc1f1, Data Tool is opened through the EE and used to plot the position of the block against the time</subfield>
+  <subfield code="u">http://compadre.org/osp/items/detail.cfm?id=7331</subfield>
+  <subfield code="u">http://www.compadre.org/osp/items/detail.cfm?id=7331</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Experiment Editor Front Panel: the most original contribution of this work is a language to specify experiments, and its corresponding editor and interpreter.The editor front panel provides one tab for each experiment defined for a VL. The main window is used for coding the experiment. On the right, there is a set of buttons with different functions: loading a VL, adding or closing experiments, launching the Data Tool, showing help and information about variables of the laboratories, and so on. The lower part shows a log window to see error messages when an experiment is run, indicating a diagnosis of these errors and the line in which they have been detected. Finally, figure, 1: #ejpaa5dc1f1 also shows how a user could access the variables that define the size and the mass of the block in the presented VL. For this task, EE provides a window with a list of the variables defined in the VL, as well as some information related to them (the type of the variable and its default value). In the example, after changing the values for the size and mass of the block, a line of code is introduced to run the VL and wait until the evolution stops. Finally, the last order in the code is used to finish the experiment.To provide the maximum interactivity, the experiment language is interpreted. Thus, users avoid recompiling the experiments (neither the VLs) over and over with every change they make to their experiments. Instead, they just run the code and see the results immediately.The experiment language is Turing complete (it provides loops, if-then-else commands, supports defining functions, importing external libraries, etc). Furthermore, the language includes commands to control the execution of the experiments. Table, 1: #ejpaa5dc1t1 summarizes the most prominent of such commands</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Dewey J</subfield>
+  <subfield code="m">Science as subject-matter and as method Crossref:</subfield>
+  <subfield code="s">Science,31,121-7</subfield>
+  <subfield code="a">doi:10.1126/science.31.787.121</subfield>
+  <subfield code="y">1910</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Minner D D et al.</subfield>
+  <subfield code="m">Inquiry-based science instruction—what is it and does it matter? Results from a research synthesis years 1984 to 2002 J. Res Sci. Teach. 47 474-96, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/tea.20347</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Banchi H and Bell R</subfield>
+  <subfield code="m">The many levels of inquiry Sci. Child. 46 26-9</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Heradio R et al.</subfield>
+  <subfield code="m">Virtual and remote labs in control education: a survey Ann. Rev. Control 42 1-10, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.arcontrol.2016.08.001</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Heradio R et al.</subfield>
+  <subfield code="m">Virtual and remote labs in education: a bibliometric analysis Comput. Educ. 98 14-38, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2016.03.010</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Abdulwahed M and Nagy Z K</subfield>
+  <subfield code="m">The TriLab, a novel ICT based triple access mode laboratory education model Comput. Educ. 56 262-74, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2010.07.023</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Sun K et al.</subfield>
+  <subfield code="m">A study on learning effect among different learning styles in a web-based lab of science for elementary school students Comput. Educ. 50 1411-22, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2007.01.003</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">de The ball and beam system: a case study of virtual and remote lab enhancement with moodle Trans. Indust. Inform. 11 934-45, Crossref:</subfield>
+  <subfield code="h">la Torre L et al.</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TII.2015.2443721</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Brinson J R</subfield>
+  <subfield code="m">Learning outcome achievement in non-traditional (virtual and remote) versus traditional (hands-on) laboratories: a review of the empirical research Comput. Educ. 87 218-37, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2015.07.003</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Dormido S</subfield>
+  <subfield code="m">Control learning: present and future Ann. Rev. Control 28 115-36, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.arcontrol.2003.12.002</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">de Jong T et al.</subfield>
+  <subfield code="m">Physical and virtual laboratories in science and engineering education Crossref:</subfield>
+  <subfield code="s">Science,340,305-8</subfield>
+  <subfield code="a">doi:10.1126/science.1230579</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Zacharia Z C and Constantinou C P</subfield>
+  <subfield code="m">Comparing the influence of physical and virtual manipulatives in the context of the physics by inquiry curriculum: the case of undergraduate students’ conceptual understanding of heat and temperature Crossref:</subfield>
+  <subfield code="s">Am.J.Phys.,76,425-30</subfield>
+  <subfield code="a">doi:10.1119/1.2885059</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Chiu J L et al.</subfield>
+  <subfield code="m">The effects of augmented virtual science laboratories on middle school students’ understanding of gas properties Comput. Educ. 85 59-73, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2015.02.007</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Jaakkola T et al.</subfield>
+  <subfield code="m">A comparison of students’ conceptual understanding of electric circuits in simulation only and simulation-laboratory contexts J. Res Sci. Teach. 48 71-93, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/tea.20386</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Zhang Z H and Linn M C</subfield>
+  <subfield code="m">Can generating representations enhance learning with dynamic visualizations? J. Res Sci. Teach. 48 1177-98, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/tea.20443</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Levy D</subfield>
+  <subfield code="m">How dynamic visualization technology can support molecular reasoning J. Sci Educ. Technol. 22 702-17, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s10956-012-9424-6</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Ford D N and McCormack D E M</subfield>
+  <subfield code="m">Effects of time scale focus on system understanding in decision support systems Simulation &amp; Gaming 31 309-30, Crossref:</subfield>
+  <subfield code="a">doi:10.1177/104687810003100301</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Trundle K C and Bell R L</subfield>
+  <subfield code="m">The use of a computer simulation to promote conceptual change: a quasi-experimental study Comput. Educ. 54 1078-88, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compedu.2009.10.012</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Vargas H et al.</subfield>
+  <subfield code="m">A systematic two-layer approach to develop web-based experimentation environments for control engineering education Intell. Autom. Soft Comput. 14 505-24, Crossref:</subfield>
+  <subfield code="a">doi:10.1080/10798587.2008.10643009</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Sanchez J et al.</subfield>
+  <subfield code="m">Virtual and remote control labs using java: a qualitative approach Control Systems 22 8-20, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/37.993309</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Christian W et al.</subfield>
+  <subfield code="m">Open source physics Crossref:</subfield>
+  <subfield code="s">Science,334,1077-8</subfield>
+  <subfield code="a">doi:10.1126/science.1196984</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Palop J F</subfield>
+  <subfield code="m">A versatile applet to explore the wave behaviour of particles Crossref:</subfield>
+  <subfield code="s">Eur.J.Phys.,30,771</subfield>
+  <subfield code="a">doi:10.1088/0143-0807/30/4/010</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">de Two web-based laboratories of the FisL@bs network: Hooke&apos;s and Snell&apos;s laws Crossref:</subfield>
+  <subfield code="h">la Torre L et al.</subfield>
+  <subfield code="s">Eur.J.Phys.,32,571</subfield>
+  <subfield code="a">doi:10.1088/0143-0807/32/2/027</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Onorato P et al.</subfield>
+  <subfield code="m">Damped oscillations and equilibrium in a mass-spring system subject to sliding friction forces: integrating experimental and theoretical analyses Crossref:</subfield>
+  <subfield code="s">Am.J.Phys.,78,1120-7</subfield>
+  <subfield code="a">doi:10.1119/1.3471936</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

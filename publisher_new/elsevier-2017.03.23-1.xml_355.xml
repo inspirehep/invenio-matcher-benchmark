@@ -1,0 +1,1191 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.009</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Tavelli, Maurizio</subfield>
+    <subfield code="v">Department of Mathematics, University of Trento, Via Sommarive 14, Trento, I-38050, Italy</subfield>
+    <subfield code="m">m.tavelli@unitn.it</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A staggered space–time discontinuous Galerkin method for the three-dimensional incompressible Navier–Stokes equations on unstructured tetrahedral meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">30</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we propose a novel arbitrary high order accurate semi-implicit space–time discontinuous Galerkin method for the solution of the three-dimensional incompressible Navier–Stokes equations on staggered unstructured curved tetrahedral meshes. As is typical for space–time DG schemes, the discrete solution is represented in terms of space–time basis functions. This allows to achieve very high order of accuracy also in time, which is not easy to obtain for the incompressible Navier–Stokes equations. Similarly to staggered finite difference schemes, in our approach the discrete pressure is defined on the primary tetrahedral grid, while the discrete velocity is defined on a face-based staggered dual grid. While staggered meshes are state of the art in classical finite difference schemes for the incompressible Navier–Stokes equations, their use in high order DG schemes is still quite rare. A very simple and efficient Picard iteration is used in order to derive a space–time pressure correction algorithm that achieves also high order of accuracy in time and that avoids the direct solution of global nonlinear systems. Formal substitution of the discrete momentum equation on the dual grid into the discrete continuity equation on the primary grid yields a very sparse five-point block system for the scalar pressure, which is conveniently solved with a matrix-free GMRES algorithm. From numerical experiments we find that the linear system seems to be reasonably well conditioned, since all simulations shown in this paper could be run without the use of any preconditioner, even up to very high polynomial degrees. For a piecewise constant polynomial approximation in time and if pressure boundary conditions are specified at least in one point, the resulting system is, in addition, symmetric and positive definite. This allows us to use even faster iterative solvers, like the conjugate gradient method.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by-nc-nd/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Space–time discontinuous Galerkin finite element schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Staggered unstructured meshes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Space–time pressure correction algorithm</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Incompressible Navier–Stokes equations in 3D</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dumbser, Michael</subfield>
+    <subfield code="v">Laboratory of Applied Mathematics, Department of Civil, Environmental and Mechanical Engineering, University of Trento, Via Mesiano 77, Trento, I-38123, Italy</subfield>
+    <subfield code="m">michael.dumbser@unitn.it</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">294-323</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harlow, F.</subfield>
+    <subfield code="h">Welch, J.</subfield>
+    <subfield code="t">Numerical calculation of time-dependent viscous incompressible flow of fluid with a free surface</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Fluids,8,2182</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, V.</subfield>
+    <subfield code="h">Spalding, B.</subfield>
+    <subfield code="t">A calculation procedure for heat, mass and momentum transfer in three-dimensional parabolic flows</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,15,1787</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, V.</subfield>
+    <subfield code="t">Numerical Heat Transfer and Fluid Flow</subfield>
+    <subfield code="p">Hemisphere Publishing Corporation</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Kan, J.</subfield>
+    <subfield code="t">A second-order accurate pressure correction method for viscous incompressible flow</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,870</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, C.</subfield>
+    <subfield code="h">Hood, P.</subfield>
+    <subfield code="t">A numerical solution of the Navier–Stokes equations using the finite element technique</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Fluids,1,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brooks, A.</subfield>
+    <subfield code="h">Hughes, T.</subfield>
+    <subfield code="t">Stream-line upwind/Petrov Galerkin formulation for convection dominated flows with particular emphasis on the incompressible Navier–Stokes equation</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,32,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, T.</subfield>
+    <subfield code="h">Mallet, M.</subfield>
+    <subfield code="h">Mizukami, M.</subfield>
+    <subfield code="t">A new finite element formulation for computational fluid dynamics: II. Beyond SUPG</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,54,341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fortin, M.</subfield>
+    <subfield code="t">Old and new finite elements for incompressible flows</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,1,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verfürth, R.</subfield>
+    <subfield code="t">Finite element approximation of incompressible Navier–Stokes equations with slip boundary condition II</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Numer.Math.,59,615</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heywood, J.G.</subfield>
+    <subfield code="h">Rannacher, R.</subfield>
+    <subfield code="t">Finite element approximation of the nonstationary Navier–Stokes problem. I. Regularity of solutions and second order error estimates for spatial discretization</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,19,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heywood, J.G.</subfield>
+    <subfield code="h">Rannacher, R.</subfield>
+    <subfield code="t">Finite element approximation of the nonstationary Navier–Stokes problem. III. Smoothing property and higher order error estimates for spatial discretization</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,25,489</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,131,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baumann, C.</subfield>
+    <subfield code="h">Oden, J.</subfield>
+    <subfield code="t">A discontinuous hp finite element method for convection–diffusion problems</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,175,311</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baumann, C.</subfield>
+    <subfield code="h">Oden, J.</subfield>
+    <subfield code="t">A discontinuous hp finite element method for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,31,79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Crivellini, A.</subfield>
+    <subfield code="h">Pietro, D.D.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">An artificial compressibility flux for the discontinuous Galerkin solution of the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,218,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Crivellini, A.</subfield>
+    <subfield code="h">Pietro, D.D.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">An implicit high-order discontinuous Galerkin method for steady and unsteady incompressible flows</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,36,1529</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gassner, G.</subfield>
+    <subfield code="h">Lörcher, F.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">A contribution to the construction of diffusion fluxes for finite volume and discontinuous Galerkin schemes</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,224,1049</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gassner, G.</subfield>
+    <subfield code="h">Lörcher, F.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">A discontinuous Galerkin scheme based on a space–time expansion II. Viscous flow equations in multi dimensions</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Sci.Comput.,34,260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Arbitrary high order PNPM schemes on unstructured meshes for the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Fluids,39,60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">Symmetric interior penalty DG methods for the compressible Navier–Stokes equations I: method formulation</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Numer.Anal.Model.,3,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">An optimal order interior penalty discontinuous Galerkin discretization of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9670</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shahbazi, K.</subfield>
+    <subfield code="h">Fischer, P.F.</subfield>
+    <subfield code="h">Ethier, C.R.</subfield>
+    <subfield code="t">A high-order discontinuous Galerkin method for the unsteady incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,222,391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Luo, L.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="h">Mousseau, V.</subfield>
+    <subfield code="h">Dinh, N.</subfield>
+    <subfield code="t">A reconstructed discontinuous Galerkin method for the compressible Navier–Stokes equations on arbitrary grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6961</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrer, E.</subfield>
+    <subfield code="h">Willden, R.</subfield>
+    <subfield code="t">A high order discontinuous Galerkin finite element solver for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,46,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1147</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crivellini, A.</subfield>
+    <subfield code="h">D'Alessandro, V.</subfield>
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="t">High-order discontinuous Galerkin solutions of three-dimensional incompressible RANS equations</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Fluids,81,122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klein, B.</subfield>
+    <subfield code="h">Kummer, F.</subfield>
+    <subfield code="h">Oberlack, M.</subfield>
+    <subfield code="t">A SIMPLE based discontinuous Galerkin solver for steady incompressible flows</subfield>
+    <subfield code="v">237</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,237,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.Y.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws IV: the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vegt, J.J.W.</subfield>
+    <subfield code="h">van der Ven, H.</subfield>
+    <subfield code="t">Space—time discontinuous Galerkin finite element method with dynamic grid motion for inviscid compressible flows I. General formulation</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,182,546</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Ven, H.</subfield>
+    <subfield code="h">van der Vegt, J.J.W.</subfield>
+    <subfield code="t">Space–time discontinuous Galerkin finite element method with dynamic grid motion for inviscid compressible flows II. Efficient flux quadrature</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,4747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klaij, C.</subfield>
+    <subfield code="h">der Vegt, J.V.</subfield>
+    <subfield code="h">der Ven, H.V.</subfield>
+    <subfield code="t">Space–time discontinuous Galerkin method for the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,217,589</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhebergen, S.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">A space–time hybridizable discontinuous Galerkin method for incompressible flows on deforming domains</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,231,4185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhebergen, S.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">van der Vegt, J.J.</subfield>
+    <subfield code="t">A space–time discontinuous Galerkin method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,233,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balazsova, M.</subfield>
+    <subfield code="h">Feistauer, M.</subfield>
+    <subfield code="t">On the stability of the ALE space–time discontinuous Galerkin method for nonlinear convection–diffusion problems in time-dependent domains</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Appl.Math.,60,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balazsova, M.</subfield>
+    <subfield code="h">Feistauer, M.</subfield>
+    <subfield code="h">Hadrava, M.</subfield>
+    <subfield code="h">Kosik, A.</subfield>
+    <subfield code="t">On the stability of the space–time discontinuous Galerkin method for the numerical solution of nonstationary nonlinear convection–diffusion problems</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Numer.Math.,23,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Facchini, M.</subfield>
+    <subfield code="t">A local space–time discontinuous Galerkin method for Boussinesq-type equations</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Appl.Math.Comput.,272,336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tavelli, M.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A staggered arbitrary high order semi-implicit discontinuous Galerkin method for the two dimensional incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Fluids,119,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, L.</subfield>
+    <subfield code="h">Persson, P.</subfield>
+    <subfield code="t">A high-order discontinuous Galerkin method with unstructured space–time meshes for two-dimensional compressible flows on domains with large deformations</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Fluids,118,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Demkowicz, L.</subfield>
+    <subfield code="h">Oden, J.</subfield>
+    <subfield code="h">Strouboulis, T.</subfield>
+    <subfield code="t">Adaptive finite elements for flow problems with moving boundaries. Part I: variational principles and a posteriori estimates</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,46,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remihi, F.</subfield>
+    <subfield code="h">Aloui, F.</subfield>
+    <subfield code="h">Nasrallah, S.B.</subfield>
+    <subfield code="h">Doubliez, L.</subfield>
+    <subfield code="h">Legrand, J.</subfield>
+    <subfield code="t">Experimental investigation of a confined flow downstream of a circular cylinder centred between two parallel walls</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Fluids Struct.,24,855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, C.</subfield>
+    <subfield code="t">The existence of two stages in the transition to three-dimensionality of a cylinder wake</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Fluids,24,855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sakamoto, H.</subfield>
+    <subfield code="h">Haniu, H.</subfield>
+    <subfield code="t">A study on vortex shedding from spheres in a uniform flow</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Fluids Eng.,112,386</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Armaly, B.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="h">Pereira, J.</subfield>
+    <subfield code="h">Schonung, B.</subfield>
+    <subfield code="t">Experimental and theoretical investigation on backward-facing step flow</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Fluid Mech.,127,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ku, H.C.</subfield>
+    <subfield code="h">Hirsh, R.S.</subfield>
+    <subfield code="h">Taylor, T.D.</subfield>
+    <subfield code="t">A pseudospectral method for solution of the three-dimensional incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,70,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aidun, C.K.</subfield>
+    <subfield code="h">Triantafillopoulos, N.</subfield>
+    <subfield code="h">Benson, J.</subfield>
+    <subfield code="t">Global stability of a lid-driven cavity with throughflow: flow visualization studies</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Phys.Fluids,3,2081</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brachet, M.</subfield>
+    <subfield code="h">Meiron, D.</subfield>
+    <subfield code="h">Orszag, S.</subfield>
+    <subfield code="t">Small-scale structure of the Taylor–Green vortex</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Fluid Mech.,130,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kanaris, N.</subfield>
+    <subfield code="h">Grigoriadis, D.</subfield>
+    <subfield code="h">Kassinos, S.</subfield>
+    <subfield code="t">Three dimensional flow around a circular cylinder confined in a plane channel</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Fluids,23,064106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ribeiro, V.</subfield>
+    <subfield code="h">Coelho, P.</subfield>
+    <subfield code="h">Pinho, F.</subfield>
+    <subfield code="h">Alves, M.</subfield>
+    <subfield code="t">Three-dimensional effects in laminar flow past a confined cylinder</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Chem.Eng.Sci.,84,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kravchenko, A.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Numerical studies of flow over a circular cylinder at <math altimg="si363.gif" display="inline" overflow="scroll"><mi>R</mi><msub><mrow><mi>e</mi></mrow><mrow><mi>D</mi></mrow></msub><mo>=</mo><mn>3900</mn></math></subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Phys.Fluids,12,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hestenes, M.R.</subfield>
+    <subfield code="h">Stiefel, E.</subfield>
+    <subfield code="t">Methods of conjugate gradients for solving linear systems</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Res.Natl.Bur.Stand.,49,409</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.</subfield>
+    <subfield code="t">GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.N.</subfield>
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Marini, L.D.</subfield>
+    <subfield code="t">Unified analysis of discontinuous Galerkin methods for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.J.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="t">Central discontinuous Galerkin methods on overlapping cells with a non-oscillatory hierarchical reconstruction</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,45,2442</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.J.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="t">L2-stability analysis of the central discontinuous Galerkin method and a comparison between the central and regular discontinuous Galerkin methods</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,42,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chung, E.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="t">Optimal discontinuous Galerkin methods for wave propagation</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,44,2131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chung, E.T.</subfield>
+    <subfield code="h">Lee, C.S.</subfield>
+    <subfield code="t">A staggered discontinuous Galerkin method for the convection–diffusion equation</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Numer.Math.,20,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A staggered semi-implicit spectral discontinuous Galerkin scheme for the shallow water equations</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Appl.Math.Comput.,219,8057</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tavelli, M.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A high order semi-implicit discontinuous Galerkin method for the two dimensional shallow water equations on staggered unstructured meshes</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Appl.Math.Comput.,234,623</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tavelli, M.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A staggered semi-implicit discontinuous Galerkin method for the two dimensional incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Appl.Math.Comput.,248,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheung, S.</subfield>
+    <subfield code="h">Chung, E.</subfield>
+    <subfield code="h">Kim, H.</subfield>
+    <subfield code="h">Qian, Y.</subfield>
+    <subfield code="t">Staggered discontinuous Galerkin methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,302,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolejsi, V.</subfield>
+    <subfield code="t">Semi-implicit interior penalty discontinuous Galerkin methods for viscous compressible flows</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Commun.Comput.Phys.,4,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolejsi, V.</subfield>
+    <subfield code="h">Feistauer, M.</subfield>
+    <subfield code="t">A semi-implicit discontinuous Galerkin finite element method for the numerical solution of inviscid compressible flow</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,198,727</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dolejsi, V.</subfield>
+    <subfield code="h">Feistauer, M.</subfield>
+    <subfield code="h">Hozman, J.</subfield>
+    <subfield code="t">Analysis of semi-implicit DGFEM for nonlinear convection–diffusion problems on nonconforming meshes</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,196,2813</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Restelli, M.</subfield>
+    <subfield code="t">High-order semi-implicit time-integrators for a triangular discontinuous Galerkin oceanic shallow water model</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,63,1077</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tumolo, G.</subfield>
+    <subfield code="h">Bonaventura, L.</subfield>
+    <subfield code="h">Restelli, M.</subfield>
+    <subfield code="t">A semi-implicit, semi-Lagrangian, p-adaptive discontinuous Galerkin method for the shallow water equations</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,232,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="h">Nichols, B.D.</subfield>
+    <subfield code="t">Volume of fluid (VOF) method for dynamics of free boundaries</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,39,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Cheng, R.T.</subfield>
+    <subfield code="t">Semi-implicit finite difference methods for three-dimensional shallow water flow</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,15,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A semi-implicit finite difference method for non-hydrostatic free-surface flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,30,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Walters, R.A.</subfield>
+    <subfield code="t">An unstructured grid, three-dimensional model based on the shallow water equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,32,331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A high-resolution wetting and drying algorithm for free-surface hydrodynamics</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,60,391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A semi-implicit numerical method for the free-surface Navier–Stokes equations</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,74,605</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brugnano, L.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">Iterative solution of piecewise linear systems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brugnano, L.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">Iterative solution of piecewise linear systems and applications to flows in porous media</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,1858</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Zanolli, P.</subfield>
+    <subfield code="t">A nested Newton–type algorithm for finite volume methods solving Richards' equation in mixed form</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,2255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Zanolli, P.</subfield>
+    <subfield code="t">Iterative solutions of mildly nonlinear systems</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,236,3937</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermudez, A.</subfield>
+    <subfield code="h">Dervieux, A.</subfield>
+    <subfield code="h">Desideri, J.</subfield>
+    <subfield code="h">Vazquez, M.</subfield>
+    <subfield code="t">Upwind schemes for the two-dimensional shallow water equations with variable depth using unstructured meshes</subfield>
+    <subfield code="v">155</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,155,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermúdez, A.</subfield>
+    <subfield code="h">Ferrín, J.</subfield>
+    <subfield code="h">Saavedra, L.</subfield>
+    <subfield code="h">Vázquez-Cendón, M.</subfield>
+    <subfield code="t">A projection hybrid finite volume/element method for low-Mach number flows</subfield>
+    <subfield code="v">271</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">J.Comput.Phys.,271,360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Hidalgo, A.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">FORCE schemes on unstructured meshes I: conservative hyperbolic systems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The local discontinuous Galerkin method for time-dependent convection–diffusion systems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,2440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection–dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yan, J.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">A local discontinuous Galerkin method for KdV-type equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,40,769</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rusanov, V.V.</subfield>
+    <subfield code="t">Calculation of interaction of non-steady Shock waves with obstacles</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">J.Comput.Math.Phys.USSR,1,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chatzi, V.</subfield>
+    <subfield code="h">Preparata, F.</subfield>
+    <subfield code="t">Using Pyramids in Mixed Meshes – Point Placement and Basis Functions</subfield>
+    <subfield code="p">Brown University Providence</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Baum, J.</subfield>
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="t">A discontinuous Galerkin method based on a Taylor basis for the compressible flows on arbitrary grids</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8875</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.J.</subfield>
+    <subfield code="h">Gallardo, J.M.</subfield>
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">High-order finite volume schemes based on reconstruction of states for solving hyperbolic systems with nonconservative products. applications to shallow-water systems</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">Math.Comput.,75,1103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parés, C.</subfield>
+    <subfield code="t">Numerical methods for nonconservative hyperbolic systems: a theoretical framework</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,44,300</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, D.L.</subfield>
+    <subfield code="h">Cortez, R.</subfield>
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">Accurate projection methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">168</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">J.Comput.Phys.,168,464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">A unified framework for the construction of one-step finite-volume and discontinuous Galerkin schemes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.</subfield>
+    <subfield code="h">Meyer, C.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Du, H.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="t">Efficient implementation of ADER schemes for Euler and magnetohydrodynamical flows on structured meshes – speed comparisons with Runge–Kutta methods</subfield>
+    <subfield code="v">235</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">J.Comput.Phys.,235,934</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dutt, A.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Spectral deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">BIT Numer.Math.,40,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kadioglu, S.</subfield>
+    <subfield code="h">Klein, R.</subfield>
+    <subfield code="h">Minion, M.</subfield>
+    <subfield code="t">A fourth-order auxiliary variable projection method for zero-Mach number gas dynamics</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Cattani, E.</subfield>
+    <subfield code="t">Stability, accuracy and efficiency of a semi-implicit method for three-dimensional shallow water flow</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">Comput.Math.Appl.,27,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghia, U.</subfield>
+    <subfield code="h">Ghia, K.N.</subfield>
+    <subfield code="h">Shin, C.T.</subfield>
+    <subfield code="t">High-re solutions for incompressible flow using Navier–Stokes equations and multigrid method</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">J.Comput.Phys.,48,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erturk, E.</subfield>
+    <subfield code="h">Corke, T.</subfield>
+    <subfield code="h">Gokcol, C.</subfield>
+    <subfield code="t">Numerical solutions of 2D steady incompressible driven cavity flow at high Reynolds numbers</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,48,747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Albensoeder, S.</subfield>
+    <subfield code="h">Kuhlmann, H.</subfield>
+    <subfield code="t">Accurate three-dimensional lid-driven cavity flow</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">97</subfield>
+    <subfield code="s">J.Comput.Phys.,206,536</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, V.</subfield>
+    <subfield code="t">Sur la topologie des écoulements stationnaires des fluides parfaits</subfield>
+    <subfield code="v">261</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">98</subfield>
+    <subfield code="s">C.R.Hebd.Séances Acad.Sci.,261,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Childress, S.</subfield>
+    <subfield code="t">New solutions of the kinematic dynamo problem</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">99</subfield>
+    <subfield code="s">J.Math.Phys.,11,3063</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dombre, T.</subfield>
+    <subfield code="h">Frisch, U.</subfield>
+    <subfield code="h">Greene, J.M.</subfield>
+    <subfield code="h">Hénon, M.</subfield>
+    <subfield code="h">Mehr, A.</subfield>
+    <subfield code="h">Soward, A.M.</subfield>
+    <subfield code="t">Chaotic streamlines in the ABC flows</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">100</subfield>
+    <subfield code="s">J.Fluid Mech.,167,353</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Podvigina, O.M.</subfield>
+    <subfield code="t">Spatially-periodic steady solutions to the three-dimensional Navier–Stokes equation with the abc-force</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">101</subfield>
+    <subfield code="s">Physica D: Nonlinear Phenomena,128,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Podvigina, O.</subfield>
+    <subfield code="h">Ashwin, P.</subfield>
+    <subfield code="h">Hawker, D.</subfield>
+    <subfield code="t">Modelling instability of flow using a mode interaction between steady and Hopf bifurcations with rotational symmetries of the cube</subfield>
+    <subfield code="v">215</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">102</subfield>
+    <subfield code="s">Physica D: Nonlinear Phenomena,215,62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ershkov, S.</subfield>
+    <subfield code="t">Non-stationary helical flows for incompressible 3D Navier–Stokes equations</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">103</subfield>
+    <subfield code="s">Appl.Math.Comput.,274,611</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fambri, F.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="r">arXiv:1602.05806</subfield>
+    <subfield code="t">Spectral semi-implicit space–time discontinuous Galerkin methods for the incompressible Navier–Stokes equations on staggered Cartesian grids</subfield>
+    <subfield code="m">Appl. Numer. Math. submitted for publication</subfield>
+    <subfield code="o">104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colomes, O.</subfield>
+    <subfield code="h">Badia, S.</subfield>
+    <subfield code="h">Codina, R.</subfield>
+    <subfield code="h">Principe, J.</subfield>
+    <subfield code="t">Assessment of variational multiscale models for the large eddy simulation of turbulent incompressible flows</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">105</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,285,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Womersley, J.</subfield>
+    <subfield code="t">Method for the calculation of velocity, rate of flow and viscous drag in arteries when the pressure gradient is known</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1955</subfield>
+    <subfield code="o">106</subfield>
+    <subfield code="s">J.Physiol.,127,553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fambri, F.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">An efficient semi-implicit method for three-dimensional non-hydrostatic flows in compliant arterial vessels</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">107</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,30,1170</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blasius, H.</subfield>
+    <subfield code="t">Grenzschichten in Flüssigkeiten mit kleiner Reibung</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1908</subfield>
+    <subfield code="o">108</subfield>
+    <subfield code="s">Z.Math.Phys.,56,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erturk, E.</subfield>
+    <subfield code="t">Numerical solutions of 2d steady incompressible flow over a backward-facing step, part I: high Reynolds number solutions</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">109</subfield>
+    <subfield code="s">Comput.Fluids,37,633</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="h">Greenspan, D.</subfield>
+    <subfield code="t">Pressure method for the numerical solution of transient, compressible fluid flows</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">110</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,4,1001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klein, R.</subfield>
+    <subfield code="h">Botta, N.</subfield>
+    <subfield code="h">Schneider, T.</subfield>
+    <subfield code="h">Munz, C.</subfield>
+    <subfield code="h">Roller, S.</subfield>
+    <subfield code="h">Meister, A.</subfield>
+    <subfield code="h">Hoffmann, L.</subfield>
+    <subfield code="h">Sonar, T.</subfield>
+    <subfield code="t">Asymptotic adaptive methods for multi-scale problems in fluid mechanics</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">111</subfield>
+    <subfield code="s">J.Eng.Math.,39,261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Munz, C.</subfield>
+    <subfield code="h">Klein, R.</subfield>
+    <subfield code="h">Roller, S.</subfield>
+    <subfield code="h">Geratz, K.</subfield>
+    <subfield code="t">The extension of incompressible flow solvers to the weakly compressible regime</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">112</subfield>
+    <subfield code="s">Comput.Fluids,32,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klein, R.</subfield>
+    <subfield code="t">Semi-implicit extension of a Godunov-type scheme based on low Mach number asymptotics I: one-dimensional flow</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">113</subfield>
+    <subfield code="s">J.Comput.Phys.,121,213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meister, A.</subfield>
+    <subfield code="t">Asymptotic single and multiple scale expansions in the low Mach number limit</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">114</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,60,256</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.</subfield>
+    <subfield code="h">Munz, C.</subfield>
+    <subfield code="t">Multiple pressure variables methods for fluid flow at all Mach numbers</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">115</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,49,905</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cordier, F.</subfield>
+    <subfield code="h">Degond, P.</subfield>
+    <subfield code="h">Kumbaro, A.</subfield>
+    <subfield code="t">An asymptotic-preserving all-speed scheme for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">116</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Iben, U.</subfield>
+    <subfield code="h">Ioriatti, M.</subfield>
+    <subfield code="t">An efficient semi-implicit finite volume method for axially symmetric compressible flows in compliant tubes</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">117</subfield>
+    <subfield code="s">Appl.Numer.Math.,89,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Casulli, V.</subfield>
+    <subfield code="t">A conservative, weakly nonlinear semi-implicit finite volume method for the compressible Navier–Stokes equations with general equation of state</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">118</subfield>
+    <subfield code="s">Appl.Math.Comput.,272,479</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00125/S002199911630136X/S002199911630136X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

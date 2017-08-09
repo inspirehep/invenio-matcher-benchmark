@@ -1,0 +1,594 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.002</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Reckinger, Scott J.</subfield>
+    <subfield code="j">ORCID:0000-0003-4664-623X</subfield>
+    <subfield code="v">Department of Mechanical Engineering, University of Colorado Boulder, 427 UCB, 303-492-4717, Boulder, CO, 80309, USA</subfield>
+    <subfield code="v">Civil Engineering Department, Montana State University, Bozeman, MT, 59717, USA</subfield>
+    <subfield code="m">scott.reckinger@montana.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Comprehensive numerical methodology for direct numerical simulations of compressible Rayleigh–Taylor instability</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">28</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">An investigation of compressible Rayleigh–Taylor instability (RTI) using Direct Numerical Simulations (DNS) requires efficient numerical methods, advanced boundary conditions, and consistent initialization in order to capture the wide range of scales and vortex dynamics present in the system, while reducing the computational impact associated with acoustic wave generation and the subsequent interaction with the flow. An advanced computational framework is presented that handles the challenges introduced by considering the compressive nature of RTI systems, which include sharp interfacial density gradients on strongly stratified background states, acoustic wave generation and removal at computational boundaries, and stratification dependent vorticity production. The foundation of the numerical methodology described here is the wavelet-based grid adaptivity of the Parallel Adaptive Wavelet Collocation Method (PAWCM) that maintains symmetry in single-mode RTI systems to extreme late-times. PAWCM is combined with a consistent initialization, which reduces the generation of acoustic disturbances, and effective boundary treatments, which prevent acoustic reflections. A dynamic time integration scheme that can handle highly nonlinear and potentially stiff systems, such as compressible RTI, completes the computational framework. The numerical methodology is used to simulate two-dimensional single-mode RTI to extreme late-times for a wide range of flow compressibility and variable density effects. The results show that flow compressibility acts to reduce the growth of RTI for low Atwood numbers, as predicted from linear stability analysis.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rayleigh–Taylor instability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Direct numerical simulations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wavelet-based adaptive grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Consistent initialization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Boundary conditions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Livescu, Daniel</subfield>
+    <subfield code="j">ORCID:0000-0003-2367-1547</subfield>
+    <subfield code="v">CCS-2 Computational Physics and Methods, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+    <subfield code="m">livescu@lanl.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vasilyev, Oleg V.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, University of Colorado Boulder, 427 UCB, 303-492-4717, Boulder, CO, 80309, USA</subfield>
+    <subfield code="m">oleg.vasilyev@colorado.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">181-208</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rayleigh, L.</subfield>
+    <subfield code="t">Investigation of the character of the equilibrium of an incompressible heavy fluid of variable density</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1883</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Proc.R.Math.Soc.,14,170</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, G.</subfield>
+    <subfield code="t">The instability of liquid surfaces when accelerated in a direction perpendicular to their planes</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A201,192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remington, B.A.</subfield>
+    <subfield code="h">Weber, S.V.</subfield>
+    <subfield code="h">Marinak, M.M.</subfield>
+    <subfield code="h">Haan, S.W.</subfield>
+    <subfield code="h">Kilkenny, J.D.</subfield>
+    <subfield code="h">Wallace, R.J.</subfield>
+    <subfield code="h">Dimonte, G.</subfield>
+    <subfield code="t">Single-mode and multi-mode Rayleigh–Taylor experiments on NOVA</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Plasmas,2,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farley, D.R.</subfield>
+    <subfield code="h">Logory, L.M.</subfield>
+    <subfield code="t">Single-mode, nonlinear mix experiments at high Mach number using Nova</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,127,311</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rsta.2012.0185</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="t">Numerical simulations of two-fluid turbulent mixing at large density ratios and applications to the Rayleigh–Taylor instability</subfield>
+    <subfield code="v">371</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A371,20120185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kilkenny, J.D.</subfield>
+    <subfield code="h">Glendinning, S.G.</subfield>
+    <subfield code="h">Haan, S.W.</subfield>
+    <subfield code="h">Hammel, B.A.</subfield>
+    <subfield code="h">Lindl, J.D.</subfield>
+    <subfield code="h">Munro, D.</subfield>
+    <subfield code="h">Remington, B.A.</subfield>
+    <subfield code="h">Weber, S.V.</subfield>
+    <subfield code="h">Knauer, J.P.</subfield>
+    <subfield code="h">Verdon, C.P.</subfield>
+    <subfield code="t">A review of the ablative stabilization of the Rayleigh–Taylor instability in regimes relevant to inertial confinement fusion</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Phys.Plasmas,1,1379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knauer, J.P.</subfield>
+    <subfield code="h">Betti, R.</subfield>
+    <subfield code="h">Bradley, D.K.</subfield>
+    <subfield code="h">Boehly, T.R.</subfield>
+    <subfield code="h">Collins, T.J.B.</subfield>
+    <subfield code="h">Goncharov, V.N.</subfield>
+    <subfield code="h">McKenty, P.W.</subfield>
+    <subfield code="h">Meyerhofer, D.D.</subfield>
+    <subfield code="h">Smalyuk, V.A.</subfield>
+    <subfield code="h">Verdon, C.P.</subfield>
+    <subfield code="h">Glendinning, S.G.</subfield>
+    <subfield code="h">Kalantar, D.H.</subfield>
+    <subfield code="h">Watt, R.G.</subfield>
+    <subfield code="t">Single-mode, Rayleigh–Taylor growth-rate measurements on the OMEGA laser system</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Plasmas,7,338</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jordan, G.C.</subfield>
+    <subfield code="h">Fisher, R.T.</subfield>
+    <subfield code="h">Townsley, D.M.</subfield>
+    <subfield code="h">Calder, A.C.</subfield>
+    <subfield code="h">Graziani, C.</subfield>
+    <subfield code="h">Asida, S.</subfield>
+    <subfield code="h">Lamb, D.Q.</subfield>
+    <subfield code="h">Truran, J.W.</subfield>
+    <subfield code="t">Three-dimensional simulations of the deflagration phase of the gravitationally confined detonation model of type Ia supernovae</subfield>
+    <subfield code="v">681</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Astrophys.J.Lett.,681,1448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lewin, W.H.G.</subfield>
+    <subfield code="h">van Paradijs, J.</subfield>
+    <subfield code="h">van den Heuvel, E.P.J.</subfield>
+    <subfield code="t">X-ray Binaries</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, UK</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blondin, J.M.</subfield>
+    <subfield code="h">Ellison, D.C.</subfield>
+    <subfield code="t">Rayleigh–Taylor instabilities in young supernova remnants undergoing efficient particle acceleration</subfield>
+    <subfield code="v">560</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Astrophys.J.,560,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="t">Compressibility effects on the Rayleigh–Taylor instability growth between immiscible fluids</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Fluids,16,118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gauthier, S.</subfield>
+    <subfield code="h">Le Creurer, B.</subfield>
+    <subfield code="t">Compressibility effects in Rayleigh–Taylor instability-induced flows</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A368,1681</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="h">Ristorcelli, J.R.</subfield>
+    <subfield code="h">Gore, R.A.</subfield>
+    <subfield code="h">Dean, S.H.</subfield>
+    <subfield code="h">Cabot, W.H.</subfield>
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="t">High-Reynolds number Rayleigh–Taylor turbulence</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Turbul.,10,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olson, B.J.</subfield>
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="t">Rayleigh–Taylor shock waves</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Fluids,19,128108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="t">Application of monotone integrated large eddy simulation to Rayleigh–Taylor mixing</subfield>
+    <subfield code="v">367</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A367,2971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dimonte, G.</subfield>
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="h">Dimits, A.</subfield>
+    <subfield code="h">Weber, S.</subfield>
+    <subfield code="h">Marinak, M.</subfield>
+    <subfield code="h">Wunsch, S.</subfield>
+    <subfield code="h">Garasi, C.</subfield>
+    <subfield code="h">Robinson, A.</subfield>
+    <subfield code="h">Andrews, M.J.</subfield>
+    <subfield code="h">Ramaprabhu, P.</subfield>
+    <subfield code="h">Calder, A.C.</subfield>
+    <subfield code="h">Fryxell, B.</subfield>
+    <subfield code="h">Biello, J.</subfield>
+    <subfield code="h">Dursi, L.</subfield>
+    <subfield code="h">MacNeice, P.</subfield>
+    <subfield code="h">Olson, K.</subfield>
+    <subfield code="h">Ricker, P.</subfield>
+    <subfield code="h">Rosner, R.</subfield>
+    <subfield code="h">Timmes, F.</subfield>
+    <subfield code="h">Tufo, H.</subfield>
+    <subfield code="h">Young, Y.N.</subfield>
+    <subfield code="h">Zingale, M.</subfield>
+    <subfield code="t">A comparative study of the turbulent Rayleigh–Taylor instability using high-resolution three-dimensional numerical simulations: the Alpha-Group collaboration</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Fluids,16,1668</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gauthier, S.</subfield>
+    <subfield code="t">Compressibility effects in Rayleigh–Taylor flows: influence of the stratification</subfield>
+    <subfield code="v">155</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Scr.,T155,014012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wei, T.</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="t">Late-time quadratic growth in single-mode Rayleigh–Taylor instability</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Rev.,E86,046405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrews, M.J.</subfield>
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="h">Wei, T.</subfield>
+    <subfield code="t">Computational studies of two-dimensional Rayleigh–Taylor driven mixing for a tilted-rig</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Fluids Eng.,136,091212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Creurer, B.</subfield>
+    <subfield code="h">Gauthier, S.</subfield>
+    <subfield code="t">A return toward equilibrium in a 2D Rayleigh–Taylor instability for compressible fluids with a multidomain adaptive Chebyshev method</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,22,125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schneider, K.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Wavelet methods in computational fluid dynamics</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,42,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandrasekhar, S.</subfield>
+    <subfield code="t">Hydrodynamic and Hydromagnetic Stability</subfield>
+    <subfield code="p">Dover New York</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duff, R.E.</subfield>
+    <subfield code="h">Harlow, F.H.</subfield>
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="t">Effects of diffusion on interface instability between gases</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1962</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Fluids,5,417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goncharov, V.N.</subfield>
+    <subfield code="t">Analytical model of nonlinear, single-mode, classical Rayleigh–Taylor instability at arbitrary Atwood numbers</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Rev.Lett.,88,134502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oron, D.</subfield>
+    <subfield code="h">Arazi, L.</subfield>
+    <subfield code="h">Kartoon, D.</subfield>
+    <subfield code="h">Rikanati, A.</subfield>
+    <subfield code="h">Alon, U.</subfield>
+    <subfield code="h">Shvarts, D.</subfield>
+    <subfield code="t">Dimensionality dependence of the Rayleigh–Taylor and Richtmyer–Meshkov instability late-time scaling laws</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Plasmas,8,2883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Combustion Theory</subfield>
+    <subfield code="p">Benjamin/Cummings Menlo Park</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, H.</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="t">Rayleigh–Taylor instability in cylindrical geometry with compressible fluids</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Phys.Fluids,20,104103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farge, M.</subfield>
+    <subfield code="h">Schneider, K.</subfield>
+    <subfield code="t">Coherent vortex simulation (CVS), a semi-deterministic turbulence model using wavelets</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Flow Turbul.Combust.,66,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hejazialhosseini, B.</subfield>
+    <subfield code="h">Rossinelli, D.</subfield>
+    <subfield code="h">Bergdorf, M.</subfield>
+    <subfield code="h">Koumoutsakos, P.</subfield>
+    <subfield code="t">High order finite volume methods on wavelet-adapted grids with local time-stepping on multicore architectures for the simulation of shock-bubble interactions</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.01.025</subfield>
+    <subfield code="h">Paolucci, S.</subfield>
+    <subfield code="h">Zikoski, Z.J.</subfield>
+    <subfield code="h">Wirasaet, D.</subfield>
+    <subfield code="t">WAMR: an adaptive wavelet method for the simulation of compressible reacting flow. Part I. Accuracy and efficiency of algorithm</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,272,814</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.03.059</subfield>
+    <subfield code="h">Paolucci, S.</subfield>
+    <subfield code="h">Zikoski, Z.J.</subfield>
+    <subfield code="h">Grenga, T.</subfield>
+    <subfield code="t">WAMR: an adaptive wavelet method for the simulation of compressible reacting flow. Part II. The parallel algorithm</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,272,842</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.05.028</subfield>
+    <subfield code="h">Nejadmalayeri, A.</subfield>
+    <subfield code="h">Vezolainen, A.</subfield>
+    <subfield code="h">Brown-Dymkoski, E.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Parallel adaptive wavelet collocation method for PDEs</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,298,237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Solving multi-dimensional evolution problems with localized structures using second generation wavelets</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,17,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Bowman, C.</subfield>
+    <subfield code="t">Second-generation wavelet collocation method for the solution of partial differential equations</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,165,660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Paolucci, S.</subfield>
+    <subfield code="t">A fast adaptive wavelet collocation algorithm for multidimensional PDEs</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,138,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kevlahan, N.K.R.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">An adaptive wavelet collocation method for fluid–structure interaction at high Reynolds numbers</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,1894</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reckinger, S.M.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="h">Fox-Kemper, B.</subfield>
+    <subfield code="t">Adaptive volume penalization for ocean modeling</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Ocean Dyn.,62,1201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Q.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">A Brinkman penalization method for compressible flows in complex geometries</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,227,946</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Regele, J.D.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">An adaptive wavelet-collocation method for shock computations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,23,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sweldens, W.</subfield>
+    <subfield code="t">The lifting scheme: a construction of second generation wavelets</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">SIAM J.Math.Anal.,29,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, X.Y.</subfield>
+    <subfield code="h">Khoo, B.C.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="h">Huang, F.L.</subfield>
+    <subfield code="t">A conservative interface method for compressible flows</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,219,553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="t">Enthalpy diffusion in multicomponent flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Fluids,21,055109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Joseph, D.D.</subfield>
+    <subfield code="t">Fluid dynamics of two miscible liquids with diffusion and gradient stresses</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,6,565</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Modeling artificial boundary conditions for compressible flow</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,36,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Q.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Nonreflecting boundary conditions based on nonlinear multidimensional characteristics</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,62,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poinsot, T.J.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Boundary-conditions for direct simulations of compressible viscous flows</subfield>
+    <subfield code="v">101</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,101,104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thompson, K.W.</subfield>
+    <subfield code="t">Time dependent boundary conditions for hyperbolic systems</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,68,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.M.</subfield>
+    <subfield code="h">Ruuth, S.J.</subfield>
+    <subfield code="h">Spiteri, R.J.</subfield>
+    <subfield code="t">Implicit–explicit Runge–Kutta methods for time-dependent partial differential equations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Appl.Numer.Math.,25,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reckinger, S.J.</subfield>
+    <subfield code="h">Livescu, D.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Adaptive wavelet-collocation method simulations of Rayleigh–Taylor instability</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Scr.,T142,014064</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X0006X/S0021999115007354/S0021999115007354.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

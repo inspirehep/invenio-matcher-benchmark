@@ -1,0 +1,457 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.07.055</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ivey, Christopher B.</subfield>
+    <subfield code="j">ORCID:0000-0003-0008-7532</subfield>
+    <subfield code="v">Center for Turbulence Research, Stanford University, Stanford, CA 94305, USA</subfield>
+    <subfield code="m">civey@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Accurate interface normal and curvature estimates on three-dimensional unstructured non-convex polyhedral meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper presents a framework for extending the height-function technique for the calculation of interface normals and curvatures to unstructured non-convex polyhedral meshes with application to the piecewise-linear interface calculation volume-of-fluid method. The methodology is developed with reference to a collocated node-based finite-volume two-phase flow solver that utilizes the median-dual mesh, requiring a set of data structures and algorithms for non-convex polyhedral operations: truncation of a polyhedron by a plane, intersection of two polyhedra, joining of two convex polyhedra, volume enforcement of a polyhedron by a plane, and volume fraction initialization by a signed-distance function. By leveraging these geometric tools, a geometric interpolation strategy for embedding structured height-function stencils in unstructured meshes is developed. The embedded height-function technique is tested on surfaces with known interface normals and curvatures, namely cylinder, sphere, and ellipsoid. Tests are performed on the median duals of a uniform cartesian mesh, a wedge mesh, and a tetrahedral mesh, and comparisons are made with conventional methods. Across the tests, the embedded height-function technique outperforms contemporary methods and its accuracy approaches the accuracy that the traditional height-function technique exemplifies on uniform cartesian meshes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Two-phase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Volume of fluid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Height function</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Curvature</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Non-convex polyhedron</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Moin, Parviz</subfield>
+    <subfield code="v">Center for Turbulence Research, Stanford University, Stanford, CA 94305, USA</subfield>
+    <subfield code="m">moin@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">365-386</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct numerical simulation of free-surface and interfacial flow</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,31,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct Numerical Simulations of Gas–Liquid Multiphase Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2000.6567</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Analytical relations connecting linear interfaces and volume fractions in rectangular grids</subfield>
+    <subfield code="v">164</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,164,228</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2005.09.002</subfield>
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">James, A.J.</subfield>
+    <subfield code="t">Analytic relations for reconstructing piecewise linear interfaces in triangular and tetrahedral grids</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,214,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.03.010</subfield>
+    <subfield code="h">López, J.</subfield>
+    <subfield code="h">Hernández, J.</subfield>
+    <subfield code="t">Analytical and geometrical tools for 3d volume of fluid methods in general grids</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,227,5939</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ham, F.</subfield>
+    <subfield code="h">Mattson, K.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Accurate and stable finite volume operators for unstructured flow solvers</subfield>
+    <subfield code="p">Center for Turbulence Research, Stanford University</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">Annual Research Briefs</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parker, B.J.</subfield>
+    <subfield code="h">Youngs, D.L.</subfield>
+    <subfield code="t">Two and three dimensional Eulerian simulation and fluid flow with material interfaces</subfield>
+    <subfield code="p">AWE</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">Tech. Rep. 01/92</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/18811248.2007.9711542</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="h">Kunugi, T.</subfield>
+    <subfield code="h">Ohshima, H.</subfield>
+    <subfield code="h">Kawamura, T.</subfield>
+    <subfield code="t">Formulations and validations of a high-precision volume-of-fluid algorithm on nonorthogonal meshes for numerical simulations of gas entrainment phenomena</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Nucl.Sci.Technol.,46,366</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2014.02.001</subfield>
+    <subfield code="h">Jofre, L.</subfield>
+    <subfield code="h">Lehmkuhl, O.</subfield>
+    <subfield code="h">Castro, J.</subfield>
+    <subfield code="h">Oliva, A.</subfield>
+    <subfield code="t">A 3-d volume-of-fluid advection method based on cell-vertex velocities for unstructured meshes</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Fluids,94,14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2003.12.023</subfield>
+    <subfield code="h">Pilliod, J.E.</subfield>
+    <subfield code="h">Puckett, E.G.</subfield>
+    <subfield code="t">Second-order accurate volume-of-fluid algorithms for tracking material interfaces</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,199,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.431</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Interface reconstruction with least-square fit and split Eulerian Lagrangian advection</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,41,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2007.03.015</subfield>
+    <subfield code="h">Aulisa, E.</subfield>
+    <subfield code="h">Manservisi, S.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Interface reconstruction with least-squares fit and split advection in three-dimensional cartesian geometry</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,225,2301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.620</subfield>
+    <subfield code="h">Ashgriz, N.</subfield>
+    <subfield code="h">Barbat, T.</subfield>
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="t">A computational Lagrangian–Eulerian advection remap for free surface flows</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,44,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mosso, S.J.</subfield>
+    <subfield code="h">Schartz, B.K.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="t">Recent enhancements of volume tracking algorithms for irregular grids</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="m">Tech. Rep. LA-CP-96-227</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compstruc.2004.08.017</subfield>
+    <subfield code="h">Cummins, S.J.</subfield>
+    <subfield code="h">Francois, M.M.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="t">Estimating curvature from volume fractions</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Struct.,83,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(03)00087-1</subfield>
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="t">A second order coupled level set and volume-of-fluid method for computing growth and collapse of vapor bubbles</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,187,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2005.08.004</subfield>
+    <subfield code="h">Francois, M.M.</subfield>
+    <subfield code="h">Cummins, S.J.</subfield>
+    <subfield code="h">Dendy, E.D.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="h">Sicilian, J.M.</subfield>
+    <subfield code="h">Williams, M.W.</subfield>
+    <subfield code="t">A balanced-force algorithm for continuous and sharp interfacial surface tension models within a volume tracking framework</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,213,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.11.029</subfield>
+    <subfield code="h">Bornia, G.</subfield>
+    <subfield code="h">Cervone, A.</subfield>
+    <subfield code="h">Manservisi, S.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">On the properties and limitations of the height function method in two-dimensional cartesian geometry</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,230,851</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.07.014</subfield>
+    <subfield code="h">Ferdowsi, P.A.</subfield>
+    <subfield code="h">Bussmann, M.</subfield>
+    <subfield code="t">Second-order accurate normals from height functions</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.10.022</subfield>
+    <subfield code="h">Francois, M.M.</subfield>
+    <subfield code="h">Swartz, B.K.</subfield>
+    <subfield code="t">Interface curvature via volume fractions, heights, and mean values on nonuniform rectangular grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,229,527</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.04.058</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="h">Kunugi, T.</subfield>
+    <subfield code="h">Ohno, S.</subfield>
+    <subfield code="h">Kamide, H.</subfield>
+    <subfield code="h">Ohshima, H.</subfield>
+    <subfield code="t">A high-precision calculation method for interface normal and curvature on an unstructured grid</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,273,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(92)90240-Y</subfield>
+    <subfield code="h">Brackbill, J.U.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="h">Zemach, C.</subfield>
+    <subfield code="t">A continuum method for modeling surface tension</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,100,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2013.09.016</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="h">Kunugi, T.</subfield>
+    <subfield code="h">Ohshima, H.</subfield>
+    <subfield code="h">Kawamura, T.</subfield>
+    <subfield code="t">A volume-conservative PLIC algorithm on three-dimensional fully unstructured meshes</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,88,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2009.03.007</subfield>
+    <subfield code="h">López, J.</subfield>
+    <subfield code="h">Zanzi, C.</subfield>
+    <subfield code="h">Gómez, P.</subfield>
+    <subfield code="h">Zamora, R.</subfield>
+    <subfield code="h">Faura, F.</subfield>
+    <subfield code="h">Hernández, J.</subfield>
+    <subfield code="t">An improved height function technique for computing interface curvature from volume fractions</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Appl.Math.,198,2555</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.03.032</subfield>
+    <subfield code="h">López, J.</subfield>
+    <subfield code="h">Hernández, J.</subfield>
+    <subfield code="t">On reducing interface curvature computation errors in the height function technique</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.10.036</subfield>
+    <subfield code="h">Owkes, M.</subfield>
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="t">A mesh-decoupled height function method for computing interface curvature</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,281,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.04.042</subfield>
+    <subfield code="h">Popinet, S.</subfield>
+    <subfield code="t">An accurate adaptive solver for surface-tension-driven interfacial flows</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">URL</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5838</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.1776</subfield>
+    <subfield code="h">Hernández, J.</subfield>
+    <subfield code="h">López, J.</subfield>
+    <subfield code="h">Gómez, P.</subfield>
+    <subfield code="h">Zanzi, C.</subfield>
+    <subfield code="h">Faura, F.</subfield>
+    <subfield code="t">A new volume of fluid method in three dimensions–Part I: multidimensional advection method with face-matched flux polyhedra</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,58,897</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2007.11.002</subfield>
+    <subfield code="h">Herrmann, M.</subfield>
+    <subfield code="t">A balanced force refined level set grid method for two-phase flows on unstructured flow solver grids</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2674</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620310102</subfield>
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">An alternating digital tree (ADT) algorithm for 3d geometric searching and intersection problems</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,31,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ivey, C.B.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Conservative volume of fluid advection method on unstructured grids in three dimensions</subfield>
+    <subfield code="p">Center for Turbulence Research, Stanford University</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Annual Research Briefs</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2012.07.019</subfield>
+    <subfield code="h">Chenadec, V.L.</subfield>
+    <subfield code="h">Pitsch, H.</subfield>
+    <subfield code="t">A 3d unsplit forward/backward volume-of-fluid approach and coupling to the level set method</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,233,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.04.022</subfield>
+    <subfield code="h">Owkes, M.</subfield>
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="t">A computational framework for conservative, three-dimensional, unsplit, geometric transport with application to the volume-of-fluid (VOF) method</subfield>
+    <subfield code="v">270</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,270,587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/988049.988050</subfield>
+    <subfield code="h">Stephenson, M.B.</subfield>
+    <subfield code="h">Christiansen, H.N.</subfield>
+    <subfield code="t">A polyhedron clipping and capping algorithm and a display system for three dimensional finite element models</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIGGRAPH Comput.Graph.,9,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cormen, T.H.</subfield>
+    <subfield code="h">Leiserson, C.E.</subfield>
+    <subfield code="h">Rivest, R.L.</subfield>
+    <subfield code="h">Stein, C.</subfield>
+    <subfield code="t">Introduction to Algorithms</subfield>
+    <subfield code="p">The MIT Press</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Rourke, J.</subfield>
+    <subfield code="t">Computational Geometry in C</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115005082/S0021999115005082.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

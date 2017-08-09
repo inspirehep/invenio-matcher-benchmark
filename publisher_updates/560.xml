@@ -1,0 +1,581 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.016</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">van der Linden, J.H.</subfield>
+    <subfield code="j">ORCID:0000-0001-7230-1257</subfield>
+    <subfield code="v">Delft University of Technology, Faculty of Electrical Engineering, Mathematics and Computer Science, Delft Institute of Applied Mathematics, Mekelweg 4, Delft, 2628CD, The Netherlands</subfield>
+    <subfield code="m">joosthvanderlinden@gmail.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The parallel subdomain-levelset deflation method in reservoir simulation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Extreme and isolated eigenvalues are known to be harmful to the convergence of an iterative solver. These eigenvalues can be produced by strong heterogeneity in the underlying physics. We can improve the quality of the spectrum by ‘deflating’ the harmful eigenvalues. In this work, deflation is applied to linear systems in reservoir simulation. In particular, large, sudden differences in the permeability produce extreme eigenvalues. The number and magnitude of these eigenvalues is linked to the number and magnitude of the permeability jumps. Two deflation methods are discussed. Firstly, we state that harmonic Ritz eigenvector deflation, which computes the deflation vectors from the information produced by the linear solver, is unfeasible in modern reservoir simulation due to high costs and lack of parallelism. Secondly, we test a physics-based subdomain-levelset deflation algorithm that constructs the deflation vectors a priori. Numerical experiments show that both methods can improve the performance of the linear solver. We highlight the fact that subdomain-levelset deflation is particularly suitable for a parallel implementation. For cases with well-defined permeability jumps of a factor 10 4 or higher, parallel physics-based deflation has potential in commercial applications. In particular, the good scalability of parallel subdomain-levelset deflation combined with the robust parallel preconditioner for deflated system suggests the use of this method as an alternative for AMG.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Deflation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Harmonic Ritz deflation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Physics-based deflation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Preconditioners</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Reservoir simulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Extreme eigenvalues</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GMRES</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jönsthövel, T.B.</subfield>
+    <subfield code="v">Schlumberger Abingdon Technology Center, Abingdon, OX14 1UJ, United Kingdom</subfield>
+    <subfield code="m">tjonsthovel@slb.com</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lukyanov, A.A.</subfield>
+    <subfield code="v">Schlumberger-Doll Research, Cambridge, MA, 02139, USA</subfield>
+    <subfield code="m">alukyanov@slb.com</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vuik, C.</subfield>
+    <subfield code="v">Delft University of Technology, Faculty of Electrical Engineering, Mathematics and Computer Science, Delft Institute of Applied Mathematics, Mekelweg 4, Delft, 2628CD, The Netherlands</subfield>
+    <subfield code="m">c.vuik@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">340-358</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aksoylu, B.</subfield>
+    <subfield code="h">Klie, H.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Physics-based preconditioners for porous media flow applications</subfield>
+    <subfield code="p">The University of Texas at Austin, Institute for Computational Engineering and Sciences Austin, TX</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">ICES Technical Report 07-08</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burrage, K.</subfield>
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="t">On the performance of various adaptive preconditioned GMRES strategies</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,5,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cao, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="h">Wallis, J.R.</subfield>
+    <subfield code="h">Yardumian, H.</subfield>
+    <subfield code="t">Parallel scalable unstructured CPR-type linear solver for reservoir simulation</subfield>
+    <subfield code="p">SPE Annual Technical Conference and Exhibition, Dallas, Texas, 9–12 October 2005, 2005</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Lucas, P.</subfield>
+    <subfield code="h">van Gijzen, M.B.</subfield>
+    <subfield code="h">Bijl, H.</subfield>
+    <subfield code="t">A general algorithm for reusing Krylov subspace information. I. Unsteady Navier–Stokes</subfield>
+    <subfield code="p">NASA, Langley Research Center</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">NASA/TM 2010216190</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapman, A.</subfield>
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Deflated and augmented Krylov subspace techniques</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,4,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.A. Christie, M.J. Blunt</subfield>
+    <subfield code="m">Tenth SPE comparative solution project: a comparison of upscaling techniques, Presented at SPE Reservoir Simulation Symposium, Houston, TX, 11-14 February, SPE-66599-MS</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cortinovis, D.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">Iterative Galerkin-enriched multiscale finite-volume method</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,277,248</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">De Gersem, H.</subfield>
+    <subfield code="h">Hameyer, K.</subfield>
+    <subfield code="t">A deflated iterative solver for magnetostatic finite element models with large differences in permeability</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Eur.Phys.J.Appl.Phys.,13,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dostál, Z.</subfield>
+    <subfield code="t">Conjugate gradient method with preconditioning by projector</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Comput.Math.,23,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Efendiev, Y.</subfield>
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="t">Multiscale Finite Element Methods: Theory and Applications</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Burrage, K.</subfield>
+    <subfield code="h">Pohl, B.</subfield>
+    <subfield code="t">Restarted GMRES preconditioned by deflation</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,69,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frank, J.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">On the construction of deflation-based preconditioners</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,442</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Lunati, I.</subfield>
+    <subfield code="t">Accurate and efficient simulation of multiphase flow in a heterogeneous reservoir by using error estimate and control in the multiscale finite-volume framework</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SPE J.,17,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hestenes, M.R.</subfield>
+    <subfield code="h">Stiefel, E.</subfield>
+    <subfield code="t">Methods of conjugate gradients for solving linear systems</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Res.Natl.Bur.Stand.,49,409</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Wu, X.-H.</subfield>
+    <subfield code="t">A multiscale finite element method for elliptic problems in composite materials and porous media</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,134,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Multiscale finite-volume method for elliptic problems in subsurface flow simulation</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,187,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jönsthövel, T.B.</subfield>
+    <subfield code="h">van Gijzen, M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Scarpas, A.</subfield>
+    <subfield code="t">On the use of rigid body modes in the deflated preconditioned conjugate gradient method</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,B207</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jönsthövel, T.B.</subfield>
+    <subfield code="h">van Gijzen, M.B.</subfield>
+    <subfield code="h">MacLachlan, S.</subfield>
+    <subfield code="h">Scarpas, A.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">Comparison of the deflated preconditioned conjugate gradient method and algebraic multigrid for composite materials</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Comput.Mech.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jönsthövel, T.B.</subfield>
+    <subfield code="h">van Gijzen, M.B.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Kasbergen, C.</subfield>
+    <subfield code="h">Scarpas, A.</subfield>
+    <subfield code="t">Preconditioned conjugate gradient method enhanced by deflation of rigid body modes applied to composite materials</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Model.Eng.Sci.,47,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Killough, J.E.</subfield>
+    <subfield code="h">Kossack, C.A.</subfield>
+    <subfield code="t">Fifth comparative solution project: evaluation of miscible flood simulators</subfield>
+    <subfield code="p">SPE Symposium on Reservoir Simulation, San Antonio, Texas, 1–4 February 1987, 1987</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klie, H.</subfield>
+    <subfield code="h">Monteagudo, J.</subfield>
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Rodriguez, A.</subfield>
+    <subfield code="t">Towards a new generation of physics-driven solvers for black-oil and compositional flow simulation</subfield>
+    <subfield code="p">SPE Reservoir Simulation Symposium, The Woodlands, Texas, 2–4 February 2009, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klie, H.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="h">Stueben, K.</subfield>
+    <subfield code="h">Clees, T.</subfield>
+    <subfield code="t">Deflation AMG solvers for highly ill-conditioned reservoir simulation problems</subfield>
+    <subfield code="p">SPE Reservoir Simulation Symposium, Houston, Texas, 26–28 February 2007, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Zhou, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Adaptive multiscale finite-volume method for nonlinear multiphase transport in heterogeneous formations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,228,9036</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lingen, F.J.</subfield>
+    <subfield code="h">Bonnier, P.G.</subfield>
+    <subfield code="h">Brinkgreve, R.B.J.</subfield>
+    <subfield code="h">van Gijzen, M.B.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">A parallel linear solver exploiting the physical properties of the underlying mechanical problem</subfield>
+    <subfield code="p">Delft University of Technology, Delft Institute of Applied Mathematics Delft</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Report 12-12</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">MacLachlan, S.P.</subfield>
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">Fast and robust solvers for pressure-correction in bubbly flow problems</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9742</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mansfield, L.</subfield>
+    <subfield code="t">On the conjugate gradient solution of the Schur complement system obtained from domain decomposition</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,27,1612</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mansfield, L.</subfield>
+    <subfield code="t">Damped Jacobi preconditioning and coarse grid deflation for conjugate gradient iteration on parallel computers</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,12,1314</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morgan, R.B.</subfield>
+    <subfield code="t">GMRES with deflated restarting</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicolaides, R.A.</subfield>
+    <subfield code="t">Deflation of conjugate gradients with applications to boundary value problems</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,24,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ruge, J.W.</subfield>
+    <subfield code="h">Stuben, K.</subfield>
+    <subfield code="t">Algebraic multigrid (AMG)</subfield>
+    <subfield code="v">vol. 3</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Multigrid Methods,vol. 3,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="t">GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Schlumberger, Chevron, and Total. Intersect version.1. Technical description, Houston, TX</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, G.W.</subfield>
+    <subfield code="t">Matrix Algorithms</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics Philadelphia, PA, USA</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">Acceleration of preconditioned Krylov solvers for bubbly flow problems</subfield>
+    <subfield code="v">vol. 4487</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.,vol. 4487,874</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">Efficient deflation methods applied to 3-D bubbly flow problems</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Electron.Trans.Numer.Anal.,26,330</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">New variants of deflation techniques for pressure correction in bubbly flow problems</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Numer.Anal.Ind.Appl.Math.,2,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="t">Parallel deflated CG methods applied to linear systems from moving boundary problems</subfield>
+    <subfield code="p">Delft University of Technology, Delft Institute of Applied Mathematics Delft</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Report 05-02</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="t">Two-Level preconditioned conjugate gradient methods with applications to bubbly flow problems</subfield>
+    <subfield code="p">TU Delft</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">PhD Thesis</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trottenberg, U.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Schüller, A.</subfield>
+    <subfield code="t">Multigrid, Texts in Applied Mathematics, vol. 33</subfield>
+    <subfield code="p">Academic Press San Diego [u.a.]</subfield>
+    <subfield code="v">vol. 33</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">With contributions by A. Brandt, P. Oswald and K. Stben</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Linden, J.H.</subfield>
+    <subfield code="t">Development of a deflation-based linear solver in reservoir simulation</subfield>
+    <subfield code="p">TU Delft</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">MSc Thesis</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vorst, H.A.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">The superlinear convergence behaviour of GMRES</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,48,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van 't Wout, E.</subfield>
+    <subfield code="h">van Gijzen, M.B.</subfield>
+    <subfield code="h">Ditzel, A.</subfield>
+    <subfield code="h">van der Ploeg, A.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">The deflated relaxed incomplete Cholesky CG method for use in a real-time ship simulator</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Proc.Comput.Sci.,1,249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vermolen, F.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, A.</subfield>
+    <subfield code="t">Deflation in preconditioned conjugate gradient methods for finite element problems</subfield>
+    <subfield code="p">Berlin: Springer</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="e">Kr̆iz̆ek,M.</subfield>
+    <subfield code="e">Neittaanmäki,P.</subfield>
+    <subfield code="e">Glowinski,R.</subfield>
+    <subfield code="e">Korotov,S.</subfield>
+    <subfield code="q">Conjugate Gradient and Finite Element Methods</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, A.</subfield>
+    <subfield code="h">el Yaakoubi, L.</subfield>
+    <subfield code="h">Dufour, E.</subfield>
+    <subfield code="t">A comparison of various deflation vectors applied to elliptic problems with discontinuous coefficients</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Appl.Numer.Math.,41,219</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, A.</subfield>
+    <subfield code="h">Meijerink, J.A.</subfield>
+    <subfield code="t">An efficient preconditioned CG method for the solution of a class of layered problems with extreme contrasts in the coefficients</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,152,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, A.</subfield>
+    <subfield code="h">Meijerink, J.A.</subfield>
+    <subfield code="h">Frank, J.</subfield>
+    <subfield code="t">Deflated ICCG applied to problems with extreme contrasts in the coefficients</subfield>
+    <subfield code="p">Sixth Copper Mountain Conference on Iterative Methods, Copper Mountain, Colorado, April 2–April 7, 2000, 2000</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, A.</subfield>
+    <subfield code="h">Meijerink, J.A.</subfield>
+    <subfield code="h">Wijma, G.T.</subfield>
+    <subfield code="t">The construction of projection vectors for a deflated ICCG method applied to problems with extreme contrasts in the coefficients</subfield>
+    <subfield code="v">172</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,172,426</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Segal, G.</subfield>
+    <subfield code="h">Meijerink, K.</subfield>
+    <subfield code="t">An efficient CG method for layered problems with large contrasts in the coefficients</subfield>
+    <subfield code="p">Fifth Copper Mountain Conference on Iterative Methods, Copper Mountain, Colorado, March 30–April 3, 1998, 1998</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wallis, J.R.</subfield>
+    <subfield code="t">Incomplete Gaussian elimination as a preconditioning for generalized conjugate gradient acceleration</subfield>
+    <subfield code="p">SPE Reservoir Simulation Symposium, San Francisco, California, 15–18 November 1983, 1983</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wallis, J.R.</subfield>
+    <subfield code="h">Kendall, R.P.</subfield>
+    <subfield code="h">Little, T.E.</subfield>
+    <subfield code="h">Nolen, J.S.</subfield>
+    <subfield code="t">Assocs. Inc., Constrained residual acceleration of conjugate residual methods</subfield>
+    <subfield code="p">SPE Reservoir Simulation Symposium, Dallas, Texas, 10–13 February 1985, 1985</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">Algebraic multiscale linear solver for heterogeneous elliptic problems</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,259,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yeung, M.C.</subfield>
+    <subfield code="h">Tang, J.M.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">On the convergence of GMRES with invariant-subspace deflation</subfield>
+    <subfield code="p">Delft University of Technology, Delft Institute of Applied Mathematics Delft</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Report 10-14</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00210/S0021999115006804/S0021999115006804.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

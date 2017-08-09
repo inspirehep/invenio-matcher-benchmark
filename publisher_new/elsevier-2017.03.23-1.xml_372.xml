@@ -1,0 +1,628 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.08.024</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Mu, Lin</subfield>
+    <subfield code="v">Computer Science and Mathematics Division, Oak Ridge National Laboratory, Oak Ridge, TN, 37831, United States</subfield>
+    <subfield code="m">mul1@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A new weak Galerkin finite element method for elliptic interface problems</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-11-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A new weak Galerkin (WG) finite element method is introduced and analyzed in this paper for solving second order elliptic equations with discontinuous coefficients and interfaces. Comparing with the existing WG algorithm for solving the same type problems, the present WG method has a simpler variational formulation and fewer unknowns. Moreover, the new WG algorithm allows the use of finite element partitions consisting of general polytopal meshes and can be easily generalized to high orders. Optimal order error estimates in both <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>H</mi></mrow><mrow><mn>1</mn></mrow></msup></math> and <math altimg="si2.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msup></math> norms are established for the present WG finite element solutions. Extensive numerical experiments have been conducted to examine the accuracy, flexibility, and robustness of the proposed WG interface approach. In solving regular elliptic interface problems, high order convergences are numerically confirmed by using piecewise polynomial basis functions of high degrees. Moreover, the WG method is shown to be able to accommodate very complicated interfaces, due to its flexibility in choosing finite element partitions. Finally, in dealing with challenging problems with low regularities, the piecewise linear WG method is capable of delivering a second order of accuracy in <math altimg="si3.gif" display="inline" overflow="scroll"><msub><mrow><mi>L</mi></mrow><mrow><mo>∞</mo></mrow></msub></math> norm for both <math altimg="si4.gif" display="inline" overflow="scroll"><msup><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msup></math> and <math altimg="si5.gif" display="inline" overflow="scroll"><msup><mrow><mi>H</mi></mrow><mrow><mn>2</mn></mrow></msup></math> continuous solutions.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Weak Galerkin method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Elliptic interface problem</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonsmooth interface</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Low solution regularity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Junping</subfield>
+    <subfield code="v">Division of Mathematical Sciences, National Science Foundation, Arlington, VA, 22230, United States</subfield>
+    <subfield code="m">jwang@nsf.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ye, Xiu</subfield>
+    <subfield code="v">Department of Mathematics and Statistics, University of Arkansas at Little Rock, Little Rock, AR, 72204, United States</subfield>
+    <subfield code="m">xxye@ualr.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhao, Shan</subfield>
+    <subfield code="j">ORCID:0000-0002-3023-2107</subfield>
+    <subfield code="v">Department of Mathematics, University of Alabama, Tuscaloosa, AL, 35487, United States</subfield>
+    <subfield code="m">szhao@ua.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">157-173</subfield>
+    <subfield code="v">325</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="t">The finite element method for elliptic equations with discontinuous coefficients</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Computing,5,207</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bedrossian, J.</subfield>
+    <subfield code="h">von Brecht, J.H.</subfield>
+    <subfield code="h">Zhu, S.W.</subfield>
+    <subfield code="h">Sifakis, E.</subfield>
+    <subfield code="h">Teran, J.M.</subfield>
+    <subfield code="t">A finite element method for interface problems in domains with smooth boundaries and interfaces</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berthelsen, P.A.</subfield>
+    <subfield code="t">A decomposed immersed interface method for variable coefficient elliptic equations with non-smooth and discontinuous solutions</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,197,364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bramble, J.</subfield>
+    <subfield code="h">King, J.</subfield>
+    <subfield code="t">A finite element method for interface problems in domains with smooth boundaries and interfaces</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Adv.Comput.Math.,6,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Lipnikov, K.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Two families of mixed finite elements for second order elliptic problems</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Numer.Math.,47,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">Interior-penalty-stabilized Lagrange multiplier methods for the finite-element solution of elliptic interface problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,30,870</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cai, Z.</subfield>
+    <subfield code="h">Ye, X.</subfield>
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="t">Discontinuous Galerkin finite element methods for interface problems: a priori and a posteriori error estimations</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,49,1761</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, D.</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Chen, C.</subfield>
+    <subfield code="h">Geng, W.H.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">MIBPB: a software package for electrostatic analysis</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Chem.,32,657</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, T.</subfield>
+    <subfield code="h">Strain, J.</subfield>
+    <subfield code="t">Piecewise-polynomial discretization and Krylov-accelerated multigrid for elliptic interface problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,16,7503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Zou, J.</subfield>
+    <subfield code="t">Finite element methods and their convergence for elliptic and parabolic interface problems</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Numer.Math.,79,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chern, I.-L.</subfield>
+    <subfield code="h">Shu, Y.-C.</subfield>
+    <subfield code="t">A coupling interface method for elliptic interface problems</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,225,2138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dryjaa, M.</subfield>
+    <subfield code="h">Galvisb, J.</subfield>
+    <subfield code="h">Sarkisb, M.</subfield>
+    <subfield code="t">BDDC methods for discontinuous Galerkin discretization of elliptic problems</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Complex.,23,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ewing, R.E.</subfield>
+    <subfield code="h">Li, Z.L.</subfield>
+    <subfield code="h">Lin, T.</subfield>
+    <subfield code="h">Lin, Y.P.</subfield>
+    <subfield code="t">The immersed finite volume element methods for the elliptic interface problems</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Math.Comput.Simul.,50,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fedkiw, R.P.</subfield>
+    <subfield code="h">Aslam, T.</subfield>
+    <subfield code="h">Merriman, B.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">A non-oscillatory Eulerian approach to interfaces in multimaterial flows (the ghost fluid method)</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,152,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geng, W.H.</subfield>
+    <subfield code="h">Yu, S.N.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">Treatment of charge singularities in implicit solvent models</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Chem.Phys.,127,114106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="h">Pan, T.-W.</subfield>
+    <subfield code="h">Periaux, J.</subfield>
+    <subfield code="t">A fictitious domain method for Dirichlet problem and applications</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,111,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guyomarc'h, G.</subfield>
+    <subfield code="h">Lee, C.O.</subfield>
+    <subfield code="h">Jeon, K.</subfield>
+    <subfield code="t">A discontinuous Galerkin method for elliptic interface problems with application to electroporation</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Commun.Numer.Methods Eng.,25,991</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hadley, G.R.</subfield>
+    <subfield code="t">High-accuracy finite-difference equations for dielectric waveguide analysis i: uniform regions and dielectric interfaces</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Lightwave Technol.,20,1210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hansbo, A.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">An unfitted finite element method</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,5537</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Dolbow, J.</subfield>
+    <subfield code="t">Analysis of an efficient finite element method for embedded interface problems</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Mech.,46,205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Lin, T.</subfield>
+    <subfield code="h">Lin, Y.</subfield>
+    <subfield code="t">Interior penalty bilinear IFE discontinuous Galerkin methods for elliptic equations with discontinuous coefficient</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Syst.Sci.Complex.,23,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hellrung, J.L.</subfield>
+    <subfield code="h">Wang, L.M.</subfield>
+    <subfield code="h">Sifakis, E.</subfield>
+    <subfield code="h">Teran, J.M.</subfield>
+    <subfield code="t">A second order virtual node method for elliptic problems with interfaces and irregular domains in three dimensions</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">High-order accurate methods in time-domain computational electromagnetics. A review</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Adv.Imaging Electron Phys.,127,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hiptmair, R.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Zou, J.</subfield>
+    <subfield code="t">Convergence analysis of finite element methods for H(div;Omega)-elliptic interface problems</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Numer.Math.,18,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Horikis, T.P.</subfield>
+    <subfield code="h">Kath, W.L.</subfield>
+    <subfield code="t">Modal analysis of circular bragg fibers with arbitrary index profiles</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Opt.Lett.,31,3417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, S.M.</subfield>
+    <subfield code="h">Liu, X.-D.</subfield>
+    <subfield code="t">A numerical method for solving variable coefficient elliptic equation with interfaces</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,202,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, S.M.</subfield>
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="h">Wang, L.Q.</subfield>
+    <subfield code="t">Numerical method for solving matrix coefficient elliptic equation with sharp-edged interfaces</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, S.M.</subfield>
+    <subfield code="h">Song, P.</subfield>
+    <subfield code="h">Wang, L.Q.</subfield>
+    <subfield code="h">Zhao, H.K.</subfield>
+    <subfield code="t">A weak formulation for solving elliptic interface problems without body fitted grid</subfield>
+    <subfield code="v">249</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,249,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Li, Z.L.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Zhao, H.K.</subfield>
+    <subfield code="t">A hybrid method for moving interface problems with application to the hele-shaw flow</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,134,236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, L.N.T.</subfield>
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Khoo, B.C.</subfield>
+    <subfield code="t">A high-order hybridizable discontinuous Galerkin method for elliptic interface problems</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,93,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Layton, A.T.</subfield>
+    <subfield code="t">Using integral equations and the immersed interface method to solve immersed boundary problems with stiff forces</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Fluids,38,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="h">Li, Z.L.</subfield>
+    <subfield code="t">The immersed interface method for elliptic equations with discontinuous coefficients and singular sources</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,31,1019</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.L.</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="t">Maximum principle preserving schemes for interface problems with discontinuous coefficients</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.L.</subfield>
+    <subfield code="h">Ito, K.</subfield>
+    <subfield code="t">The immersed interface method – numerical solutions of PDEs involving interfaces and irregular domains, Frontiers Appl. Math., </subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Massjung, R.</subfield>
+    <subfield code="t">An unfitted discontinuous Galerkin method applied to elliptic interface problems</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,3134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mayo, A.</subfield>
+    <subfield code="t">The fast solution of Poisson's and the biharmonic equations on irregular regions</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,21,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mu, L.</subfield>
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="h">Ye, X.</subfield>
+    <subfield code="h">Zhao, S.</subfield>
+    <subfield code="t">Weak Galerkin methods for second order elliptic interface problems</subfield>
+    <subfield code="v">250</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,250,106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mu, L.</subfield>
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Ye, X.</subfield>
+    <subfield code="t">Weak Galerkin finite element methods on polytopal meshes</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Int.J.Numer.Anal.Model.,12,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oevermann, M.</subfield>
+    <subfield code="h">Klein, R.</subfield>
+    <subfield code="t">A Cartesian grid finite volume method for elliptic equations with variable coefficients and embedded interfaces</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,219,749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="h">McQueen, D.M.</subfield>
+    <subfield code="t">A 3-dimensional computational method for blood-flow in the heart. 1. Immersed elastic fibers in a viscous incompressible fluid</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,81,372</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramiere, I.</subfield>
+    <subfield code="t">Convergence analysis of the <math altimg="si191.gif" display="inline" overflow="scroll"><msub><mrow><mi>q</mi></mrow><mrow><mn>1</mn></mrow></msub></math> -finite element method for elliptic problems with non-boundary-fitted meshes</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,75,1007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raviart, P.A.</subfield>
+    <subfield code="h">Thomas, J.M.</subfield>
+    <subfield code="t">A mixed finite element method for 2-nd order elliptic problems</subfield>
+    <subfield code="v">vol. 606</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Lect.Notes Math.,vol. 606,292</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, D.A.</subfield>
+    <subfield code="h">Li, R.</subfield>
+    <subfield code="h">Yan, N.N.</subfield>
+    <subfield code="t">An edge-based anisotropic mesh refinement algorithm and its application to interface problems</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Commun.Comput.Phys.,8,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Ye, X.</subfield>
+    <subfield code="t">A weak Galerkin finite element method for second-order elliptic problems</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,241,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Ye, X.</subfield>
+    <subfield code="t">A weak Galerkin mixed finite element method for second order elliptic problems</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Math.Comput.,83,2101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, X.S.</subfield>
+    <subfield code="h">Zhang, L.T.</subfield>
+    <subfield code="h">Kam, L.W.</subfield>
+    <subfield code="t">On computational issues of immersed finite element methods</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2535</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weigmann, A.</subfield>
+    <subfield code="h">Bube, K.</subfield>
+    <subfield code="t">The explicit-jump immersed interface method: finite difference methods for PDEs with piecewise smooth solutions</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,827</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, K.N.</subfield>
+    <subfield code="h">Zhan, M.</subfield>
+    <subfield code="h">Wei, G.-W.</subfield>
+    <subfield code="t">MIB Galerkin method for elliptic interface problems</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,272,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, K.N.</subfield>
+    <subfield code="h">Wei, G.-W.</subfield>
+    <subfield code="t">A Galerkin formulation of the MIB method for three dimensional elliptic interface problems</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.Math.Appl.,68,719</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ying, W.J.</subfield>
+    <subfield code="h">Wang, W.C.</subfield>
+    <subfield code="t">A kernel-free boundary integral method for implicitly defined surfaces</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,252,606</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, S.N.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">Three-dimensional matched interface and boundary (MIB) method for treating geometric singularities</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,227,602</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, S.N.</subfield>
+    <subfield code="h">Zhou, Y.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">Matched interface and boundary (MIB) method for elliptic problems with sharp-edged interfaces</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,224,729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, S.N.</subfield>
+    <subfield code="h">Geng, W.H.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">Treatment of geometric singularities in implicit solvent models</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Chem.Phys.,126,244108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, S.</subfield>
+    <subfield code="t">High order matched interface and boundary methods for the helmholtz equation in media with arbitrarily curved interfaces</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, S.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">High-order FDTD methods via derivative matching for Maxwell's equations with material interfaces</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,200,60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, Y.C.</subfield>
+    <subfield code="h">Zhao, S.</subfield>
+    <subfield code="h">Feig, M.</subfield>
+    <subfield code="h">Wei, G.W.</subfield>
+    <subfield code="t">High order matched interface and boundary method for elliptic equations with discontinuous coefficients and singular sources</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,213,1</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00186/S0021999116303746/S0021999116303746.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

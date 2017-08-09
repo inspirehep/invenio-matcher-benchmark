@@ -1,0 +1,330 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.048</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Duru, Kenneth</subfield>
+    <subfield code="v">Department of Geophysics, Stanford University, Stanford, CA, United States</subfield>
+    <subfield code="m">kduru@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Boundary conditions and stability of a perfectly matched layer for the elastic wave equation in first order form</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In computations, it is now common to surround artificial boundaries of a computational domain with a perfectly matched layer (PML) of finite thickness in order to prevent artificially reflected waves from contaminating a numerical simulation. Unfortunately, the PML does not give us an indication about appropriate boundary conditions needed to close the edges of the PML, or how those boundary conditions should be enforced in a numerical setting. Terminating the PML with an inappropriate boundary condition or an unstable numerical boundary procedure can lead to exponential growth in the PML which will eventually destroy the accuracy of a numerical simulation everywhere. In this paper, we analyze the stability and the well-posedness of boundary conditions terminating the PML for the elastic wave equation in first order form. First, we consider a vertical modal PML truncating a two space dimensional computational domain in the horizontal direction. We freeze all coefficients and consider a left half-plane problem with linear boundary conditions terminating the PML. The normal mode analysis is used to study the stability and well-posedness of the resulting initial boundary value problem (IBVP). The result is that any linear well-posed boundary condition yielding an energy estimate for the elastic wave equation, without the PML, will also lead to a well-posed IBVP for the PML. Second, we extend the analysis to the PML corner region where both a horizontal and vertical PML are simultaneously active. The challenge lies in constructing accurate and stable numerical approximations for the PML and the boundary conditions. Third, we develop a high order accurate finite difference approximation of the PML subject to the boundary conditions. To enable accurate and stable numerical boundary treatments for the PML we construct continuous energy estimates in the Laplace space for a one space dimensional problem and two space dimensional PML corner problem. We use summation-by-parts finite difference operators to approximate the spatial derivatives and impose boundary conditions weakly using penalties. In order to ensure numerical stability of the discrete PML, it is necessary to extend the numerical boundary procedure to the auxiliary differential equations. This is crucial for deriving discrete energy estimates analogous to the continuous energy estimates. Numerical experiments are presented corroborating the theoretical results. Moreover, in order to ensure longtime numerical stability, the boundary condition closing the PML, or its corresponding discrete implementation, must be dissipative. Furthermore, the numerical experiments demonstrate the stable and robust treatment of PML corners.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Elastic wave equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">First order systems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rayleigh surface waves</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Perfectly matched layers</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Normal mode analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order finite difference</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Summation-by-parts</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Penalty method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kozdon, Jeremy E.</subfield>
+    <subfield code="j">ORCID:0000-0002-2493-4292</subfield>
+    <subfield code="v">Department of Applied Mathematics, Naval Postgraduate School, Monterey, CA, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kreiss, Gunilla</subfield>
+    <subfield code="v">Division of Scientific Computing, Department of Information Technology, Uppsala University, Sweden</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">372-395</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bérenger, J.-P.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bécache, E.</subfield>
+    <subfield code="h">Fauqueux, S.</subfield>
+    <subfield code="h">Joly, P.</subfield>
+    <subfield code="t">Stability of perfectly matched layers, group velocities and anisotropic waves</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,188,399</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Appelö, D.</subfield>
+    <subfield code="h">Kreiss, G.</subfield>
+    <subfield code="t">A new absorbing layer for elastic waves</subfield>
+    <subfield code="v">215</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,215,642</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duru, K.</subfield>
+    <subfield code="h">Kreiss, G.</subfield>
+    <subfield code="t">Boundary waves and stability of the perfectly matched layer for the two space dimensional elastic wave equation in second order form</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,52,2883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Skelton, E.A.</subfield>
+    <subfield code="h">Adams, S.D.M.</subfield>
+    <subfield code="h">Craster, R.V.</subfield>
+    <subfield code="t">Guided elastic waves and perfectly matched layers</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Wave Motion,44,573</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zeng, C.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Miller, R.</subfield>
+    <subfield code="h">Tsoflias, G.</subfield>
+    <subfield code="t">Application of the multi-axial perfectly matched layer (M-PML) to near-surface seismic modeling with Rayleigh waves</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Geophysics,76,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzuoglu, M.</subfield>
+    <subfield code="h">Mittra, R.</subfield>
+    <subfield code="t">Frequency dependence of the constitutive parameters of causal perfectly matched anisotropic absorbers</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">IEEE Microw.Guided Wave Lett.,6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xie, Z.</subfield>
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Martin, R.</subfield>
+    <subfield code="h">Matzen, R.</subfield>
+    <subfield code="t">Improved forward wave propagation and adjoint-based sensitivity kernel calculations using a numerically stable finite-element PML</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Geophys.J.Int.,198,1714</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duru, K.</subfield>
+    <subfield code="h">Kreiss, G.</subfield>
+    <subfield code="t">A Well-posed and discretely stable perfectly matched layer for elastic wave equations in second order formulation</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Commun.Comput.Phys.,11,1643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duru, K.</subfield>
+    <subfield code="t">Perfectly matched layers and high order difference methods for wave equations</subfield>
+    <subfield code="p">Uppsala University</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">PhD Thesis</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duru, K.</subfield>
+    <subfield code="t">The role of numerical boundary procedures in the stability of perfectly matched layers</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">to appear</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="h">Petersson, N.A.</subfield>
+    <subfield code="t">Perfectly matched layer for Maxwell's equation in second order formulation</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,209,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Halpern, L.</subfield>
+    <subfield code="h">Petit-Bergez, S.</subfield>
+    <subfield code="h">Rauch, J.</subfield>
+    <subfield code="t">The analysis of matched layers</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Confluentes Math.,3,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Appelö, D.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">A high order super-grid-scale absorbing layer and its application to linear hyperbolic systems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tago, J.</subfield>
+    <subfield code="h">Métivier, L.</subfield>
+    <subfield code="h">Virieux, J.</subfield>
+    <subfield code="t">SMART layers: a simple and robust alternative to PML approaches for elastodynamics</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Geophys.J.Int.,199,700</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kreiss, H.-O.</subfield>
+    <subfield code="h">Petersson, N.A.</subfield>
+    <subfield code="t">Boundary estimates for the elastic wave equations in almost incompressible materials</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,1556</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kreiss, H.-O.</subfield>
+    <subfield code="h">Scherer, G.</subfield>
+    <subfield code="t">Finite element and finite difference methods for hyperbolic partial differential equations</subfield>
+    <subfield code="p">New York: Academic Press</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="q">Mathematical Aspects of Finite Elements in Partial Differential Equations</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kozdon, J.</subfield>
+    <subfield code="h">Dunham, E.</subfield>
+    <subfield code="h">Nordström, J.</subfield>
+    <subfield code="t">Simulation of dynamic earthquake ruptures in complex geometries using high-order finite difference methods</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Sci.Comput.,55,92</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Givoli, D.</subfield>
+    <subfield code="t">High-order local non-reflecting boundary conditions: a review</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Wave Motion,39,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hagstrom, T.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="h">Givoli, D.</subfield>
+    <subfield code="t">Radiation boundary conditions for time-dependent waves based on complete plane waves expansions</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,234,1988</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="h">Abarbanel, S.</subfield>
+    <subfield code="t">Time-stable boundary conditions for finite-difference schemes solving hyperbolic systems: methodology and application to high-order compact schemes</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,111,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gustafsson, B.</subfield>
+    <subfield code="t">High Order Difference Methods for Time Dependent PDE</subfield>
+    <subfield code="p">Springer-Verlag Berlin, Heidelberg</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.10.021</subfield>
+    <subfield code="h">Duru, K.</subfield>
+    <subfield code="h">Dunham, E.M.</subfield>
+    <subfield code="t">Dynamic earthquake rupture simulations on nonplanar faults embedded in 3D geometrically complex, heterogeneous elastic solids</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strand, B.</subfield>
+    <subfield code="t">Summation by parts for finite difference approximations for <math altimg="si491.gif" display="inline" overflow="scroll"><mi>d</mi><mo stretchy="false">/</mo><mi>d</mi><mi>x</mi></math></subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,110,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gassner, G.J.</subfield>
+    <subfield code="t">A skew-symmetric discontinuous Galerkin spectral element discretization and its relation to SBP-SAT finite difference methods</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A1233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nordstrom, J.</subfield>
+    <subfield code="t">Error bounded schemes for time-dependent hyperbolic problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,46</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006567/S0021999115006567.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

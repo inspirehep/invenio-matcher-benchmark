@@ -1,0 +1,378 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.049</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Zimoń, M.J.</subfield>
+    <subfield code="v">School of Mechanical, Aerospace and Civil Engineering, The University of Manchester, Manchester, M13 9PL, UK</subfield>
+    <subfield code="v">James Weir Fluids Lab, Mechanical and Aerospace Engineering Department, The University of Strathclyde, Glasgow, G1 1XJ, UK</subfield>
+    <subfield code="m">malgorzata.zimon@stfc.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A novel coupling of noise reduction algorithms for particle flow simulations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Proper orthogonal decomposition (POD) and its extension based on time-windows have been shown to greatly improve the effectiveness of recovering smooth ensemble solutions from noisy particle data. However, to successfully de-noise any molecular system, a large number of measurements still need to be provided. In order to achieve a better efficiency in processing time-dependent fields, we have combined POD with a well-established signal processing technique, wavelet-based thresholding. In this novel hybrid procedure, the wavelet filtering is applied within the POD domain and referred to as WAVinPOD. The algorithm exhibits promising results when applied to both synthetically generated signals and particle data. In this work, the simulations compare the performance of our new approach with standard POD or wavelet analysis in extracting smooth profiles from noisy velocity and density fields. Numerical examples include molecular dynamics and dissipative particle dynamics simulations of unsteady force- and shear-driven liquid flows, as well as phase separation phenomenon. Simulation results confirm that WAVinPOD preserves the dimensionality reduction obtained using POD, while improving its filtering properties through the sparse representation of data in wavelet basis. This paper shows that WAVinPOD outperforms the other estimators for both synthetically generated signals and particle-based measurements, achieving a higher signal-to-noise ratio from a smaller number of samples. The new filtering methodology offers significant computational savings, particularly for multi-scale applications seeking to couple continuum informations with atomistic models. It is the first time that a rigorous analysis has compared de-noising techniques for particle-based fluid simulations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Noise reduction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Particle-based simulations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Molecular dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dissipative particle dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Windowed proper orthogonal decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wavelet thresholding</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Reese, J.M.</subfield>
+    <subfield code="v">School of Engineering, The University of Edinburgh, Edinburgh, EH9 3JL, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Emerson, D.R.</subfield>
+    <subfield code="v">Scientific Computing Department, STFC, Daresbury Laboratory, Warrington, WA4 4AD, UK</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">169-190</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.</subfield>
+    <subfield code="h">Beskok, A.</subfield>
+    <subfield code="h">Aluru, N.</subfield>
+    <subfield code="t">Microflows and Nanoflows: Fundamentals and Simulation</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berkooz, P.</subfield>
+    <subfield code="h">Holmes, G.</subfield>
+    <subfield code="h">Lumley, J.L.</subfield>
+    <subfield code="t">The proper orthogonal decomposition in the analysis of turbulent flows</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,25,539</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grinberg, L.</subfield>
+    <subfield code="t">Proper orthogonal decomposition of atomistic flow simulations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donoho, D.L.</subfield>
+    <subfield code="h">Johnstone, J.M.</subfield>
+    <subfield code="t">Ideal spatial adaptation by wavelet shrinkage</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Biometrika,81,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coifman, R.R.</subfield>
+    <subfield code="h">Donoho, D.L.</subfield>
+    <subfield code="t">Translation-Invariant De-Noising</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holmes, P.</subfield>
+    <subfield code="h">Lumley, J.L.</subfield>
+    <subfield code="h">Berkooz, G.</subfield>
+    <subfield code="t">Turbulence, Coherent Structures, Dynamical Systems and Symmetry</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chatterjee, A.</subfield>
+    <subfield code="t">An introduction to the proper orthogonal decomposition</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Curr.Sci.,78,808</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farge, M.</subfield>
+    <subfield code="h">Schneider, K.</subfield>
+    <subfield code="t">Analysing and computing turbulent flows using wavelets</subfield>
+    <subfield code="v">vol. 74</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">New Trends in Turbulence,vol. 74,449</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mallat, S.G.</subfield>
+    <subfield code="t">A Wavelet Tour of Signal Processing</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vetterli, M.</subfield>
+    <subfield code="h">Kovačević, J.</subfield>
+    <subfield code="t">Wavelets and Subband Coding, vol. 87</subfield>
+    <subfield code="p">Prentice–Hall</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lumley, J.L.</subfield>
+    <subfield code="t">The structure of inhomogeneous turbulent flows</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="q">Atmospheric Turbulence and Radio Wave Propagation</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craddock, J.M.</subfield>
+    <subfield code="h">Flood, C.R.</subfield>
+    <subfield code="t">Eigenvectors for representing the 500 mb geopotential surface over the Northern Hemisphere</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,95,576</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gavish, M.</subfield>
+    <subfield code="h">Donoho, D.L.</subfield>
+    <subfield code="t">The optimal hard threshold for singular values is 4/sqrt (3)</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">IEEE Trans.Inf.Theory,60,5040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mallat, S.G.</subfield>
+    <subfield code="t">A theory for multiresolution signal decomposition: the wavelet representation</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">IEEE Trans.Pattern Anal.Mach.Intell.,11,674</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meyer, Y.</subfield>
+    <subfield code="t">Orthonormal wavelets</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="q">Wavelets</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Daubechies, I.</subfield>
+    <subfield code="t">Ten Lectures on Wavelets, vol. 61</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="h">Nguyen, T.</subfield>
+    <subfield code="t">Wavelets and Filter Banks</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donoho, D.L.</subfield>
+    <subfield code="t">De-noising by soft-thresholding</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">IEEE Trans.Inf.Theory,41,613</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnstone, I.M.</subfield>
+    <subfield code="h">Silverman, B.W.</subfield>
+    <subfield code="t">Wavelet threshold estimators for data with correlated noise</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,59,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bakshi, B.R.</subfield>
+    <subfield code="t">Multiscale PCA with application to multivariate statistical process monitoring</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">AIChE J.,44,1596</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aminghafari, M.</subfield>
+    <subfield code="h">Cheze, N.</subfield>
+    <subfield code="h">Poggi, J.-M.</subfield>
+    <subfield code="t">Multivariate denoising using wavelets and principal component analysis</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Stat.Data Anal.,50,2381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ross, T.J.</subfield>
+    <subfield code="t">Fuzzy Logic with Engineering Applications</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jolliffe, I.T.</subfield>
+    <subfield code="t">Discarding variables in a principal component analysis. I: Artificial data</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Appl.Stat.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilks, D.S.</subfield>
+    <subfield code="t">Statistical Methods in the Atmospheric Sciences, vol. 100</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Achlioptas, D.</subfield>
+    <subfield code="h">Mcsherry, F.</subfield>
+    <subfield code="t">Fast computation of low-rank matrix approximations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.ACM,54,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deng, M.</subfield>
+    <subfield code="h">Grinberg, L.</subfield>
+    <subfield code="h">Caswell, B.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Effects of thermal noise on the transitional dynamics of an inextensible elastic filament in stagnation flow</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Soft Matter,11,4962</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allen, M.P.</subfield>
+    <subfield code="h">Tildesley, D.J.</subfield>
+    <subfield code="t">Computer Simulation of Liquids</subfield>
+    <subfield code="p">Clarendon Press Oxford</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abascal, J.L.F.</subfield>
+    <subfield code="h">Vega, C.</subfield>
+    <subfield code="t">A general purpose model for the condensed phases of water: TIP4P/2005</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Chem.Phys.,123,234505</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghoufi, A.</subfield>
+    <subfield code="h">Emile, J.</subfield>
+    <subfield code="h">Malfreyt, P.</subfield>
+    <subfield code="t">Recent advances in Many Body Dissipative Particles Dynamics simulations of liquid–vapor interfaces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Eur.Phys.J.,E36,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Groot, R.D.</subfield>
+    <subfield code="h">Warren, P.B.</subfield>
+    <subfield code="t">Dissipative particle dynamics: bridging the gap between atomistic and mesoscopic simulation</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Chem.Phys.,107,4423</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sofos, F.D.</subfield>
+    <subfield code="h">Karakasidis, T.E.</subfield>
+    <subfield code="h">Liakopoulos, A.</subfield>
+    <subfield code="t">Effects of wall roughness on flow in nanochannels</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Phys.Rev.,E79,026305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gotoh, K.</subfield>
+    <subfield code="t">Liquid structure and Lennard-Jones <math altimg="si197.gif" display="inline" overflow="scroll"><mo stretchy="false">(</mo><mn>6</mn><mo>,</mo><mn>12</mn><mo stretchy="false">)</mo></math> pair potential parameters</subfield>
+    <subfield code="v">239</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Nature,239,154</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khinchin, A.I.</subfield>
+    <subfield code="t">Mathematical Foundations of Statistical Mechanics</subfield>
+    <subfield code="p">Courier Corporation</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Priezjev, N.V.</subfield>
+    <subfield code="t">Effect of surface roughness on rate-dependent slip in simple fluids</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Chem.Phys.,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Priezjev, N.V.</subfield>
+    <subfield code="t">Molecular dynamics simulations of oscillatory Couette flows with slip boundary conditions</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Microfluid.Nanofluid.,14,225</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116301942/S0021999116301942.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

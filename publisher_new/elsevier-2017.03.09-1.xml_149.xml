@@ -1,0 +1,611 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.049</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Gerlinger, Peter</subfield>
+    <subfield code="v">Institute of Combustion Technology of Aerospace Engineering, University of Stuttgart, Pfaffenwaldring 38-40, 70569 Stuttgart, Germany</subfield>
+    <subfield code="m">peter.gerlinger@dlr.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Lagrangian transported MDF methods for compressible high speed flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-09</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper deals with the application of thermochemical Lagrangian MDF (mass density function) methods for compressible sub- and supersonic RANS (Reynolds Averaged Navier–Stokes) simulations. A new approach to treat molecular transport is presented. This technique on the one hand ensures numerical stability of the particle solver in laminar regions of the flow field (e.g. in the viscous sublayer) and on the other hand takes differential diffusion into account. It is shown in a detailed analysis, that the new method correctly predicts first and second-order moments on the basis of conventional modeling approaches. Moreover, a number of challenges for MDF particle methods in high speed flows is discussed, e.g. high cell aspect ratio grids close to solid walls, wall heat transfer, shock resolution, and problems from statistical noise which may cause artificial shock systems in supersonic flows. A Mach 2 supersonic mixing channel with multiple shock reflection and a model rocket combustor simulation demonstrate the eligibility of this technique to practical applications. Both test cases are simulated successfully for the first time with a hybrid finite-volume (FV)/Lagrangian particle solver (PS).</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mass density function (MDF)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Probability density function (PDF)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High speed flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Combustion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rocket combustor</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">A Monte Carlo method for the PDF equations of turbulent reactive flows</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Combust.Sci.Technol.,25,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">PDF methods in reactive flows</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,11,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent premixed flames</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,19,237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="h">Correa, S.M.</subfield>
+    <subfield code="t">Joint PDF calculations of a non-equilibrium turbulent diffusion flames</subfield>
+    <subfield code="v">vol. 21</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hsu, A.T.</subfield>
+    <subfield code="t">A Study of Hydrogen Diffusion Flames Using PDF Turbulence Model</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">AIAA paper 91-1780</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Y.Z.</subfield>
+    <subfield code="h">Haworth, D.C.</subfield>
+    <subfield code="t">A general mass consistency algorithm for hybrid particle/finite-volume PDF methods</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,46,156</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">James, S.</subfield>
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Anand, M.S.</subfield>
+    <subfield code="t">Lagrangian PDF Transport Methods for Simulations of Axisymmetric Turbulent Reacting Flows</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">AIAA paper 2005-0156</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McDermott, R.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">A particle formulation for treating differential diffusion in filtered density function methods</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,226,947</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Viswanathan, S.</subfield>
+    <subfield code="h">Wang, H.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Numerical implementation of mixing and molecular transport in LES/PDF studies of turbulent reacting flows</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6916</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ansari, A.</subfield>
+    <subfield code="h">Pisciuneri, P.H.</subfield>
+    <subfield code="h">Strakey, P.A.</subfield>
+    <subfield code="h">Givi, P.</subfield>
+    <subfield code="t">Scalar-filtered mass-density-function simulation of swirling reacting flows on unstructured grids</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">AIAA J.,50,2476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banaeizadeh, A.</subfield>
+    <subfield code="h">Afshari, A.</subfield>
+    <subfield code="h">Jaberi, F.</subfield>
+    <subfield code="t">Large-eddy simulation of turbulent flows in internal combustion engines</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,60,781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haworth, D.C.</subfield>
+    <subfield code="h">El Tahry, S.H.</subfield>
+    <subfield code="t">Probability density function approach for multidimensional turbulent flow calculations with application to in-cylinder flows in reciprocating engines</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">AIAA J.,29,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leonard, A.D.</subfield>
+    <subfield code="h">Dash, F.</subfield>
+    <subfield code="t">Applications of a Coupled Monte Carlo PDF Finite Volume CFD Method for Turbulent Combustion</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="m">AIAA paper 94-2904</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eifler, P.</subfield>
+    <subfield code="h">Kollmann, W.</subfield>
+    <subfield code="t">PDF Predictions of Supersonic Hydrogen Flames</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">AIAA paper 93-0448</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Delarue, B.J.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Application of PDF methods to compressible turbulent flows</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Fluids,9,2704</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Delarue, B.J.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Calculations of subsonic and supersonic turbulent reacting mixing layers using probability density function methods</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Fluids,10,487</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hsu, A.T.</subfield>
+    <subfield code="h">Tsai, Y.-L.P.</subfield>
+    <subfield code="h">Raju, M.S.</subfield>
+    <subfield code="t">Probability density function approach for compressible turbulent reacting flows</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">AIAA J.,32,1407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Möbus, H.</subfield>
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">Monte Carlo PDF Simulation of Compressible Turbulent Diffusion Flames Using Detailed Chemical Kinetics</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">AIAA paper 99-0198</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaberi, F.A.</subfield>
+    <subfield code="h">Colucci, P.J.</subfield>
+    <subfield code="h">James, S.</subfield>
+    <subfield code="h">Givi, P.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Filtered mass density function for large-eddy simulation of turbulent reacting flows</subfield>
+    <subfield code="v">401</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Fluid Mech.,401,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Möbus, H.</subfield>
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">Comparison of Eularian and Lagrangian Monte Carlo PDF methods for turbulent diffusion flames</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Combust.Flame,124,519</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Möbus, H.</subfield>
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">Scalar and joint scalar–velocity–frequency Monte Carlo PDF simulation for supersonic combustion</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Combust.Flame,132,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banaeizadeh, A.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Jaberi, F.</subfield>
+    <subfield code="t">Compressible scalar filtered mass density function model for high-speed turbulent flows</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">AIAA J.,49,2130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nik, M.B.</subfield>
+    <subfield code="h">Givi, P.</subfield>
+    <subfield code="h">Madnia, C.K.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">EPVS-FMDF for LES of High-Speed Turbulent Flows</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">AIAA paper 2012-117</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spalart, P.R.</subfield>
+    <subfield code="h">Deck, S.</subfield>
+    <subfield code="h">Squires, M.L.</subfield>
+    <subfield code="h">Strelets, M.K.</subfield>
+    <subfield code="h">Travin, A.</subfield>
+    <subfield code="t">A new version of detached-eddy simulations, resistant to ambiguous grid densities</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,20,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.-D.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Chan, T.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,115,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">Multigrid convergence acceleration for turbulent supersonic flows</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,24,1019</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Stoll, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">An implicit multigrid method for the simulation of chemically reacting flows</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,146,322</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Nold, K.</subfield>
+    <subfield code="h">Aigner, M.</subfield>
+    <subfield code="t">Influence of reaction mechanisms, grid spacing, and inflow conditions on the numerical simulation of lifted supersonic flames</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,62,1357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="t">High-order multi-dimensional limiting for turbulent flows and combustion</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,231,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coakley, T.J.</subfield>
+    <subfield code="h">Huang, P.G.</subfield>
+    <subfield code="t">Turbulence Modeling for High Speed Flows</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">AIAA paper 92-0436</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="h">Yoon, S.</subfield>
+    <subfield code="t">Lower-upper implicit schemes with multiple grids for the Euler equations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">AIAA J.,25,929</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shuen, J.S.</subfield>
+    <subfield code="t">Upwind differencing and LU factorization for chemical non-equilibrium Navier Stokes equations</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,99,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Möbus, H.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">An implicit multigrid method for turbulent combustion</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,167,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, S.-H.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="h">Kim, K.-H.</subfield>
+    <subfield code="t">Multi-dimensional limiting process for three-dimensional flow physics analyses</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,227,6001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liou, M.-S.</subfield>
+    <subfield code="t">A sequel to AUSM, part ii: AUSM + -up for all speeds</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,214,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coffee, T.P.</subfield>
+    <subfield code="h">Heimerl, J.M.</subfield>
+    <subfield code="t">Transport algorithms for premixed laminar steady state flames</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Combust.Flame,43,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuo, K.K.</subfield>
+    <subfield code="t">Principles of Combustion</subfield>
+    <subfield code="p">John Wiley &amp; Sons New York, Chichester, Brisbane, Toronto, Singapore</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="t">Numerische Verbrennungssimulation</subfield>
+    <subfield code="p">Springer-Verlag Berlin, Heidelberg</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">(in German)</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, P.H.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Time-averaging strategies in the finite-volume/particle hybrid algorithm for the joint PDF equation of turbulent reactive flows</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Combust.Theory Model.,12,529</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Swanson, R.C.</subfield>
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="h">White, J.A.</subfield>
+    <subfield code="t">An Effective Multigrid Method for High Speed Flows</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">NASA, ICASE report No. 91-56, contractor report 187602</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="h">Vatsa, V.N.</subfield>
+    <subfield code="t">Effect of Artificial Viscosity on Three Dimensional Flow Simulations</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="m">AIAA paper 90-1444</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muradoglu, M.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Local time-stepping algorithm for solving probability density function turbulence model equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">AIAA J.,40,1755</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kunz, R.</subfield>
+    <subfield code="h">Lakshminarayana, B.</subfield>
+    <subfield code="t">Stability of explicit Navier–Stokes procedures using k – ϵ and k – ϵ /algebraic Reynolds stress model</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,103,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">A probability approach to the modeling of turbulent reactive flows</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Combust.Flame,27,299</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hsu, A.T.</subfield>
+    <subfield code="h">Tsai, Y.-L.P.</subfield>
+    <subfield code="h">Raju, M.S.</subfield>
+    <subfield code="t">A PDF Approach for Compressible Turbulent Reacting Flows</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">AIAA paper 93-0087</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banaeizadeh, A.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Jaberi, F.</subfield>
+    <subfield code="t">Large-Eddy Simulation of Compressible Turbulent Reacting Flows</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">AIAA paper 2010-202</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilcox, D.C.</subfield>
+    <subfield code="t">Turbulence Modeling for CFD</subfield>
+    <subfield code="p">DCW Industries, Inc.</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Villermaux, J.</subfield>
+    <subfield code="h">Devillon, J.C.</subfield>
+    <subfield code="t">Representation de la coalescence et de la redispersion des domaines de segragation dans un fluide par un modele d‘interaction phenomenologique</subfield>
+    <subfield code="p">New York: Elsevier</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="q">Second International Symposium on Chemical Reaction Engineering</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shur, M.L.</subfield>
+    <subfield code="h">Spalart, P.R.</subfield>
+    <subfield code="h">Strelets, M.K.</subfield>
+    <subfield code="h">Travin, A.K.</subfield>
+    <subfield code="t">A hybrid RANS-LES approach with delayed-DES and wall-modelled LES capabilities</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,29,1638</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fiolitakis, A.</subfield>
+    <subfield code="h">Ess, P.</subfield>
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Aigner, M.</subfield>
+    <subfield code="t">Modeling of heat transfer and differential diffusion in transported PDF methods</subfield>
+    <subfield code="v">161</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Combust.Flame,161,2107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fox, R.O.</subfield>
+    <subfield code="t">Computational Models for Turbulent Reacting Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Viswanathan, S.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent dispersion from line sources in grid turbulence</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Phys.Fluids,20,101514-1-25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pozorski, J.</subfield>
+    <subfield code="h">Minier, J.-P.</subfield>
+    <subfield code="t">Stochastic modelling of conjugate heat transfer in near-wall turbulence</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,27,867</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mabay, D.G.</subfield>
+    <subfield code="h">Mayer, H.U.</subfield>
+    <subfield code="h">Sawyer, G.W.</subfield>
+    <subfield code="t">Experimental and Theoretical Studies of the Boundary Layer on a Flat Plate at Mach Numbers from 2.5 to 4.5</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="m">RAE TR 74127</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fernholz, H.H.</subfield>
+    <subfield code="h">Finley, P.J.</subfield>
+    <subfield code="t">A Critical Compilation of Compressible Boundary Layer Data</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="m">AGARD-AG-223</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McDaniels, J.</subfield>
+    <subfield code="h">Fletcher, D.</subfield>
+    <subfield code="h">Hartfield, R.</subfield>
+    <subfield code="h">Hallo, S.</subfield>
+    <subfield code="t">Staged Transverse Injection Into Mach 2 Flow behind a Rearward Facing Step: A 3D Compressible Test Case for Hypersonic Combustion Code Validation</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">AIAA paper 91-5071</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaffney, R.L.</subfield>
+    <subfield code="h">White, J.A.</subfield>
+    <subfield code="h">Girimaji, S.S.</subfield>
+    <subfield code="h">Drummond, J.P.</subfield>
+    <subfield code="t">Modeling Turbulence/Chemistry Interactions Using Assumed PDF methods</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="m">AIAA paper 92-3638</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="h">Brüggemann, D.</subfield>
+    <subfield code="t">Numerical investigation of hydrogen strut injections into supersonic airflows</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Propuls.Power,16,22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marshall, W.</subfield>
+    <subfield code="h">Pal, S.</subfield>
+    <subfield code="h">Woodward, R.</subfield>
+    <subfield code="h">Santoro, R.</subfield>
+    <subfield code="t">Benchmark Wall Heat Flux Data for a GO 2 /GH 2 Single Element Combustor</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">AIAA paper 2005-3572</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lempke, M.</subfield>
+    <subfield code="h">Keller, R.</subfield>
+    <subfield code="h">Gerlinger, P.</subfield>
+    <subfield code="t">Influence of spatial discretization and unsteadiness on the simulation of rocket combustors</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,79,437</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301523/S0021999117301523.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

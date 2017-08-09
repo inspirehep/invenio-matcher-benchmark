@@ -1,0 +1,369 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.036</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Gillebaart, T.</subfield>
+    <subfield code="v">Faculty of Aerospace Engineering, Delft University of Technology, P.O. Box 5058, 2600GB Delft, The Netherlands</subfield>
+    <subfield code="m">T.Gillebaart@tudelft.nl</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Adaptive radial basis function mesh deformation using data reduction</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">29</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Radial Basis Function (RBF) mesh deformation is one of the most robust mesh deformation methods available. Using the greedy (data reduction) method in combination with an explicit boundary correction, results in an efficient method as shown in literature. However, to ensure the method remains robust, two issues are addressed: 1) how to ensure that the set of control points remains an accurate representation of the geometry in time and 2) how to use/automate the explicit boundary correction, while ensuring a high mesh quality. In this paper, we propose an adaptive RBF mesh deformation method, which ensures the set of control points always represents the geometry/displacement up to a certain (user-specified) criteria, by keeping track of the boundary error throughout the simulation and re-selecting when needed. Opposed to the unit displacement and prescribed displacement selection methods, the adaptive method is more robust, user-independent and efficient, for the cases considered. Secondly, the analysis of a single high aspect ratio cell is used to formulate an equation for the correction radius needed, depending on the characteristics of the correction function used, maximum aspect ratio, minimum first cell height and boundary error. Based on the analysis two new radial basis correction functions are derived and proposed. This proposed automated procedure is verified while varying the correction function, Reynolds number (and thus first cell height and aspect ratio) and boundary error. Finally, the parallel efficiency is studied for the two adaptive methods, unit displacement and prescribed displacement for both the CPU as well as the memory formulation with a 2D oscillating and translating airfoil with oscillating flap, a 3D flexible locally deforming tube and deforming wind turbine blade. Generally, the memory formulation requires less work (due to the large amount of work required for evaluating RBF's), but the parallel efficiency reduces due to the limited bandwidth available between CPU and memory. In terms of parallel efficiency/scaling the different studied methods perform similarly, with the greedy algorithm being the bottleneck. In terms of absolute computational work the adaptive methods are better for the cases studied due to their more efficient selection of the control points. By automating most of the RBF mesh deformation, a robust, efficient and almost user-independent mesh deformation method is presented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Radial basis function mesh deformation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid–structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Greedy selection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Boundary correction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive selection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Blom, D.S.</subfield>
+    <subfield code="j">ORCID:0000-0002-9366-2921</subfield>
+    <subfield code="v">Faculty of Aerospace Engineering, Delft University of Technology, P.O. Box 5058, 2600GB Delft, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">van Zuijlen, A.H.</subfield>
+    <subfield code="v">Faculty of Aerospace Engineering, Delft University of Technology, P.O. Box 5058, 2600GB Delft, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bijl, H.</subfield>
+    <subfield code="v">Faculty of Aerospace Engineering, Delft University of Technology, P.O. Box 5058, 2600GB Delft, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">997-1025</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00466-012-0772-0</subfield>
+    <subfield code="h">Hsu, M.-C.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="t">Fluid–structure interaction modeling of wind turbines: simulating the full machine</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Comput.Mech.,50,821</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gillebaart, T.</subfield>
+    <subfield code="h">Zuijlen, A.V.</subfield>
+    <subfield code="h">Bijl, H.</subfield>
+    <subfield code="t">Aerodynamic analysis of the wing flexibility and the clap-and-peel motion of the hovering DelFly II</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">Proceedings of the International Micro Air Vehicles Conference 2011</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/TMI.2012.2231094</subfield>
+    <subfield code="h">Lamata, P.</subfield>
+    <subfield code="h">Roy, I.</subfield>
+    <subfield code="h">Blazevic, B.</subfield>
+    <subfield code="h">Crozier, A.</subfield>
+    <subfield code="h">Land, S.</subfield>
+    <subfield code="h">Niederer, S.A.</subfield>
+    <subfield code="h">Rod Hose, D.</subfield>
+    <subfield code="h">Smith, N.P.</subfield>
+    <subfield code="t">Quality metrics for high order meshes: analysis of the mechanical simulation of the heart beat</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">IEEE Trans.Med.Imaging,32,130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10618560500510579</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">CFD on moving grids: from theory to realistic flutter, maneuvering, and multidisciplinary optimization</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,19,595</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/3.10583</subfield>
+    <subfield code="h">Batina, J.T.</subfield>
+    <subfield code="t">Unsteady Euler algorithm with unstructured dynamic mesh for complex-aircraft aerodynamic analysis</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">AIAA J.,29,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kovalev, K.</subfield>
+    <subfield code="t">Unstructured hexahedral non-conformal mesh generation</subfield>
+    <subfield code="p">Vruie Universiteit Brussel Belgium</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.595</subfield>
+    <subfield code="h">Helenbrook, B.T.</subfield>
+    <subfield code="t">Mesh deformation using the biharmonic operator</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,56,1007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.finel.2010.06.006</subfield>
+    <subfield code="h">Huo, S.</subfield>
+    <subfield code="h">Wang, F.</subfield>
+    <subfield code="h">Yan, W.</subfield>
+    <subfield code="h">Yue, Z.</subfield>
+    <subfield code="t">Layered elastic solid method for the generation of unstructured dynamic mesh</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Finite Elem.Anal.Des.,46,949</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaitonde, A.</subfield>
+    <subfield code="t">A Three-Dimensional Moving Mesh Method for the Calculation of Unsteady Transonic Flows</subfield>
+    <subfield code="p">University of Bristol Department of Aerospace Engineering</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compstruc.2007.01.013</subfield>
+    <subfield code="h">de Boer, A.</subfield>
+    <subfield code="h">van der Schoot, M.S.</subfield>
+    <subfield code="h">Bijl, H.</subfield>
+    <subfield code="t">Mesh deformation based on radial basis function interpolation</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Struct.,85,784</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.05.013</subfield>
+    <subfield code="h">Rendall, T.C.S.</subfield>
+    <subfield code="h">Allen, C.B.</subfield>
+    <subfield code="t">Efficient mesh motion using radial basis functions with data reduction algorithms</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.2678</subfield>
+    <subfield code="h">Rendall, T.C.S.</subfield>
+    <subfield code="h">Allen, C.B.</subfield>
+    <subfield code="r">arXiv:1010.1724</subfield>
+    <subfield code="t">Parallel efficient mesh motion using radial basis functions with application to multi-bladed rotors</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,81,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.12.006</subfield>
+    <subfield code="h">Rendall, T.C.S.</subfield>
+    <subfield code="h">Allen, C.B.</subfield>
+    <subfield code="t">Reduced surface point selection options for efficient mesh deformation using radial basis functions</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2810</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2012.06.015</subfield>
+    <subfield code="h">Estruch, O.</subfield>
+    <subfield code="h">Lehmkuhl, O.</subfield>
+    <subfield code="h">Borrell, R.</subfield>
+    <subfield code="h">Segarra, C.D.P.</subfield>
+    <subfield code="h">Oliva, A.</subfield>
+    <subfield code="t">A parallel radial basis function interpolation method for unstructured dynamic meshes</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Fluids,80,44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/1.C031293</subfield>
+    <subfield code="h">Cella, U.</subfield>
+    <subfield code="h">Biancolini, M.E.</subfield>
+    <subfield code="t">Aeroelastic analysis of aircraft wind-tunnel model coupling structural and fluid dynamic codes</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">URL</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Aircr.,49,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2006.11.002</subfield>
+    <subfield code="h">Jakobsson, S.</subfield>
+    <subfield code="h">Amoignon, O.</subfield>
+    <subfield code="t">Mesh deformation using radial basis functions for gradient-based aerodynamic shape optimization</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,36,1119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/1.J053304</subfield>
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="h">Mian, H.H.</subfield>
+    <subfield code="h">Ye, Z.-Y.</subfield>
+    <subfield code="h">Lee, J.-D.</subfield>
+    <subfield code="t">Improved point selection method for hybrid-unstructured mesh deformation using radial basis functions</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">AIAA J.,53,1016</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.03.046</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Qin, N.</subfield>
+    <subfield code="h">Zhao, N.</subfield>
+    <subfield code="t">Delaunay graph and radial basis function for fast quality mesh deformation</subfield>
+    <subfield code="v">294</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,294,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.3208</subfield>
+    <subfield code="h">Michler, A.K.</subfield>
+    <subfield code="t">Aircraft control surface deflection using RBF-based mesh deformation</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,88,986</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/1.J052126</subfield>
+    <subfield code="h">Sheng, C.</subfield>
+    <subfield code="h">Allen, C.B.</subfield>
+    <subfield code="t">Efficient mesh deformation using radial basis functions on unstructured meshes</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">URL</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">AIAA J.,51,707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartwich, P.M.</subfield>
+    <subfield code="h">Shreekant, A.</subfield>
+    <subfield code="t">Method for perturbing multiblock patched grids in aeroelastic and design</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">13th Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turek, S.</subfield>
+    <subfield code="h">Hron, J.</subfield>
+    <subfield code="t">Proposal for numerical benchmarking of fluid–structure interaction between an elastic object and laminar incompressible flow</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="e">Bungartz,H.-J.</subfield>
+    <subfield code="e">Schafer,M.</subfield>
+    <subfield code="q">Fluid–Structure Interaction</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2012.02.014</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">Goal-oriented error estimation for fluid–structure interaction problems</subfield>
+    <subfield code="v">223–224</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,223–224,28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compstruc.2007.01.025</subfield>
+    <subfield code="h">Bathe, K.-J.</subfield>
+    <subfield code="h">Ledezma, G.a.</subfield>
+    <subfield code="t">Benchmark problems for incompressible fluid flows with structural interactions</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Struct.,85,628</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compstruc.2008.05.005</subfield>
+    <subfield code="h">Degroote, J.</subfield>
+    <subfield code="h">Bruggeman, P.</subfield>
+    <subfield code="h">Haelterman, R.</subfield>
+    <subfield code="h">Vierendeels, J.</subfield>
+    <subfield code="t">Stability of a coupling technique for partitioned solvers in FSI applications</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Struct.,86,2224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mian, H.H.</subfield>
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="h">Ye, Z.-y.</subfield>
+    <subfield code="h">Raza, M.A.</subfield>
+    <subfield code="t">RBF interpolation with improved data reduction algorithm – a meshfree method for fluid–structure coupling and mesh deformation</subfield>
+    <subfield code="p">Proceedings of 2014 11th International Bhurban Conference on Applied Sciences &amp; Technology, IBCAST, Islamabad, Pakistan, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wendland, H.</subfield>
+    <subfield code="t">Fast evaluation of radial basis functions: methods based on partition of unity</subfield>
+    <subfield code="p">Vanderbilt University Press</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="q">Approximation Theory X: Wavelets, Splines, and Applications</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, G.</subfield>
+    <subfield code="h">Mian, H.H.</subfield>
+    <subfield code="h">Ye, Z.-y.</subfield>
+    <subfield code="h">Lee, J.-d.</subfield>
+    <subfield code="t">Parallel implementation of localized radial basis function interpolation for computational aeroelastic predictions</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">Parallel Computational Fluid Dynamics</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116301814/S0021999116301814.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

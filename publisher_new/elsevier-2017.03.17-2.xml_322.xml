@@ -1,0 +1,507 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.07.025</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">He, Z.C.</subfield>
+    <subfield code="v">State Key Laboratory of Advanced Design, Manufacturing for Vehicle Body, Hunan University, Changsha, 410082, PR China</subfield>
+    <subfield code="v">Joint Center for Intelligent New Energy Vehicle, Shanghai, 201804, PR China</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A mass-redistributed finite element method (MR-FEM) for acoustic problems using triangular mesh</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The accuracy of numerical results using standard finite element method (FEM) in acoustic problems will deteriorate with increasing frequency due to the “dispersion error”. Such dispersion error depends on the balance between the “stiffness” and “mass” of discretization equation systems. This paper reports an improved finite element method (FEM) for solving acoustic problems by re-distributing the mass in the mass matrix to “tune” the balance, aiming to minimize the dispersion errors. This is done by shifting the integration point locations when computing the entries of the mass matrix, while ensuring the mass conservation. The new method is verified through the detailed numerical error analysis, and a strategy is also proposed for the best mass redistribution in terms of minimizing dispersion error. The relative dispersion error of present mass-redistributed finite element method (MR-FEM) is found to be much smaller than the FEM solution, in both theoretical prediction and numerical examination. The present MR-FEM works well by using the linear triangular elements that can be generated automatically, which enables automation in computation and saving computational cost in mesh generation. Numerical examples demonstrate the advantages of MR-FEM, in comparison with the standard FEM using the same triangular meshes and quadrilateral meshes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Acoustic</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mass-redistributed finite element method (MR-FEM)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dispersion error</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Eric</subfield>
+    <subfield code="v">State Key Laboratory of Advanced Design, Manufacturing for Vehicle Body, Hunan University, Changsha, 410082, PR China</subfield>
+    <subfield code="v">Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong, Shatin, NT, Hong Kong, China</subfield>
+    <subfield code="m">ericsg2012@gmail.com</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Liu, G.R.</subfield>
+    <subfield code="v">School of Aerospace Systems, University of Cincinnati, Cincinnati, OH, 45221-0070, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, G.Y.</subfield>
+    <subfield code="v">State Key Laboratory of Advanced Design, Manufacturing for Vehicle Body, Hunan University, Changsha, 410082, PR China</subfield>
+    <subfield code="v">Joint Center for Intelligent New Energy Vehicle, Shanghai, 201804, PR China</subfield>
+    <subfield code="m">gyli@hnu.cn</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Cheng, A.G.</subfield>
+    <subfield code="v">State Key Laboratory of Advanced Design, Manufacturing for Vehicle Body, Hunan University, Changsha, 410082, PR China</subfield>
+    <subfield code="v">Joint Center for Intelligent New Energy Vehicle, Shanghai, 201804, PR China</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">149-170</subfield>
+    <subfield code="v">323</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ihlenburg, F.</subfield>
+    <subfield code="t">Finite Element Analysis of Acoustic Scattering</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, T.W.</subfield>
+    <subfield code="t">Boundary Element in Acoustics: Fundamentals and Computer Codes</subfield>
+    <subfield code="p">WIT Press Southampton</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ihlenburg, F.</subfield>
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="t">Finite element solution of the Helmholtz equation with high wave number. Part I: the h-version of the FEM</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Comput.Math.Appl.,30,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tam, C.K.W.</subfield>
+    <subfield code="h">Webb, J.C.</subfield>
+    <subfield code="t">Dispersion–relation-preserving finite difference schemes for computational acoustics</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,107,262</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, F.Q.</subfield>
+    <subfield code="h">Hussaini, M.Y.</subfield>
+    <subfield code="h">Manthey, J.L.</subfield>
+    <subfield code="t">Low-dissipation and low-dispersion Runge–Kutta schemes for computational acoustics</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,124,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zing, D.W.</subfield>
+    <subfield code="h">Lomax, H.</subfield>
+    <subfield code="h">Jurgens, H.M.</subfield>
+    <subfield code="t">High-accuracy finite-difference scheme for linear wave propagation</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,17,328</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hixon, R.</subfield>
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="t">High-accuracy compact Mc-Cormack-type schemes for computational aeroacoustics</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">AIAA Paper 98-0365</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stolk, C.C.</subfield>
+    <subfield code="t">A dispersion minimizing scheme for the 3-D Helmholtz equation based on ray theory</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,314,618</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="t">Accurate finite difference methods for time-harmonic wave propagation</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,119,252</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sutmann, G.</subfield>
+    <subfield code="t">Compact finite difference schemes of sixth order for the Helmholtz equation</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,203,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="h">Gordon, D.</subfield>
+    <subfield code="h">Gordon, R.</subfield>
+    <subfield code="h">Tsynkov, S.</subfield>
+    <subfield code="t">Compact 2D and 3D sixth order schemes for the Helmholtz equation with variable wave number</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,232,272</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="t">A survey of finite element methods for time-harmonic acoustics</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,1594</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thompson, L.L.</subfield>
+    <subfield code="t">A review of finite-element methods for time-harmonic acoustics</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Acoust.Soc.Am.,119,1315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Galerkin/least-squares finite element methods for the reduced wave equation with nonreflecting boundary conditions in unbounded domains</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,98,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thompson, L.L.</subfield>
+    <subfield code="h">Pinsky, P.M.</subfield>
+    <subfield code="t">A Galerkin least-squares finite element method for the two-dimensional Helmholtz equation</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,38,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Nogueira, C.L.</subfield>
+    <subfield code="t">Reducing dispersion of linear triangular elements for the Helmholtz equation</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Eng.Mech.ASCE,128,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="h">Ihlenburg, F.</subfield>
+    <subfield code="h">Paik, E.T.</subfield>
+    <subfield code="h">Sauter, S.A.</subfield>
+    <subfield code="t">A generalized finite element method for solving the Helmholtz equation in two dimensions with minimal pollution</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,128,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franca, L.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Macedo, A.</subfield>
+    <subfield code="h">Lessoine, M.</subfield>
+    <subfield code="t">Residual-free bubbles for the Helmholtz equation</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,40,4003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesh, M.</subfield>
+    <subfield code="h">Hawkins, S.C.</subfield>
+    <subfield code="t">A fully discrete Galerkin method for high frequency exterior acoustic scattering in three dimensions</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,230,104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L.L. Thompson, P. Kunthong</subfield>
+    <subfield code="m">A residual based variational method for reducing dispersion error in finite element methods, in:ASME International Mechanical Engineering Congress and Exposition, November 5-11,, Orlando, Florida, The American Society of Mechanical Engineers, Paper IMECE-80551</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dey, S.</subfield>
+    <subfield code="h">Datta, D.K.</subfield>
+    <subfield code="h">Shirron, J.J.</subfield>
+    <subfield code="h">Shephard, M.S.</subfield>
+    <subfield code="t">p-Version FEM for structural acoustics with a posteriori error estimation</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,1946</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sprague, M.A.</subfield>
+    <subfield code="h">Geers, T.L.</subfield>
+    <subfield code="t">Spectral elements and field separation for an acoustic fluid subject to cavitation</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,184,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Desmet, W.</subfield>
+    <subfield code="t">A wave based prediction technique for coupled vibro-acoustic analysis</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">KULeuven, division PMA, Ph.D. Thesis 98D12</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van Genechten, B.</subfield>
+    <subfield code="h">Vandepitte, D.</subfield>
+    <subfield code="h">Desmet, W.</subfield>
+    <subfield code="t">A direct hybrid finite element–wave based modelling technique for efficient coupled vibro-acoustic analysis</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,742</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="h">Lu, Y.Y.</subfield>
+    <subfield code="h">Gu, L.</subfield>
+    <subfield code="t">Element-free Galerkin methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,37,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melenk, J.M.</subfield>
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="t">The partition of unity finite element method: basic theory and applications</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,139,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="t">Meshfree Methods: Moving Beyond the Finite Element Method</subfield>
+    <subfield code="p">CRC Press Boca Raton, USA</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cessenat, O.</subfield>
+    <subfield code="h">Despres, B.</subfield>
+    <subfield code="t">Application of an ultra weak variational formulation of elliptic PDES to the two-dimensional Helmholtz problem</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Franca, L.P.</subfield>
+    <subfield code="t">The discontinuous enrichment method</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,6455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Reitich, F.</subfield>
+    <subfield code="t">A phase-based hybridizable discontinuous Galerkin method for the numerical solution of the Helmholtz equation</subfield>
+    <subfield code="v">290</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,290,318</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wenterodt, C.</subfield>
+    <subfield code="h">Estorff, Ov.</subfield>
+    <subfield code="t">Dispersion analysis of the meshfree radial point interpolation method for the Helmholtz equation</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,77,1670</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, Z.C.</subfield>
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Zhong, Z.H.</subfield>
+    <subfield code="h">Wu, S.C.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="h">Cheng, A.G.</subfield>
+    <subfield code="t">An edge-based smoothed finite element method (ES-FEM) for analyzing three-dimensional acoustic problems</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="t">A generalized gradient smoothing technique and the smoothed bilinear form for Galerkin formulation of wide class of computational methods</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Comput.Methods,5,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Nguyen, T.T.</subfield>
+    <subfield code="t">Smoothed Finite Element Methods</subfield>
+    <subfield code="p">CRC Press Boca Raton</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="t">Smoothed Point Interpolation Methods: G Space Theory and Weakened Weak Forms</subfield>
+    <subfield code="p">World Scientific Singapore</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, Z.C.</subfield>
+    <subfield code="h">Cheng, A.G.</subfield>
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Zhong, Z.H.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="h">Cheng, A.G.</subfield>
+    <subfield code="t">Dispersion free analysis of acoustic problems using the alpha finite element method</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Mech.,46,867</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, Z.C.</subfield>
+    <subfield code="h">Cheng, A.G.</subfield>
+    <subfield code="h">Zhong, Z.H.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="t">Dispersion error reduction for acoustic problems using the edge-based smoothed finite element method (ES-FEM)</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,86,1322</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, Z.C.</subfield>
+    <subfield code="h">Li, G.Y.</subfield>
+    <subfield code="h">Zhong, Z.H.</subfield>
+    <subfield code="h">Cheng, A.G.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="h">Li, Eric</subfield>
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="t">An ES-FEM for accurate analysis of 3D mid-frequency acoustics using tetrahedron mesh</subfield>
+    <subfield code="v">106–107</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Comput.Struct.,106–107,125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Zhang, G.Y.</subfield>
+    <subfield code="t">Upper bound solution to elasticity problems: a unique property of the linearly conforming point interpolation method (LC-PIM)</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,74,1128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marfurt, K.J.</subfield>
+    <subfield code="t">Accuracy of finite difference and finite element modeling of the scalar and elastic wave equation</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Geophysics,49,533</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krenk, S.</subfield>
+    <subfield code="t">Dispersion-corrected explicit integration of the wave equation</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,975</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seriani, G.</subfield>
+    <subfield code="h">Oliveira, S.P.</subfield>
+    <subfield code="t">Optimal blended spectral-element operators for acoustic wave modeling</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Geophysics,72,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guddati, M.N.</subfield>
+    <subfield code="h">Yue, B.</subfield>
+    <subfield code="t">Modified integration rules for reducing dispersion error in finite element methods</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,193,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Idesman, A.</subfield>
+    <subfield code="h">Pham, D.</subfield>
+    <subfield code="t">Finite element modeling of linear elastodynamics problems with explicit time-integration methods and linear elements with the reduced dispersion error</subfield>
+    <subfield code="v">271</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,271,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="h">Quek, S.S.</subfield>
+    <subfield code="t">Finite Element Method: A Practical Course</subfield>
+    <subfield code="p">Butterworth-Heinemann</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, G.R.</subfield>
+    <subfield code="t">On partitions of unity property of nodal shape functions: rigid-body-movement reproduction and mass conservation</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Int.J.Comput.Methods,13,1640003</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00162/S0021999116303205/S0021999116303205.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,478 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.067</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Yi, Tae-Hyeong</subfield>
+    <subfield code="v">Korea Institute of Atmospheric Prediction Systems, Seoul 07071, Republic of Korea</subfield>
+    <subfield code="m">th.yi@kiaps.org</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Vertical discretization with finite elements for a global hydrostatic model on the cubed sphere</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-11</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A formulation of Galerkin finite element with basis-spline functions on a hybrid sigma-pressure coordinate is presented to discretize the vertical terms of global Eulerian hydrostatic equations employed in a numerical weather prediction system, which is horizontally discretized with high-order spectral elements on a cubed sphere grid. This replaces the vertical discretization of conventional central finite difference that is first-order accurate in non-uniform grids and causes numerical instability in advection-dominant flows. Therefore, a model remains in the framework of Galerkin finite elements for both the horizontal and vertical spatial terms. The basis-spline functions, obtained from the de-Boor algorithm, are employed to derive both the vertical derivative and integral operators, since Eulerian advection terms are involved. These operators are used to discretize the vertical terms of the prognostic and diagnostic equations. To verify the vertical discretization schemes and compare their performance, various two- and three-dimensional idealized cases and a hindcast case with full physics are performed in terms of accuracy and stability. It was shown that the vertical finite element with the cubic basis-spline function is more accurate and stable than that of the vertical finite difference, as indicated by faster residual convergence, fewer statistical errors, and reduction in computational mode. This leads to the general conclusion that the overall performance of a global hydrostatic model might be significantly improved with the vertical finite element.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical weather prediction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dynamical core</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hydrostatic equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Vertical discretization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite element</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Basis-spline function</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cubed sphere</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Park, Ja-Rin</subfield>
+    <subfield code="v">Korea Institute of Atmospheric Prediction Systems, Seoul 07071, Republic of Korea</subfield>
+    <subfield code="m">jr.park@kiaps.org</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Walters, D.N.</subfield>
+    <subfield code="h">Best, M.J.</subfield>
+    <subfield code="h">Bushell, A.C.</subfield>
+    <subfield code="h">Copsey, D.</subfield>
+    <subfield code="h">Edwards, J.M.</subfield>
+    <subfield code="h">Falloon, P.D.</subfield>
+    <subfield code="h">Harris, C.M.</subfield>
+    <subfield code="h">Lock, A.P.</subfield>
+    <subfield code="t">The Met Office Unified Model Global Atmosphere 3.0/3.1 and JULES Global Land 3.0/3.1 configurations</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Geosci.Model Dev.,4,919</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Satoh, M.</subfield>
+    <subfield code="h">Tomita, H.</subfield>
+    <subfield code="h">Yashiro, H.</subfield>
+    <subfield code="h">Miura, H.</subfield>
+    <subfield code="h">Kodama, C.</subfield>
+    <subfield code="t">The Non-hydrostatic Icosahedral Atmospheric Model: description and development</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Prog.Earth Planet.Sci.,1,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simmons, A.J.</subfield>
+    <subfield code="h">Burridge, D.M.</subfield>
+    <subfield code="t">An energy and angular-momentum conserving vertical finite-difference scheme and hybrid vertical coordinates</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Mon.Weather Rev.,109,758</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Untch, A.</subfield>
+    <subfield code="h">Hortal, M.</subfield>
+    <subfield code="t">A finite-element scheme for the vertical discretization of the semi-Lagrangian version of the ECMWF forecast model</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,130,1505</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Fournier, A.</subfield>
+    <subfield code="t">A compatible and conservative spectral element method on unstructured grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Skamarock, W.C.</subfield>
+    <subfield code="h">Klemp, J.B.</subfield>
+    <subfield code="h">Duda, M.G.</subfield>
+    <subfield code="h">Fowler, L.</subfield>
+    <subfield code="h">Park, S.-H.</subfield>
+    <subfield code="h">Ringler, T.D.</subfield>
+    <subfield code="t">A multiscale nonhydrostatic atmospheric model using centroidal Voronoi tesselations and C-grid staggering</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Mon.Weather Rev.,140,3090</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blaise, S.</subfield>
+    <subfield code="h">Lambrechts, J.</subfield>
+    <subfield code="h">Deleersnijder, E.</subfield>
+    <subfield code="t">A stabilization for three-dimensional discontinuous Galerkin discretizations applied to nonhydrostatic atmospheric simulations</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,81,558</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pletcher, R.H.</subfield>
+    <subfield code="h">Tannehill, J.C.</subfield>
+    <subfield code="h">Anderson, D.A.</subfield>
+    <subfield code="t">Computational Fluid Mechanics and Heat Transfer</subfield>
+    <subfield code="p">CRC Press Boca Raton, USA</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tokioka, T.</subfield>
+    <subfield code="t">Some considerations on vertical differencing</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Meteorol.Soc.,56,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arakawa, A.</subfield>
+    <subfield code="h">Konor, C.S.</subfield>
+    <subfield code="t">Vertical differencing of the primitive equations based on the Charney–Phillips grid in hybrid σ – p vertical coordinates</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Mon.Weather Rev.,124,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Staniforth, A.N.</subfield>
+    <subfield code="h">Daley, R.W.</subfield>
+    <subfield code="t">A finite-element formulation for the vertical discretization of sigma coordinate primitive equation models</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Mon.Weather Rev.,105,1108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Béland, M.</subfield>
+    <subfield code="h">Côté, J.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="t">The accuracy of a finite-element vertical discretization scheme for primitive equation models: comparison with a finite-difference scheme</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Mon.Weather Rev.,111,2298</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steppeler, J.</subfield>
+    <subfield code="t">Quadratic finite element schemes for the vertical discretization of numerical forecast models</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Mon.Weather Rev.,114,1575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steppeler, J.</subfield>
+    <subfield code="t">A Galerkin finite element-spectral weather forecast model in hybrid coordinates</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Math.Appl.,16,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bénard, P.</subfield>
+    <subfield code="h">Vivoda, J.</subfield>
+    <subfield code="h">Mašek, J.</subfield>
+    <subfield code="h">Smolíková, P.</subfield>
+    <subfield code="h">Yessad, K.</subfield>
+    <subfield code="h">Smith, C.</subfield>
+    <subfield code="h">Brožková, R.</subfield>
+    <subfield code="h">Geleyn, J.-F.</subfield>
+    <subfield code="t">Dynamical kernel of the Aladin-NH spectral limited-area model: revised formulation and sensitivity experiments</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,136,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simarro, J.</subfield>
+    <subfield code="h">Hortal, M.</subfield>
+    <subfield code="t">A semi-implicit non-hydrostatic dynamical kernel using finite elements in the vertical discretization</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,138,826</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, S.-J.</subfield>
+    <subfield code="t">A vertically Lagrangian finite-volume dynamical core for global models</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Mon.Weather Rev.,132,2293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Boor, C.</subfield>
+    <subfield code="t">A Practical Guide to Splines</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="t">Conservation of mass and energy for the moist atmospheric primitive equations on unstructured grids</subfield>
+    <subfield code="p">Heidelberg: Springer</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="e">Lauritzen,P.H.</subfield>
+    <subfield code="e">Jablonowski,C.</subfield>
+    <subfield code="e">Taylor,M.A.</subfield>
+    <subfield code="e">Nair,R.D.</subfield>
+    <subfield code="q">Numerical Techniques for Global Atmospheric Models</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Thomas, S.J.</subfield>
+    <subfield code="h">Loft, R.D.</subfield>
+    <subfield code="t">A discontinuous Galerkin transport scheme on the cubed sphere</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Mon.Weather Rev.,133,814</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deville, M.O.</subfield>
+    <subfield code="h">Fischer, P.F.</subfield>
+    <subfield code="h">Mund, E.H.</subfield>
+    <subfield code="t">High-Order Methods for Incompressible Fluid Flow</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, UK</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shin, H.H.</subfield>
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="t">Impacts of the lowest model level height on the performance of planetary boundary layer parameterizations</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Mon.Weather Rev.,140,664</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Bénard</subfield>
+    <subfield code="m">Design of the hybrid vertical coordinate η, Technical note</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="h">Klemp, J.B.</subfield>
+    <subfield code="t">A compressible model for the simulation of moist mountain waves</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Mon.Weather Rev.,111,2341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirsch, C.</subfield>
+    <subfield code="t">Numerical Computation of Internal and External Flows</subfield>
+    <subfield code="p">Butterworth-Heinemann</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Williamson, D.</subfield>
+    <subfield code="t">A baroclinic instability test case for atmospheric model dynamical cores</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,132,2943</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="t">Idealized Test Cases for the Dynamical Cores of Atmospheric General Circulation Models: A Proposal for the NCAR ASP 2008 Summer Colloquium</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">NCAR technical report</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kent, J.</subfield>
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="t">Dynamical core model intercomparison project: tracer transport test cases</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,1279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Bao, L.</subfield>
+    <subfield code="h">Toy, M.D.</subfield>
+    <subfield code="t">A time-split discontinuous Galerkin transport scheme for global atmospheric model</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Proc.Comput.Sci.,51,2056</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hall, D.M.</subfield>
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="h">Reed, K.A.</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Tufo, H.M.</subfield>
+    <subfield code="t">Dynamical Core Model Intercomparison Project (DCMIP) tracer transport test results for CAM-SE</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,142,1672</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morcrette, J.-J.</subfield>
+    <subfield code="h">Barker, H.W.</subfield>
+    <subfield code="h">Cole, J.N.S.</subfield>
+    <subfield code="h">Lacono, M.J.</subfield>
+    <subfield code="h">Pincus, R.</subfield>
+    <subfield code="t">Impact of a new radiation package, McRad, in the ECMWF Integrated Forecasting System</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Mon.Weather Rev.,136,4773</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ek, M.B.</subfield>
+    <subfield code="h">Mitchell, K.E.</subfield>
+    <subfield code="h">Lin, Y.</subfield>
+    <subfield code="h">Rogers, E.</subfield>
+    <subfield code="h">Grunmann, P.</subfield>
+    <subfield code="h">Koren, V.</subfield>
+    <subfield code="h">Gayno, G.</subfield>
+    <subfield code="h">Tarpley, J.D.</subfield>
+    <subfield code="t">Implementation of NOAH land surface model advances in the National Centers for Environmental Prediction operational mesoscale Eta model</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Geophys.Res.,108,8851</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yhang, Y.-B.</subfield>
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="t">Improved physical processes in a regional climate model and their impact on the simulated summer monsoon circulations over East Asia</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Climate,21,963</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, E.-J.</subfield>
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="t">Impact of air–sea interaction on East Asian summer monsoon climate in WRF</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Geophys.Res.,115,D19118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="t">A new stable boundary-layer mixing scheme and its impact on the simulated East Asian summer monsoon</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,136,1481</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chun, H.-Y.</subfield>
+    <subfield code="h">Baik, J.-J.</subfield>
+    <subfield code="t">Momentum flux by thermally induced internal gravity waves and its approximation for large-scale models</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Atmos.Sci.,55,3299</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeon, J.-H.</subfield>
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="h">Chun, H.-Y.</subfield>
+    <subfield code="h">Song, I.-S.</subfield>
+    <subfield code="t">Test of a convectively forced gravity wave drag parameterization in a general circulation model</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Asia-Pac.J.Atmos.Sci.,46,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choi, I.-J.</subfield>
+    <subfield code="h">Jin, E.K.</subfield>
+    <subfield code="h">Han, J.-Y.</subfield>
+    <subfield code="h">Kim, S.-Y.</subfield>
+    <subfield code="h">Kwon, Y.</subfield>
+    <subfield code="t">Sensitivity of diurnal variation in simulated precipitation during East Asian summer monsoon to cumulus parameterization schemes</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Geophys.Res., Atmos.,120,11971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Pan, H.-L.</subfield>
+    <subfield code="t">Revision of convection and vertical diffusion schemes in the NCEP Global Forecast System</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Weather Forecast.,26,520</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hong, S.-Y.</subfield>
+    <subfield code="h">Dudhia, J.</subfield>
+    <subfield code="h">Chen, S.-H.</subfield>
+    <subfield code="t">A revised approach to ice microphysical processes for the bulk parameterization of clouds and precipitation</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Mon.Weather Rev.,132,103</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301705/S0021999117301705.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

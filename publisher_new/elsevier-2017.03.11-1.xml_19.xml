@@ -1,0 +1,566 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.069</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Liang, Yihao</subfield>
+    <subfield code="j">ORCID:0000-0002-7692-4766</subfield>
+    <subfield code="v">Institute of Natural Sciences, Department of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, 200240, China</subfield>
+    <subfield code="m">liangyihao_sjtu@live.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A GPU-based large-scale Monte Carlo simulation method for systems with long-range interactions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-11</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this work we present an efficient implementation of Canonical Monte Carlo simulation for Coulomb many body systems on graphics processing units (GPU). Our method takes advantage of the GPU Single Instruction, Multiple Data (SIMD) architectures, and adopts the sequential updating scheme of Metropolis algorithm. It makes no approximation in the computation of energy, and reaches a remarkable 440-fold speedup, compared with the serial implementation on CPU. We further use this method to simulate primitive model electrolytes, and measure very precisely all ion–ion pair correlation functions at high concentrations. From these data, we extract the renormalized Debye length, renormalized valences of constituent ions, and renormalized dielectric constants. These results demonstrate unequivocally physics beyond the classical Poisson–Boltzmann theory.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Monte Carlo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPU</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Coulomb many body systems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Electrolytes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Charge renormalization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xing, Xiangjun</subfield>
+    <subfield code="v">Institute of Natural Sciences, Department of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, 200240, China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Yaohang</subfield>
+    <subfield code="v">Department of Computer Science, Old Dominion University, Norfolk, VA, 23529, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Appel, Andrew W.</subfield>
+    <subfield code="t">An efficient program for many-body simulation</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,6,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barnes, Josh</subfield>
+    <subfield code="h">Hut, Piet</subfield>
+    <subfield code="t">A hierarchical <math altimg="si92.gif" display="inline" overflow="scroll"><mi>o</mi><mo stretchy="false">(</mo><mi>n</mi><mi mathvariant="normal">log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></math> force-calculation algorithm</subfield>
+    <subfield code="v">324</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Nature,324,446</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast algorithm for particle simulations</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,73,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zecheng, Gan</subfield>
+    <subfield code="h">Zhenli, Xu</subfield>
+    <subfield code="t">Efficient implementation of the Barnes-hut octree algorithm for Monte Carlo simulations of charged systems</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Sci.China Math.,57,1331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liang, Yihao</subfield>
+    <subfield code="h">Xu, Zhenli</subfield>
+    <subfield code="h">Xing, Xiangjun</subfield>
+    <subfield code="t">A multi-scale Monte Carlo method for electrolytes</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">New J.Phys.,17,083082</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Zhenli</subfield>
+    <subfield code="h">Liang, Yihao</subfield>
+    <subfield code="h">Xing, Xiangjun</subfield>
+    <subfield code="t">Mellin transform and image charge method for dielectric sphere in an electrolyte</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,73,1396</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, Y.</subfield>
+    <subfield code="h">Baumketner, A.</subfield>
+    <subfield code="h">Deng, S.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="h">Jacobs, D.</subfield>
+    <subfield code="h">Cai, W.</subfield>
+    <subfield code="t">An image-based reaction field method for electrostatic interactions in molecular dynamics simulations of aqueous solutions</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Chem.Phys.,131,154103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">NVIDIA</subfield>
+    <subfield code="t">CUDA C Programming Guide</subfield>
+    <subfield code="p">NVIDIA</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nyland, Lars</subfield>
+    <subfield code="h">Harris, Mark</subfield>
+    <subfield code="h">Prins, Jan</subfield>
+    <subfield code="t">Fast n-body simulation with CUDA</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, Carolyn L.</subfield>
+    <subfield code="h">Anderson, Joshua A.</subfield>
+    <subfield code="h">Glotzer, Sharon C.</subfield>
+    <subfield code="t">Pseudo-random number generation for Brownian dynamics and dissipative particle dynamics simulations on GPU devices</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hamada, Tsuyoshi</subfield>
+    <subfield code="h">Iitaka, Toshiaki</subfield>
+    <subfield code="r">astro-ph/0703100v1</subfield>
+    <subfield code="t">The chamomile scheme: an optimized algorithm for n-body simulations on programmable graphics processing units</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaburov, Evghenii</subfield>
+    <subfield code="h">Bédorf, Jeroen</subfield>
+    <subfield code="h">Zwart, Simon Portegies</subfield>
+    <subfield code="t">Gravitational tree-code on graphics processing units: implementation in CUDA</subfield>
+    <subfield code="v">vol. 1</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Proc.Comput.Sci.,vol. 1,1119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Juekuan</subfield>
+    <subfield code="h">Wang, Yujuan</subfield>
+    <subfield code="h">Chen, Yunfei</subfield>
+    <subfield code="t">GPU accelerated molecular dynamics simulation of thermal conductivities</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,221,799</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, Trung Dac</subfield>
+    <subfield code="h">Phillips, Carolyn L.</subfield>
+    <subfield code="h">Anderson, Joshua A.</subfield>
+    <subfield code="h">Glotzer, Sharon C.</subfield>
+    <subfield code="t">Rigid body constraints realized in massively-parallel molecular dynamics on graphics processing units</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,2307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Weiguo</subfield>
+    <subfield code="h">Schmidt, Bertil</subfield>
+    <subfield code="h">Voss, Gerrit</subfield>
+    <subfield code="h">Müller-Wittig, Wolfgang</subfield>
+    <subfield code="t">Accelerating molecular dynamics simulations using graphics processing units with CUDA</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Phys.Commun.,179,634</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rapaport, D.C.</subfield>
+    <subfield code="t">Enhanced molecular dynamics performance with a programmable graphics processor</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,926</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Götz, Andreas W.</subfield>
+    <subfield code="h">Williamson, Mark J.</subfield>
+    <subfield code="h">Xu, Dong</subfield>
+    <subfield code="h">Poole, Duncan</subfield>
+    <subfield code="h">Le Grand, Scott</subfield>
+    <subfield code="h">Walker, Ross C.</subfield>
+    <subfield code="t">Routine microsecond molecular dynamics simulations with amber on GPUs, 1: generalized born</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,8,1542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salomon-Ferrer, Romelia</subfield>
+    <subfield code="h">Götz, Andreas W.</subfield>
+    <subfield code="h">Poole, Duncan</subfield>
+    <subfield code="h">Le Grand, Scott</subfield>
+    <subfield code="h">Walker, Ross C.</subfield>
+    <subfield code="t">Routine microsecond molecular dynamics simulations with amber on GPUs, 2: explicit solvent particle mesh Ewald</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,9,3878</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salomon-Ferrer, Romelia</subfield>
+    <subfield code="h">Case, David A.</subfield>
+    <subfield code="h">Walker, Ross C.</subfield>
+    <subfield code="t">An overview of the amber biomolecular simulation package</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">WIREs Comput.Mol.Sci.,3,198</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Grand, Scott</subfield>
+    <subfield code="h">Götz, Andreas W.</subfield>
+    <subfield code="h">Walker, Ross C.</subfield>
+    <subfield code="t">SPFP: speed without compromise—a mixed precision model for GPU accelerated molecular dynamics simulations</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Phys.Commun.,184,374</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taufer, Michela</subfield>
+    <subfield code="h">Ganesan, Narayan</subfield>
+    <subfield code="h">Patel, Sandeep</subfield>
+    <subfield code="t">GPU-enabled macromolecular simulation: challenges and opportunities</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Sci.Eng.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, Narayan</subfield>
+    <subfield code="h">Bauer, Brad A.</subfield>
+    <subfield code="h">Lucas, Timothy R.</subfield>
+    <subfield code="h">Patel, Sandeep</subfield>
+    <subfield code="h">Taufer, Michela</subfield>
+    <subfield code="t">Structural, dynamic, and electrostatic properties of fully hydrated dmpc bilayers from molecular dynamics simulations accelerated with graphical processing units (GPUs)</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Chem.,32,2958</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, William Michael</subfield>
+    <subfield code="h">Plimpton, Steven James</subfield>
+    <subfield code="h">Wang, Peng</subfield>
+    <subfield code="h">Agarwal, Pratul K.</subfield>
+    <subfield code="h">Hampton, Scott</subfield>
+    <subfield code="h">Crozier, Paul Stewart</subfield>
+    <subfield code="t">Porting lammps to GPUs</subfield>
+    <subfield code="p">SciTech Connect, Savannah, GA, 2010</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Proposed for Presentation at the SOS 14 Conference</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, W. Michael</subfield>
+    <subfield code="h">Wang, Peng</subfield>
+    <subfield code="h">Plimpton, Steven J.</subfield>
+    <subfield code="h">Tharrington, Arnold N.</subfield>
+    <subfield code="t">Implementing molecular dynamics on hybrid high performance computers – short range forces</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,898</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, John E.</subfield>
+    <subfield code="h">Phillips, James C.</subfield>
+    <subfield code="h">Freddolino, Peter L.</subfield>
+    <subfield code="h">Hardy, David J.</subfield>
+    <subfield code="h">Trabuco, Leonardo G.</subfield>
+    <subfield code="h">Schulten, Klaus</subfield>
+    <subfield code="t">Accelerating Molecular Modeling Applications with Graphics Processors</subfield>
+    <subfield code="p">Wiley Interscience</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, James C.</subfield>
+    <subfield code="h">Stone, John E.</subfield>
+    <subfield code="h">Schulten, Klaus</subfield>
+    <subfield code="t">Adapting a message-driven parallel application to GPU-accelerated clusters</subfield>
+    <subfield code="p">Austin, Texas: IEEE/ACM, IEEE Press</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="q">Proceedings of the 2008 ACM/IEEE Conference on Supercomputing</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colberg, Peter H.</subfield>
+    <subfield code="h">Höfling, Felix</subfield>
+    <subfield code="t">Highly accelerated simulations of glassy dynamics using GPUs: caveats on limited floating-point precision</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,1120</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eastman, Peter</subfield>
+    <subfield code="h">Pande, Vijay S.</subfield>
+    <subfield code="t">Efficient nonbonded interactions for molecular dynamics on a graphics processing unit</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Chem.,31,1268</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, Joshua A.</subfield>
+    <subfield code="h">Lorenz, Chris D.</subfield>
+    <subfield code="h">Travesset, A.</subfield>
+    <subfield code="t">General purpose molecular dynamics simulations fully implemented on graphics processing units</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,227,5342</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">HOOMD-blue</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Gromacs</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Acemd</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Block, Benjamin</subfield>
+    <subfield code="h">Virnau, Peter</subfield>
+    <subfield code="h">Preis, Tobias</subfield>
+    <subfield code="t">Multi-GPU accelerated multi-spin Monte Carlo simulations of the 2D Ising model</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Comput.Phys.Commun.,181,1549</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Preis, Tobias</subfield>
+    <subfield code="h">Virnau, Peter</subfield>
+    <subfield code="h">Paul, Wolfgang</subfield>
+    <subfield code="h">Schneider, Johannes J.</subfield>
+    <subfield code="t">GPU accelerated Monte Carlo simulation of the 2D and 3D Ising model</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levy, Tal</subfield>
+    <subfield code="h">Cohen, Guy</subfield>
+    <subfield code="h">Rabani, Eran</subfield>
+    <subfield code="t">Simulating lattice spin models on graphics processing units</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,6,3293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, Joshua A.</subfield>
+    <subfield code="h">Jankowski, Eric</subfield>
+    <subfield code="h">Grubb, Thomas L.</subfield>
+    <subfield code="h">Engel, Michael</subfield>
+    <subfield code="h">Glotzer, Sharon C.</subfield>
+    <subfield code="t">Massively parallel Monte Carlo for many-particle simulations on GPUs</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,254,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ashraf, Yaseen</subfield>
+    <subfield code="h">Li, Yaohang</subfield>
+    <subfield code="t">Accelerating knowledge-based energy evaluation in protein structure modeling with graphics processing units</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Parallel Distrib.Comput.,72,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ashraf, Yaseen</subfield>
+    <subfield code="h">Li, Yaohang</subfield>
+    <subfield code="t">A load-balancing workload distribution scheme for three-body interaction computation on graphics processing units (GPU)</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Parallel Distrib.Comput.,87,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mick, Jason</subfield>
+    <subfield code="h">Hailat, Eyad</subfield>
+    <subfield code="h">Russo, Vincent</subfield>
+    <subfield code="h">Rushaidat, Kamel</subfield>
+    <subfield code="h">Schwiebert, Loren</subfield>
+    <subfield code="h">Potoff, Jeffrey</subfield>
+    <subfield code="t">GPU-accelerated Gibbs ensemble Monte Carlo simulations of Lennard–Jonesium</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Phys.Commun.,184,2662</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hailat, Eyad</subfield>
+    <subfield code="h">Russo, Vincent</subfield>
+    <subfield code="h">Rushaidat, Kamel</subfield>
+    <subfield code="h">Mick, Jason</subfield>
+    <subfield code="h">Schwieberto, Loren</subfield>
+    <subfield code="h">Rushaidat, Kamel</subfield>
+    <subfield code="h">Mick, Jason</subfield>
+    <subfield code="h">Schwiebert, Loren</subfield>
+    <subfield code="h">Potoff, Jeffrey</subfield>
+    <subfield code="t">Parallel Monte Carlo simulation in the canonical ensemble on the graphics processing unit</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Int.J.Parallel Emerg.Distrib.Syst.,29,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Jihan</subfield>
+    <subfield code="h">Rodgers, Jocelyn M.</subfield>
+    <subfield code="h">Athenes, Manuel</subfield>
+    <subfield code="h">Smit, Berend</subfield>
+    <subfield code="t">Molecular Monte Carlo simulations using graphics processing units: to waste recycle or not?</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,7,3208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Jihan</subfield>
+    <subfield code="h">Smit, Berend</subfield>
+    <subfield code="t">Efficient Monte Carlo simulations of gas molecules inside porous materials</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,8,2336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, Jihan</subfield>
+    <subfield code="h">Martin, Richard L.</subfield>
+    <subfield code="h">Rübel, Oliver</subfield>
+    <subfield code="h">Haranczyk, Maciej</subfield>
+    <subfield code="h">Smit, Berend</subfield>
+    <subfield code="t">High-throughput characterization of porous materials using graphics processing units</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,8,1684</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Press, William H.</subfield>
+    <subfield code="h">Teukolsky, Saul A.</subfield>
+    <subfield code="t">Numerical Recipes</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Wenjian</subfield>
+    <subfield code="h">Zhai, Kuangya</subfield>
+    <subfield code="h">Zhuang, Hao</subfield>
+    <subfield code="h">Chen, Junqing</subfield>
+    <subfield code="t">Accelerated floating random walk algorithm for the electrostatic computation with 3-d rectilinear-shaped conductors</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Simul.Model.Pract.Theory,34,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luitjens, Justin</subfield>
+    <subfield code="t">Faster parallel reductions on Kepler</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harris, Mark</subfield>
+    <subfield code="t">Optimizing parallel reduction in CUDA</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kjellander, Roland</subfield>
+    <subfield code="h">Mitchell, D. John</subfield>
+    <subfield code="t">An exact but linear and Poisson–Boltzmann-like theory for electrolytes and colloid dispersions in the primitive model</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Chem.Phys.Lett.,200,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kjellander, Roland</subfield>
+    <subfield code="h">Mitchell, D. John</subfield>
+    <subfield code="t">Dressed ion theory for electrolyte solutions: a Debye–Hückel-like reformulation of the exact theory for the primitive model</subfield>
+    <subfield code="v">101</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Chem.Phys.,101,603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ding, Mingnan</subfield>
+    <subfield code="h">Liang, Yihao</subfield>
+    <subfield code="h">Lu, Bing-sui</subfield>
+    <subfield code="h">Xing, Xiangjun</subfield>
+    <subfield code="t">Charge renormalization and charge oscillation in asymmetric primitive model</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Stat.Phys.,165,970</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andelman, D.</subfield>
+    <subfield code="t">Electrostatic Properties of Membranes: The Poisson–Boltzmann Theory, Chapter 12</subfield>
+    <subfield code="p">Elsevier Amsterdam</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">Structure and Dynamics of Membranes Generic and Specific Interactions</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301729/S0021999117301729.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,833 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.08.028</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Angelidis, Dionysios</subfield>
+    <subfield code="v">St. Anthony Falls Laboratory, College of Science and Engineering, University of Minnesota, Minneapolis, MN, 55414, USA</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Unstructured Cartesian refinement with sharp interface immersed boundary method for 3D unsteady incompressible flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-11-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">29</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel numerical method is developed for solving the 3D, unsteady, incompressible Navier–Stokes equations on locally refined fully unstructured Cartesian grids in domains with arbitrarily complex immersed boundaries. Owing to the utilization of the fractional step method on an unstructured Cartesian hybrid staggered/non-staggered grid layout, flux mismatch and pressure discontinuity issues are avoided and the divergence free constraint is inherently satisfied to machine zero. Auxiliary/hanging nodes are used to facilitate the discretization of the governing equations. The second-order accuracy of the solver is ensured by using multi-dimension Lagrange interpolation operators and appropriate differencing schemes at the interface of regions with different levels of refinement. The sharp interface immersed boundary method is augmented with local near-boundary refinement to handle arbitrarily complex boundaries. The discrete momentum equation is solved with the matrix free Newton–Krylov method and the Krylov-subspace method is employed to solve the Poisson equation. The second-order accuracy of the proposed method on unstructured Cartesian grids is demonstrated by solving the Poisson equation with a known analytical solution. A number of three-dimensional laminar flow simulations of increasing complexity illustrate the ability of the method to handle flows across a range of Reynolds numbers and flow regimes. Laminar steady and unsteady flows past a sphere and the oblique vortex shedding from a circular cylinder mounted between two end walls demonstrate the accuracy, the efficiency and the smooth transition of scales and coherent structures across refinement levels. Large-eddy simulation (LES) past a miniature wind turbine rotor, parameterized using the actuator line approach, indicates the ability of the fully unstructured solver to simulate complex turbulent flows. Finally, a geometry resolving LES of turbulent flow past a complete hydrokinetic turbine illustrates the potential of the method to simulate turbulent flows past geometrically complex bodies on locally refined meshes. In all the cases, the results are found to be in very good agreement with published data and savings in computational resources are achieved.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured Cartesian grids</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Immersed boundaries</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite-difference method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Incompressible flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chawdhary, Saurabh</subfield>
+    <subfield code="v">St. Anthony Falls Laboratory, College of Science and Engineering, University of Minnesota, Minneapolis, MN, 55414, USA</subfield>
+    <subfield code="v">Department of Mechanical Engineering, University of Minnesota, Minneapolis, MN, 55455, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sotiropoulos, Fotis</subfield>
+    <subfield code="v">St. Anthony Falls Laboratory, College of Science and Engineering, University of Minnesota, Minneapolis, MN, 55414, USA</subfield>
+    <subfield code="v">Department of Civil Engineering, College of Engineering and Applied Sciences, Stony Brook University, Stony Brook, NY, 11794, USA</subfield>
+    <subfield code="m">fotis.sotiropoulos@stonybrook.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">272-300</subfield>
+    <subfield code="v">325</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anagnostopoulos, J.S.</subfield>
+    <subfield code="t">Discretization of transport equations on 2D Cartesian unstructured grids using data from remote cells for the convection terms</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,42,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Angelidis, D.</subfield>
+    <subfield code="h">Assimakopoulos, V.D.</subfield>
+    <subfield code="h">Bergeles, G.</subfield>
+    <subfield code="t">A Cartesian grid refinement method for simulating thermally stratified urban environments</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Wind Eng.Ind.Aerodyn.,142,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Angelidis, D.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">Simulation of wind turbine wakes on locally refined Cartesian grids</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics, AIAA SciTech</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">33rd Wind Energy Symposium</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anupindi, K.</subfield>
+    <subfield code="h">Delorme, Y.</subfield>
+    <subfield code="h">Shetty, D.A.</subfield>
+    <subfield code="h">Frankel, S.H.</subfield>
+    <subfield code="t">A novel multiblock immersed boundary method for large eddy simulation of complex arterial hemodynamics</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,254,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Balay, S. Abhyankar, M.F. Adams, J. Brown, P. Brune, K. Buschelman, V. Eijkhout, W.D. Gropp, D. Kaushik, M.G. Knepley, L.C. McInnes, K. Rupp, B.F. Smith, H. Zhang</subfield>
+    <subfield code="m">PETSc Web page</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">McInnes, L.C.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="t">Efficient management of parallelism in object oriented numerical software libraries</subfield>
+    <subfield code="p">Birkhäuser Press</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="e">Arge,E.</subfield>
+    <subfield code="e">Bruaset,A.M.</subfield>
+    <subfield code="e">Langtangen,H.P.</subfield>
+    <subfield code="q">Modern Software Tools in Scientific Computing</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Basumatary, M.</subfield>
+    <subfield code="h">Natarajan, G.</subfield>
+    <subfield code="h">Mishra, S.C.</subfield>
+    <subfield code="t">Defect correction based velocity reconstruction for physically consistent simulations of non-Newtonian flows on unstructured grids</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,272,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benek, J.</subfield>
+    <subfield code="h">Steger, J.</subfield>
+    <subfield code="h">Dougherty, F.</subfield>
+    <subfield code="t">A flexible grid embedding technique with application to the Euler equations</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="q">AIAA 6th Computational Fluid Dynamics Conference Danvers</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benkenida, A.</subfield>
+    <subfield code="h">Bohbot, J.</subfield>
+    <subfield code="h">Jouhaud, J.C.</subfield>
+    <subfield code="t">Patched grid and adaptive mesh refinement strategies for the calculation of the transport of vortices</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,40,855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Local adaptive mesh refinement for shock hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,82,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="h">Oliger, J.</subfield>
+    <subfield code="t">Adaptive mesh refinement for hyperbolic partial differential equations</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,53,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borazjani, I.</subfield>
+    <subfield code="h">Ge, L.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">Curvilinear immersed boundary method for simulating fluid structure interaction with complex 3D rigid bodies</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burton, T.M.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Analysis of a fractional-step method on overset grids</subfield>
+    <subfield code="v">177</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,177,336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Caruso, S.</subfield>
+    <subfield code="h">Ferziger, J.</subfield>
+    <subfield code="h">Oliger, J.</subfield>
+    <subfield code="t">Adaptive grid techniques for elliptic fluid-flow problems</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="m">AIAA-86-0498</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chamorro, L.</subfield>
+    <subfield code="h">Hill, C.</subfield>
+    <subfield code="h">Morton, S.</subfield>
+    <subfield code="h">Ellis, C.</subfield>
+    <subfield code="h">Arndt, R.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">On the interaction between a turbulent open channel flow and an axial-flow turbine</subfield>
+    <subfield code="v">716</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Fluid Mech.,716,658</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chamorro, L.</subfield>
+    <subfield code="h">Porté-Agel, F.</subfield>
+    <subfield code="t">A wind-tunnel investigation of wind-turbine wakes: boundary-layer turbulence effects</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Bound.-Layer Meteorol.,132,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, W.</subfield>
+    <subfield code="h">Lien, F.</subfield>
+    <subfield code="h">Leschziner, M.</subfield>
+    <subfield code="t">Local mesh refinement within a multi-block structured-grid scheme for general flows</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,144,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, A.J.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Tang, Q.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="t">High order parametrized maximum-principle-preserving and positivity-preserving WENO schemes on unstructured meshes</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,281,334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coelho, P.</subfield>
+    <subfield code="h">Pereira, J.C.F.</subfield>
+    <subfield code="h">Carvalho, M.G.</subfield>
+    <subfield code="t">Calculation of laminar recirculating flows using a local non-staggered grid refinement system</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,12,535</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Darbandi, M.</subfield>
+    <subfield code="h">Naderi, A.</subfield>
+    <subfield code="t">Multiblock hybrid grid finite volume method to solve flow in irregular geometries</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,196,321</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Nicola, C.</subfield>
+    <subfield code="h">Pinto, G.</subfield>
+    <subfield code="h">Tognaccini, R.</subfield>
+    <subfield code="t">On the numerical stability of block structured algorithms with applications to 1-d advection–diffusion problems</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Fluids,24,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Zélicourt, D.</subfield>
+    <subfield code="h">Ge, L.</subfield>
+    <subfield code="h">Wang, C.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Yoganathan, A.</subfield>
+    <subfield code="t">Flow simulations in arbitrarily complex cardiovascular anatomies – an unstructured Cartesian grid approach</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Fluids,38,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">English, R.E.</subfield>
+    <subfield code="h">Qiu, L.</subfield>
+    <subfield code="h">Yu, Y.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">An adaptive discretization of incompressible flow using a multitude of moving Cartesian grids</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,254,107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="t">Steady viscous flow past a sphere at high Reynolds numbers</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Fluid Mech.,190,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ge, L.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">A numerical method for solving the 3D unsteady incompressible Navier–Stokes equations in curvilinear domains with complex immersed boundaries</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,225,1782</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">A hybrid Cartesian/immersed boundary method for simulating flows with 3D, geometrically complex, moving bodies</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,207,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">A general reconstruction algorithm for simulating flows with complex 3D immersed boundaries on Cartesian grids</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,191,660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hessenius, K.A.</subfield>
+    <subfield code="t">Conservative Zonal Schemes for Patched Grids in Two and Three Dimensions</subfield>
+    <subfield code="p">National Aeronautics and Space Administration, Ames Research Center</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hinatsu, M.</subfield>
+    <subfield code="h">Ferziger, J.H.</subfield>
+    <subfield code="t">Numerical computation of unsteady incompressible flow in complex geometry using a composite multigrid technique</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,13,971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeong, J.</subfield>
+    <subfield code="h">Hussain, F.</subfield>
+    <subfield code="t">On the identification of a vortex</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Fluid Mech.,285,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, T.A.</subfield>
+    <subfield code="h">Patel, V.C.</subfield>
+    <subfield code="t">Flow past a sphere up to a Reynolds number of 300</subfield>
+    <subfield code="v">378</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Fluid Mech.,378,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, S.</subfield>
+    <subfield code="h">Lightbody, A.</subfield>
+    <subfield code="h">Hill, C.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">High-resolution numerical simulation of turbulence in natural waterways</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Adv.Water Resour.,34,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, S.</subfield>
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">On the onset of wake meandering for an axial flow turbine in a turbulent open channel flow</subfield>
+    <subfield code="v">744</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Fluid Mech.,744,376</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kazakidi, A.</subfield>
+    <subfield code="h">Tsakiris, D.P.</subfield>
+    <subfield code="h">Angelidis, D.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Ekaterinaris, J.A.</subfield>
+    <subfield code="t">CFD study of aquatic thrust generation by an octopus-like arm under intense prescribed deformations</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Fluids,115,54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Clair, B.P.</subfield>
+    <subfield code="h">Hamielec, A.E.</subfield>
+    <subfield code="h">Pruppacher, H.R.</subfield>
+    <subfield code="t">A numerical study of the drag on a sphere at low and intermediate Reynolds numbers</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Atmos.Sci.,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lu, H.</subfield>
+    <subfield code="h">Porté-Agel, F.</subfield>
+    <subfield code="t">Large-eddy simulation of a very large wind farm in a stable atmospheric boundary layer</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Phys.Fluids,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">MacNeice, P.</subfield>
+    <subfield code="h">Olson, K.M.</subfield>
+    <subfield code="h">Mobarry, C.</subfield>
+    <subfield code="h">de Fainchtein, R.</subfield>
+    <subfield code="h">Packer, C.</subfield>
+    <subfield code="t">PARAMESH: a parallel adaptive mesh refinement community toolkit</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Phys.Commun.,126,330</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magarvey, R.H.</subfield>
+    <subfield code="h">Bishop, R.L.</subfield>
+    <subfield code="t">Transition ranges for three-dimensional wakes</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Can.J.Phys.,39,1418</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magarvey, R.H.</subfield>
+    <subfield code="h">MacLatchy, C.S.</subfield>
+    <subfield code="t">Vortices in sphere wakes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Can.J.Phys.,43,1649</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magnaudet, J.</subfield>
+    <subfield code="h">Rivero, M.</subfield>
+    <subfield code="h">Fabre, J.</subfield>
+    <subfield code="t">Accelerated flows past a rigid sphere or a spherical bubble. Part 1. Steady straining flow</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Fluid Mech.,284,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meakin, R.</subfield>
+    <subfield code="h">Suhs, N.</subfield>
+    <subfield code="t">Unsteady aerodynamic simulation of multiple bodies in relative motion</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="q">AIAA 9th Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, S.</subfield>
+    <subfield code="t">Computation of three-dimensional flows past circular cylinder of low aspect ratio</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Fluids,13,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nakamura, I.</subfield>
+    <subfield code="t">Steady wake behind a sphere</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Fluids,19,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Natarajan, R.</subfield>
+    <subfield code="h">Acrivos, A.</subfield>
+    <subfield code="t">The instability of the steady flow past spheres and disks</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Fluid Mech.,254,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nezis, A.</subfield>
+    <subfield code="h">Angelidis, D.</subfield>
+    <subfield code="h">Assimakopoulos, V.</subfield>
+    <subfield code="h">Bergeles, G.</subfield>
+    <subfield code="t">On the wind flow patterns under neutral and unstable conditions in an urban area</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Int.J.Environ.Pollut.,47,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicola, C.D.</subfield>
+    <subfield code="h">Pinto, G.</subfield>
+    <subfield code="h">Tognaccini, R.</subfield>
+    <subfield code="t">Stability of two-dimensional model problems for multiblock structured fluid-dynamics calculations</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Fluids,26,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Norberg, C.</subfield>
+    <subfield code="t">An experimental investigation of the flow around a circular cylinder: influence of aspect ratio</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Fluid Mech.,258,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Papadakis, G.</subfield>
+    <subfield code="h">Bergeles, G.</subfield>
+    <subfield code="t">A local grid refinement method for three-dimensional turbulent recirculating flows</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,31,1157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pascarelli, A.</subfield>
+    <subfield code="h">Piomelli, U.</subfield>
+    <subfield code="h">Candler, G.V.</subfield>
+    <subfield code="t">Multi-block large-eddy simulations of turbulent boundary layers</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,157,256</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ploumhans, P.</subfield>
+    <subfield code="h">Winckelmans, G.</subfield>
+    <subfield code="h">Salmon, J.</subfield>
+    <subfield code="h">Leonard, A.</subfield>
+    <subfield code="h">Warren, M.</subfield>
+    <subfield code="t">Vortex methods for direct numerical simulation of three-dimensional bluff body flows: application to the sphere at Re = 300, 500, and 1000</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,178,427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quinlan, D.</subfield>
+    <subfield code="t">AMR++: a design for parallel object-oriented adaptive mesh refinement</subfield>
+    <subfield code="v">vol. 117</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rai, M.M.</subfield>
+    <subfield code="t">A conservative treatment of zonal boundaries for Euler equation calculations</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,62,472</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rimon, Y.</subfield>
+    <subfield code="h">Cheng, S.I.</subfield>
+    <subfield code="t">Numerical solution of a uniform flow over a sphere at intermediate Reynolds numbers</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Phys.Fluids,12,949</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roos, F.W.</subfield>
+    <subfield code="h">Willmarth, W.W.</subfield>
+    <subfield code="t">Some experimental results on sphere and disk drag</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">AIAA J.,9,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sakamoto, H.</subfield>
+    <subfield code="h">Haniu, H.</subfield>
+    <subfield code="t">A study on vortex shedding from spheres in a uniform flow</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Fluids Eng.,112,386</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scarano, F.</subfield>
+    <subfield code="h">Poelma, C.</subfield>
+    <subfield code="t">Three-dimensional vorticity patterns of cylinder wakes</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Exp.Fluids,47,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sheldahl, R.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Conzemius, R.J.</subfield>
+    <subfield code="h">Wachtler, J.N.</subfield>
+    <subfield code="h">Strong, M.B.</subfield>
+    <subfield code="t">Aerodynamic characteristics of seven airfoil sections through 180 degrees angle of attack for use in aerodynamic analysis of vertical axis wind turbines</subfield>
+    <subfield code="p">Sandia National Laboratories Albuquerque, New Mexico</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="m">SAND80-2114</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smagorinsky, J.</subfield>
+    <subfield code="t">General circulation experiments with the primitive equations</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Mon.Weather Rev.,91,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sørensen, J.N.</subfield>
+    <subfield code="h">Mikkelsen, R.F.</subfield>
+    <subfield code="h">Henningson, D.S.</subfield>
+    <subfield code="h">Ivanell, S.</subfield>
+    <subfield code="h">Sarmast, S.</subfield>
+    <subfield code="h">Andersen, S.J.</subfield>
+    <subfield code="t">Simulation of wind turbine wakes using the actuator line technique</subfield>
+    <subfield code="v">373</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.Lond.A, Math.Phys.Eng.Sci.,373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Abdallah, S.</subfield>
+    <subfield code="t">The discrete continuity equation in primitive variable solutions of incompressible flow</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,95,212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="t">Immersed boundary methods for simulating fluid–structure interaction</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Prog.Aerosp.Sci.,65,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Starius, G.</subfield>
+    <subfield code="t">Composite mesh difference methods for elliptic boundary value problems</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Numer.Math.,28,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Starius, G.</subfield>
+    <subfield code="t">On composite mesh difference methods for hyperbolic differential equations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Numer.Math.,35,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steger, J.L.</subfield>
+    <subfield code="h">Benek, J.A.</subfield>
+    <subfield code="t">On the use of composite grid schemes in computational aerodynamics</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,64,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taneda, S.</subfield>
+    <subfield code="t">Experimental investigation of the wake behind a sphere at low Reynolds numbers</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1956</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">J.Phys.Soc.Jpn.,11,1104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, H.S.</subfield>
+    <subfield code="h">Jones, S.C.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">An overset-grid method for 3D unsteady incompressible flows</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Comput.Phys.,191,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Theodorakakos, A.</subfield>
+    <subfield code="h">Bergeles, G.</subfield>
+    <subfield code="t">A telescopic local grid refinement technique for wind flow simulation over complex terrain</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Wind Energy,4,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tomboulides, A.G.</subfield>
+    <subfield code="h">Orszag, S.A.</subfield>
+    <subfield code="t">Numerical investigation of transitional and weak turbulent flow past a sphere</subfield>
+    <subfield code="v">416</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Fluid Mech.,416,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanella, M.</subfield>
+    <subfield code="h">Rabenold, P.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">A direct-forcing embedded-boundary method with adaptive mesh refinement for fluid–structure interaction problems</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, M.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Dynamic wall modeling for large-eddy simulation of complex turbulent flows</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Phys.Fluids,14,2043</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, C.H.K.</subfield>
+    <subfield code="t">Oblique and parallel modes of vortex shedding in the wake of a circular cylinder at low Reynolds numbers</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Fluid Mech.,206,579</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, C.H.K.</subfield>
+    <subfield code="t">The natural and forced formation of spot-like ‘vortex dislocations’ in the transition of a wake</subfield>
+    <subfield code="v">243</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">J.Fluid Mech.,243,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, C.H.K.</subfield>
+    <subfield code="t">Three-dimensional wake transition</subfield>
+    <subfield code="v">328</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">J.Fluid Mech.,328,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wissink, A.M.</subfield>
+    <subfield code="h">Hornung, R.D.</subfield>
+    <subfield code="h">Kohn, S.R.</subfield>
+    <subfield code="h">Smith, S.S.</subfield>
+    <subfield code="h">Elliott, N.</subfield>
+    <subfield code="t">Large scale parallel structured AMR calculations using the SAMRAI framework</subfield>
+    <subfield code="p">New York, NY, USA: ACM</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="q">Proceedings of the 2001 ACM/IEEE Conference on Supercomputing. Supercomputing '01</subfield>
+    <subfield code="o">74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, J.-S.</subfield>
+    <subfield code="h">Faeth, G.</subfield>
+    <subfield code="t">Sphere wakes in still surroundings at intermediate Reynolds numbers</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">AIAA J.,31,1448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, Y.-T.</subfield>
+    <subfield code="h">Porté-Agel, F.</subfield>
+    <subfield code="t">Simulation of turbulent flow inside and above wind farms: model validation and layout effects</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Bound.-Layer Meteorol.,146,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Conzemius, R.J.</subfield>
+    <subfield code="h">Wachtler, J.N.</subfield>
+    <subfield code="h">Strong, M.B.</subfield>
+    <subfield code="t">Large-eddy simulation of turbulent flow past wind turbines/farms: the Virtual Wind Simulator (VWiS)</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Wind Energy,18,2025</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">He, G.-W.</subfield>
+    <subfield code="t">A smoothing technique for discrete delta functions with application to immersed boundary method in moving boundary simulations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7821</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zang, Y.</subfield>
+    <subfield code="h">Street, R.L.</subfield>
+    <subfield code="t">A composite multigrid method for calculating unsteady incompressible flows in geometrically complex domains</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,20,341</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00186/S0021999116303850/S0021999116303850.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

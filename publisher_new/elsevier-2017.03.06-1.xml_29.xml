@@ -1,0 +1,417 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.ascom.2016.11.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Akeret, J.</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+    <subfield code="m">jakeret@phys.ethz.ch</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">HIDE &amp; SEEK: End-to-end packages to simulate and process radio survey data</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">10</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">As several large single-dish radio surveys begin operation within the coming decade, a wealth of radio data will become available and provide a new window to the Universe. In order to fully exploit the potential of these datasets, it is important to understand the systematic effects associated with the instrument and the analysis pipeline. A common approach to tackle this is to forward-model the entire system—from the hardware to the analysis of the data products. For this purpose, we introduce two newly developed, open-source Python packages: the HI Data Emulator ( HIDE ) and the Signal Extraction and Emission Kartographer ( SEEK ) for simulating and processing single-dish radio survey data. HIDE forward-models the process of collecting astronomical radio signals in a single-dish radio telescope instrument and outputs pixel-level time-ordered-data. SEEK processes the time-ordered-data, removes artifacts from Radio Frequency Interference (RFI), automatically applies flux calibration, and aims to recover the astronomical radio signal. The two packages can be used separately or together depending on the application. Their modular and flexible nature allows easy adaptation to other instruments and datasets. We describe the basic architecture of the two packages and examine in detail the noise and RFI modeling in HIDE , as well as the implementation of gain calibration and RFI mitigation in SEEK . We then apply HIDE &amp; SEEK to forward-model a Galactic survey in the frequency range 990–1260 MHz based on data taken at the Bleien Observatory. For this survey, we expect to cover 70% of the full sky and achieve a median signal-to-noise ratio of approximately 5–6 in the cleanest channels including systematic uncertainties. However, we also point out the potential challenges of high RFI contamination and baseline removal when examining the early data from the Bleien Observatory. The fully documented HIDE &amp; SEEK packages are available at http://hideseek.phys.ethz.ch/ and are published under the GPLv3 license on GitHub.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Radio cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Forward modeling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">RFI mitigation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HIDE</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SEEK</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Seehars, S.</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chang, C.</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Monstein, C.</subfield>
+    <subfield code="j">ORCID:0000-0002-3178-363X</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Amara, A.</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Refregier, A.</subfield>
+    <subfield code="v">ETH Zurich, Institute for Astronomy, Department of Physics, Wolfgang Pauli Strasse 27, 8093 Zurich, Switzerland</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Astron.Comput.</subfield>
+    <subfield code="c">8-17</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/andp.18381210906</subfield>
+    <subfield code="h">Airy, G.B.</subfield>
+    <subfield code="t">Ueber die diffraction eines objectivs mit kreisrunder apertur</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">1838</subfield>
+    <subfield code="o">Airy, 1838</subfield>
+    <subfield code="s">Ann.Phys.,121,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Akeret, J.</subfield>
+    <subfield code="h">Gamper, L.</subfield>
+    <subfield code="h">Amara, A.</subfield>
+    <subfield code="h">Refregier, A.</subfield>
+    <subfield code="t">Hope: A python just-in-time compiler for astrophysical computations</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Akeret et al, 2015</subfield>
+    <subfield code="s">Astron.Comput.,10,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stt1082</subfield>
+    <subfield code="h">Battye, R.A.</subfield>
+    <subfield code="h">Browne, I.W.A.</subfield>
+    <subfield code="h">Dickinson, C.</subfield>
+    <subfield code="h">Heron, G.</subfield>
+    <subfield code="h">Maffei, B.</subfield>
+    <subfield code="h">Pourtsidou, A.</subfield>
+    <subfield code="r">arXiv:1209.0343</subfield>
+    <subfield code="t">H I intensity mapping: a single dish approach</subfield>
+    <subfield code="v">434</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:1209.0343</subfield>
+    <subfield code="o">Battye et al, 2013</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,434,1239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bigot-Sazy, M.-A.</subfield>
+    <subfield code="h">Ma, Y.-Z.</subfield>
+    <subfield code="h">Battye, R.A.</subfield>
+    <subfield code="h">Browne, I.W.A.</subfield>
+    <subfield code="h">Chen, T.</subfield>
+    <subfield code="h">Dickinson, C.</subfield>
+    <subfield code="h">Harper, S.</subfield>
+    <subfield code="h">Maffei, B.</subfield>
+    <subfield code="h">Olivari, L.C.</subfield>
+    <subfield code="h">Wilkinsondagger, P.N.</subfield>
+    <subfield code="r">arXiv:1511.03006</subfield>
+    <subfield code="t">HI intensity mapping with FAST</subfield>
+    <subfield code="v">vol. 502</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">arXiv:1511.03006</subfield>
+    <subfield code="o">Bigot-Sazy et al, 2016</subfield>
+    <subfield code="s">ASP Conf.Ser.,vol. 502,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bridle, S.</subfield>
+    <subfield code="h">Shawe-Taylor, J.</subfield>
+    <subfield code="h">Amara, A.</subfield>
+    <subfield code="h">Applegate, D.</subfield>
+    <subfield code="h">Balan, S.T.</subfield>
+    <subfield code="h">Berge, J.</subfield>
+    <subfield code="h">Bernstein, G.</subfield>
+    <subfield code="h">Dahle, H.</subfield>
+    <subfield code="h">Erben, T.</subfield>
+    <subfield code="h">Gill, M.</subfield>
+    <subfield code="t">Handbook for the great08 challenge: An image analysis competition for cosmological lensing</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">Bridle et al, 2009</subfield>
+    <subfield code="s">Ann.Appl.Statist.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bruderer, C., Chang, C., Refregier, A., Amara, A., Berge, J., Gamper, L.</subfield>
+    <subfield code="m">Calibrated ultra fast image simulations for the dark energy survey, arXiv preprint</subfield>
+    <subfield code="r">arXiv:1504.02778</subfield>
+    <subfield code="0">1359229</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Bruderer et al, 0000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chang, C., Monstein, C., Akeret, J., Seehars, S., Refregier, A., Amara, A., Glauser, A., Stuber, B.</subfield>
+    <subfield code="m">An Integrated System at the Bleien Observatory for Mapping the Galaxy, arXiv e-prints</subfield>
+    <subfield code="r">arXiv:1607.07451</subfield>
+    <subfield code="0">1478008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Chang et al, 0000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2008.13376.x</subfield>
+    <subfield code="h">de Oliveira-Costa, A.</subfield>
+    <subfield code="h">Tegmark, M.</subfield>
+    <subfield code="h">Gaensler, B.M.</subfield>
+    <subfield code="h">Jonas, J.</subfield>
+    <subfield code="h">Landecker, T.L.</subfield>
+    <subfield code="h">Reich, P.</subfield>
+    <subfield code="r">arXiv:0802.1525</subfield>
+    <subfield code="t">A model of diffuse galactic radio emission from 10 mhz to 100 ghz</subfield>
+    <subfield code="v">388</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0802.1525</subfield>
+    <subfield code="o">de Oliveira-Costa et al, 2008</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,388,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ascom.2015.10.007</subfield>
+    <subfield code="h">Dodson, R.</subfield>
+    <subfield code="h">Vinsen, K.</subfield>
+    <subfield code="h">Wu, C.</subfield>
+    <subfield code="h">Popping, A.</subfield>
+    <subfield code="h">Meyer, M.</subfield>
+    <subfield code="h">Wicenec, A.</subfield>
+    <subfield code="h">Quinn, P.</subfield>
+    <subfield code="h">van Gorkom, J.</subfield>
+    <subfield code="h">Momjian, E.</subfield>
+    <subfield code="r">arXiv:1511.00401</subfield>
+    <subfield code="t">Imaging SKA-scale data in three different computing environments</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">arXiv:1511.00401</subfield>
+    <subfield code="o">Dodson et al, 2016</subfield>
+    <subfield code="s">Astron.Comput.,14,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/427976</subfield>
+    <subfield code="h">Górski, K.M.</subfield>
+    <subfield code="h">Hivon, E.</subfield>
+    <subfield code="h">Banday, A.J.</subfield>
+    <subfield code="h">Wandelt, B.D.</subfield>
+    <subfield code="h">Hansen, F.K.</subfield>
+    <subfield code="h">Reinecke, M.</subfield>
+    <subfield code="h">Bartelmann, M.</subfield>
+    <subfield code="r">astro-ph/0409513</subfield>
+    <subfield code="t">HEALPix: A framework for high-resolution discretization and fast analysis of data distributed on the sphere</subfield>
+    <subfield code="v">622</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">arXiv:astro-ph/0409513</subfield>
+    <subfield code="o">Górski et al, 2005</subfield>
+    <subfield code="s">Astrophys.J.,622,759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McMullin, J.P.</subfield>
+    <subfield code="h">Waters, B.</subfield>
+    <subfield code="h">Schiebel, D.</subfield>
+    <subfield code="h">Young, W.</subfield>
+    <subfield code="h">Golap, K.</subfield>
+    <subfield code="t">CASA architecture and applications</subfield>
+    <subfield code="v">vol. 376</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">McMullin et al, 2007</subfield>
+    <subfield code="s">ASP Conf.Ser.,vol. 376,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nord, B.</subfield>
+    <subfield code="h">Amara, A.</subfield>
+    <subfield code="h">Réfrégier, A.</subfield>
+    <subfield code="h">Gamper, L.</subfield>
+    <subfield code="h">Gamper, L.</subfield>
+    <subfield code="h">Hambrecht, B.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Forero-Romero, J.</subfield>
+    <subfield code="h">Serrano, S.</subfield>
+    <subfield code="h">Cunha, C.</subfield>
+    <subfield code="t">Spokes: An end-to-end simulation facility for spectroscopic cosmological surveys</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">Nord et al, 2016</subfield>
+    <subfield code="s">Astronom.Comput.,15,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Offringa, A.</subfield>
+    <subfield code="h">de~Bruyn, A.</subfield>
+    <subfield code="h">Biehl, M.</subfield>
+    <subfield code="h">Zaroubi, S.</subfield>
+    <subfield code="h">Bernardi, G.</subfield>
+    <subfield code="h">Pandey, V.</subfield>
+    <subfield code="t">Post-correlation radio frequency interference classification methods</subfield>
+    <subfield code="v">405</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">Offringa et al, 2010</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,405,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Offringa, A., de Bruyn, A., Zaroubi, S., Biehl, M.</subfield>
+    <subfield code="m">A lofar rfi detection pipeline and its first results, arXiv preprint</subfield>
+    <subfield code="r">arXiv:1007.2089</subfield>
+    <subfield code="0">861121</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Offringa et al, 0000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peck, L.W.</subfield>
+    <subfield code="h">Fenech, D.M.</subfield>
+    <subfield code="t">Serpent: Automated reduction and rfi-mitigation software for e-merlin</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Peck and Fenech, 2013</subfield>
+    <subfield code="s">Astron.Comput.,2,54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0067-0049/218/1/14</subfield>
+    <subfield code="h">Peterson, J.R.</subfield>
+    <subfield code="h">Jernigan, J.G.</subfield>
+    <subfield code="h">Kahn, S.M.</subfield>
+    <subfield code="h">Rasmussen, A.P.</subfield>
+    <subfield code="h">Peng, E.</subfield>
+    <subfield code="h">Ahmad, Z.</subfield>
+    <subfield code="h">Bankert, J.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Claver, C.</subfield>
+    <subfield code="h">Gilmore, D.K.</subfield>
+    <subfield code="h">Grace, E.</subfield>
+    <subfield code="h">Hannel, M.</subfield>
+    <subfield code="h">Hodge, M.</subfield>
+    <subfield code="h">Lorenz, S.</subfield>
+    <subfield code="h">Lupu, A.</subfield>
+    <subfield code="h">Meert, A.</subfield>
+    <subfield code="h">Nagarajan, S.</subfield>
+    <subfield code="h">Todd, N.</subfield>
+    <subfield code="h">Winans, A.</subfield>
+    <subfield code="h">Young, M.</subfield>
+    <subfield code="r">arXiv:1504.06570</subfield>
+    <subfield code="t">Simulation of astronomical images from optical survey telescopes using a comprehensive photon Monte Carlo approach</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1504.06570</subfield>
+    <subfield code="o">Peterson et al, 2015</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,218,14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Refregier, A.</subfield>
+    <subfield code="h">Amara, A.</subfield>
+    <subfield code="t">A way forward for cosmic shear: Monte-Carlo control loops</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">Refregier and Amara, 2014</subfield>
+    <subfield code="s">Phys.Dark Universe,3,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reinecke, M.</subfield>
+    <subfield code="h">Dolag, K.</subfield>
+    <subfield code="h">Hell, R.</subfield>
+    <subfield code="h">Bartelmann, M.</subfield>
+    <subfield code="h">Enßlin, T.</subfield>
+    <subfield code="t">A simulation pipeline for the planck mission</subfield>
+    <subfield code="v">445</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">373–373</subfield>
+    <subfield code="o">Reinecke et al, 2006</subfield>
+    <subfield code="s">Astron.Astrophys.,445,373–373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santos, M.</subfield>
+    <subfield code="h">Bull, P.</subfield>
+    <subfield code="h">Alonso, D.</subfield>
+    <subfield code="h">Camera, S.</subfield>
+    <subfield code="h">Ferreira, P.</subfield>
+    <subfield code="h">Bernardi, G.</subfield>
+    <subfield code="h">Maartens, R.</subfield>
+    <subfield code="h">Viel, M.</subfield>
+    <subfield code="h">Villaescusa-Navarro, F.</subfield>
+    <subfield code="h">Abdalla, F.B.</subfield>
+    <subfield code="h">Jarvis, M.</subfield>
+    <subfield code="h">Metcalf, R.B.</subfield>
+    <subfield code="h">Pourtsidou, A.</subfield>
+    <subfield code="h">Wolz, L.</subfield>
+    <subfield code="r">arXiv:1501.03989</subfield>
+    <subfield code="t">Cosmology from a SKA HI intensity mapping survey</subfield>
+    <subfield code="v">vol. 19</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1501.03989</subfield>
+    <subfield code="o">Santos et al, 2015</subfield>
+    <subfield code="s">Advancing Astrophysics with the Square Kilometre Array, AASKA14,vol. 19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shoemake, K.</subfield>
+    <subfield code="t">Animating rotation with quaternion curves</subfield>
+    <subfield code="v">vol.~19</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">Shoemake, 1985</subfield>
+    <subfield code="s">ACM SIGGRAPH Computer Graphics,vol.~19,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ascom.2015.03.002</subfield>
+    <subfield code="h">Swinbank, J.D.</subfield>
+    <subfield code="h">Staley, T.D.</subfield>
+    <subfield code="h">Molenaar, G.J.</subfield>
+    <subfield code="h">Rol, E.</subfield>
+    <subfield code="h">Rowlinson, A.</subfield>
+    <subfield code="h">Scheers, B.</subfield>
+    <subfield code="h">Spreeuw, H.</subfield>
+    <subfield code="h">Bell, M.E.</subfield>
+    <subfield code="h">Broderick, J.W.</subfield>
+    <subfield code="h">Carbone, D.</subfield>
+    <subfield code="h">Garsden, H.</subfield>
+    <subfield code="h">van der Horst, A.J.</subfield>
+    <subfield code="h">Law, C.J.</subfield>
+    <subfield code="h">Wise, M.</subfield>
+    <subfield code="h">Breton, R.P.</subfield>
+    <subfield code="h">Cendes, Y.</subfield>
+    <subfield code="h">Corbel, S.</subfield>
+    <subfield code="h">Eislöffel, J.</subfield>
+    <subfield code="h">Falcke, H.</subfield>
+    <subfield code="h">Fender, R.</subfield>
+    <subfield code="h">Grießmeier, J.-M.</subfield>
+    <subfield code="h">Hessels, J.W.T.</subfield>
+    <subfield code="h">Stappers, B.W.</subfield>
+    <subfield code="h">Stewart, A.J.</subfield>
+    <subfield code="h">Wijers, R.A.M.J.</subfield>
+    <subfield code="h">Wijnands, R.</subfield>
+    <subfield code="h">Zarka, P.</subfield>
+    <subfield code="r">arXiv:1503.01526</subfield>
+    <subfield code="t">The LOFAR transients pipeline</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1503.01526</subfield>
+    <subfield code="o">Swinbank et al, 2015</subfield>
+    <subfield code="s">Astron.Comput.,11,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wells, D.C.</subfield>
+    <subfield code="h">Greisen, E.W.</subfield>
+    <subfield code="h">Harten, R.H.</subfield>
+    <subfield code="t">FITS—a flexible image transport system</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">Wells et al, 1981</subfield>
+    <subfield code="s">Astron.Astrophys.,44,363</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/2213-1337/S2213133716X00066/S2213133716300695/S2213133716300695.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

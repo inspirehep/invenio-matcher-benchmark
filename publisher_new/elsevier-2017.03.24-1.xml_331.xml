@@ -1,0 +1,627 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.009</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Michels, Dominik L.</subfield>
+    <subfield code="v">Computer Science Department, Stanford University, 353 Serra Mall, MC 9515, Stanford, CA, 94305, USA</subfield>
+    <subfield code="v">Max Planck Institute for Informatics, Campus E1 4, Saarbrücken, 66123, Germany</subfield>
+    <subfield code="m">michels@cs.stanford.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A semi-analytical approach to molecular dynamics</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Despite numerous computational advances over the last few decades, molecular dynamics still favors explicit (and thus easily-parallelizable) time integrators for large scale numerical simulation. As a consequence, computational efficiency in solving its typically stiff oscillatory equations of motion is hampered by stringent stability requirements on the time step size. In this paper, we present a semi-analytical integration scheme that offers a total speedup of a factor 30 compared to the Verlet method on typical MD simulation by allowing over three orders of magnitude larger step sizes. By efficiently approximating the exact integration of the strong (harmonic) forces of covalent bonds through matrix functions, far improved stability with respect to time step size is achieved without sacrificing the explicit, symplectic, time-reversible, or fine-grained parallelizable nature of the integration scheme. We demonstrate the efficiency and scalability of our integrator on simulations ranging from DNA strand unbinding and protein folding to nanotube resonators.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Energy conservation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Explicit integration</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Exponential integrators</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fast Multipole Method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Krylov subspace projection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Molecular dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Momentum conservation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Symplectic integrators</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Desbrun, Mathieu</subfield>
+    <subfield code="v">Department of Computing and Mathematical Sciences, California Institute of Technology, 1200 E. California Blvd., MC 305-16, Pasadena, CA, 91125, USA</subfield>
+    <subfield code="v">Centre de Recherche INRIA Sophia-Antipolis Méditerranée, 2004 Route des Lucioles, BP 93, Sophia Antipolis Cedex, 06902, France</subfield>
+    <subfield code="m">mathieu@caltech.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">336-354</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abell, G.C.</subfield>
+    <subfield code="t">Empirical chemical pseudopotential theory of molecular and metallic bonding</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Rev.,B31,6184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alberts, B.</subfield>
+    <subfield code="h">Johnson, A.</subfield>
+    <subfield code="h">Lewis, J.</subfield>
+    <subfield code="h">Raff, M.</subfield>
+    <subfield code="h">Roberts, K.</subfield>
+    <subfield code="h">Walter, P.</subfield>
+    <subfield code="t">Molecular Biology of the Cell: Reference Edition, vol. 1</subfield>
+    <subfield code="p">Garland Science</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">AMBER molecular mechanical force fields</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andersen, H.C.</subfield>
+    <subfield code="t">Rattle: a velocity version of the Shake algorithm for molecular dynamics calculations</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,52,24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnoldi, W.E.</subfield>
+    <subfield code="t">The principle of minimized iterations in the solution of the matrix eigenvalue problem</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1951</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Q.Appl.Math.,9,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="h">Glaum, L.W.</subfield>
+    <subfield code="t">Applications of higher order corotational stretch theories to nonlinear finite element analysis</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Struct.,10,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenner, D.W.</subfield>
+    <subfield code="t">Empirical potential for hydrocarbons for use in simulating the chemical vapor deposition of diamond films</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.,B42,9458</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenner, D.W.</subfield>
+    <subfield code="h">Shenderova, O.A.</subfield>
+    <subfield code="h">Harrison, J.A.</subfield>
+    <subfield code="h">Stuart, S.J.</subfield>
+    <subfield code="h">Ni, B.</subfield>
+    <subfield code="h">Sinnott, S.B.</subfield>
+    <subfield code="t">A second-generation reactive empirical bond order (rebo) potential energy expression for hydrocarbons</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,14,783</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Certaine, J.</subfield>
+    <subfield code="t">The solution of ordinary differential equations with large time constants</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="e">Ralston,A.</subfield>
+    <subfield code="e">Wilf,H.</subfield>
+    <subfield code="q">Mathematical Methods for Digital Computers</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Curtiss, C.F.</subfield>
+    <subfield code="h">Hirschfelder, J.O.</subfield>
+    <subfield code="t">Integration of Stiff equations</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,38,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deuflhard, P.</subfield>
+    <subfield code="t">A study of extrapolation methods based on multistep schemes without parasitic solutions</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Appl.Math.Phys.,30,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dirac, P.A.</subfield>
+    <subfield code="t">Note on exchange phenomena in the Thomas atom</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1930</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Math.Proc.Camb.Philos.Soc.,26,376</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eastman, P.</subfield>
+    <subfield code="h">Pande, V.S.</subfield>
+    <subfield code="t">Constant constraint matrix approximation: a robust, parallelizable constraint method for molecular simulations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,6,434</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Friedli, A.</subfield>
+    <subfield code="t">Verallgemeinerte Runge–Kutta Verfahren zur Lösung steifer Differentialgleichungen</subfield>
+    <subfield code="v">631</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Lect.Notes Math.,631,214</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">García-Archilla, B.</subfield>
+    <subfield code="h">Sanz-Serna, J.M.</subfield>
+    <subfield code="h">Skeel, R.D.</subfield>
+    <subfield code="t">Long-time-step methods for oscillatory differential equations</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,20,930</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gautschi, W.</subfield>
+    <subfield code="t">Numerical integration of ordinary differential equations based on trigonometric polynomials</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Numer.Math.,3,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gershgorin, S.A.</subfield>
+    <subfield code="t">Über die Abgrenzung der Eigenwerte einer Matrix</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1931</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Bull.Acad.Sci.URSS, Cl.Sci.Math.Nat.,6,749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast algorithm for particle simulations</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,73,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Griebel, M.</subfield>
+    <subfield code="h">Knapek, S.</subfield>
+    <subfield code="h">Zumbusch, G.</subfield>
+    <subfield code="t">Numerical Simulation in Molecular Dynamics: Numerics, Algorithms, Parallelization, Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Güttel, S.</subfield>
+    <subfield code="t">Rational Krylov approximation of matrix functions: numerical methods and optimal pole selection</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">GAMM-Mitt.,36,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, E.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">Long-time energy conservation of numerical methods for oscillatory differential equations</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,414</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, E.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Wanner, G.</subfield>
+    <subfield code="t">Geometric Numerical Integration: Structure-Preserving Algorithms for Ordinary Differential Equations, Springer Series in Computational Mathematics, vol. 31</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hall, G.G.</subfield>
+    <subfield code="h">Lennard-Jones, J.E.</subfield>
+    <subfield code="t">The molecular orbital theory of chemical valency. III. Properties of molecular orbitals</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.A, Math.Phys.Sci.,202,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hersch, J.</subfield>
+    <subfield code="t">Contribution à la méthode des équations aux différences</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Z.Angew.Math.Phys.,9,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hess, B.</subfield>
+    <subfield code="h">Bekker, H.</subfield>
+    <subfield code="h">Berendsen, H.J.C.</subfield>
+    <subfield code="h">Fraaije, J.G.E.M.</subfield>
+    <subfield code="t">Lincs: a linear constraint solver for molecular simulations</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Chem.,18,1463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hess, B.</subfield>
+    <subfield code="h">Kutzner, C.</subfield>
+    <subfield code="h">van der Spoel, D.</subfield>
+    <subfield code="h">Lindahl, E.</subfield>
+    <subfield code="t">Gromacs 4: algorithms for highly efficient, load-balanced, and scalable molecular simulation</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,4,435</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hochbruck, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">On Krylov subspace approximations to the matrix exponential operator</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,34,1911</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hochbruck, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">A bunch of time integrators for quantum/classical molecular dynamics</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="e">Deuflhard,P.</subfield>
+    <subfield code="e">Hermans,J.</subfield>
+    <subfield code="e">Leimkuhler,B.</subfield>
+    <subfield code="e">Mark,A.</subfield>
+    <subfield code="e">Reich,S.</subfield>
+    <subfield code="e">Skeel,R.D.</subfield>
+    <subfield code="q">Algorithms for Macromolecular Modelling</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hochbruck, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">Exponential integrators for quantum-classical molecular dynamics</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">BIT Numer.Math.,39,620</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hochbruck, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Selfhofer, H.</subfield>
+    <subfield code="t">Exponential integrators for large systems of differential equations</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,19,1552</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jensen, K.</subfield>
+    <subfield code="h">Kim, K.</subfield>
+    <subfield code="h">Zettl, A.</subfield>
+    <subfield code="t">An atomic-resolution nanomechanical mass sensor</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Nat.Nanotechnol.,3,533</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kloeden, P.E.</subfield>
+    <subfield code="h">Platen, E.</subfield>
+    <subfield code="t">Numerical Solution of Stochastic Differential Equations, Stochastic Modelling and Applied Probability, vol. 23</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 23</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kroto, H.W.</subfield>
+    <subfield code="h">Heath, J.R.</subfield>
+    <subfield code="h">O'Brien, S.C.</subfield>
+    <subfield code="h">Curl, R.F.</subfield>
+    <subfield code="h">Smalley, R.E.</subfield>
+    <subfield code="t">C 60 : buckminsterfullerene</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Nature,318,162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kulkarni, Y.</subfield>
+    <subfield code="t">Coarse-graining of atomistic description at finite temperature</subfield>
+    <subfield code="p">California Institute of Technology</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lagrange, J.-L.</subfield>
+    <subfield code="t">Supplément au Mémoire sur la théorie générale de la variation des constantes arbitraires, dans tous les problèmes de la mécanique</subfield>
+    <subfield code="y">1809</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Mém.Cl.Sci., Math.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">LAMMPS molecular dynamics simulator</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lawson, J.D.</subfield>
+    <subfield code="t">Generalized Runge–Kutta processes for stable systems with large Lipschitz constants</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,4,372</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lennard-Jones, J.E.</subfield>
+    <subfield code="t">On the determination of molecular fields. I. From the variation of the viscosity of a gas with temperature</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">1924</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.A, Math.Phys.Sci.,106,441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lennard-Jones, J.E.</subfield>
+    <subfield code="t">On the determination of molecular fields. II. From the equation of state of a gas</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">1924</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.A, Math.Phys.Sci.,106,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marx, D.</subfield>
+    <subfield code="h">Hutter, J.</subfield>
+    <subfield code="t">Ab Initio Molecular Dynamics: Basic Theory and Advanced Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matteoli, E.</subfield>
+    <subfield code="h">Mansoori, G.A.</subfield>
+    <subfield code="t">A simple expression for radial distribution functions of pure fluids and mixtures</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Chem.Phys.,103,4672</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maxwell, J.C.</subfield>
+    <subfield code="t">Illustrations of the dynamical theory of gases</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1860</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Philos.Mag.,19,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maxwell, J.C.</subfield>
+    <subfield code="t">Illustrations of the dynamical theory of gases</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1860</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Philos.Mag.,20,21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mises, R.</subfield>
+    <subfield code="h">Pollaczek-Geiringer, H.</subfield>
+    <subfield code="t">Praktische Verfahren der Gleichungsauflösung</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1929</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Z.Angew.Math.Mech.,9,152</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moler, C.</subfield>
+    <subfield code="h">Loan, C.V.</subfield>
+    <subfield code="t">Nineteen dubious ways to compute the exponential of a matrix</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM Rev.,20,801</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moler, C.</subfield>
+    <subfield code="h">Loan, C.V.</subfield>
+    <subfield code="t">Nineteen dubious ways to compute the exponential of a matrix, twenty-five years later</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM Rev.,45,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Müller, M.</subfield>
+    <subfield code="h">Dorsey, J.</subfield>
+    <subfield code="h">McMillan, L.</subfield>
+    <subfield code="h">Jagnow, R.</subfield>
+    <subfield code="h">Cutler, B.</subfield>
+    <subfield code="t">Stable real-time deformations</subfield>
+    <subfield code="p">Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation, SCA '02, 2002</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Neidigh, J.W.</subfield>
+    <subfield code="h">Fesinmeyer, R.M.</subfield>
+    <subfield code="h">Andersen, N.H.</subfield>
+    <subfield code="t">Designing a 20-residue protein</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Nat.Struct.Mol.Biol.,9,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rapaport, D.C.</subfield>
+    <subfield code="t">The Art of Molecular Dynamics Simulation</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rosenbrock, H.H.</subfield>
+    <subfield code="t">Some general implicit processes for the numerical solution of differential equations</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.J.,5,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ryckaert, J.-P.</subfield>
+    <subfield code="h">Ciccotti, G.</subfield>
+    <subfield code="h">Berendsen, H.J.C.</subfield>
+    <subfield code="t">Numerical integration of the Cartesian equations of motion of a system with constraints: molecular dynamics of n -alkanes</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,23,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Analysis of some Krylov subspace approximations to the matrix exponential operator</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,29,209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sidje, R.B.</subfield>
+    <subfield code="t">Expokit: a software package for computing matrix exponentials</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,24,130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Skeel, R.</subfield>
+    <subfield code="t">Integration schemes for molecular dynamics and related applications</subfield>
+    <subfield code="v">vol. 26</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Springer Series in Computational Mathematics,vol. 26,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tao, M.</subfield>
+    <subfield code="h">Owhadi, H.</subfield>
+    <subfield code="h">Marsden, J.E.</subfield>
+    <subfield code="t">Nonintrusive and structure preserving multiscale integration of stiff odes, sdes, and Hamiltonian systems with hidden slow dynamics via flow averaging</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Multiscale Model.Simul.,8,1269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tersoff, J.</subfield>
+    <subfield code="t">New empirical approach for the structure and energy of covalent systems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Phys.Rev.,B37,6991</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vaidehi, N.</subfield>
+    <subfield code="h">Jain, A.</subfield>
+    <subfield code="h">Goddard, W.A.</subfield>
+    <subfield code="t">Constant temperature constrained molecular dynamics: the Newton–Euler inverse mass operator method</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Phys.Chem.,100,10508</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van der Vorst, H.A.</subfield>
+    <subfield code="t">An iterative solution method for solving <math altimg="si303.gif" display="inline" overflow="scroll"><mi>f</mi><mo stretchy="false">(</mo><mi>A</mi><mo stretchy="false">)</mo><mi>x</mi><mo>=</mo><mi>b</mi></math> , using Krylov subspace information obtained for the symmetric positive definite matrix A</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,18,249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verlet, L.</subfield>
+    <subfield code="t">Computer experiments on classical fluids. I. Thermodynamical properties of Lennard–Jones molecules</subfield>
+    <subfield code="v">159</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Phys.Rev.,159,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wempner, G.A.</subfield>
+    <subfield code="t">Finite elements, finite rotations and small strains of flexible shells</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Int.J.Solids Struct.,5,117</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006713/S0021999115006713.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

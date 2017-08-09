@@ -1,0 +1,708 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The coprime quantum chain</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">In this paper we introduce and study the coprime quantum chain, i.e. a strongly correlated quantum system defined in terms of the integer eigenvalues n ( )i( ) of the occupation number operators at each site of a chain of length M. The n ( )i( )’s take value in the interval [2,q] and may be regarded as S ( )z( ) eigenvalues in the spin representation j  =  (q  −  2)/2. The distinctive interaction of the model is based on the coprimality matrix $\boldsymbol{\Phi}$ : for the ferromagnetic case, this matrix assigns lower energy to configurations where occupation numbers n ( )i( ) and n ( )i(+1) of neighbouring sites share a common divisor, while for the anti-ferromagnetic case it assigns a lower energy to configurations where n ( )i( ) and n ( )i(+1) are coprime. The coprime chain, both in the ferro and anti-ferromagnetic cases, may present an exponential number of ground states whose values can be exactly computed by means of graph theoretical tools. In the ferromagnetic case there are generally also frustration phenomena. A fine tuning of local operators may lift the exponential ground state degeneracy and, according to which operators are switched on, the system may be driven into different classes of universality, among which the Ising or Potts universality class. The paper also contains an appendix by Don Zagier on the exact eigenvalues and eigenvectors of the coprimality matrix in the limit $q\to \infty $ .</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JSTAT</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">033104</subfield>
+  <subfield code="v">1703</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1742-5468/aa5bb4</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">67</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-17</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Mussardo, G.</subfield>
+  <subfield code="v">SISSA and INFN - Sezione di Trieste - via Bonomea 265 - I-34136 - Trieste - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Giudici, G.</subfield>
+  <subfield code="v">SISSA and INFN - Sezione di Trieste - via Bonomea 265 - I-34136 - Trieste - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Viti, J.</subfield>
+  <subfield code="v">ECT &amp; Instituto Internacional de Fisica - UFRN - Lagoa Nova 59078-970 Natal - Brazil</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">a. The Perron-Frobenius eigenvalue of {{N}^{-1}}{{C}^{(N)}} converges for N\to \infty to the number \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\lambda}_{1}}=\underset{p~\text{prime}}{\prod}\,\frac{p-1+\sqrt{(\,p-1)(\,p+3)}}{2p}=0.678\,462\,252\,434\,655\,707\,28\cdots.\end{eqnarray} \end{align*} \tag{ C.1 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">b. More generally, the entire spectrum of {{N}^{-1}}{{C}^{(N)}} converges as N\to \infty to the countable subset \{0\}\,{\cup}^{}\,\left\{{{\lambda}_{D}}|D~\text{squarefree}\right\} of \mathbb{R}, where {{\lambda}_{D}} is an algebraic multiple of {{\lambda}_{1}} given by \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\lambda}_{D}}={{\lambda}_{1}}\,\underset{p|D,p~\text{prime}}{\prod}\,\frac{-p-1+\sqrt{(\,p-1)(\,p+3)}}{2}.\end{eqnarray} \end{align*} \tag{ C.2 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">c. The normalized eigenvector of C (N) corresponding to {{\lambda}_{D}} converges for N\to \infty to a well-defined vector {{v}^{(D)}}\in {{\mathbb{R}}^{\infty}} with components given by \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{v}^{(D)}}_{n}=\underset{\begin{array}{c} p\,\text{prime} \\ p|n,\,p\nmid D \end{array}}{\prod}\,\frac{-p+1+\sqrt{(\,p-1)(\,p+3)}}{2}\</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\centerdot \underset{\begin{array}{c} p\,\text{prime} \\ p|n,\,p|D \end{array}}{\prod}\,\frac{-p+1-\sqrt{(\,p-1)(\,p+3)}}{2}\quad \quad \left(n\in \mathbb{N}\right).\end{eqnarray} \end{align*} \tag{ C.3 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">a. Let \mathcal{H} be the Hilbert space defined as the completion of the vector space of finite linear combinations of vectors fn (n\geqslant 1) with respect to the norm defined by the positive definite bilinear form \langle \,{{f}_{m}},{{f}_{n}}\rangle =1/[m,n]. Then the linear operator B:\mathcal{H}\to \mathcal{H} defined by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;B\left(\,{{f}_{m}}\right)=\underset{n=1}{\overset{\infty}{\sum}}\,\frac{\mu (n)}{[m,n]}\,{{f}_{n}}\quad \quad (m\geqslant 1)\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.11 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">is a Hilbert-Schmidt operator and the spectrum of {{N}^{-1}}{{C}^{(N)}} converges as N\to \infty to the spectrum of B</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">b. The eigenvector v (D) of B with eigenvalue {{\lambda}_{D}} (squarefree) is given by \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{v}^{(D)}}=\underset{\begin{array}{c} n\geqslant 1 \\ n~\text{squarefree} \end{array}}{\sum}\,\tilde{v}_{n}^{(D)}\,{{f}_{n}},\quad \quad \tilde{v}_{n}^{(D)}=\underset{p|n,\</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">p\nmid D}{\prod}\,\left({{\alpha}_{p}}-1\right)\centerdot \underset{p|n,\</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">p|D}{\prod}\,\left({{\beta}_{p}}-1\right).\end{eqnarray} \end{align*} \tag{ C.12 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">c. The vectors v (D) are orthogonal, with the scalar product {{H}_{D}}:=\langle {{v}^{(D)}},{{v}^{(D)}}\rangle given for D = 1 by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{H}_{1}}=\underset{p}{\prod}\,\left(1+\frac{\alpha _{p}^{2}-1}{p}\right)=0.499\,578\,992\,264\,678\,470\,66\cdots \end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.13 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">and for general D by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{H}_{D}}=\underset{p\nmid D}{\prod}\,\left(1+\frac{\alpha _{p}^{2}-1}{p}\right)\,\underset{p|D}{\prod}\,\left(1+\frac{\beta _{p}^{2}-1}{p}\right)={{H}_{1}}\,\underset{p|D}{\prod}\,\left(\,p+{{\alpha}_{p}}\right).\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.14 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(a) the set \mathcal{N}(c) is infinite for every c, and</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(b) any finite subset I\subset \mathbb{N} is contained in \mathcal{N}(c) for infinitely many values of c</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">In the following we will sometimes refer to the model as &apos;q-coprime chain&apos;, in particular if we want to emphasise the properties of the quantum chain with respect to parameter q</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">The coprimality function in the Hamiltonian is formally multiplied by a tensor product of the identity operators on next neighbouring sites</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">For the peculiar role played by the integer number 1, which acts as a &apos;neutral&apos; divisor of all natural numbers, it seems wiser to exclude it from the list of possible values assumed by the occupation numbers and therefore to start their values from 2, as we actually do. In this way, a-priori there is no privileged value among the entire set of occupation numbers</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">For large values of q the dimension of this space is computed below</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">It is obvious, for instance, that the vector y=(1,1,1,\ldots,1,1,1) made of all 1&apos;s cannot be in the prime-number space, because it would correspond, at least, to the natural number n={{p}_{1}}{{p}_{2}}\ldots {{p}_{l}} (i.e. to the number given by the product of all the l primes) which is much greater than the maximum number q of the interval. Similar consideration may be applied to other boolean l-dimensional vectors</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">A square-free number is a number not divisible by a square. The function of number theory that identifies the square-free integers is the absolute value of the Moebius function \mu (n), see [, 8: #jstataa5bb4bib008]. Indeed |\mu (n)|\,=1 if and only if n is a square-free number and zero otherwise</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">Assuming one again weak correlations among the primes</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">The first paper where the DFT of the coprimality matrix was studied is [, 26: #jstataa5bb4bib026]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">All the possible vertices can be conveniently represented as lying on circle and will be ordered as in figure, 8: #jstataa5bb4f08</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="m">A slightly different viewpoint is to observe that the values at the end-points are not divisible by the largest prime {{p}_{\max}} that is certainly bigger than q/2. On the other hand, these two numbers cannot be divisible further by all the primes smaller than {{p}_{\max}} if q &gt; 6. It is not difficult to see that this circumstance leaves room for eliminating completely frustration in the antiferromagnetic case</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">A potential critical behavior cannot not be affected by the boundary condition employed. Periodic boundary conditions are simply a way to make the finite size scaling as fast as possible</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">Each operator \hat{\sigma}_{i}^{a} has to be meant as in equation (, 8: #jstataa5bb4eqn008), namely \hat{\sigma}_{i}^{a}=\mathbf{1}\otimes \mathbf{1}\cdots \mathbf{1}\otimes \underset{\begin{array}{c} \uparrow \\ i-\text{site} \end{array}}{{{{\sigma}^{a}}}}\,\otimes \mathbf{1}\otimes \mathbf{1}\cdots \otimes \mathbf{1}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">Here and after, the gi&apos;s are obviously linear combinations of the previous coupling constants {{\beta}_{\alpha}} introduced in equation (, 12: #jstataa5bb4eqn012)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">The states are obtained exchanging in only one of the M possible site a 2 with a 4 and vice-versa</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Ribenboim P</subfield>
+  <subfield code="m">The Little Book of Bigger Prime Numbers (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Ribenboim P</subfield>
+  <subfield code="m">My Numbers, My Friends: Popular Lectures on Number Theory (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Schroeder M R</subfield>
+  <subfield code="m">Number Theory in and Communications (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="t">Science</subfield>
+  <subfield code="0">304853</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Zagier D</subfield>
+  <subfield code="m">The first 50 million prime numbers Math. Intell. 0 221-24</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Bateman P and Diamond H</subfield>
+  <subfield code="m">A hundred years of prime numbers Crossref:</subfield>
+  <subfield code="s">Am.Math.Mon.,103,729-41</subfield>
+  <subfield code="a">doi:10.2307/2974443</subfield>
+  <subfield code="y">1966</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Newman D J</subfield>
+  <subfield code="m">Simple analytic proof of the prime number theorem Crossref:</subfield>
+  <subfield code="s">Am.Math.Mon.,87,693-6</subfield>
+  <subfield code="a">doi:10.2307/2321853</subfield>
+  <subfield code="y">1980</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Zagier D</subfield>
+  <subfield code="m">Newman’s short proof of the prime number theorem Crossref:</subfield>
+  <subfield code="s">Am.Math.Mon.,104,705-8</subfield>
+  <subfield code="a">doi:10.2307/2975232</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Young R M</subfield>
+  <subfield code="m">Excursions in Calculus. An Interplay of the Continuous and the Discrete (Dolciani Mathematical Expositions vol 13) (Washington, DC: The Mathematical Association of America)</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Riemann B</subfield>
+  <subfield code="m">Ueber die Anzahl der Primzahlen unter einer gegebenen Grsse Gesammelte Werke (Monatsberichte der Berliner Akademie) (Leipzig:</subfield>
+  <subfield code="p">Teubner</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Hardy G H and Wright E M</subfield>
+  <subfield code="m">An Introduction to the Theory of Numbers (Oxford: Oxford University Press)</subfield>
+  <subfield code="y">1938</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Baker A</subfield>
+  <subfield code="m">A Concise Introduction to the Theory of Numbers (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9781139171601</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Apostol T M</subfield>
+  <subfield code="m">Introduction to Analytic Number Theory (Undergraduate Texts in Mathematics) (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">Manin Yu I and Panchishkin A AIntroduction to Modern Number Theory (Berlin: Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/3-540-27692-0</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Edwards H M</subfield>
+  <subfield code="m">Riemann’s Zeta Function (London:</subfield>
+  <subfield code="p">Academic</subfield>
+  <subfield code="y">1974</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Titchmarsh E C</subfield>
+  <subfield code="m">The Theory of the Riemann Zeta Function (Oxford: Oxford University Press)</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Conrey J B</subfield>
+  <subfield code="m">The Riemann hypothesis Not</subfield>
+  <subfield code="s">Electron.Res.Announ.AMS,50,342</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Bombieri E</subfield>
+  <subfield code="m">Problems of the Millennium: the Riemann Hypothesis (Cambridge, MA: Clay Mathematics Institute)</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Sarnak P</subfield>
+  <subfield code="m">Problems of the Millennium: the Riemann Hypothesis (Cambridge, MA: Clay Mathematics Institute)</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Mazur B and Stein W</subfield>
+  <subfield code="m">Prime Numbers and the Riemann Hypothesis (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9781316182277</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Polya G</subfield>
+  <subfield code="m">-1982 unpublished (c. 1914) see A. Odlyzko Correspondence about the origins of the Hilbert—Polya conjecture, www.dtc.umn.edu/?odlyzko/polya/index.html:</subfield>
+  <subfield code="u">http://www.dtc.umn.edu/?odlyzko/polya/index.html</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Berry M V</subfield>
+  <subfield code="m">Riemann’s zeta function: a model for quantum chaos? (Quantum Chaos and Statistical Nuclear Physics vol 263) T H Seligman and H Nishioka (eds.) (New York: pp 1-17</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Berry M V</subfield>
+  <subfield code="s">Nonlinearity,1,399-407</subfield>
+  <subfield code="a">doi:10.1088/0951-7715/1/3/001</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Berry M V and Keating J</subfield>
+  <subfield code="s">SIAM Rev.,41,236</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1137/S0036144598347497</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Connes A</subfield>
+  <subfield code="m">Sel. Math. 5 29, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s000290050042</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Sierra G</subfield>
+  <subfield code="s">Nucl.Phys.,B776,327</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.nuclphysb.2007.03.049</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">744485</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sierra G</subfield>
+  <subfield code="m">J. Stat Mech. P006, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2005/12/p12006</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">698146</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sierra G</subfield>
+  <subfield code="s">New J.Phys.,10,033016</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/10/3/033016</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">770375</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sierra G and Townsend P K</subfield>
+  <subfield code="s">Phys.Rev.Lett.,101,110201</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.101.110201</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">800098</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sierra G</subfield>
+  <subfield code="m">The Riemann zeros as spectrum and the Riemann hypothesis Preprint:</subfield>
+  <subfield code="r">arXiv:1601.01797 [math-ph]</subfield>
+  <subfield code="r">arXiv:1601.01797</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1414817</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Fran G and LeClair A</subfield>
+  <subfield code="m">Communications in Number Theory and Physics vol 9 (Somerville, MA: International Press)</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">LeClair A</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,A28,1350151</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1142/S0217751X13501510</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1233116</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Schumayer D and Hutchinson D A W</subfield>
+  <subfield code="s">Rev.Mod.Phys.,83,307</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.83.307</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">884413</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Mussardo G</subfield>
+  <subfield code="m">The quantum mechanical potential for the prime numbers (arXiv: Preprint:</subfield>
+  <subfield code="r">cond-mat/9712010</subfield>
+  <subfield code="r">arXiv:cond-mat/9712010</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">453433</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Ramanujan S</subfield>
+  <subfield code="s">J.Indian Math.Soc.,11,181172</subfield>
+  <subfield code="y">1919</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Erdos P</subfield>
+  <subfield code="m">-1932 Beweis eines Satzes von Tschebyschef Acta Sci. Mat. 5 194-8</subfield>
+  <subfield code="y">1930</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Schroeder M R</subfield>
+  <subfield code="m">Math. Intell. 4 158-61, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/BF03024248</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Holzhey C, Larsen F and Wilczek F</subfield>
+  <subfield code="s">Nucl.Phys.,B424,443</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(94)90402-2</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">372325</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Vidal G, Latorre J I, Rico E and Kitaev A</subfield>
+  <subfield code="s">Phys.Rev.Lett.,90,227902</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.90.227902</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">602110</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Korepin V E</subfield>
+  <subfield code="s">Phys.Rev.Lett.,92,096402</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.92.096402</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">673957</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Cardy J L and Calabrese P</subfield>
+  <subfield code="m">J. Stat Mech. P06002</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2004/06/P06002</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">650602</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Nagura J</subfield>
+  <subfield code="s">Proc.Japan Acad.,28,177-81</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.3792/pja/1195570997</subfield>
+  <subfield code="y">1952</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Belavin A A, Polyakov A M and Zamolodchikov A B</subfield>
+  <subfield code="s">Nucl.Phys.,B241,333</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(84)90052-X</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="0">202442</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Kogut J B</subfield>
+  <subfield code="s">Rev.Mod.Phys.,51,659</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.51.659</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="0">140498</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Sachdev S</subfield>
+  <subfield code="m">Quantum Phase Transitions (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9780511973765</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Blöte H W J, Cardy J L and Nightingale M P</subfield>
+  <subfield code="s">Phys.Rev.Lett.,56,742</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.56.742</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="0">229560</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Affleck I</subfield>
+  <subfield code="s">Phys.Rev.Lett.,56,746</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.56.746</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="0">17876</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="m">Wu F Y Crossref:</subfield>
+  <subfield code="s">Rev.Mod.Phys.,54,235</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.54.235</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="0">176420</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Slyom J and Pfeuty P</subfield>
+  <subfield code="s">Phys.Rev.,B24,218</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.24.218</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="m">Dotstenko Vl S Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B235,54</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(84)90148-2</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="0">204238</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Metropolis N, Rosenbluth A W, Rosenbluth M N, Teller A H and Teller E</subfield>
+  <subfield code="s">J.Chem.Phys.,21,1087</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1063/1.1699114</subfield>
+  <subfield code="y">1953</subfield>
+  <subfield code="0">3194</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Cvetkovic D M, Doob M and Sachs H</subfield>
+  <subfield code="m">Spectra of Graphs (New York:</subfield>
+  <subfield code="p">Academic</subfield>
+  <subfield code="y">1980</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Calabrese P, Essler F H L and Mussardo G</subfield>
+  <subfield code="m">J. Stat Mech. 064001 (Special issue on Quantum Integrability in Out of Equilibrium Systems)</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2016/6/064001</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Rossini D, Silva A, Mussardo G and Santoro G</subfield>
+  <subfield code="s">Phys.Rev.Lett.,102,127204</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.102.127204</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">850173</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Calabrese P, Essler F and Fagotti M</subfield>
+  <subfield code="s">Phys.Rev.Lett.,106,227203</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.106.227203</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">1474732</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Fagotti M and Calabrese P</subfield>
+  <subfield code="s">Phys.Rev.,A78,010306</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.78.010306</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Eisler V and Peschel I</subfield>
+  <subfield code="m">J. Stat Mech. 06005, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2014/04/p04005</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Stephan J-M and Dubail J</subfield>
+  <subfield code="m">J. Stat Mech. 08019, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2011/08/p08019</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">De Luca A, Viti J, Bernard D and Doyon B</subfield>
+  <subfield code="s">Phys.Rev.,B88,134301</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.88.134301</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1235063</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Kollath C, Laeuchli A and Altman E</subfield>
+  <subfield code="s">Phys.Rev.Lett.,98,180601</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.98.180601</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">1474230</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

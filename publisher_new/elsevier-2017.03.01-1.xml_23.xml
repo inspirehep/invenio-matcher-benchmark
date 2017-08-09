@@ -1,0 +1,354 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.cpc.2017.01.008</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Barnes, Taylor A.</subfield>
+    <subfield code="v">NERSC, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA</subfield>
+    <subfield code="m">tbarnes@lbl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Improved treatment of exact exchange in Quantum ESPRESSO</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present an algorithm and implementation for the parallel computation of exact exchange in Quantum ESPRESSO (QE) that exhibits greatly improved strong scaling. QE is an open-source software package for electronic structure calculations using plane wave density functional theory, and supports the use of local, semi-local, and hybrid DFT functionals. Wider application of hybrid functionals is desirable for the improved simulation of electronic band energy alignments and thermodynamic properties, but the computational complexity of evaluating the exact exchange potential limits the practical application of hybrid functionals to large systems and requires efficient implementations. We demonstrate that existing implementations of hybrid DFT that utilize a single data structure for both the local and exact exchange regions of the code are significantly limited in the degree of parallelization achievable. We present a band-pair parallelization approach, in which the calculation of exact exchange is parallelized and evaluated independently from the parallelization of the remainder of the calculation, with the wavefunction data being efficiently transformed on-the-fly into a form that is optimal for each part of the calculation. For a 64 water molecule supercell, our new algorithm reduces the overall time to solution by nearly an order of magnitude.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hybrid DFT</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Quantum ESPRESSO</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Scalability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kurth, Thorsten</subfield>
+    <subfield code="v">NERSC, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Carrier, Pierre</subfield>
+    <subfield code="v">Cray Inc., Saint Paul, MN, 55101, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wichmann, Nathan</subfield>
+    <subfield code="v">Cray Inc., Saint Paul, MN, 55101, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Prendergast, David</subfield>
+    <subfield code="v">The Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kent, Paul R.C.</subfield>
+    <subfield code="v">Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN, 37831, USA</subfield>
+    <subfield code="v">Computer Science and Mathematics Division, Oak Ridge National Laboratory, Oak Ridge, TN, 37831, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Deslippe, Jack</subfield>
+    <subfield code="v">NERSC, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Comput.Phys.Commun.</subfield>
+    <subfield code="c">52-58</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hohenberg, P.</subfield>
+    <subfield code="h">Kohn, W.</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Rev.,136,B864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kohn, W.</subfield>
+    <subfield code="h">Sham, L.J.</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.,140,A1133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Landers, J.</subfield>
+    <subfield code="h">Gor, G.Y.</subfield>
+    <subfield code="h">Neimark, A.V.</subfield>
+    <subfield code="v">437</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Colloids Surf.,A437,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zangwill, A.</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Today,68,34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Norskov, J.K.</subfield>
+    <subfield code="h">Abild-Pedersen, F.</subfield>
+    <subfield code="h">Studt, F.</subfield>
+    <subfield code="h">Bligaard, T.</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,108,937</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klimes, J.</subfield>
+    <subfield code="h">Michaelides, A.</subfield>
+    <subfield code="v">137</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Chem.Phys.,137,120901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, A.J.</subfield>
+    <subfield code="h">Mori-Sánchez, P.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Science,321,792</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mori-Sánchez, P.</subfield>
+    <subfield code="h">Cohen, A.J.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Phys.Rev.Lett.,100,146401</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heyd, J.</subfield>
+    <subfield code="h">Scuseria, G.E.</subfield>
+    <subfield code="h">Ernzerhof, M.</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Chem.Phys.,118,8207</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heyd, J.</subfield>
+    <subfield code="h">Scuseria, G.E.</subfield>
+    <subfield code="h">Ernzerhof, M.</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Chem.Phys.,124,219906</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becke, A.D.</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Chem.Phys.,98,5648</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perdew, J.P.</subfield>
+    <subfield code="h">Ernzerhof, M.</subfield>
+    <subfield code="h">Burke, K.</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Chem.Phys.,105,9982</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cramer, C.J.</subfield>
+    <subfield code="h">Truhlar, D.G.</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Chem.Chem.Phys.,11,10757</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baer, R.</subfield>
+    <subfield code="h">Livshits, E.</subfield>
+    <subfield code="h">Salzner, U.</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Annu.Rev.Phys.Chem.,61,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perdew, J.P.</subfield>
+    <subfield code="h">Ruzsinszky, A.</subfield>
+    <subfield code="h">Constantin, L.A.</subfield>
+    <subfield code="h">Sun, J.</subfield>
+    <subfield code="h">Csonka, G.I.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,5,902</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burke, K.</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Chem.Phys.,136,150901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, W.J.</subfield>
+    <subfield code="h">Mori-Sánchez, P.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Chem.Rev.,112,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becke, A.D.</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Chem.Phys.,136,18A301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">DiStasio Jr., R.A.</subfield>
+    <subfield code="h">Santra, B.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Wu, X.</subfield>
+    <subfield code="h">Car, R.</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Chem.Phys.,141,084502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wan, Q.</subfield>
+    <subfield code="h">Spanu, L.</subfield>
+    <subfield code="h">Gygi, F.</subfield>
+    <subfield code="h">Galli, G.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Phys.Chem.Lett.,5,2562</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, L.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,12,2242</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bylaska, E.J.</subfield>
+    <subfield code="h">Glass, K.</subfield>
+    <subfield code="h">Baxter, D.</subfield>
+    <subfield code="h">Baden, S.B.</subfield>
+    <subfield code="h">Weare, J.H.</subfield>
+    <subfield code="v">180</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,180,012028</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, C.</subfield>
+    <subfield code="h">Donadio, D.</subfield>
+    <subfield code="h">Gygi, F.</subfield>
+    <subfield code="h">Galli, G.</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,7,1443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duchemin, I.</subfield>
+    <subfield code="h">Gygi, F.</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comp.Phys.Comm.,181,855</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giannozzi, P.</subfield>
+    <subfield code="h">Baroni, S.</subfield>
+    <subfield code="h">Bonini, N.</subfield>
+    <subfield code="h">Calandra, M.</subfield>
+    <subfield code="h">Car, R.</subfield>
+    <subfield code="h">Cavazzoni, C.</subfield>
+    <subfield code="h">Ceresoli, D.</subfield>
+    <subfield code="h">Chiarotti, G.L.</subfield>
+    <subfield code="h">Cococcioni, M.</subfield>
+    <subfield code="h">Dabo, I.</subfield>
+    <subfield code="h">Dal Corso, A.</subfield>
+    <subfield code="h">de Gironcoli, S.</subfield>
+    <subfield code="h">Fabris, S.</subfield>
+    <subfield code="h">Fratesi, G.</subfield>
+    <subfield code="h">Gebauer, R.</subfield>
+    <subfield code="h">Gerstmann, U.</subfield>
+    <subfield code="h">Gougoussis, C.</subfield>
+    <subfield code="h">Kokalj, A.</subfield>
+    <subfield code="h">Lazzeri, M.</subfield>
+    <subfield code="h">Martin-Samos, L.</subfield>
+    <subfield code="h">Marzari, N.</subfield>
+    <subfield code="h">Mauri, F.</subfield>
+    <subfield code="h">Mazzarello, R.</subfield>
+    <subfield code="h">Paolini, S.</subfield>
+    <subfield code="h">Pasquarello, A.</subfield>
+    <subfield code="h">Paulatto, L.</subfield>
+    <subfield code="h">Sbraccia, C.</subfield>
+    <subfield code="h">Scandolo, S.</subfield>
+    <subfield code="h">Sclauzero, G.</subfield>
+    <subfield code="h">Seitsonen, A.P.</subfield>
+    <subfield code="h">Smogunov, A.</subfield>
+    <subfield code="h">Umari, P.</subfield>
+    <subfield code="h">Wentzcovitch, R.M.</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Phys.: Condens.Matter.,21,395502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="u">http://www.fftw.org</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">NERSC:</subfield>
+    <subfield code="u">http://www.nersc.gov</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perdew, J.P.</subfield>
+    <subfield code="h">Burke, K.</subfield>
+    <subfield code="h">Ernzerhof, M.</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Rev.Lett.,77,3865</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0010-4655/S0010465517X00039/S0010465517300085/S0010465517300085.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

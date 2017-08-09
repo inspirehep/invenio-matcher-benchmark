@@ -1,0 +1,766 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.06.006</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Mazaheri, Alireza</subfield>
+    <subfield code="j">ORCID:0000-0003-1128-6705</subfield>
+    <subfield code="v">NASA Langley Research Center, Hampton, VA, 23681, USA</subfield>
+    <subfield code="m">alireza.mazaheri@nasa.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Efficient high-order discontinuous Galerkin schemes with first-order hyperbolic advection–diffusion system approach</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">26</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We propose arbitrary high-order discontinuous Galerkin (DG) schemes that are designed based on a first-order hyperbolic advection–diffusion formulation of the target governing equations. We present, in details, the efficient construction of the proposed high-order schemes (called DG-H), and show that these schemes have the same number of global degrees-of-freedom as comparable conventional high-order DG schemes, produce the same or higher order of accuracy solutions and solution gradients, are exact for exact polynomial functions, and do not need a second-derivative diffusion operator. We demonstrate that the constructed high-order schemes give excellent quality solution and solution gradients on irregular triangular elements. We also construct a Weighted Essentially Non-Oscillatory (WENO) limiter for the proposed DG-H schemes and apply it to discontinuous problems. We also make some accuracy comparisons with conventional DG and interior penalty schemes. A relative qualitative cost analysis is also reported, which indicates that the high-order schemes produce orders of magnitude more accurate results than the low-order schemes for a given CPU time. Furthermore, we show that the proposed DG-H schemes are nearly as efficient as the DG and Interior-Penalty (IP) schemes as these schemes produce results that are relatively at the same error level for approximately a similar CPU time.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin (DG)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">DG with hyperbolic first-order system (DG-H)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Advection–diffusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">WENO</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interior Penalty (IP)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishikawa, Hiroaki</subfield>
+    <subfield code="v">National Institute of Aerospace, Hampton, VA, 23666, USA</subfield>
+    <subfield code="m">hiro@nianet.org</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">729-754</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">A first-order system approach for diffusion equation. I: Second order residual distribution schemes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,227,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">A first-order system approach for diffusion equation. II: Unification of advection and diffusion</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First-order hyperbolic system method for time-dependent advection–diffusion problems</subfield>
+    <subfield code="p">NASA</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Technical Report TM–2014–218175</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Very efficient high-order hyperbolic schemes for time-dependent advection–diffusion problems: third-, fourth-, and sixth-order</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Comput.Fluids,102,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First-, second-, and third-order finite-volume schemes for diffusion</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,256,791</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First, second, and third order finite-volume schemes for advection–diffusion</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,273,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Improved second-order hyperbolic residual-distribution scheme and its extension to third-order on arbitrary triangular grids</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,300,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="h">Roe, Philip L.</subfield>
+    <subfield code="t">Third-order active-flux scheme for advection diffusion: hyperbolic diffusion, boundary condition, and Newton solver</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Fluids,125,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">High-order shock-capturing hyperbolic residual-distribution schemes on irregular triangular grids</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Fluids,131,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Alternative formulations for first-, second-, and third-order hyperbolic Navier–Stokes schemes</subfield>
+    <subfield code="p">22nd AIAA Computational Fluid Dynamics Conference, Dallas, TX, 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA Paper 2015-2451</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Drikakis, D.</subfield>
+    <subfield code="h">Hahn, M.</subfield>
+    <subfield code="h">Mosedale, A.</subfield>
+    <subfield code="h">Thornber, B.</subfield>
+    <subfield code="t">Large eddy simulation using high-resolution and high-order methods</subfield>
+    <subfield code="v">367</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A367,2985</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,131,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="h">Mariotti, G.</subfield>
+    <subfield code="h">Pedinotti, S.</subfield>
+    <subfield code="h">Savini, M.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for inviscid and viscous turbomachinery flows</subfield>
+    <subfield code="p">Antwerpen, Belgium: Technologisch Instituut</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">Proceedings of 2nd European Conference on Turbomachinery, Fluid Dynamics and Thermodynamics</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Douglas, J.R.</subfield>
+    <subfield code="h">Dupont, T.</subfield>
+    <subfield code="t">Interior penalty procedures for elliptic and parabolic Galerkin methods</subfield>
+    <subfield code="v">vol. 58</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Lecture Notes in Phys.,vol. 58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baker, G.A.</subfield>
+    <subfield code="t">Finite element method for elliptic equations using nonconforming elements</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Math.Comput.,31,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.</subfield>
+    <subfield code="t">An interior penalty finite element method with discontinuous elements</subfield>
+    <subfield code="p">The University of Chicago Chicago, IL</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.</subfield>
+    <subfield code="t">An interior penalty finite element method with discontinuous elements</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,19,742</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baker, G.A.</subfield>
+    <subfield code="h">Jureidini, W.N.</subfield>
+    <subfield code="h">Karakashian, O.A.</subfield>
+    <subfield code="t">Piecewise solenoidal vector fields and the Stokes problem</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,27,1466</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rusten, T.</subfield>
+    <subfield code="h">Vassilevski, P.S.</subfield>
+    <subfield code="h">Winther, R.</subfield>
+    <subfield code="t">Interior penalty preconditioners for mixed finite element approximations of elliptic problems</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Math.Comput.,65,447</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rivier̀e, B.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="h">Girault, V.</subfield>
+    <subfield code="t">Improved energy estimates for interior penalty, constrained and discontinuous Galerkin methods for elliptic problems I</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Geosci.,3,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.N.</subfield>
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">Unified analysis of discontinuous Galerkin methods for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The local discontinuous Galerkin method for time-dependent convection–diffusion systems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,2440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castillo, P.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Perugia, I.</subfield>
+    <subfield code="h">Schötzau, D.</subfield>
+    <subfield code="t">An a priori error analysis of the local discontinuous Galerkin method for elliptic problems</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,1676</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Dawson, C.</subfield>
+    <subfield code="t">Approximation of the velocity by coupling discontinuous Galerkin and mixed finite element methods for flow problems</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Geosci.,6,505</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Kanschat, G.</subfield>
+    <subfield code="h">Schötzau, D.</subfield>
+    <subfield code="t">A locally conservative LDG method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Math.Comput.,74,1067</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castillo, P.</subfield>
+    <subfield code="t">A review of the local discontinuous Galerkin (LDG) method applied to elliptic problems</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Appl.Numer.Math.,56,1307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Local discontinuous Galerkin methods for high-order time-dependent partial differential equations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,7,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="t">The compact discontinuous Galerkin (CDG) method for elliptic problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,1806</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brdar, S.</subfield>
+    <subfield code="h">Dedner, A.</subfield>
+    <subfield code="h">Klökorn, R.</subfield>
+    <subfield code="t">Compact and stable discontinuous Galerkin methods for convection–diffusion problems</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,A263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="h">Yan, J.</subfield>
+    <subfield code="t">The direct discontinuous Galerkin (DDG) methods for diffusion problems</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,475</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="h">Yan, J.</subfield>
+    <subfield code="t">The direct discontinuous Galerkin (DDG) methods for diffusion with interface corrections</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Commun.Comput.Phys.,8,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Gopalakrishnan, J.</subfield>
+    <subfield code="h">Lazarov, R.</subfield>
+    <subfield code="t">Unified hybridization of discontinuous Galerkin, mixed and continuous Galerkin methods for second order elliptic problems</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,1319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for linear convection-diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for nonlinear convection–diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">A hybridizable discontinuous Galerkin method for Stokes flow</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,582</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">The hybridizable discontinuous Galerkin methods</subfield>
+    <subfield code="p">International Congress of Mathematicians, Hyderabad, India, 2010</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="h">Nomura, S.</subfield>
+    <subfield code="t">Discontinuous Galerkin for diffusion</subfield>
+    <subfield code="p">17th AIAA Computational Fluid Dynamics Conference, Toronto, Ontario, Canada, 2005</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">AIAA Paper 2005-5108</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="h">Lo, M.</subfield>
+    <subfield code="h">van Raalte, M.</subfield>
+    <subfield code="t">A discontinuous Galerkin method for diffusion based on recovery</subfield>
+    <subfield code="p">18th AIAA Computational Fluid Dynamics Conference, Miami, FL, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA Paper 2007-4083</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="h">Lo, M.</subfield>
+    <subfield code="t">Unification of discontinuous Galerkin methods for advection and diffusion</subfield>
+    <subfield code="p">47th AIAA Aerospace Sciences Meeting and Exhibit, Orlando, FL, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">AIAA Paper 2009-400</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lo, Kwok Ho Marcus</subfield>
+    <subfield code="t">A space–time discontinuous Galerkin method for Navier–Stokes with recovery</subfield>
+    <subfield code="p">The University of Michigan MI</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.H.</subfield>
+    <subfield code="h">Hill, T.R.</subfield>
+    <subfield code="t">Triangular mesh methods for the neutron transport equation</subfield>
+    <subfield code="p">Los Alamos Scientific Laboratory</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Technical Report LA-UR-73-479</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme. IV. A new approach to numerical convection</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,23,276</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws II. General framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection-dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">New-generation hyperbolic Navier–Stokes schemes: <math altimg="si2.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">/</mo><mi>h</mi><mo stretchy="false">)</mo></math> speed-up and accurate viscous/heat fluxes</subfield>
+    <subfield code="p">Proc. of 20th AIAA Computational Fluid Dynamics Conference, Honolulu, Hawaii, 2011</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA Paper 2011-3043</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Ricchiuto, M.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">A first-order hyperbolic system approach for dispersion</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,321,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nakashima, Y.</subfield>
+    <subfield code="h">Watanabe, N.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Hyperbolic Navier–Stokes solver for three-dimensional flows</subfield>
+    <subfield code="p">54th AIAA Aerospace Sciences Meeting, San Diego, CA, 2016</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">AIAA Paper 2016-1101</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, H.T.</subfield>
+    <subfield code="t">A flux reconstruction approach to high-order schemes including discontinuous Galerkin methods</subfield>
+    <subfield code="p">18th AIAA Computational Fluid Dynamics Conference, Miami, FL, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">AIAA Paper 2007-4079</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, H.T.</subfield>
+    <subfield code="t">A reconstruction approach to high-order schemes including discontinuous Galerkin for diffusion</subfield>
+    <subfield code="p">47th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition, Orlando, FL, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">AIAA Paper 2009-403</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">De Grazia, D.</subfield>
+    <subfield code="h">Mengaldo, G.</subfield>
+    <subfield code="h">Moxey, D.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Sherwin, S.</subfield>
+    <subfield code="t">Connections between the discontinuous Galerkin method and high-order flux reconstruction schemes</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,75,860</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Luo, L.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="h">Mousseau, V.A.</subfield>
+    <subfield code="h">Dinh, N.</subfield>
+    <subfield code="t">A reconstructed discontinuous Galerkin method for the compressible Navier–Stokes equations on arbitrary grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6961</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Locally divergence-free discontinuous Galerkin methods for the Maxwell equations</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,194,588</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Locally divergence-free discontinuous Galerkin methods for MHD equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Sci.Comput.,22,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yakovlev, S.</subfield>
+    <subfield code="h">Xu, L.</subfield>
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="t">Locally divergence-free discontinuous Galerkin methods for ideal MHD equations</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Sci.,4,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Qui, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using WENO limiters II: unstructured meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4330</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using a new type of WENO limiters on unstructured meshes</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,248,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qui, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">One the construction, comparison, and local characteristic decomposition for high-order central WENO schemes</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,183,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qui, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Hermite WENO schemes and their application as limiters for Runge–Kutta discontinuous Galerkin method: one-dimensional case</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,193,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, C.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes on triangular meshes</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,150,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Käser, M.</subfield>
+    <subfield code="h">Iske, A.</subfield>
+    <subfield code="t">ADER schemes on adaptive triangular meshes for scalar conservation laws</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,205,486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A simple weighted essentially nonoscillatory limiter for Runge–Kutta discontinuous Galerkin method</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,232,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Käser, M.</subfield>
+    <subfield code="t">Arbitrary high-order non-oscillatory finite volume schemes on unstructured meshes for linear hyperbolic systems</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,221,693</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Chi-Wang Shu, Personal communication, Feb</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="h">Xin, J.</subfield>
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="h">Chevaugeon, N.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="t">Shock detection and limiting with discontinuous Galerkin methods for hyperbolic conservation laws</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Appl.Numer.Math.,48,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="h">Duff, I.S.</subfield>
+    <subfield code="h">Koster, J.</subfield>
+    <subfield code="h">L'Excellent, J.-Y.</subfield>
+    <subfield code="t">A fully asynchronous multifrontal solver using distributed dynamic scheduling</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,23,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="h">Guermouche, A.</subfield>
+    <subfield code="h">L'Excellent, J.-Y.</subfield>
+    <subfield code="h">Pralet, S.</subfield>
+    <subfield code="t">Hybrid scheduling for the parallel solution of linear systems</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Parallel Comput.,32,136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Masatsuka, Katate</subfield>
+    <subfield code="t">I do Like CFD, vol. 1</subfield>
+    <subfield code="p">Self Published</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, C.</subfield>
+    <subfield code="h">Pikäranta, J.</subfield>
+    <subfield code="t">An analysis of the discontinuous Galerkin method for a scalar hyperbolic equation</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Math.Comput.,46,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richter, G.</subfield>
+    <subfield code="t">An optimal-order error estimate for the discontinuous Galerkin method</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Math.Comput.,50,75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qui, J.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The discontinuous Galerkin method with Lax–Wendroff type time discretizations</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4528</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Xinghui Zhong, Personal communication, Feb</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Walfisch, David</subfield>
+    <subfield code="t">Visualization for high-order discontinuous Galerkin CFD results</subfield>
+    <subfield code="p">Massachusetts Institute of Technology MA</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Master's thesis</subfield>
+    <subfield code="o">74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shahbazi, K.</subfield>
+    <subfield code="t">An explicit expression for the penalty parameter of the interior penalty method</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Comput.Phys.,205,401</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116302315/S0021999116302315.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

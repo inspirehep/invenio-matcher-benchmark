@@ -1,0 +1,710 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.007</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Garrick, Daniel P.</subfield>
+    <subfield code="v">Department of Aerospace Engineering, Iowa State University, Ames, IA, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A finite-volume HLLC-based scheme for compressible interfacial flows with surface tension</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Shock waves are often used in experiments to create a shear flow across liquid droplets to study secondary atomization. Similar behavior occurs inside of supersonic combustors (scramjets) under startup conditions, but it is challenging to study these conditions experimentally. In order to investigate this phenomenon further, a numerical approach is developed to simulate compressible multiphase flows under the effects of surface tension forces. The flow field is solved via the compressible multicomponent Euler equations (i.e., the five equation model) discretized with the finite volume method on a uniform Cartesian grid. The solver utilizes a total variation diminishing (TVD) third-order Runge–Kutta method for time-marching and second order TVD spatial reconstruction. Surface tension is incorporated using the Continuum Surface Force (CSF) model. Fluxes are upwinded with a modified Harten–Lax–van Leer Contact (HLLC) approximate Riemann solver. An interface compression scheme is employed to counter numerical diffusion of the interface. The present work includes modifications to both the HLLC solver and the interface compression scheme to account for capillary force terms and the associated pressure jump across the gas–liquid interface. A simple method for numerically computing the interface curvature is developed and an acoustic scaling of the surface tension coefficient is proposed for the non-dimensionalization of the model. The model captures the surface tension induced pressure jump exactly if the exact curvature is known and is further verified with an oscillating elliptical droplet and Mach 1.47 and 3 shock-droplet interaction problems. The general characteristics of secondary atomization at a range of Weber numbers are also captured in a series of simulations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible multiphase</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HLLC</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Surface tension</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Capillary forces</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conservative level set</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interface capturing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interface compression</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Owkes, Mark</subfield>
+    <subfield code="v">Department of Mechanical and Industrial Engineering, Montana State University, Bozeman, MT, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Regele, Jonathan D.</subfield>
+    <subfield code="j">ORCID:0000-0002-3643-536X</subfield>
+    <subfield code="v">Department of Aerospace Engineering, Iowa State University, Ames, IA, United States</subfield>
+    <subfield code="m">jregele@iastate.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">46-67</subfield>
+    <subfield code="v">339</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, J.</subfield>
+    <subfield code="h">Lin, K.-C.</subfield>
+    <subfield code="h">Eklund, D.</subfield>
+    <subfield code="t">Challenges in fuel injection for high-speed propulsion systems</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">AIAA J.,53,1405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guildenbecher, D.R.</subfield>
+    <subfield code="h">López-Rivera, C.</subfield>
+    <subfield code="h">Sojka, P.E.</subfield>
+    <subfield code="t">Secondary atomization</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Exp.Fluids,46,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brackbill, J.U.</subfield>
+    <subfield code="h">Kothe, D.</subfield>
+    <subfield code="h">Zemach, C.</subfield>
+    <subfield code="t">A continuum method for modeling surface tension</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,100,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gueyffier, D.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Nadim, A.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Volume-of-fluid interface tracking with smoothed surface stress methods for three-dimensional flows</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,152,423</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Popinet, S.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">A front-tracking algorithm for accurate representation of surface tension</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,30,775</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct numerical simulation of free-surface and interfacial flow</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,31,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, H.</subfield>
+    <subfield code="t">Two-dimensional simulation of stripping breakup of a water droplet</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">AIAA J.,46,1135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meng, J.C.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Numerical simulations of the early stages of high-speed droplet breakup</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Shock Waves(Germany)</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gorokhovski, M.</subfield>
+    <subfield code="h">Herrmann, M.</subfield>
+    <subfield code="t">Modeling primary atomization</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,40,343</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Unverdi, S.O.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking method for viscous, incompressible, multi-fluid flows</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,100,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="h">Bunner, B.</subfield>
+    <subfield code="h">Esmaeeli, A.</subfield>
+    <subfield code="h">Juric, D.</subfield>
+    <subfield code="h">Al-Rawahi, N.</subfield>
+    <subfield code="h">Tauber, W.</subfield>
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Nas, S.</subfield>
+    <subfield code="h">Jan, Y.J.</subfield>
+    <subfield code="t">A front-tracking method for the computations of multiphase flow</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,169,708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Karni, S.</subfield>
+    <subfield code="t">Computations of compressible multifluids</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,169,594</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Terashima, H.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking/ghost-fluid method for fluid interfaces in compressible flows</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Terashima, H.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking method with projected interface conditions for compressible multi-fluid flows</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Fluids,39,1804</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Baum, J.D.</subfield>
+    <subfield code="h">Lohner, R.</subfield>
+    <subfield code="t">On the computation of multi-material flows using ALE formulation</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,194,304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chang, C.H.</subfield>
+    <subfield code="h">Deng, X.</subfield>
+    <subfield code="h">Theofanous, T.G.</subfield>
+    <subfield code="t">Direct numerical simulation of interfacial instabilities: a consistent, conservative, all-speed, sharp-interface method</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,242,946</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="h">Wang, Z.G.</subfield>
+    <subfield code="h">Sun, M.B.</subfield>
+    <subfield code="h">Liang, J.H.</subfield>
+    <subfield code="h">Liu, N.</subfield>
+    <subfield code="t">Large eddy simulation of liquid jet primary breakup in supersonic air crossflow</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,87,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="h">Nichols, B.D.</subfield>
+    <subfield code="t">Volume of fluid (VOF) method for the dynamics of free boundaries</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,39,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shyue, K.-M.</subfield>
+    <subfield code="t">An efficient shock-capturing algorithm for compressible multicomponent problems</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,142,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A simple method for compressible multifluid flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,1115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allaire, G.</subfield>
+    <subfield code="h">Clerc, S.</subfield>
+    <subfield code="h">Kokh, S.</subfield>
+    <subfield code="t">A five-equation model for the simulation of interfaces between compressible fluids</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,181,577</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shukla, R.K.</subfield>
+    <subfield code="t">Nonlinear preconditioning for efficient and accurate interface capturing in simulation of multicomponent compressible flows</subfield>
+    <subfield code="v">276</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,276,508</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">So, K.K.</subfield>
+    <subfield code="h">Hu, X.Y.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">Anti-diffusion interface sharpening technique for two-phase compressible flow simulations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,231,4304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alahyari Beig, S.</subfield>
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="t">Maintaining interface equilibrium conditions in compressible multiphase flows using interface capturing</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,302,548</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shyue, K.M.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">An Eulerian interface sharpening algorithm for compressible two-phase flow: the algebraic THINC approach</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,268,326</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">How to prevent pressure oscillations in multicomponent flow calculations: a quasi conservative approach</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="h">Ham, F.</subfield>
+    <subfield code="t">Preventing numerical errors generated by interface-capturing schemes in compressible multi-material flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Movahed, P.</subfield>
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="t">A solution-adaptive method for efficient compressible multifluid simulations, with application to the Richtmyer–Meshkov instability</subfield>
+    <subfield code="v">239</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,239,166</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Implementation of WENO schemes in compressible multicomponent flow problems</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,219,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coralic, V.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Finite-volume WENO scheme for viscous compressible multicomponent flows</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,274,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shukla, R.K.</subfield>
+    <subfield code="h">Pantano, C.</subfield>
+    <subfield code="h">Freund, J.B.</subfield>
+    <subfield code="t">An interface capturing method for the simulation of multi-phase compressible flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tiwari, A.</subfield>
+    <subfield code="h">Freund, J.B.</subfield>
+    <subfield code="h">Pantano, C.</subfield>
+    <subfield code="t">A diffuse interface model with immiscibility preservation</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,252,290</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baer, M.R.</subfield>
+    <subfield code="h">Nunziato, J.W.</subfield>
+    <subfield code="t">A two-phase mixture theory for the deflagration-to-detonation transition (ddt) in reactive granular materials</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,12,861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kapila, A.K.</subfield>
+    <subfield code="h">Menikoff, R.</subfield>
+    <subfield code="h">Bdzil, J.B.</subfield>
+    <subfield code="h">Son, S.F.</subfield>
+    <subfield code="h">Stewart, D.S.</subfield>
+    <subfield code="t">Two-phase modeling of deflagration-to-detonation transition in granular materials: reduced equations</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Phys.Fluids,13,3002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braconnier, B.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="t">An all-speed relaxation scheme for interface flows with surface tension</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5722</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perigaud, G.</subfield>
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="t">A compressible flow model with capillary effects</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,209,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Martelot, S.</subfield>
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="t">Towards the direct numerical simulation of nucleate boiling flows</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,66,62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.T.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A path-conservative finite volume scheme for compressible multi-phase flows with surface tension</subfield>
+    <subfield code="v">271</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Appl.Math.Comput.,271,959</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schmidmayer, K.</subfield>
+    <subfield code="h">Petitpas, F.</subfield>
+    <subfield code="h">Daniel, E.</subfield>
+    <subfield code="h">Favrie, N.</subfield>
+    <subfield code="h">Gavrilyuk, S.</subfield>
+    <subfield code="t">A model and numerical method for compressible flows with capillary effects</subfield>
+    <subfield code="v">334</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,334,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gueyffier, D.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Nadim, A.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Volume-of-fluid interface tracking with smoothed surface stress methods for three-dimensional flows</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,152,423</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harlow, F.</subfield>
+    <subfield code="h">Amsden, A.</subfield>
+    <subfield code="t">Fluid Dynamics</subfield>
+    <subfield code="p">Los Alamos National Laboratory Los Alamos, NM</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="m">Technical report LA-4700</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aslam, T.D.</subfield>
+    <subfield code="t">A partial differential equation approach to multidimensional extrapolation</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,193,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renardy, Y.</subfield>
+    <subfield code="h">Renardy, M.</subfield>
+    <subfield code="t">PROST: a parabolic reconstruction of surface tension for the volume-of-fluid method</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,183,400</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Regele, J.D.</subfield>
+    <subfield code="h">Kassoy, D.R.</subfield>
+    <subfield code="h">Aslani, M.</subfield>
+    <subfield code="h">Vasilyev, O.V.</subfield>
+    <subfield code="t">Evolution of detonation formation initiated by a spatially distributed, transient energy source</subfield>
+    <subfield code="v">802</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Fluid Mech.,802,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics: A Practical Introduction</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="t">On Godunov-type methods near low densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cocchi, J.P.</subfield>
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Loraud, J.C.</subfield>
+    <subfield code="t">Treatment of interface problems with Godunov-type schemes</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Shock Waves(Germany),5,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harvie, D.J.E.</subfield>
+    <subfield code="h">Davidson, M.R.</subfield>
+    <subfield code="h">Rudman, M.</subfield>
+    <subfield code="t">An analysis of parasitic current generation in Volume of Fluid simulations</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Appl.Math.Model.,30,1056</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lafaurie, B.</subfield>
+    <subfield code="h">Nardone, C.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="h">Zanetti, G.</subfield>
+    <subfield code="t">Modelling Merging and Fragmentation in Multiphase Flows with SURFER</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, J.</subfield>
+    <subfield code="h">Hu, X.Y.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">A conservative sharp interface method for incompressible multiphase flows</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,284,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Owkes, M.</subfield>
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="t">A mesh-decoupled height function method for computing interface curvature</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,281,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Kazuyasu, S.</subfield>
+    <subfield code="h">Takeuchi, S.</subfield>
+    <subfield code="h">Takagi, S.</subfield>
+    <subfield code="h">Matsumoto, Y.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">An interface capturing method with a continuous function: the THINC method with multi-dimensional reconstruction</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2328</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olsson, E.</subfield>
+    <subfield code="h">Kreiss, G.</subfield>
+    <subfield code="h">Zahedi, S.</subfield>
+    <subfield code="t">A conservative level set method for two phase flow II</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,225,785</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lord Rayleigh</subfield>
+    <subfield code="t">On the capillary phenomena of jets</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1879</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.,29,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fyfe, D.E.</subfield>
+    <subfield code="h">Oran, E.S.</subfield>
+    <subfield code="h">Fritts, M.J.</subfield>
+    <subfield code="t">Surface tension and viscosity with Lagrangian hydrodynamics on a triangular mesh</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,76,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Igra, D.</subfield>
+    <subfield code="h">Takayama, K.</subfield>
+    <subfield code="t">Investigation of aerodynamic breakup of a cylindrical water droplet</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">At.Sprays,11,167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Igra, D.</subfield>
+    <subfield code="h">Sun, M.</subfield>
+    <subfield code="t">Shock-water column interaction, from initial impact to fragmentation onset</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">AIAA J.,48,2763</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nonomura, T.</subfield>
+    <subfield code="h">Kitamura, K.</subfield>
+    <subfield code="h">Fujii, K.</subfield>
+    <subfield code="t">A simple interface sharpening technique with a hyperbolic tangent function applied to compressible two-fluid modeling</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,258,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chang, C.-H.</subfield>
+    <subfield code="h">Liou, M.-S.</subfield>
+    <subfield code="t">A robust and accurate approach to computing compressible multiphase flow: stratified flow model and AUSM+-up scheme</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,225,840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicholls, J.A.</subfield>
+    <subfield code="h">Ranger, A.A.</subfield>
+    <subfield code="t">Aerodynamic shattering of liquid drops</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">AIAA J.,7,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">Secondary breakup of axisymmetric liquid drops. I. Acceleration by a constant body force</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Phys.Fluids,11,3650</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">Secondary breakup of a axisymmetric liquid drops. II. Impulsive acceleration</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Phys.Fluids,13,1554</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00077/S0021999117301948/S0021999117301948.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

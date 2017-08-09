@@ -1,0 +1,802 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.08.026</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ganesan, Sashikumaar</subfield>
+    <subfield code="j">ORCID:0000-0003-1858-3972</subfield>
+    <subfield code="v">Numerical Mathematics and Scientific Computing, Supercomputer Education and Research Centre, Indian Institute of Science, Bangalore 560012, India</subfield>
+    <subfield code="m">sashi@serc.iisc.in</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Simulations of impinging droplets with surfactant-dependent dynamic contact angle</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">An arbitrary Lagrangian–Eulerian (ALE) finite element scheme for computations of soluble surfactant droplet impingement on a horizontal surface is presented. The numerical scheme solves the time-dependent Navier–Stokes equations for the fluid flow, scalar convection–diffusion equation for the surfactant transport in the bulk phase, and simultaneously, surface evolution equations for the surfactants on the free surface and on the liquid–solid interface. The effects of surfactants on the flow dynamics are included into the model through the surface tension and surfactant-dependent dynamic contact angle. In particular, the dynamic contact angle <math altimg="si1.gif" display="inline" overflow="scroll"><mo stretchy="false">(</mo><msub><mrow><mi>θ</mi></mrow><mrow><mi>d</mi></mrow></msub><mo stretchy="false">)</mo></math> of the droplet is defined as a function of the surfactant concentration at the contact line and the equilibrium contact angle <math altimg="si2.gif" display="inline" overflow="scroll"><mo stretchy="false">(</mo><msubsup><mrow><mi>θ</mi></mrow><mrow><mi>e</mi></mrow><mrow><mn>0</mn></mrow></msubsup><mo stretchy="false">)</mo></math> of the clean surface using the nonlinear equation of state for surface tension. Further, the surface forces are included into the model as surface divergence of the surface stress tensor that allows to incorporate the Marangoni effects without calculating the surface gradient of the surfactant concentration on the free surface. In addition to a mesh convergence study and validation of the numerical results with experiments, the effects of adsorption and desorption surfactant coefficients on the flow dynamics in wetting, partially wetting and non-wetting droplets are studied in detail. It is observed that the effects of surfactants are more in wetting droplets than in the non-wetting droplets. Further, the presence of surfactants at the contact line reduces the equilibrium contact angle further when <math altimg="si115.gif" display="inline" overflow="scroll"><msubsup><mrow><mi>θ</mi></mrow><mrow><mi>e</mi></mrow><mrow><mn>0</mn></mrow></msubsup></math> is less than 90°, and increases it further when <math altimg="si115.gif" display="inline" overflow="scroll"><msubsup><mrow><mi>θ</mi></mrow><mrow><mi>e</mi></mrow><mrow><mn>0</mn></mrow></msubsup></math> is greater than 90°. Nevertheless, the presence of surfactants has no effect on the contact angle when <math altimg="si121.gif" display="inline" overflow="scroll"><msubsup><mrow><mi>θ</mi></mrow><mrow><mi>e</mi></mrow><mrow><mn>0</mn></mrow></msubsup><mo>=</mo><mn>90</mn><mi mathvariant="normal">°</mi></math> . The numerical study clearly demonstrates that the surfactant-dependent contact angle has to be considered, in addition to the Marangoni effect, in order to study the flow dynamics and the equilibrium states of surfactant droplet impingement accurately. The proposed numerical scheme guarantees the conservation of fluid mass and of the surfactant mass accurately.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Impinging liquid droplets</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Moving contact line</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Soluble surfactant</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Navier–Stokes equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite-elements</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">ALE approach</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">178-200</subfield>
+    <subfield code="v">301</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adami, S.</subfield>
+    <subfield code="h">Hu, X.</subfield>
+    <subfield code="h">Adams, N.</subfield>
+    <subfield code="t">A conservative SPH method for surfactant dynamics</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1909</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bazhlekov, I.</subfield>
+    <subfield code="h">Anderson, P.D.</subfield>
+    <subfield code="h">Meijer, H.E.H.</subfield>
+    <subfield code="t">Numerical investigation of the effect of insoluble surfactants on drop deformation and breakup in simple shear flow</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,298,369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Booty, M.</subfield>
+    <subfield code="h">Siegel, M.</subfield>
+    <subfield code="t">A hybrid numerical method for interfacial fluid flow with soluble surfactant</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandra, S.</subfield>
+    <subfield code="h">di Marzo, M.</subfield>
+    <subfield code="h">Qiao, Y.M.</subfield>
+    <subfield code="h">Tartarini, P.</subfield>
+    <subfield code="t">Effect of liquid–solid contact angle on droplet evaporation</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Fire Saf.J.,27,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cox, R.G.</subfield>
+    <subfield code="t">The dynamics of the spreading of liquids on a solid surface. Part 1. Viscous flow</subfield>
+    <subfield code="v">168</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Fluid Mech.,168,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dieter-Kissling, K.</subfield>
+    <subfield code="h">Marschall, H.</subfield>
+    <subfield code="h">Bothe, D.</subfield>
+    <subfield code="t">Direct numerical simulation of droplet formation processes under the influence of soluble surfactant mixtures</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Fluids,113,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donéa, J.</subfield>
+    <subfield code="t">Arbitrary Lagrangian–Eulerian finite element methods</subfield>
+    <subfield code="p">Amsterdam: Elsevier Scientific Publishing Co.</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="e">Belytschko,T.</subfield>
+    <subfield code="e">Hughes,T.R.J.</subfield>
+    <subfield code="q">Computational Methods for Transient Analysis</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dussan V, E.B.</subfield>
+    <subfield code="t">The moving contact line: the slip boundary condition</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Fluid Mech.,77,665</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dussan V, E.B.</subfield>
+    <subfield code="t">On the spreading of liquids on solid surfaces: static and dynamic contact lines</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,11,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dussan V, E.B.</subfield>
+    <subfield code="h">Ramé, E.</subfield>
+    <subfield code="h">Garoff, S.</subfield>
+    <subfield code="t">On identifying the appropriate boundary conditions at a moving contact line: an experimental investigation</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Fluid Mech.,230,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dziuk, G.</subfield>
+    <subfield code="h">Elliott, C.</subfield>
+    <subfield code="t">Finite element methods for surface PDEs</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Acta Numer.,22,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eggers, J.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Characteristic lengths at moving contact lines for a perfectly wetting fluid: the influence of speed on the dynamic contact angle</subfield>
+    <subfield code="v">505</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Fluid Mech.,505,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eggleton, C.D.</subfield>
+    <subfield code="h">Tsai, T.-M.</subfield>
+    <subfield code="h">Stebe, K.J.</subfield>
+    <subfield code="t">Tip streaming from a drop in the presence of surfactants</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Rev.Lett.,87,048302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fukai, J.</subfield>
+    <subfield code="h">Shiiba, Y.</subfield>
+    <subfield code="h">Yamamoto, T.</subfield>
+    <subfield code="h">Miyatake, O.</subfield>
+    <subfield code="h">Poulikakos, D.</subfield>
+    <subfield code="h">Megaridis, C.M.</subfield>
+    <subfield code="h">Zhao, Z.</subfield>
+    <subfield code="t">Wetting effects on the spreading of a liquid droplet colliding with a flat surface: experiment and modeling</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Fluids,7,236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fukai, J.</subfield>
+    <subfield code="h">Zhao, Z.</subfield>
+    <subfield code="h">Poulikakos, D.</subfield>
+    <subfield code="h">Megaridis, C.M.</subfield>
+    <subfield code="h">Miyatake, O.</subfield>
+    <subfield code="t">Modeling of the deformation of a liquid droplet impinging upon a flat surface</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Fluids,A5,2588</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="t">Finite element methods on moving meshes for free surface and interface flows</subfield>
+    <subfield code="p">Otto-von-Guericke-Universität, Fakultät für Mathematik Magdeburg</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">PhD Thesis</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="t">On the dynamic contact angle in simulation of impinging droplets with sharp interface methods</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Microfluid.Nanofluid.,14,615</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Matthies, G.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">On spurious velocities in incompressible flow problems with interfaces</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,196,1193</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Rajasekaran, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">Numerical modeling of the non-isothermal liquid droplet impact on a hot solid substrate</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,78,670</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">Computations of flows with interfaces using arbitrary Lagrangian Eulerian method</subfield>
+    <subfield code="p">Proceedings of ECCOMAS CFD, Egmond aan Zee, The Netherlands, 2006</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">An accurate finite element scheme with moving meshes for computing 3D-axisymmetric interface flows</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,57,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">A coupled arbitrary Lagrangian–Eulerian and Lagrangian method for computation of free surface flows with insoluble surfactants</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2859</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">Modelling and simulation of moving contact line problems with wetting effects</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Vis.Sci.,12,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Tobiska, L.</subfield>
+    <subfield code="t">Arbitrary Lagrangian–Eulerian finite-element method for computation of two-phase flows with soluble surfactants</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganesan, S.</subfield>
+    <subfield code="h">Venkatesan, J.</subfield>
+    <subfield code="r">arXiv:1502.04884</subfield>
+    <subfield code="t">Mesh-dependent slip for computations of impinging droplets with sharp interface methods</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">19 pp</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gennes, P.G.D.</subfield>
+    <subfield code="t">Wetting: statics and dynamics</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Rev.Mod.Phys.,57,827</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gross, S.</subfield>
+    <subfield code="h">Reichelt, V.</subfield>
+    <subfield code="h">Reusken, A.</subfield>
+    <subfield code="t">A finite element based level set method for two-phase incompressible flows</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Vis.Sci.,9,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haley, P.J.</subfield>
+    <subfield code="h">Miksis, M.J.</subfield>
+    <subfield code="t">The effect of the contact line on droplet spreading</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Fluid Mech.,223,57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.</subfield>
+    <subfield code="h">Nichols, B.</subfield>
+    <subfield code="t">Volume of Fluid (VOF) method for the dynamics of free boundaries</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,39,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="h">Amsden, A.A.</subfield>
+    <subfield code="h">Cook, J.L.</subfield>
+    <subfield code="t">An arbitrary Lagrangian Eulerian computing method for all flow speeds</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hocking, L.M.</subfield>
+    <subfield code="t">A moving fluid interface on a rough surface</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Fluid Mech.,76,801</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hocking, L.M.</subfield>
+    <subfield code="t">A moving fluid interface. Part 2. The removal of the force singularity by a slip flow</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Fluid Mech.,79,209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hocking, L.M.</subfield>
+    <subfield code="t">Rival contact-angle models and the spreading of drops</subfield>
+    <subfield code="v">239</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Fluid Mech.,239,671</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hocking, L.M.</subfield>
+    <subfield code="h">Davis, S.H.</subfield>
+    <subfield code="t">Inertial effects in time-dependent motion of tin films and drops</subfield>
+    <subfield code="v">467</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Fluid Mech.,467,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoffman, R.L.</subfield>
+    <subfield code="t">A study of the advancing interface. I. Interface shape in liquid–gas systems</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,50,228</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huh, C.</subfield>
+    <subfield code="h">Scriven, L.E.</subfield>
+    <subfield code="t">Hydrodynamic model of steady movement of a solid/liquid/fluid contact line</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,35,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">James, A.J.</subfield>
+    <subfield code="h">Lowengrub, J.</subfield>
+    <subfield code="t">A surfactant-conserving volume-of-fluid method for interfacial flows with insoluble surfactant</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,201,685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kruijt-Stegeman, Y.W.</subfield>
+    <subfield code="h">van de Vosse, F.N.</subfield>
+    <subfield code="h">Meijer, H.E.H.</subfield>
+    <subfield code="t">Droplet behavior in the presence of insoluble surfactants</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Fluids,16,2785</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lai, M.</subfield>
+    <subfield code="h">Tseng, Y.</subfield>
+    <subfield code="h">Huang, H.</subfield>
+    <subfield code="t">Numerical simulation of moving contact lines with surfactant by immersed boundary method</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Commun.Comput.Phys.,8,735</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="h">Tseng, Y.-H.</subfield>
+    <subfield code="h">Huang, H.</subfield>
+    <subfield code="t">An immersed boundary method for interfacial flows with insoluble surfactant</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lauga, E.</subfield>
+    <subfield code="h">Brenner, P.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Microfluidics: the no-slip boundary condition</subfield>
+    <subfield code="p">New-York: Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="e">Foss,J.</subfield>
+    <subfield code="e">Tropea,C.</subfield>
+    <subfield code="e">Yarin,A.</subfield>
+    <subfield code="q">Handbook of Experimental Fluid Dynamics</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, J.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">Effect of surfactants on the deformation of drops and bubbles in Navier–Stokes flow</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Fluids,35,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">The effect of surfactants on drop deformation and on the rheology of dilute emulsions in Stokes flow</subfield>
+    <subfield code="v">341</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Fluid Mech.,341,165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muradoglu, M.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking method for computation of interfacial flows with soluble surfactants</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muradoglu, M.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">Simulations of soluble surfactants in 3d multiphase flow</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,274,737</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nithiarasu, P.</subfield>
+    <subfield code="t">An arbitrary Lagrangian Eulerian (ALE) formulation for free surface flows using the characteristic-based split (CBS) scheme</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,12,1415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="t">Numerical approximation of fluid–structure interaction problems with application to haemodynamics</subfield>
+    <subfield code="p">École Polytechnique Fédérale de Lausanne</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Fronts propagating with curvature dependent speed: algorithms based on Hamilton–Jacobi forumlations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Paolo, C.</subfield>
+    <subfield code="h">Fried, E.</subfield>
+    <subfield code="h">Gurtin, M.</subfield>
+    <subfield code="t">Transport relations for surface integrals arising in the formulation of balance laws for evolving fluid interfaces</subfield>
+    <subfield code="v">544</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Fluid Mech.,544,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pilliod, J.E.</subfield>
+    <subfield code="h">Puckett, E.G.</subfield>
+    <subfield code="t">Second-order accurate volume-of-fluid algorithms for tracking material interfaces</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,199,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">A finite-element method for interfacial surfactant transport, with application to the flow-induced deformation of a viscous drop</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Eng.Math.,49,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qian, T.</subfield>
+    <subfield code="h">Wang, X.-P.</subfield>
+    <subfield code="h">Sheng, P.</subfield>
+    <subfield code="t">Molecular hydrodynamics of the moving contact line in two-phase immiscible flows</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Commun.Comput.Phys.,1,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ren, W.</subfield>
+    <subfield code="h">Weinan, E.</subfield>
+    <subfield code="t">Boundary conditions for the moving contact line problem</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Phys.Fluids,19,022101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renardy, M.</subfield>
+    <subfield code="h">Renardy, Y.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="t">Numerical simulation of moving contact line problems using a volume-of-fluid method</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,171,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renardy, Y.Y.</subfield>
+    <subfield code="h">Renardy, M.</subfield>
+    <subfield code="h">Cristini, V.</subfield>
+    <subfield code="t">A new volume-of-fluid formulation for surfactants and simulations of drop deformation under shear at a low viscosity ratio</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,21,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rider, W.</subfield>
+    <subfield code="h">Kothe, D.</subfield>
+    <subfield code="t">Reconstructing volume tracking</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,141,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Level Set Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, J.</subfield>
+    <subfield code="h">Graber, C.</subfield>
+    <subfield code="h">Liburdy, J.</subfield>
+    <subfield code="h">Pence, D.</subfield>
+    <subfield code="h">Narayanan, V.</subfield>
+    <subfield code="t">Simultaneous droplet impingement dynamics and heat transfer on nano-structured surfaces</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Exp.Therm.Fluid Sci.,34,496</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spelt, P.D.M.</subfield>
+    <subfield code="t">A level-set approach for simulations of flows with multiple moving contact lines with hysteresis</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,207,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sui, Y.</subfield>
+    <subfield code="h">Ding, H.</subfield>
+    <subfield code="h">Spelt, P.D.</subfield>
+    <subfield code="t">Numerical simulations of flows with moving contact lines</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,46,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Puckett, E.G.</subfield>
+    <subfield code="t">A coupled level set and volume-of-fluid method for computing 3d axisymmetric incompressible two-phase flows</subfield>
+    <subfield code="v">162</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,162,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">A level set approach for computing solutions to incompressible two-phase flow</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,114,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teigen, K.E.</subfield>
+    <subfield code="h">Song, P.</subfield>
+    <subfield code="h">Lowengrub, J.</subfield>
+    <subfield code="h">Vogit, A.</subfield>
+    <subfield code="t">A diffuse interface method for two-phase flows with soluble surfactants</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,230,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thompson, P.A.</subfield>
+    <subfield code="h">Troian, S.M.</subfield>
+    <subfield code="t">A general boundary condition for liquid flow at solid surfaces</subfield>
+    <subfield code="v">389</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Nature,389,360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="h">Bunner, B.</subfield>
+    <subfield code="h">Esmaeeli, A.</subfield>
+    <subfield code="h">Juric, D.</subfield>
+    <subfield code="h">Al-Rawahi, N.</subfield>
+    <subfield code="h">Tauber, W.</subfield>
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Nas, S.</subfield>
+    <subfield code="h">Jan, Y.-J.</subfield>
+    <subfield code="t">A front-tracking method for the computations of multiphase flow</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">J.Comput.Phys.,169,708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turek, S.</subfield>
+    <subfield code="t">Efficient Solvers for Incompressible Flow Problems. An Algorithmic and Computational Approach</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Unverdi, S.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking method for viscous, incompressible multi-fluid flows</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,100,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Šikalo, Š.</subfield>
+    <subfield code="h">Marengo, M.</subfield>
+    <subfield code="h">Tropea, C.</subfield>
+    <subfield code="h">Ganić, E.</subfield>
+    <subfield code="t">Analysis of impact of droplets on horizontal surfaces</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Exp.Therm.Fluid Sci.,25,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Šikalo, Š.</subfield>
+    <subfield code="h">Wilhelm, H.-D.</subfield>
+    <subfield code="h">Roisman, I.V.</subfield>
+    <subfield code="h">Jakirlić, S.</subfield>
+    <subfield code="h">Tropea, C.</subfield>
+    <subfield code="t">Dynamic contact angle of spreading droplets: experiments and simulations</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Phys.Fluids,17,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Sint Annaland, M.</subfield>
+    <subfield code="h">Deen, N.</subfield>
+    <subfield code="h">Kuipers, J.</subfield>
+    <subfield code="t">Numerical simulation of gas bubbles behaviour using a three-dimensional volume of fluid method</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Chem.Eng.Sci.,60,2999</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wörner, M.</subfield>
+    <subfield code="t">Numerical modeling of multiphase flows in microfluidics and micro process engineering: a review of methods and applications</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Microfluid.Nanofluid.,12,841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, J.-J.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Lowengrub, J.</subfield>
+    <subfield code="h">Zhao, H.</subfield>
+    <subfield code="t">A level-set method for interfacial flows with surfactant</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">J.Comput.Phys.,212,590</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, J.-J.</subfield>
+    <subfield code="h">Ren, W.</subfield>
+    <subfield code="t">A level-set method for two-phase flows with moving contact line and insoluble surfactant</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">J.Comput.Phys.,263,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, J.J.</subfield>
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Lowengrub, J.</subfield>
+    <subfield code="t">A level-set continuum method for two-phase flows with insoluble surfactants</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5897</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yon, S.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">Deformation of a liquid drop adhering to a plane wall: significance of the drop viscosity and the effect of an insoluble surfactant</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Phys.Fluids,11,1297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, J.</subfield>
+    <subfield code="h">Eckmann, D.M.</subfield>
+    <subfield code="h">Ayyaswamy, P.S.</subfield>
+    <subfield code="t">A front tracking method for a deformable intravascular bubble in a tube with soluble surfactant transport</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Comput.Phys.,214,366</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Z.</subfield>
+    <subfield code="h">Xu, A.</subfield>
+    <subfield code="h">Ren, W.</subfield>
+    <subfield code="t">Derivation of a continuum model and the energy law for moving contact lines with insoluble surfactants</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Phys.Fluids,26,062103</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00180/S0021999115005537/S0021999115005537.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

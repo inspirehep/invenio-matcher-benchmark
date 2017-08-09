@@ -1,0 +1,530 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ahmed, Raheel</subfield>
+    <subfield code="v">ZCCE, College of Engineering, Swansea University, Swansea, Wales, SA2 8PP, UK</subfield>
+    <subfield code="m">R.AHMED.642142@swansea.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Three-dimensional control-volume distributed multi-point flux approximation coupled with a lower-dimensional surface fracture model</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">28</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel cell-centred control-volume distributed multi-point flux approximation (CVD-MPFA) finite-volume formulation is presented for discrete fracture–matrix simulations on unstructured grids in three-dimensions (3D). The grid is aligned with fractures and barriers which are then modelled as lower-dimensional surface interfaces located between the matrix cells in the physical domain. The three-dimensional pressure equation is solved in the matrix domain coupled with a two-dimensional (2D) surface pressure equation solved over fracture networks via a novel surface CVD-MPFA formulation. The CVD-MPFA formulation naturally handles fractures with anisotropic permeabilities on unstructured grids. Matrix–fracture fluxes are expressed in terms of matrix and fracture pressures and define the transfer function, which is added to the lower-dimensional flow equation and couples the three-dimensional and surface systems. An additional transmission condition is used between matrix cells adjacent to low permeable fractures to couple the velocity and pressure jump across the fractures. Convergence and accuracy of the lower-dimensional fracture model is assessed for highly anisotropic fractures having a range of apertures and permeability tensors. A transport equation for tracer flow is coupled via the Darcy flux for single and intersecting fractures. The lower-dimensional approximation for intersecting fractures avoids the more restrictive CFL condition corresponding to the equi-dimensional approximation with explicit time discretisation. Lower-dimensional fracture model results are compared with equi-dimensional model results. Fractures and barriers are efficiently modelled by lower-dimensional interfaces which yield comparable results to those of the equi-dimensional model. Pressure continuity is built into the model across highly conductive fractures, leading to reduced local degrees of freedom in the CVD-MPFA approximation. The formulation is applied to geologically complex fracture networks in three-dimensions. The effects of the fracture permeability, aperture and grid resolution are also assessed with respect to convergence and computational cost.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Three-dimensions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">CVD-MPFA</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fracture network</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lower-dimensional</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interfaces</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fracture matrix transfer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Edwards, Michael G.</subfield>
+    <subfield code="v">ZCCE, College of Engineering, Swansea University, Swansea, Wales, SA2 8PP, UK</subfield>
+    <subfield code="m">m.g.edwards@swansea.ac.uk</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lamine, Sadok</subfield>
+    <subfield code="v">Shell Global Solutions International B.V., Kessler Park 1, Rijswijk, 2288 GS, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Huisman, Bastiaan A.H.</subfield>
+    <subfield code="v">Shell Global Solutions International B.V., Kessler Park 1, Rijswijk, 2288 GS, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pal, Mayur</subfield>
+    <subfield code="v">Maersk Oil and Gas A/S, Copenhagen, 1263, Denmark</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">470-497</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matthäi, S.K.</subfield>
+    <subfield code="t">Modelling multiphase flow in fractured porous rock</subfield>
+    <subfield code="p">Department of Earth Sciences &amp; Engineering, Imperial College London</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Tech. rep.</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">An efficient numerical model for incompressible two-phase flow in fractured media</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Adv.Water Resour.,31,891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reiss, L.H.</subfield>
+    <subfield code="t">The Reservoir Engineering Aspects of Fractured Formations</subfield>
+    <subfield code="p">Editions Technip Paris</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Dreuzy, J.-R.D.</subfield>
+    <subfield code="h">Poirriez, B.</subfield>
+    <subfield code="t">Flow simulation in three-dimensional discrete fracture networks</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,2688</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berkowitz, B.</subfield>
+    <subfield code="t">Characterizing flow and transport in fractured geological media: a review</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Adv.Water Resour.,25,861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2003WR002996</subfield>
+    <subfield code="h">Monteagudo, J.E.P.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Control-volume method for numerical simulation of two-phase immiscible flow in two- and three-dimensional discrete-fractured media</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Water Resour.Res.,40,W074051</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barenblatt, G.</subfield>
+    <subfield code="h">Zheltov, Y.</subfield>
+    <subfield code="h">Kochina, I.</subfield>
+    <subfield code="t">Basic concepts in the theory of seepage of homogeneous fluids in fissurized rocks</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Prikl.Mat.Meh.,24,852</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warren, J.</subfield>
+    <subfield code="h">Root, P.</subfield>
+    <subfield code="t">The behavior of naturally fractured reservoirs</subfield>
+    <subfield code="v">03</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SPE J.,03,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kazemi, H.</subfield>
+    <subfield code="h">Merrill, L.S.</subfield>
+    <subfield code="h">Porterfield, K.L.</subfield>
+    <subfield code="h">Zeman, P.R.</subfield>
+    <subfield code="t">Numerical simulation of water–oil flow in naturally fractured reservoirs</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SPE J.,16,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Huan, G.</subfield>
+    <subfield code="h">Ma, Y.</subfield>
+    <subfield code="t">Computational Methods for Multiphase Flows in Porous Media, Computational Science and Engineering, </subfield>
+    <subfield code="p">SIAM Philadelphia</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noorishad, J.</subfield>
+    <subfield code="h">Mehran, M.</subfield>
+    <subfield code="t">An upstream finite element method for solution of transient transport equation in fractured porous media</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Water Resour.Res.,18,588</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baca, R.</subfield>
+    <subfield code="h">Arnett, R.</subfield>
+    <subfield code="h">Langford, D.</subfield>
+    <subfield code="t">Modeling fluid flow in fractured porous rock masses by finite element techniques</subfield>
+    <subfield code="v">04</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,04,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lough, M.F.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Kamath, J.</subfield>
+    <subfield code="t">An efficient boundary integral formulation for flow through fractured porous media</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,143,462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karimi-Fard, M.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Numerical simulation of water injection in fractured media using the discrete-fracture model and the Galerkin method</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SPE Reserv.Eval.Eng.,6,117</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matthäi, S.K.</subfield>
+    <subfield code="h">Mezentsev, A.</subfield>
+    <subfield code="h">Belayneh, M.</subfield>
+    <subfield code="t">Control-volume finite-element two-phase flow experiments with fractured rock represented by unstructured 3D hybrid meshes</subfield>
+    <subfield code="p">Society of Petroleum Engineers, SPE</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="q">SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, V.</subfield>
+    <subfield code="h">Jaffré, J.</subfield>
+    <subfield code="h">Roberts, J.E.</subfield>
+    <subfield code="t">Modelling fractures and barriers as interfaces for flow in porous media</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,1667</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hægland, H.</subfield>
+    <subfield code="h">Assteerawatt, A.</subfield>
+    <subfield code="h">Dahle, H.K.</subfield>
+    <subfield code="h">Eigestad, G.T.</subfield>
+    <subfield code="h">Helmig, R.</subfield>
+    <subfield code="t">Comparison of cell- and vertex-centered discretization methods for flow in a two-dimensional discrete-fracture–matrix system</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Adv.Water Resour.,32,1740</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sandve, T.H.</subfield>
+    <subfield code="h">Berre, I.</subfield>
+    <subfield code="h">Nordbotten, J.M.</subfield>
+    <subfield code="t">An efficient multi-point flux approximation method for discrete fracture–matrix simulations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3784</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mallison, B.T.</subfield>
+    <subfield code="h">Hui, M.H.</subfield>
+    <subfield code="h">Narr, W.</subfield>
+    <subfield code="t">Practical gridding algorithms for discrete fracture modeling workflows</subfield>
+    <subfield code="p">EAGE</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="q">12th European Conference on the Mathematics of Oil Recovery</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mustapha, H.</subfield>
+    <subfield code="h">Dimitrakopoulos, R.</subfield>
+    <subfield code="h">Graf, T.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">An efficient method for discretizing 3D fractured media for subsurface flow and transport simulations</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,67,651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="t">Iterative multiscale finite volume method for multiphase flow in porous media with complex physics</subfield>
+    <subfield code="p">ETH Zurich</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Lough, M.F.</subfield>
+    <subfield code="h">Jensen, C.L.</subfield>
+    <subfield code="t">Hierarchical modeling of flow in naturally fractured formations with multiple length scales</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Water Resour.Res.,37,443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hajibeygi, H.</subfield>
+    <subfield code="h">Karvounis, D.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="t">A hierarchical fracture model for the iterative multiscale finite-volume method</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Foster, C.D.</subfield>
+    <subfield code="h">Nejad, T.M.</subfield>
+    <subfield code="t">Embedded discontinuity finite element modeling of fluid flow in fractured porous media</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Acta Geotech.,8,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D'Angelo, C.</subfield>
+    <subfield code="h">Scotti, A.</subfield>
+    <subfield code="t">A mixed finite element method for Darcy flow in fractured porous media with non-matching grids</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,46,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berrone, S.</subfield>
+    <subfield code="h">Pieraccini, S.</subfield>
+    <subfield code="h">Scialò, S.</subfield>
+    <subfield code="t">An optimization approach for large scale simulations of discrete fracture network flows</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,256,838</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fourno, A.</subfield>
+    <subfield code="h">Grenier, C.</subfield>
+    <subfield code="h">Benabderrahmane, A.</subfield>
+    <subfield code="h">Delay, F.</subfield>
+    <subfield code="t">A continuum voxel approach to model flow in 3D fault networks: a new way to obtain up-scaled hydraulic conductivity tensors of grid cells</subfield>
+    <subfield code="v">493</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Hydrol.,493,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noetinger, B.</subfield>
+    <subfield code="h">Jarrige, N.</subfield>
+    <subfield code="t">A quasi steady state method for solving transient Darcy flow in complex 3D fractured networks</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,231,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mourzenko, V.V.</subfield>
+    <subfield code="h">Bogdanov, I.I.</subfield>
+    <subfield code="h">Thovert, J.-F.</subfield>
+    <subfield code="h">Adler, P.M.</subfield>
+    <subfield code="t">Three-dimensional numerical simulation of single-phase transient compressible flows and well-tests in fractured formations</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Math.Comput.Simul.,81,2270</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karimi-Fard, M.</subfield>
+    <subfield code="h">Durlofsky, L.J.</subfield>
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="t">An efficient discrete-fracture model applicable for general-purpose reservoir simulators</subfield>
+    <subfield code="v">09</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SPE J.,09,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zidane, A.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">An efficient numerical model for multicomponent compressible flow in fractured porous media</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Adv.Water Resour.,74,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/m2an/2014034</subfield>
+    <subfield code="h">Brenner, K.</subfield>
+    <subfield code="h">Groza, M.</subfield>
+    <subfield code="h">Guichard, C.</subfield>
+    <subfield code="h">Masson, R.</subfield>
+    <subfield code="t">Vertex approximate gradient scheme for hybrid dimensional two-phase Darcy flows in fractured porous media</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,49,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Al-Hinai, O.</subfield>
+    <subfield code="h">Srinivasan, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Mimetic finite differences for flow in fractures from microseismic data</subfield>
+    <subfield code="p">Society of Petroleum Engineers</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">SPE Reservoir Simulation Symposium</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Friis, H.A.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Mykkeltveit, J.</subfield>
+    <subfield code="t">Symmetric positive definite flux-continuous full-tensor finite-volume schemes on unstructured cell-centered triangular grids</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,1192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="t">A family of multi-point flux approximation schemes for general element types in two and three dimensions with convergence performance</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,69,1797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahmed, R.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Huisman, B.A.H.</subfield>
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">Mixed-dimensional model; CVD-MPFA coupled with a lower-dimensional fracture model</subfield>
+    <subfield code="p">EAGE</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">14th European Conference on the Mathematics of Oil Recovery</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahmed, R.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Huisman, B.A.H.</subfield>
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">Control-volume distributed multi-point flux approximation coupled with a lower-dimensional fracture model</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,284,462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heße, F.</subfield>
+    <subfield code="h">Prykhodko, V.</subfield>
+    <subfield code="h">Attinger, S.</subfield>
+    <subfield code="t">Assessing the validity of a lower-dimensional representation of fractures for numerical and analytical investigations</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Adv.Water Resour.,56,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reichenberger, V.</subfield>
+    <subfield code="h">Jakobs, H.</subfield>
+    <subfield code="h">Bastian, P.</subfield>
+    <subfield code="h">Helmig, R.</subfield>
+    <subfield code="t">A mixed-dimensional finite volume method for two-phase flow in fractured porous media</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Adv.Water Resour.,29,1020</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">Families of control-volume distributed multi-point flux approximation finite volume schemes for the porous media pressure equation on structured and unstructured grids</subfield>
+    <subfield code="p">University of Swansea UK</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="t">Gmres: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stüben, K.</subfield>
+    <subfield code="t">Solving reservoir simulation equations</subfield>
+    <subfield code="p">9th International Forum on Reservoir Simulation, Abu Dhabi, United Arab Emirates, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Adams, M.F.</subfield>
+    <subfield code="h">Brown, J.</subfield>
+    <subfield code="h">Brune, P.</subfield>
+    <subfield code="h">Buschelman, K.</subfield>
+    <subfield code="h">Eijkhout, V.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">Kaushik, D.</subfield>
+    <subfield code="h">Knepley, M.G.</subfield>
+    <subfield code="h">McInnes, L.C.</subfield>
+    <subfield code="h">Rupp, K.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">PETSc Web page</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shewchuk, J.R.</subfield>
+    <subfield code="t">Triangle: engineering a 2D quality mesh generator and Delaunay triangulator</subfield>
+    <subfield code="v">vol. 1148</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.,vol. 1148,203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Si, H.</subfield>
+    <subfield code="t">A quality tetrahedral mesh generator and three-dimensional Delaunay triangulator</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">WIAS technical report No. 13</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006609/S0021999115006609.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,978 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.01.033</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Schwarz, Stephan</subfield>
+    <subfield code="v">Institute of Fluid Mechanics, Technische Universität Dresden, George-Bähr Str. 3c, 01062 Dresden, Germany</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An immersed boundary method for the simulation of bubbles with varying shape</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">26</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The paper presents a numerical method for the simulation of bubbles with variable shape in the framework of an immersed boundary method. The liquid–gas interface is described analytically by a series expansion in spherical harmonics. Such a representation of the interface is very accurate and robust and the error of the computed surface curvature is substantially smaller compared to a discrete representation of the surface by grid points. The shape of the bubble is computed by minimizing the local displacement energy of pressure and surface tension forces and is coupled to the continuous phase by adapting the Lagrangian surface mesh in each time step. This is done with the constraint of constant bubble volume exactly implemented. As a first step the bubbles are restricted to axisymmetric shapes. The resulting algorithm is thoroughly validated by several numerical tests and finally applied to freely rising bubbles with stationary and oscillatory shape as well. The computed bubble shapes are in very good agreement with experimental and numerical reference data.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Immersed boundary method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bubble</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Variable shape</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid–structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kempe, Tobias</subfield>
+    <subfield code="v">Institute of Fluid Mechanics, Technische Universität Dresden, George-Bähr Str. 3c, 01062 Dresden, Germany</subfield>
+    <subfield code="m">tobias.kempe@ilk-dresden.de</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fröhlich, Jochen</subfield>
+    <subfield code="v">Institute of Fluid Mechanics, Technische Universität Dresden, George-Bähr Str. 3c, 01062 Dresden, Germany</subfield>
+    <subfield code="m">jochen.froehlich@tu-dresden.de</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">124-149</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aland, S.</subfield>
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="h">Voigt, A.</subfield>
+    <subfield code="t">Modeling and numerical approximations for bubbles in liquid metal</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Eur.Phys.J.Spec.Top.,220,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arfken, G.B.</subfield>
+    <subfield code="h">Weber, H.J.</subfield>
+    <subfield code="t">Mathematical Methods for Physicists</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhaga, D.</subfield>
+    <subfield code="h">Weber, M.E.</subfield>
+    <subfield code="t">Bubbles in viscous liquids: shapes, wakes and velocities</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Fluid Mech.,105,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonometti, T.</subfield>
+    <subfield code="h">Magnaudet, J.</subfield>
+    <subfield code="t">An interface-capturing method for incompressible two-phase flows. Validation and application to bubble dynamics</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,33,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borazjani, I.</subfield>
+    <subfield code="h">Ge, L.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">Curvilinear immersed boundary method for simulating fluid structure interaction with complex 3D rigid bodies</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenn, G.</subfield>
+    <subfield code="h">Kolobaric, V.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="t">Shape oscillations and path transition of bubbles rising in a model bubble column</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Chem.Eng.Sci.,61,3795</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Broday, D.</subfield>
+    <subfield code="h">Fichman, M.</subfield>
+    <subfield code="h">Shapiro, M.</subfield>
+    <subfield code="h">Gutfinger, C.</subfield>
+    <subfield code="t">Motion of spheroidal particles in vertical shear flows</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Fluids,10,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clift, R.</subfield>
+    <subfield code="h">Grace, J.R.</subfield>
+    <subfield code="h">Weber, M.E.</subfield>
+    <subfield code="t">Bubbles, Drops, and Particles</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Degroote, J.</subfield>
+    <subfield code="h">Bruggeman, P.</subfield>
+    <subfield code="h">Haelterman, R.</subfield>
+    <subfield code="h">Vierendeels, J.</subfield>
+    <subfield code="t">Bubble simulations with an interface tracking technique based on a partitioned fluid–structure interaction algorithm</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,234,2303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Degroote, J.</subfield>
+    <subfield code="h">Bruggeman, P.</subfield>
+    <subfield code="h">Vierendeels, J.</subfield>
+    <subfield code="t">A coupling algorithm for partitioned solvers applied to bubble and droplet dynamics</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Fluids,38,613</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Diebel, J.</subfield>
+    <subfield code="t">Representing attitude: Euler angles, unit quaternions, and rotation vectors</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Matrix,58,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emans, M.</subfield>
+    <subfield code="t">Numerische Simulation des unterkühlten Blasensiedens in turbulenter Strömung: Ein Euler–Lagrange–Verfahren auf orthogonalen Gittern</subfield>
+    <subfield code="p">TU München</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emans, M.</subfield>
+    <subfield code="h">Zenger, C.</subfield>
+    <subfield code="t">An efficient method for the prediction of the motion of individual bubbles</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,19,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Francois, M.</subfield>
+    <subfield code="h">Uzgoren, E.</subfield>
+    <subfield code="h">Jackson, J.</subfield>
+    <subfield code="h">Shyy, W.</subfield>
+    <subfield code="t">Multigrid computations with the immersed boundary technique for multiphase flows</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Heat Fluid Flow,14,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Large Eddy Simulation Turbulenter Strömungen</subfield>
+    <subfield code="p">Teubner</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Heitkam, S.</subfield>
+    <subfield code="h">Santarelli, C.</subfield>
+    <subfield code="h">Zhang, C.</subfield>
+    <subfield code="h">Vogt, T.</subfield>
+    <subfield code="h">Boden, S.</subfield>
+    <subfield code="h">Andruszkiewicz, A.</subfield>
+    <subfield code="h">Eckert, K.</subfield>
+    <subfield code="h">Odenbach, S.</subfield>
+    <subfield code="t">Influence of magnetic fields on the behavior of bubbles in liquid metals</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Eur.Phys.J.Spec.Top.,220,167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garboczi, E.J.</subfield>
+    <subfield code="t">Three-dimensional mathematical analysis of particle shape using X-ray tomography and spherical harmonics: application to aggregates used in concrete</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Cem.Concr.Res.,32,1621</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaudlitz, D.</subfield>
+    <subfield code="t">Numerische Untersuchung des Aufstiegsverhaltens von Gasblasen in Flüssigkeiten</subfield>
+    <subfield code="p">Technische Universität München, Fakultät für Maschinenwesen</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaudlitz, D.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">Two-phase flow computations by the hybrid particle-level-set method</subfield>
+    <subfield code="v">vol. 1</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">5th Int.Symp.Turbul.Shear Flow Phenom,vol. 1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaudlitz, D.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">On improving mass-conservation properties of the hybrid particle-level-set method</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Fluids,37,1320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gavze, E.</subfield>
+    <subfield code="h">Shapiro, M.</subfield>
+    <subfield code="t">Particles in a shear flow near a solid wall: effect of nonsphericity on forces and velocities</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,23,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gavze, E.</subfield>
+    <subfield code="h">Shapiro, M.</subfield>
+    <subfield code="t">Motion of inertial spheroidal particles in a shear flow near a solid wall with special application to aerosol transport in microgravity</subfield>
+    <subfield code="v">371</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Fluid Mech.,371,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldstein, H.</subfield>
+    <subfield code="h">Poole, C.P.</subfield>
+    <subfield code="h">Safko, J.L.</subfield>
+    <subfield code="t">Klassische Mechanik</subfield>
+    <subfield code="p">Wiley–VCH Verlag Weinheim</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gresho, P.M.</subfield>
+    <subfield code="h">Sani, R.L.</subfield>
+    <subfield code="t">On pressure boundary conditions for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,7,1111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Happel, J.</subfield>
+    <subfield code="h">Brenner, H.</subfield>
+    <subfield code="t">Low Reynolds Number Hydrodynamics</subfield>
+    <subfield code="p">Springer Netherlands</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harlow, F.H.</subfield>
+    <subfield code="h">Welch, J.E.</subfield>
+    <subfield code="t">Numerical calculation of time-dependent viscous incompressible flow of fluid with free surface</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Phys.Fluids,8,2182</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, C.</subfield>
+    <subfield code="h">Delgado, A.</subfield>
+    <subfield code="t">Numerical simulation of stress distribution on deformable drops</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Eng.Life Sci.,2,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heitkam, S.</subfield>
+    <subfield code="h">Drenckhan, W.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Packing spheres tightly: influence of mechanical stability on close-packed sphere structures</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Rev.Lett.,108,148302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heitkam, S.</subfield>
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Simulation of the influence of electromagnetic fields on the drainage in wet metal foam</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Magnetohydrodynamics,48,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hua, J.</subfield>
+    <subfield code="h">Stene, J.F.</subfield>
+    <subfield code="h">Lin, P.</subfield>
+    <subfield code="t">Numerical simulation of 3d bubbles rising in viscous liquids using a front tracking method</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3358</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeffery, G.B.</subfield>
+    <subfield code="t">The motion of ellipsoidal particles immersed in a viscous fluid</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">1922</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A102,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kajishima, T.</subfield>
+    <subfield code="h">Takiguchi, S.</subfield>
+    <subfield code="t">Interaction between particle clusters and particle-induced turbulence</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,23,639</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kajishima, T.</subfield>
+    <subfield code="h">Takiguchi, S.</subfield>
+    <subfield code="h">Hamasaki, H.</subfield>
+    <subfield code="h">Miyake, Y.</subfield>
+    <subfield code="t">Turbulence structure of particle-laden flow in a vertical plane channel due to vortex shedding</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">JSME Int.J.Ser.,B44,526</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kawamura, T.</subfield>
+    <subfield code="h">Kodama, Y.</subfield>
+    <subfield code="t">Numerical simulation method to resolve interactions between bubbles and turbulence</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,23,627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Collision modelling for the interface-resolved simulation of spherical particles in viscous fluids</subfield>
+    <subfield code="v">709</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Fluid Mech.,709,445</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">An improved immersed boundary method with direct forcing for the simulation of particle laden flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Lennartz, M.</subfield>
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Imposing the free-slip condition with a continuous forcing immersed boundary method</subfield>
+    <subfield code="v">282</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,282,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Vowinckel, B.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">On the relevance of collision modeling for interface-resolving simulations of sediment transport in open channel flow</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,58,214</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, S.</subfield>
+    <subfield code="h">Karrila, S.J.</subfield>
+    <subfield code="t">Microhydrodynamics</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krull, B.</subfield>
+    <subfield code="t">Abbildung dreidimensionaler Blasenformen mit sphärischen harmonischen Funktionen</subfield>
+    <subfield code="p">Institute of Fluid Mechanics, TU Dresden</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Master thesis</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuypers, F.</subfield>
+    <subfield code="t">Klassische Mechanik</subfield>
+    <subfield code="p">Wiley–VCH Verlag Weinheim</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kwakkel, M.</subfield>
+    <subfield code="h">Breugem, W.-P.</subfield>
+    <subfield code="h">Boersma, B.J.</subfield>
+    <subfield code="t">DNS of turbulent bubbly downward flow in a vertical plane channel with a coupled level-set/volume of fluid method</subfield>
+    <subfield code="p">Proc. Direct and Large-Eddy Simulation IX, Dresden, Germany, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lancaster, P.</subfield>
+    <subfield code="h">Salkauskas, K.</subfield>
+    <subfield code="t">Surfaces generated by moving least squares methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Math.Comput.,37,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leopardi, P.</subfield>
+    <subfield code="t">A partiton of the unit sphere into regions of equal area and small diameter</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Electron.Trans.Numer.Anal.,25,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levin, D.</subfield>
+    <subfield code="t">The approximation power of moving least-squares</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Math.Comput.,67,1517</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, W.Z.</subfield>
+    <subfield code="h">Yan, Y.Y.</subfield>
+    <subfield code="h">Smith, J.M.</subfield>
+    <subfield code="t">A numerical study of the interfacial transport characteristics outside spheroidal bubbles and solids</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,29,435</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Longuet-Higgins, M.</subfield>
+    <subfield code="h">Kerman, B.</subfield>
+    <subfield code="h">Lunde, K.</subfield>
+    <subfield code="t">The release of air bubbles from an underwater nozzle</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Fluid Mech.,230,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Loth, E.</subfield>
+    <subfield code="t">Quasi-steady shape and drag of deformable bubbles and drops</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,34,523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lunde, K.</subfield>
+    <subfield code="h">Perkins, R.</subfield>
+    <subfield code="t">Shape oscillations of rising bubbles</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Appl.Sci.Res.,58,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magnaudet, J.</subfield>
+    <subfield code="h">Mougin, G.</subfield>
+    <subfield code="t">Wake instability of a fixed spheroidal bubble</subfield>
+    <subfield code="v">572</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Fluid Mech.,572,311</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magnaudet, J.</subfield>
+    <subfield code="h">Rivero, M.</subfield>
+    <subfield code="h">Fabre, J.</subfield>
+    <subfield code="t">Accelerated flows past a rigid sphere or a spherical bubble. Part 1. Steady straining flow</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Fluid Mech.,284,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McLaughlin, J.B.</subfield>
+    <subfield code="t">Numerical simulation of bubble motion in water</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Colloid Interface Sci.,184,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meier, M.</subfield>
+    <subfield code="h">Yadigaroglu, G.</subfield>
+    <subfield code="h">Smith, B.L.</subfield>
+    <subfield code="t">A novel technique for including surface tension in PLIC–VOF methods</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,21,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="t">Combined immersed boundary/B-Spline method for simulations of flows in complex geometries</subfield>
+    <subfield code="p">NASA Ames/Stanford University</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">Center for Turbulence Research, Annual Research Briefs</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mokhtarian, F.</subfield>
+    <subfield code="h">Khalili, N.</subfield>
+    <subfield code="h">Yuen, P.</subfield>
+    <subfield code="t">Curvature computation on free-form 3-d meshes at multiple scales</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Comput.Vis.Image Underst.,83,118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mougin, G.</subfield>
+    <subfield code="h">Magnaudet, J.</subfield>
+    <subfield code="t">Wake-induced forces and torques on a zigzagging/spiralling bubble</subfield>
+    <subfield code="v">567</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Fluid Mech.,567,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Fedkiw, R.P.</subfield>
+    <subfield code="t">Level set methods: an overview and some recent results</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Comput.Phys.,169,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, Ch.S.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, Ch.S.</subfield>
+    <subfield code="t">The immersed boundary method</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Acta Numer.,11,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pöschel, T.</subfield>
+    <subfield code="h">Schwager, T.</subfield>
+    <subfield code="t">Computational Granular Dynamics: Models and Algorithms</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prosperetti, A.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">Computational Methods for Multiphase Flow</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roghair, I.</subfield>
+    <subfield code="h">Lau, Y.M.</subfield>
+    <subfield code="h">Deen, N.G.</subfield>
+    <subfield code="h">Slagter, H.M.</subfield>
+    <subfield code="h">Baltussen, M.W.</subfield>
+    <subfield code="h">Van Sint Annaland, M.</subfield>
+    <subfield code="h">Kuipers, J.A.M.</subfield>
+    <subfield code="t">On the drag force of bubbles in bubble swarms at intermediate and high Reynolds numbers</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Chem.Eng.Sci.,66,3204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roma, A.M.</subfield>
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="t">An adaptive version of the immersed boundary method</subfield>
+    <subfield code="v">153</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,153,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santarelli, C.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Direct numerical simulations of spherical bubbles in vertical turbulent channel flow</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,75,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santarelli, C.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Simulation of bubbly flow in a vertical turbulent channel</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Proc.Appl.Math.Mech.,12,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santarelli, C.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">On the pair correlation function in a bubble swarm</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Kerntech.,1,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santarelli, C.</subfield>
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Numerical simulation of light ellipsoidal particles in vertical turbulent channel flow</subfield>
+    <subfield code="p">8th ICMF International Conference on Multiphase Flow, Jeju, Korea, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct numerical simulation of free-surface and interfacial flow</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,31,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwab, A.L.</subfield>
+    <subfield code="h">Meijaard, J.P.</subfield>
+    <subfield code="t">How to draw Euler angles and utilize Euler parameters</subfield>
+    <subfield code="p">ASME</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="q">Proc. of IDETC/CIE</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="t">An immersed boundary method for particles and bubbles in magnetohydrodynamic flows</subfield>
+    <subfield code="p">Institute of Fluid Mechanics, TU Dresden, TUDpress Verlag der Wissenschaften GmbH</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">DNS of single bubble motion in liquid metal and the influence of a magnetic field</subfield>
+    <subfield code="p">7th Int. Symp. Turbul. Shear Flow Phenom., Ottawa, Canada, 2011</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Simulation of a bubble chain in a container of high aspect ratio exposed to a magnetic field</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Eur.Phys.J.Spec.Top.,220,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Numerical study of single bubble motion in liquid metal exposed to a longitudinal magnetic field</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,62,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, S.</subfield>
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">A temporal discretization scheme to compute the motion of light particles in viscous flows by an immersed boundary method</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Comput.Phys.,281,591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="t">Immersed boundary methods for simulating fluid structure interaction</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Prog.Aerosp.Sci.,65,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spring, K.W.</subfield>
+    <subfield code="t">Euler parameters and the use of quaternion algebra in the manipulation of finite rotations: a review</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Mech.Mach.Theory,21,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Fatemi, E.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">An improved level set method for incompressible two-phase flows</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Comput.Fluids,27,663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tomiyama, A.</subfield>
+    <subfield code="h">Celatab, G.P.</subfield>
+    <subfield code="h">Hosokawaa, S.</subfield>
+    <subfield code="h">Yoshida, S.</subfield>
+    <subfield code="t">Terminal velocity of single bubbles in surface tension force dominant regime</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,28,1497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="h">Bunner, B.</subfield>
+    <subfield code="h">Esmaeeli, A.</subfield>
+    <subfield code="h">Juric, D.</subfield>
+    <subfield code="h">Al-Rawahi, N.</subfield>
+    <subfield code="h">Tauber, W.</subfield>
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Nas, S.</subfield>
+    <subfield code="h">Jan, Y.-J.</subfield>
+    <subfield code="t">A front-tracking method for the computations of multiphase flow</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">J.Comput.Phys.,169,708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct Numerical Simulations of Gas–Liquid Multiphase Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Uhlmann, M.</subfield>
+    <subfield code="t">An immersed boundary method with direct forcing for the simulation of particulate flows</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">J.Comput.Phys.,209,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Unverdi, S.O.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">A front-tracking method for viscous, incompressible, multi-fluid flows</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">J.Comput.Phys.,100,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Wachem, Berend</subfield>
+    <subfield code="h">Zastawny, Marian</subfield>
+    <subfield code="h">Zhao, Fan</subfield>
+    <subfield code="h">Mallouppas, George</subfield>
+    <subfield code="t">Modelling of gas–solid turbulent channel flow with non-spherical particles with large stokes numbers</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,68,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Wachem, B.</subfield>
+    <subfield code="h">Zastawny, M.</subfield>
+    <subfield code="h">Zhao, F.</subfield>
+    <subfield code="h">Mallouppas, G.</subfield>
+    <subfield code="t">Modelling of gas–solid turbulent channel flow with non-spherical particles with large Stokes numbers</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,68,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanella, M.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">A moving-least-squares reconstruction for embedded-boundary formulations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veldhuis, C.H.J.</subfield>
+    <subfield code="h">Biesheuvel, A.</subfield>
+    <subfield code="h">van Wijngaarden, L.</subfield>
+    <subfield code="t">Shape oscillations on bubbles rising in clean and in tap water</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">Phys.Fluids,20,040705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vowinckel, B.</subfield>
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Particle-resolving simulations of bed-load sediment transport</subfield>
+    <subfield code="p">8th International Conference on Multiphase Flow, Jeju, Korea, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">88</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vowinckel, B.</subfield>
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="t">Fluid–particle interaction in turbulent open channel flow with fully-resolved mobile beds</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">Adv.Water Resour.,72,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vowinckel, B.</subfield>
+    <subfield code="h">Kempe, T.</subfield>
+    <subfield code="h">Fröhlich, J.</subfield>
+    <subfield code="h">Nikora, V.I.</subfield>
+    <subfield code="t">Numerical simulation of sediment transport in open channel flow</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="e">Murillo,R.</subfield>
+    <subfield code="q">River Flow</subfield>
+    <subfield code="o">90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wellek, R.M.</subfield>
+    <subfield code="h">Agrawal, A.K.</subfield>
+    <subfield code="h">Skelland, A.H.P.</subfield>
+    <subfield code="t">Shape of liquid drops moving in liquid media</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">AIChE J.,12,854</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, M.</subfield>
+    <subfield code="h">Gharib, M.</subfield>
+    <subfield code="t">Experimental studies on the shape and path of small air bubbles rising in clean water</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">Phys.Fluids,14,L49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yin, C.</subfield>
+    <subfield code="h">Rosendahl, L.</subfield>
+    <subfield code="h">Knudsen Kaer, S.</subfield>
+    <subfield code="h">Sørensen, H.</subfield>
+    <subfield code="t">Modelling the motion of cylindrical particles in a nonuniform flow</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">Chem.Eng.Sci.,58,3489</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Z.</subfield>
+    <subfield code="h">Phan-Thien, N.</subfield>
+    <subfield code="h">Tanner, R.I.</subfield>
+    <subfield code="t">Rotation of a spheroid in a Couette flow at moderate Reynolds numbers</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">Phys.Rev.,E76,026310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zenit, R.</subfield>
+    <subfield code="h">Legendre, D.</subfield>
+    <subfield code="t">The coefficient of restitution for air bubbles colliding against solid walls in viscous liquids</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">Phys.Fluids,21,083306</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, C.</subfield>
+    <subfield code="h">Eckert, S.</subfield>
+    <subfield code="h">Gerbeth, G.</subfield>
+    <subfield code="t">Experimental study of single bubble motion in a liquid metal column exposed to a DC magnetic field</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,106,824</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116000413/S0021999116000413.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

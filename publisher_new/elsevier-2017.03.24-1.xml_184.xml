@@ -1,0 +1,304 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.08.022</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Stück, Arthur</subfield>
+    <subfield code="v">DLR (German Aerospace Center), Institute of Aerodynamics and Flow Technology, Lilienthalplatz 7, D-38108 Braunschweig, Germany</subfield>
+    <subfield code="m">arthur.stueck@dlr.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An adjoint view on flux consistency and strong wall boundary conditions to the Navier–Stokes equations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Inconsistent discrete expressions in the boundary treatment of Navier–Stokes solvers and in the definition of force objective functionals can lead to discrete-adjoint boundary treatments that are not a valid representation of the boundary conditions to the corresponding adjoint partial differential equations. The underlying problem is studied for an elementary 1D advection–diffusion problem first using a node-centred finite-volume discretisation. The defect of the boundary operators in the inconsistently defined discrete-adjoint problem leads to oscillations and becomes evident with the additional insight of the continuous-adjoint approach. A homogenisation of the discretisations for the primal boundary treatment and the force objective functional yields second-order functional accuracy and eliminates the defect in the discrete-adjoint boundary treatment. Subsequently, the issue is studied for aerodynamic Reynolds-averaged Navier–Stokes problems in conjunction with a standard finite-volume discretisation on median-dual grids and a strong implementation of noslip walls, found in many unstructured general-purpose flow solvers. Going out from a base-line discretisation of force objective functionals which is independent of the boundary treatment in the flow solver, two improved flux-consistent schemes are presented; based on either body wall-defined or farfield-defined control-volumes they resolve the dual inconsistency. The behaviour of the schemes is investigated on a sequence of grids in 2D and 3D.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adjoint Navier–Stokes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dual consistency</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Strong boundary treatment</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">247-264</subfield>
+    <subfield code="v">301</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">5th Drag Prediction Workshop (DPW-5)</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">and AIAA-2011-3508</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S.R. Allmaras, F.T. Johnson, P.R. Spalart</subfield>
+    <subfield code="m">Modifications and clarifications for the implementation of the Spalart-Allmaras turbulence model, in: ICCFD7-, 7th International Conference on Computational Fluid Dynamics, Big Island, Hawaii, 9-13 July 2012</subfield>
+    <subfield code="y">1902</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dwight, R.P.</subfield>
+    <subfield code="h">Brezillon, J.</subfield>
+    <subfield code="t">Efficient and robust algorithms for solution of the adjoint compressible Navier–Stokes equations with applications</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,60,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giering, R.</subfield>
+    <subfield code="h">Kaminski, T.</subfield>
+    <subfield code="t">Recipes for adjoint code construction</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,24,437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giles, M.B.</subfield>
+    <subfield code="t">On the use of Runge–Kutta time-marching and multigrid for the solution of steady adjoint equations</subfield>
+    <subfield code="p">Oxford University Computing Laboratory Oxford, England</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">Technical Report no. 00/10</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giles, M.B.</subfield>
+    <subfield code="h">Duta, M.C.</subfield>
+    <subfield code="h">Müller, J.-D.</subfield>
+    <subfield code="h">Pierce, N.A.</subfield>
+    <subfield code="t">Algorithm developments for discrete adjoint methods</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">AIAA J.,41,198</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giles, M.B.</subfield>
+    <subfield code="h">Müller, J.-D.</subfield>
+    <subfield code="h">Duta, M.C.</subfield>
+    <subfield code="t">Adjoint code developments using the exact discrete approach</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">AIAA-2001-2596</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="t">Adjoint consistency analysis of discontinuous Galerkin discretizations</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,45,2671</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Held, J.</subfield>
+    <subfield code="h">Leicht, T.</subfield>
+    <subfield code="t">Adjoint-based error estimation and adaptive mesh refinement for the RANS and <math altimg="si175.gif" display="inline" overflow="scroll"><mi>k</mi><mtext>–</mtext><mi>ω</mi></math> turbulence model equations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4268</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Leicht, T.</subfield>
+    <subfield code="t">Higher order and adaptive DG methods for compressible flows</subfield>
+    <subfield code="p">37th Advanced CFD Lecture Series: Recent Developments in Higher Order Methods and Industrial Application in Aeronautics, Dec. 9–12, 2013, VKI LS 2014-03, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hicken, J.</subfield>
+    <subfield code="h">Zingg, D.</subfield>
+    <subfield code="t">The role of dual consistency in functional accuracy: error estimation and superconvergence</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA-2011-3855</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hicken, J.E.</subfield>
+    <subfield code="h">Zingg, D.W.</subfield>
+    <subfield code="t">Superconvergent functional estimates from summation-by-parts finite-difference discretizations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,893</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hicken, J.E.</subfield>
+    <subfield code="h">Zingg, D.W.</subfield>
+    <subfield code="t">Dual consistency and functional accuracy: a finite-difference perspective</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,256,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Aerodynamic design via control theory</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Sci.Comput.,3,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Optimum aerodynamic design using CFD and control theory</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">AIAA-1995-1729-CP</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kroll, N.</subfield>
+    <subfield code="h">Langer, S.</subfield>
+    <subfield code="h">Schwöppe, A.</subfield>
+    <subfield code="t">The DLR flow solver TAU – status and recent algorithmic developments</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">AIAA-2014-0080</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Z.</subfield>
+    <subfield code="h">Sandu, A.</subfield>
+    <subfield code="t">On the properties of discrete adjoints of numerical methods for the advection equation</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,769</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lu, J.C.-C.</subfield>
+    <subfield code="t">An a posteriori error control framework for adaptive precision optimization using discontinuous Galerkin finite element method</subfield>
+    <subfield code="p">Department of Aeronautics and Astronautics, Massachusetts Institute of Technology</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, D.J.</subfield>
+    <subfield code="t">Discrete adjoint-based approach for optimization problems on three-dimensional unstructured meshes</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">AIAA J.,45,741</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nielsen, E.J.</subfield>
+    <subfield code="h">James, L.B.</subfield>
+    <subfield code="h">Park, M.A.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">An implicit, exact dual adjoint solution method for turbulent flows on unstructured grids</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Fluids,33,1131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nordström, J.</subfield>
+    <subfield code="h">Eriksson, S.</subfield>
+    <subfield code="h">Eliasson, P.</subfield>
+    <subfield code="t">Weak and strong wall boundary procedures and convergence to the steady-state of the Navier–Stokes equations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,231,4867</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oliver, T.A.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Analysis of dual consistency for discontinuous Galerkin discretizations of source terms</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,3507</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pulliam, T.H.</subfield>
+    <subfield code="t">Artificial dissipation models for the Euler equations</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">AIAA J.,24,1931</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schwamborn, T. Gerhold, R. Heinrich</subfield>
+    <subfield code="m">The DLR TAU-code: recent applications in research and industry, in: ECCOMAS CFD, Egmond aan Zee, The Netherlands, September 5-8</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Soto, O.</subfield>
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="h">Yang, C.</subfield>
+    <subfield code="t">An adjoint-based design methodology for CFD problems</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Heat Fluid Flow,14,734</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stück, A.</subfield>
+    <subfield code="h">Rung, T.</subfield>
+    <subfield code="t">Adjoint complement to viscous finite-volume pressure-correction methods</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,248,402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Swanson, R.C.</subfield>
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="t">Multistage schemes with multigrid for Euler and Navier–Stokes equations</subfield>
+    <subfield code="p">NASA</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="m">Tech. Rep. 3631</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zymaris, A.S.</subfield>
+    <subfield code="h">Papadimitriou, D.I.</subfield>
+    <subfield code="h">Giannakoglou, K.C.</subfield>
+    <subfield code="h">Othmer, C.</subfield>
+    <subfield code="t">Adjoint wall functions: a new concept for use in aerodynamic shape optimization</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5228</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00180/S0021999115005495/S0021999115005495.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,2580 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Stochastic switching in biology: from genotype to phenotype</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">There has been a resurgence of interest in non-equilibrium stochastic processes in recent years, driven in part by the observation that the number of molecules (genes, mRNA, proteins) involved in gene expression are often of order 1–1000. This means that deterministic mass-action kinetics tends to break down, and one needs to take into account the discrete, stochastic nature of biochemical reactions. One of the major consequences of molecular noise is the occurrence of stochastic biological switching at both the genotypic and phenotypic levels. For example, individual gene regulatory networks can switch between graded and binary responses, exhibit translational/transcriptional bursting, and support metastability (noise-induced switching between states that are stable in the deterministic limit). If random switching persists at the phenotypic level then this can confer certain advantages to cell populations growing in a changing environment, as exemplified by bacterial persistence in response to antibiotics. Gene expression at the single-cell level can also be regulated by changes in cell density at the population level, a process known as quorum sensing. In contrast to noise-driven phenotypic switching, the switching mechanism in quorum sensing is stimulus-driven and thus noise tends to have a detrimental effect. A common approach to modeling stochastic gene expression is to assume a large but finite system and to approximate the discrete processes by continuous processes using a system-size expansion. However, there is a growing need to have some familiarity with the theory of stochastic processes that goes beyond the standard topics of chemical master equations, the system-size expansion, Langevin equations and the Fokker–Planck equation. Examples include stochastic hybrid systems (piecewise deterministic Markov processes), large deviations and the Wentzel–Kramers–Brillouin (WKB) method, adiabatic reductions, and queuing/renewal theory. The major aim of this review is to provide a self-contained survey of these mathematical methods, mainly within the context of biological switching processes at both the genotypic and phenotypic levels. However, applications to other examples of biological switching are also discussed, including stochastic ion channels, diffusion in randomly switching environments, bacterial chemotaxis, and stochastic neural networks.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">133001</subfield>
+  <subfield code="v">A50</subfield>
+  <subfield code="n">13</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1751-8121/aa5db4</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">136</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-28</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Review</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Bressloff, Paul C.</subfield>
+  <subfield code="v">Department of Mathematics - U. of Utah - 155 South 1400 East - Salt Lake City - UT 84112 - United States of America</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Transcription: synthesis of a messenger RNA molecule (mRNA) with a nucleotide sequence complementary to the DNA strand from which it is copied—this serves as the template for protein synthesis. Transcription is mediated by a molecular machine known as RNA polymerase. In the case of eukaryotes, transcription takes place in the cell nucleus, whereas subsequent protein synthesis takes place in the cytoplasm, which means that the mRNA has to be exported from the nucleus as an intermediate step. (Prokaryotes such as bacteria do not have a cell nucleus.) The key steps in transcription are binding of RNA polymerase (P) to the relevant promoter region of DNA (D) to form a closed complex (PDc), the unzipping of the two strands of DNA to form an open complex (PDo), and finally promoter escape, when RNA polymerase reads one of the exposed strands. These steps can be represented by the reaction scheme \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;P+D\underset{{{k}_{+}}}{\overset{{{k}_{-}}}{{\rightleftharpoons}}}\,P{{D}_{c}}\overset{{{k}_{\text{open}}}}{{\longrightarrow }}\,P{{D}_{0}}\overset{{{k}_{\text{escape}}}}{{\longrightarrow }}\,\,\text{transcription}.\end{eqnarray} \end{align*} \end{equation*} The binding and unbinding of polymerase is very fast, {{k}_{\pm }}\gg {{k}_{\text{open}}} so that the first step happens many times before formation of an open complex. Hence, one can treat the RNA polymerase as in quasi-equilibrium with the promoter characterized by an equilibrium constant {{K}_{P}}={{k}_{+}}/{{k}_{-}}. The rate of transcription will thus be proportional to the fraction of bound RNA polymerase, {{k}_{+}}/\left({{k}_{+}}+{{k}_{-}}\right)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Translation: synthesis of a protein from mRNA. Translation is mediated by a macromolecule known as a ribosome, which produces a string of amino acids (polypeptide chains), each specified by a codon (represented by three letters) on the mRNA molecule. Since there are four nucleotides (A, U, C, G), there are 64 distinct codons, e.g. AUG, CGG, most of which code for a single amino acid. The process of translation consists of ribosomes moving along the mRNA without backtracking (from one end to the other, technically known as the 5&apos; end to the 3&apos; end) and is conceptually divided into three major stages (as is transcription): initiation, elongation and termination. Each elongation step invokes translating or &apos;reading&apos; of a codon and the binding of a freely diffusing transfer RNA (tRNA) molecule that carries the specific amino acid corresponding to that codon. Once the chain of amino acids has been generated a number of further processes occur in order to generate a correctly folded protein. (Note that there are also non-protein coding genes such as small nuclear RNA (snRNA) whose products are functional RNA.)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) \mathbf{K} has non-negative entries, {{K}_{nm}}\geqslant 0</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) {\sum}_{n}{{K}_{nm}}=1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) {{p}^{\ast}}(n)\geqslant 0~\text{for}~\text{all}~n,\quad {\sum}_{n}{{p}^{\ast}}(n)=1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) {{p}^{\ast}}(n)={\sum}_{m}{{K}_{nm}}{{p}^{\ast}}(m) for all n</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) {{\lambda}_{1}}=1 is an eigenvalue of \mathbf{K}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) the d complex roots of unity, {{\lambda}_{k}}={{\text{e}}^{2\pi \text{i}k/d}} for k=0,1,\ldots,d-1, are eigenvalues of \mathbf{K}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) the remaining eigenvalues {{\lambda}_{d+1}},\ldots,{{\lambda}_{N}} satisfy |{{\lambda}_{j}}|&lt;1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) {{\mathbf{K}}_{0}}=\mathbf{I}, the identity matrix</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) {{\mathbf{K}}_{t}} is stochastic, that is, it has non-negative entries and each column sums to unity, that is, {\sum}_{n}{{K}_{nm}}(t)=1 for all t\geqslant 0 and m</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) the Chapman-Kolmogorov equation \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\mathbf{K}}_{s+t}}={{\mathbf{K}}_{s}}{{\mathbf{K}}_{t}}~\text{if}~s,t\geqslant 0.\end{eqnarray} \end{align*} \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) The chain is in the same state at time t+ \Delta t with probability {{K}_{mm}}(\Delta t)+o(\Delta t)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) The chain jumps to a new state n with probability {{K}_{nm}}(\Delta t)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) If there exists a stationary distribution {{\mathbf{p}}^{\ast}} then it is unique and \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;P(n,t)\to {{p}^{\ast}}(n)~\text{as}~t\to \infty \end{eqnarray} \end{align*} \end{equation*} for all n</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) If there is no stationary distribution then P(n,t)\to 0 as t\to \infty for all n</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) N(0) = 0</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) N(t)\in \left\{0,1,2,\ldots \right\}\,~\text{for}~\text{all}~\,t\geqslant 0</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) for 0\leqslant s&lt;t, N(t) - N(s) is the number of events in the interval (s, t]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) N(0) = 0</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) N(t) has independent, stationary increments</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) the number n of arrivals in any interval of length τ has the Poisson distribution \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{P}_{n}}(\tau )=\frac{{{(\lambda \tau )}^{n}}}{n!}{{\text{e}}^{-\lambda \tau}}.\end{eqnarray} \end{align*} \tag{ 2.6 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Initialize the time t = t0 and the chemical state \mathbf{x}={{\mathbf{x}}_{0}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Given the state \mathbf{x} at time t, determine the {{f}_{a}}\left(\mathbf{x}\right) for a=1,\ldots,R and their sums F\left(\mathbf{x}\right)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Generate values for \tau and a using equations (, 2.29a: #aaa5db4eqn091) and (, 2.29b: #aaa5db4eqn092)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) Implement the next reaction by setting t\to {{t}^{\prime}}=t+\tau and {{x}_{j}}\to x_{j}^{\prime}={{x}_{j}}+{{S}_{ja}}/ \Omega</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(v) Return to step 2 with \left(\mathbf{x},t\right) replaced by \left({{\mathbf{x}}^{\prime}},{{t}^{\prime}}\right), or else stop</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Decompose the probability density as</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\rho}_{n}}(x,t)=C(x,t)\rho _{n}^{\ast}(x)+\varepsilon {{w}_{n}}(x,t),\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where {\sum}_{n}{{\rho}_{n}}(x,t)=C(x,t) and {\sum}_{n}{{w}_{n}}(x,t)=0. Substituting into (, 2.36: #aaa5db4eqn107) yields</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} \rho _{n}^{\ast}(x)\frac{\partial C}{\partial t}+\varepsilon \frac{\partial {{w}_{n}}}{\partial t} &amp; =-\frac{\partial {{F}_{n}}(x)\left[C\rho _{n}^{\ast}(x)+\varepsilon {{w}_{n}}\right]}{\partial x}+\frac{1}{\varepsilon}\underset{m\in \Gamma }{\sum}\,{{A}_{nm}}(x)\left[C\rho _{m}^{\ast}(x)+\varepsilon {{w}_{m}}\right] \end{array}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} Summing both sides with respect to n then gives</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\frac{\partial C}{\partial t}=-\frac{\partial \bar{F}(x)C}{\partial x}-\varepsilon \underset{n\in \Gamma }{\sum}\,\frac{\partial {{F}_{n}}(x){{w}_{n}}}{\partial x}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.51 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Using the equation for C and the fact that \mathbf{A}{{\rho}^{\ast}}=0, we have \begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} \varepsilon \frac{\partial {{w}_{n}}}{\partial t} &amp; =\underset{m\in \Gamma }{\sum}\,{{A}_{nm}}(x){{w}_{m}}-\frac{\partial \left[{{F}_{n}}(x)\rho _{n}^{\ast}(x)C\right]}{\partial x}+\rho _{n}^{\ast}(x)\frac{\partial \bar{F}(x)C}{\partial x} \\ {} &amp; \quad -\varepsilon \underset{m\in \Gamma }{\sum}\,\left[{{\delta}_{m,n}}-\rho _{n}^{\ast}(x)\right]\frac{\partial {{F}_{m}}(x){{w}_{m}}}{\partial x}. \end{array}\end{eqnarray} \end{align*} \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Introduce the asymptotic expansion</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\mathbf{w}\sim {{\mathbf{w}}^{(0)}}+\varepsilon {{\mathbf{w}}^{(1)}}+{{\varepsilon}^{2}}{{\mathbf{w}}^{(2)}}+\ldots \end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">and collect O(1) terms:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\underset{m\in \Gamma }{\sum}\,{{A}_{nm}}(x)w_{m}^{(0)}=\frac{\partial \left[{{F}_{n}}(x)\rho _{n}^{\ast}(x)C(x,t)\right]}{\partial x}-\rho _{n}^{\ast}(x)\frac{\partial \bar{F}(x)C}{\partial x}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.52 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} The Fredholm alternative theorem show that this has a solution, which is unique on imposing the condition {\sum}_{n}w_{n}^{(0)}(x,t)=0</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) Combining equations (, 2.52: #aaa5db4eqn137) and (, 2.51: #aaa5db4eqn134) shows that C evolves according to the FP equation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\frac{\partial C}{\partial t}=-\frac{\partial}{\partial x}\left(\bar{F}(x)C\right)+\varepsilon \frac{\partial}{\partial x}\left(D(x)\frac{\partial C}{\partial x}\right)\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.53 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">with the diffusion coefficient D(x) given by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\begin{array}{*{35}{l}} D(x)=\underset{n\in \Gamma }{\sum}\,{{Z}_{n}}(x){{F}_{n}}(x), \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.54 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where Zn(x) is the unique solution to</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\underset{m\in \Gamma }{\sum}\,{{A}_{nm}}(x){{Z}_{m}}(x)=\left[\bar{F}(x)-{{F}_{n}}(x)\right]\rho _{n}^{\ast}(x).\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.55 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">with {\sum}_{m}{{Z}_{m}}(x)=0. We have dropped O(\varepsilon ) corrections to the drift term. For N0 &gt; 2 one typically has to solve equation (, 2.55: #aaa5db4eqn140) numerically in order to find the pseudo-inverse of \mathbf{A}. However, in the special case of a two-state discrete process (n = 0, 1), with</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\mathbf{A}(x)=\left(\begin{array}{c} -\alpha (x) &amp; \beta (x) \\ \alpha (x) &amp; -\beta (x) \end{array}\right),\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">one has the explicit solution</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;D(x)=\frac{\beta (x)\left[{{F}_{0}}(x)-\bar{F}(x)\right]{{F}_{0}}(x)+\alpha (x)\left[{{F}_{1}}(x)-\bar{F}(x)\right]{{F}_{1}}(x)}{2{{\left[\alpha (x)+\beta (x)\right]}^{2}}}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.56 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} At a fixed point x* of the deterministic equation \overset{\centerdot}{{x}}\,=\bar{F}(x), we have \bar{F}(x)=0 and \beta \left({{x}_{\ast}}\right){{F}_{0}}\left({{x}_{\ast}}\right)=-\alpha \left({{x}_{\ast}}\right){{F}_{1}}\left({{x}_{\ast}}\right). Hence, we have the reduced expression</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;D\left({{x}_{\ast}}\right)=\frac{|{{F}_{0}}\left({{x}_{\ast}}\right){{F}_{1}}\left({{x}_{\ast}}\right)|}{\alpha \left({{x}_{\ast}}\right)+\beta \left({{x}_{\ast}}\right)}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2.57 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} This result will be used in our study of metastability in simple gene networks (see section, 5: #aaa5db4s5)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) The first is intrinsic switching within a cell that is driven by fluctuations in the binding and unbinding of a transcription factor Y [, 147: #aaa5db4bib147,, 151: #aaa5db4bib151,, 258: #aaa5db4bib258]. The dynamics of Y is assumed to be independent of protein X, that is, there is no feedback. Each copy of the gene within a cell or across a population of cells switches independently. Since the rate of activation k+ will be proportional to the concentration c of Y in the nucleus, this simple network can be viewed as an input/output device that converts the input signal c to an output signal given by the concentration x of protein if X is a green fluorescent protein then the output response can be measured</subfield>
+  <subfield code="h">X. Moreover</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) The second is extrinsic switching driven by a randomly switching environment [, 228: #aaa5db4bib228]. Whether or not a promoter site is occupied now depends on the state n(t) of the environment, and will be common to all cells evolving in the same environment. The discrete environmental states could represent the presence of some extracellular metabolite or signaling molecule, perhaps arising from changes in the physiological or hormonal state that a cell experiences in a multicellular organism. For concreteness, we will assume that each cell carries a single copy of the gene of interest. However, one could equally well have multiple copies of the gene in each cell, and a combination of intrinsic and extrinsic switching</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) The Dogterom-Leibler model of microtubule catastrophes [, 76: #aaa5db4bib076]. Here x represents the length of a microtubule and the +-state (--state) represents a recovery phase with growth rate v (a catastrophe phase with shrinkage rate v)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) A model of bidirectional intracellular motor transport along a microtubule [, 44: #aaa5db4bib044,, 188: #aaa5db4bib188,, 189: #aaa5db4bib189]. Here x represents the position of a motor along the filament, and the motor can exist in two motile states with velocities ±v, corresponding to anterograde and retrograde transport respectively. (There could also be a third, non-motile or pausing state.) As with bacterial chemotaxis, there are higher-dimensional versions of bidirectional transport in which motors walk along along 2D and 3D cytoskeletal networks</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) The previous example is a molecular version of a more general type of switching process known as a random intermittent search [, 28: #aaa5db4bib028-, 30: #aaa5db4bib030,, 198: #aaa5db4bib198], in which a particle randomly switches between a slow search phase and a faster non-search phase. There is evidence that such a search strategy is used throughout nature as a means of efficiently searching for one or more targets of unknown location. Examples include animals foraging for food or shelter [, 26: #aaa5db4bib026], transcription factor proteins searching for particular sites on DNA [, 33: #aaa5db4bib033,, 123: #aaa5db4bib123] (see section, 3.6: #aaa5db4s3-6), and biochemical reaction kinetics [, 170: #aaa5db4bib170]. Theoretical calculations of the mean first passage time to find a hidden target establishes the relative efficiency of the random search process. At the molecular level, the random switching between different motile states can increase the efficiency of biochemical reactions</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">There are some obvious parallels with neuroscience [, 161: #aaa5db4bib161,, 232: #aaa5db4bib232], since individual neurons can act as binary switches, exhibit various forms of bursting [, 64: #aaa5db4bib064], and contribute to stochastic dynamics at the population level [, 41: #aaa5db4bib041,, 42: #aaa5db4bib042,, 57: #aaa5db4bib057,, 58: #aaa5db4bib058]. There is also a distinction between intrinsic noise (driven mainly by the stochastic opening and closing of ion channels) and extrinsic noise (synaptic inputs from other neurons). However, since including such topics would double the length of the review, we have decided to focus on genetic-based switching. Nevertheless, we touch on some of the connections with other areas of biology in section, 8: #aaa5db4s8</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Probabilists usually write the transition matrix in the adjoint form, that is, {{K}_{mn}}=\mathbb{P}\left[{{X}_{l+1}}=n|{{X}_{l}}=m\right]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Note that probabilists define the generator in terms of the adjoint operator -{{\mathbf{A}}^{\dagger}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">The application of generating functions to determine the probability distribution of more complicated gene networks has been developed by Swain and collaborators [, 205: #aaa5db4bib205,, 225: #aaa5db4bib225]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">In the case of eukaryotic cells one also has to consider the time taken for a newly synthesized transcription factor to be transported back into the nucleus. This process is thought to be an important factor in the clock gene underlying circadian rhythms [, 116: #aaa5db4bib116]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">Consider an M-dimensional linear inhomogeneous system \mathbf{Ax}=\mathbf{b} with \mathbf{x},\mathbf{b}\in {{\mathbb{R}}^{M}}. Suppose that the M\times M matrix \mathbf{A} has a nontrivial null-space and let \mathbf{v} be a null vector of the adjoint matrix {{\mathbf{A}}^{\dagger}}, that is, {{\mathbf{A}}^{\dagger}}\mathbf{v}=0. The Fredholm alternative theorem states that the inhomogeneous equation has a (non-unique) solution if and only if \mathbf{v}\centerdot \mathbf{b}=0 for all null vectors \mathbf{v}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">It is important to note that the assumption of large system size (n,m\gg 1) implicit in the WKB analysis breaks down around x = y = 0. This means that one has to introduce a boundary layer of width ~1/N around the origin. However, since this yields a subleading contribution in N -1 to the mean extinction time [, 18: #aaa5db4bib018], it can be ignored (see also [, 129: #aaa5db4bib129])</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Acar M, Mettetal J T and van Oudenaarden A</subfield>
+  <subfield code="m">Stochastic switching as a survival strategy in fluctuating environments Nat. Gen. 40 471-5, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/ng.110</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Alon U</subfield>
+  <subfield code="m">An Introduction to Systems Biology: Design Principles of Biological Circuits (London: Chapman and Hall)</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Alt W</subfield>
+  <subfield code="m">Biased random walk model for chemotaxis and related diffusion approximation Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,9,147-77</subfield>
+  <subfield code="a">doi:10.1007/BF00275919</subfield>
+  <subfield code="y">1980</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Anderson D F</subfield>
+  <subfield code="m">A modified next reaction method for simulating chemical systems with time dependent propensities and delays Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,127,214107</subfield>
+  <subfield code="a">doi:10.1063/1.2799998</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Anderson D F Craciun</subfield>
+  <subfield code="m">G and Kurtz T G 2010 Product-form stationary distributions for deficiency zero chemical reaction networks Crossref:</subfield>
+  <subfield code="s">Bull.Math.Biol.,72,70</subfield>
+  <subfield code="a">doi:10.1007/s11538-010-9517-4</subfield>
+  <subfield code="y">1947</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Anderson D F and Shiu A</subfield>
+  <subfield code="m">The dynamics of weakly reversible population processes near facets Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,70,1840-58</subfield>
+  <subfield code="a">doi:10.1137/090764098</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Anderson D F and Kurtz T G</subfield>
+  <subfield code="m">Continuous time Markov chain models for chemical reaction networks Design and Analysis of Biomolecular Circuits (Berlin: pp 3-42</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Anderson D F and Higham D J</subfield>
+  <subfield code="m">Multilevel Monte Carlo for continuous time Markov chains, with applications in biochemical kinetics Multiscale Model. Simul. 10 146-79, Crossref:</subfield>
+  <subfield code="a">doi:10.1137/110840546</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Anderson D F, Higham D J and Sun Y</subfield>
+  <subfield code="m">Complexity of multilevel Monte Carlo tau-leaping Crossref:</subfield>
+  <subfield code="s">SIAM J.Numer.Anal.,52,3106-27</subfield>
+  <subfield code="a">doi:10.1137/130940761</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Andrews S S and Bray D</subfield>
+  <subfield code="m">Stochastic simulation of chemical reactions with spatial resolution and single molecule detail Phys. Biol. 1 137-51, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3967/1/3/001</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Anetzberger C, Pirch T and Jung K</subfield>
+  <subfield code="m">Heterogeneity in quorum sensing- regulated bioluminescence in Vibrio harveyi Crossref:</subfield>
+  <subfield code="s">Mol.Microbiol.,73,267-77</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2958.2009.06768.x</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Angeli D, De Leenheer P and Sontag E D</subfield>
+  <subfield code="m">A petri net approach to the study of persistence in chemical reaction networks Crossref:</subfield>
+  <subfield code="s">Math.Biosci.,210,598-618</subfield>
+  <subfield code="a">doi:10.1016/j.mbs.2007.07.003</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Anguige K, King J R and Ward J P</subfield>
+  <subfield code="m">A multi-phase mathematical model of quorum-sensing in a maturing Pseudomonas aeruginosa biofilm Crossref:</subfield>
+  <subfield code="s">Math.Biosci.,203,240-76</subfield>
+  <subfield code="a">doi:10.1016/j.mbs.2006.05.009</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Arkin A, Ross J and McAdams H H</subfield>
+  <subfield code="m">Stochastic kinetic analysis of developmental pathway bifurcation in phage infected escherichia coli cells Genetics 149 1633-48</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Assaf M and Meerson B</subfield>
+  <subfield code="m">Spectral theory of metastability and extinction in birth-death systems Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,97,200602</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.97.200602</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Assaf M, Kamenev A and Meerson B</subfield>
+  <subfield code="m">Population extinction in a time-modulated environment Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E78,041123</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.78.041123</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Assaf M, Kamenev A and Meerson B</subfield>
+  <subfield code="m">Population extinction risk in the aftermath of a catastrophic event Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E79,011127</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.79.011127</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Assaf M and Meerson B</subfield>
+  <subfield code="m">Extinction of metastable stochastic populations Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E81,021116</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.81.021116</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Assaf M, Roberts E, Shulten Z L and Goldenfeld N</subfield>
+  <subfield code="m">Extrinsic noise driven phenotype switching in a self-regulating gene</subfield>
+  <subfield code="s">Phys.Rev.,E111,058102</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Assaf M, Mobilia M and Roberts E</subfield>
+  <subfield code="m">Cooperation dilemm in finite populations under fluctuating environments</subfield>
+  <subfield code="s">Phys.Rev.,E111,238101</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Aurell E and Sneppen K</subfield>
+  <subfield code="m">Epigenetics as a first exit problem Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,88,048101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.88.048101</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Aurell E and Sneppen K</subfield>
+  <subfield code="m">Stability puzzles in phage λ Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E65,051914</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.65.051914</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Bacaer N</subfield>
+  <subfield code="m">On the stochastic SIS epidemic model in a periodic environment Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,71,491-511</subfield>
+  <subfield code="a">doi:10.1007/s00285-014-0828-1</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Balaban N Q, Merrin J, Chait R, Kowalik L and Leibler S</subfield>
+  <subfield code="m">Bacterial persistence as a phenotypic switch</subfield>
+  <subfield code="s">Science,205,1578-9</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Balakrishnan V and Chaturvedi S</subfield>
+  <subfield code="m">Persistent diffusion on a line Crossref:</subfield>
+  <subfield code="s">Physica,A148,581</subfield>
+  <subfield code="a">doi:10.1016/0378-4371(88)90089-1</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Bell J W</subfield>
+  <subfield code="m">Searching Behavior, the Behavioral Ecology of Finding Resources (London: Chapman and Hall)</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Bena I</subfield>
+  <subfield code="m">Dichotomous Markov noise: exact results for out-of-equilibrium systems Crossref:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,B20,2825</subfield>
+  <subfield code="a">doi:10.1142/S0217979206034881</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Benichou O, Coppey M, Moreau M, Suet P and Voituriez R</subfield>
+  <subfield code="m">A stochastic model for intermittent search strategies Crossref:</subfield>
+  <subfield code="s">J.Phys.Condens.Matter,17,S4275-86</subfield>
+  <subfield code="a">doi:10.1088/0953-8984/17/49/020</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Benichou O, Loverdo C, Moreau M and Voituriez R</subfield>
+  <subfield code="m">A minimal model of intermittent search in dimension two J. Phys. A: Math. Theor. 19 065141</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Benichou O, Loverdo C, Moreau M and Voituriez R</subfield>
+  <subfield code="m">Intermittent search strategies Crossref:</subfield>
+  <subfield code="s">Rev.Mod.Phys.,83,81</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.83.81</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Berg H C and Purcell E M</subfield>
+  <subfield code="m">Physics of chemoreception Crossref:</subfield>
+  <subfield code="s">Biophys.J.,20,93-219</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(77)85544-6</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Berg O G</subfield>
+  <subfield code="m">A model for the statistical fluctuations of protein numbers in a microbial population Crossref:</subfield>
+  <subfield code="s">J.Theor.Biol.,4,587-603</subfield>
+  <subfield code="a">doi:10.1016/0022-5193(78)90326-0</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Berg O G, Winter R B and von Hippel P H</subfield>
+  <subfield code="m">Diffusion-driven mechanisms of protein translocation on nucleic acids. 1. Models and theory Crossref:</subfield>
+  <subfield code="s">Biochem.,20,6929-48</subfield>
+  <subfield code="a">doi:10.1021/bi00527a028</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Berg O G, Paulsson J and Ehrenberg M</subfield>
+  <subfield code="m">Fluctuations and quality of control in biological cells: zero-order ultrasensitivity reinvestigated Crossref:</subfield>
+  <subfield code="s">Biophys.J.,79,1228-36</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(00)76377-6</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Berglund N</subfield>
+  <subfield code="m">Kramers’ law: validity, derivations and generalizations Markov Process. Relat. Fields 19 459-90</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Berger S L</subfield>
+  <subfield code="m">The complex language of chromatin regulation during transcription Crossref:</subfield>
+  <subfield code="s">Nature,447,407-12</subfield>
+  <subfield code="a">doi:10.1038/nature05915</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Bhalla U S</subfield>
+  <subfield code="m">Signaling in small subcellular volumes. I. Stochastic and diffusion effects on individual pathways Crossref:</subfield>
+  <subfield code="s">Biophys.J.,87,733-44</subfield>
+  <subfield code="a">doi:10.1529/biophysj.104.040469</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Bhatt D, Zhang B W and Zuckerman D M</subfield>
+  <subfield code="m">Steady state via weighted ensemble path sampling Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,133,014110</subfield>
+  <subfield code="a">doi:10.1063/1.3456985</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Bialek W</subfield>
+  <subfield code="m">Biophysics (Princeton, NJ: Princeton University Press)</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Bolhius P G, Chandler D, Dellago C and Geissler P L</subfield>
+  <subfield code="m">Transition path sampling: throwing ropes over rough mountain passes, in the dark Crossref:</subfield>
+  <subfield code="s">Ann.Rev.Phys.Chem.,53,291-318</subfield>
+  <subfield code="a">doi:10.1146/annurev.physchem.53.082301.113146</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Bressloff P C</subfield>
+  <subfield code="m">Stochastic neural field theory and the system-size expansion Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,70,1488-521</subfield>
+  <subfield code="a">doi:10.1137/090756971</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Bressloff P C</subfield>
+  <subfield code="m">Metastable states and quasicycles in a stochastic Wilson-Cowan model of neuronal population dynamics</subfield>
+  <subfield code="s">Phys.Rev.,E85,051903</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Bressloff P C and Newby J M</subfield>
+  <subfield code="m">Metastability in a stochastic neural network modeled as a velocity jump Markov process Appl. Dyn. Syst. 12 1394-435, Crossref:</subfield>
+  <subfield code="p">SIAM</subfield>
+  <subfield code="a">doi:10.1137/120898978</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Bressloff P C and Newby J M</subfield>
+  <subfield code="m">Stochastic models of intracellular transport Crossref:</subfield>
+  <subfield code="s">Rev.Mod.Phys.,85,135-96</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.85.135</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Bressloff P C</subfield>
+  <subfield code="m">Stochastic Processes in Cell Biology (Berlin:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Bressloff P C and Newby J M</subfield>
+  <subfield code="m">Path-integrals and large-deviations in stochastic hybrid systems Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E89,042701</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.89.042701</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Bressloff P C and Newby J M</subfield>
+  <subfield code="m">Stochastic hybrid model of spontaneous dendritic NMDA spikes Phys. Biol. 11 016006, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3975/11/1/016006</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Bressloff P C and Faugeras O</subfield>
+  <subfield code="m">On the Hamiltonian structure of large deviations in stochastic hybrid systems Preprint:</subfield>
+  <subfield code="r">arXiv:1410.2152</subfield>
+  <subfield code="r">arXiv:1410.2152</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Bressloff P C</subfield>
+  <subfield code="m">Path-integral methods for analyzing the effects of fluctuations in stochastic hybrid neural networks J. Math Neurosci. 5 33p, Crossref:</subfield>
+  <subfield code="a">doi:10.1186/s13408-014-0016-z</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">Bressloff P C and Lawley S D</subfield>
+  <subfield code="m">Moment equations for a piecewise deterministic PDE J Phys. A: Math. Theor. 48 105001, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/48/10/105001</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Bressloff P C and Lawley S D</subfield>
+  <subfield code="m">Escape from a potential well with a randomly switching boundary J. Phys. A: Math. Theor. 48 225001, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/48/22/225001</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">Bressloff P C and Lawley S D</subfield>
+  <subfield code="m">Escape from subcellular domains with randomly switching boundaries Multiscale Model. Simul. 13 1420-45, Crossref:</subfield>
+  <subfield code="a">doi:10.1137/15M1019258</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="h">Bressloff P C and Lawley S D</subfield>
+  <subfield code="m">Stochastically-gated diffusion-limited reactions for a small target in a bounded domain Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E92,062117</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.92.062117</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="h">Bressloff P C and Lawley S D</subfield>
+  <subfield code="m">Diffusion on a tree with stochastically-gated nodes J. Phys. A: Math. Theor. 49 245601, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/49/24/245601</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="h">Bressloff P C</subfield>
+  <subfield code="m">Ultrasensitivity and noise amplification in a model of V. harveyi quorum sensing Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E93,062418</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.93.062418</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="h">Brophy J A N and Voight C A</subfield>
+  <subfield code="m">Principles of genetic circuit design Nat. Methods 11 508-20, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nmeth.2926</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">Buice M and Cowan J D</subfield>
+  <subfield code="m">Field-theoretic approach to fluctuation effects in neural networks Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E75,051919</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.75.051919</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">Buice M, Cowan J D and Chow C C</subfield>
+  <subfield code="m">Systematic fluctuation expansion for neural network activity equations Neural Comp. 22 377-426, Crossref:</subfield>
+  <subfield code="a">doi:10.1162/neco.2009.02-09-960</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">Cai L, Friedman N and Xies X S</subfield>
+  <subfield code="m">Stochastic protein expression in individual cells at the single molecule level Crossref:</subfield>
+  <subfield code="s">Nature,440,358-62</subfield>
+  <subfield code="a">doi:10.1038/nature04599</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">Cao Y, Gillespie D T and Petzold L R</subfield>
+  <subfield code="m">Efficient step size selection for the tau-leaping simulation method Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,124,044109</subfield>
+  <subfield code="a">doi:10.1063/1.2159468</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">Chan H B, Dykman M I and Stambaugh C</subfield>
+  <subfield code="m">Switching-path distribution in multidimensional systems Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E78,051109</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.78.051109</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">Chiang W Y</subfield>
+  <subfield code="m">Li Y X and Lai P YSimple models for quorum sensing: nonlinear dynamical analysis Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E84,041921</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.84.041921</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">Chow C C and White J A</subfield>
+  <subfield code="m">Spontaneous action potentials due to channel fluctuations Crossref:</subfield>
+  <subfield code="s">Biophys.J.,71,3013-21</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(96)79494-8</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">Coombes S and Bressloff P C (ed</subfield>
+  <subfield code="m">Bursting: the Genesis of Rhythm in the Nervous System (Singapore:</subfield>
+  <subfield code="p">World Scientific</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="h">Coppey M, Benichou O, Voituriez R and Moreau M</subfield>
+  <subfield code="m">Kinetics of target site localization of a protein DNA: a stochastic approach Crossref:</subfield>
+  <subfield code="s">Biophys.J.,87,1640-9</subfield>
+  <subfield code="a">doi:10.1529/biophysj.104.045773</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">Couzin I D</subfield>
+  <subfield code="m">Collective cognition in animal groups Trends. Cogn Crossref:</subfield>
+  <subfield code="s">Science,13,36-43</subfield>
+  <subfield code="a">doi:10.1016/j.tics.2008.10.002</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="h">Craciun G and Feinberg M</subfield>
+  <subfield code="m">Multiple equilibria in complex chemical reaction networks: I. The injectivity property Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,65,1526-46</subfield>
+  <subfield code="a">doi:10.1137/S0036139904440278</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="h">Craciun G and Feinberg M</subfield>
+  <subfield code="m">Multiple equilibria in complex chemical reaction networks: II. The species-reactions graph Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,66,1321-38</subfield>
+  <subfield code="a">doi:10.1137/050634177</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="h">Crick F</subfield>
+  <subfield code="m">The central dogma of molecular biology Crossref:</subfield>
+  <subfield code="s">Nature,227,561-3</subfield>
+  <subfield code="a">doi:10.1038/227561a0</subfield>
+  <subfield code="y">1970</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">Davis M H A</subfield>
+  <subfield code="m">Piecewise-deterministic Markov processes: a general class of non-diffusion stochastic models J. R. Soc B 46 353-88</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">Davies D G, Parsek M R, Pearson J P, Iglewski B H, Costerton J W and Greenberg E P</subfield>
+  <subfield code="m">The involvement of cell-to-cell signals in the development of bacterial biofilm Crossref:</subfield>
+  <subfield code="s">Science,280,295-8</subfield>
+  <subfield code="a">doi:10.1126/science.280.5361.295</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="h">Dembo A and Zeitouni O</subfield>
+  <subfield code="m">Large Deviations Techniques and Applications (Applications of Mathematics vol 38) (Berlin:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">Dickinson R B and Tranquillo R T</subfield>
+  <subfield code="m">Transport equations and indices for random and biased cell migration based on single cell properties Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,55,1419-54</subfield>
+  <subfield code="a">doi:10.1137/S003613999223733X</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">Dickson A, Warmflash A and Dinner A R</subfield>
+  <subfield code="m">Separating forward and backward pathways in nonequilibrium umbrella sampling Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,130,074104</subfield>
+  <subfield code="a">doi:10.1063/1.3070677</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="h">Dockery J D and Keener J P</subfield>
+  <subfield code="m">A mathematical model for quorum-sensing in Pseudomonas aeruginosa Crossref:</subfield>
+  <subfield code="s">Bull.Math.Biol.,63,95-116</subfield>
+  <subfield code="a">doi:10.1006/bulm.2000.0205</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">Dogterom M and Leibler S</subfield>
+  <subfield code="m">Physical aspects of the growth and regulation of microtubule structures Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,70,1347-50</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.70.1347</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="h">Doi M</subfield>
+  <subfield code="m">Second quantization representation for classical many-particle systems Crossref:</subfield>
+  <subfield code="s">J.Phys.,A9,1465-77</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/9/9/008</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">Doi M</subfield>
+  <subfield code="m">Stochastic theory of diffusion controlled reactions Crossref:</subfield>
+  <subfield code="s">J.Phys.,A9,1479-95</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/9/9/009</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">Donovan R M, Sedgewick A J, Faeder J R and Zuckerman D M</subfield>
+  <subfield code="m">Efficient stochastic simulation of chemical kinetic networks using a weighted ensemble of trajectories Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,129,115105</subfield>
+  <subfield code="a">doi:10.1063/1.4821167</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="h">Dunlap P V</subfield>
+  <subfield code="m">Quorum regulation of luminescence in Vibrio fischeri J. Mol Microbiol. Biotechnol. 1 5-12</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">81</subfield>
+  <subfield code="h">Dykman M I, Mori E, Ross J and Hunt P M</subfield>
+  <subfield code="m">Large fluctuations and optimal paths in chemical kinetics</subfield>
+  <subfield code="s">J.Chem.Phys.,A100,5735-50</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">82</subfield>
+  <subfield code="h">Dykman M I, Schwartz I B and Landsman A S</subfield>
+  <subfield code="m">Disease extinction in the presence of random vaccination Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,101,078101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.101.078101</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">83</subfield>
+  <subfield code="h">Elf J and Ehrenberg M</subfield>
+  <subfield code="m">Fast evaluation of fluctuations in biochemical networks with the linear noise approximation Genome Res. 13 2475-84, Crossref:</subfield>
+  <subfield code="a">doi:10.1101/gr.1196503</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">84</subfield>
+  <subfield code="h">Elf J and Ehrenberg M</subfield>
+  <subfield code="m">Spontaneous separation of bi-stable biochemical systems into spatial domains of opposite phases Syst. Biol. 1 230-6, Crossref:</subfield>
+  <subfield code="a">doi:10.1049/sb:20045021</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">85</subfield>
+  <subfield code="h">Elgart V and Kamenev A</subfield>
+  <subfield code="m">Rare event statistics in reaction-diffusion systems Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E70,041106</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.70.041106</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">86</subfield>
+  <subfield code="h">Elowitz M B, Levine A J, Siggia E D and Swain P S</subfield>
+  <subfield code="m">Stochastic gene expression in a single cell Crossref:</subfield>
+  <subfield code="s">Science,297,1183-6</subfield>
+  <subfield code="a">doi:10.1126/science.1070919</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">87</subfield>
+  <subfield code="h">Erban R and Othmer H</subfield>
+  <subfield code="m">From individual to collective behavior in bacterial chemotaxis Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,65,361-91</subfield>
+  <subfield code="a">doi:10.1137/S0036139903433232</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">88</subfield>
+  <subfield code="h">Erban R and Chapman J</subfield>
+  <subfield code="m">Stochastic modelling of reaction-diffusion processes: algorithms for bimolecular reactions Phys. Biol. 6 046001, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3975/6/4/046001</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">89</subfield>
+  <subfield code="h">Escudero C and Rodriguez J A</subfield>
+  <subfield code="m">Persistence of instanton connections in chemical reactions with time-dependent rates Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E77,011130</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.77.011130</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">90</subfield>
+  <subfield code="h">Escudero C and Kamanev A</subfield>
+  <subfield code="m">Switching rates of multistep reactions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E79,041149</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.79.041149</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">91</subfield>
+  <subfield code="h">Faggionato A, Gabrielli D and Crivellari M R</subfield>
+  <subfield code="m">Non-equilibrium thermodynamics of piecewise deterministic Markov Processes Crossref:</subfield>
+  <subfield code="s">J.Statist.Phys.,137,259-304</subfield>
+  <subfield code="a">doi:10.1007/s10955-009-9850-x</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">92</subfield>
+  <subfield code="h">Faggionato A, Gabrielli D and Crivellari M R</subfield>
+  <subfield code="m">Averaging and large deviation principles for fully-coupled piecewise deterministic Markov processes and applications to molecular motors Markov Process. Relat. Fields 16 497-548</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">93</subfield>
+  <subfield code="h">Feinberg M</subfield>
+  <subfield code="m">Complex balancing in general kinetic systems Crossref:</subfield>
+  <subfield code="s">Arch.Ration.Mech.Anal.,49,187-94</subfield>
+  <subfield code="a">doi:10.1007/BF00255665</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">94</subfield>
+  <subfield code="h">Feinberg M</subfield>
+  <subfield code="m">Lectures on Chemical Reaction Networks (available at, www.che.eng.ohio-state.edu/?feinberg/LecturesOnReactionNetworks:</subfield>
+  <subfield code="u">http://www.che.eng.ohio-state.edu/?feinberg/LecturesOnReactionNetworks</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">95</subfield>
+  <subfield code="h">Feinberg M</subfield>
+  <subfield code="m">Chemical reaction network structure and the stability of complex isothermal reactors—I. The deficiency zero and deficiency one theorems Crossref:</subfield>
+  <subfield code="s">Chem.Eng.Sci.,42,2229-68</subfield>
+  <subfield code="a">doi:10.1016/0009-2509(87)80099-4</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">96</subfield>
+  <subfield code="h">Feng J and Kurtz T G</subfield>
+  <subfield code="m">Large Deviations for Stochastic Processes (Providence, RI: American Mathematical Society)</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">97</subfield>
+  <subfield code="h">Fox R F</subfield>
+  <subfield code="m">and Lu Y NEmergent collective behavior in large numbers of globally coupled independent stochastic ion channels Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E49,3421-31</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.49.3421</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">98</subfield>
+  <subfield code="h">Freidlin M I and Wentzell A D</subfield>
+  <subfield code="m">Random Perturbations of Dynamical Systems (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">99</subfield>
+  <subfield code="h">Friedman A and Craciun G</subfield>
+  <subfield code="m">A model of intracellular transport of particles in an axon Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,51,217-46</subfield>
+  <subfield code="a">doi:10.1007/s00285-004-0285-3</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">100</subfield>
+  <subfield code="h">Friedman A and Craciun G</subfield>
+  <subfield code="m">Approximate traveling waves in linear reaction-hyperbolic equations Crossref:</subfield>
+  <subfield code="s">SIAM J.Math.Anal.,38,741-58</subfield>
+  <subfield code="a">doi:10.1137/050637947</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">101</subfield>
+  <subfield code="h">Friedman N, Cai L and Xie X S</subfield>
+  <subfield code="m">Linking stochastic dynamics to population distribution: an analytical framework of gene expression Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,97,168302</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.97.168302</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">102</subfield>
+  <subfield code="h">Fuqua C, Winans S C and Greenberg E P</subfield>
+  <subfield code="m">Census and consensus in bacterial ecosystems: the LuxR-LuxI family of quorum-sensing transcriptional regulators Annu. Rev. Microbiol. 50 727-51, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev.micro.50.1.727</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">103</subfield>
+  <subfield code="h">Gander M J, Mazza C and Rummler H</subfield>
+  <subfield code="m">Stochastic gene expression in switching environments Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,55,259-94</subfield>
+  <subfield code="a">doi:10.1007/s00285-007-0083-9</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">104</subfield>
+  <subfield code="h">Garde C, Bjarnsholt T, Givskov M, Jakobsen T H, Hentze M, Claussen A, Sneppen K, Ferkinghoff-Borg J and Sams T</subfield>
+  <subfield code="m">Quorum sensing regulation in Aeromonashydrophila Crossref:</subfield>
+  <subfield code="s">J.Mol.Biol.,396,849-57</subfield>
+  <subfield code="a">doi:10.1016/j.jmb.2010.01.002</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">105</subfield>
+  <subfield code="h">Gardiner C W</subfield>
+  <subfield code="m">Handbook of Stochastic Methods 4th edn (Berlin:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">106</subfield>
+  <subfield code="h">Gardner T S, Cantor C R and Collins J J</subfield>
+  <subfield code="m">Construction of a genetic toggle switch in E. coli Crossref:</subfield>
+  <subfield code="s">Nature,403,339-42</subfield>
+  <subfield code="a">doi:10.1038/35002131</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">107</subfield>
+  <subfield code="m">Ge H and Qian MSensitivity amplification in the phosphorylation-dephosphorylation cycle: nonequilibrium steady states, chemical master equation and temporal cooperativity Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,129,015104</subfield>
+  <subfield code="a">doi:10.1063/1.2948965</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">108</subfield>
+  <subfield code="h">Ghosh S, Pal A K and Bose I</subfield>
+  <subfield code="m">Noise-induced regime shifts: a quantitative characterization Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,E36,123</subfield>
+  <subfield code="a">doi:10.1140/epje/i2013-13123-y</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">109</subfield>
+  <subfield code="h">Gibson M and Bruck J</subfield>
+  <subfield code="m">Efficient exact stochastic simulation of chemical systems with many species and many channels Crossref:</subfield>
+  <subfield code="s">J.Phys.Chem.,104,1876-89</subfield>
+  <subfield code="a">doi:10.1021/jp993732q</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">110</subfield>
+  <subfield code="h">Gillespie D T</subfield>
+  <subfield code="m">Exact stochastic simulation of coupled chemical reactions Crossref:</subfield>
+  <subfield code="s">J.Phys.Chem.,81,2340-61</subfield>
+  <subfield code="a">doi:10.1021/j100540a008</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">111</subfield>
+  <subfield code="h">Gillespie D T</subfield>
+  <subfield code="m">Approximate accelerated stochastic simulation of chemically reacting systems Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,115,1716-33</subfield>
+  <subfield code="a">doi:10.1063/1.1378322</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">112</subfield>
+  <subfield code="h">Gillespie D T, Hellander A and Petzold L R</subfield>
+  <subfield code="m">Perspective: stochastic algorithms for chemical kinetics Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,138,170901</subfield>
+  <subfield code="a">doi:10.1063/1.4801941</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">113</subfield>
+  <subfield code="h">Goldbeter A and Koshland D E</subfield>
+  <subfield code="m">An amplified sensitivity arising from covalent modification in biological systems Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,78,6840-4</subfield>
+  <subfield code="a">doi:10.1073/pnas.78.11.6840</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">114</subfield>
+  <subfield code="h">Goldstein S</subfield>
+  <subfield code="m">On diffusion by discontinuous movements and on the telegraph equation Crossref:</subfield>
+  <subfield code="s">Q.J.Mech.Appl.Math.,4,129-56</subfield>
+  <subfield code="a">doi:10.1093/qjmam/4.2.129</subfield>
+  <subfield code="y">1951</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">115</subfield>
+  <subfield code="h">Goldwyn J H and Shea-Brown E</subfield>
+  <subfield code="m">The what and where of adding channel noise to the Hodgkin-Huxley equations PLoS Comp. Biol. 7 e1002247, Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pcbi.1002247</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">116</subfield>
+  <subfield code="h">Gonze D, Halloy J and Gaspard P</subfield>
+  <subfield code="m">Biochemical clocks and molecular noise: theoretical study of robustness factors Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,116,10997-1010</subfield>
+  <subfield code="a">doi:10.1063/1.1475765</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">117</subfield>
+  <subfield code="h">Goryachev A B</subfield>
+  <subfield code="m">Design principles of the bacterial quorum sensing gene newtorks WIRE Syst. Biol. Med 1 45-60, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/wsbm.27</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">118</subfield>
+  <subfield code="h">Gou J and Ward M J</subfield>
+  <subfield code="m">An asymptotic analysis of a 2D model of dynamically active compartments coupled by bulk diffusion Crossref:</subfield>
+  <subfield code="s">J.Nonlin.Sci.,26,979-1029</subfield>
+  <subfield code="a">doi:10.1007/s00332-016-9296-7</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">119</subfield>
+  <subfield code="h">Graham R and Tel T</subfield>
+  <subfield code="m">On the weak-noise limit of Fokker-Planck models Crossref:</subfield>
+  <subfield code="s">J.Statist.Phys.,35,729</subfield>
+  <subfield code="a">doi:10.1007/BF01010830</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">120</subfield>
+  <subfield code="h">Graham R and Tel T</subfield>
+  <subfield code="m">Weak-noise limit of Fokker-Planck models and non-differentiable potentials for dissipative dynamical systems Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,31,1109</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.31.1109</subfield>
+  <subfield code="y">1985</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">121</subfield>
+  <subfield code="h">Grimmett G R and Stirzaker D R</subfield>
+  <subfield code="m">Probability and Random Processes 3rd edn (Oxford: Oxford University Press)</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">122</subfield>
+  <subfield code="h">Gunawardena J</subfield>
+  <subfield code="m">Chemical reaction network theory for in-silico biologists (notes available at :</subfield>
+  <subfield code="u">http://vcp.med.harvard.edu/papers/crnt.pdf</subfield>
+  <subfield code="u">http://vcp.med.harvard.edu/papers/crnt.pdf</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">123</subfield>
+  <subfield code="h">Halford S E and Marko J F</subfield>
+  <subfield code="m">How do site-specific DNA-binding proteins find their targets? Nucl. Acid Res. 32 3040-52, Crossref:</subfield>
+  <subfield code="a">doi:10.1093/nar/gkh624</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">124</subfield>
+  <subfield code="h">Hanggi P, Grabert H, Talkner P and Thomas H</subfield>
+  <subfield code="m">Bistable systems: master equation versus Fokker-Planck modeling Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A29,371-8</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.29.371</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">125</subfield>
+  <subfield code="h">Hanggi P, Talkner P and Borkovec M</subfield>
+  <subfield code="m">Reaction rate theory: fifty years after Kramers Crossref:</subfield>
+  <subfield code="s">Rev.Mod.Phys.,62,251-341</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.62.251</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="0">313364</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">126</subfield>
+  <subfield code="h">Hasty J, McMillen D and Collins J J</subfield>
+  <subfield code="m">Engineered gene circuits Crossref:</subfield>
+  <subfield code="s">Nature,420,224-30</subfield>
+  <subfield code="a">doi:10.1038/nature01257</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">127</subfield>
+  <subfield code="h">Heymann M and Vanden-Eijden E</subfield>
+  <subfield code="m">The geometric minimum action method: a least action principle on the space of curves Crossref:</subfield>
+  <subfield code="s">Commun.Pure Appl.Math.,61,1052-117</subfield>
+  <subfield code="a">doi:10.1002/cpa.20238</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">128</subfield>
+  <subfield code="h">Hillen T and Othmer H</subfield>
+  <subfield code="m">The diffusion limit of transport equations derived from velocity-jump processes Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,61,751-75</subfield>
+  <subfield code="a">doi:10.1137/S0036139999358167</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">129</subfield>
+  <subfield code="h">Hinch R and Chapman S J</subfield>
+  <subfield code="m">Exponentially slow transitions on a Markov chain: the frequency of calcium sparks Crossref:</subfield>
+  <subfield code="s">Eur.J.Appl.Math.,16,427-46</subfield>
+  <subfield code="a">doi:10.1017/S0956792505006194</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">130</subfield>
+  <subfield code="h">Hopfield J J</subfield>
+  <subfield code="m">Neurons with graded response have collective computational properties like those of two-state neurons Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,81,3088-92</subfield>
+  <subfield code="a">doi:10.1073/pnas.81.10.3088</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">131</subfield>
+  <subfield code="h">Horn F J M</subfield>
+  <subfield code="m">Necessary and sufficient conditions for complex balancing in chemical kinetics Crossref:</subfield>
+  <subfield code="s">Arch.Ration.Mech.Anal.,49,172-86</subfield>
+  <subfield code="a">doi:10.1007/BF00255664</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">132</subfield>
+  <subfield code="h">Horn F J M and Jackson R</subfield>
+  <subfield code="m">General mass action kinetics Crossref:</subfield>
+  <subfield code="s">Arch.Ration.Mech.Anal.,47,81-116</subfield>
+  <subfield code="a">doi:10.1007/BF00251225</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">133</subfield>
+  <subfield code="m">Hu T How proteins search for their specific sites on DNA: the role of DNA conformation Crossref:</subfield>
+  <subfield code="h">Grossberg A Y and Shklovskii B II</subfield>
+  <subfield code="s">Biophys.J.,90,2731-44</subfield>
+  <subfield code="a">doi:10.1529/biophysj.105.078162</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">134</subfield>
+  <subfield code="h">Huber G A and Kim S</subfield>
+  <subfield code="m">Weighted-ensemble Brownian dynamics simulations for protein association reactions Crossref:</subfield>
+  <subfield code="s">Biophys.J.,70,97-110</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(96)79552-8</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">135</subfield>
+  <subfield code="h">Hufton P G, Lin Y T, Galla T and McKane A J</subfield>
+  <subfield code="m">Intrinsic noise in systems with switching environments Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E93,052119</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.93.052119</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">136</subfield>
+  <subfield code="h">Hunter G A M</subfield>
+  <subfield code="m">Guevara Vasquez F and Keener J P A mathematical model and quantitative comparison of the small RNA circuit in the Vibrio harveyi and Vibrio cholerae quorum sensing systems Phys. Biol. 10 046007, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3975/10/4/046007</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">137</subfield>
+  <subfield code="h">Isaacson S and Peskin C</subfield>
+  <subfield code="m">Incorporating diffusion in complex geometries into stochastic chemical kinetics simulations Crossref:</subfield>
+  <subfield code="s">SIAM J.Sci.Statist.Comput.,28,47-74</subfield>
+  <subfield code="a">doi:10.1137/040605060</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">138</subfield>
+  <subfield code="h">Isaacson S A</subfield>
+  <subfield code="m">The reaction-diffusion master equation as an asymptotic approximation of diffusion to a small target Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,7,77-111</subfield>
+  <subfield code="a">doi:10.1137/070705039</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">139</subfield>
+  <subfield code="h">Isaacson S A, McQueen D M and Peskin C S</subfield>
+  <subfield code="m">The influence of volume exclusion by chromatin on the time required to find specific DNA binding sites by diffusion Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,108,3815-20</subfield>
+  <subfield code="a">doi:10.1073/pnas.1018821108</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">140</subfield>
+  <subfield code="h">Jacob F and Monod J</subfield>
+  <subfield code="m">Genetic regulatory mechanisms in the synthesis of proteins Crossref:</subfield>
+  <subfield code="s">J.Mol.Biol.,3,318-56</subfield>
+  <subfield code="a">doi:10.1016/S0022-2836(61)80072-7</subfield>
+  <subfield code="y">1961</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">141</subfield>
+  <subfield code="h">Jahnke T and Kreim M</subfield>
+  <subfield code="m">Error bounds for piecewise deterministic processes modeling stochastic reaction systems Multiscale Model. Simul. 10 1119-47, Crossref:</subfield>
+  <subfield code="a">doi:10.1137/120871894</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">142</subfield>
+  <subfield code="h">James S, Nilsson P, James G, Kjelleberg S and Fagerstrom T</subfield>
+  <subfield code="m">Luminescence control in the marine bacterium Vibrio fischeri: an analysis of the dynamics of lux regulation Crossref:</subfield>
+  <subfield code="s">J.Mol.Biol.,296,1127-37</subfield>
+  <subfield code="a">doi:10.1006/jmbi.1999.3484</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">143</subfield>
+  <subfield code="h">Jose J V and Saletan E J</subfield>
+  <subfield code="m">Classical Dynamics: a Contemporary Approach (Cambridge: Cambridge University Press)</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">144</subfield>
+  <subfield code="h">Jung S A, Hawver L A</subfield>
+  <subfield code="m">and Ng W-LParallel quorum sensing signaling pathways in Vibrio cholerae Curr. Genet. 62 255, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00294-015-0532-8</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">145</subfield>
+  <subfield code="h">Kaern M, Elston T C, Blake W J and Collins J J</subfield>
+  <subfield code="m">Stochasticity in gene expression: from theories to phenotypes Nat. Rev. Genet. 6 451-64, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nrg1615</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">146</subfield>
+  <subfield code="h">Kamenev A, Meerson B and Shklovskii B</subfield>
+  <subfield code="m">How colored environmental noise affects population extinction</subfield>
+  <subfield code="s">Phys.Rev.,E101,268103</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">147</subfield>
+  <subfield code="h">Karmakar R and Bose I</subfield>
+  <subfield code="m">Graded and binary responses in stochastic gene expression Phys. Biol. 1 197-204, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3967/1/4/001</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">148</subfield>
+  <subfield code="h">Keener J P and Newby J M</subfield>
+  <subfield code="m">Perturbation analysis of spontaneous action potential initiation by stochastic ion channels Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E84,011918</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.84.011918</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">149</subfield>
+  <subfield code="h">Keizer J</subfield>
+  <subfield code="m">Nonequilibrium statistical thermodynamics and the effect of diffusion on chemical reaction rates Crossref:</subfield>
+  <subfield code="s">J.Phys.Chem.,86,5052-67</subfield>
+  <subfield code="a">doi:10.1021/j100223a004</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">150</subfield>
+  <subfield code="h">Keller E and Segel L</subfield>
+  <subfield code="m">Initiation of slime mold aggregation viewed as an instability J. Theoret Biol. 26 399-415, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/0022-5193(70)90092-5</subfield>
+  <subfield code="y">1970</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">151</subfield>
+  <subfield code="h">Kepler T B and Elston T C</subfield>
+  <subfield code="m">Stochasticity in transcriptional regulation: Origins, consequences, and mathematical representations Crossref:</subfield>
+  <subfield code="s">Biophys.J.,81,3116-36</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(01)75949-8</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">152</subfield>
+  <subfield code="h">Khasin M, Dykman M I and Meerson B</subfield>
+  <subfield code="m">Speeding up disease extinction with a limited amount of vaccine Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E81,051925</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.81.051925</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">153</subfield>
+  <subfield code="h">Kifer Y</subfield>
+  <subfield code="m">Large Deviations and Adiabatic Transitions for Dynamical Systems and Markov Processes in Fully Coupled Averaging (Memoirs of the AMS vol 201) (Providence, RI: American Mathematical Society)</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">154</subfield>
+  <subfield code="h">Klapper I and Dockery J</subfield>
+  <subfield code="m">Mathematical description of microbial biofilms Crossref:</subfield>
+  <subfield code="s">SIAM Rev.,52,221</subfield>
+  <subfield code="a">doi:10.1137/080739720</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">155</subfield>
+  <subfield code="h">Kolomeisky A B</subfield>
+  <subfield code="m">2011 Physics of protein-DNA interactions: mechanisms of facilitated target search Crossref:</subfield>
+  <subfield code="s">Phys.Chem.Chem.Phys.,13,95</subfield>
+  <subfield code="a">doi:10.1039/C0CP01966F</subfield>
+  <subfield code="y">2088</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">156</subfield>
+  <subfield code="h">Kumar N, Singh A and Kulkarni R V</subfield>
+  <subfield code="m">Transcriptional bursting in gene expression: analytical results for general stochastic models PLoS Comput. Biol. 11 e1004292, Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pcbi.1004292</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">157</subfield>
+  <subfield code="h">Koshland D E, Goldbeter A and Stock J B</subfield>
+  <subfield code="m">Amplification and adaptation in regulatory and sensory systems Crossref:</subfield>
+  <subfield code="s">Science,217,220-5</subfield>
+  <subfield code="a">doi:10.1126/science.7089556</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">158</subfield>
+  <subfield code="h">Kurtz T G</subfield>
+  <subfield code="m">Limit theorems and diffusion approximations for density dependent Markov chains Math. Prog. Stud. 5 67-78</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">159</subfield>
+  <subfield code="h">Kurtz T G</subfield>
+  <subfield code="m">Representations of Markov processes as multiparameter changes Crossref:</subfield>
+  <subfield code="s">Annals Probab.,8,682-715</subfield>
+  <subfield code="a">doi:10.1214/aop/1176994660</subfield>
+  <subfield code="y">1980</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">160</subfield>
+  <subfield code="h">Kussell E and Leibler S</subfield>
+  <subfield code="m">2005 Growth and information in fluctuating environments Crossref:</subfield>
+  <subfield code="s">Science,309,8</subfield>
+  <subfield code="a">doi:10.1126/science.1114383</subfield>
+  <subfield code="y">2075</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">161</subfield>
+  <subfield code="h">Laing C and Lord G</subfield>
+  <subfield code="m">Stochastic Methods in Neuroscience (Oxford: Oxford University Press)</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">162</subfield>
+  <subfield code="h">Lawley S D, Mattingly J C and Reed M C</subfield>
+  <subfield code="m">Stochastic switching in infinite dimensions with applications to random parabolic PDE Crossref:</subfield>
+  <subfield code="s">SIAM J.Math.Anal.,47,3035-63</subfield>
+  <subfield code="a">doi:10.1137/140976716</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">163</subfield>
+  <subfield code="h">Lenz D D H, Mok K C, Lilley B N, Kulkarni R V, Wingreen N S and Bassler B L</subfield>
+  <subfield code="m">The small RNA chaperone Hfq and multiple small RNAs control quorum sensing in Vibrio harveyi and Vibrio cholerae Crossref:</subfield>
+  <subfield code="s">Cell,118,69-82</subfield>
+  <subfield code="a">doi:10.1016/j.cell.2004.06.009</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">164</subfield>
+  <subfield code="h">Levien E and Bressloff P C</subfield>
+  <subfield code="m">A stochastic hybrid framework for obtaining statistics of many random walkers in a switching environment Multiscale Model. Simul. 14 1417-33, Crossref:</subfield>
+  <subfield code="a">doi:10.1137/16M1061084</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">165</subfield>
+  <subfield code="h">Levine J, Kueh H Y and Mirny L</subfield>
+  <subfield code="m">Intrinsic fluctuations, robustness, and tunability in signaling cycles Crossref:</subfield>
+  <subfield code="s">Biophys.J.,92,4473-81</subfield>
+  <subfield code="a">doi:10.1529/biophysj.106.088856</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">166</subfield>
+  <subfield code="m">Li G W Effects of macromolecular crowding and DNA looping on gene regulation kinetics Nat. Phys. 4 294-7, Crossref:</subfield>
+  <subfield code="h">Berg O G and Elf J</subfield>
+  <subfield code="a">doi:10.1038/nphys1222</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">167</subfield>
+  <subfield code="h">Liu L, Kashyap B R K and Templeton J G C</subfield>
+  <subfield code="m">On the GI X /G/∞ system</subfield>
+  <subfield code="s">J.Appl.Probab.,27,671-83</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">168</subfield>
+  <subfield code="h">Lohmar I and Meerson B</subfield>
+  <subfield code="m">Switching between phenotypes and population extinction Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E84,051901</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.84.051901</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">169</subfield>
+  <subfield code="h">Lohmiller W and Slotine J J E</subfield>
+  <subfield code="m">On contraction analysis of nonlinear systems Crossref:</subfield>
+  <subfield code="s">Automatica,34,683-96</subfield>
+  <subfield code="a">doi:10.1016/S0005-1098(98)00019-3</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">170</subfield>
+  <subfield code="h">Loverdo C, Benichou O, Moreau M and Voituriez R</subfield>
+  <subfield code="m">Enhanced reaction kinetics in biological cells Nat. Phys. 4 134-7, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nphys830</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">171</subfield>
+  <subfield code="h">Mackey M C and Tyran-Kaminska M</subfield>
+  <subfield code="m">Dynamics and density evolution in piecewise deterministic growth processes Ann. Pol. Math. 94 111-29, Crossref:</subfield>
+  <subfield code="a">doi:10.4064/ap94-2-2</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">172</subfield>
+  <subfield code="h">Mackey M C, Tyran-Kaminska M and Yvinec R</subfield>
+  <subfield code="m">Dynamic behavior of stochastic gene expression in the presence of bursting Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,73,1830-52</subfield>
+  <subfield code="a">doi:10.1137/12090229X</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">173</subfield>
+  <subfield code="h">Maheshri N and O’Shea E K</subfield>
+  <subfield code="m">Living with noisy genes: How cells function reliably with inherent variability in gene expression Annu. Rev. Biophys. Biomol. Struct. 36 413-34, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev.biophys.36.040306.132705</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">174</subfield>
+  <subfield code="h">Maier R S and Stein D L</subfield>
+  <subfield code="m">Limiting exit location distribution in the stochastic exit problem Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,57,752-90</subfield>
+  <subfield code="a">doi:10.1137/S0036139994271753</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">175</subfield>
+  <subfield code="h">Marquez-Lago T T and Burrage K</subfield>
+  <subfield code="m">Binomial tau-leap spatial stochastic simulation algorithm for applications in chemical kinetics Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,127,104101</subfield>
+  <subfield code="a">doi:10.1063/1.2771548</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">176</subfield>
+  <subfield code="h">Matkowsky B J and Schuss Z</subfield>
+  <subfield code="m">The exit problem for randomly perturbed dynamical systems Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,33,365-82</subfield>
+  <subfield code="a">doi:10.1137/0133024</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">177</subfield>
+  <subfield code="h">Knessl C, Matkowsky B J, Schuss Z and Tier C</subfield>
+  <subfield code="m">An asymptotic theory of large deviations for Markov jump processes Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,46,1006-28</subfield>
+  <subfield code="a">doi:10.1137/0145062</subfield>
+  <subfield code="y">1985</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">178</subfield>
+  <subfield code="h">McAdams H H and Arkin A</subfield>
+  <subfield code="m">Stochastic mechanisms in gene expression Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,94,814-9</subfield>
+  <subfield code="a">doi:10.1073/pnas.94.3.814</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">179</subfield>
+  <subfield code="h">Mina P, di Bernardo M, Savery N J and Tsaneva-Atanasova K</subfield>
+  <subfield code="m">Modelling emergence of oscillations in communicating bacteria: a structured approach from one to many cells J. R. Soc Interface 10 20120612, Crossref:</subfield>
+  <subfield code="a">doi:10.1098/rsif.2012.0612</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">180</subfield>
+  <subfield code="h">Mirny L, Slutsky M, Wunderlich Z, Tafvizi A, Leith J and Kosmrlj A</subfield>
+  <subfield code="m">How a protein searches for its site on DNA: the mechanism of facilitated diffusion J. Phys. A: Math. Theor. 42 434013, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/42/43/434013</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">181</subfield>
+  <subfield code="h">Miyashiro T and Ruby E G</subfield>
+  <subfield code="m">Shedding light on bioluminescence regulation in Vibrio fischeri Crossref:</subfield>
+  <subfield code="s">Mol.Microbiol.,84,795-806</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2958.2012.08065.x</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">182</subfield>
+  <subfield code="h">De Monte S, Ovidio F, Dano S and Sorensen P G</subfield>
+  <subfield code="m">Dynamical quorum sensing: Population density encoded in cellular dynamics Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,104,18377-81</subfield>
+  <subfield code="a">doi:10.1073/pnas.0706089104</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">183</subfield>
+  <subfield code="h">Morris C and Lecar H</subfield>
+  <subfield code="m">Voltage oscillations in the barnacle giant muscle fiber J. Biophys 35 193-213, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0006-3495(81)84782-0</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">184</subfield>
+  <subfield code="h">Muller J, Kuttler C, Hense B A, Rothballer M and Hartmann A</subfield>
+  <subfield code="m">Cell-cell communication by quorum sensing and dimension- reduction Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,53,672-702</subfield>
+  <subfield code="a">doi:10.1007/s00285-006-0024-z</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">185</subfield>
+  <subfield code="h">Muller J and Uecker H</subfield>
+  <subfield code="m">Approximating the dynamics of communicating cells in a diffusive medium by ODEs—homogenization with localization Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,67,1023-65</subfield>
+  <subfield code="a">doi:10.1007/s00285-012-0569-y</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">186</subfield>
+  <subfield code="h">Muller J, Hense B A, Fuchs T M, Utz M</subfield>
+  <subfield code="m">and Potzsche ChBet-hedging in stochastically switching environments Crossref:</subfield>
+  <subfield code="s">J.Theor.Biol.,336,144-57</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2013.07.017</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">187</subfield>
+  <subfield code="h">Naeh T, Klosek M M, Matkowsky B J and Schuss Z</subfield>
+  <subfield code="m">A direct approach to the exit problem Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,50,595-627</subfield>
+  <subfield code="a">doi:10.1137/0150036</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">188</subfield>
+  <subfield code="h">Newby J M and Bressloff P C</subfield>
+  <subfield code="m">Quasi-steady state reduction of molecular-based models of directed intermittent search Crossref:</subfield>
+  <subfield code="s">Bull.Math.Biol.,72,1840-66</subfield>
+  <subfield code="a">doi:10.1007/s11538-010-9513-8</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">189</subfield>
+  <subfield code="h">Newby J M and Bressloff P C</subfield>
+  <subfield code="m">Local synaptic signalling enhances the stochastic transport of motor-driven cargo in neurons Phys. Biol. 7 036004, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3975/7/3/036004</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">190</subfield>
+  <subfield code="h">Newby J M and Keener J P</subfield>
+  <subfield code="m">An asymptotic analysis of the spatially inhomogeneous velocity-jump process Multiscale Model. Simul. 9 735-65, Crossref:</subfield>
+  <subfield code="p">SIAM</subfield>
+  <subfield code="a">doi:10.1137/10080676X</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">191</subfield>
+  <subfield code="h">Newby J M</subfield>
+  <subfield code="m">Isolating intrinsic noise sources in a stochastic genetic switch Phys. Biol. 9 026002, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1478-3975/9/2/026002</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">192</subfield>
+  <subfield code="h">Newby J M and Chapman S J</subfield>
+  <subfield code="m">Metastable behavior in Markov processes with internal states Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,69,941-76</subfield>
+  <subfield code="a">doi:10.1007/s00285-013-0723-1</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">193</subfield>
+  <subfield code="h">Newby J M, Bressloff P C and Keeener J P</subfield>
+  <subfield code="m">Breakdown of fast-slow analysis in an excitable system with channel noise Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,128101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.128101</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">194</subfield>
+  <subfield code="h">Newby J M</subfield>
+  <subfield code="m">Spontaneous excitability in the Morris-Lecar model with ion channel noise J. Appl Dyn. Syst. 13 1756-91, Crossref:</subfield>
+  <subfield code="p">SIAM</subfield>
+  <subfield code="a">doi:10.1137/140971385</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">195</subfield>
+  <subfield code="h">Newby J M</subfield>
+  <subfield code="m">Bistable switching asymptotics for the self regulating gene J. Phys. A: Math. Theor. 48 185001, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/48/18/185001</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">196</subfield>
+  <subfield code="m">Ng W L and Bassler B LBacterial quorum-sensing architectures Annu. Rev. Genet. 43 197-222, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev-genet-102108-134304</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">197</subfield>
+  <subfield code="h">Norman T M, Lord N D, Paulsson J and Losick R</subfield>
+  <subfield code="m">Stochastic switching of cell fate in microbes Annu. Rev. Microbiol. 69 381-403, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev-micro-091213-112852</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">198</subfield>
+  <subfield code="h">Oshanin O, Lindenberg K, Wio H S and Burlatsky S</subfield>
+  <subfield code="m">Efficient search by optimized intermittent random walks J. Phys. A: Math. Theor. 42 434008, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/42/43/434008</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">199</subfield>
+  <subfield code="h">Othmer H, Dunbar S and Alt W</subfield>
+  <subfield code="m">Models of dispersal in biological systems Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,26,263-98</subfield>
+  <subfield code="a">doi:10.1007/BF00277392</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">200</subfield>
+  <subfield code="h">Othmer H G and Hillen T</subfield>
+  <subfield code="m">The diffusion limit of transport equations II: Chemotaxis equations Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,62,1222-50</subfield>
+  <subfield code="a">doi:10.1137/S0036139900382772</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">201</subfield>
+  <subfield code="h">Papanicolaou G C</subfield>
+  <subfield code="m">Asymptotic analysis of transport processes Crossref:</subfield>
+  <subfield code="s">Bull.Am.Math.Soc.,81,330-92</subfield>
+  <subfield code="a">doi:10.1090/S0002-9904-1975-13744-X</subfield>
+  <subfield code="y">1975</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">202</subfield>
+  <subfield code="h">Paulsson J</subfield>
+  <subfield code="m">Models of stochastic gene expression Crossref:</subfield>
+  <subfield code="s">Phys.Life Rev.,2,157-75</subfield>
+  <subfield code="a">doi:10.1016/j.plrev.2005.03.003</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">203</subfield>
+  <subfield code="h">Peliti L</subfield>
+  <subfield code="m">Path integral approach to birth-death processes on a lattice Crossref:</subfield>
+  <subfield code="s">J.Phys.,46,1469-83</subfield>
+  <subfield code="a">doi:10.1051/jphys:019850046090146900</subfield>
+  <subfield code="y">1985</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">204</subfield>
+  <subfield code="h">Phillips R, Kondev J, Theriot J and Garcia H</subfield>
+  <subfield code="m">Physical Biology of the Cell 2nd edn (London: Garland)</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">205</subfield>
+  <subfield code="h">Popovic N, Marr C and Swain P S</subfield>
+  <subfield code="m">A geometric analysis of fast-slow models for stochastic gene expression Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,72,87-122</subfield>
+  <subfield code="a">doi:10.1007/s00285-015-0876-1</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">206</subfield>
+  <subfield code="h">Ptashne M</subfield>
+  <subfield code="m">A Genetic Switch 3rd edn (Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press)</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">207</subfield>
+  <subfield code="h">Pulkkinen O and Metzler R</subfield>
+  <subfield code="m">Distance matters: the impact of gene proximity in bacterial gene regulation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,110,198101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.110.198101</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">208</subfield>
+  <subfield code="h">Qian H</subfield>
+  <subfield code="m">Thermodynamic and kinetic analysis of sensitivity amplification in biological signal transduction Crossref:</subfield>
+  <subfield code="s">Biophys.Chem.,105,585-93</subfield>
+  <subfield code="a">doi:10.1016/S0301-4622(03)00068-1</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">209</subfield>
+  <subfield code="h">Qian H</subfield>
+  <subfield code="m">Phosphorylation energy hypothesis: open chemical systems and their biological functions</subfield>
+  <subfield code="s">Ann.Rev.Phys.Chem.,58,113-42</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">210</subfield>
+  <subfield code="h">Qian H</subfield>
+  <subfield code="m">Cooperativity in cellular biochemical processes: Noise-enhanced sensitivity, fluctuating enzyme, bistability with nonlinear feedback, and other mechanisms for sigmoidal responses Annu. Rev. Biophys. 41 179-204, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev-biophys-050511-102240</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">211</subfield>
+  <subfield code="h">Raj A and van Oudenaarden A</subfield>
+  <subfield code="m">Nature, nurture, or chance: Stochastic gene expression and its consequences Crossref:</subfield>
+  <subfield code="s">Cell,135,216-26</subfield>
+  <subfield code="a">doi:10.1016/j.cell.2008.09.050</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">212</subfield>
+  <subfield code="h">Reed M C, Venakides S and Blum J J</subfield>
+  <subfield code="m">Approximate traveling waves in linear reaction-hyperbolic equations Crossref:</subfield>
+  <subfield code="s">SIAM J.Appl.Math.,50,167-80</subfield>
+  <subfield code="a">doi:10.1137/0150011</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">213</subfield>
+  <subfield code="h">Reinitz J and Vaisnys J R</subfield>
+  <subfield code="m">Theoretical and experimental analysis of the phage lambda genetic switch implies missing levels of co-operativity Crossref:</subfield>
+  <subfield code="s">J.Theor.Biol.,145,295-318</subfield>
+  <subfield code="a">doi:10.1016/S0022-5193(05)80111-0</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">214</subfield>
+  <subfield code="h">Ribeiro A S</subfield>
+  <subfield code="m">Dynamics and evolution of stochastic bistable gene networks with sensing in fluctuating environments Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E78,061902</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.78.061902</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">215</subfield>
+  <subfield code="h">Richter P H and Eigen M</subfield>
+  <subfield code="m">Diffusion-controlled reaction rates in spheroidal geometry: application to repressor-operator association and membrane bound enzymes Crossref:</subfield>
+  <subfield code="s">Biophys.Chem.,2,255-63</subfield>
+  <subfield code="a">doi:10.1016/0301-4622(74)80050-5</subfield>
+  <subfield code="y">1974</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">216</subfield>
+  <subfield code="h">Roberts E</subfield>
+  <subfield code="m">Be’er S, Bohrer C, Sharma R and Assaf A Dynamics of simple gene-network motifs subject to extrinsic fluctuations Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E92,062717</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.92.062717</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">217</subfield>
+  <subfield code="h">Roma D M, O’Flanagan R A, Ruckenstein A E and Sengupta A M</subfield>
+  <subfield code="m">Optimal path to epigenetic switching Phys. Rev. E 011902, Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.71.011902</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">218</subfield>
+  <subfield code="h">Russo G and Slotine J J E</subfield>
+  <subfield code="m">Global convergence of quorum sensing network Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E82,041919</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.82.041919</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">219</subfield>
+  <subfield code="h">Salsa S</subfield>
+  <subfield code="m">Partial Differential Equations in Action (Berlin:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">220</subfield>
+  <subfield code="h">Sanchez A, Choubey S and Kondev J</subfield>
+  <subfield code="m">Regulation of noise in gene expression Annu. Rev. Biophys. 42 469-91, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev-biophys-083012-130401</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">221</subfield>
+  <subfield code="h">Sasai M and Wolynes P G</subfield>
+  <subfield code="m">Stochastic gene expression as a many-body problem Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,100,2374-9</subfield>
+  <subfield code="a">doi:10.1073/pnas.2627987100</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">222</subfield>
+  <subfield code="h">Schuss Z</subfield>
+  <subfield code="m">Theory and Applications of Stochastic Processes: an Analytical Approach (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">223</subfield>
+  <subfield code="h">Schwabe A, Rybakova K N and Bruggeman F J</subfield>
+  <subfield code="m">Transcription stochasticity of complex gene regulation models Crossref:</subfield>
+  <subfield code="s">Biophys.J.,103,1152-61</subfield>
+  <subfield code="a">doi:10.1016/j.bpj.2012.07.011</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">224</subfield>
+  <subfield code="h">Seger J and Brockman H</subfield>
+  <subfield code="m">What is bet-hedging? Oxford Surveys in Evolutionary Biology vol 4 (Oxford: Oxford University Press) pp 182-211</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">225</subfield>
+  <subfield code="h">Shahrezaei V and Swain P S</subfield>
+  <subfield code="m">Analytical distributions for stochastic gene expression Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,105,17256-61</subfield>
+  <subfield code="a">doi:10.1073/pnas.0803850105</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">226</subfield>
+  <subfield code="h">Sheinman M, Benichou O, Kafri Y and Voituriez R</subfield>
+  <subfield code="m">Classes of fast and specific search mechanisms for proteins on DNA Crossref:</subfield>
+  <subfield code="s">Rept.Prog.Phys.,75,026601</subfield>
+  <subfield code="a">doi:10.1088/0034-4885/75/2/026601</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">227</subfield>
+  <subfield code="h">Shibata T and Fujimoto K</subfield>
+  <subfield code="m">Noisy amplification in ultrasensitive signal transduction Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,102,331-6</subfield>
+  <subfield code="a">doi:10.1073/pnas.0403350102</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">228</subfield>
+  <subfield code="h">Smiley M W and Proulx S R</subfield>
+  <subfield code="m">Gene expression dynamics in randomly varying environments Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,61,231-51</subfield>
+  <subfield code="a">doi:10.1007/s00285-009-0298-z</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">229</subfield>
+  <subfield code="h">Smits W K, Kuipers O P and Veening J W</subfield>
+  <subfield code="m">Phenotypic variation in bacteria: the role of feedback regulation Nat. Rev. Microbiol. 4 259-71, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nrmicro1381</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">230</subfield>
+  <subfield code="h">Sneppen K</subfield>
+  <subfield code="m">Models of Life: Dynamics and Regulation in Biological Systems (Cambridge: Cambridge University Press)</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">231</subfield>
+  <subfield code="h">Song C, Phenix H, Abed V, Scott M, Ingalls B P, Kaern M and Perkins T J</subfield>
+  <subfield code="m">Estimating the stochastic bifurcation structure of cellular networks PLoS Comput. Biol. 6 e1000699, Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pcbi.1000699</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">232</subfield>
+  <subfield code="h">Swain P S and Longtin A</subfield>
+  <subfield code="m">Noise in genetic and neural networks Crossref:</subfield>
+  <subfield code="s">Chaos Solitons Fractals,16,026101</subfield>
+  <subfield code="a">doi:10.1063/1.2213613</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">233</subfield>
+  <subfield code="h">Swem L R, Swem D L, Wingreen N S and Bassler B L</subfield>
+  <subfield code="m">Deducing receptor signaling parameters from in vivo analysis: LuxN/AI-1 quorum sensing in Vibrio harveyi Crossref:</subfield>
+  <subfield code="s">Cell,134,461-73</subfield>
+  <subfield code="a">doi:10.1016/j.cell.2008.06.023</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">234</subfield>
+  <subfield code="h">Tabareau N, Slotine J J and Pham Q-C</subfield>
+  <subfield code="m">How synchronization protects from noise PLoS Comput. Biol. 6 e1000637, Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pcbi.1000637</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">235</subfield>
+  <subfield code="h">Thattai M and van Oudenaarden A</subfield>
+  <subfield code="m">Intrinsic noise in gene regulatory networks Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,98,8614-9</subfield>
+  <subfield code="a">doi:10.1073/pnas.151588598</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">236</subfield>
+  <subfield code="h">Thattai M and van Oudenaarden A</subfield>
+  <subfield code="m">Stochastic gene expression in fluctuating environments Genetics 167 523-30, Crossref:</subfield>
+  <subfield code="a">doi:10.1534/genetics.167.1.523</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">237</subfield>
+  <subfield code="h">Thomas P, Popovic N and Grima R</subfield>
+  <subfield code="m">Phenotypic switching in gene regulatory networks Crossref:</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,111,6994-9</subfield>
+  <subfield code="a">doi:10.1073/pnas.1400049111</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">238</subfield>
+  <subfield code="h">Touchette H</subfield>
+  <subfield code="m">The large deviation approach to statistical mechanics Crossref:</subfield>
+  <subfield code="s">Phys.Rept.,478,1-69</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2009.05.002</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">239</subfield>
+  <subfield code="h">Touchette H</subfield>
+  <subfield code="m">A basic introduction to large deviations: theory, applications, simulations Preprint:</subfield>
+  <subfield code="r">arXiv:1106.4146</subfield>
+  <subfield code="r">arXiv:1106.4146v3</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">240</subfield>
+  <subfield code="h">Tsimiring L S, Volfson D and Hasty J</subfield>
+  <subfield code="m">Stochastically driven genetic circuits Crossref:</subfield>
+  <subfield code="s">Chaos Solitons Fractals,16,026103</subfield>
+  <subfield code="a">doi:10.1063/1.2209571</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">241</subfield>
+  <subfield code="h">Tsimiring L S</subfield>
+  <subfield code="m">Noise in biology Crossref:</subfield>
+  <subfield code="s">Rept.Prog.Phys.,77,026601</subfield>
+  <subfield code="a">doi:10.1088/0034-4885/77/2/026601</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">242</subfield>
+  <subfield code="h">van Kampen N G</subfield>
+  <subfield code="m">Stochastic Processes in Physics and Chemistry (Amsterdam:</subfield>
+  <subfield code="p">North-Holland</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">243</subfield>
+  <subfield code="h">Varadhan S R S</subfield>
+  <subfield code="m">Asymptotic probabilities and differential equations Crossref:</subfield>
+  <subfield code="s">Commun.Pure Appl.Math.,19,261-86</subfield>
+  <subfield code="a">doi:10.1002/cpa.3160190303</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">244</subfield>
+  <subfield code="h">Vellela M and Qian H</subfield>
+  <subfield code="m">Stochastic dynamics and non-equilibrium thermodynamics of a bistable chemical system: the Schlögl model revisited J. R. Soc Interface 6 925-40, Crossref:</subfield>
+  <subfield code="a">doi:10.1098/rsif.2008.0476</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">245</subfield>
+  <subfield code="h">Visco P, Allen R J, Majumdar S N and Evans M R</subfield>
+  <subfield code="m">Switching and growth for microbial populations in catastrophic responsive environments Crossref:</subfield>
+  <subfield code="s">Biophys.J.,98,1099-108</subfield>
+  <subfield code="a">doi:10.1016/j.bpj.2009.11.049</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">246</subfield>
+  <subfield code="h">von Hippel P H and Berg O G</subfield>
+  <subfield code="m">Facilitated target location in biological systems</subfield>
+  <subfield code="s">J.Biol.Chem.,264,675-8</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">247</subfield>
+  <subfield code="h">Walczak A M, Sasai M and Wolynes P G</subfield>
+  <subfield code="m">Self-consistent proteomic field theory of stochastic gene switches Crossref:</subfield>
+  <subfield code="s">Biophys.J.,88,828-50</subfield>
+  <subfield code="a">doi:10.1529/biophysj.104.050666</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">248</subfield>
+  <subfield code="h">Ward J P, King J R, Koerber A J, Williams P, Croft J M and Sockett R E</subfield>
+  <subfield code="m">Mathematical modelling of quorum-sensing in bacteria MA J. Math Appl. Med 18 263-92, Crossref:</subfield>
+  <subfield code="a">doi:10.1093/imammb/18.3.263</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">249</subfield>
+  <subfield code="h">Warmflash A, Bhimalapuram P and Dinner A R</subfield>
+  <subfield code="m">Umbrella sampling for nonequilibrium processes Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,127,154112</subfield>
+  <subfield code="a">doi:10.1063/1.2784118</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">250</subfield>
+  <subfield code="h">Waters C M and Basser B L</subfield>
+  <subfield code="m">Quorum sensing: Cell-to-cell communication in bacteria Annu. Rev. Cell Dev. Biol. 21 319-46, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev.cellbio.21.012704.131001</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">251</subfield>
+  <subfield code="h">Weake V M and Worlkman J L</subfield>
+  <subfield code="m">Inducible gene expression: diverse regulatory mechanisms Nat. Rev. Genet. 11 426-37, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nrg2781</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">252</subfield>
+  <subfield code="h">Wei Y</subfield>
+  <subfield code="m">Ng W-L, Cong J and Bassler B L Ligand and antagonist driven regulation of the Vibrio cholerae quorum-sensing receptor CqsS Crossref:</subfield>
+  <subfield code="s">Mol.Microbiol.,83,1095-108</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2958.2012.07992.x</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">253</subfield>
+  <subfield code="h">Weinan E, Weiqing R and Vanden-Eijnden E</subfield>
+  <subfield code="m">String method for the study of rare events</subfield>
+  <subfield code="s">Phys.Rev.,B66,052301</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">254</subfield>
+  <subfield code="h">Tran E J and Wente S R</subfield>
+  <subfield code="m">Dynamic nuclear pore complexes: Life on the edge Crossref:</subfield>
+  <subfield code="s">Cell,125,1041-53</subfield>
+  <subfield code="a">doi:10.1016/j.cell.2006.05.027</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">255</subfield>
+  <subfield code="h">Yang Y M, Austin R H and Cox E C</subfield>
+  <subfield code="m">Single molecule measurements of repressor protein 1D diffusion on DNA Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,97,048302</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.97.048302</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">256</subfield>
+  <subfield code="m">Yu J Probing gene expression in live cells, one protein molecule at a time Crossref:</subfield>
+  <subfield code="h">Xiao J, Ren X, Lao K and Xie X S</subfield>
+  <subfield code="s">Science,311,1600-3</subfield>
+  <subfield code="a">doi:10.1126/science.1119623</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">257</subfield>
+  <subfield code="h">Yvinec R, Zhuge C, Lei J and Mackey M C</subfield>
+  <subfield code="m">Adiabatic reduction of a model of stochastic gene expression with jump Markov process Crossref:</subfield>
+  <subfield code="s">J.Math.Biol.,68,1051-70</subfield>
+  <subfield code="a">doi:10.1007/s00285-013-0661-y</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">258</subfield>
+  <subfield code="h">Zeiser S, Franz U, Wittich O and Liebscher V</subfield>
+  <subfield code="m">Simulation of genetic networks modelled by piecewise deterministic Markov processes IET Syst. Biol. 2 113-35, Crossref:</subfield>
+  <subfield code="a">doi:10.1049/iet-syb:20070045</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">259</subfield>
+  <subfield code="h">Zhang B W, Jasnow D and Zuckerman D M</subfield>
+  <subfield code="m">The ‘weighted ensemble’ path sampling method is statistically exact for a broad class of stochastic processes and binning procedures Crossref:</subfield>
+  <subfield code="s">J.Chem.Phys.,132,054107</subfield>
+  <subfield code="a">doi:10.1063/1.3306345</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

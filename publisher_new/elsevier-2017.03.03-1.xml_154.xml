@@ -1,0 +1,869 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.044</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Al-Marouf, M.</subfield>
+    <subfield code="v">King Abdullah University of Science and Technology, 4700 KAUST, Thuwal 23955-6900, Saudi Arabia</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A versatile embedded boundary adaptive mesh method for compressible flow in complex geometry</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-03</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present an embedded ghost-fluid method for numerical solutions of the compressible Navier Stokes (CNS) equations in arbitrary complex domains. A PDE multidimensional extrapolation approach is used to reconstruct the solution in the ghost-fluid regions and imposing boundary conditions on the fluid–solid interface, coupled with a multi-dimensional algebraic interpolation for freshly cleared cells. The CNS equations are numerically solved by the second order multidimensional upwind method. Block-structured adaptive mesh refinement, implemented with the Chombo framework, is utilized to reduce the computational cost while keeping high resolution mesh around the embedded boundary and regions of high gradient solutions. The versatility of the method is demonstrated via several numerical examples, in both static and moving geometry, ranging from low Mach number nearly incompressible flows to supersonic flows. Our simulation results are extensively verified against other numerical results and validated against available experimental results where applicable. The significance and advantages of our implementation, which revolve around balancing between the solution accuracy and implementation difficulties, are briefly discussed as well.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Ghost cell method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">PDE multidimensional extrapolation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible Navier Stokes equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Low Mach number flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Supersonic flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Samtaney, R.</subfield>
+    <subfield code="j">ORCID:0000-0002-4702-6473</subfield>
+    <subfield code="v">King Abdullah University of Science and Technology, 4700 KAUST, Thuwal 23955-6900, Saudi Arabia</subfield>
+    <subfield code="m">Ravi.Samtaney@kaust.edu.sa</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berthelsen, P.</subfield>
+    <subfield code="h">Faltinsen, O.</subfield>
+    <subfield code="t">A local directional ghost cell approach for incompressible viscous flow problems with irregular boundaries</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4354</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verzicco, R.</subfield>
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="h">Orlandi, P.</subfield>
+    <subfield code="h">Haworth, D.</subfield>
+    <subfield code="t">Large-eddy simulation in complex geometric configurations using boundary body forces</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">AIAA J.,38,427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.</subfield>
+    <subfield code="t">Flow patterns around heart valves: a numerical method</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,10,252</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.</subfield>
+    <subfield code="t">Fluid dynamics of heart valves: experimental, theoretical, and computational methods</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,14,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldstein, D.</subfield>
+    <subfield code="h">Handler, R.</subfield>
+    <subfield code="h">Sirovich, L.</subfield>
+    <subfield code="t">Modeling a no-slip flow boundary with an external force field</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,105,354</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saiki, E.</subfield>
+    <subfield code="h">Biringen, S.</subfield>
+    <subfield code="t">Numerical simulation of a cylinder in uniform flow: application of a virtual boundary method</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,123,450</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="h">Peskin, C.</subfield>
+    <subfield code="t">An immersed boundary method with formal second-order accuracy and reduced numerical viscosity</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,160,705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zou, J.-F.</subfield>
+    <subfield code="h">Ren, A.-L.</subfield>
+    <subfield code="h">Deng, J.</subfield>
+    <subfield code="t">Study on flow past two spheres in tandem arrangement using a local mesh refinement virtual boundary method</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,49,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, S.-W.</subfield>
+    <subfield code="h">Lai, M.-C.</subfield>
+    <subfield code="h">Lin, C.-A.</subfield>
+    <subfield code="t">An immersed boundary technique for simulating complex flows with rigid boundary</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Fluids,36,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pan, D.</subfield>
+    <subfield code="t">An immersed boundary method for incompressible flows using volume of body function</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,50,733</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="t">Combined immersed-boundary/B-spline methods for simulations of flow in complex geometries</subfield>
+    <subfield code="p">Center for Turbulence Research</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="q">Annual Research Briefs</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fadlun, E.</subfield>
+    <subfield code="h">Verzicco, R.</subfield>
+    <subfield code="h">Orlandi, P.</subfield>
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="t">Combined immersed-boundary finite-difference methods for three-dimensional complex flow simulations</subfield>
+    <subfield code="v">161</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,161,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verzicco, R.</subfield>
+    <subfield code="h">Fatica, M.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="h">Orlandi, P.</subfield>
+    <subfield code="t">Flow in an impeller-stirred tank using an immersed-boundary method</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">AIChE J.,50,1109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">Modeling complex boundaries using an external force field on fixed Cartesian grids in large-eddy simulations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,33,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">A general reconstruction algorithm for simulating flows with complex 3D immersed boundaries on Cartesian grids</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,191,660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="t">A hybrid Cartesian/immersed boundary method for simulating flows with 3D, geometrically complex, moving bodies</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,207,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, J.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">An embedded-boundary formulation for large-eddy simulation of turbulent flows interacting with moving boundaries</subfield>
+    <subfield code="v">215</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,215,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Majumdar, S.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="h">Durbin, P.</subfield>
+    <subfield code="t">RANS solvers with adaptive structured boundary non-conforming grids</subfield>
+    <subfield code="p">Center for Turbulence Research, Stanford University</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="q">Annual Research Briefs</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tseng, Y.-H.</subfield>
+    <subfield code="h">Ferziger, J.</subfield>
+    <subfield code="t">A ghost-cell immersed boundary method for flow in complex geometry</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,192,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franke, R.</subfield>
+    <subfield code="t">Scattered data interpolation: tests of some methods</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Math.Comput.,38,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gao, T.</subfield>
+    <subfield code="h">Tseng, Y.-H.</subfield>
+    <subfield code="h">Lu, X.-Y.</subfield>
+    <subfield code="t">An improved hybrid Cartesian/immersed boundary method for fluid–solid flows</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,55,1189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="h">Verzicco, R.</subfield>
+    <subfield code="t">Immersed boundary technique for turbulent flow simulations</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Appl.Mech.Rev.,56,331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lundquist, K.</subfield>
+    <subfield code="h">Chow, F.</subfield>
+    <subfield code="h">Lundquist, J.</subfield>
+    <subfield code="t">An immersed boundary method enabling large-eddy simulations of flow over complex terrain in the WRF model</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Mon.Weather Rev.,140,3936</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aslam, T.</subfield>
+    <subfield code="t">A partial differential equation approach to multidimensional extrapolation</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,193,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ng, Y.</subfield>
+    <subfield code="h">Min, C.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="t">An efficient fluid solid coupling algorithm for single-phase flows</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8807</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Min, C.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="t">A second order accurate level set method on non-graded adaptive Cartesian grids</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,225,300</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chiu, P.</subfield>
+    <subfield code="h">Lin, R.</subfield>
+    <subfield code="h">Sheu, T.W.</subfield>
+    <subfield code="t">A differentially interpolated direct forcing immersed boundary method for predicting incompressible Navier Stokes equations in time-varying complex geometries</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Uddin, H.</subfield>
+    <subfield code="h">Kramer, R.</subfield>
+    <subfield code="h">Pantano, C.</subfield>
+    <subfield code="t">A Cartesian-based embedded geometry technique with adaptive high-order finite differences for compressible flow around complex geometries</subfield>
+    <subfield code="v">262</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,262,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cummings, J.</subfield>
+    <subfield code="h">Aivazis, M.</subfield>
+    <subfield code="h">Samtaney, R.</subfield>
+    <subfield code="h">Radovitzky, R.</subfield>
+    <subfield code="h">Mauch, S.</subfield>
+    <subfield code="h">Meiron, D.</subfield>
+    <subfield code="t">A virtual test facility for the simulation of dynamic response in materials</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Supercomput.,23,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arienti, M.</subfield>
+    <subfield code="h">Hung, P.</subfield>
+    <subfield code="h">Morano, E.</subfield>
+    <subfield code="h">Shepherd, J.</subfield>
+    <subfield code="t">A level set approach to Eulerian–Lagrangian coupling</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,185,213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Multidimensional upwind methods for hyperbolic conservation laws</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,87,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saltzman, J.</subfield>
+    <subfield code="t">An unsplit 3D upwind method for hyperbolic conservation laws</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,115,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Graves, D.</subfield>
+    <subfield code="h">Ligocki, T.</subfield>
+    <subfield code="h">Martin, D.</subfield>
+    <subfield code="h">Van Straalen, B.</subfield>
+    <subfield code="t">AMR Godunov Unsplit Algorithm and Implementation</subfield>
+    <subfield code="p">Applied Numerical Algorithms Group, NERSC Division, Lawrence Berkeley National Laboratory</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">Tech. rep.</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Level-Set Method and Fast Marching Methods</subfield>
+    <subfield code="p">Cambridge</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">A fourth order accurate discretization for the Laplace and heat equations on arbitrary domains, with applications to the Stefan problem</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,202,577</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Adams, P. Colella, D. Graves, J. Johnson, N. Keen, T. Ligocki, D. Martin, P. McCorquodale, D. Modiano, P. Schwartz, T. Sternberg, B.V. Straalen</subfield>
+    <subfield code="m">Chombo software package for AMR applications design document</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="h">Oliger, J.</subfield>
+    <subfield code="t">Adaptive mesh refinement for hyperbolic partial differential equations</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,53,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Local adaptive mesh refinement for shock hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,82,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rendleman, C.A.</subfield>
+    <subfield code="h">Beckner, V.E.</subfield>
+    <subfield code="h">Lijewski, M.</subfield>
+    <subfield code="h">Crutchfield, W.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="t">Parallelization of structured, hierarchical adaptive mesh refinement algorithms</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Vis.Sci.,3,147</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Al-Marouf, M.</subfield>
+    <subfield code="h">Rapaka, N.R.</subfield>
+    <subfield code="h">Samtaney, R.</subfield>
+    <subfield code="t">An embedded-boundary AMR method for compressible flow in moving complex geometry</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="q">28th International Conference on Parallel Computational Fluid Dynamics</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choi, H.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Grid-point requirements for large-eddy simulation: Chapman's estimates revisited</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Fluids,24,011702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sagaut, P.</subfield>
+    <subfield code="t">Large-Eddy Simulation for Incompressible Flows: An Introduction</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, C.</subfield>
+    <subfield code="t">Vortex dynamics in the cylinder wake</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,28,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, D.</subfield>
+    <subfield code="h">Meinke, M.</subfield>
+    <subfield code="h">Schröder, W.</subfield>
+    <subfield code="t">A strictly conservative Cartesian cut-cell method for compressible viscous flows on adaptive grids</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,1038</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Provansal, M.</subfield>
+    <subfield code="h">Mathis, C.</subfield>
+    <subfield code="h">Boyer, L.</subfield>
+    <subfield code="t">Bénard–von Kármán instability: transient and forced regimes</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Fluid Mech.,182,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tritton, D.</subfield>
+    <subfield code="t">Experiments on the flow past a circular cylinder at low Reynolds numbers</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Fluid Mech.,6,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le, D.</subfield>
+    <subfield code="h">Khoo, B.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">An immersed interface method for viscous incompressible flows involving rigid and flexible boundaries</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,220,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dennis, S.</subfield>
+    <subfield code="h">Chang, G.-Z.</subfield>
+    <subfield code="t">Numerical solutions for steady flow past a circular cylinder at Reynolds numbers up to 100</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Fluid Mech.,42,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coutanceau, M.</subfield>
+    <subfield code="h">Bouard, R.</subfield>
+    <subfield code="t">Experimental determination of the main features of the viscous flow in the wake of a circular cylinder in uniform translation. I. Steady flow</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Fluid Mech.,79,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gautier, R.</subfield>
+    <subfield code="h">Biau, D.</subfield>
+    <subfield code="h">Lamballais, E.</subfield>
+    <subfield code="t">A reference solution of the flow over a circular cylinder at <math altimg="si117.gif" display="inline" overflow="scroll"><mi>R</mi><mi>e</mi><mo>=</mo><mn>40</mn></math></subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Comput.Fluids,75,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taira, K.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">The immersed boundary method: a projection approach</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,225,2118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brehm, C.</subfield>
+    <subfield code="h">Hader, C.</subfield>
+    <subfield code="h">Fasel, H.</subfield>
+    <subfield code="t">A locally stabilized immersed boundary method for the compressible Navier Stokes equations</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,295,475</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.</subfield>
+    <subfield code="h">Kwon, K.</subfield>
+    <subfield code="h">Choi, H.</subfield>
+    <subfield code="t">Numerical solutions of flow past a circular cylinder at Reynolds numbers up to 160</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">KSME Int.J.,12,1200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stålberg, E.</subfield>
+    <subfield code="h">Brüger, A.</subfield>
+    <subfield code="h">Lötstedt, P.</subfield>
+    <subfield code="h">Johansson, A.</subfield>
+    <subfield code="h">Henningson, D.</subfield>
+    <subfield code="t">High order accurate solution of flow past a circular cylinder</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Sci.Comput.,27,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, E.</subfield>
+    <subfield code="h">Wille, R.</subfield>
+    <subfield code="t">Periodic flow phenomena</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,4,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">White, F.</subfield>
+    <subfield code="t">Viscous Fluid Flow</subfield>
+    <subfield code="p">McGraw–Hill New York</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Russell, D.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">A Cartesian grid method for modeling multiple moving objects in 2D incompressible viscous flow</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,191,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, C.</subfield>
+    <subfield code="h">Zheng, X.</subfield>
+    <subfield code="h">Sung, C.</subfield>
+    <subfield code="t">Preconditioned multigrid methods for unsteady incompressible flows</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,139,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kroo, I.</subfield>
+    <subfield code="h">Kunz, P.</subfield>
+    <subfield code="t">Analysis and design of airfoils for use at ultra-low Reynolds numbers</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="q">Fixed and Flapping Wing Aerodynamics for Micro Air Vehicle Applications</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Dong, H.</subfield>
+    <subfield code="h">Bozkurttas, M.</subfield>
+    <subfield code="h">Najjar, F.M.</subfield>
+    <subfield code="h">Vargas, A.</subfield>
+    <subfield code="h">von Loebbecke, A.</subfield>
+    <subfield code="t">A versatile sharp interface immersed boundary method for incompressible flows with complex boundaries</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4825</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, W.</subfield>
+    <subfield code="h">Samtaney, R.</subfield>
+    <subfield code="t">A direct numerical simulation investigation of the synthetic jet frequency effects on separation control of low-re flow past an airfoil</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Phys.Fluids,27,055101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghias, R.</subfield>
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Dong, H.</subfield>
+    <subfield code="t">A sharp interface immersed boundary method for compressible viscous flows</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,225,528</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, S.</subfield>
+    <subfield code="h">Balachandar, R.</subfield>
+    <subfield code="t">On the Inclusion of Three Dimensional Effects in Simulations of Two-Dimensional Bluff Body Wake Flows</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rajani, B.</subfield>
+    <subfield code="h">Kandasamy, A.</subfield>
+    <subfield code="h">Majumdar, S.</subfield>
+    <subfield code="t">Numerical simulation of laminar flow past a circular cylinder</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Appl.Math.Model.,33,1228</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kravchenko, A.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="h">Shariff, K.</subfield>
+    <subfield code="t">B-spline method and zonal grids for simulations of complex turbulent flows</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,151,757</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nam, J.</subfield>
+    <subfield code="h">Lien, F.</subfield>
+    <subfield code="t">A ghost-cell immersed boundary method for large-eddy simulations of compressible turbulent flows</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,28,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, T.</subfield>
+    <subfield code="h">Patel, V.</subfield>
+    <subfield code="t">Flow past a sphere up to a Reynolds number of 300</subfield>
+    <subfield code="v">378</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">J.Fluid Mech.,378,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="t">A Fourier–Chebyshev spectral collocation method for simulating flow past spheres and spheroids</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,30,921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Kim, D.</subfield>
+    <subfield code="h">Choi, H.</subfield>
+    <subfield code="t">An immersed-boundary finite-volume method for simulations of flow in complex geometries</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,171,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dütsch, H.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="h">Becker, S.</subfield>
+    <subfield code="h">Lienhart, H.</subfield>
+    <subfield code="t">Low-Reynolds-number flow around an oscillating circular cylinder at low Keulegan–Carpenter numbers</subfield>
+    <subfield code="v">360</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">J.Fluid Mech.,360,249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guilmineau, E.</subfield>
+    <subfield code="h">Queutey, P.</subfield>
+    <subfield code="t">A numerical simulation of vortex shedding from an oscillating circular cylinder</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">J.Fluids Struct.,16,773</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koochesfahani, M.</subfield>
+    <subfield code="t">Vortical patterns in the wake of an oscillating airfoil</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">AIAA J.,27,1200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramamurti, R.</subfield>
+    <subfield code="h">Sandberg, W.</subfield>
+    <subfield code="t">Simulation of flow about flapping airfoils using finite element incompressible flow solver</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">AIAA J.,39,253</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Young, J.</subfield>
+    <subfield code="h">Lai, J.</subfield>
+    <subfield code="t">Oscillation frequency and amplitude effects on the wake of a plunging airfoil</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">AIAA J.,42,2042</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lai, J.</subfield>
+    <subfield code="h">Platzer, M.</subfield>
+    <subfield code="t">Jet characteristics of a plunging airfoil</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">AIAA J.,37,1529</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.</subfield>
+    <subfield code="t">Finite Volume Methods for Hyperbolic Problems, , vol. 31</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">78</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Glaz, H.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Glass, I.</subfield>
+    <subfield code="h">Deschambault, R.</subfield>
+    <subfield code="t">A numerical study of oblique shock-wave reflections with experimental comparisons</subfield>
+    <subfield code="v">vol. 398</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Graves, D.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Modiano, D.</subfield>
+    <subfield code="h">Johnson, J.</subfield>
+    <subfield code="h">Sjogreen, B.</subfield>
+    <subfield code="h">Gao, X.</subfield>
+    <subfield code="t">A Cartesian grid embedded boundary method for the compressible Navier Stokes equations</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,8,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Tullio, M.</subfield>
+    <subfield code="h">Palma, P.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="h">Pascazio, G.</subfield>
+    <subfield code="h">Napolitano, M.</subfield>
+    <subfield code="t">An immersed boundary method for compressible flows using local grid refinement</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">J.Comput.Phys.,225,2098</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bashkin, V.</subfield>
+    <subfield code="h">Vaganov, A.</subfield>
+    <subfield code="h">Egorov, I.</subfield>
+    <subfield code="h">Ivanov, D.</subfield>
+    <subfield code="h">Ignatova, G.</subfield>
+    <subfield code="t">Comparison of calculated and experimental data on supersonic flow past a circular cylinder</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Fluid Dyn.,37,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nam, J.</subfield>
+    <subfield code="h">Lien, F.</subfield>
+    <subfield code="t">Assessment of ghost-cell based cut-cell method for large-eddy simulations of compressible flows at high Reynolds number</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,53,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bailey, A.</subfield>
+    <subfield code="h">Hiatt, J.</subfield>
+    <subfield code="t">Sphere drag coefficients for a broad range of Mach and Reynolds numbers</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">AIAA J.,10,1436</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grétarsson, J.</subfield>
+    <subfield code="h">Kwatra, N.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Numerically stable fluid–structure interactions between compressible flow and solid structures</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">J.Comput.Phys.,230,3062</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S002199911730147X/S002199911730147X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

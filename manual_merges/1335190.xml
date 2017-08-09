@@ -1,0 +1,874 @@
+<record>
+  <controlfield tag="001">1335190</controlfield>
+  <controlfield tag="005">20150812035621.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">oai:arXiv.org:1412.6426</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">Gonoskov:2014mda</subfield>
+    <subfield code="9">INSPIRETeX</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">arXiv:1412.6426</subfield>
+    <subfield code="c">physics.plasm-ph</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Gonoskov, A.</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Extending PIC schemes for the study of physics in ultra-strong laser fields</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">2014-12-19</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">*Brief entry*</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Progress in laser technology has opened up possibilities using intense light to probe fundamental physics of ultra-strong electromagnetic fields. A commensurate interest has arisen in large-scale numerical simulations of laser-matter interactions, and here we describe the extension of particle-in-cell (PIC) schemes to account for strong field phenomena. We describe here the numerical implementation of strong-field processes such as quantized emission and electron-positron pair production, and provide solutions for related methodological and algorithmic problems of radiation double counting, low-energy cutoffs in particle emission, memory overload due to cascades of particle production, control of computational costs for statistical routines, and the limitations on time steps due to the quantized nature of emission. We also present a unified technical interface for including the processes of interest in different PIC implementations. The PIC codes PICADOR and ELMIS, which support this interface, are briefly reviewed.</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://arxiv.org/licenses/nonexclusive-distrib/1.0/</subfield>
+    <subfield code="b">arXiv</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="a">arxiv</subfield>
+    <subfield code="c">OAI</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="9">CERN</subfield>
+    <subfield code="a">CDS-1978376</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">physics.plasm-ph</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">General Physics</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bastrakov, S.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Efimenko, E.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ilderton, A.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Marklund, M.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Meyerov, I.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Muraviev, A.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Surmin, I.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wallin, E.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">2351393</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/arXiv:1412.6426.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">108106</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/elmis.png</subfield>
+    <subfield code="y">00015 General scheme of data processing and transferring of ELMIS code.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">11288</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyCascade-i-kod.png</subfield>
+    <subfield code="y">00006 A (greatly simplified) illustration of cascade formation from a seed electron in a PIC simulation. At each time step, fermions can emit photons (or not) and photons can produce pairs (or not). All particles are real.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">17304</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/StandingWave.png</subfield>
+    <subfield code="y">00012 Number of particles produced in an avalanche-type cascade, as a function of time. The avalanche is initiated by an electron ($x = \lambda/8$ at $t = 0$) with $p_y = 1000 mc$ in a plane standing wave defined in the form $E_y (t = 0) = 10^{-2} E_S \sin(2\pi x/\lambda)$ ($\lambda = 1 \mu$m). The results are obtained from an AEG implementation with $dt = 0.17 t_{rad}$ (thin red curve) and $dt = 173 t_{rad}$ (red squares).</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">18919</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/discreetness.png</subfield>
+    <subfield code="y">00008 Regions of qualitatively different effect of electron individual emission on its motion. Fundamental values of Schwinger limit, Compton wavelength and intensity threshold of relativistic motion of electrons are shown with solid lines. Some experimental capabilities are shown with red (ultraintense lasers) and green (laser pulse collision with external electron beam, SLAC experiment E144 \cite{burke.prl.1997}) lines.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">22011</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/picmdk_acc.png</subfield>
+    <subfield code="y">00013 Description of the PIC data access structure of the PIC-MDK interface. \texttt{FP} is a type for floating point operations (can be either \texttt{float} or \texttt{double}). \texttt{FP3} and \texttt{Int3} are types for arrays of three variables.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">41723</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/Scheme.png</subfield>
+    <subfield code="y">00007 Extension of the PIC approach for taking into account novel channels of energy transformation that could be triggered by laser fields of extreme intensity.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">4296</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyAbsorp.png</subfield>
+    <subfield code="y">00004 Feynman diagrams for the two basic processes neglected in the PIC approach: pair annihilation to one photon  (left) and single photon absorption (right). Time flows from left to right.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">4324</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyNLC.png</subfield>
+    <subfield code="y">00001 Feynman diagrams for the two basic processes included in the PIC approach.  Time flows from left to right. A straight line indicates an electron or positron interacting with an external field (e.g.\ an intense laser), and a wavy line is a photon.  {\it Left:} nonlinear Compton scattering. {\it Right:} stimulated pair production.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">4439</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyStim.png</subfield>
+    <subfield code="y">00002 Feynman diagrams for the two basic processes included in the PIC approach.  Time flows from left to right. A straight line indicates an electron or positron interacting with an external field (e.g.\ an intense laser), and a wavy line is a photon.  {\it Left:} nonlinear Compton scattering. {\it Right:} stimulated pair production.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">4465</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyParAn.png</subfield>
+    <subfield code="y">00003 Feynman diagrams for the two basic processes neglected in the PIC approach: pair annihilation to one photon  (left) and single photon absorption (right). Time flows from left to right.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">45764</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/EM_dep-1.png</subfield>
+    <subfield code="y">00000 Schematic representation of the typical EM-energy deposition.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">49226</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/anguelov_elkina.png</subfield>
+    <subfield code="y">00010 Comparison of the number of particles produced in a cascade, under the conditions of the first test problem described in the text and in~\cite{anguelov.jpg.1999, elkina.prstab.2011}. The plot shows the number of produced particles with energy exceeding 0.1\% of the initial electron's energy, as a function of time. We show the results of~\cite{anguelov.jpg.1999} (gray heavy curve), \cite{elkina.prstab.2011} (dark gray curve) and of our implementation for the adaptive event generator (AEG) with small (thin red curve) and large (red squares) time steps. We find excellent agreement.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">5092</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/NyTrident.png</subfield>
+    <subfield code="y">00005 Pair production from a seed electron. The intermediate photon may be real or virtual.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">57868</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/ridgers_fig2.png</subfield>
+    <subfield code="y">00011 Particle distribution functions: comparison of our AEG implementation (thin red curves) with the results of \cite{ridgers.jcp.2014} (gray heavy curves).</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">67937</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/generators.png</subfield>
+    <subfield code="y">00009 The emission spectrum for $\gamma = 100$, $\chi = 1$, obtained from the exact expression (\ref{Iw_q}) (gray) and from running various event generators; the traditional event generator with a cutoff (green), the alternative event generator (blue and purple), and our modified event generator (red). Clearly the modified event generator gives excellent agreement with the analytic result.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">73853</subfield>
+    <subfield code="u">http://inspirehep.net/record/1335190/files/pfft.png</subfield>
+    <subfield code="y">00014 PFFT scalability for different supercomputers measured in 2011.</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:inspirehep.net:1335190</subfield>
+    <subfield code="p">INSPIRE:HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">arXiv</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="h">John M. Dawson</subfield>
+    <subfield code="m">Particle simulation of plasmas</subfield>
+    <subfield code="s">Rev.Mod.Phys.,55,403-447</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="0">198972</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="h">F. Peano, M. Marti, L. Silva, and G. Coppa</subfield>
+    <subfield code="m">Statistical kinetic treatment of relativistic binary collisions</subfield>
+    <subfield code="s">Phys.Rev.,E79,025701</subfield>
+    <subfield code="y">2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="h">M. Chen, E. Cormier-Michel, C. G. R. Geddes, D. L. Bruhwiler, L. L. Yu, E. Esarey, C. B. Schroeder, and W. P. Leemans</subfield>
+    <subfield code="m">Numerical modeling of laser tunneling ionization in explicit particle-in-cell codes</subfield>
+    <subfield code="s">J.Comput.Phys.,236,220-228</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">M Tamburini, F Pegoraro, A Di Piazza, C H Keitel, and A Macchi</subfield>
+    <subfield code="m">Radiation reaction effects on radiation pressure acceleration</subfield>
+    <subfield code="s">New J.Phys.,12,123005</subfield>
+    <subfield code="y">2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="m">Min Chen, Alexander Pukhov, Tong-Pu Yu, and ZhengMing Sheng. Radiation reaction effects on ion acceleration in laser foil interaction. Plasma Physics and Controlled Fusion, 53(1):014004</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">E. N. Nerush, I. Yu</subfield>
+    <subfield code="m">Kostyukov, A. M. Fedotov, N. B. Narozhny, N. V Elkina, and H. Ruhl. Laser field absorption in self-generated electron-positron pair plasma</subfield>
+    <subfield code="s">Phys.Rev.Lett.,106,035001</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">875360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">7</subfield>
+    <subfield code="h">N. V. Elkina, A. M. Fedotov, I. Yu</subfield>
+    <subfield code="m">Kostyukov, M. V. Legkov, N. B. Narozhny, E. N Nerush, and H. Ruhl. Qed cascades induced by circularly polarized laser fields</subfield>
+    <subfield code="s">Phys.Rev.ST Accel.Beams,14,054401</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">873594</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">8</subfield>
+    <subfield code="h">Igor V. Sokolov, Natalia M. Naumova, and John A. Nees</subfield>
+    <subfield code="m">Numerical modeling of radiation-dominated and quantum-electrodynamically strong regimes of laserplasma interaction. Physics of Plasmas, 18(9):-</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">9</subfield>
+    <subfield code="h">C.P. Ridgers, J.G. Kirk, R. Duclous, T.G. Blackburn, C.S. Brady, K. Bennett, T.D. Arber, and A.R. Bell</subfield>
+    <subfield code="m">Modelling gamma-ray photon emission and pair production in high-intensity lasermatter interactions</subfield>
+    <subfield code="s">J.Comput.Phys.,260,273-285</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">10</subfield>
+    <subfield code="m">ELI: www.extreme-light infrastructure.eu</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">11</subfield>
+    <subfield code="m">XCELS: www.xcels.iapras.ru</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">12</subfield>
+    <subfield code="m">GekkoEXA:</subfield>
+    <subfield code="u">http://www.ile.osaka-u.ac.jp/GekkoEXA/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">13</subfield>
+    <subfield code="m">Arkady Gonoskov. Ultra-intense laser-plasma interaction for applied and fundamental physics. PhD thesis, Umea University</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">14</subfield>
+    <subfield code="h">S. Bastrakov, R. Donchenko, A. Gonoskov, E. Efimenko, A. Malyshev, Meyerov. I., and I. Surmin</subfield>
+    <subfield code="m">Particle-incell plasma simulation on heterogeneous cluster systems. Journal of Computational</subfield>
+    <subfield code="s">Science,3,474-479</subfield>
+    <subfield code="y">2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">15</subfield>
+    <subfield code="h">L. D. Landau and E. M. Lifshitz</subfield>
+    <subfield code="m">The classical theory of fields Oxford</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">1975</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">16</subfield>
+    <subfield code="h">T. Baeva, S. Gordienko, and A. Pukhov</subfield>
+    <subfield code="m">Theory of highorder harmonic generation in relativistic laser interaction with overdense plasma. Phys. Rev. E 74(4):046404, Oct</subfield>
+    <subfield code="y">2006</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">17</subfield>
+    <subfield code="h">A. A. Gonoskov, A. V. Korzhimanov, A. V. Kim, M. Marklund, and A. M. Sergeev</subfield>
+    <subfield code="m">Ultrarelativistic nanoplasmonics as a route towards extreme-intensity attosecond pulses</subfield>
+    <subfield code="s">Phys.Rev.,E84,046403</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">18</subfield>
+    <subfield code="h">T.D. Newton and Eugene P. Wigner</subfield>
+    <subfield code="m">Localized States for Elementary Systems</subfield>
+    <subfield code="s">Rev.Mod.Phys.,21,400-406</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="0">26317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">19</subfield>
+    <subfield code="h">H. Lehmann, K. Symanzik, and W. Zimmermann</subfield>
+    <subfield code="m">On the formulation of quantized field theories</subfield>
+    <subfield code="s">Nuovo Cim.,1,205-225</subfield>
+    <subfield code="y">1955</subfield>
+    <subfield code="0">3553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">20</subfield>
+    <subfield code="h">H. Lehmann, K. Symanzik, and W. Zimmermann</subfield>
+    <subfield code="m">On the formulation of quantized field theories. II</subfield>
+    <subfield code="s">Nuovo Cim.,6,319-333</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="0">863793</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">21</subfield>
+    <subfield code="h">A. I. Nikishov and V. I. Ritus</subfield>
+    <subfield code="m">Quantum processes in the field of a plane electromagnetic wave and in a constant field, 1</subfield>
+    <subfield code="s">Sov.Phys.JETP,19,529</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="0">48512</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">22</subfield>
+    <subfield code="h">V.I. Ritus</subfield>
+    <subfield code="m">Quantum effects of the interaction of elementary particles with an intense electromagnetic field</subfield>
+    <subfield code="s">J.Russ.Laser Res.,6,497-617</subfield>
+    <subfield code="y">1985</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">23</subfield>
+    <subfield code="h">Kenneth G. Wilson</subfield>
+    <subfield code="m">Confinement of quarks</subfield>
+    <subfield code="s">Phys.Rev.,D10,2445-2459</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="0">89145</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">24</subfield>
+    <subfield code="h">John B. Kogut</subfield>
+    <subfield code="m">An Introduction to Lattice Gauge Theory and Spin Systems</subfield>
+    <subfield code="s">Rev.Mod.Phys.,51,659</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="0">140498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">25</subfield>
+    <subfield code="h">B. King, N. Elkina, and H. Ruhl</subfield>
+    <subfield code="m">Photon polarisation in electron-seeded pair-creation cascades</subfield>
+    <subfield code="s">Phys.Rev.,A87,042117</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1216692</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">26</subfield>
+    <subfield code="h">C.N. Harvey, A. Ilderton, and B. King</subfield>
+    <subfield code="m">Testing numerical implementations of strong field electrodynamics</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">27</subfield>
+    <subfield code="h">A. I. Nikishov and V. I. Ritus</subfield>
+    <subfield code="m">Quantum processes in the field of a plane electromagnetic wave and in a constant field</subfield>
+    <subfield code="s">Sov.Phys.JETP,19,1191</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="0">48513</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">28</subfield>
+    <subfield code="h">John D. Jackson</subfield>
+    <subfield code="m">Classical Electrodynamics Third Edition third edition, August</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">1998</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">29</subfield>
+    <subfield code="h">C. Harvey, T. Heinzl, and A. Ilderton</subfield>
+    <subfield code="m">Signatures of HighIntensity Compton Scattering</subfield>
+    <subfield code="s">Phys.Rev.,A79,063407</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="0">816161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">30</subfield>
+    <subfield code="h">T. Heinzl, D. Seipt, and B. Kampfer</subfield>
+    <subfield code="m">Beam-Shape Effects in Nonlinear Compton and Thomson Scattering</subfield>
+    <subfield code="s">Phys.Rev.,A81,022125</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">836437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">31</subfield>
+    <subfield code="h">M Boca and V. Florescu</subfield>
+    <subfield code="m">Nonlinear Compton scattering with a laser pulse</subfield>
+    <subfield code="s">Phys.Rev.,A80,053403</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="0">875174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">32</subfield>
+    <subfield code="h">F. Mackenroth and A. Di Piazza</subfield>
+    <subfield code="m">Nonlinear Compton scattering in ultra-short laser pulses</subfield>
+    <subfield code="s">Phys.Rev.,A83,032106</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">874974</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">33</subfield>
+    <subfield code="m">Victor Dinu. Exact final state integrals for strong field QED</subfield>
+    <subfield code="s">Phys.Rev.,A87,052101</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1217891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">34</subfield>
+    <subfield code="h">A. Higuchi and G.D.R. Martin</subfield>
+    <subfield code="m">Radiation reaction on charged particles in three-dimensional motion in classical and quantum electrodynamics</subfield>
+    <subfield code="s">Phys.Rev.,D73,025019</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="0">694826</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">35</subfield>
+    <subfield code="h">A. Di Piazza, K.Z. Hatsagortsyan, and C.H. Keitel</subfield>
+    <subfield code="m">Quantum radiation reaction effects in multiphoton Compton scattering</subfield>
+    <subfield code="s">Phys.Rev.Lett.,105,220403</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">863357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">36</subfield>
+    <subfield code="h">A. Di Piazza, C. Muller, K.Z. Hatsagortsyan, and C.H. Keitel</subfield>
+    <subfield code="m">Extremely high-intensity laser interactions with fundamental quantum systems</subfield>
+    <subfield code="s">Rev.Mod.Phys.,84,1177</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="0">946129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">37</subfield>
+    <subfield code="h">A. Ilderton and G. Torgrimsson</subfield>
+    <subfield code="m">Radiation reaction in strong field QED</subfield>
+    <subfield code="s">Phys.Lett.,B725,481</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1216538</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">38</subfield>
+    <subfield code="h">V.S. Krivitsky and V.N. Tsytovich</subfield>
+    <subfield code="m">Average radiation reaction force in quantum electrodynamics</subfield>
+    <subfield code="s">Sov.Phys.Usp.,34,250-258</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="0">324002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">39</subfield>
+    <subfield code="h">A. Ilderton and G. Torgrimsson</subfield>
+    <subfield code="m">Radiation reaction from QED: lightfront perturbation theory in a plane wave background</subfield>
+    <subfield code="s">Phys.Rev.,D88,025021</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1230349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">40</subfield>
+    <subfield code="m">John Sampson Toll. The Dispersion relation for light and its application to problems involving electron pairs</subfield>
+    <subfield code="y">1952</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">41</subfield>
+    <subfield code="m">Thomas Erber. High-energy electromagnetic conversion processes in intense magnetic fields</subfield>
+    <subfield code="s">Rev.Mod.Phys.,38,626-659</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="0">50031</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">42</subfield>
+    <subfield code="h">V.N. Baier and V.M. Katkov</subfield>
+    <subfield code="m">Pair creation by a photon in an electric field</subfield>
+    <subfield code="s">Phys.Lett.,A374,2201-2206</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">841352</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">43</subfield>
+    <subfield code="m">Thomas Heinzl and Oliver Schroeder. Large orders in strong-field QED</subfield>
+    <subfield code="s">J.Phys.,A39,11623-11646</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="0">716836</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">44</subfield>
+    <subfield code="m">Thomas Heinzl, Anton Ilderton, and Mattias Marklund. Finite size effects in stimulated laser pair production</subfield>
+    <subfield code="s">Phys.Lett.,B692,250-256</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">846437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">45</subfield>
+    <subfield code="h">T. Nousch, D. Seipt, B. Kampfer, and A.I. Titov</subfield>
+    <subfield code="m">Pair production in short laser pulses near threshold</subfield>
+    <subfield code="s">Phys.Lett.,B715,246-250</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="0">1188584</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">46</subfield>
+    <subfield code="h">M. Derrick, K. K. Gan, P. Kooijman, J. S. Loos, B. Musgrave, L. E. Price, J. Schlereth, K. Sugano, J. M. Weiss, D. E. Wood, D. Blockus, B. Brabson, S. W. Gray, C. Jung, H. Neal, H. Ogren, D. R. Rust, M. ValdataNappi, C. Akerlof, G. Bonvicini, J. Chapman, D. Errede, N. Harnew, P. Kesten, D. I. Meyer, D. Nitz, A. A. Seidl, R. Thun, T. Trinko, M. Willutzky, S. Abachi, P. Baringer, I. Beltrami, B. G. Bylsma, R. DeBonte, D. Koltick, F. J. Loeffler, E. H. Low, U. Mallik, R. L. McIlwain, D. H. Miller, C. R. Ng, L. K. Rangan, E. I. Shibata, and B. Cork</subfield>
+    <subfield code="m">Experimental study of the reactions e+ e- →e+ e- and e+ e- →γγ at 29 gev</subfield>
+    <subfield code="s">Phys.Rev.,D34,3286-3303</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="0">18585</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">47</subfield>
+    <subfield code="h">A.I. Voroshilo, E.A. Padusenko, and S.P. Roshchupkin</subfield>
+    <subfield code="m">One-photon annihilation of an electron-positron pair in the field of pulsed circularly polarized light wave</subfield>
+    <subfield code="s">Laser Phys.,20,1679-1685</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">857051</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">48</subfield>
+    <subfield code="h">A. F. Hartin</subfield>
+    <subfield code="m">Second Order QED processes in an intense electromagnetic field (Ph.D. thesis)</subfield>
+    <subfield code="y">2006</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">49</subfield>
+    <subfield code="h">H. Hu, C. Muller, and C.H. Keitel</subfield>
+    <subfield code="m">Complete QED theory of multiphoton trident pair production in strong laser fields</subfield>
+    <subfield code="s">Phys.Rev.Lett.,105,080401</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">845867</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">50</subfield>
+    <subfield code="h">A. Ilderton</subfield>
+    <subfield code="m">Trident pair production in strong laser pulses</subfield>
+    <subfield code="s">Phys.Rev.Lett.,106,020404</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">878166</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">51</subfield>
+    <subfield code="h">D. Seipt and B. Kampfer</subfield>
+    <subfield code="m">Two-photon Compton process in pulsed intense laser fields</subfield>
+    <subfield code="s">Phys.Rev.,D85,101701</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="0">1085205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">52</subfield>
+    <subfield code="h">F. Mackenroth and A. Di Piazza</subfield>
+    <subfield code="m">Nonlinear Double Compton Scattering in the Ultrarelativistic Quantum Regime</subfield>
+    <subfield code="s">Phys.Rev.Lett.,110,070402</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1127732</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">53</subfield>
+    <subfield code="h">B. King and H. Ruhl</subfield>
+    <subfield code="m">Trident pair production in a constant crossed field</subfield>
+    <subfield code="s">Phys.Rev.,D88,013005</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1222690</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">54</subfield>
+    <subfield code="h">V. N. Baier, V. M. Katkov, and V. M. Strakhovenko</subfield>
+    <subfield code="m">Higher order effects in external field: pair production by a particle. Soviet Phys</subfield>
+    <subfield code="s">Nucl.Phys.,14,572</subfield>
+    <subfield code="y">1972</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">55</subfield>
+    <subfield code="h">V.I. Ritus</subfield>
+    <subfield code="m">Vacuum polarization correction to elastic electron and muon scattering in an intense field and pair electro- and muoproduction</subfield>
+    <subfield code="s">Nucl.Phys.,B44,236-252</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="0">75030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">56</subfield>
+    <subfield code="h">A.M. Fedotov, N.B. Narozhny, G. Mourou, and G. Korn</subfield>
+    <subfield code="m">Limitations on the attainable intensity of high power lasers</subfield>
+    <subfield code="s">Phys.Rev.Lett.,105,080402</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">853658</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">57</subfield>
+    <subfield code="m">Erik Wallin, Arkady Gonoskov, and Mattias Marklund. Effects of high energy photon emissions in laser generated ultra-relativistic plasmas: Real-time synchrotron simulations. Physics of Plasmas, 22(3):-</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">58</subfield>
+    <subfield code="h">V.I. Ritus</subfield>
+    <subfield code="m">Radiative corrections in quantum electrodynamics with intense field and their analytical properties</subfield>
+    <subfield code="s">Annals Phys.,69,555-582</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="0">78590</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">59</subfield>
+    <subfield code="h">M. Chen, E. Esarey, C. G. R. Geddes, C. B. Schroeder, G. R. Plateau, S. S. Bulanov, S. Rykovanov, and W. P. Leemans</subfield>
+    <subfield code="m">Modeling classical and quantum radiation from laser-plasma accelerators</subfield>
+    <subfield code="s">Phys.Rev.ST Accel.Beams,16,030701</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1247865</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">60</subfield>
+    <subfield code="h">V. B. Berestetskii, E. M. Lifshitz, and L. P. Pitaevskii</subfield>
+    <subfield code="m">Relativistic quantum theory.. Trans. from the Russian</subfield>
+    <subfield code="y">1971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">61</subfield>
+    <subfield code="h">D. L. Burke, R. C. Field, G. Horton-Smith, J. E. Spencer, D. Walz, S. C. Berridge, W. M. Bugg, K. Shmakov, A. W. Weidemann, C. Bula, K. T. McDonald, E. J. Prebys, C. Bamber, S. J. Boege, T. Koffas, T. Kotseroglou, A. C. Melissinos, D. D. Meyerhofer, D. A. Reis, and W. Ragg</subfield>
+    <subfield code="m">Positron production in multiphoton light-by-light scattering</subfield>
+    <subfield code="s">Phys.Rev.Lett.,79,1626-1629</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="0">445102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">62</subfield>
+    <subfield code="h">A. I. Nikishov and V. I. Ritus</subfield>
+    <subfield code="m">Pair production by a photon and photon emission by an electron in the field of an intense electromagnetic wave and in a constant field</subfield>
+    <subfield code="s">Sov.Phys.JETP,25,1135</subfield>
+    <subfield code="y">1967</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">63</subfield>
+    <subfield code="h">V. N. Baier and V. M. Katkov</subfield>
+    <subfield code="m">Quantum effects in magnetic bremsstrahlung</subfield>
+    <subfield code="s">Phys.Lett.,A25,492-493</subfield>
+    <subfield code="y">1967</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">64</subfield>
+    <subfield code="h">V. N. Baier and V. M. Katkov</subfield>
+    <subfield code="m">Processes involved in the motion of high energy particles in a magnetic field</subfield>
+    <subfield code="s">Sov.Phys.JETP,26,854</subfield>
+    <subfield code="y">1968</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">65</subfield>
+    <subfield code="h">R. Duclous, J. G. Kirk, and A. R. Bell</subfield>
+    <subfield code="m">Monte carlo calculations of pair production in high-intensity laserplasma interactions. Plasma Physics and Controlled Fusion, 53(1):015009</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">66</subfield>
+    <subfield code="h">A. Gonoskov, A. Bashinov, I. Gonoskov, C. Harvey, A. Ilderton, A. Kim, M. Marklund, G. Mourou, and A. Sergeev</subfield>
+    <subfield code="m">Anomalous radiative trapping in laser fields of extreme intensity</subfield>
+    <subfield code="s">Phys.Rev.Lett.,113,014801</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="0">1246908</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">67</subfield>
+    <subfield code="m">Fritz Sauter. Uber das Verhalten eines Elektrons im homogenen elektrischen Feld nach der relativistischen Theorie Diracs</subfield>
+    <subfield code="s">Z.Phys.,69,742-764</subfield>
+    <subfield code="y">1931</subfield>
+    <subfield code="0">45463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">68</subfield>
+    <subfield code="h">W. Heisenberg and H. Euler</subfield>
+    <subfield code="m">Consequences of Dirac’s theory of positrons</subfield>
+    <subfield code="s">Z.Phys.,98,714-732</subfield>
+    <subfield code="y">1936</subfield>
+    <subfield code="0">9113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">69</subfield>
+    <subfield code="h">Julian S. Schwinger</subfield>
+    <subfield code="m">On gauge invariance and vacuum polarization</subfield>
+    <subfield code="s">Phys.Rev.,82,664-679</subfield>
+    <subfield code="y">1951</subfield>
+    <subfield code="0">113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">70</subfield>
+    <subfield code="h">Thomas D. Cohen and David A. McGady</subfield>
+    <subfield code="m">The Schwinger mechanism revisited</subfield>
+    <subfield code="s">Phys.Rev.,D78,036008</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="0">790134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">71</subfield>
+    <subfield code="h">A.I Nikishov</subfield>
+    <subfield code="m">Barrier scattering in field theory removal of klein paradox</subfield>
+    <subfield code="s">Nucl.Phys.,B21,346-358</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="0">62452</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">72</subfield>
+    <subfield code="h">A. N. Timokhin</subfield>
+    <subfield code="m">Time-dependent pair cascades in magnetospheres of neutron stars i. dynamics of the polar cap cascade with no particle supply from the neutron star surface</subfield>
+    <subfield code="s">Mon.Not.Roy.Astron.Soc.,408,2092-2114</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">858173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">73</subfield>
+    <subfield code="m">Giovanni Lapenta and Jeremiah U. Brackbill. Dynamic and selective control of the number of particles in kinetic plasma simulations</subfield>
+    <subfield code="s">J.Comput.Phys.,115,213-227</subfield>
+    <subfield code="y">1994</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">74</subfield>
+    <subfield code="m">Giovanni Lapenta. Particle rezoning for multidimensional kinetic particle-in-cell simulations</subfield>
+    <subfield code="s">J.Comput.Phys.,181,317-337</subfield>
+    <subfield code="y">2002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">75</subfield>
+    <subfield code="h">M. Vranic, T. Grismayer, J. L. Martins, R. A. Fonseca, and L. O. Silva</subfield>
+    <subfield code="m">Particle merging algorithm for pic codes. arXiv, pages</subfield>
+    <subfield code="r">arXiv:1411.2248 [physics.plasm-ph]</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">76</subfield>
+    <subfield code="h">V Anguelov and H Vankov</subfield>
+    <subfield code="m">Electromagnetic showers in a strong magnetic field. Journal of Physics G: Nuclear and Particle</subfield>
+    <subfield code="s">Physics,25,1755</subfield>
+    <subfield code="y">1999</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">77</subfield>
+    <subfield code="h">N.B. Mironov</subfield>
+    <subfield code="m">A.A.and Narozhny and A.M. Fedotov. Collapse and revival of electromagnetic cascades in focused intense laser pulses. arXiv, page</subfield>
+    <subfield code="r">arXiv:1407.6760</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="0">1308109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">78</subfield>
+    <subfield code="h">J. G. Kirk, A. R. Bell, and I. Arka</subfield>
+    <subfield code="m">Pair production in counter-propagating laser beams. Plasma Physics and Controlled Fusion, 51(8):085008</subfield>
+    <subfield code="y">2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">79</subfield>
+    <subfield code="h">Gerald V. Dunne</subfield>
+    <subfield code="m">New Strong-Field QED Effects at ELI: Nonperturbative Vacuum Pair Production</subfield>
+    <subfield code="s">Eur.Phys.J.,D55,327-340</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="0">805516</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">80</subfield>
+    <subfield code="m">Thomas Heinzl, Anton Ilderton, and Mattias Marklund. Laser intensity effects in noncommutative QED</subfield>
+    <subfield code="s">Phys.Rev.,D81,051902</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">830275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">81</subfield>
+    <subfield code="m">Joerg Jaeckel and Andreas Ringwald. The Low-Energy Frontier of Particle Physics</subfield>
+    <subfield code="s">Ann.Rev.Nucl.Part.Sci.,60,405-437</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">844550</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">82</subfield>
+    <subfield code="m">Javier Redondo and Andreas Ringwald. Light shining through walls</subfield>
+    <subfield code="s">Contemp.Phys.,52,211-236</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">877462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">83</subfield>
+    <subfield code="m">Selym Villalba-Chavez and Antonino Piazza. Axioninduced birefringence effects in laser driven nonlinear vacuum interaction</subfield>
+    <subfield code="s">JHEP,1311,136</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1245271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">84</subfield>
+    <subfield code="h">K. Yee</subfield>
+    <subfield code="m">Numerical solution of inital boundary value problems involving maxwell’s equations in isotropic media Transactions on Antennas and Propagation, 14:302-307, May</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">1966</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">85</subfield>
+    <subfield code="h">A. Gonoskov</subfield>
+    <subfield code="m">High energy proton beam generation with superintense laser pulses: solid target optimization with fft base parallel pic code. Proc. 21st International Conference on Numerical Simulation of Plasmas (ICNSP’09), Lisbon, Portugal, Oct. 6-9</subfield>
+    <subfield code="y">2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">86</subfield>
+    <subfield code="h">A. Korzhimanov and A. Gonoskov</subfield>
+    <subfield code="m">High energy proton beam generation with superintense laser pulses: solid target optimization with fft base parallel pic code. 22st International Conference on Numerical Simulation of Plasmas (ICNSP’11), Long Branch, NJ, USA, September 7- 9</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">87</subfield>
+    <subfield code="h">A. Gonoskov, I. Gonoskov, C. Harvey, A. Ilderton, A. Kim, M. Marklund, G. Mourou, and A. Sergeev</subfield>
+    <subfield code="m">Probing nonperturbative qed with optimally focused laser pulses</subfield>
+    <subfield code="s">Phys.Rev.Lett.,111,060404</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1220258</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">88</subfield>
+    <subfield code="h">A. A. Gonoskov, I. A. Gonoskov, and A. N. Demidov</subfield>
+    <subfield code="m">Fast fourier transform in parallel calculations. Abstracts of VI Int. Congress on Mathematical Modeling, N Novgorod, Sept. 20-26, page 43</subfield>
+    <subfield code="y">2004</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">89</subfield>
+    <subfield code="h">A. A. Gonoskov, A. V. Korzhimanov, V. I. Eremin, A. V. Kim, and A. M. Sergeev</subfield>
+    <subfield code="m">Multicascade proton acceleration by a superintense laser pulse in the regime of relativistically induced slab transparency</subfield>
+    <subfield code="s">Phys.Rev.Lett.,102,184801</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="0">800359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">90</subfield>
+    <subfield code="h">A.A. Soloviev, K.F. Burdonov, V.N. Ginzburg, A.A. Gonoskov, E.V. Katin, A.V. Kim, A.V. Kirsanov, A.V. Korzhimanov, I.Yu</subfield>
+    <subfield code="m">Kostyukov, V.V. Lozhkarev, G.A. Luchinin, A.N. Mal’shakov, M.A. Martyanov, E.N. Nerush, O.V. Palashov, A.K. Poteomkin, A.M. Sergeev, A.A. Shaykin, M.V. Starodubtsev, I.V. Yakovlev, V.V Zelenogorsky, and E.A. Khazanov. Fast electron generation using pw-class pearl facility. Nuclear Instruments and Methods in Physics Research Section A : Accelerators, Spectrometers, Detectors and Associated Equipment, In Press, Corrected Proof:-</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">91</subfield>
+    <subfield code="h">M. Burza, A. Gonoskov, K. Svensson, F. Wojda, A. Persson, M. Hansson, G. Genoud, M. Marklund, C.-G. Wahlström, and O. Lundh</subfield>
+    <subfield code="m">Laser wakefield acceleration using wire produced double density ramps</subfield>
+    <subfield code="s">Phys.Rev.ST Accel.Beams,16,011301</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="0">1216952</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">92</subfield>
+    <subfield code="m">Peicheng Yu, Xinlu Xu Weiming An, Jorge Vieira, Frank S. Tsung, Ricardo A. Fonseca Wei Lu, Luis O. Silva, and Warren B. Mori Modeling of laser wakefield acceleration in lorentz boosted frame using empic code with spectral solver. arXiv, page</subfield>
+    <subfield code="h">Viktor K. Decyk</subfield>
+    <subfield code="r">arXiv:1310.2622</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">93</subfield>
+    <subfield code="m">Jean-Luc Vay, Irving Haber, and Brendan B. Godfrey. A domain decomposition method for pseudo-spectral electromagnetic simulations of plasmas</subfield>
+    <subfield code="s">J.Comput.Phys.,243,260-268</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">94</subfield>
+    <subfield code="h">S. Bastrakov, I. Meyerov, I. Surmin, E. Efimenko, A. Gonoskov, A. Malyshev, and M. Shiryaev</subfield>
+    <subfield code="m">Particlein-cell plasma simulation on CPUs, GPUs and Xeon Phi coprocessors. Lecture Notes in Computer Science, 8488 LNCS, pages 513-514, July</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">95</subfield>
+    <subfield code="h">R. A. Fonseca, J. Vieira, F. Fiuza, A. Davidson, F. S. Tsung, W. B. Mori, and L. O. Silva</subfield>
+    <subfield code="m">Exploiting multiscale parallelism for large scale numerical modelling of laser wakefield accelerators. Plasma Physics and Controlled Fusion, 55</subfield>
+    <subfield code="y">2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">96</subfield>
+    <subfield code="h">V. K. Decyk and T. V. Singh</subfield>
+    <subfield code="m">Particle-in-cell algorithms for emerging computer architectures</subfield>
+    <subfield code="s">Comput.Phys.Commun.,185,708-719</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">97</subfield>
+    <subfield code="h">H. Burau, R. Widera, W. Honig, G. Juckeland, A. Debus, T. Kluge, U. Schramm, T. E. Cowan, R. Sauerbrey, and M. Bussmann</subfield>
+    <subfield code="m">Picongpu: A fully relativistic particle-incell code for a gpu cluster</subfield>
+    <subfield code="s">IEEE Trans.Plasma Sci.,38,2831-2839</subfield>
+    <subfield code="y">2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-1-1-0-0-0</subfield>
+    <subfield code="t">2015-08-12 03:43:30</subfield>
+    <subfield code="v">Invenio/1.1.2.1260-aa76f refextract/1.5.44</subfield>
+    <subfield code="v">content.pdf;2</subfield>
+  </datafield>
+</record>

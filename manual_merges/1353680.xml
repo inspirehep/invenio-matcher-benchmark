@@ -1,0 +1,171 @@
+<record>
+  <controlfield tag="001">1353680</controlfield>
+  <controlfield tag="005">20150323073531.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">oai:arXiv.org:1503.06182</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">Campbell:2015qma</subfield>
+    <subfield code="9">INSPIRETeX</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">arXiv:1503.06182</subfield>
+    <subfield code="c">physics.comp-ph</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">FERMILAB-PUB-15-043-T</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Campbell, John M.</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A Multi-Threaded Version of MCFM</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">2015-03-20</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">7 pages, 3 figures, MCFM-7.0 which runs under the OpenMP protocol as described in this paper can be downloaded from http://mcfm.fnal.gov</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">*Temporary entry*</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We report on our findings modifying MCFM using OpenMP to implement multi-threading. By using OpenMP, the modified MCFM will execute on any processor, automatically adjusting to the number of available threads. We modified the integration routine VEGAS to distribute the event evaluation over the threads, while combining all events at the end of every iteration to optimize the numerical integration. Special care has been taken that the results of the Monte Carlo integration are independent of the number of threads used, to facilitate the validation of the OpenMP version of MCFM.</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://arxiv.org/licenses/nonexclusive-distrib/1.0/</subfield>
+    <subfield code="b">arXiv</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="a">arxiv</subfield>
+    <subfield code="c">OAI</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">physics.comp-ph</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Computing</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">cs.DC</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">cs.MS</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">hep-ph</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Phenomenology-HEP</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ellis, R. Keith</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Giele, Walter T.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">24843</subfield>
+    <subfield code="u">http://inspirehep.net/record/1353680/files/figure3.png</subfield>
+    <subfield code="y">00003 The di-jet differential cross section for $PP\rightarrow H(\rightarrow b\bar b) + 2$~jets using 4x1,500,000+10x15,000,000 events. At LO we use the Dual Intel Xeon X5650 with 12 threads (about 12 minutes of runtime) and at NLO we use the quadruple AMD 6128 HE Opteron (about 22 hours of runtime ) with 32 threads. The peak when the two jets come from the decay of the Higgs boson is clearly visible.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">37311</subfield>
+    <subfield code="u">http://inspirehep.net/record/1353680/files/LO_271.png</subfield>
+    <subfield code="y">00000 The evaluation time of $PP\rightarrow H(\rightarrow b\bar b) + 2$~jets using 4x1,000+10x10,000 Vegas events (in seconds) versus the number of threads. The top graphs is at LO and the bottom graph at NLO.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">40210</subfield>
+    <subfield code="u">http://inspirehep.net/record/1353680/files/NLO_271.png</subfield>
+    <subfield code="y">00001 The evaluation time of $PP\rightarrow H(\rightarrow b\bar b) + 2$~jets using 4x1,000+10x10,000 Vegas events (in seconds) versus the number of threads. The top graphs is at LO and the bottom graph at NLO.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">44358</subfield>
+    <subfield code="u">http://inspirehep.net/record/1353680/files/figure2.png</subfield>
+    <subfield code="y">00002 The di-jet differential cross section for $PP\rightarrow H(\rightarrow b\bar b) + 2$~jets at NLO using 1 hour of running time on the Intel Core I7-4770 using a single thread and on the quadruple AMD 6128 HE Opteron using all 32 threads. The peak at $m_{jj}=125$~GeV when the two jets come from the decay of the Higgs boson is visible.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">303680</subfield>
+    <subfield code="u">http://inspirehep.net/record/1353680/files/arXiv:1503.06182.pdf</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:inspirehep.net:1353680</subfield>
+    <subfield code="p">INSPIRE:HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">CORE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">arXiv</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="h">B. Chapman, G. Jost</subfield>
+    <subfield code="m">R. van der Pas, Using OpenMP (MIT press,)</subfield>
+    <subfield code="y">2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="h">J.M. Campbell, R.K. Ellis</subfield>
+    <subfield code="s">Nucl.Phys.Proc.Suppl.,205206,10</subfield>
+    <subfield code="a">doi:10.1016/j.nuclphysbps.2010.08.011</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="0">861954</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="h">J.M. Campbell, R.K. Ellis, C. Williams</subfield>
+    <subfield code="s">JHEP,1107,018</subfield>
+    <subfield code="a">doi:10.1007/JHEP07(2011)018</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="0">897881</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">G.P. Lepage</subfield>
+    <subfield code="s">J.Comput.Phys.,27,192</subfield>
+    <subfield code="m">DOI 10. 1016/0021-9991(78)90004-9</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="0">119196</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="h">W.H. Press, S.A. Teukolsky, W.T. Vetterling, B.P. Flannery</subfield>
+    <subfield code="m">Numerical Recipes in FORTRAN: The Art of Scientific Computing (Cambridge University Press,)</subfield>
+    <subfield code="y">1992</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">W. Kahan</subfield>
+    <subfield code="m">Communications of the ACM 8(1), 40</subfield>
+    <subfield code="a">doi:10.1145/363707.363723</subfield>
+    <subfield code="y">1965</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-1-0-1-0</subfield>
+    <subfield code="t">2015-03-23 05:36:01</subfield>
+    <subfield code="v">Invenio/1.1.2.1260-aa76f refextract/1.5.44</subfield>
+    <subfield code="v">content.pdf;1</subfield>
+  </datafield>
+</record>

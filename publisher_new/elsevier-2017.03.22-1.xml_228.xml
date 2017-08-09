@@ -1,0 +1,482 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.033</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Falletta, Silvia</subfield>
+    <subfield code="v">Dip. Scienze Matematiche “G.L. Lagrange”, Politecnico di Torino, C.so Duca degli Abruzzi 24, Torino, 10129, Italy</subfield>
+    <subfield code="m">silvia.falletta@polito.it</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The panel-clustering method for the wave equation in two spatial dimensions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">27</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We consider the numerical solution of the wave equation in a two-dimensional domain and start from a boundary integral formulation for its discretization. We employ the convolution quadrature (CQ) for the temporal and a Galerkin boundary element method (BEM) for the spatial discretization. Our main focus is the sparse approximation of the arising sequence of boundary integral operators by panel clustering. This requires the definition of an appropriate admissibility condition such that the arising kernel functions can be efficiently approximated on admissible blocks. The resulting method has a complexity of <math altimg="si1.gif" display="inline" overflow="scroll"><mi mathvariant="script">O</mi><mrow><mo stretchy="true">(</mo><mi>N</mi><mrow><mo stretchy="true">(</mo><mi>N</mi><mo>+</mo><mi>M</mi><mo stretchy="true">)</mo></mrow><msup><mrow><mi>q</mi></mrow><mrow><mn>4</mn><mo>+</mo><mi>s</mi></mrow></msup><mo stretchy="true">)</mo></mrow></math> , <math altimg="si2.gif" display="inline" overflow="scroll"><mi>s</mi><mo>∈</mo><mrow><mo stretchy="true">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="true">}</mo></mrow></math> , where N is the number of time points, M denotes the dimension of the boundary element space, and <math altimg="si3.gif" display="inline" overflow="scroll"><mi>q</mi><mo>=</mo><mi mathvariant="script">O</mi><mrow><mo stretchy="true">(</mo><mi mathvariant="normal">log</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>N</mi><mi>M</mi><mo stretchy="false">)</mo><mo stretchy="true">)</mo></mrow></math> is the order of the panel-clustering expansion. Numerical experiments will illustrate the efficiency and accuracy of the proposed CQ-BEM method with panel clustering.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wave equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Convolution quadrature</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Boundary element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Panel clustering</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Modified Bessel function</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sauter, Stefan A.</subfield>
+    <subfield code="v">Institut für Mathematik, Universität Zürich, Winterthurerstrasse 190, Zürich, CH-8057, Switzerland</subfield>
+    <subfield code="m">stas@math.uzh.ch</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">217-243</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abramowitz, M.</subfield>
+    <subfield code="h">Stegun, I.A.</subfield>
+    <subfield code="t">Handbook of Mathematical Functions, Appl. Math. Ser., vol. 55</subfield>
+    <subfield code="p">National Bureau of Standards, U.S. Department of Commerce</subfield>
+    <subfield code="v">vol. 55</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alpert, B.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Hagstrom, T.</subfield>
+    <subfield code="t">Rapid evaluation of nonreflecting boundary kernels for time-domain wave propagation</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,1138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amini, S.</subfield>
+    <subfield code="h">Kirkup, S.M.</subfield>
+    <subfield code="t">Solution of Helmholtz equation in the exterior domain by elementary boundary integral methods</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,118,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amini, S.</subfield>
+    <subfield code="h">Profit, A.T.J.</subfield>
+    <subfield code="t">Analysis of a diagonal form of the fast multipole algorithm for scattering theory</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">BIT Numer.Math.,39,585</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bamberger, A.</subfield>
+    <subfield code="h">Ha-Duong, T.</subfield>
+    <subfield code="t">Formulation variationelle espace-temps pour le calcul par potentiel retardé d'une onde acoustique</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="m">and 598–608</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Math.Methods Appl.Sci.,8,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banjai, L.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Melenk, J.M.</subfield>
+    <subfield code="t">Runge–Kutta convolution quadrature for operators arising in wave propagation</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Numer.Math.,119,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banjai, L.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Rapid solution of the wave equation in unbounded domains</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berenger, J.-P.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Börm, S.</subfield>
+    <subfield code="t">Efficient Numerical Methods for Non-Local Operators</subfield>
+    <subfield code="p">European Mathematical Society (EMS) Zürich</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dahmen, W.</subfield>
+    <subfield code="h">Faermann, B.</subfield>
+    <subfield code="h">Graham, I.</subfield>
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Inverse inequalities on non-qasiuniform meshes and applications to the mortar element method</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Math.Comput.,73,1107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Majda, A.</subfield>
+    <subfield code="t">Absorbing boundary conditions for the numerical simulation of waves</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Math.Comput.,31,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falletta, S.</subfield>
+    <subfield code="h">Monegato, G.</subfield>
+    <subfield code="t">An exact non reflecting boundary condition for 2D time-dependent wave equation problems</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Wave Motion,51,168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falletta, S.</subfield>
+    <subfield code="h">Monegato, G.</subfield>
+    <subfield code="h">Scuderi, L.</subfield>
+    <subfield code="t">A space–time BIE method for nonhomogeneous exterior wave equation problems. The Dirichlet case</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,32,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falletta, S.</subfield>
+    <subfield code="h">Monegato, G.</subfield>
+    <subfield code="h">Scuderi, L.</subfield>
+    <subfield code="t">A space–time BIE method for wave equation problems: the (two-dimensional) Neumann case</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,34,390</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falletta, S.</subfield>
+    <subfield code="h">Sauter, S.A.</subfield>
+    <subfield code="t">Functional estimates for derivatives of the modified Bessel function <math altimg="si11.gif" display="inline" overflow="scroll"><msub><mrow><mi>K</mi></mrow><mrow><mn>0</mn></mrow></msub></math> and related exponential functions</subfield>
+    <subfield code="v">417</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Math.Anal.Appl.,417,559</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grasedyck, L.</subfield>
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="t">Construction and arithmetics of <math altimg="si634.gif" display="inline" overflow="scroll"><mi mathvariant="script">H</mi></math> -matrices</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Computing,70,295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A new version of the fast multipole method for the Laplace equation in three dimensions</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Acta Numer.,6,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grote, M.J.</subfield>
+    <subfield code="h">Sim, I.</subfield>
+    <subfield code="t">Local nonreflecting boundary condition for time-dependent multiple scattering</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,230,3135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ha-Duong, T.</subfield>
+    <subfield code="t">On retarded potential boundary integral equations and their discretization</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ha-Duong, T.</subfield>
+    <subfield code="h">Ludwig, B.</subfield>
+    <subfield code="h">Terrasse, I.</subfield>
+    <subfield code="t">A Galerkin BEM for transient acoustic scattering by an absorbing obstacle</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,57,1845</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="t">Hierarchische Matrizen – Algorithmen und Analysis</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Börm, S.</subfield>
+    <subfield code="t"><math altimg="si240.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="script">H</mi></mrow><mrow><mn>2</mn></mrow></msup></math> -matrix approximation of integral operators by interpolation</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Appl.Numer.Math.,43,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Khoromskij, B.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">On <math altimg="si240.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="script">H</mi></mrow><mrow><mn>2</mn></mrow></msup></math> -matrices</subfield>
+    <subfield code="p">Heidelberg: Springer-Verlag</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="e">Bungartz,H.-J.</subfield>
+    <subfield code="e">Hoppe,R.</subfield>
+    <subfield code="e">Zenger,C.</subfield>
+    <subfield code="q">Lectures on Applied Mathematics</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Kress, W.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Sparse convolution quadrature for time domain boundary integral formulations of the wave equation by cutoff and panel-clustering</subfield>
+    <subfield code="v">vol. 18</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Lect.Notes Appl.Comput.Mech.,vol. 18,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Kress, W.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Sparse convolution quadrature for time domain boundary integral formulations of the wave equation</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,29,158</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="h">Nowak, Z.</subfield>
+    <subfield code="t">On the fast matrix multiplication in the boundary element method by panel-clustering</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Numer.Math.,54,463</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hagstrom, T.</subfield>
+    <subfield code="h">Hariharan, S.I.</subfield>
+    <subfield code="t">A formulation of asymptotic and exact boundary conditions using local operators</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Appl.Numer.Math.,27,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, E.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Schlichte, M.</subfield>
+    <subfield code="t">Fast numerical solution of nonlinear Volterra convolution equations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,6,532</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kress, W.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Numerical treatment of retarded boundary integral equations by sparse panel clustering</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,28,162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kriemann, R.</subfield>
+    <subfield code="t">HLIbpro user manual</subfield>
+    <subfield code="p">Max-Planck Institut für Mathematik in den Naturwissenschaften Leipzig</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">Technical Report 9/2008</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krzebek, N.</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Fast cluster techniques for BEM</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Eng.Anal.Bound.Elem.,27,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lopez-Fernandez, M.</subfield>
+    <subfield code="h">Sauter, S.A.</subfield>
+    <subfield code="t">Generalized convolution quadrature with variable time stepping</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,33,1156</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">Convolution quadrature and discretized operational calculus I</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Numer.Math.,52,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">Convolution quadrature and discretized operational calculus II</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Numer.Math.,52,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">On the multistep time discretization of linear initial–boundary value problems and their boundary integral equations</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Numer.Math.,67,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Rapid solutions of integral equations of classical potential theory</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,60,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Diagonal forms of translation operators for the Helmholtz equation in three dimensions</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,1,82</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="t">Variable order panel clustering</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">extended version:</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Computing,64,223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="t">Boundary Element Methods</subfield>
+    <subfield code="p">Springer Heidelberg</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="h">Veit, A.</subfield>
+    <subfield code="t">A Galerkin method for retarded boundary integral equations with smooth and compactly supported temporal basis functions</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Numer.Math.,123,145</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00211-015-0726-5</subfield>
+    <subfield code="h">Sauter, S.</subfield>
+    <subfield code="h">Veit, A.</subfield>
+    <subfield code="t">Adaptive time discretization for retarded potentials</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Numer.Math.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sauter, S.A.</subfield>
+    <subfield code="h">Krapp, A.</subfield>
+    <subfield code="t">On the effect of numerical integration in the Galerkin boundary element method</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Numer.Math.,74,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sayas, F.-J.</subfield>
+    <subfield code="t">Retarded potentials and time domain boundary integral equations: a road-map</subfield>
+    <subfield code="p">Dept. of Math. Sci., University of Delaware</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Technical report</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schmidlin, G.</subfield>
+    <subfield code="h">Lage, C.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="t">Rapid solution of first kind boundary integral equations in R 3</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Eng.Anal.Bound.Elem.,27,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stephan, E.P.</subfield>
+    <subfield code="h">Maischak, M.</subfield>
+    <subfield code="h">Ostermann, E.</subfield>
+    <subfield code="t">Transient boundary element method and numerical evaluation of retarded potentials</subfield>
+    <subfield code="v">vol. 5102</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.,vol. 5102,321</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00222/S0021999115007093/S0021999115007093.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

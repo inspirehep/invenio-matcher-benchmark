@@ -1,0 +1,584 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.01.056</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Balsara, Dinshaw S.</subfield>
+    <subfield code="v">Physics Department, University of Notre Dame, USA</subfield>
+    <subfield code="m">dbalsara@nd.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Von Neumann stability analysis of globally divergence-free RKDG schemes for the induction equation using multidimensional Riemann solvers</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we focus on the numerical solution of the induction equation using Runge–Kutta Discontinuous Galerkin (RKDG)-like schemes that are globally divergence-free. The induction equation plays a role in numerical MHD and other systems like it. It ensures that the magnetic field evolves in a divergence-free fashion; and that same property is shared by the numerical schemes presented here. The algorithms presented here are based on a novel DG-like method as it applies to the magnetic field components in the faces of a mesh. (I.e., this is not a conventional DG algorithm for conservation laws.) The other two novel building blocks of the method include divergence-free reconstruction of the magnetic field and multidimensional Riemann solvers; both of which have been developed in recent years by the first author.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">MHD</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Induction equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Runge–Kutta</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mimetic schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Käppeli, Roger</subfield>
+    <subfield code="v">Seminar for Applied Mathematics (SAM), Department of Mathematics, ETH Zürich, Zürich, CH-8092, Switzerland</subfield>
+    <subfield code="m">roger.kaeppeli@sam.math.ethz.ch</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">104-127</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Linearized formulation of the Riemann problem for adiabatic and isothermal magnetohydrodynamics</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,116,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Total variation diminishing algorithm for adiabatic and isothermal magnetohydrodynamics</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,116,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Spicer, D.S.</subfield>
+    <subfield code="t">Maintaining pressure positivity in magnetohydrodynamic simulations</subfield>
+    <subfield code="v">148</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,148,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Spicer, D.S.</subfield>
+    <subfield code="t">A staggered mesh algorithm using high order Godunov fluxes to ensure solenoidal magnetic fields in magnetohydrodynamic simulations</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,149,270</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Divergence-free adaptive mesh refinement for magnetohydrodynamics</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,174,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Second-order-accurate schemes for magnetohydrodynamics with divergence-free reconstruction</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,151,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Divergence-free reconstruction of magnetic fields and WENO schemes for magnetohydrodynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Kim, J.S.</subfield>
+    <subfield code="t">An intercomparison between divergence-cleaning and staggered mesh formulations for numerical magnetohydrodynamics</subfield>
+    <subfield code="v">602</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Astrophys.J.,602,1079</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Monotonicity preserving weighted non-oscillatory schemes with increasingly high order of accuracy</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,160,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Altmann, C.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A sub-cell based indicator for troubled zones in RKDG schemes and a novel class oh hybrid RKDG+HWENO schemes</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,226,586</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Rumpf, T.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">Efficient, high accuracy ADER–WENO schemes for hydrodynamics and divergence-free magnetohydrodynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2480</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Meyer, C.</subfield>
+    <subfield code="h">Du, H.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="t">Efficient implementation of ADER schemes for Euler and magnetohydrodynamic flow on structured meshes – comparison with Runge–Kutta methods</subfield>
+    <subfield code="v">235</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,235,934</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional HLLE Riemann solver; application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1970</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A two-dimensional HLLC Riemann solver for conservation laws: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Multidimensional HLL and HLLC Riemann solvers for unstructured meshes – with application to Euler and MHD flows</subfield>
+    <subfield code="v">261</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,261,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure – part I – application to hyperbolic conservation laws on structured meshes</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,277,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure – part II – application to hyperbolic conservation laws on unstructured meshes</subfield>
+    <subfield code="v">287</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,287,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Self-adjusting, positivity preserving high order schemes for hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Three dimensional HLL Riemann solver for structured meshes; application to Euler and MHD flow</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,295,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Divergence-free MHD on unstructured meshes using high order finite volume schemes based on multidimensional Riemann solvers</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,299,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Vides, J.</subfield>
+    <subfield code="h">Gurski, K.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Garain, S.</subfield>
+    <subfield code="h">Audit, E.</subfield>
+    <subfield code="t">A two-dimensional Riemann solver with self-similar sub-structure – alternative formulation based on least squares projection</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,304,138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="t">Formulating multidimensional Riemann solvers in similarity variables – part III: a multidimensional analogue of the HLLEM Riemann solver for conservative hyperbolic systems</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brackbill, J.U.</subfield>
+    <subfield code="h">Barnes, D.C.</subfield>
+    <subfield code="t">The effect of nonzero <math altimg="si173.gif" display="inline" overflow="scroll"><mi mathvariant="normal">∇</mi><mo>⋅</mo><mi mathvariant="bold">B</mi></math> on the numerical solution of the magnetohydrodynamic equations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,35,426</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brackbill, J.</subfield>
+    <subfield code="t">Fluid modelling of magnetized plasmas</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Space Sci.Rev.,42,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, Y.</subfield>
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="h">Xu, L.</subfield>
+    <subfield code="t">Positivity-preserving DG and central DG methods for ideal MHD equations</subfield>
+    <subfield code="v">238</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,238,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, A.J.</subfield>
+    <subfield code="h">Rossmanith, J.A.</subfield>
+    <subfield code="h">Tang, Q.</subfield>
+    <subfield code="t">Finite difference weighted essentially non-oscillatory schemes with constrained transport for ideal magnetohydrodynamics</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,268,302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws II: general framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws IV: the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta discontinuous Galerkin method for conservation laws V: multidimensional systems</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,141,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Karniadakis, G.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The development of discontinuous Galerkin methods</subfield>
+    <subfield code="v">vol. 11</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 11,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Locally divergence-free discontinuous Galerkin method for the Maxwell equations</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,141,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Multidimensional upwind methods for conservation laws</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,87,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">On the divergence-free condition and conservationlaws in numerical simulations for supersonic magnetohydrodynamic flows</subfield>
+    <subfield code="v">494</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Astrophys.J.,494,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">A unified framework for the construction of one-step finite volume and discontinuous Galerkin schemes on unstructured meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Hidalgo, A.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">ADER–WENO finite volume schemes with space–time adaptive mesh refinement</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,248,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gardiner, T.</subfield>
+    <subfield code="h">Stone, J.M.</subfield>
+    <subfield code="t">An unsplit Godunov method for ideal MHD via constrained transport</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,205,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="t">On higher order strong stability preserving Runge–Kutta and multistep time discretizations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Sci.Comput.,25,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Strong stability-preserving higher order time discretization methods</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">SIAM Rev.,43,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Xu, L.</subfield>
+    <subfield code="h">Yakovlev, S.</subfield>
+    <subfield code="t">Central discontinuous Galerkin methods for ideal MHD equations with the exactly divergence-free magnetic field</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4828</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="t">L2 stability analysis of the central discontinuous Galerkin method and comparison between the central and regular discontinuous Galerkin methods</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,42,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Londrillo, P.</subfield>
+    <subfield code="h">DelZanna, L.</subfield>
+    <subfield code="t">On the divergence-free condition in Godunov-type schemes for ideal magnetohydrodynamics: the upwind constrained transport method</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,195,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.H.</subfield>
+    <subfield code="h">Hill, T.R.</subfield>
+    <subfield code="t">Triangular Mesh Methods for the Neutron Transport Equation</subfield>
+    <subfield code="p">Los Alamos Scientific Laboratory</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Tech. Report LA-UR-73-479</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ryu, D.</subfield>
+    <subfield code="h">Miniati, F.</subfield>
+    <subfield code="h">Jones, T.W.</subfield>
+    <subfield code="h">Frank, A.</subfield>
+    <subfield code="t">A divergence-free upwind code for multidimensional magnetohydrodynamic flows</subfield>
+    <subfield code="v">509</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Astrophys.J.,509,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total variation-diminishing time discretizations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,9,1073</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.J.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.J.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock capturing schemes II</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,83,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spiteri, R.J.</subfield>
+    <subfield code="h">Ruuth, S.J.</subfield>
+    <subfield code="t">A new class of optimal high-order strong-stability-preserving time-stepping schemes</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,40,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taube, A.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Munz, C.D.</subfield>
+    <subfield code="t">Arbitrary high order discontinuous Galerkin schemes for the MHD equations</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vides, J.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Audit, E.</subfield>
+    <subfield code="t">A simple two-dimensional extension of the HLL Riemann solver for hyperbolic conservation laws</subfield>
+    <subfield code="v">280</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,280,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Du, H.</subfield>
+    <subfield code="t">Divergence-free WENO reconstruction-based finite volume scheme for solving ideal MHD equations on triangular meshes</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Commun.Comput.Phys.,19,841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, H.</subfield>
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="t">Stability analysis and error estimates of an exactly divergence-free method for the magnetic induction equations</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,50,965</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yee, K.S.</subfield>
+    <subfield code="t">Numerical solution of initial boundary value problems involving Maxwell equation in an isotropic media</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">IEEE Trans.Antennas Propag.,14,302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stroud, A.H.</subfield>
+    <subfield code="t">Approximate Calculation of Multiple Integrals</subfield>
+    <subfield code="p">Prentice–Hall Inc. Englewood Cliffs, NJ</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">An analysis of and a comparison between the discontinuous Galerkin and the spectral finite volume methods</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Comput.Fluids,34,581</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00041/S0021999117300724/S0021999117300724.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,234 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The next generation Front-End Controller for the Phase-I Upgrade of the CMS Hadron Calorimeters</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">The next generation Front-End Controller (ngFEC) is the system responsible for slow and fast control within the Phase-I Upgrade of the CMS Hadron Calorimeters. It is based on the FC7, a μTCA compatible Advanced Mezzanine Card developed at CERN and built around the Xilinx Kintex®-7 FPGA. The ngFEC decodes the 40.0788 MHz LHC clock and the synchronization signals received from the backplane and distributes them to the front-end electronics through six GBT links. The latency of the fast control signals is fixed across power cycles. Even if the direct link to a front-end module is broken, a redundancy scheme ensures a successful communication using the link to the neighboring front-end module. Thanks to the ngFEC all front-end modules can be remotely programmed using the JTAG standard protocol. The CCM server software interfaces the ngFEC to the Detector Control System which constantly monitors voltages and temperatures on the front-end electronics. This document reviews the characteristics and the development status of the ngFEC.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JINST</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">C03003</subfield>
+  <subfield code="v">12</subfield>
+  <subfield code="n">03</subfield>
+  <subfield code="w">C16-09-26.4</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1748-0221/12/03/C03003</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-01</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Costanza, F.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Behrens, U.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Campbell, A.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Karakaya, T.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Martens, I.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Melzer-Pellmann, I.A.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Sahin, M.O.</subfield>
+  <subfield code="v">HEP Department - DESY - Notkestrasse 85 - Hamburg - Germany</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="c">CMS collaboration</subfield>
+  <subfield code="m">Technical proposal for the upgrade of the CMS detector through :</subfield>
+  <subfield code="r">CERN-LHCC-2011-006</subfield>
+  <subfield code="u">https://cds.cern.ch/record/1355706</subfield>
+  <subfield code="y">2020</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="c">CMS collaboration</subfield>
+  <subfield code="m">CMS Technical Design Report for the Phase 1 Upgrade of the Hadron Calorimeter :</subfield>
+  <subfield code="r">CERN-LHCC-2012-015</subfield>
+  <subfield code="u">https://inspirehep.net/record/1193237</subfield>
+  <subfield code="0">1193237</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">ANSI/VITA, ANSI/VITA, ANSI/VITA 1-, VME64 standard, available from</subfield>
+  <subfield code="u">http://www.vita.com</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">Micro telecommunications computing architecture base specification R1:0, available from :</subfield>
+  <subfield code="u">https://www.picmg.org</subfield>
+  <subfield code="u">https://www.picmg.org/openstandards/microtca/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">E. Hazen, A. Heister, C. Hill, J. Rohlf, S.X. Wu and D. Zou</subfield>
+  <subfield code="m">The AMC13XG: a new generation clock/timing/DAQ module for CMS MicroTCA IOPscience:</subfield>
+  <subfield code="s">JINST,8,C12036</subfield>
+  <subfield code="a">doi:10.1088/1748-0221/8/12/C12036</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1276617</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">M. Pesaresi, M.B. Marin, G. Hall, M. Hansen, G. Iles, A. Rose et al.</subfield>
+  <subfield code="m">The FC7 AMC for generic DAQ &amp;amp</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">control applications in CMS IOPscience:</subfield>
+  <subfield code="s">JINST,10,C03036</subfield>
+  <subfield code="a">doi:10.1088/1748-0221/10/03/C03036</subfield>
+  <subfield code="0">1356202</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">T. Grassi et al.</subfield>
+  <subfield code="m">Irradiation test of the HCAL Forward and Endcap upgrade electronics at the CHARM facility at CERN :</subfield>
+  <subfield code="r">CERN-OPEN-2016-001</subfield>
+  <subfield code="u">http://cds.cern.ch/record/2128433</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">Radiation To Electronic (R2E) - Charm Facility</subfield>
+  <subfield code="u">http://charm.web.cern.ch/charm/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">M.O. Sahin, U. Behrens, A. Campbell, I. Martens, I.A. Melzer-Pellmann and P. Saxena</subfield>
+  <subfield code="m">The CMS hadron calorimeter detector control system upgrade IOPscience:</subfield>
+  <subfield code="s">JINST,10,C04029</subfield>
+  <subfield code="a">doi:10.1088/1748-0221/10/04/C04029</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1364767</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">P. Vichoudis et al.</subfield>
+  <subfield code="m">The Gigabit Link Interface Board (GLIB) ecosystem IOPscience:</subfield>
+  <subfield code="s">JINST,8,C03012</subfield>
+  <subfield code="a">doi:10.1088/1748-0221/8/03/C03012</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1226314</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">Kintex®-7 FPGA overview and specifications, available from</subfield>
+  <subfield code="u">https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">C. Ghabrous Larrea, K. Harder, D. Newbold, D. Sankey, A. Rose, A. Thea et al.</subfield>
+  <subfield code="m">IPbus: a flexible Ethernet-based control system for xTCA hardware IOPscience:</subfield>
+  <subfield code="s">JINST,10,C02019</subfield>
+  <subfield code="a">doi:10.1088/1748-0221/10/02/C02019</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1344352</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">HF ngCCM specifications, available from</subfield>
+  <subfield code="u">https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=12632</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">HB/HE ngCCM prototype specifications, available from</subfield>
+  <subfield code="u">https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=3107</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">P. Moreira et al.</subfield>
+  <subfield code="m">The GBT project 342:</subfield>
+  <subfield code="r">CERN-2009-006</subfield>
+  <subfield code="u">https://cds.cern.ch/record/1235836</subfield>
+  <subfield code="0">848716</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">S. Baron et al.</subfield>
+  <subfield code="m">Implementing the GBT data transmission protocol in FPGAs, in proceedings of the Topical Workshop on Electronics for Particle Physics (TWEPP-09), Paris, France, 21-25 Sep., pp. 631-635 [, CERN--06:</subfield>
+  <subfield code="u">https://cds.cern.ch/record/1185010</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">I.S. Reed and G. Solomon</subfield>
+  <subfield code="m">Polynomial Codes Over Certain Finite Fields Crossref:</subfield>
+  <subfield code="s">J.Soc.Indust.Appl.Math.,8,300</subfield>
+  <subfield code="a">doi:10.1137/0108018</subfield>
+  <subfield code="y">1960</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">IGLOO2 FPGA overview and specifications, available from</subfield>
+  <subfield code="u">http://www.microsemi.com/products/fpga-soc/fpga/igloo2-fpga</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="m">Standard for Test Access Port and Boundary-Scan Architecture Std 1149.1-2013 (Revision of Std 1149.1-)</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/IEEESTD.2013.6515989</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="m">ProASIC3L FPGA overview and specifications, available from</subfield>
+  <subfield code="u">http://www.microsemi.com/products/fpga-soc/fpga/proasic3l</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Topical Workshop on Electronics for Particle Physics (TWEPP2016)</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">TWEPP2016</subfield>
+ </datafield>
+</record>

@@ -1,0 +1,501 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.073</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Azarnykh, Dmitrii</subfield>
+    <subfield code="j">ORCID:0000-0002-9690-7197</subfield>
+    <subfield code="v">Institute of Aerodynamics and Fluid Mechanics, Technical University of Munich, Garching, Germany</subfield>
+    <subfield code="m">d.azarnykh@tum.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Numerical methods for the weakly compressible Generalized Langevin Model in Eulerian reference frame</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A well established approach for the computation of turbulent flow without resolving all turbulent flow scales is to solve a filtered or averaged set of equations, and to model non-resolved scales by closures derived from transported probability density functions (PDF) for velocity fluctuations. Effective numerical methods for PDF transport employ the equivalence between the Fokker–Planck equation for the PDF and a Generalized Langevin Model (GLM), and compute the PDF by transporting a set of sampling particles by GLM (Pope (1985) [1] ). The natural representation of GLM is a system of stochastic differential equations in a Lagrangian reference frame, typically solved by particle methods. A representation in a Eulerian reference frame, however, has the potential to significantly reduce computational effort and to allow for the seamless integration into a Eulerian-frame numerical flow solver. GLM in a Eulerian frame (GLMEF) formally corresponds to the nonlinear fluctuating hydrodynamic equations derived by Nakamura and Yoshimori (2009) [12] . Unlike the more common Landau–Lifshitz Navier–Stokes (LLNS) equations these equations are derived from the underdamped Langevin equation and are not based on a local equilibrium assumption. Similarly to LLNS equations the numerical solution of GLMEF requires special considerations. In this paper we investigate different numerical approaches to solving GLMEF with respect to the correct representation of stochastic properties of the solution. We find that a discretely conservative staggered finite-difference scheme, adapted from a scheme originally proposed for turbulent incompressible flow, in conjunction with a strongly stable (for non-stochastic PDE) Runge–Kutta method performs better for GLMEF than schemes adopted from those proposed previously for the LLNS. We show that equilibrium stochastic fluctuations are correctly reproduced.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Generalized Langevin Model</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluctuating hydrodynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Eulerian reference frame</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonlinear stochastic partial differential equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Turbulent flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Litvinov, Sergey</subfield>
+    <subfield code="v">Institute of Aerodynamics and Fluid Mechanics, Technical University of Munich, Garching, Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Adams, Nikolaus A.</subfield>
+    <subfield code="v">Institute of Aerodynamics and Fluid Mechanics, Technical University of Munich, Garching, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">93-106</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0360-1285(85)90002-4</subfield>
+    <subfield code="h">Pope, S.</subfield>
+    <subfield code="t">PDF methods for turbulent reactive flows</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="m">01876</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,11,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.pecs.2009.09.003</subfield>
+    <subfield code="h">Haworth, D.C.</subfield>
+    <subfield code="t">Progress in probability density function methods for turbulent reacting flows</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">00230</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,36,168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1023/A:1009968902446</subfield>
+    <subfield code="h">Valiño, L.</subfield>
+    <subfield code="t">A field Monte Carlo formulation for calculating the probability density function of a single scalar in a turbulent flow</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">00125</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Flow Turbul.Combust.,60,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.72.016301</subfield>
+    <subfield code="h">Sabelnikov, V.</subfield>
+    <subfield code="h">Soulard, O.</subfield>
+    <subfield code="t">Rapidly decorrelating velocity-field model as a tool for solving one-point Fokker–Planck equations for probability density functions of turbulent reactive scalars</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">00068</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Rev.,E72,016301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10573-006-0111-x</subfield>
+    <subfield code="h">Soulard, O.</subfield>
+    <subfield code="h">Sabelnikov, V.A.</subfield>
+    <subfield code="t">Eulerian Monte Carlo method for the joint velocity and mass-fraction probability density function in turbulent reactive gas flows</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">00018</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Combust.Explos.Shock Waves,42,753</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sabel'nikov, V.</subfield>
+    <subfield code="h">Soulard, O.</subfield>
+    <subfield code="t">Eulerian (field) Monte Carlo methods for solving PDF transport equations in turbulent reacting flows</subfield>
+    <subfield code="p">Wiley-VCH Verlag GmbH &amp; Co. KGaA</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">00004</subfield>
+    <subfield code="q">Handbook of Combustion</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/proc/201448019</subfield>
+    <subfield code="h">Emako, C.</subfield>
+    <subfield code="h">Letizia, V.</subfield>
+    <subfield code="h">Petrova, N.</subfield>
+    <subfield code="h">Sainct, R.</subfield>
+    <subfield code="h">Duclous, R.</subfield>
+    <subfield code="h">Soulard, O.</subfield>
+    <subfield code="t">Diffusion limit of the simplified Langevin PDF model in weakly inhomogeneous turbulence</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">ESAIM: Proc.Surv.,48,400</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Petrova, N.</subfield>
+    <subfield code="t">Turbulence–chemistry interaction models for numerical simulation of aeronautical propulsion systems</subfield>
+    <subfield code="p">Ecole Polytechnique X</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.3584129</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">A stochastic extension of the approximate deconvolution model</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">00001</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Fluids,23,055103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.869867</subfield>
+    <subfield code="h">Stolz, S.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">An approximate deconvolution procedure for large-eddy simulation</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Fluids,11,1699</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1350896</subfield>
+    <subfield code="h">Stolz, S.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="h">Kleiser, L.</subfield>
+    <subfield code="t">An approximate deconvolution model for large-eddy simulation with application to incompressible wall-bounded flows</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">00369</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Fluids,13,997</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/1751-8113/42/6/065001</subfield>
+    <subfield code="h">Nakamura, T.</subfield>
+    <subfield code="h">Yoshimori, A.</subfield>
+    <subfield code="t">Derivation of the nonlinear fluctuating hydrodynamic equation from the underdamped Langevin equation</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">00006</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Phys.A, Math.Theor.,42,065001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0305-4470/29/24/001</subfield>
+    <subfield code="h">Dean, D.S.</subfield>
+    <subfield code="t">Langevin equation for the density of a system of interacting Langevin processes</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="m">00068</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Phys.A, Math.Gen.,29,L613</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.75.026307</subfield>
+    <subfield code="h">De Fabritiis, G.</subfield>
+    <subfield code="h">Serrano, M.</subfield>
+    <subfield code="h">Delgado-Buscalioni, R.</subfield>
+    <subfield code="h">Coveney, P.V.</subfield>
+    <subfield code="t">Fluctuating hydrodynamic modeling of fluids at the nanoscale</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">00051</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Rev.,E75,026307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.76.016708</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Garcia, A.L.</subfield>
+    <subfield code="h">Williams, S.A.</subfield>
+    <subfield code="t">Numerical methods for the stochastic Landau–Lifshitz Navier–Stokes equations</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">00038</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Rev.,E76,016708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/m2an/2010053</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Garcia, A.L.</subfield>
+    <subfield code="h">Williams, S.A.</subfield>
+    <subfield code="t">Computational fluctuating fluid dynamics</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">00035</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,44,1085</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.106.204501</subfield>
+    <subfield code="h">Donev, A.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">de la Fuente, A.</subfield>
+    <subfield code="h">Garcia, A.L.</subfield>
+    <subfield code="t">Diffusive transport by thermal velocity fluctuations</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">00031</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Rev.Lett.,106,204501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev-fluid-120710-101220</subfield>
+    <subfield code="h">Monaghan, J.</subfield>
+    <subfield code="t">Smoothed particle hydrodynamics and its diverse applications</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">00148</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,44,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2140/camcos.2010.5.149</subfield>
+    <subfield code="h">Donev, A.</subfield>
+    <subfield code="h">Vanden-Eijnden, E.</subfield>
+    <subfield code="h">Garcia, A.</subfield>
+    <subfield code="h">Bell, J.</subfield>
+    <subfield code="t">On the accuracy of finite-volume schemes for fluctuating hydrodynamics</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,5,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/120864520</subfield>
+    <subfield code="h">Balboa, F.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Delgado-Buscalioni, R.</subfield>
+    <subfield code="h">Donev, A.</subfield>
+    <subfield code="h">Fai, T.G.</subfield>
+    <subfield code="h">Griffith, B.E.</subfield>
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">Staggered schemes for fluctuating hydrodynamics</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">00024</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Multiscale Model.Simul.,10,1369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.87.033302</subfield>
+    <subfield code="h">Delong, S.</subfield>
+    <subfield code="h">Griffith, B.E.</subfield>
+    <subfield code="h">Vanden-Eijnden, E.</subfield>
+    <subfield code="h">Donev, A.</subfield>
+    <subfield code="t">Temporal integrators for fluctuating hydrodynamics</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">00010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Phys.Rev.,E87,033302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2010.01.012</subfield>
+    <subfield code="h">Atzberger, P.J.</subfield>
+    <subfield code="t">Spatially adaptive stochastic numerical methods for intrinsic fluctuations in reaction–diffusion systems</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">00022</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3474</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berne, B.J.</subfield>
+    <subfield code="h">Pecora, R.</subfield>
+    <subfield code="t">Physics, Dynamic Light Scattering: With Applications to Chemistry, Biology, and Physics</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boon, J.P.</subfield>
+    <subfield code="h">Yip, S.</subfield>
+    <subfield code="t">Molecular Hydrodynamics</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maxima</subfield>
+    <subfield code="t">Maxima, a computer algebra system</subfield>
+    <subfield code="m">version 5.34.1</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.3106717</subfield>
+    <subfield code="h">Voulgarakis, N.K.</subfield>
+    <subfield code="h">Chu, J.-W.</subfield>
+    <subfield code="t">Bridging fluctuating hydrodynamics and molecular dynamics simulations of fluids</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">00037</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Chem.Phys.,130,134111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.09.021</subfield>
+    <subfield code="h">Morinishi, Y.</subfield>
+    <subfield code="t">Skew-symmetric form of convective terms and fully conservative finite difference schemes for variable density low-Mach number flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">00026</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,229,276</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(92)90324-R</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Compact finite difference schemes with spectral-like resolution</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,103,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1090/S0025-5718-98-00913-2</subfield>
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">00941, WOS:000071947700004</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S1064827503425298</subfield>
+    <subfield code="h">Qiu, J.X.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin method using WENO limiters</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">00125, WOS:000227761300009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gough, B.</subfield>
+    <subfield code="t">GNU Scientific Library Reference Manual</subfield>
+    <subfield code="p">Network Theory Ltd.</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows</subfield>
+    <subfield code="p">Oxford University Press USA</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="m">00054</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.47.403</subfield>
+    <subfield code="h">Alexander, F.J.</subfield>
+    <subfield code="h">Janowsky, S.A.</subfield>
+    <subfield code="h">Lebowitz, J.L.</subfield>
+    <subfield code="h">van Beijeren, H.</subfield>
+    <subfield code="t">Shock fluctuations in one-dimensional lattice fluids</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">00017</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Phys.Rev.,E47,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF01199027</subfield>
+    <subfield code="h">Ferrari, P.A.</subfield>
+    <subfield code="h">Fontes, L.R.G.</subfield>
+    <subfield code="t">Shock fluctuations in the asymmetric simple exclusion process</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Probab.Theory Relat.Fields,99,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.matcom.2012.06.002</subfield>
+    <subfield code="h">Pandey, A.</subfield>
+    <subfield code="h">Klar, A.</subfield>
+    <subfield code="h">Tiwari, S.</subfield>
+    <subfield code="t">Meshfree method for fluctuating hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Math.Comput.Simul.,82,2157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112093002848</subfield>
+    <subfield code="h">Blaisdell, G.A.</subfield>
+    <subfield code="h">Mansour, N.N.</subfield>
+    <subfield code="h">Reynolds, W.C.</subfield>
+    <subfield code="t">Compressibility effects on the growth and structure of homogeneous turbulent shear flow</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">00140</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Fluid Mech.,256,443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.67.026305</subfield>
+    <subfield code="h">Fujisaka, H.</subfield>
+    <subfield code="h">Nakayama, Y.</subfield>
+    <subfield code="t">Intermittency and exponent field dynamics in developed turbulence</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">00003</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Phys.Rev.,E67,026305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">05223</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1693183</subfield>
+    <subfield code="h">Fox, R.F.</subfield>
+    <subfield code="h">Uhlenbeck, G.E.</subfield>
+    <subfield code="t">Contributions to non-equilibrium thermodynamics. I. Theory of hydrodynamical fluctuations</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="m">00246</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Fluids,13,1893</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1692878</subfield>
+    <subfield code="h">Fox, R.F.</subfield>
+    <subfield code="h">Uhlenbeck, G.E.</subfield>
+    <subfield code="t">Contributions to nonequilibrium thermodynamics. II. Fluctuation theory for the Boltzmann equation</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="m">00123</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Phys.Fluids,13,2881</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00071/S0021999116001558/S0021999116001558.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

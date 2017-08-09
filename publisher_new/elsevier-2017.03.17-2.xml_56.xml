@@ -1,0 +1,479 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.046</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Y.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, National University of Singapore, 10 Kent Ridge Crescent, 119260, Singapore</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Boundary condition-enforced immersed boundary-lattice Boltzmann flux solver for thermal flows with Neumann boundary conditions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">16</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A boundary condition-enforced-immersed boundary-lattice Boltzmann flux solver is proposed in this work for effective simulation of thermal flows with Neumann boundary conditions. In this method, two auxiliary layers of Lagrangian points are introduced and respectively placed inside and outside of the solid body, on which the temperature corrections (related to the heat source) are set as unknowns. To effectively consider the fluid–boundary interaction, these unknowns are expressed as algebraic summations of the temperature correction on Eulerian points, which are in turn obtained from biased distributions of unknown temperature corrections on the immersed boundary. By enforcing the temperature gradient at the solid boundary being equal to that approximated by the corrected temperature field, a set of algebraic equations are formed and solved to obtain all the unknowns simultaneously. They are then distributed biasedly to the inner region of the auxiliary layer so that the diffusion from the smooth delta function can be reduced substantially. In addition, the solutions of the flow and temperature fields are obtained by the thermal lattice Boltzmann flux solver with the second order of accuracy. The proposed method is well validated through its applications to simulate several benchmarks of natural, forced and mixed convection problems. It has been demonstrated that the present solver has about 1.724 order of accuracy and the error between the present result and theoretical value for the temperature gradient on the solid surface is in the order of <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mn>10</mn></mrow><mrow><mo>−</mo><mn>13</mn></mrow></msup></math> , which indicates that the proposed method is able to satisfy the Neumann boundary condition accurately.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Immersed boundary method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Neumann boundary condition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Constant heat flux condition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Thermal lattice Boltzmann flux solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Thermal flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lattice Boltzmann method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shu, C.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, National University of Singapore, 10 Kent Ridge Crescent, 119260, Singapore</subfield>
+    <subfield code="m">mpeshuc@nus.edu.sg</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yang, L.M.</subfield>
+    <subfield code="v">Department of Aerodynamics, College of Aerospace Engineering, Nanjing University of Aeronautics and Astronautics, Yudao Street, Nanjing, Jiangsu, 210016, China</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">237-252</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Uhlmann, M.</subfield>
+    <subfield code="t">An immersed boundary method with direct forcing for the simulation of particulate flows</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,209,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Feng, Z.-G.</subfield>
+    <subfield code="h">Michaelides, E.E.</subfield>
+    <subfield code="t">The immersed boundary-lattice Boltzmann method for solving fluid–particles interaction problems</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,195,602</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, Q.</subfield>
+    <subfield code="h">Fan, L.-S.</subfield>
+    <subfield code="t">A second-order accurate immersed boundary-lattice Boltzmann method for particle-laden flows</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,268,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Niu, X.D.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Chew, Y.T.</subfield>
+    <subfield code="h">Peng, Y.</subfield>
+    <subfield code="t">A momentum exchange-based immersed boundary-lattice Boltzmann method for simulating incompressible viscous flows</subfield>
+    <subfield code="v">354</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Lett.,A354,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tian, F.-B.</subfield>
+    <subfield code="h">Dai, H.</subfield>
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Doyle, J.F.</subfield>
+    <subfield code="h">Rousseau, B.</subfield>
+    <subfield code="t">Fluid–structure interaction involving large deformations: 3D simulations and applications to biological systems</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,258,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, D.</subfield>
+    <subfield code="h">Yeo, K.S.</subfield>
+    <subfield code="h">Lim, T.T.</subfield>
+    <subfield code="t">A numerical study on the free hovering flight of a model insect at low Reynolds number</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Fluids,103,234</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeong, H.K.</subfield>
+    <subfield code="h">Yoon, H.S.</subfield>
+    <subfield code="h">Ha, M.Y.</subfield>
+    <subfield code="h">Tsutahara, M.</subfield>
+    <subfield code="t">An immersed boundary-thermal lattice Boltzmann method using an equilibrium internal energy density approach for the simulation of flows with heat transfer</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2526</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ren, W.W.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Yang, W.M.</subfield>
+    <subfield code="t">Boundary condition-enforced immersed boundary method for thermal flow problems with Dirichlet temperature condition and its applications</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Fluids,57,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dash, S.M.</subfield>
+    <subfield code="h">Lee, T.S.</subfield>
+    <subfield code="h">Huang, H.</subfield>
+    <subfield code="t">Natural convection from an eccentric square cylinder using a novel flexible forcing IB-LBM method</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Numer.Heat Transf., Part A, Appl.,65,531</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="t">Numerical analysis of blood flow in the heart</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,25,220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilmanov, A.</subfield>
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Balaras, E.</subfield>
+    <subfield code="t">A general reconstruction algorithm for simulating flows with complex 3D immersed boundaries on Cartesian grids</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,191,660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Feng, Z.-G.</subfield>
+    <subfield code="h">Michaelides, E.E.</subfield>
+    <subfield code="t">Robust treatment of no-slip boundary condition and velocity updating for the lattice-Boltzmann simulation of particulate flows</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Fluids,38,370</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, Y.</subfield>
+    <subfield code="h">Yuan, H.</subfield>
+    <subfield code="h">Shu, S.</subfield>
+    <subfield code="h">Niu, X.</subfield>
+    <subfield code="h">Li, M.</subfield>
+    <subfield code="t">An improved momentum exchanged-based immersed boundary–lattice Boltzmann method by using an iterative technique</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Math.Appl.,68,140</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Kim, D.</subfield>
+    <subfield code="h">Choi, H.</subfield>
+    <subfield code="t">An immersed-boundary finite-volume method for simulations of flow in complex geometries</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,171,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Örley, F.</subfield>
+    <subfield code="h">Pasquariello, V.</subfield>
+    <subfield code="h">Hickel, S.</subfield>
+    <subfield code="h">Adams, N.A.</subfield>
+    <subfield code="t">Cut-element based immersed boundary method for moving geometries in compressible liquid flows with cavitation</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,283,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yuan, R.</subfield>
+    <subfield code="h">Zhong, C.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">An immersed-boundary method based on the gas kinetic BGK scheme for incompressible viscous flow</subfield>
+    <subfield code="v">296</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,296,184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, N.</subfield>
+    <subfield code="h">Zheng, Z.C.</subfield>
+    <subfield code="h">Eckels, S.</subfield>
+    <subfield code="t">Study of heat-transfer on the surface of a circular cylinder in flow using an immersed-boundary method</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,29,1558</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ren, W.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="t">An efficient immersed boundary method for thermal flow problems with heat flux boundary conditions</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,64,694</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, Y.</subfield>
+    <subfield code="h">Li, D.</subfield>
+    <subfield code="h">Shu, S.</subfield>
+    <subfield code="h">Niu, X.</subfield>
+    <subfield code="t">Study of multiple steady solutions for the 2D natural convection in a concentric horizontal annulus with a constant heat flux wall using immersed boundary-lattice Boltzmann method</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,81,591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fadlun, E.A.</subfield>
+    <subfield code="h">Verzicco, R.</subfield>
+    <subfield code="h">Orlandi, P.</subfield>
+    <subfield code="h">Mohd-Yusof, J.</subfield>
+    <subfield code="t">Combined immersed-boundary finite-difference methods for three-dimensional complex flow simulations</subfield>
+    <subfield code="v">161</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,161,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, N.</subfield>
+    <subfield code="h">Zheng, Z.C.</subfield>
+    <subfield code="t">An improved direct-forcing immersed-boundary method for finite difference applications</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,221,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yuan, H.-Z.</subfield>
+    <subfield code="h">Niu, X.-D.</subfield>
+    <subfield code="h">Shu, S.</subfield>
+    <subfield code="h">Li, M.</subfield>
+    <subfield code="h">Yamaguchi, H.</subfield>
+    <subfield code="t">A momentum exchange-based immersed boundary-lattice Boltzmann method for simulating a flexible filament in an incompressible flow</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Math.Appl.,67,1039</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">Implicit velocity correction-based immersed boundary-lattice Boltzmann method and its applications</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1963</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">An improved immersed boundary-lattice Boltzmann method for simulating three-dimensional incompressible flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5022</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="t">An immersed boundary-lattice Boltzmann flux solver and its applications to fluid–structure interaction problems</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Fluids Struct.,54,440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Fan, J.</subfield>
+    <subfield code="h">Luo, K.</subfield>
+    <subfield code="t">Combined multi-direct forcing and immersed boundary method for simulating flows with moving particles</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,34,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, K.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Fan, J.</subfield>
+    <subfield code="h">Cen, K.</subfield>
+    <subfield code="t">Full-scale solutions to particle-laden flows: multidirect forcing and immersed boundary method</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Rev.,E76,066709</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ji, C.</subfield>
+    <subfield code="h">Munjiza, A.</subfield>
+    <subfield code="h">Williams, J.J.R.</subfield>
+    <subfield code="t">A novel iterative direct-forcing immersed boundary method and its finite volume applications</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,231,1797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Fan, J.</subfield>
+    <subfield code="h">Luo, K.</subfield>
+    <subfield code="h">Cen, K.</subfield>
+    <subfield code="t">Immersed boundary method for the simulation of flows with heat transfer</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,52,4510</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="t">Thermal lattice Boltzmann flux solver and its application for simulation of incompressible thermal flows</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Fluids,94,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.L.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">Lattice Boltzmann Method and Its Applications in Engineering</subfield>
+    <subfield code="p">World Scientific Publishing</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="t">Development of lattice Boltzmann flux solver for simulation of incompressible flows</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Adv.Appl.Math.Mech.,6,436</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="t">Development of LBGK and incompressible LBGK-based lattice Boltzmann flux solvers for simulation of incompressible flows</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,75,344</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Huang, H.B.</subfield>
+    <subfield code="h">Teo, C.J.</subfield>
+    <subfield code="t">Multiphase lattice Boltzmann flux solver for incompressible multiphase flows with large density ratio</subfield>
+    <subfield code="v">280</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,280,404</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Liu, N.</subfield>
+    <subfield code="h">Chew, Y.T.</subfield>
+    <subfield code="t">A novel immersed boundary velocity correction–lattice Boltzmann method and its application to simulate flow past a circular cylinder</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoo, J.S.</subfield>
+    <subfield code="t">Dual free-convective flows in a horizontal annulus with a constant heat flux wall</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,46,2499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bharti, R.</subfield>
+    <subfield code="h">Chhabra, R.P.</subfield>
+    <subfield code="h">Eswaran, V.</subfield>
+    <subfield code="t">A numerical study of the steady forced convection heat transfer from an unconfined circular cylinder</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Heat Mass Transf.,43,639</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahmad, R.A.</subfield>
+    <subfield code="h">Qureshi, Z.H.</subfield>
+    <subfield code="t">Laminar mixed convection from a uniform heat flux horizontal cylinder in a crossflow</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Thermophys.Heat Transf.,6,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khanafer, K.</subfield>
+    <subfield code="h">Aithal, S.M.</subfield>
+    <subfield code="t">Laminar mixed convection flow and heat transfer characteristics in a lid driven cavity with a circular cylinder</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,66,200</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S002199911500786X/S002199911500786X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

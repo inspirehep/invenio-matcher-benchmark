@@ -1,0 +1,235 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.fusengdes.2017.03.106</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Batista, Antonio JN</subfield>
+    <subfield code="v">Instituto de Plasmas e Fusão Nuclear, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, 1049-001, Portugal</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">SEU mitigation exploratory tests in a ITER related FPGA</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-27</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Data acquisition hardware of ITER diagnostics if located in the port cells of the tokamak, as an example, will be irradiated with neutrons during the fusion reactor operation. Due to this reason the majority of the hardware containing Field Programmable Gate Arrays (FPGA) will be placed after the ITER bio-shield, such as the cubicles instrumentation room. Nevertheless, it is worth to explore real-time mitigation of soft-errors caused by neutrons radiation in ITER related FPGAs. A Virtex-6 FPGA from Xilinx (XC6VLX365T-1FFG1156C) is used on the ATCA-IO-PROCESSOR board, included in the ITER Catalog of Instrumentation &amp; Control (I &amp; C) products – Fast Controllers. The Virtex-6 is a re-programmable logic device where the configuration is stored in Static RAM (SRAM), the functional data is stored in dedicated Block RAM (BRAM) and the functional state logic in Flip-Flops. Single Event Upsets (SEU) due to the ionizing radiation of neutrons cause soft errors, unintended changes (bit-flips) of the logic values stored in the state elements of the FPGA. Real-time SEU monitoring and soft errors repairing, when possible, were explored in this work. An FPGA built-in Soft Error Mitigation (SEM) controller detects and corrects soft errors in the FPGA Configuration Memory (CM). BRAM based SEU sensors with Error Correction Code (ECC) detect and repair the respective BRAM contents. Real-time mitigation of SEU can increase reliability and availability of data acquisition hardware for nuclear applications. The results of the tests performed using the SEM controller and the SEU sensors are presented for a Virtex-6 FPGA (XC6VLX240T-1FFG1156C) when irradiated with neutrons from the Portuguese Research Reactor (RPI), a 1 MW nuclear fission reactor, operated by IST in the neighborhood of Lisbon. Results show that the proposed SEU mitigation technique is able to repair the majority of the detected SEU soft-errors in the FPGA memory.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Elsevier B.V. All rights reserved.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">FPGA</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SEU detection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SEU mitigation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Real-time</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Neutrons</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nuclear Fusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Leong, Carlos</subfield>
+    <subfield code="v">Instituto de Engenharia de Sistemas e Computadores – Investigação e Desenvolvimento (INESC-ID), Lisboa, 1000-029, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Santos, Bruno</subfield>
+    <subfield code="v">Instituto de Plasmas e Fusão Nuclear, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, 1049-001, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fernandes, Ana</subfield>
+    <subfield code="v">Instituto de Plasmas e Fusão Nuclear, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, 1049-001, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ramos, Ana Rita</subfield>
+    <subfield code="v">Centro de Ciências e Tecnologias Nucleares (C2TN), Instituto Superior Técnico (IST), Universidade de Lisboa (UL), Bobadela, 2695-066, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Santos, Joana P.</subfield>
+    <subfield code="v">Centro de Ciências e Tecnologias Nucleares (C2TN), Instituto Superior Técnico (IST), Universidade de Lisboa (UL), Bobadela, 2695-066, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Marques, José G.</subfield>
+    <subfield code="v">Centro de Ciências e Tecnologias Nucleares (C2TN), Instituto Superior Técnico (IST), Universidade de Lisboa (UL), Bobadela, 2695-066, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Teixeira, Isabel C.</subfield>
+    <subfield code="v">Instituto de Engenharia de Sistemas e Computadores – Investigação e Desenvolvimento (INESC-ID), Lisboa, 1000-029, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Teixeira, João P.</subfield>
+    <subfield code="v">Instituto de Engenharia de Sistemas e Computadores – Investigação e Desenvolvimento (INESC-ID), Lisboa, 1000-029, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sousa, Jorge</subfield>
+    <subfield code="v">Instituto de Plasmas e Fusão Nuclear, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, 1049-001, Portugal</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gonçalves, Bruno</subfield>
+    <subfield code="v">Instituto de Plasmas e Fusão Nuclear, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, 1049-001, Portugal</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Fusion Eng.Des.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wesson, J.</subfield>
+    <subfield code="t">Tokamaks</subfield>
+    <subfield code="p">Oxford Science Publications</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">ITER website (machine)</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">ITER organization IDM document: NPA_electronic_location_assessment_3YHSLG_v1_2. pdf</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">ITER Catalogue of I &amp; C products −Fast Controllers</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batista, A.J.N.</subfield>
+    <subfield code="t">Control and data acquisition ATCA/AXIE board designed for high system availability and reliability of nuclear fusion experiments</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Fusion Eng.Des.,88,1332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xilinx Inc</subfield>
+    <subfield code="t">Virtex-6 FPGA ML605 evaluation kit information</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marques, J.G.</subfield>
+    <subfield code="t">Characterization of the fast neutron irradiation facility of the Portuguese research reactor after core conversion</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Appl.Radiat.Isot.,69,1128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carvalho, B.B.</subfield>
+    <subfield code="t">The ITER fast plant system controller ATCA prototype real-time software architecture</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Fusion Eng.Des.,88,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">PICMG Advanced Telecommunications Computing Architecture</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gonçalves, B.</subfield>
+    <subfield code="t">ITER fast plant system controller prototype based on ATCA platform</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Fusion Eng.Des.,87,2024</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stott, E.</subfield>
+    <subfield code="t">Fault tolerant methods for reliability in FPGAs</subfield>
+    <subfield code="p">IEEE 18th International Conference on Field Programmable Logic and Applications, September 2008, 2008</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lima Kastensmidt, F.</subfield>
+    <subfield code="t">On the optimal design of triple modular redundancy logic for SRAM-based FPGAs</subfield>
+    <subfield code="p">IEEE International Conference on Design, Automation and Test in Europe, March, 2005, 2005</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xilinx Inc</subfield>
+    <subfield code="t">Virtex-6 FPGA overview document (ds150)</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xilinx Inc</subfield>
+    <subfield code="t">IP Soft Error Mitigation controller product guide (pg036_sem)</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xilinx Inc</subfield>
+    <subfield code="t">Virtex-6 FPGA memory resources user guide (ug363)</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leong, C.</subfield>
+    <subfield code="t">SEU sensor for short-term effects monitoring in FPGAs, INESC-ID technical report</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marques, J.G.</subfield>
+    <subfield code="t">Irradiation of electronic components and circuits at the Portuguese research reactor: lessons learned</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,63,1485</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Xilinx Inc. device reliability report (ug116)</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">ITER organization IDM document: ITER_Policy_on_Electronics_Exposed_to_Nu_RAKTPP_v1_0</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Xilinx Inc. application note (xapp1073)</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quinn, H.</subfield>
+    <subfield code="t">High-performance computing for airborne applications</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bylsma, B.</subfield>
+    <subfield code="t">Radiation testing of electronics for the CMS endcap muon system</subfield>
+    <subfield code="v">698</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Nucl.Instrum.Meth.,A698,242</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0920-3796/aip/S0920379617303290/S0920379617303290.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

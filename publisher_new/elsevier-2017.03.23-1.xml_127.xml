@@ -1,0 +1,543 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.04.003</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Chan, Jesse</subfield>
+    <subfield code="v">Department of Computational and Applied Mathematics, Rice University, 6100 Main St, Houston, TX, 77005, United States</subfield>
+    <subfield code="m">Jesse.Chan@caam.rice.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">GPU-accelerated discontinuous Galerkin methods on hybrid meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">27</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a time-explicit discontinuous Galerkin (DG) solver for the time-domain acoustic wave equation on hybrid meshes containing vertex-mapped hexahedral, wedge, pyramidal and tetrahedral elements. Discretely energy-stable formulations are presented for both Gauss–Legendre and Gauss–Legendre–Lobatto (Spectral Element) nodal bases for the hexahedron. Stable timestep restrictions for hybrid meshes are derived by bounding the spectral radius of the DG operator using order-dependent constants in trace and Markov inequalities. Computational efficiency is achieved under a combination of element-specific kernels (including new quadrature-free operators for the pyramid), multi-rate timestepping, and acceleration using Graphics Processing Units.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2016 Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPU</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hybrid mesh</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Timestep restriction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wave equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Zheng</subfield>
+    <subfield code="v">Department of Computational and Applied Mathematics, Rice University, 6100 Main St, Houston, TX, 77005, United States</subfield>
+    <subfield code="m">zw14@caam.rice.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Modave, Axel</subfield>
+    <subfield code="v">Department of Computational and Applied Mathematics, Rice University, 6100 Main St, Houston, TX, 77005, United States</subfield>
+    <subfield code="m">modave@caam.rice.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Remacle, Jean-Francois</subfield>
+    <subfield code="v">School of Engineering, Universite catholique de Louvain, Avenue Georges Lemaitre 4, Louvain-la-Neuve, B-1348, Belgium</subfield>
+    <subfield code="m">Jean-Francois.Remacle@uclouvain.be</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Warburton, T.</subfield>
+    <subfield code="v">Department of Computational and Applied Mathematics, Rice University, 6100 Main St, Houston, TX, 77005, United States</subfield>
+    <subfield code="m">timwar@caam.rice.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">142-168</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amir-Moéz, Ali R.</subfield>
+    <subfield code="h">Fass, Arnold Lionel</subfield>
+    <subfield code="t">Elements of Linear Spaces, vol. 26</subfield>
+    <subfield code="p">Pergamon Press Oxford</subfield>
+    <subfield code="y">1962</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carrier Baudouin, Tristan</subfield>
+    <subfield code="h">Remacle, Jean-François</subfield>
+    <subfield code="h">Marchandise, Emilie</subfield>
+    <subfield code="h">Henrotte, François</subfield>
+    <subfield code="h">Geuzaine, Christophe</subfield>
+    <subfield code="t">A frontal approach to hex-dominant mesh generation</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Adv.Model.Simul.Eng.Sci.,1,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bedrosian, G.</subfield>
+    <subfield code="t">Shape functions and integration formulas for three-dimensional finite element analysis</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,35,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bergot, Morgane</subfield>
+    <subfield code="h">Cohen, Gary</subfield>
+    <subfield code="h">Duruflé, Marc</subfield>
+    <subfield code="t">Higher-order finite elements for hybrid meshes using new nodal pyramidal elements</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Sci.Comput.,42,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bergot, Morgane</subfield>
+    <subfield code="h">Duruflé, Marc</subfield>
+    <subfield code="t">Approximation of H(div) with high-order optimal finite elements for pyramids, prisms and hexahedra</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Commun.Comput.Phys.,14,1372</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bergot, Morgane</subfield>
+    <subfield code="h">Duruflé, Marc</subfield>
+    <subfield code="t">High-order optimal edge elements for pyramids, prisms and hexahedra</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,232,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bergot, Morgane</subfield>
+    <subfield code="h">Duruflé, Marc</subfield>
+    <subfield code="t">Higher-order discontinuous Galerkin method for pyramidal elements using orthogonal bases</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,29,144</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Botti, Lorenzo</subfield>
+    <subfield code="t">Influence of reference-to-physical frame mappings on approximation properties of discontinuous piecewise polynomial spaces</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Sci.Comput.,52,675</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, Erik</subfield>
+    <subfield code="h">Ern, Alexandre</subfield>
+    <subfield code="t">Continuous interior penalty hp -finite element methods for advection and advection–diffusion equations</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Math.Comput.,76,1119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chan, Jesse</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">hp-finite element trace inequalities for the pyramid</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Math.Appl.,69,510</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chan, Jesse</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Orthogonal bases for vertex-mapped pyramids</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">(25 pp.)</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,38,A1146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chung, Fan</subfield>
+    <subfield code="h">Kenter, Franklin</subfield>
+    <subfield code="t">Discrepancy inequalities for directed graphs</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Discrete Appl.Math.,176,30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, Gary</subfield>
+    <subfield code="h">Ferrieres, Xavier</subfield>
+    <subfield code="h">Pernet, Sébastien</subfield>
+    <subfield code="t">A spatial high-order hexahedral discontinuous Galerkin method to solve Maxwell's equations in time domain</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,217,340</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dubiner, Moshe</subfield>
+    <subfield code="t">Spectral methods on triangles and other domains</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Sci.Comput.,6,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Evans, John A.</subfield>
+    <subfield code="h">Hughes, Thomas J.R.</subfield>
+    <subfield code="t">Explicit trace inequalities for isogeometric analysis and parametric hexahedral finite elements</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Numer.Math.,123,259</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fuentes, Federico</subfield>
+    <subfield code="t">Orientation embedded high order shape functions for the exact sequence elements of all shapes</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Math.Appl.,70,353</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gandham, Rajesh</subfield>
+    <subfield code="h">Medina, D.S.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">GPU accelerated discontinuous Galerkin methods for shallow water equations</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Commun.Comput.Phys.,18,37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gassner, Gregor J.</subfield>
+    <subfield code="h">Lörcher, Frieder</subfield>
+    <subfield code="h">Munz, Claus-Dieter</subfield>
+    <subfield code="h">Hesthaven, Jan S.</subfield>
+    <subfield code="t">Polymorphic nodal elements and their application in discontinuous Galerkin methods</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1573</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geuzaine, Christophe</subfield>
+    <subfield code="h">Remacle, Jean-François</subfield>
+    <subfield code="t">Gmsh: a 3-D finite element mesh generator with built-in pre-and post-processing facilities</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,79,1309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gödel, Nico</subfield>
+    <subfield code="h">Nunn, Nigel</subfield>
+    <subfield code="h">Warburton, Tim</subfield>
+    <subfield code="h">Clemens, Markus</subfield>
+    <subfield code="t">Scalability of higher-order discontinuous Galerkin FEM computations for solving electromagnetic wave propagation problems on GPU clusters</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">IEEE Trans.Magn.,46,3469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gödel, Nico</subfield>
+    <subfield code="h">Schomann, Steffen</subfield>
+    <subfield code="h">Warburton, Tim</subfield>
+    <subfield code="h">Clemens, Markus</subfield>
+    <subfield code="t">GPU accelerated Adams–Bashforth multirate discontinuous Galerkin FEM simulation of high-frequency electromagnetic fields</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">IEEE Trans.Magn.,46,2735</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, Jan S.</subfield>
+    <subfield code="h">Warburton, Tim</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications, vol. 54</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koen, Hillewaert</subfield>
+    <subfield code="t">Development of the discontinuous Galerkin method for high-resolution, large scale CFD and acoustics in industrial geometries</subfield>
+    <subfield code="p">University de Louvain</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, George</subfield>
+    <subfield code="h">Sherwin, Spencer</subfield>
+    <subfield code="t">Spectral/hp Element Methods for Computational Fluid Dynamics</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="h">Warburton, T.C.</subfield>
+    <subfield code="h">Lomtev, I.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A discontinuous Galerkin spectral/hp method on hybrid grids</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Appl.Numer.Math.,33,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klöckner, Andreas</subfield>
+    <subfield code="h">Warburton, Tim</subfield>
+    <subfield code="h">Bridge, Jeff</subfield>
+    <subfield code="h">Hesthaven, Jan S.</subfield>
+    <subfield code="t">Nodal discontinuous Galerkin methods on graphics processors</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koornwinder, Tom</subfield>
+    <subfield code="t">Two-variable analogues of the classical orthogonal polynomials</subfield>
+    <subfield code="p">Theory and Application of Special Functions, Proc. Advanced Sem., Math. Res. Center, Univ. Wisconsin, Madison, Wis., 1975, 1975</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kopriva, David A.</subfield>
+    <subfield code="h">Gassner, Gregor</subfield>
+    <subfield code="t">On the quadrature and weak form choices in collocation type discontinuous Galerkin spectral element methods</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Sci.Comput.,44,136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, Lilia</subfield>
+    <subfield code="h">Qin, Ruibin</subfield>
+    <subfield code="t">An analysis of the spectrum of the discontinuous Galerkin method</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Appl.Numer.Math.,64,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, Lilia</subfield>
+    <subfield code="h">Qin, Ruibin</subfield>
+    <subfield code="t">An analysis of the spectrum of the discontinuous Galerkin method II: nonuniform grids</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Appl.Numer.Math.,71,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kubatko, Ethan J.</subfield>
+    <subfield code="h">Dawson, Clint</subfield>
+    <subfield code="h">Westerink, Joannes J.</subfield>
+    <subfield code="t">Time step restrictions for Runge–Kutta discontinuous Galerkin methods on triangular grids</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Malm, Johan</subfield>
+    <subfield code="h">Schlatter, Philipp</subfield>
+    <subfield code="h">Fischer, Paul F.</subfield>
+    <subfield code="h">Henningson, Dan S.</subfield>
+    <subfield code="t">Stabilization of the spectral element method in convection dominated flows by recovery of skew-symmetry</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Sci.Comput.,57,254</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Medina, David S.</subfield>
+    <subfield code="h">St-Cyr, Amik</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="r">arXiv:1403.0968</subfield>
+    <subfield code="t">OCCA: a unified approach to multi-threading languages</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv preprint</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Modave, A.</subfield>
+    <subfield code="h">St-Cyr, A.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">A nodal discontinuous Galerkin method for reverse-time migration on GPU clusters</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Geophys.J.Int.,203,1419</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nigam, Nilima</subfield>
+    <subfield code="h">Phillips, Joel</subfield>
+    <subfield code="t">Numerical integration for high order pyramidal finite elements</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,46,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ozısık, Sevtap</subfield>
+    <subfield code="h">Riviere, Beatrice</subfield>
+    <subfield code="h">Warburton, Tim</subfield>
+    <subfield code="t">On the constants in inverse inequalities in <math altimg="si31.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msup></math></subfield>
+    <subfield code="p">Rice University</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Technical report</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patera, Anthony T.</subfield>
+    <subfield code="t">A spectral element method for fluid dynamics: laminar flow in a channel expansion</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,54,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Proriol, Joseph</subfield>
+    <subfield code="t">Sur une famille de polynomes à deux variables orthogonaux dans un triangle</subfield>
+    <subfield code="v">245</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">C.R.Hebd.Séances Acad.Sci.,245,2459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remacle, J.F.</subfield>
+    <subfield code="h">Gandham, R.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="r">arXiv:1506.05996</subfield>
+    <subfield code="t">GPU accelerated spectral finite elements on all-hex meshes</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv preprint</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schöberl, Joachim</subfield>
+    <subfield code="h">Gerstmayr, H.</subfield>
+    <subfield code="h">Gaisbauer, R.</subfield>
+    <subfield code="t">NETGEN—automatic mesh generator</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sherwin, Spencer J.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="h">Karniadakis, George Em</subfield>
+    <subfield code="t">Spectral/hp methods for elliptic problems on hybrid grids</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Contemp.Math.,218,191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toulorge, Thomas</subfield>
+    <subfield code="h">Desmet, Wim</subfield>
+    <subfield code="t">CFL conditions for Runge–Kutta discontinuous Galerkin methods on triangular grids</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4657</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Spectral/hp methods on polymorphic multidomains: algorithms and applications</subfield>
+    <subfield code="p">Brown University</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">An explicit construction of interpolation nodes on the simplex</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Eng.Math.,56,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">A low storage curvilinear discontinuous Galerkin time-domain method for electromagnetics</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="q">Electromagnetic Theory (EMTS), 2010 URSI International Symposium on</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">A low-storage curvilinear discontinuous Galerkin method for wave problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A1987</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="h">Hesthaven, Jan S.</subfield>
+    <subfield code="t">On the constants in hp -finite element trace inverse inequalities</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,192,2765</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witherden, Freddie D.</subfield>
+    <subfield code="h">Farrington, Antony M.</subfield>
+    <subfield code="h">Vincent, Peter E.</subfield>
+    <subfield code="t">PyFR: an open source framework for solving advection–diffusion type problems on streaming architectures using the flux reconstruction approach</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Comput.Phys.Commun.,185,3028</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="h">Gimbutas, Zydrunas</subfield>
+    <subfield code="t">A numerical algorithm for the construction of efficient quadrature rules in two and higher dimensions</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Comput.Math.Appl.,59,663</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00113/S0021999116300353/S0021999116300353.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

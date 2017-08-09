@@ -1,0 +1,294 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.022</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Allen, T.</subfield>
+    <subfield code="v">Met Office, FitzRoy Road, Exeter EX1 3PB, UK</subfield>
+    <subfield code="m">thomas.allen@metoffice.gov.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A deep non-hydrostatic compressible atmospheric model on a Yin-Yang grid</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The singularity in the traditional spherical polar coordinate system at the poles is a major factor in the lack of scalability of atmospheric models on massively parallel machines. Overset grids such as the Yin-Yang grid introduced by Kageyama and Sato [1] offer a potential solution to this problem. In this paper a three-dimensional, compressible, non-hydrostatic atmospheric model is developed and tested on the Yin-Yang grid building on ideas previously developed by the authors on the solution of Elliptic boundary value problems and conservation on overset grids. Using several tests from the literature, it is shown that this model is highly stable (even with little off-centering), accurate, and highly efficient in terms of computational cost. The model also incorporates highly efficient and accurate approaches to achieve positivity, monotonicity and conservative transport, which are paramount requirements for any atmospheric model. The parallel scalability of this model, using in excess of 212 million unknowns and more than 6000 processors, is also discussed and shown to compare favourably with a highly optimised latitude–longitude model in terms of scalability and actual run times.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Crown Copyright © 2016 Published by Elsevier Inc. All rights reserved.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Semi-Lagrangian</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Semi-implicit</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Overset grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Atmospheric model</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sphere</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Scalability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zerroukat, M.</subfield>
+    <subfield code="j">ORCID:0000-0003-1288-7764</subfield>
+    <subfield code="v">Met Office, FitzRoy Road, Exeter EX1 3PB, UK</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">44-60</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2004GC000734</subfield>
+    <subfield code="h">Kageyama, A.</subfield>
+    <subfield code="h">Sato, T.</subfield>
+    <subfield code="t">Yin-Yang grid: an overset grid in spherical geometry</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Geochem.Geophys.Geosyst.,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="t">On the solution of elliptic problems on overset/Yin-Yang grids</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Mon.Weather Rev.,140,2756</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chesshire, G.</subfield>
+    <subfield code="h">Henshaw, W.</subfield>
+    <subfield code="t">Composite overlapping meshes for the solution of partial differential equations</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,90,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.02.007</subfield>
+    <subfield code="h">Henshaw, W.D.</subfield>
+    <subfield code="h">Chand, K.K.</subfield>
+    <subfield code="t">A composite grid solver for conjugate heat transfer in fluid–structure systems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kageyama, A.</subfield>
+    <subfield code="t">Dissection of a sphere and Yin-Yang grids</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Earth Simul.,3,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossmanith, J.A.</subfield>
+    <subfield code="t">A wave propagation method for hyperbolic systems on the sphere</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,213,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Katta, K.K.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">High-order finite volume transport on the cubed-sphere: comparison between split and unsplit two-dimensional schemes</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Mon.Weather Rev.,143,2937</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sadourny, R.</subfield>
+    <subfield code="t">Conservative finite-difference approximations of the primitive equations on quasi-uniform spherical grids</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Mon.Weather Rev.,100,136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="t">On the monotonic and conservative transport on overset/Yin-Yang grids</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,302,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qaddouri, A.</subfield>
+    <subfield code="h">Lee, V.</subfield>
+    <subfield code="t">The Canadian global environmental multiscale model on the Yin-Yang grid system</subfield>
+    <subfield code="v">137</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,137,1913</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.H.</subfield>
+    <subfield code="h">Peng, X.D.</subfield>
+    <subfield code="h">Li, X.L.</subfield>
+    <subfield code="t">An improved dynamic core for a non-hydrostatic model system on the Yin-Yang grid</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Adv.Atmos.Sci.,32,648</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/qj.2235</subfield>
+    <subfield code="h">Wood, N.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">White, A.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="h">Diamantakis, M.</subfield>
+    <subfield code="h">Gross, M.</subfield>
+    <subfield code="h">Melvin, T.</subfield>
+    <subfield code="h">Smith, C.</subfield>
+    <subfield code="h">Vosper, S.</subfield>
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="t">An inherently mass-conserving semi-implicit semi-Lagrangian discretization of the deep-atmosphere global non-hydrostatic equations</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,1505</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vorst, H.</subfield>
+    <subfield code="t">Bi-CGSTAB: fast and smoothly converging variant of bicg for the solution of linear systems</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,13,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bruaset, A.M.</subfield>
+    <subfield code="t">A Survey of Preconditioned Iterative Methods, vol. 328</subfield>
+    <subfield code="p">Longman Scientific and Technical Harlow</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, D.L.</subfield>
+    <subfield code="h">Drake, J.B.</subfield>
+    <subfield code="h">Hack, J.J.</subfield>
+    <subfield code="h">Jakob, R.</subfield>
+    <subfield code="h">Swarztrauber, P.N.</subfield>
+    <subfield code="t">A standard test set for numerical approximations to the shallow-water equations in spherical geometry</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comp.Physiol.,102,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="t">A three-dimensional monotone and conservative semi-Lagrangian scheme (SLICE-3D) for transport problems</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,138,1640</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kent, J.</subfield>
+    <subfield code="h">Ullrich, P.</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="t">Dynamical core intercomparison project: tracer transport test cases</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,1279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1256/qj.06.12</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Williamson, D.L.</subfield>
+    <subfield code="t">A baroclinic instability test case for atmospheric model dynamical cores</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,132,2943</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lauritzen, P.</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="t">Rotated versions of the Jablonowski steady-state and baroclinic wave test cases: a dynamical core intercomparison</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Adv.Model.Earth Syst.,2,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tomita, H.</subfield>
+    <subfield code="h">Satoh, M.</subfield>
+    <subfield code="t">A new dynamical framework of nonhydrostatic global model using the icosahedral grid</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Fluid Dyn.Res.,34,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Lauritzen, P.</subfield>
+    <subfield code="h">Nair, R.</subfield>
+    <subfield code="h">Taylor, M.</subfield>
+    <subfield code="t">Idealized test cases for the dynamical cores of atmospheric general circulation models: a proposal for the NCAR ASP 2008 summer colloquium</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, Y.</subfield>
+    <subfield code="h">Ding, C.</subfield>
+    <subfield code="t">Using accurate arithmetics to improve numerical reproducibility in parallel applications</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Supercomput.,18,259</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00125/S0021999116301590/S0021999116301590.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

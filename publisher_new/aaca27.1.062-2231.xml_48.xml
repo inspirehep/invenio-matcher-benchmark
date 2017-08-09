@@ -1,0 +1,161 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">FPGA Implementation of a Geometric Voting Scheme for the Extraction of Geometric Entities from Images</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">In this work, we present a novel architecture in a field programmable gate array (FPGA) for accelerating image processing algorithms based on conformal geometric algebra (CGA). This implementation specifically accelerates the execution of the Conformal Geometric Algebra Voting Scheme for detection of circles and lines in images. All geometric operations, such as meet, join, and transformation entities, are computed in hardware using FPGA. Other non-geometric operations, such as DBSCAN, are also executed in the FPGA. The full voting scheme consists of two main stages: a local stage computed using neighborhoods in the image and a global stage using the results of the local voting stage. In this implementation, we focused on the most computationally demanding stage: local voting. The top level design consists of five main hardware cores and an ARM processor interconnected using the AXI4 BUS. The cores exchange data using memory sections in a DRAM directly connected to the processing system side in the FPGA, which can be accessed by the hardware cores through the memory controller using a High performance AXI BUS. The design has been validated by comparing the results of the FPGA with the results previously obtained in a software reference application using real image data.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Conformal geometric algebra</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">FPGA</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Image processsing</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Hardware implementation</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">21</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Adv.Appl.Clifford Algebras</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">685-705</subfield>
+  <subfield code="v">27</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/s00006-016-0708-4</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2016-07-21</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Soria-García, Gerardo</subfield>
+  <subfield code="v">Department of Electrical Engineering and Computer Science - CINVESTAV Campus Guadalajara - Jalisco - Mexico</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Altamirano-Gómez, Gerardo</subfield>
+  <subfield code="v">Department of Electrical Engineering and Computer Science - CINVESTAV Campus Guadalajara - Jalisco - Mexico</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Ortega-Cisneros, Susana</subfield>
+  <subfield code="v">Department of Electrical Engineering and Computer Science - CINVESTAV Campus Guadalajara - Jalisco - Mexico</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Bayro-Corrochano, Eduardo</subfield>
+  <subfield code="v">Department of Electrical Engineering and Computer Science - CINVESTAV Campus Guadalajara - Jalisco - Mexico</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Altamirano-Gómez, G.E., Bayro-Corrochano E.</subfield>
+  <subfield code="m">: Conformal geometric method for voting. In: Bayro-Corrochano, E., Hancock, E. (eds.) Progress in pattern recognition, image analysis, computer vision, and applications. Lecture notes in computer Switzerland</subfield>
+  <subfield code="s">Science,8827,802-809</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Asano, S.</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Maruyama, T.</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">and Yamaguchi, Y.: Performance comparison of fpga, gpu and cpu in image processing. In: Field Programmable Logic and Applications,. FPL. International Conference pp. 126-131</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Bayro-Corrochano, E.</subfield>
+  <subfield code="m">: Geometric computing: for wavelet transforms, robot vision, learning, control and action London</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Canny, J.</subfield>
+  <subfield code="m">: A computational approach to edge detection. IEEE Trans. Pattern Anal. Mach. Intell. PAMI-8(6), 679-698</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Duda, R.O., Hart, P.E.</subfield>
+  <subfield code="m">: Pattern recognition and scene analysis New York</subfield>
+  <subfield code="p">Wiley</subfield>
+  <subfield code="y">1973</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Ester, M., Kriegel, H., Sander, J.</subfield>
+  <subfield code="m">Xu, X.: A density-based algorithm for discovering clusters in large spatial databases with noise. In: Proc. of the International Conference on Knowledge Discovery and Data Mining (KDD’96), (Portland, Oregon), pp. 226-231. AAAI Press, California</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Fowers, J., Brown, G., Cooke, P., Stitt, G.</subfield>
+  <subfield code="m">: A performance and energy comparison of fpgas, gpus, and multicores for sliding-window applications. In: Proceedings of the ACM/SIGDA International Symposium on Field Programmable Gate Arrays, pp. 47-56. ACM, New York</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Guttman, A.</subfield>
+  <subfield code="m">: R-trees: A dynamic index structure for spatial searching. In: Proc. of the ACM International Conference on Management of Data. (SIGMOD ’84), pp. 47-57. ACM, New York</subfield>
+  <subfield code="y">1984</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">Li, H : Generalized homogeneous coordinates for computational geometry. In: Geometric Computing with Clifford Algebras. pp. 27-59 Berlin</subfield>
+  <subfield code="h">Hestenes, D., Rockwood, A.</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">López-González, G., Altamirano-Gómez, G., Bayro-Corrochano E.</subfield>
+  <subfield code="m">: Geometric entities voting schemes in the conformal geometric algebra framework. Adv. Appl. Clifford Algebras</subfield>
+  <subfield code="a">doi:10.1007/s00006-015-0589-y</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Mordohai, P., Medioni, G.</subfield>
+  <subfield code="m">: Tensor voting: a perceptual organization approach to computer vision and machine learning. In: Synthesis lectures on image, video, and multimedia processing. Morgan &amp; Claypool, California</subfield>
+  <subfield code="a">doi:10.2200/S00049ED1V01Y200609IVM008</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

@@ -1,0 +1,617 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.01.017</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Unnikrishnan, S.</subfield>
+    <subfield code="v">Mechanical and Aerospace Engineering, The Ohio State University, Columbus, OH 43210, United States</subfield>
+    <subfield code="m">sasidharannair.1@osu.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A high-fidelity method to analyze perturbation evolution in turbulent flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-04-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Small perturbation propagation in fluid flows is usually examined by linearizing the governing equations about a steady basic state. It is often useful, however, to study perturbation evolution in the unsteady evolving turbulent environment. Such analyses can elucidate the role of perturbations in the generation of coherent structures or the production of noise from jet turbulence. The appropriate equations are still the linearized Navier–Stokes equations, except that the linearization must be performed about the instantaneous evolving turbulent state, which forms the coefficients of the linearized equations. This is a far more difficult problem since in addition to the turbulent state, its rate of change and the perturbation field are all required at each instant. In this paper, we develop and use a novel technique for this problem by using a pair (denoted “baseline” and “twin”) of simultaneous synchronized Large-Eddy Simulations ( LES ). At each time-step, small disturbances whose propagation characteristics are to be studied, are introduced into the twin through a forcing term. At subsequent time steps, the difference between the two simulations is shown to be equivalent to solving the forced Navier–Stokes equations, linearized about the instantaneous turbulent state. The technique does not put constraints on the forcing, which could be arbitrary, e.g., white noise or other stochastic variants. We consider, however, “native” forcing having properties of disturbances that exist naturally in the turbulent environment. The method then isolates the effect of turbulence in a particular region on the rest of the field, which is useful in the study of noise source localization. The synchronized technique is relatively simple to implement into existing codes. In addition to minimizing the storage and retrieval of large time-varying datasets, it avoids the need to explicitly linearize the governing equations, which can be a very complicated task for viscous terms or turbulence closures. The method is illustrated by application to a well-validated Mach 1.3 jet. Specifically, the effects of turbulence on the jet lipline and core collapse regions on the near-acoustic field are isolated. The properties of the method, including linearity and effect of initial transients, are discussed. The results provide insight into how turbulence from different parts of the jet contribute to the observed dominance of low and high frequency content at shallow and sideline angles, respectively.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Large-eddy simulations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Linearized Navier–Stokes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Perturbation evolution</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Acoustic analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gaitonde, Datta V.</subfield>
+    <subfield code="v">Mechanical and Aerospace Engineering, The Ohio State University, Columbus, OH 43210, United States</subfield>
+    <subfield code="m">gaitonde.3@osu.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">45-62</subfield>
+    <subfield code="v">310</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Drazin, P.G.</subfield>
+    <subfield code="h">Reid, W.H.</subfield>
+    <subfield code="t">Hydrodynamic Stability</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lees, L.</subfield>
+    <subfield code="h">Lin, C.C.</subfield>
+    <subfield code="t">Investigation of the stability of the laminar boundary layer in a compressible fluid</subfield>
+    <subfield code="y">1946</subfield>
+    <subfield code="m">NACA TN-1115</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michalke, A.</subfield>
+    <subfield code="t">The instability of free shear layers</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Prog.Aerosp.Sci.,12,213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Herbert, T.</subfield>
+    <subfield code="t">Parabolized stability equations</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,29,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Malik, M.R.</subfield>
+    <subfield code="t">Numerical methods for hypersonic boundary layer stability</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,86,376</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robinet, J.-C.</subfield>
+    <subfield code="t">Bifurcations in shock-wave/laminar-boundary-layer interaction: global instability approach</subfield>
+    <subfield code="v">579</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Fluid Mech.,579,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alizard, F.</subfield>
+    <subfield code="h">Cherubini, S.</subfield>
+    <subfield code="h">Robinet, J.-C.</subfield>
+    <subfield code="t">Sensitivity and optimal forcing response in separated boundary layer flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Fluids,21,064108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Theofilis, V.</subfield>
+    <subfield code="t">Global linear instability</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,43,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Touber, E.</subfield>
+    <subfield code="h">Sandham, N.D.</subfield>
+    <subfield code="t">Large-eddy simulation of low-frequency unsteadiness in a turbulent shock-induced separation bubble</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,23,79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jordan, P.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Wave packets and turbulent jet noise</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,45,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sinha, A.</subfield>
+    <subfield code="h">Alkandry, H.</subfield>
+    <subfield code="h">Kearney-Fischer, M.</subfield>
+    <subfield code="h">Samimy, M.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">The impulse response of a high-speed jet forced with localized arc filament plasma actuators</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Fluids,24,125104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sinha, A.</subfield>
+    <subfield code="h">Rodríguez, D.</subfield>
+    <subfield code="h">Brès, G.A.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Wavepacket models for supersonic jet noise</subfield>
+    <subfield code="v">742</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Fluid Mech.,742,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hussain, A.</subfield>
+    <subfield code="t">Coherent structures and turbulence</subfield>
+    <subfield code="v">173</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Fluid Mech.,173,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hussain, F.</subfield>
+    <subfield code="h">Stout, E.</subfield>
+    <subfield code="t">Self-limiting and regenerative dynamics of perturbation growth on a vortex column</subfield>
+    <subfield code="v">718</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Fluid Mech.,718,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lighthill, M.</subfield>
+    <subfield code="t">On sound generated aerodynamically: I. General theory</subfield>
+    <subfield code="v">211</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.,211,564</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lighthill, M.</subfield>
+    <subfield code="t">On sound generated aerodynamically: II. Turbulence as a source of sound</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.,222,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tam, C.K.</subfield>
+    <subfield code="h">Chen, K.</subfield>
+    <subfield code="t">A statistical model of turbulence in two-dimensional mixing layers</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Fluid Mech.,92,303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mankbadi, R.</subfield>
+    <subfield code="h">Liu, J.</subfield>
+    <subfield code="t">Sound generated aerodynamically revisited: large-scale structures in a turbulent jet as a source of sound</subfield>
+    <subfield code="v">311</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.Lond.A, Math.Phys.Eng.Sci.,311,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tam, C.</subfield>
+    <subfield code="h">Viswanathan, K.</subfield>
+    <subfield code="h">Ahuja, K.</subfield>
+    <subfield code="h">Panda, J.</subfield>
+    <subfield code="t">The sources of jet noise: experimental evidence</subfield>
+    <subfield code="v">615</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Fluid Mech.,615,253</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Marsden, O.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="t">Influence of initial turbulence level on the flow and sound fields of a subsonic jet at a diameter-based Reynolds number of 105</subfield>
+    <subfield code="v">701</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Fluid Mech.,701,352</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bogey, C.</subfield>
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="t">An analysis of the correlations between the turbulent flow and the sound pressure fields of subsonic jets</subfield>
+    <subfield code="v">583</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Fluid Mech.,583,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bridges, J.</subfield>
+    <subfield code="h">Wernet, M.P.</subfield>
+    <subfield code="t">Validating large-eddy simulation for jet aeroacoustics</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Propuls.Power,28,226</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mankbadi, R.</subfield>
+    <subfield code="h">Hixon, R.</subfield>
+    <subfield code="h">Shih, S.</subfield>
+    <subfield code="h">Povinelli, L.</subfield>
+    <subfield code="t">Use of linearized Euler equations for supersonic jet noise prediction</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">AIAA J.,36,140</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bailly, C.</subfield>
+    <subfield code="h">Juve, D.</subfield>
+    <subfield code="t">Numerical solution of acoustic propagation problems using linearized Euler equations</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">AIAA J.,38,22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prax, C.</subfield>
+    <subfield code="h">Golanski, F.</subfield>
+    <subfield code="h">Nadal, L.</subfield>
+    <subfield code="t">Control of the vorticity mode in the linearized Euler equations for hybrid aeroacoustic prediction</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,227,6044</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kierkegaard, A.</subfield>
+    <subfield code="h">Boij, S.</subfield>
+    <subfield code="h">Efraimsson, G.</subfield>
+    <subfield code="t">A frequency domain linearized Navier–Stokes equations approach to acoustic propagation in flow ducts with sharp edges</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Acoust.Soc.Am.,127,710</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jovanović, M.</subfield>
+    <subfield code="h">Bamieh, B.</subfield>
+    <subfield code="t">The spatio-temporal impulse response of the linearized Navier–Stokes equations</subfield>
+    <subfield code="v">vol. 3</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Proceedings of the American Control Conference, 2001,vol. 3,1948</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jovanović, M.R.</subfield>
+    <subfield code="t">Turbulence suppression in channel flows by small amplitude transverse wall oscillations</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Fluids,20,014101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jovanovic, M.</subfield>
+    <subfield code="h">Bamieh, B.</subfield>
+    <subfield code="t">Modeling flow statistics using the linearized Navier–Stokes equations</subfield>
+    <subfield code="v">vol. 5</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Proceedings of the 40th IEEE Conference on Decision and Control, 2001,vol. 5,4944</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crouch, J.</subfield>
+    <subfield code="h">Garbaruk, A.</subfield>
+    <subfield code="h">Magidov, D.</subfield>
+    <subfield code="t">Predicting the onset of flow unsteadiness based on global instability</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,224,924</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davis, S.H.</subfield>
+    <subfield code="t">The stability of time-periodic flows</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,8,57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burde, G.I.</subfield>
+    <subfield code="h">Nasibullayev, I.S.</subfield>
+    <subfield code="h">Zhalij, A.</subfield>
+    <subfield code="t">Stability analysis of a class of unsteady nonparallel incompressible flows via separation of variables</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Phys.Fluids,19,114110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Towne, A.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="h">Jordan, P.</subfield>
+    <subfield code="h">Cavalieri, A.</subfield>
+    <subfield code="h">Bres, G.A.</subfield>
+    <subfield code="t">Stochastic and nonlinear forcing of wavepackets in a Mach 0.9 jet, 21st AIAA/CEAS Aeroacoustics Conference</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA Paper 2217</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldstein, M.</subfield>
+    <subfield code="h">Hultgren, L.S.</subfield>
+    <subfield code="t">Boundary-layer receptivity to long-wave free-stream disturbances</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,21,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farrell, B.F.</subfield>
+    <subfield code="h">Ioannou, P.J.</subfield>
+    <subfield code="t">Stochastic forcing of the linearized Navier–Stokes equations</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Fluids A, Fluid Dyn.(1989–1993),5,2600</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choudhari, M.</subfield>
+    <subfield code="t">Boundary-layer receptivity due to distributed surface imperfections of a deterministic or random nature</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,4,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grinstein, F.F.</subfield>
+    <subfield code="h">Margolin, L.G.</subfield>
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="t">Implicit Large Eddy Simulation: Computing Turbulent Fluid Dynamics</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="h">Squires, K.</subfield>
+    <subfield code="h">Cabot, W.</subfield>
+    <subfield code="h">Lee, S.</subfield>
+    <subfield code="t">A dynamic subgrid-scale model for compressible turbulence and scalar transport</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Fluids A, Fluid Dyn.(1989–1993),3,2746</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garmann, D.J.</subfield>
+    <subfield code="h">Visbal, M.R.</subfield>
+    <subfield code="h">Orkwis, P.D.</subfield>
+    <subfield code="t">Comparative study of implicit and subgrid-scale model large-eddy simulation techniques for low-Reynolds number airfoil applications</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,71,1546</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kawai, S.</subfield>
+    <subfield code="h">Shankar, S.K.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Assessment of localized artificial diffusivity scheme for large-eddy simulation of compressible turbulent flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1739</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaitonde, D.</subfield>
+    <subfield code="h">Samimy, M.</subfield>
+    <subfield code="t">Coherent structures in plasma-actuator controlled supersonic jets: axisymmetric and mixed azimuthal modes</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phys.Fluids,23,095104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Speth, R.</subfield>
+    <subfield code="h">Gaitonde, D.</subfield>
+    <subfield code="t">Parametric study of a Mach 1.3 cold jet excited by the flapping mode using plasma actuators</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Fluids,84,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservation difference scheme V, a second-order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.</subfield>
+    <subfield code="t">Approximate Riemann solvers, parameter vectors and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pulliam, T.</subfield>
+    <subfield code="h">Chaussee, D.</subfield>
+    <subfield code="t">A diagonal form of an implicit approximate-factorization algorithm</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,39,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beam, R.</subfield>
+    <subfield code="h">Warming, R.</subfield>
+    <subfield code="t">An implicit factored scheme for the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">AIAA J.,16,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Samimy, M.</subfield>
+    <subfield code="h">Kim, J.-H.</subfield>
+    <subfield code="h">Kastner, J.</subfield>
+    <subfield code="h">Adamovich, I.</subfield>
+    <subfield code="h">Utkin, Y.</subfield>
+    <subfield code="t">Active control of high-speed and high-Reynolds-number jets using plasma actuators</subfield>
+    <subfield code="v">578</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Fluid Mech.,578,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bridges, J.</subfield>
+    <subfield code="h">Wernet, M.</subfield>
+    <subfield code="t">Turbulence associated with broadband shock noise in hot jets</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">AIAA Paper 2008-2834</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bodony, D.</subfield>
+    <subfield code="h">Lele, S.</subfield>
+    <subfield code="t">On using large-eddy simulation for the prediction of noise from cold and heated turbulent jets</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Fluids,17,085103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Afshari, A.</subfield>
+    <subfield code="h">Bodony, D.</subfield>
+    <subfield code="h">Freund, J.</subfield>
+    <subfield code="t">LES investigation of a Mach 1.3 jet with and without plasma actuators</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">AIAA Paper 2009-290</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haller, G.</subfield>
+    <subfield code="t">An objective definition of a vortex</subfield>
+    <subfield code="v">525</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Fluid Mech.,525,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agostini, L.</subfield>
+    <subfield code="h">Touber, E.</subfield>
+    <subfield code="h">Leschziner, M.</subfield>
+    <subfield code="t">Spanwise oscillatory wall motion in channel flow: drag-reduction mechanisms inferred from DNS-predicted phase-wise property variations at <math altimg="si57.gif" display="inline" overflow="scroll"><mi>r</mi><msub><mrow><mi>e</mi></mrow><mrow><mi>τ</mi></mrow></msub><mo>=</mo><mn>1000</mn></math></subfield>
+    <subfield code="v">743</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Fluid Mech.,743,606</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mankbadi, R.R.</subfield>
+    <subfield code="t">Dynamics and control of coherent structure in turbulent jets</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Appl.Mech.Rev.,45,219</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mankbadi, R.R.</subfield>
+    <subfield code="t">Transition, Turbulence, and Noise: Theory and Applications for Scientists and Engineers, vol. 282</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cavalieri, A.V.</subfield>
+    <subfield code="h">Jordan, P.</subfield>
+    <subfield code="h">Agarwal, A.</subfield>
+    <subfield code="h">Gervais, Y.</subfield>
+    <subfield code="t">Jittering wave-packet models for subsonic jet noise</subfield>
+    <subfield code="v">330</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Sound Vib.,330,4474</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kearney-Fischer, M.</subfield>
+    <subfield code="h">Sinha, A.</subfield>
+    <subfield code="h">Samimy, M.</subfield>
+    <subfield code="t">Intermittent nature of subsonic jet noise</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">AIAA J.,51,1142</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Viswanathan, K.</subfield>
+    <subfield code="h">Underbrink, J.</subfield>
+    <subfield code="h">Brusniak, L.</subfield>
+    <subfield code="t">Space–time correlation measurements in nearfields of jets</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">AIAA J.,49,1577</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Corke, T.</subfield>
+    <subfield code="h">Kusek, S.</subfield>
+    <subfield code="t">Resonance in axisymmetric jets with controlled helical-mode input</subfield>
+    <subfield code="v">249</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Fluid Mech.,249,307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Freund, J.B.</subfield>
+    <subfield code="t">Noise sources in a low-Reynolds-number turbulent jet at Mach 0.9</subfield>
+    <subfield code="v">438</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Fluid Mech.,438,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mankbadi, R.</subfield>
+    <subfield code="t">Turbulence enhancement in free shear flows under multifrequency excitation</subfield>
+    <subfield code="v">vol. 1</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Forum on Turbulent Flows-1990,vol. 1,105</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00034/S0021999116000188/S0021999116000188.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

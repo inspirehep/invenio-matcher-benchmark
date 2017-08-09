@@ -1,0 +1,864 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.034</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Re, B.</subfield>
+    <subfield code="j">ORCID:0000-0003-1692-2053</subfield>
+    <subfield code="v">Department of Aerospace Science and Technology, Politecnico di Milano, Milano, 20156, Italy</subfield>
+    <subfield code="m">barbara.re@polimi.it</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An interpolation-free ALE scheme for unsteady inviscid flows computations with large boundary displacements over three-dimensional adaptive grids</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-24</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel strategy to solve the finite volume discretization of the unsteady Euler equations within the Arbitrary Lagrangian–Eulerian framework over tetrahedral adaptive grids is proposed. The volume changes due to local mesh adaptation are treated as continuous deformations of the finite volumes and they are taken into account by adding fictitious numerical fluxes to the governing equation. This peculiar interpretation enables to avoid any explicit interpolation of the solution between different grids and to compute grid velocities so that the Geometric Conservation Law is automatically fulfilled also for connectivity changes. The solution on the new grid is obtained through standard ALE techniques, thus preserving the underlying scheme properties, such as conservativeness, stability and monotonicity. The adaptation procedure includes node insertion, node deletion, edge swapping and points relocation and it is exploited both to enhance grid quality after the boundary movement and to modify the grid spacing to increase solution accuracy. The presented approach is assessed by three-dimensional simulations of steady and unsteady flow fields. The capability of dealing with large boundary displacements is demonstrated by computing the flow around the translating infinite- and finite-span NACA 0012 wing moving through the domain at the flight speed. The proposed adaptive scheme is applied also to the simulation of a pitching infinite-span wing, where the bi-dimensional character of the flow is well reproduced despite the three-dimensional unstructured grid. Finally, the scheme is exploited in a piston-induced shock-tube problem to take into account simultaneously the large deformation of the domain and the shock wave. In all tests, mesh adaptation plays a crucial role.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mesh adaptation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">ALE scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite volume discretization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tetrahedral grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Euler equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dobrzynski, C.</subfield>
+    <subfield code="v">Bordeaux INP, IMB, UMR 5251, Talence, F-33400, France</subfield>
+    <subfield code="v">Inria Bordeaux Sud-Ouest, Team CARDAMOM, Talence, F-33405, France</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Guardone, A.</subfield>
+    <subfield code="v">Department of Aerospace Science and Technology, Politecnico di Milano, Milano, 20156, Italy</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.</subfield>
+    <subfield code="h">Amsden, A.A.</subfield>
+    <subfield code="h">Cook, J.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian computing method for all flow speeds</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7825(82)90128-1</subfield>
+    <subfield code="h">Donea, J.</subfield>
+    <subfield code="h">Giuliani, S.</subfield>
+    <subfield code="h">Halleux, J.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian finite element method for transient dynamic fluid–structure interactions</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,33,689</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lesoinne, M.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">Geometric conservation laws for flow problems with moving boundaries and deformable meshes, and their impact on aeroelastic computations</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,134,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Lesoinne, M.</subfield>
+    <subfield code="h">LeTallec, P.</subfield>
+    <subfield code="t">Load and motion transfer algorithms for fluid/structure interaction problems with non-matching discrete interfaces: momentum and energy conservation, optimal discretization and application to aeroelasticity</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,157,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2001.6932</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Geuzaine, P.</subfield>
+    <subfield code="h">Grandmont, C.</subfield>
+    <subfield code="t">The discrete geometric conservation law and the nonlinear stability of ALE schemes for the solution of flow problems on moving grids</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,174,669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.1530635</subfield>
+    <subfield code="h">Stein, K.</subfield>
+    <subfield code="h">Tezduyar, T.</subfield>
+    <subfield code="h">Benney, R.</subfield>
+    <subfield code="t">Mesh moving techniques for fluid–structure interactions with large displacements</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">ASME J.Appl.Mech.,70,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2005.07.01</subfield>
+    <subfield code="h">Masud, A.</subfield>
+    <subfield code="h">Bhanabhagvanwala, M.</subfield>
+    <subfield code="h">Khurram, R.A.</subfield>
+    <subfield code="t">An adaptive mesh rezoning scheme for moving boundary flows and fluid–structure interaction</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Fluids,36,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Basting, S.</subfield>
+    <subfield code="h">Quaini, A.</subfield>
+    <subfield code="h">Čanić, S.</subfield>
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="t">Extended ALE method for fluid–structure interaction problems with large structural displacements</subfield>
+    <subfield code="v">331</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,331,312</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peery, J.S.</subfield>
+    <subfield code="h">Carroll, D.E.</subfield>
+    <subfield code="t">Multi-material ALE methods in unstructured grids</subfield>
+    <subfield code="v">187</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,187,591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.1593</subfield>
+    <subfield code="h">Barlow, A.J.</subfield>
+    <subfield code="t">A compatible finite element multi-material ALE hydrodynamics algorithm</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,953</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.1557</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Galera, S.</subfield>
+    <subfield code="t">A cell-centred arbitrary Lagrangian–Eulerian (ALE) method</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,1161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berndt, M.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Galera, S.</subfield>
+    <subfield code="h">Kucharik, M.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Two-step hybrid conservative remapping for multimaterial arbitrary Lagrangian–Eulerian methods</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6664</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2013.10.050</subfield>
+    <subfield code="h">Kucharik, M.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Conservative multi-material remap for staggered multi-material Arbitrary Lagrangian–Eulerian methods</subfield>
+    <subfield code="v">258</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,258,268</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortega, A.L.</subfield>
+    <subfield code="h">Scovazzi, G.</subfield>
+    <subfield code="t">A geometrically-conservative, synchronized, flux-corrected remap for arbitrary Lagrangian–Eulerian computations with nodal finite elements</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6709</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2013.12.021</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Canfield, T.</subfield>
+    <subfield code="h">Charest, M.</subfield>
+    <subfield code="h">Risinger, L.</subfield>
+    <subfield code="h">Wohlbier, J.</subfield>
+    <subfield code="t">A three-dimensional finite element arbitrary Lagrangian–Eulerian method for shock hydrodynamics on unstructured grids</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Fluids,92,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.02.024</subfield>
+    <subfield code="h">Morgan, N.R.</subfield>
+    <subfield code="h">Waltz, J.I.</subfield>
+    <subfield code="h">Burton, D.E.</subfield>
+    <subfield code="h">Charest, M.R.</subfield>
+    <subfield code="h">Canfield, T.R.</subfield>
+    <subfield code="h">Wohlbier, J.G.</subfield>
+    <subfield code="t">A point-centered arbitrary Lagrangian Eulerian hydrodynamic approach for tetrahedral meshes</subfield>
+    <subfield code="v">290</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,290,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2001.6969</subfield>
+    <subfield code="h">Knupp, P.</subfield>
+    <subfield code="h">Margolin, L.G.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Reference Jacobian optimization-based rezone strategies for arbitrary Lagrangian Eulerian methods</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,176,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kucharik, M.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">An efficient linearity-and-bound-preserving remapping method</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,188,462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(02)00033-5</subfield>
+    <subfield code="h">Margolin, L.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Second-order sign-preserving conservative interpolation (remapping) on general grids</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,184,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2006.01.014</subfield>
+    <subfield code="h">Garimella, R.</subfield>
+    <subfield code="h">Kucharik, M.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">An efficient linearity and bound preserving conservative interpolation (remapping) on polyhedral meshes</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Fluids,36,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.10.039</subfield>
+    <subfield code="h">Liska, R.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Váchal, P.</subfield>
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">Optimization-based synchronized flux-corrected conservative interpolation (remapping) of mass and momentum for arbitrary Lagrangian–Eulerian methods</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.03.054</subfield>
+    <subfield code="h">Zeng, X.</subfield>
+    <subfield code="h">Scovazzi, G.</subfield>
+    <subfield code="t">A frame-invariant vector limiter for flux corrected nodal remap in arbitrary Lagrangian–Eulerian flow computations</subfield>
+    <subfield code="v">270</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,270,753</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(03)00311-5</subfield>
+    <subfield code="h">Geuzaine, P.</subfield>
+    <subfield code="h">Grandmont, C.</subfield>
+    <subfield code="h">Farhat, C.H.</subfield>
+    <subfield code="t">Design and analysis of ALE schemes with provable second-order time-accuracy for inviscid and viscous flow simulations</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,191,206</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, D.J.</subfield>
+    <subfield code="h">Yang, Z.</subfield>
+    <subfield code="t">Construction of the discrete geometric conservation law for high-order time-accurate simulations on dynamic meshes</subfield>
+    <subfield code="v">213</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,213,557</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carré, G.</subfield>
+    <subfield code="h">Pino, S.D.</subfield>
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="h">Labourasse, E.</subfield>
+    <subfield code="t">A cell-centered Lagrangian hydrodynamics scheme on general unstructured meshes in arbitrary dimension</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5160</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burton, D.</subfield>
+    <subfield code="h">Morgan, N.</subfield>
+    <subfield code="h">Carney, T.</subfield>
+    <subfield code="h">Kenamond, M.</subfield>
+    <subfield code="t">Reduction of dissipation in Lagrange cell-centered hydrodynamics (CCH) through corner gradient reconstruction (CGR)</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,299,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A high order ENO conservative Lagrangian type scheme for the compressible Euler equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A direct arbitrary-Lagrangian–Eulerian ADER-WENO finite volume scheme on unstructured tetrahedral meshes for conservative and non-conservative hyperbolic systems in 3D</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,275,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">On the significance of the geometric conservation law for flow computations on moving meshes</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,1467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2003.09.028</subfield>
+    <subfield code="h">Formaggia, L.</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="t">Stability analysis of second-order time accurate schemes for ALE–FEM</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,193,4097</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.11.032</subfield>
+    <subfield code="h">Étienne, S.</subfield>
+    <subfield code="h">Garon, A.</subfield>
+    <subfield code="h">Pelletier, D.</subfield>
+    <subfield code="t">Perspective on the geometric conservation law and finite element methods for ALE simulations of incompressible flow</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Breil, J.</subfield>
+    <subfield code="h">Galera, S.</subfield>
+    <subfield code="t">ReALE: a reconnection-based arbitrary-Lagrangian–Eulerian method</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4724</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2004.02.021</subfield>
+    <subfield code="h">Anderson, R.</subfield>
+    <subfield code="h">Elliott, N.</subfield>
+    <subfield code="h">Pember, R.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian method with adaptive mesh refinement for the solution of the Euler equations</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,199,598</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.1599</subfield>
+    <subfield code="h">Morrell, J.</subfield>
+    <subfield code="h">Sweby, P.</subfield>
+    <subfield code="h">Barlow, A.</subfield>
+    <subfield code="t">A cell by cell anisotropic adaptive mesh ALE method</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,56,1441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="t">E pur si muove: galilean-invariant cosmological hydrodynamical simulations on a moving mesh</subfield>
+    <subfield code="v">401</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,401,791</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="t">Mesh adaptation in fluid mechanics</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Eng.Fract.Mech.,50,819</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0168-874X(96)00032-7</subfield>
+    <subfield code="h">Baker, T.J.</subfield>
+    <subfield code="t">Mesh adaptation strategies for problems in fluid dynamics</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Finite Elem.Anal.Des.,25,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Habashi, W.G.</subfield>
+    <subfield code="h">Dompierre, J.</subfield>
+    <subfield code="h">Bourgault, Y.</subfield>
+    <subfield code="h">Ait-Ali-Yahia, D.</subfield>
+    <subfield code="h">Fortin, M.</subfield>
+    <subfield code="h">Vallet, M.-G.</subfield>
+    <subfield code="t">Anisotropic mesh adaptation: towards user-independent, mesh-independent and solver-independent CFD. Part I: General principles</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,32,725</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fidkowski, K.J.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">Review of output-based error estimation and mesh adaptation in computational fluid dynamics</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">AIAA J.,49,673</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hassan, O.</subfield>
+    <subfield code="h">Probert, E.</subfield>
+    <subfield code="h">Morgan, K.</subfield>
+    <subfield code="h">Weatherill, N.</subfield>
+    <subfield code="t">Unsteady flow simulation using unstructured meshes</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,189,1247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hassan, O.</subfield>
+    <subfield code="h">Morgan, K.</subfield>
+    <subfield code="h">Weatherill, N.</subfield>
+    <subfield code="t">Unstructured mesh methods for the solution of the unsteady compressible flow equations with moving boundary components</subfield>
+    <subfield code="v">365</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phil.Trans.R.Soc.,A365,2531</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobrzynski, C.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="t">Anisotropic delaunay mesh adaptation for unsteady simulations</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="q">Proceedings of the 17th International Meshing Roundtable</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Compère, G.</subfield>
+    <subfield code="h">Remacle, J.J. Jean-François</subfield>
+    <subfield code="h">Hoffman, J.</subfield>
+    <subfield code="t">A mesh adaptation framework for dealing with large deforming meshes</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,82,843</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, R.</subfield>
+    <subfield code="h">Keast, P.</subfield>
+    <subfield code="h">Muir, P.</subfield>
+    <subfield code="t">A comparison of adaptive software for 1D parabolic PDEs</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,169,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2010.08.024</subfield>
+    <subfield code="h">Loubère, R.</subfield>
+    <subfield code="h">Maire, P.-H.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">ReALE: a reconnection arbitrary-Lagrangian–Eulerian method in cylindrical geometry</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Comput.Fluids,46,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perot, B.</subfield>
+    <subfield code="h">Nallapati, R.</subfield>
+    <subfield code="t">A moving unstructured staggered mesh method for the simulation of incompressible free-surface flows</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,184,192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, J.</subfield>
+    <subfield code="t">A second-order changing-connectivity ALE scheme and its application to FSI with large convection of fluids and near contact of structures</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,304,308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="t">Three-dimensional fluid–structure interaction using a finite element solver and adaptive remeshing</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Comput.Syst.Eng.,1,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Löhner, R.</subfield>
+    <subfield code="h">Baum, J.</subfield>
+    <subfield code="t">Three-dimensional store separation using a finite element solver and adaptive remeshing</subfield>
+    <subfield code="p">29th Aerospace Sciences Meeting, vol. 0602, Reno, Nevada, 1991</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hassan, O.</subfield>
+    <subfield code="h">Sørensen, K.</subfield>
+    <subfield code="h">Morgan, K.</subfield>
+    <subfield code="h">Weatherill, N.</subfield>
+    <subfield code="t">A method for time accurate turbulent compressible fluid flow simulation with moving boundary components employing local remeshing</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,53,1243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">A changing-topology moving mesh technique for large displacements</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Eng.Comput.,30,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, L.</subfield>
+    <subfield code="h">Persson, P.</subfield>
+    <subfield code="t">A high-order discontinuous Galerkin method with unstructured space–time meshes for two-dimensional compressible flows on domains with large deformations</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Comput.Fluids,118,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olivier, G.</subfield>
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">A new changing-topology ALE scheme for moving mesh unsteady simulation</subfield>
+    <subfield code="p">AIAA Aerospace Sciences Meeting, AIAA 2011-474, Orlando, United States, 2011</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barral, N.</subfield>
+    <subfield code="h">Olivier, G.</subfield>
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">Time-accurate anisotropic mesh adaptation for three-dimensional time-dependent problems with body-fitted moving geometries</subfield>
+    <subfield code="v">331</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,331,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">A parallel matrix-free conservative solution interpolation on unstructured tetrahedral meshes</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,299,116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Isola, D.</subfield>
+    <subfield code="h">Guardone, A.</subfield>
+    <subfield code="h">Quaranta, G.</subfield>
+    <subfield code="t">Finite-volume solution of two-dimensional compressible flows over dynamic adaptive grids</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,285,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2011.06.026</subfield>
+    <subfield code="h">Guardone, A.</subfield>
+    <subfield code="h">Isola, D.</subfield>
+    <subfield code="h">Quaranta, G.</subfield>
+    <subfield code="t">Arbitrary Lagrangian Eulerian formulation for two-dimensional flows using dynamic meshes with edge swapping</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7706</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="h">George, P.-L.</subfield>
+    <subfield code="t">Mesh Generation: Application to Finite Element, vol. 32</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dobrzynski, C.</subfield>
+    <subfield code="h">Dapogny, C.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="h">Froehly, A.</subfield>
+    <subfield code="t">Mmg Platform</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Numerical Methods for Conservation Laws</subfield>
+    <subfield code="p">Birkhäuser Basel</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Selmin, V.</subfield>
+    <subfield code="t">The node-centred finite volume approach: bridge between finite differences and finite elements</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,102,107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Selmin, V.</subfield>
+    <subfield code="h">Formaggia, L.</subfield>
+    <subfield code="t">Unified construction of finite element and finite volume discretisations for compressible flows</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,39,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="t">High resolution schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,135,260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme II. Monotoniticy and conservation combined in a second order scheme</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,14,361</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.</subfield>
+    <subfield code="t">Approximate Riemann solvers, parameter vectors, and difference schemes</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">J.Comput.Phys.,135,250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muffo, D.</subfield>
+    <subfield code="h">Quaranta, G.</subfield>
+    <subfield code="h">Guardone, A.</subfield>
+    <subfield code="h">Mantegazza, P.</subfield>
+    <subfield code="t">Interface Velocity Consistency in Time-Accurate Flow Simulations on Dynamic Meshes</subfield>
+    <subfield code="p">Politecnico di Milano Italy</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Tech. Rep. Scientific Report DIA-SR 07-01</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Whitaker, D.</subfield>
+    <subfield code="t">Three-Dimensional Unstructured Grid Euler Computations Using a Fully-Implicit</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">Upwind Method, AIAA Paper 93-3337</subfield>
+    <subfield code="o">67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/6.1989-366</subfield>
+    <subfield code="h">Barth, T.J.</subfield>
+    <subfield code="h">Jespersen, D.</subfield>
+    <subfield code="t">The design and application of upwind schemes on unstructured meshes</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="q">27th Aerospace Sciences Meetings</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/2.711</subfield>
+    <subfield code="h">Haselbacher, A.</subfield>
+    <subfield code="h">McGuirk, J.J.</subfield>
+    <subfield code="h">Page, G.J.</subfield>
+    <subfield code="t">Finite volume discretization aspects for viscous flows on mixed unstructured grids</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">AIAA J.,37,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Time Dependent Calculations Using Multigrid, with Applications to Unsteady Flows Past Airfoils and Wings</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="m">AIAA paper 1596</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koren, B.</subfield>
+    <subfield code="t">Defect correction and multigrid for an efficient and accurate computation of airfoil flows</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,77,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Re, B.</subfield>
+    <subfield code="t">An Adaptive Interpolation-Free Conservative Scheme for the Three-Dimensional Euler Equations on Dynamic Meshes for Aeronautical Applications</subfield>
+    <subfield code="p">Politecnico di Milano, Department of Aerospace Science and Technology</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Re, B.</subfield>
+    <subfield code="h">Guardone, A.</subfield>
+    <subfield code="h">Dobrzynski, C.</subfield>
+    <subfield code="t">An adaptive conservative ALE approach to deal with large boundary displacements in three-dimensional inviscid simulations</subfield>
+    <subfield code="y">2017</subfield>
+    <subfield code="q">55th AIAA Aerospace Sciences Meeting, 2017 AIAA SciTech Forum, Grapevine, Texas</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batina, J.T.</subfield>
+    <subfield code="t">Unsteady Euler airfoil solutions using unstructured dynamic meshes</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">AIAA J.,28,1381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="h">Liu, W.K.</subfield>
+    <subfield code="h">Moran, B.</subfield>
+    <subfield code="t">Nonlinear Finite Element for Continua and Structures</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borouchaki, H.</subfield>
+    <subfield code="h">Hecht, F.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="t">Mesh gradation control</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,43,1143</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borouchaki, H.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="t">Simplification of surface mesh using Hausdorff envelope</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dapogny, C.</subfield>
+    <subfield code="h">Dobrzynski, C.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="t">Three-dimensional adaptive domain remeshing, implicit domain meshing, and applications to free and moving boundary problems</subfield>
+    <subfield code="v">262</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Phys.,262,358</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fluid.29.1.473</subfield>
+    <subfield code="h">Mavriplis, D.J.</subfield>
+    <subfield code="t">Unstructured grid techniques</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,29,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Landon, R.</subfield>
+    <subfield code="t">NACA 0012 Oscillatory and Transient Pitching, Compendium of Unsteady Aerodynamic Measurements</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="m">Tech. Rep. R-702, AGARD Report</subfield>
+    <subfield code="o">80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W.K. Anderson, J.T. Batina</subfield>
+    <subfield code="m">Accurate solutions, parameter studies, and comparison for the Euler and potential flow equations, NASA, September, Technical Memorandum 100664</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCroskey, W.</subfield>
+    <subfield code="t">Unsteady airfoils</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,14,285</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302292/S0021999117302292.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

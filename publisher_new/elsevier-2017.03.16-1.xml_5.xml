@@ -1,0 +1,304 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.009</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Moura, R.C.</subfield>
+    <subfield code="j">ORCID:0000-0002-8565-6468</subfield>
+    <subfield code="v">Aeronautics Department, Imperial College London, SW7 2AZ, United Kingdom</subfield>
+    <subfield code="m">rmoura13@imperial.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Eigensolution analysis of spectral/ hp continuous Galerkin approximations to advection–diffusion problems: Insights into spectral vanishing viscosity</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This study addresses linear dispersion–diffusion analysis for the spectral/ hp continuous Galerkin (CG) formulation in one dimension. First, numerical dispersion and diffusion curves are obtained for the advection–diffusion problem and the role of multiple eigencurves peculiar to spectral/ hp methods is discussed. From the eigencurves' behaviour, we observe that CG might feature potentially undesirable non-smooth dispersion/diffusion characteristics for under-resolved simulations of problems strongly dominated by either convection or diffusion. Subsequently, the linear advection equation augmented with spectral vanishing viscosity (SVV) is analysed. Dispersion and diffusion characteristics of CG with SVV-based stabilization are verified to display similar non-smooth features in flow regions where convection is much stronger than dissipation or vice-versa, owing to a dependency of the standard SVV operator on a local Péclet number. First a modification is proposed to the traditional SVV scaling that enforces a globally constant Péclet number so as to avoid the previous issues. In addition, a new SVV kernel function is suggested and shown to provide a more regular behaviour for the eigencurves along with a consistent increase in resolution power for higher-order discretizations, as measured by the extent of the wavenumber range where numerical errors are negligible. The dissipation characteristics of CG with the SVV modifications suggested are then verified to be broadly equivalent to those obtained through upwinding in the discontinuous Galerkin (DG) scheme. Nevertheless, for the kernel function proposed, the full upwind DG scheme is found to have a slightly higher resolution power for the same dissipation levels. These results show that improved CG-SVV characteristics can be pursued via different kernel functions with the aid of optimization algorithms.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dispersion–diffusion analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Continuous Galerkin formulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral vanishing viscosity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stabilization for DNS/LES</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sherwin, S.J.</subfield>
+    <subfield code="v">Aeronautics Department, Imperial College London, SW7 2AZ, United Kingdom</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Peiró, J.</subfield>
+    <subfield code="v">Aeronautics Department, Imperial College London, SW7 2AZ, United Kingdom</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">401-422</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Facilitating the adoption of unstructured high-order methods amongst a wider community of fluid dynamicists</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Math.Model.Nat.Phenom.,6,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, F.Q.</subfield>
+    <subfield code="h">Hussaini, M.Y.</subfield>
+    <subfield code="h">Rasetarinera, P.</subfield>
+    <subfield code="t">An analysis of the discontinuous Galerkin method for wave propagation problems</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,151,921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van den Abeele, K.</subfield>
+    <subfield code="h">Broeckhoven, T.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="t">Dispersion and dissipation properties of the 1D spectral volume method and application to a p-multigrid algorithm</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,224,616</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van den Abeele, K.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="t">On the stability and accuracy of the spectral difference method</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Sci.Comput.,37,162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Insights from von Neumann analysis of high-order flux reconstruction schemes</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Dispersion analysis of the continuous and discontinuous Galerkin formulations</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="e">Cockburn,B.</subfield>
+    <subfield code="e">Karniadakis,G.E.</subfield>
+    <subfield code="e">Shu,C.W.</subfield>
+    <subfield code="q">Discontinuous Galerkin Methods: Theory, Computation and Applications</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Spectral/hp Element Methods for Computational Fluid Dynamics</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gresho, P.M.</subfield>
+    <subfield code="h">Sani, R.L.</subfield>
+    <subfield code="t">Incompressible Flow and the Finite Element Method. Vol. 1: Advection–Diffusion</subfield>
+    <subfield code="p">John Wiley and Sons</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moura, R.C.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="h">Peiró, J.</subfield>
+    <subfield code="t">Linear dispersion–diffusion analysis and its application to under-resolved turbulence simulations using discontinuous Galerkin spectral/ hp methods</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,298,695</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Convergence of spectral methods for nonlinear conservation laws</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,26,30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andreassen, Ø.</subfield>
+    <subfield code="h">Lie, I.</subfield>
+    <subfield code="h">Wasberg, C.E.</subfield>
+    <subfield code="t">The spectral viscosity method applied to simulation of waves in a stratified atmosphere</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,110,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kaber, S.M.O.</subfield>
+    <subfield code="t">A Legendre pseudospectral viscosity method</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,128,165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karamanos, G.S.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A spectral vanishing viscosity method for large-eddy simulations</subfield>
+    <subfield code="v">163</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,163,22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Stabilisation of spectral/hp element methods through spectral vanishing viscosity: application to fluid mechanics modelling</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,3128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Coarse resolution turbulence simulations with spectral vanishing viscosity–large-eddy simulations (SVV–LES)</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Fluids Eng.,124,886</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="t">Spectral vanishing viscosity method for LES: sensitivity to the SVV control parameters</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Turbul.,6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="t">Spectral vanishing viscosity method for large-eddy simulation of turbulent flows</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Sci.Comput.,27,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Minguez, M.</subfield>
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="h">Serre, E.</subfield>
+    <subfield code="t">High-order large-eddy simulation of flow over the ‘Ahmed body’ car model</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Fluids,20,095101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koal, K.</subfield>
+    <subfield code="h">Stiller, J.</subfield>
+    <subfield code="h">Blackburn, H.M.</subfield>
+    <subfield code="t">Adapting the spectral vanishing viscosity method for large-eddy simulations in cylindrical configurations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maday, Y.</subfield>
+    <subfield code="h">Kaber, S.M.O.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Legendre pseudospectral viscosity method for nonlinear conservation laws</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,30,321</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, C.</subfield>
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="t">Stabilized spectral element computations of high Reynolds number incompressible flows</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,196,680</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kovasznay, L.I.G.</subfield>
+    <subfield code="t">Laminar flow behind a two-dimensional grid</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1948</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Math.Proc.Camb.Philos.Soc.,44,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cantwell, C.D.</subfield>
+    <subfield code="h">Moxey, D.</subfield>
+    <subfield code="h">Comerford, A.</subfield>
+    <subfield code="h">Bolis, A.</subfield>
+    <subfield code="h">Rocco, G.</subfield>
+    <subfield code="h">Mengaldo, G.</subfield>
+    <subfield code="h">De Grazia, D.</subfield>
+    <subfield code="h">Yakovlev, S.</subfield>
+    <subfield code="h">Lombard, J.</subfield>
+    <subfield code="h">Ekelschot, D.</subfield>
+    <subfield code="h">Jordi, B.</subfield>
+    <subfield code="h">Xu, H.</subfield>
+    <subfield code="h">Mohamied, Y.</subfield>
+    <subfield code="h">Eskilsson, C.</subfield>
+    <subfield code="h">Nelson, B.</subfield>
+    <subfield code="h">Vos, P.</subfield>
+    <subfield code="h">Biotto, C.</subfield>
+    <subfield code="h">Kirby, R.M.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Nektar++: an open-source spectral/hp element framework</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Phys.Commun.,192,205</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00246/S0021999115008256/S0021999115008256.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

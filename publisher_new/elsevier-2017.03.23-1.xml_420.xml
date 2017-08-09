@@ -1,0 +1,574 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.06.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Frei, S.</subfield>
+    <subfield code="v">Institute for Applied Mathematics, Heidelberg University, Heidelberg, 69120, Germany</subfield>
+    <subfield code="m">stefan.frei@iwr.uni-heidelberg.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Long-term simulation of large deformation, mechano-chemical fluid-structure interactions in ALE and fully Eulerian coordinates</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this work, we develop numerical schemes for mechano-chemical fluid-structure interactions with long-term effects. We investigate a model of a growing solid interacting with an incompressible fluid. A typical example for such a situation is the formation and growth of plaque in blood vessels. This application includes two particular difficulties: First, growth may lead to very large deformations, up to full clogging of the fluid domain. We derive a simplified set of equations including a fluid-structure interaction system coupled to an ODE model for plaque growth in Arbitrary Lagrangian Eulerian (ALE) coordinates and in Eulerian coordinates. The latter novel technique is capable of handling very large deformations up to contact. The second difficulty stems from the different time scales: while the dynamics of the fluid demand to resolve a scale of seconds, growth typically takes place in a range of months. We propose a temporal two-scale approach using local small-scale problems to compute an effective wall stress that will enter a long-scale problem. Our proposed techniques are substantiated with several numerical tests that include comparisons of the Eulerian and ALE approaches as well as convergence studies.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite elements</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid-structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Solid growth</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fully Eulerian approach</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Arbitrary Lagrangian–Eulerian approach</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Temporal multi-scales</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Richter, T.</subfield>
+    <subfield code="j">ORCID:0000-0003-0206-3606</subfield>
+    <subfield code="v">Department of Mathematics, AM3, FAU Erlangen-Nürnberg, Erlangen, 91058, Germany</subfield>
+    <subfield code="m">richter@math.fau.de</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wick, T.</subfield>
+    <subfield code="v">RICAM, Austrian Academy of Sciences, Altenberger Str. 69, Linz, 4040, Austria</subfield>
+    <subfield code="v">Fakultät für Mathematik, Lehrstuhl M17, Technische Universität München, Garching bei München, 85747, Germany</subfield>
+    <subfield code="m">wick@ma.tum.de</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">874-891</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ambrosi, D.</subfield>
+    <subfield code="h">Ateshian, G.</subfield>
+    <subfield code="h">Arruda, E.</subfield>
+    <subfield code="h">Cowin, S.</subfield>
+    <subfield code="h">Dumais, J.</subfield>
+    <subfield code="h">Goriely, A.</subfield>
+    <subfield code="h">Holzapfel, G.</subfield>
+    <subfield code="h">Humphrey, J.D.</subfield>
+    <subfield code="h">Kemkemer, R.</subfield>
+    <subfield code="h">Kuhl, E.</subfield>
+    <subfield code="h">Olberding, J.</subfield>
+    <subfield code="h">Taber, L.</subfield>
+    <subfield code="h">Garikipati, K.</subfield>
+    <subfield code="t">Perspectives on biological growth and remodeling</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,59,863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bangerth, W.</subfield>
+    <subfield code="h">Heister, T.</subfield>
+    <subfield code="h">Heltai, L.</subfield>
+    <subfield code="h">Kanschat, G.</subfield>
+    <subfield code="h">Kronbichler, M.</subfield>
+    <subfield code="h">Maier, M.</subfield>
+    <subfield code="h">Turcksin, B.</subfield>
+    <subfield code="h">Young, T.D.</subfield>
+    <subfield code="t">The deal.II library, version 8.2</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Arch.Numer.Software,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becker, R.</subfield>
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="t">A finite element pressure gradient stabilization for the Stokes equations based on local projections</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Calcolo,38,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becker, R.</subfield>
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="h">Meidner, D.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="h">Vexler, B.</subfield>
+    <subfield code="t">The finite element toolkit Gascoigne</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boffi, D.</subfield>
+    <subfield code="h">Gastaldi, L.</subfield>
+    <subfield code="t">A finite element approach for the immersed boundary method</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Struct.,81,491</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="h">Ern, A.</subfield>
+    <subfield code="t">Coupling multimodeling with local mesh refinement for the numerical solution of laminar flames</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Combust.Theory Model.,8,771</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bulelzai, M.</subfield>
+    <subfield code="h">Dubbeldam, J.</subfield>
+    <subfield code="t">Long time evolution of atheroscelrotic plaques</subfield>
+    <subfield code="v">297</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Theor.Biol.,297,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bungartz, H.J.</subfield>
+    <subfield code="h">Mehl, M.</subfield>
+    <subfield code="h">Schäfer, M.</subfield>
+    <subfield code="t">Fluid-Structure Interaction II: Modelling, Simulation, Optimization, Lect. Notes Comput. Sci. Eng., </subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bungartz, H.J.</subfield>
+    <subfield code="h">Schäfer, M.</subfield>
+    <subfield code="t">Fluid-Structure Interaction: Modelling, Simulation, Optimization, Lect. Notes Comput. Sci. Eng., vol. 53</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 53</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Fernández, M.A.</subfield>
+    <subfield code="t">An unfitted Nitsche method for incompressible fluid–structure interaction using overlapping meshes</subfield>
+    <subfield code="v">279</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,279,497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">Edge stabilization for the generalized stokes problem: a continuous interior penalty method</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,2393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Causin, P.</subfield>
+    <subfield code="h">Gerbeau, J.F.</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="t">Added-mass effect in the design of partitioned algorithms for fluid-structure problems</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4506</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, C.</subfield>
+    <subfield code="h">Ding, Y.</subfield>
+    <subfield code="h">Gear, J.</subfield>
+    <subfield code="t">Numerical simulation of atherosclerotic plaque growth using two-way fluid-structural interaction</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">ANZIAM J.,53,278</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ciarlet, P.G.</subfield>
+    <subfield code="t">Mathematical Elasticity. Volume 1: Three Dimensional Elasticity</subfield>
+    <subfield code="p">North-Holland</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cilla, M.</subfield>
+    <subfield code="h">na, E.P.</subfield>
+    <subfield code="h">Martínez, M.</subfield>
+    <subfield code="t">Mathematical modelling of atheroma plaque formation and development in coronary arteries</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.R.Soc.Interface,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cottet, G.H.</subfield>
+    <subfield code="h">Maitre, E.</subfield>
+    <subfield code="h">Milcent, T.</subfield>
+    <subfield code="t">Eulerian formulation and level set models for incompressible fluid – structure interaction</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,42,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donea, J.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian finite element method for transient dynamic fluid-structure interactions</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,33,689</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Donea, J.</subfield>
+    <subfield code="h">Huerta, A.</subfield>
+    <subfield code="h">Ponthot, J.P.</subfield>
+    <subfield code="h">Rodríguez-Ferran, A.</subfield>
+    <subfield code="t">Arbitrary Lagrangian–Eulerian Methods</subfield>
+    <subfield code="p">John Wiley &amp; Sons, Ltd</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dunne, T.</subfield>
+    <subfield code="t">An Eulerian approach to fluid-structure interaction and goal-oriented mesh refinement</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Math.Fluids,51,1017</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dunne, T.</subfield>
+    <subfield code="h">Rannacher, R.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">Numerical simulation of fluid-structure interaction based on monolithic variational formulations</subfield>
+    <subfield code="p">Singapore: World Scientific</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Galdi,G.</subfield>
+    <subfield code="e">Rannacher,R.</subfield>
+    <subfield code="q">Comtemporary Challenges in Mathematical Fluid Mechanics</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Formaggia, L.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="h">Veneziani, A.</subfield>
+    <subfield code="t">Cardiovascular Mathematics: Modeling and Simulation of the Circulatory System</subfield>
+    <subfield code="p">Springer-Verlag Italia, Milano</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frei, S.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">A locally modified parametric finite element method for interface problems</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerstenberger, A.</subfield>
+    <subfield code="h">Wall, W.A.</subfield>
+    <subfield code="t">An extended finite element method/lagrange multiplier based approach for fluid-structure interaction</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,1699</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hansbo, A.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">A finite element method for the simulation of strong and weak discontinuities in solid mechanics</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,193,3523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="h">Hermansson, J.</subfield>
+    <subfield code="h">Svedberg, T.</subfield>
+    <subfield code="t">Nitsche's method combined with space–time finite elements for ale fluid – structure interaction problems</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,193,4195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holzapfel, G.</subfield>
+    <subfield code="t">Nonlinear Solid Mechanics: A Continuum Approach for Engineering</subfield>
+    <subfield code="p">Wiley-Blackwell</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, T.</subfield>
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">Zimmermann, T.</subfield>
+    <subfield code="t">Lagrangian–Eulerian finite element formulations for incompressible viscous flows</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,29,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Humphrey, J.</subfield>
+    <subfield code="t">Vascular mechanics, mechanobiology and remodeling</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Mech.Med.Biol.,9,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Janela, J.</subfield>
+    <subfield code="h">Moura, A.</subfield>
+    <subfield code="h">Sequeira, A.</subfield>
+    <subfield code="t">Absorbing boundary conditions for a 3d non-Newtonian fluid-structure interaction model for blood flow in arteries</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Eng.Sci.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jones, G.</subfield>
+    <subfield code="h">Chapman, S.</subfield>
+    <subfield code="t">Modeling growth in biological materials</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM Rev.,54,52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laadhari, A.</subfield>
+    <subfield code="h">Ruiz-Baier, R.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">Fully eulerian finite element approximation of a fluid-structure interaction problem in cardiac cells</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,96,712</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Legay, A.</subfield>
+    <subfield code="h">Chessa, J.</subfield>
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="t">An Eulerian–Lagrangian method for fluid-structure interaction based on level sets</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,2070</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moes, N.</subfield>
+    <subfield code="h">Dolbow, J.</subfield>
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="t">A finite element method for crack growth without remeshing</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,46,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Fronts propagating with curvature-dependent speed: algorithms based on Hamiltonian–Jacobi formulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">A fully Eulerian formulation for fluid-structure interaction problems</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,233,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Finite elements for fluid-structure interaction in ALE and fully Eulerian coordinates</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,2633</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rodriguez, E.</subfield>
+    <subfield code="h">Hoger, A.</subfield>
+    <subfield code="h">McCulloch, A.</subfield>
+    <subfield code="t">Stress-dependent finite growth in soft elastic tissues</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Biomech.,4,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stein, K.</subfield>
+    <subfield code="h">Tezduyar, T.</subfield>
+    <subfield code="h">Benney, R.</subfield>
+    <subfield code="t">Mesh moving techniques for fluid-structure interactions with large displacements</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Appl.Mech.,70,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sugiyama, K.</subfield>
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Takeuchi, S.</subfield>
+    <subfield code="h">Takagi, S.</subfield>
+    <subfield code="h">Matsumoto, Y.</subfield>
+    <subfield code="t">A full eulerian finite difference approach for solving fluid-structure coupling problems</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,3,596</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tezduyar, T.</subfield>
+    <subfield code="h">Behr, M.</subfield>
+    <subfield code="h">Liou, J.</subfield>
+    <subfield code="t">A new strategy for finite element computations involving moving boundaries and interfaces – the deforming-spatial-domain/space-time procedure: I. the concept and the preliminary numerical tests</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,94,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tezduyar, T.</subfield>
+    <subfield code="h">Behr, M.</subfield>
+    <subfield code="h">Mittal, S.</subfield>
+    <subfield code="h">Liou, J.</subfield>
+    <subfield code="t">A new strategy for finite element computations involving moving boundaries and interfaces – the deforming-spatial-domain/space-time procedure: II. Computation of free-surface flows, two-liquid flows, and flows with drifting cylinders</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,94,353</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van Epps, J.</subfield>
+    <subfield code="h">Vorp, D.</subfield>
+    <subfield code="t">Mechanopathobiology of atherogeneses: a review</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Surg.Res.,142,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Fluid-structure interactions using different mesh motion techniques</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Comput.Struct.,89,1456</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2012.11.009</subfield>
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Fully Eulerian fluid-structure interaction for time-dependent problems</subfield>
+    <subfield code="v">255</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,255,14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Solving monolithic fluid-structure interaction problems in arbitrary Lagrangian Eulerian coordinates with the deal.ii library</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Arch.Numer.Software,1,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Flapping and contact FSI computations with the fluid-solid interface-tracking/interface-capturing technique and mesh adaptivity</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Mech.,53,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wick, T.</subfield>
+    <subfield code="t">Variational-monolithic ale fluid-structure interaction: comparison of computational cost and mesh regularity using different mesh motion techniques (2016)</subfield>
+    <subfield code="m">Accepted for HPSC Hanoi proceedings; RICAM preprint 2016-12 online on</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="h">Chen, N.</subfield>
+    <subfield code="h">Shadden, S.C.</subfield>
+    <subfield code="h">Marsden, J.E.</subfield>
+    <subfield code="h">Kamocka, M.M.</subfield>
+    <subfield code="h">Rosen, E.D.</subfield>
+    <subfield code="h">Alber, M.</subfield>
+    <subfield code="t">Study of blood flow impact on growth of thrombi using a multiscale model</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Soft Matter,5,769</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="t">Mathematical Modeling and Simulation of the Evolution of Plaques in Blood Vessels</subfield>
+    <subfield code="p">Institut für Angewandte Mathematik, Universität Heidelberg</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Doktorarbeit</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Jäger, W.</subfield>
+    <subfield code="h">Neuss-Radu, M.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">Mathematical modeling and simulation of the evolution of plaques in blood vessels</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Math.Biol.,72,973</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="h">Jäger, W.</subfield>
+    <subfield code="h">Neuss-Radu, M.</subfield>
+    <subfield code="t">An ale approach to mechano-chemical processes in fluid-structure interactions</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Int.J.Numer.Math.Fluids</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116302406/S0021999116302406.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

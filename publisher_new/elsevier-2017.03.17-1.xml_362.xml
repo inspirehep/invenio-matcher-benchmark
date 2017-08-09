@@ -1,0 +1,332 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.018</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Pratapa, Phanisri P.</subfield>
+    <subfield code="v">College of Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Anderson acceleration of the Jacobi iterative method: An efficient alternative to Krylov methods for large, sparse linear systems</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">12</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We employ Anderson extrapolation to accelerate the classical Jacobi iterative method for large, sparse linear systems. Specifically, we utilize extrapolation at periodic intervals within the Jacobi iteration to develop the Alternating Anderson–Jacobi (AAJ) method. We verify the accuracy and efficacy of AAJ in a range of test cases, including nonsymmetric systems of equations. We demonstrate that AAJ possesses a favorable scaling with system size that is accompanied by a small prefactor, even in the absence of a preconditioner. In particular, we show that AAJ is able to accelerate the classical Jacobi iteration by over four orders of magnitude, with speed-ups that increase as the system gets larger. Moreover, we find that AAJ significantly outperforms the Generalized Minimal Residual (GMRES) method in the range of problems considered here, with the relative performance again improving with size of the system. Overall, the proposed method represents a simple yet efficient technique that is particularly attractive for large-scale parallel solutions of linear systems of equations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Linear systems of equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fixed-point iteration</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Jacobi method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Anderson extrapolation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonsymmetric matrix</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Poisson equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Helmholtz equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Suryanarayana, Phanish</subfield>
+    <subfield code="v">College of Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA</subfield>
+    <subfield code="m">phanish.suryanarayana@ce.gatech.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pask, John E.</subfield>
+    <subfield code="v">Physics Division, Lawrence Livermore National Laboratory, Livermore, CA, 94550, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">43-54</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear System</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shewchuk, J.R.</subfield>
+    <subfield code="t">An introduction to the conjugate gradient method without the agonizing pain</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.I.</subfield>
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,274,695</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, D.G.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Assoc.Comput.Mach.,12,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cancès, E.</subfield>
+    <subfield code="h">Le Bris, C.</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Int.J.Quant.Chem.,79,82</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fang, H.-r.</subfield>
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,16,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, L.</subfield>
+    <subfield code="h">Yang, C.</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,S277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pulay, P.</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Chem.Phys.Lett.,73,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ganine, V.</subfield>
+    <subfield code="h">Hills, N.</subfield>
+    <subfield code="h">Lapworth, B.</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,71,939</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Willert, J.</subfield>
+    <subfield code="h">Taitano, W.T.</subfield>
+    <subfield code="h">Knoll, D.</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,273,278</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rohwedder, T.</subfield>
+    <subfield code="h">Schneider, R.</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Math.Chem.,49,1889</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Walker, H.F.</subfield>
+    <subfield code="h">Ni, P.</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,49,1715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Potra, F.A.</subfield>
+    <subfield code="h">Engler, H.</subfield>
+    <subfield code="v">438</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Linear Algebra Appl.,438,1002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="h">Sacco, R.</subfield>
+    <subfield code="h">Saleri, F.</subfield>
+    <subfield code="t">Numerical Mathematics, vol. 37</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greenbaum, A.</subfield>
+    <subfield code="t">Iterative Methods for Solving Linear Systems, vol. 17</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weinan, E.</subfield>
+    <subfield code="t">Principles of Multiscale Modeling</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marks, L.</subfield>
+    <subfield code="h">Luke, D.</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Rev.,B78,075114</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khabaza, I.</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.J.,6,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Courrieu, P.</subfield>
+    <subfield code="r">arXiv:0804.4809</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="t">Multi-grid Methods and Applications, vol. 4</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guide, M.U.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Inc., Natick, MA,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pask, J.E.</subfield>
+    <subfield code="h">Sterne, P.A.</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.,B71,113101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Gavini, V.</subfield>
+    <subfield code="h">Blesgen, T.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,58,256</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,230,5226</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pask, J.E.</subfield>
+    <subfield code="h">Sukumar, N.</subfield>
+    <subfield code="h">Mousavi, S.E.</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Int.J.Multiscale Comput.Eng.,10,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghosh, S.</subfield>
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="r">arXiv:1412.8250</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Phanish, D.</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,275,524</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Troullier, N.</subfield>
+    <subfield code="h">Martins, J.L.</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Phys.Rev.,B43,1993</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,61,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choly, N.</subfield>
+    <subfield code="h">Kaxiras, E.</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Solid State Commun.,121,281</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S0021999115007585/S0021999115007585.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

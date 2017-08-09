@@ -1,0 +1,422 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.07.041</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Dai, William W.</subfield>
+    <subfield code="v">Los Alamos National Laboratory, United States</subfield>
+    <subfield code="m">dai@lanl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Interface- and discontinuity-aware numerical schemes for plasma 3-T radiation diffusion in two and three dimensions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A set of numerical schemes is developed for two- and three-dimensional time-dependent 3-T radiation diffusion equations in systems involving multi-materials. To resolve sub-cell structure, interface reconstruction is implemented within any cell that has more than one material. Therefore, the system of 3-T radiation diffusion equations is solved on two- and three-dimensional polyhedral meshes. The focus of the development is on the fully coupling between radiation and material, the treatment of nonlinearity in the equations, i.e., in the diffusion terms and source terms, treatment of the discontinuity across cell interfaces in material properties, the formulations for both transient and steady states, the property for large time steps, and second order accuracy in both space and time. The discontinuity of material properties between different materials is correctly treated based on the governing physics principle for general polyhedral meshes and full nonlinearity. The treatment is exact for arbitrarily strong discontinuity. The scheme is fully nonlinear for the full nonlinearity in the 3-T diffusion equations. Three temperatures are fully coupled and are updated simultaneously. The scheme is general in two and three dimensions on general polyhedral meshes. The features of the scheme are demonstrated through numerical examples for transient problems and steady states. The effects of some simplifications of numerical schemes are also shown through numerical examples, such as linearization, simple average of diffusion coefficient, and approximate treatment for the coupling between radiation and material.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Diffusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Radiation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">3-T</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Coupling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interface</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Implicit</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Scannapieco, Anthony J.</subfield>
+    <subfield code="v">Los Alamos National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">643-664</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, S.V.</subfield>
+    <subfield code="t">Numerical Heat Transfer and Fluid Flow</subfield>
+    <subfield code="p">Hemisphere Publishing Corp. New York</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hogge, M.A.</subfield>
+    <subfield code="t">A comparison of two- and three-level integration schemes for non-linear heat conduction</subfield>
+    <subfield code="p">New York: John Wiley</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="e">Lewis,R.W.</subfield>
+    <subfield code="e">Morgan,K.</subfield>
+    <subfield code="e">Zienkiewicz,O.C.</subfield>
+    <subfield code="q">Numerical Methods in Heat Transfer</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jakob, M.</subfield>
+    <subfield code="t">Heat Transfer, vol. 1</subfield>
+    <subfield code="p">Wiley New York</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alcouffe, R.E.</subfield>
+    <subfield code="h">Brandt, A.</subfield>
+    <subfield code="h">Dendy, E.</subfield>
+    <subfield code="h">Painter, J.</subfield>
+    <subfield code="t">The multigrid method for diffusion equation with strong discontinuous coefficients</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,2,430</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fryxell, B.A.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Winkler, K.-H.</subfield>
+    <subfield code="t">An implicit–explicit hybrid method for Lagrangian hydrodynamics</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,63,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaluria, Y.</subfield>
+    <subfield code="h">Torrance, K.E.</subfield>
+    <subfield code="t">Computational Heat Transfer</subfield>
+    <subfield code="p">Spring-Verlag Berlin</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">Iterative implementation of an implicit–explicit hybrid scheme for hydrodynamics</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,124,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Steinberg, S.</subfield>
+    <subfield code="t">Solving diffusion equations with rough coefficients in rough grids</subfield>
+    <subfield code="v">129</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,129,383</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hyman, J.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Steinberg, S.</subfield>
+    <subfield code="t">The numerical solution of diffusion problems in strongly heterogeneous non-isotropic materials</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,132,130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="h">Kothe, D.B.</subfield>
+    <subfield code="t">Reconstructing volume tracking</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,141,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">Numerical simulations for nonlinear heat transfer in a system of multimaterials</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,139,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morel, J.</subfield>
+    <subfield code="h">Roberts, R.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">A local support-operators diffusion discretization scheme for quadrilateral <math altimg="si334.gif" display="inline" overflow="scroll"><mi>r</mi><mo>−</mo><mi>z</mi></math> meshes</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,144,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Olson, G.L.</subfield>
+    <subfield code="t">A multigrid Newton–Krylov method for multimaterial equilibrium radiation diffusion</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,152,164</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="h">Olson, G.L.</subfield>
+    <subfield code="t">An efficient nonlinear solution method for nonequilibrium radiation diffusion</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Quant.Spectrosc.Radiat.Transf.,63,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mousseau, V.A.</subfield>
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="t">Physics-based preconditioning and the Newton–Krylov method for non-equilibrium radiation diffusion</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,160,743</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Woodward, P.R.</subfield>
+    <subfield code="t">Numerical simulations for radiation hydrodynamics II. Transport limit</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,157,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Palmer, T.</subfield>
+    <subfield code="h">Zika, M.</subfield>
+    <subfield code="h">Madsen, N.</subfield>
+    <subfield code="t">Unstructured polyhedral mesh thermal radiation diffusion</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Trans.Am.Nucl.Soc.,83,248</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, D.J.</subfield>
+    <subfield code="t">Imultigrid approaches to non-linear diffusion problems on unstructured mesh</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,8,499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="h">Olson, G.L.</subfield>
+    <subfield code="t">Nonlinear convergence, accuracy and time step control in non-equilibrium radiation diffusion</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Quant.Spectrosc.Radiat.Transf.,65,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, D.J.</subfield>
+    <subfield code="t">An assessment of linear versus nonlinear multigrid methods for unstructured mesh solvers</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,175,302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hyman, J.</subfield>
+    <subfield code="h">Morel, J.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="h">Steinberg, S.</subfield>
+    <subfield code="t">Mimetic finite difference methods for diffusion equations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Geosci.,6,333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Howell, L.H.</subfield>
+    <subfield code="h">Greenough, J.A.</subfield>
+    <subfield code="t">Radiation diffusion for multi-fluid Eulerian hydrodynamics with adaptive mesh refinement</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,184,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pillod, J.E.</subfield>
+    <subfield code="h">Puckett, E.G.</subfield>
+    <subfield code="t">Second-order accurate volume-of-fluid algorithms for tracking material interfaces</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,199,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lipnikov, K.</subfield>
+    <subfield code="h">Morel, J.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Mimetic finite difference methods for diffusion equations on non-orthogonal non-conformal meshes</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,199,589</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ropp, D.L.</subfield>
+    <subfield code="h">Shadid, J.N.</subfield>
+    <subfield code="h">Ober, C.C.</subfield>
+    <subfield code="t">Studies of the accuracy of time integration methods for reaction–diffusion equations</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,194,544</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dyadechko, V.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Moment-of-fluid interface reconstruction</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Technical Report LA-UR-05-7571</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pernice, M.</subfield>
+    <subfield code="h">Philip, B.</subfield>
+    <subfield code="t">Solution of equilibrium radiation diffusion problems using implicit adaptive mesh refinement</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,1709</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Olson, G.L.</subfield>
+    <subfield code="t">Efficient solution of multi-dimensional flux-limited nonequilibrium radiation diffusion coupled to material conduction with second-order time discretization</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahn, H.T.</subfield>
+    <subfield code="h">Shashkov, M.</subfield>
+    <subfield code="t">Multi-material interface reconstruction on generalized polyhedral meshes</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,226,2096</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witeka, M.L.</subfield>
+    <subfield code="h">Teixeira, J.</subfield>
+    <subfield code="h">Flataud, P.J.</subfield>
+    <subfield code="t">On stable and explicit numerical methods for the advection–diffusion equation</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Math.Comput.Simul.,79,561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gittings, M.</subfield>
+    <subfield code="h">Weaver, R.</subfield>
+    <subfield code="h">Clover, M.</subfield>
+    <subfield code="h">Betlach, T.</subfield>
+    <subfield code="h">Byrne, N.</subfield>
+    <subfield code="h">Coker, R.</subfield>
+    <subfield code="h">Dendy, E.</subfield>
+    <subfield code="h">Hueckstaedt, R.</subfield>
+    <subfield code="h">New, K.</subfield>
+    <subfield code="h">Oakes, W.</subfield>
+    <subfield code="h">Ranta, D.</subfield>
+    <subfield code="h">Stefan, R.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Sci.Discov.,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Yue, G. Yuan, Z. Sheng</subfield>
+    <subfield code="m">Picard-Newton iterative method for multimaterial nonequilibrium radiation diffusion problem on distorted quadrilateral meshes, in: Proceedings of the World Congress on Engineering, vol. II, WCE, July 1-3,, London, UK</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dawes, A.S.</subfield>
+    <subfield code="t">Sub-zonal models for the diffusion equations with multi-material mixed cells</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Comput.Fluids,46,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scannapieco, A.J.</subfield>
+    <subfield code="h">Cochran, F.</subfield>
+    <subfield code="h">Painter, J.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="t">Roxane: a code for simulations of multi-physics</subfield>
+    <subfield code="p">Los Alamos National Laboratory</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Technical Report LA-UR-12-23138</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Feng, T.</subfield>
+    <subfield code="h">An, H.</subfield>
+    <subfield code="h">Yu, X.</subfield>
+    <subfield code="h">Li, Q.</subfield>
+    <subfield code="h">Zhang, R.</subfield>
+    <subfield code="t">On linearization and preconditioning for radiation diffusion coupled to material thermal conduction equations</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,236,28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, W.</subfield>
+    <subfield code="h">Scannapieco, A.J.</subfield>
+    <subfield code="t">Second-order accurate interface- and discontinuity-aware diffusion solvers in two and three dimensions</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,281,982</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115004866/S0021999115004866.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,943 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Resurgence matches quantization</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">The quest to find a nonperturbative formulation of topological string theory has recently seen two unrelated developments. On the one hand, via quantization of the mirror curve associated to a toric Calabi–Yau background, it has been possible to give a nonperturbative definition of the topological-string partition function. On the other hand, using techniques of resurgence and transseries, it has been possible to extend the string (asymptotic) perturbative expansion into a transseries involving nonperturbative instanton sectors. Within the specific example of the local ${{\mathbb{P}}^{2}}$ toric Calabi–Yau threefold, the present work shows how the Borel–Padé–Écalle resummation of this resurgent transseries, alongside occurrence of Stokes phenomenon, matches the string-theoretic partition function obtained via quantization of the mirror curve. This match is highly non-trivial, given the unrelated nature of both nonperturbative frameworks, signaling at the existence of a consistent underlying structure.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">145402</subfield>
+  <subfield code="v">A50</subfield>
+  <subfield code="n">14</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1751-8121/aa5e01</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">34</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-07</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Couso-Santamaría, Ricardo</subfield>
+  <subfield code="v">CAMGSD - Departamento de Matemática - Instituto Superior Técnico - Universidade de Lisboa - Av. Rovisco Pais 1 - 1049-001 Lisboa - Portugal</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Mariño, Marcos</subfield>
+  <subfield code="v">Département de Physique Théorique &amp; Section de Mathématiques - Université de Genève - Genève - CH-1211 - Switzerland</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Schiappa, Ricardo</subfield>
+  <subfield code="v">CAMGSD - Departamento de Matemática - Instituto Superior Técnico - Universidade de Lisboa - Av. Rovisco Pais 1 - 1049-001 Lisboa - Portugal</subfield>
+  <subfield code="v">Département de Physique Théorique &amp; Section de Mathématiques - Université de Genève - Genève - CH-1211 - Switzerland</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">In principle, Borel resummation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">in practice its numerical implementation as Borel-Padé resummation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">As we shall discuss in the upcoming section, 3: #aaa5e01s3, this is an asymptotic series</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">Albeit we shall only use such extension to non-integer, yet real, values of N</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">When comparing to formulae in [, 34: #aaa5e01bib034], one has to take into account that the conifold flat-coordinate used in there differs from (, 2.31: #aaa5e01eqn031) by an overall multiplicative constant. In addition, many of the formulae in [, 34: #aaa5e01bib034] have the opposite sign for the complex modulus z. This is due to the way the non-trivial B-field was implemented in [, 34: #aaa5e01bib034], but for our present purposes we can use the standard parametrization (, 2.31: #aaa5e01eqn031)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Note that even if the conjecture of [, 31: #aaa5e01bib031] turned out to be false as an exact formula for the fermionic spectral traces, it is certainly valid with a precision which is much higher than the precision achieved by our resurgent analysis. For example, if we calculate Z\left(2,4\pi \right) for local {{\mathbb{P}}^{2}} by using this conjecture with BPS invariants up to degree 7, we match the exact, known value obtained in spectral theory with a precision of 150 digits, which is far larger than the precision we have for the Borel-Padé resummation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">We shall see in a moment that this plot does not depend on \bar{z}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">At least the ones associated to D-branes. There are also NS-brane effects [, 16: #aaa5e01bib016,, 72: #aaa5e01bib072], which are not needed herein</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">The reader should not confuse propagator variable and Stokes constants, in spite of similar notation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">We follow the notation in [, 4: #aaa5e01bib004,, 5: #aaa5e01bib005]: roman letters (F, Szz) indicate nonholomorphic quantities, curly letters (\mathcal{F}, {{\mathcal{S}}^{zz}}) indicate their holomorphic limits. The chosen frame is shown as a subscript separated by a semicolon</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="m">The notation (n)\langle A\rangle means that only the sector associated to the instanton action A is turned on, at instanton number n, while all others are set to zero</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">Note that it was argued in [, 5: #aaa5e01bib005] that the Stokes constant should not depend on the moduli, because that would be incompatible with numerical checks of the resurgent relations</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">Here, {{P}_{\nu}}(x) and {{Q}_{\nu}}(x) are Legendre functions of first and second kind, respectively</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">In practice, we have used data from [, 5: #aaa5e01bib005], with coefficients up to genus g = 114</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">One can use the same argument to discard the action 4{{\pi}^{2}}\text{i}, coming from the constant-map contribution</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="m">Note that here z and {{g}_{\text{s}}} are real, in which case taking the complex conjugate of the whole instanton contribution for A2 is equivalent to substituting {{A}_{2}}\to \overline{{{A}_{2}}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">Working in the holomorphic limit of the frame associated to A1, implies that \mathcal{F}_</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">{{A}_{1}}}^{(1)\langle A\rangle}\left({{g}_{\text{s}}}\right)\simeq {\sum}_{g=0}^{+\infty}g_{\text{s}}^{g}\,\mathcal{F}_{g</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">{{A}_{1}}}^{(1)\langle A\rangle} only truncates when A = A1 (via (, 3.19: #aaa5e01eqn068)). For all other sectors we have an infinite asymptotic series [, 5: #aaa5e01bib005]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="m">A transseries obtained using the methods of [, 4: #aaa5e01bib004] applied to the local {{\mathbb{P}}^{1}}\times {{\mathbb{P}}^{1}} geometry. Note that we already know that local {{\mathbb{P}}^{1}}\times {{\mathbb{P}}^{1}} will have complex instantons with similar flavor to our present example, as shown in [, 77: #aaa5e01bib077]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Gross D J and Periwal V</subfield>
+  <subfield code="m">String perturbation theory diverges Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,60,2105</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.60.2105</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="0">261354</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Shenker S H</subfield>
+  <subfield code="m">The strength of nonperturbative effects in string theory Cargèse Workshop on Random Surfaces, Quantum Gravity and Strings</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Aniceto I</subfield>
+  <subfield code="m">Ba&amp;scedil</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">ar G and Schiappa RA primer on resurgent transseries and their asymptotics to appear</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Couso-Santamaría R, Edelstein J D, Schiappa R and Vonk M</subfield>
+  <subfield code="m">Resurgent transseries and the holomorphic anomaly Ann. Henri Poincaré 17 331, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-015-0407-z</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1247081</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Couso-Santamaría R, Edelstein J D, Schiappa R and Vonk M</subfield>
+  <subfield code="m">Resurgent transseries and the holomorphic anomaly: nonperturbative closed strings in local CP2 Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,338,285</subfield>
+  <subfield code="a">doi:10.1007/s00220-015-2358-0</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1306924</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Mariño M</subfield>
+  <subfield code="m">Open string amplitudes and large-order behavior in topological string theory J. High Energy Phys. JHEP03 060</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Mariño M, Schiappa R and Weiss M</subfield>
+  <subfield code="m">Nonperturbative effects and the large-order behavior of matrix models and topological strings Commun. Number Theor. Phys. 2 349, Crossref:</subfield>
+  <subfield code="a">doi:10.4310/CNTP.2008.v2.n2.a3</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">767453</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Mariño M</subfield>
+  <subfield code="m">Nonperturbative effects and nonperturbative definitions in matrix models and topological strings J. High Energy Phys. JHEP12 114</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Mariño M, Schiappa R and Weiss M</subfield>
+  <subfield code="m">Multi-instantons and multi-cuts Crossref:</subfield>
+  <subfield code="s">J.Math.Phys.,50,052301</subfield>
+  <subfield code="a">doi:10.1063/1.3097755</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">796707</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Pasquetti S and Schiappa R</subfield>
+  <subfield code="m">Borel and stokes nonperturbative phenomena in topological string theory and c=1 matrix models Ann. Henri Poincaré 11 351, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-010-0044-5</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">826656</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Garoufalidis S, Its A, Kapaev A and Mariño M</subfield>
+  <subfield code="m">Asymptotics of the instantons of Painlevé I</subfield>
+  <subfield code="s">Int.Math.Res.Not.,2012,561</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">846371</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Klemm A, Mariño M and Rauch M</subfield>
+  <subfield code="m">Direct integration and nonperturbative effects in matrix models J. High Energy Phys. JHEPy10004</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Drukker N, Mariño M and Putrov P</subfield>
+  <subfield code="m">Nonperturbative aspects of ABJM Theory J. High Energy Phys. JHEP11 141, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2011)141</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">893756</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Aniceto I, Schiappa R and Vonk M</subfield>
+  <subfield code="m">The resurgence of instantons in string theory Commun. Number Theor. Phys. 6 339, Crossref:</subfield>
+  <subfield code="a">doi:10.4310/CNTP.2012.v6.n2.a3</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">916232</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Schiappa R and Vaz R</subfield>
+  <subfield code="m">The resurgence of instantons: multi-cut Stokes phases and the Painlevé II equation Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,330,655</subfield>
+  <subfield code="a">doi:10.1007/s00220-014-2028-7</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1220584</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Couso-Santamaría R</subfield>
+  <subfield code="m">Universality of the topological string at large radius and NS-brane resurgence Crossref:</subfield>
+  <subfield code="s">Lett.Math.Phys.,107,343</subfield>
+  <subfield code="a">doi:10.1007/s11005-016-0906-y</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1382973</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Couso-Santamaría R, Schiappa R and Vaz R</subfield>
+  <subfield code="m">On asymptotics and resurgent structures of enumerative Gromov-Witten invariants Preprint:</subfield>
+  <subfield code="r">arXiv:1605.07473 [math.AG]</subfield>
+  <subfield code="r">arXiv:1605.07473</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1465537</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Maldacena J M</subfield>
+  <subfield code="m">The large N limit of superconformal field theories and supergravity Crossref:</subfield>
+  <subfield code="s">Adv.Theor.Math.Phys.,2,231</subfield>
+  <subfield code="a">doi:10.4310/ATMP.1998.v2.n2.a1</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">451647</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Aganagic M, Dijkgraaf R, Klemm A, Mariño M and Vafa C</subfield>
+  <subfield code="m">Topological strings and integrable hierarchies Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,261,451</subfield>
+  <subfield code="a">doi:10.1007/s00220-005-1448-9</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">635087</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Nekrasov N A and Shatashvili S L</subfield>
+  <subfield code="m">Quantization of integrable systems and four dimensional Gauge theories Preprint:</subfield>
+  <subfield code="r">arXiv:0908.4052 [hep-th]</subfield>
+  <subfield code="r">arXiv:0908.4052</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">829640</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Mironov A and Morozov A</subfield>
+  <subfield code="m">Nekrasov functions and exact Bohr-Zommerfeld integrals J. High Energy Phys. JHEP04 040, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP04(2010)040</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">835544</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Aganagic M, Cheng M C N, Dijkgraaf R, Krefl D and Vafa C</subfield>
+  <subfield code="m">Quantum geometry of refined topological strings J. High Energy Phys. JHEP11 019, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2012)019</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">898085</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Mariño M and Putrov P</subfield>
+  <subfield code="m">ABJM theory as a Fermi gas J. Stat Mech. P03001</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Hatsuda Y, Moriyama S and Okuyama K</subfield>
+  <subfield code="m">Instanton effects in ABJM theory from Fermi gas approach J. High Energy Phys. JHEP01 158, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP01(2013)158</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1198472</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Calvo F and Mariño M</subfield>
+  <subfield code="m">Membrane instantons from a semiclassical TBA J. High Energy Phys. JHEP05 006, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2013)006</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1208357</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Hatsuda Y, Moriyama S and Okuyama K</subfield>
+  <subfield code="m">Instanton bound states in ABJM theory J. High Energy Phys. JHEP05 054, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2013)054</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1215631</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Hatsuda Y, Mariño M, Moriyama S and Okuyama K</subfield>
+  <subfield code="m">Nonperturbative effects and the refined topological string J. High Energy Phys. JHEP09 168, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2014)168</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1237692</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Kallen J and Mariño M</subfield>
+  <subfield code="m">Instanton effects and quantum spectral curves Ann. Henri Poincaré 17 1037, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-015-0421-1</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1251578</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Huang M-X and Wang X-F</subfield>
+  <subfield code="m">Topological strings and quantum spectral problems J. High Energy Phys. JHEP09 150, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2014)150</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1302838</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Codesido S, Grassi A and Mariño M</subfield>
+  <subfield code="m">Exact results in N=8 Chern-Simons-matter theories and quantum geometry J. High Energy Phys. JHEP07 011, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP07(2015)011</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1315354</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Grassi A, Hatsuda Y and Mariño M</subfield>
+  <subfield code="m">Topological strings from quantum mechanics Ann. Henri Poincaré 17 3177, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-016-0479-4</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1321735</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Grassi A, Hatsuda Y and Mariño M</subfield>
+  <subfield code="m">Quantization conditions and functional equations in ABJ(M) theories J. Phys. A: Math. Theor. 49 115401, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/49/11/115401</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1324824</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Kashaev R and Mariño M</subfield>
+  <subfield code="m">Operators from mirror curves and the quantum dilogarithm Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,346,967</subfield>
+  <subfield code="a">doi:10.1007/s00220-015-2499-1</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1336644</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Mariño M and Zakany S</subfield>
+  <subfield code="m">Matrix models from operators and topological strings Ann. Henri Poincaré 17 1075, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-015-0422-0</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1343818</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Kashaev R, Mariño M and Zakany S</subfield>
+  <subfield code="m">Matrix models from operators and topological strings 2 Ann. Henri Poincaré 17 2741, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-016-0471-z</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1369130</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Wang X, Zhang G and Huang M-X</subfield>
+  <subfield code="m">New exact quantization condition for toric Calabi-Yau geometries Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,115,121601</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.115.121601</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1371881</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="m">Gu J Exact solutions to quantum spectral curves by topological string theory J. High Energy Phys. JHEP10 025, Crossref:</subfield>
+  <subfield code="h">Klemm A, Mariño M and Reuter J</subfield>
+  <subfield code="a">doi:10.1007/JHEP10(2015)025</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1380485</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Codesido S, Grassi A and Mariño M</subfield>
+  <subfield code="m">Spectral theory and mirror curves of higher genus Ann. Henri Poincaré 18 559, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00023-016-0525-2</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1381955</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Hatsuda Y</subfield>
+  <subfield code="m">Comments on ‘Exact quantization conditions and nonperturbative topological strings’ Preprint:</subfield>
+  <subfield code="r">arXiv:1507.04799 [hep-th]</subfield>
+  <subfield code="r">arXiv:1507.04799</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1383699</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Hatsuda Y and Mariño M</subfield>
+  <subfield code="m">Exact quantization conditions for the relativistic toda lattice J. High Energy Phys. JHEP05 133, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2016)133</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1403817</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Franco S, Hatsuda Y and Mariño M</subfield>
+  <subfield code="m">Exact quantization conditions for cluster integrable systems J. Stat Mech. 063107, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2016/06/063107</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1409135</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Okuyama K and Zakany S</subfield>
+  <subfield code="m">TBA-like integral equations from quantized mirror curves J. High Energy Phys. JHEP03 101, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP03(2016)101</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1411118</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Bonelli G, Grassi A and Tanzini A</subfield>
+  <subfield code="m">Seiberg-Witten theory as a Fermi gas Crossref:</subfield>
+  <subfield code="s">Lett.Math.Phys.,107,1</subfield>
+  <subfield code="a">doi:10.1007/s11005-016-0893-z</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1425972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Hatsuda Y, Katsura H and Tachikawa Y</subfield>
+  <subfield code="m">Hofstadter’s butterfly in quantum geometry Crossref:</subfield>
+  <subfield code="s">New J.Phys.,18,103023</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/18/10/103023</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1468078</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Kashani-Poor A-K</subfield>
+  <subfield code="m">Quantization condition from exact WKB for difference equations J. High Energy Phys. JHEP06 180, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP06(2016)180</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1444375</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Grassi A</subfield>
+  <subfield code="m">Spectral determinants and quantum theta functions J. Phys. A: Math. Theor. 49 505401, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1751-8113/49/50/505401</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1451667</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Sciarappa A</subfield>
+  <subfield code="m">Bethe/Gauge correspondence in odd dimension: modular double, nonperturbative corrections and open topological strings J. High Energy Phys. JHEP10 014, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP10(2016)014</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1467253</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Mariño M and Zakany S</subfield>
+  <subfield code="m">Exact eigenfunctions and the open topological string Preprint:</subfield>
+  <subfield code="r">arXiv:1606.05297 [hep-th]</subfield>
+  <subfield code="r">arXiv:1606.05297</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1470960</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Sun K, Wang X and Huang M-X</subfield>
+  <subfield code="m">Exact quantization conditions, toric Calabi-Yau and nonperturbative topological string J. High Energy Phys. JHEP01 061, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP01(2017)061</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1471868</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">Codesido S</subfield>
+  <subfield code="m">Gu J and Mariño MOperators and higher genus mirror curves Preprint:</subfield>
+  <subfield code="r">arXiv:1609.00708 [hep-th]</subfield>
+  <subfield code="r">arXiv:1609.00708</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1485100</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Grassi A</subfield>
+  <subfield code="m">and Gu JBPS relations from spectral problems and blowup equations Preprint:</subfield>
+  <subfield code="r">arXiv:1609.05914 [hep-th]</subfield>
+  <subfield code="r">arXiv:1609.05914</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1487460</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">Mariño M</subfield>
+  <subfield code="m">Spectral theory and mirror symmetry Preprint:</subfield>
+  <subfield code="r">arXiv:1506.07757 [hep-th]</subfield>
+  <subfield code="r">arXiv:1506.07757</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1377987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="h">Graffi S, Grecchi V and Simon B</subfield>
+  <subfield code="m">Borel summability: application to the anharmonic oscillator Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B32,631</subfield>
+  <subfield code="a">doi:10.1016/0370-2693(70)90564-2</subfield>
+  <subfield code="y">1970</subfield>
+  <subfield code="0">304772</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="h">Zinn-Justin J and Jentschura U D</subfield>
+  <subfield code="m">Multi-instantons and exact results I: conjectures, WKB expansions, and instanton interactions Crossref:</subfield>
+  <subfield code="s">Annals Phys.,313,197</subfield>
+  <subfield code="a">doi:10.1016/j.aop.2004.04.004</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">659948</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="m">Couso-Santamarí a R Finite N from resurgent large N Crossref:</subfield>
+  <subfield code="h">Schiappa R and Vaz R</subfield>
+  <subfield code="s">Annals Phys.,356,1</subfield>
+  <subfield code="a">doi:10.1016/j.aop.2015.02.019</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1336630</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="m">Huang M-x Refined stable pair invariants for E-, M- and [p,q]-strings J. High Energy Phys. JHEP11 112, Crossref:</subfield>
+  <subfield code="h">Klemm A and Poretschkin M</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2013)112</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1246386</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">Katz S H, Klemm A and Vafa C</subfield>
+  <subfield code="m">Geometric engineering of quantum field theories Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B497,173</subfield>
+  <subfield code="a">doi:10.1016/S0550-3213(97)00282-4</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">423965</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">Chiang T M, Klemm A, Yau S-T and Zaslow E</subfield>
+  <subfield code="m">Local mirror symmetry: calculations and interpretations Crossref:</subfield>
+  <subfield code="s">Adv.Theor.Math.Phys.,3,495</subfield>
+  <subfield code="a">doi:10.4310/ATMP.1999.v3.n3.a3</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">496304</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">Huang M-X, Klemm A, Reuter J and Schiereck M</subfield>
+  <subfield code="m">Quantum geometry of del Pezzo surfaces in the Nekrasov-Shatashvili limit J. High Energy Phys. JHEP02 031, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP02(2015)031</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1278225</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">Bershadsky M, Cecotti S, Ooguri H and Vafa C</subfield>
+  <subfield code="m">Kodaira-Spencer theory of gravity and exact results for quantum string amplitudes Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,165,311</subfield>
+  <subfield code="a">doi:10.1007/BF02099774</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">358604</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">Laptev A, Schimmer L and Takhtajan L A</subfield>
+  <subfield code="m">Weyl type asymptotics and bounds for the eigenvalues of functional-difference operators for mirror curves Preprint:</subfield>
+  <subfield code="r">arXiv:1510.00045 [math.SP]</subfield>
+  <subfield code="r">arXiv:1510.00045</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1395639</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">Simon B</subfield>
+  <subfield code="m">Notes on infinite determinants of Hilbert space operators Crossref:</subfield>
+  <subfield code="s">Adv.Math.,24,244</subfield>
+  <subfield code="a">doi:10.1016/0001-8708(77)90057-3</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">Aganagic M, Bouchard V and Klemm A</subfield>
+  <subfield code="m">Topological strings and (almost) modular forms Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,277,771</subfield>
+  <subfield code="a">doi:10.1007/s00220-007-0383-3</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">721729</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">Haghighat B, Klemm A and Rauch M</subfield>
+  <subfield code="m">Integrability of the holomorphic anomaly equations J. High Energy Phys. JHEP10 097, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2008/10/097</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">796178</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="h">Huang M-X and Klemm A</subfield>
+  <subfield code="m">Holomorphic anomaly in Gauge theories and matrix models J. High Energy Phys. JHEP09 054, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2007/09/054</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">717388</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">Faddeev L D</subfield>
+  <subfield code="m">Discrete Heisenberg-Weyl group and modular group Crossref:</subfield>
+  <subfield code="s">Lett.Math.Phys.,34,249</subfield>
+  <subfield code="a">doi:10.1007/BF01872779</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="0">394439</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="h">Faddeev L D and Kashaev R M</subfield>
+  <subfield code="m">Quantum dilogarithm Crossref:</subfield>
+  <subfield code="s">Mod.Phys.Lett.,A9,427</subfield>
+  <subfield code="a">doi:10.1142/S0217732394000447</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">359109</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="h">Garoufalidis S and Kashaev R</subfield>
+  <subfield code="m">Evaluation of state integrals at rational points Crossref:</subfield>
+  <subfield code="s">Commun.Num.Theor.Phys.,09,549</subfield>
+  <subfield code="a">doi:10.4310/CNTP.2015.v9.n3.a3</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1329830</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="h">Hatsuda Y, Moriyama S and Okuyama K</subfield>
+  <subfield code="m">Exact results on the ABJM Fermi gas J. High Energy Phys. JHEP10 020, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP10(2012)020</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1122996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">Putrov P and Yamazaki M</subfield>
+  <subfield code="m">Exact ABJM partition function from TBA Crossref:</subfield>
+  <subfield code="s">Mod.Phys.Lett.,A27,1250200</subfield>
+  <subfield code="a">doi:10.1142/S0217732312502008</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1123542</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">Tracy C A and Widom H</subfield>
+  <subfield code="m">Proofs of two conjectures related to the thermodynamic Bethe Ansatz Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,179,667</subfield>
+  <subfield code="a">doi:10.1007/BF02100102</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">399388</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="h">Alim M, Yau S-T and Zhou J</subfield>
+  <subfield code="m">Airy equation for the topological string partition function in a scaling limit Crossref:</subfield>
+  <subfield code="s">Lett.Math.Phys.,106,719</subfield>
+  <subfield code="a">doi:10.1007/s11005-016-0840-z</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1374636</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">Grimm T W, Klemm A, Mariño M and Weiss M</subfield>
+  <subfield code="m">Direct integration of the topological string J. High Energy Phys. JHEP08 058, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2007/08/058</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">745151</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">Yamaguchi S and Yau S-T</subfield>
+  <subfield code="m">Topological string partition functions as polynomials J. High Energy Phys. JHEP07 047, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2004/07/047</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">652103</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="h">Alim M and Lange J D</subfield>
+  <subfield code="m">Polynomial structure of the (open) topological string partition function J. High Energy Phys. JHEP10 045, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2007/10/045</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">758763</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">Drukker N, Mariño M and Putrov P</subfield>
+  <subfield code="m">From weak to strong coupling in ABJM theory Crossref:</subfield>
+  <subfield code="s">Commun.Math.Phys.,306,511</subfield>
+  <subfield code="a">doi:10.1007/s00220-011-1253-6</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">862248</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="h">Grassi A, Mariño M and Zakany S</subfield>
+  <subfield code="m">Resumming the string perturbation series J. High Energy Phys. JHEP05 038, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2015)038</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1296856</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">Aniceto I, Russo J G and Schiappa R</subfield>
+  <subfield code="m">Resurgent analysis of localizable observables in supersymmetric Gauge theories J. High Energy Phys. JHEP03 172, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP03(2015)172</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1323303</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">Hatsuda Y and Okuyama K</subfield>
+  <subfield code="m">Resummations and nonperturbative corrections J. High Energy Phys. JHEP09 051, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2015)051</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1373542</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="h">Balian R, Parisi G and Voros A</subfield>
+  <subfield code="m">Discrepancies from asymptotic series and their relation to complex classical trajectories Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,41,1141</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.41.1141</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">81</subfield>
+  <subfield code="h">Balian R, Parisi G and Voros A</subfield>
+  <subfield code="m">Quartic oscillator Marseille Workshop on Feynman Path Integrals</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">82</subfield>
+  <subfield code="h">Hatsuda Y</subfield>
+  <subfield code="m">Spectral zeta function and nonperturbative effects in ABJM Fermi gas J. High Energy Phys. JHEP11 086, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2015)086</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1356746</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">83</subfield>
+  <subfield code="h">Gopakumar R and Vafa C</subfield>
+  <subfield code="m">On the Gauge theory/geometry correspondence Crossref:</subfield>
+  <subfield code="s">Adv.Theor.Math.Phys.,3,1415</subfield>
+  <subfield code="a">doi:10.4310/ATMP.1999.v3.n5.a5</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">479258</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">84</subfield>
+  <subfield code="h">Aganagic M, Klemm A, Mariño M and Vafa C</subfield>
+  <subfield code="m">Matrix model as a mirror of Chern-Simons theory J. High Energy Phys. JHEP02 010, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2004/02/010</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">601859</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">85</subfield>
+  <subfield code="h">Borot G and Brini A</subfield>
+  <subfield code="m">Chern-Simons theory on spherical seifert manifolds, topological strings and integrable systems Preprint:</subfield>
+  <subfield code="r">arXiv:1506.06887 [hep-th]</subfield>
+  <subfield code="r">arXiv:1506.06887</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1377615</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

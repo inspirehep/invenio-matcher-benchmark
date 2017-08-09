@@ -1,0 +1,564 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.032</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kompenhans, Moritz</subfield>
+    <subfield code="v">ETSIAE (School of Aeronautics), Universidad Politécnica de Madrid, Plaza de Cardenal Cisneros 3, 28040 Madrid, Spain</subfield>
+    <subfield code="m">moritz.kompenhans@upm.es</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper three p-adaptation strategies based on the minimization of the truncation error are presented for high order discontinuous Galerkin methods. The truncation error is approximated by means of a τ -estimation procedure and enables the identification of mesh regions that require adaptation. Three adaptation strategies are developed and termed a posteriori , quasi- a priori and quasi- a priori corrected . All strategies require fine solutions, which are obtained by enriching the polynomial order, but while the former needs time converged solutions, the last two rely on non-converged solutions, which lead to faster computations. In addition, the high order method permits the spatial decoupling for the estimated errors and enables anisotropic p-adaptation.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Anisotropic p-adaptation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tau-estimation ( τ -estimation)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Truncation error</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tau-estimation (τ-estimation)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rubio, Gonzalo</subfield>
+    <subfield code="v">ETSIAE (School of Aeronautics), Universidad Politécnica de Madrid, Plaza de Cardenal Cisneros 3, 28040 Madrid, Spain</subfield>
+    <subfield code="m">g.rubio@upm.es</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ferrer, Esteban</subfield>
+    <subfield code="j">ORCID:0000-0003-1519-0444</subfield>
+    <subfield code="v">ETSIAE (School of Aeronautics), Universidad Politécnica de Madrid, Plaza de Cardenal Cisneros 3, 28040 Madrid, Spain</subfield>
+    <subfield code="m">esteban.ferrer@upm.es</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Valero, Eusebio</subfield>
+    <subfield code="v">ETSIAE (School of Aeronautics), Universidad Politécnica de Madrid, Plaza de Cardenal Cisneros 3, 28040 Madrid, Spain</subfield>
+    <subfield code="m">eusebio.valero@upm.es</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">216-236</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ainsworth, M.</subfield>
+    <subfield code="t">A posteriori error estimation for discontinuous Galerkin finite element approximation</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,45,1777</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.N.</subfield>
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Marini, L.D.</subfield>
+    <subfield code="t">Unified analysis of discontinuous Galerkin methods for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balasubramanian, R.</subfield>
+    <subfield code="h">Newman, J.C.</subfield>
+    <subfield code="t">Adjoint-based error estimation and grid adaptation for functional outputs: application to two-dimensional, inviscid, incompressible flows</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Comput.Fluids,38,320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, Satish</subfield>
+    <subfield code="h">Abhyankar, Shrirang</subfield>
+    <subfield code="h">Adams, Mark F.</subfield>
+    <subfield code="h">Brown, Jed</subfield>
+    <subfield code="h">Brune, Peter</subfield>
+    <subfield code="h">Buschelman, Kris</subfield>
+    <subfield code="h">Dalcin, Lisandro</subfield>
+    <subfield code="h">Eijkhout, Victor</subfield>
+    <subfield code="h">Gropp, William D.</subfield>
+    <subfield code="h">Kaushik, Dinesh</subfield>
+    <subfield code="h">Knepley, Matthew G.</subfield>
+    <subfield code="h">Curfman McInnes, Lois</subfield>
+    <subfield code="h">Rupp, Karl</subfield>
+    <subfield code="h">Smith, Barry F.</subfield>
+    <subfield code="h">Zampini, Stefano</subfield>
+    <subfield code="h">Zhang, Hong</subfield>
+    <subfield code="t">PETSc users manual</subfield>
+    <subfield code="p">Argonne National Laboratory</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Technical Report ANL-95/11 – Revision 3.6</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Crivellini, A.</subfield>
+    <subfield code="h">Di Pietro, D.A.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">An artificial compressibility flux for the discontinuous Galerkin solution of the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,218,794</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baumann, C.E.</subfield>
+    <subfield code="t">An hp-adaptive discontinuous finite element method for computational fluid dynamics</subfield>
+    <subfield code="p">University of Texas at Austin</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="t">Adaptive Finite Difference Methods in Fluid Dynamics</subfield>
+    <subfield code="p">Courant Institute of Mathematical Sciences, New York University</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bernert, K.</subfield>
+    <subfield code="t">τ -Extrapolation – theoretical foundation, numerical experiment, and application to Navier–Stokes equations</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,460</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brandt, A.</subfield>
+    <subfield code="h">Livne, O.E.</subfield>
+    <subfield code="t">Multigrid Techniques</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Canuto, C.G.</subfield>
+    <subfield code="h">Hussaini, Y.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="h">Zang, T.A.</subfield>
+    <subfield code="t">Spectral Methods: Fundamentals in Single Domains, Scientific Computation, </subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Kanschat, G.</subfield>
+    <subfield code="h">Schötzau, D.</subfield>
+    <subfield code="t">An equal-order DG method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Sci.Comput.,40,188</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.W.</subfield>
+    <subfield code="t">The local discontinuous Galerkin method for time dependent convection–diffusion systems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,2440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Derlaga, J.M.</subfield>
+    <subfield code="h">Phillips, T.</subfield>
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Borggaard, J.</subfield>
+    <subfield code="t">Adjoint and truncation error based adaptation for finite volume schemes with error estimates</subfield>
+    <subfield code="p">53rd AIAA Aerospace Sciences Meeting, AIAA SciTech, January 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dwight, R.P.</subfield>
+    <subfield code="t">Heuristic a posteriori estimation of error due to dissipation in finite volume schemes and application to mesh adaptation</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2845</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrer, E.</subfield>
+    <subfield code="t">A high order discontinuous Galerkin–Fourier incompressible 3D Navier–Stokes solver with rotating sliding meshes for simulating cross-flow turbines</subfield>
+    <subfield code="p">University of Oxford</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrer, E.</subfield>
+    <subfield code="h">Moxey, D.</subfield>
+    <subfield code="h">Willden, R.H.J.</subfield>
+    <subfield code="h">Sherwin, S.</subfield>
+    <subfield code="t">Stability of projection methods for incompressible flows using high order pressure-velocity pairs of same degree: continuous and discontinuous Galerkin formulations</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Commun.Comput.Phys.,16,817</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrer, E.</subfield>
+    <subfield code="h">Willden, R.H.J.</subfield>
+    <subfield code="t">A high order discontinuous Galerkin finite element solver for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Comput.Fluids,46,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferrer, E.</subfield>
+    <subfield code="h">Willden, R.H.J.</subfield>
+    <subfield code="t">A high order discontinuous Galerkin–Fourier incompressible 3D Navier–Stokes solver with rotating sliding meshes</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7037</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">de Vicente, J.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">The estimation of truncation error by τ -estimation revisited</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">Rubio, G.</subfield>
+    <subfield code="h">de Vicente, J.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">Quasi-a priori mesh adaptation and extrapolation to higher order using tau-estimation</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Aerosp.Sci.Technol.,38,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="h">Ponsin, J.</subfield>
+    <subfield code="t">Comparison of mesh adaptation using the adjoint methodology and truncation error estimates</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">AIAA J.,50,1920</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="h">Rubio, G.</subfield>
+    <subfield code="t">Quasi-a priori truncation error estimation and higher order extrapolation for non-linear partial differential equations</subfield>
+    <subfield code="v">253</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,253,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fulton, S.R.</subfield>
+    <subfield code="t">On the accuracy of multigrid truncation error estimates</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Electron.Trans.Numer.Anal.,15,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="t">A residual-based procedure for hp-adaptation on 2d hybrid meshes</subfield>
+    <subfield code="v">492</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">AIAA Pap.,492</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Georgoulis, E.H.</subfield>
+    <subfield code="t">Discontinuous Galerkin methods on shape-regular and anisotropic meshes</subfield>
+    <subfield code="p">University of Oxford</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="t">Error estimation and adjoint-based adaptation in aerodynamics</subfield>
+    <subfield code="p">Proceedings of the ECCOMAS CFD 2006, September 5–8, Egmond aan Zee, The Netherlands, 2006</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Spectral/hp Element Methods for CFD, Numerical Mathematics and Scientific Computation, </subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kopriva, D.A.</subfield>
+    <subfield code="t">Implementing Spectral Methods for Partial Differential Equations: Algorithms for Scientists and Engineers</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Landmann, B.</subfield>
+    <subfield code="h">Kessler, M.</subfield>
+    <subfield code="h">Wagner, S.</subfield>
+    <subfield code="h">Krämer, E.</subfield>
+    <subfield code="t">A parallel high-order discontinuous Galerkin code for laminar and turbulent flows</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Fluids,37,427</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mavriplis, C.</subfield>
+    <subfield code="t">Adaptive mesh strategies for the spectral element method</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,116,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Persson, P.O.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="t">RANS solutions using high order discontinuous Galerkin methods</subfield>
+    <subfield code="p">45th AIAA Aerospace Science Meeting and Exhibit, Reno, Nevada, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oliver, T.A.</subfield>
+    <subfield code="h">Darmofal, D.L.</subfield>
+    <subfield code="t">An unsteady adaptation algorithm for discontinuous Galerkin discretizations of the RANS equations</subfield>
+    <subfield code="p">18th AIAA Computational Fluid Dynamics Conference, Reno, Nevada, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peiro, J.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Finite difference, finite element and finite volume methods for partial differential equations</subfield>
+    <subfield code="p">Netherlands: Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="e">Yip,Sidney</subfield>
+    <subfield code="q">Handbook of Materials Modeling</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, T.</subfield>
+    <subfield code="t">Residual-based discretization error estimation for computational fluid dynamics</subfield>
+    <subfield code="p">Virginia Polytechnic Institute and State University</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, T.</subfield>
+    <subfield code="h">Roy, C.</subfield>
+    <subfield code="t">Residual methods for discretization error estimation</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">20th AIAA Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, H.</subfield>
+    <subfield code="h">Hill, T.R.</subfield>
+    <subfield code="t">Triangular mesh methods for the neutron transport equation</subfield>
+    <subfield code="p">Los Alamos Scientific Laboratory</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Technical Report LA-UR-73-479</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Riviere, B.</subfield>
+    <subfield code="t">Discontinuous Galerkin Methods for Solving Elliptic and Parabolic Equations: Theory and Implementation</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics Philadelphia, PA, USA</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="t">Strategies for driving mesh adaptation in CFD</subfield>
+    <subfield code="p">47th AIAA Aerospace Sciences Meeting, Orlando, Florida, January 5–8, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">AIAA 2009-1302, invited paper for session on Error Estimation and Control</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="t">Review of discretization error estimators in scientific computing</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">AIAA Pap.,126,2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Smith, T.M.</subfield>
+    <subfield code="h">Ober, C.C.</subfield>
+    <subfield code="t">Verification of a compressible CFD code using the method of manufactured solutions</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="q">32nd AIAA Fluid Dynamics Conference</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rubio, G.</subfield>
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">de Vicente, J.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">The estimation of truncation error by τ -estimation for Chebyshev spectral collocation method</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Sci.Comput.,57,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rubio, G.</subfield>
+    <subfield code="h">Fraysse, F.</subfield>
+    <subfield code="h">Kopriva, D.A.</subfield>
+    <subfield code="h">Valero, E.</subfield>
+    <subfield code="t">Quasi-a priori truncation error estimation in the DGSEM</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shahbazi, K.</subfield>
+    <subfield code="h">Fischer, P.F.</subfield>
+    <subfield code="h">Ethier, C.R.</subfield>
+    <subfield code="t">A high-order discontinuous Galerkin method for the unsteady incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,222,391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shih, T.I.P.</subfield>
+    <subfield code="h">Williams, B.R.</subfield>
+    <subfield code="t">Development and evaluation of an a posteriori method for estimating and correcting grid-induced errors in solutions of the Navier–Stokes equations</subfield>
+    <subfield code="v">1499</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">AIAA Pap.,1499,2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Syrakos, A.</subfield>
+    <subfield code="h">Efthimiou, G.</subfield>
+    <subfield code="h">Bartzis, J.G.</subfield>
+    <subfield code="h">Goulas, A.</subfield>
+    <subfield code="t">Numerical experiments on the efficiency of local grid refinement based on truncation error estimates</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6725</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Syrakos, A.</subfield>
+    <subfield code="h">Goulas, A.</subfield>
+    <subfield code="t">Finite volume adaptive solutions using SIMPLE as smoother</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,52,1215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vegt, J.J.W.</subfield>
+    <subfield code="h">van der Ven, H.</subfield>
+    <subfield code="t">Space time discontinuous Galerkin finite element method with dynamic grid motion for inviscid compressible flows: I. General formulation</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,182,546</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="h">Fidkowski, K.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Caraeni, D.</subfield>
+    <subfield code="h">Cary, A.</subfield>
+    <subfield code="h">Deconinck, H.</subfield>
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Hillewaert, K.</subfield>
+    <subfield code="h">Huynh, H.T.</subfield>
+    <subfield code="h">Kroll, N.</subfield>
+    <subfield code="h">May, G.</subfield>
+    <subfield code="h">Persson, P.</subfield>
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="h">Visbal, M.</subfield>
+    <subfield code="t">High-order CFD methods: current status and perspective</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,72,811</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S002199911500772X/S002199911500772X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

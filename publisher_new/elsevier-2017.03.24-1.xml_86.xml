@@ -1,0 +1,531 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.003</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Zabelok, Sergey</subfield>
+    <subfield code="v">Federal Research Center “Computer Science and Control” of Russian Academy of Sciences, Vavilova-40, Moscow, 119333, Russia</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Adaptive kinetic-fluid solvers for heterogeneous computing architectures</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">15</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We show feasibility and benefits of porting an adaptive multi-scale kinetic-fluid code to CPU–GPU systems. Challenges are due to the irregular data access for adaptive Cartesian mesh, vast difference of computational cost between kinetic and fluid cells, and desire to evenly load all CPUs and GPUs during grid adaptation and algorithm refinement. Our Unified Flow Solver (UFS) combines Adaptive Mesh Refinement (AMR) with automatic cell-by-cell selection of kinetic or fluid solvers based on continuum breakdown criteria. Using GPUs enables hybrid simulations of mixed rarefied-continuum flows with a million of Boltzmann cells each having a <math altimg="si1.gif" display="inline" overflow="scroll"><mn>24</mn><mo>×</mo><mn>24</mn><mo>×</mo><mn>24</mn></math> velocity mesh. We describe the implementation of CUDA kernels for three modules in UFS: the direct Boltzmann solver using the discrete velocity method (DVM), the Direct Simulation Monte Carlo (DSMC) solver, and a mesoscopic solver based on the Lattice Boltzmann Method (LBM), all using adaptive Cartesian mesh. Double digit speedups on single GPU and good scaling for multi-GPUs have been demonstrated.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unified Flow Solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive Mesh Refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discrete velocity method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Boltzmann kinetic equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Direct Simulation Monte Carlo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lattice Boltzmann Method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Graphics processing units</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">CUDA</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">MPI</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Arslanbekov, Robert</subfield>
+    <subfield code="v">CFD Research Corporation, Huntsville, AL, 35805, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kolobov, Vladimir</subfield>
+    <subfield code="v">CFD Research Corporation, Huntsville, AL, 35805, USA</subfield>
+    <subfield code="m">vik@cfdrc.com</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">455-469</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Birdsall, C.K.</subfield>
+    <subfield code="h">Langdon, A.B.</subfield>
+    <subfield code="t">Plasma Physics via Computer Simulations</subfield>
+    <subfield code="p">Taylor and Francis</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows</subfield>
+    <subfield code="p">Oxford Science Publications</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aristov, V.V.</subfield>
+    <subfield code="t">Direct Methods for Solving the Boltzmann Equation and Study of Non-Equilibrium Flows</subfield>
+    <subfield code="p">Kluwer Academic Publishers Dordrecht</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Eulerian Codes for the Numerical Solution of the Kinetic Equations of Plasmas</subfield>
+    <subfield code="p">Nova Publishers</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Shoucri,M.</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="h">Aristov, V.V.</subfield>
+    <subfield code="h">Frolova, A.A.</subfield>
+    <subfield code="h">Zabelok, S.A.</subfield>
+    <subfield code="t">Unified solver for rarefied and continuum flows with adaptive mesh and algorithm refinement</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,223,589</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miller, R.E.</subfield>
+    <subfield code="h">Tadmor, E.B.</subfield>
+    <subfield code="t">A unified framework and performance benchmark of fourteen multiscale atomistic/continuum coupling methods</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Model.Simul.Mater.Sci.Eng.,17,053001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tóth, G.</subfield>
+    <subfield code="t">Adaptive numerical algorithms in space weather modeling</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,231,870</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="t">Towards adaptive kinetic-fluid simulations of weakly ionized plasmas</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,231,839</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rsta.2012.0182</subfield>
+    <subfield code="h">Radtke, G.A.</subfield>
+    <subfield code="h">Péraud, J.-P.M.</subfield>
+    <subfield code="h">Hadjiconstantinou, N.G.</subfield>
+    <subfield code="t">On efficient simulations of multiscale kinetic transport</subfield>
+    <subfield code="v">371</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.,A371,20120182</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieke, M.</subfield>
+    <subfield code="h">Trost, T.</subfield>
+    <subfield code="h">Grauer, R.</subfield>
+    <subfield code="t">Coupled Vlasov and two-fluid codes on GPUs</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,283,436</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garsia, A.L.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Crutchfield, W.Y.</subfield>
+    <subfield code="h">Alder, B.J.</subfield>
+    <subfield code="t">Adaptive mesh and algorithm refinement using direct simulation Monte Carlo</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comp.Physiol.,54,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Frolova, A.A.</subfield>
+    <subfield code="t">Analysis of compressible viscous flow solvers with adaptive Cartesian mesh</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA 2011-3381</subfield>
+    <subfield code="q">20th AIAA Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Mehta, V.I. Kolobov, R.R. Arslanbekov, A. Feldick, M. Modest</subfield>
+    <subfield code="m">Hybrid radiation transport model for weakly ionized plasma</subfield>
+    <subfield code="s">AIAA J.,2011,3767</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerris Flow Solver</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agbaglah, G.</subfield>
+    <subfield code="t">Parallel simulation of multiphase flows using octree adaptivity and the volume-of-fluid method</subfield>
+    <subfield code="v">339</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">C.R., Méc.,339,194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Frolova, A.A.</subfield>
+    <subfield code="t">Kinetic solvers with adaptive mesh in phase space</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Rev.,E88,063301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.R. Arslanbekov, V.I. Kolobov, J. Burt, E. Josyula</subfield>
+    <subfield code="m">Direct simulation Monte Carlo with octree Cartesian mesh</subfield>
+    <subfield code="s">AIAA J.,2012,2990</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zabelok, S.</subfield>
+    <subfield code="h">Arslanbekov, R.</subfield>
+    <subfield code="h">Kolobov, V.</subfield>
+    <subfield code="t">Multi-GPU kinetic solvers using MPI and CUDA</subfield>
+    <subfield code="v">vol. 1628</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">AIP Conference Proc.,vol. 1628,539</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Navarro, C.A.</subfield>
+    <subfield code="h">Hitschfeld-Kahler, N.</subfield>
+    <subfield code="h">Mateu, L.</subfield>
+    <subfield code="t">A survey on parallel computing and its applications in data-parallel problems using GPU architectures</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Commun.Comput.Phys.,15,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanka, S.P.</subfield>
+    <subfield code="t">Computational fluid dynamics on graphics processing units: 2012 Freeman scholar lecture</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Fluids Eng.,135,061401</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldsworthy, M.J.</subfield>
+    <subfield code="t">A GPU-CUDA based direct simulation Monte Carlo algorithm for real gas flows</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,94,58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kashkovsky, A.</subfield>
+    <subfield code="t">3D DSMC computations on a heterogeneous CPU–GPU cluster with a large number of GPUs</subfield>
+    <subfield code="v">1628</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">AIP Conf.Proc.,1628,192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kloss, Y.</subfield>
+    <subfield code="h">Shuvalov, P.</subfield>
+    <subfield code="h">Tcheremissine, F.</subfield>
+    <subfield code="t">Solving Boltzmann equation on GPU</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Proc.Comput.Sci.,1,1083</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frezzotti, A.</subfield>
+    <subfield code="h">Ghiroldi, G.</subfield>
+    <subfield code="h">Gibelli, L.</subfield>
+    <subfield code="t">Solving the Boltzmann equation on GPUs</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Fluids,50,136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S.A. Zabelok, R.R. Arslanbekov, V.I. Kolobov</subfield>
+    <subfield code="m">GPU accelerated kinetic solvers for rarefied gas dynamics</subfield>
+    <subfield code="s">AIAA Paper,2013,2863</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zabelok, S.A.</subfield>
+    <subfield code="h">Aristov, V.V.</subfield>
+    <subfield code="h">Frolova, A.A.</subfield>
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="t">Parallel implementation of the unified flow solver</subfield>
+    <subfield code="p">Rarefied Gas Dynamics: 25th International Symposium, St. Petersburg, Russia, 2006</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Degond, P.</subfield>
+    <subfield code="h">Dimarco, G.</subfield>
+    <subfield code="h">Mieussens, L.</subfield>
+    <subfield code="t">A multiscale kinetic-fluid solver with dynamic localization of kinetic effects</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dimarco, G.</subfield>
+    <subfield code="h">Pareschi, L.</subfield>
+    <subfield code="t">Numerical methods for kinetic equations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Acta Numer.,23,369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Malkov, E.A.</subfield>
+    <subfield code="h">Ivanov, M.S.</subfield>
+    <subfield code="h">Poleshkin, S.O.</subfield>
+    <subfield code="t">Discrete velocity scheme for solving the Boltzmann equation accelerated with the GP GPU</subfield>
+    <subfield code="v">vol. 1501</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 1501,318</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zabelok, S.A.</subfield>
+    <subfield code="h">Stroganov, A.V.</subfield>
+    <subfield code="h">Aristov, V.V.</subfield>
+    <subfield code="t">Deterministic GPU Boltzmann solver</subfield>
+    <subfield code="v">vol. 1628</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 1628,1009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shan, X.</subfield>
+    <subfield code="h">Yuan, X.-F.</subfield>
+    <subfield code="h">Chen, H.</subfield>
+    <subfield code="t">Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation</subfield>
+    <subfield code="v">550</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Fluid Mech.,550,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ambrus, V.E.</subfield>
+    <subfield code="h">Sofonea, V.</subfield>
+    <subfield code="t">High-order thermal lattice Boltzmann models derived by means of Gauss quadrature in the spherical coordinate system</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Rev.,E86,016708</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eitel-Amor, G.</subfield>
+    <subfield code="h">Meinke, M.</subfield>
+    <subfield code="h">Schroder, W.</subfield>
+    <subfield code="t">A lattice-Boltzmann method with hierarchically refined meshes</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Fluids,75,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Finite-difference lattice Boltzmann method with a block-structured adaptive-mesh-refinement technique</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Phys.Rev.,E89,033310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Januszewski, M.</subfield>
+    <subfield code="h">Kostur, M.</subfield>
+    <subfield code="t">Sailfish: a flexible multi-GPU implementation of the lattice Boltzmann method</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Phys.Commun.,185,2350</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazzeo, M.D.</subfield>
+    <subfield code="h">Coveney, P.V.</subfield>
+    <subfield code="t">HemeLB: a high performance parallel lattice-Boltzmann code for large scale fluid flow in complex geometries</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Phys.Commun.,178,894</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Desplat, J.-C.</subfield>
+    <subfield code="h">Pagonabarraga, I.</subfield>
+    <subfield code="h">Bladon, P.</subfield>
+    <subfield code="t">LUDWIG: a parallel lattice-Boltzmann code for complex fluids</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Phys.Commun.,134,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hasert, M.</subfield>
+    <subfield code="h">Masilamani, K.</subfield>
+    <subfield code="h">Zimny, S.</subfield>
+    <subfield code="h">Klimach, H.</subfield>
+    <subfield code="h">Qi, J.</subfield>
+    <subfield code="h">Bernsdorf, J.</subfield>
+    <subfield code="h">Roller, S.</subfield>
+    <subfield code="t">Complex fluid simulations with the parallel tree-based lattice Boltzmann solver Musubi</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Sci.,5,784</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patil, D.V.</subfield>
+    <subfield code="h">Lakshmisha, K.N.</subfield>
+    <subfield code="t">Finite volume TVD formulation of lattice Boltzmann simulation on unstructured mesh</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5262</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wolfe, M.</subfield>
+    <subfield code="t">Understanding the CUDA data parallel threading model</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ivanov, M.S.</subfield>
+    <subfield code="t">Parallel object-oriented software system for DSMC</subfield>
+    <subfield code="v">vol. 1333</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 1333,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arslanbekov, R.R.</subfield>
+    <subfield code="h">Kolobov, V.I.</subfield>
+    <subfield code="h">Frolova, A.A.</subfield>
+    <subfield code="t">Immersed boundary method for Boltzmann and Navier–Stokes solvers with adaptive Cartesian mesh</subfield>
+    <subfield code="v">vol. 1333</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 1333,873</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dechriste, G.</subfield>
+    <subfield code="h">Mieussens, L.</subfield>
+    <subfield code="r">arXiv:1503.04544 [.org/pdf]</subfield>
+    <subfield code="t">A Cartesian cut cell method for rarefied flow simulations around moving obstacles</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shrestha, S.</subfield>
+    <subfield code="h">Tiwari, S.</subfield>
+    <subfield code="h">Klar, A.</subfield>
+    <subfield code="h">Hardt, S.</subfield>
+    <subfield code="t">Numerical simulation of a moving rigid body in a rarefied gas</subfield>
+    <subfield code="v">292</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,292,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">GNU Triangulated Surface Library</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, C.-C.</subfield>
+    <subfield code="h">Smith, M.R.</subfield>
+    <subfield code="h">Kuo, F.-A.</subfield>
+    <subfield code="h">Wu, J.-S.</subfield>
+    <subfield code="h">Hsieh, C.-W.</subfield>
+    <subfield code="h">Tseng, K.-C.</subfield>
+    <subfield code="t">Large-scale simulations on multiple graphics processing units (GPUs) for the direct simulation Monte Carlo method</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comp.Physiol.,231,7932</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ziegler, U.</subfield>
+    <subfield code="t">Self-gravitational adaptive mesh magnetohydrodynamics with the NIRVANA code</subfield>
+    <subfield code="v">435</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Astron.Astrophys.,435,385</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006658/S0021999115006658.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

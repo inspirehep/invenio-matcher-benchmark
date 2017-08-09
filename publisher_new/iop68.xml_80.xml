@@ -1,0 +1,235 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">An improved combinatorial geometry model for arbitrary geometry in DSMC</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">This paper focuses on a new direct simulation Monte Carlo (DSMC) code based on combinatorial geometry (CG) for simulation of any rarefied gas flow. The developed code, called DgSMC-A, has been supplied with an improved CG modeling able to significantly optimize the particle-tracking process, resulting in a highly reduced runtime compared to the conventional codes. The improved algorithm inserts a grid over the geometry and saves those grid elements containing some part of the geometry border. Since only a small part of a grid is engaged with the geometry border, significant time can be saved using the proposed algorithm. Embedding the modified algorithm in the DgSMC-A resulted in a fast, robust and self-governing code needless to any mesh generator. The code completely handles complex geometries created with first-and second-order surfaces. In addition, we developed a new surface area calculator in the CG methodology for complex geometries based on the Monte Carlo method with acceptable accuracy. Several well-known test cases are examined to indicate the code ability to deal with a wide range of realistic problems. Results are also found to be in good agreement with references and experimental data.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JSTAT</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">033203</subfield>
+  <subfield code="v">1703</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1742-5468/aa5d1a</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">19</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-08</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Kargaran, H.</subfield>
+  <subfield code="v">Department of Nuclear Engineering - Shahid Beheshti U. - Tehran - Iran</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Minuchehr, A.</subfield>
+  <subfield code="v">Department of Nuclear Engineering - Shahid Beheshti U. - Tehran - Iran</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Zolfaghari, A.</subfield>
+  <subfield code="v">Department of Nuclear Engineering - Shahid Beheshti U. - Tehran - Iran</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Bird G A</subfield>
+  <subfield code="m">Molecular Gas Dynamics and Direct Simulation of Gas Flows (Oxford: Oxford Science)</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">LeBeau G and Lumpkin F III</subfield>
+  <subfield code="m">Application highlights of the DSMC analysis code (DAC) software for simulating rarefied flows Crossref:</subfield>
+  <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,595-609</subfield>
+  <subfield code="a">doi:10.1016/S0045-7825(01)00304-8</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Ivanov M S et al.</subfield>
+  <subfield code="m">SMILE system for 2D/3D DSMC computations Proc. 25th Int. Symp. on Rarefied Gas Dynamics AIP vol 10</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Padilla J F</subfield>
+  <subfield code="m">Comparison of DAC and Monaco DSMC Codes with Flat Plate Simulation</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Klothakis A and Nikolos I</subfield>
+  <subfield code="m">Modeling of rarefied hypersonic flows using the massively parallel dsmc kernel ‘sparta’ 8th Int. Congress Computational Mechanics (Volos,)</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Gao D, Zhang C and Schwartzentruber T E</subfield>
+  <subfield code="m">Particle simulations of planetary probe flows employing automated mesh refinement Crossref:</subfield>
+  <subfield code="s">J.Spacecr.Rockets,48,397-405</subfield>
+  <subfield code="a">doi:10.2514/1.52129</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Scanlon T J, Roohi E, White C, Darbandi M and Reese J M</subfield>
+  <subfield code="m">An open source, parallel DSMC code for rarefied gas flows in arbitrary geometries Comput. Fluids 39 2078-89, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compfluid.2010.07.014</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Marsh D</subfield>
+  <subfield code="m">Applied Geometry for Computer Graphics and CAD (Berlin:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Team X-5 MC</subfield>
+  <subfield code="m">MCNP—A General Monte Carlo N-Particle Transport Code, Version 5 Volume I: Overview and Theory LA-CP-03-0245</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Romano P K, Horelik N E, Herman B R, Nelson A G, Forget B and Smith K</subfield>
+  <subfield code="m">OpenMC: a state-of-the-art Monte Carlo code for research and development Crossref:</subfield>
+  <subfield code="s">Annals Nucl.Energy,82,90-7</subfield>
+  <subfield code="a">doi:10.1016/j.anucene.2014.07.048</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1421213</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Cullen D E</subfield>
+  <subfield code="m">TART—an overview of a coupled neutron-photon 3D, combinatorial geometry, time dependent Monte Carlo transport code LLNL-TR-577352 (22 July)</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Allison J et al.</subfield>
+  <subfield code="m">Geant4 developments and applications Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Nucl.Sci.,53,270-8</subfield>
+  <subfield code="a">doi:10.1109/TNS.2006.869826</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">715388</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Kargaran H, Minuchehr A and Zolfaghari A</subfield>
+  <subfield code="m">DgSMC-B code: a robust and autonomous direct simulation Monte Carlo code for arbitrary geometries AIP Adv. 6 075208, Crossref:</subfield>
+  <subfield code="a">doi:10.1063/1.4959101</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Zhang C and Schwartzentruber T E</subfield>
+  <subfield code="m">Robust cut-cell algorithms for DSMC implementations employing multi-level cartesian grids Comput. Fluids 69 122-35, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compfluid.2012.08.013</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Roohi E and Stefanov S</subfield>
+  <subfield code="m">Collision partner selection schemes in DSMC: from micro/nano flows to hypersonic flows Crossref:</subfield>
+  <subfield code="s">Phys.Rept.,656,1-38</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2016.08.002</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Liu Y-S, Yong J-H, Zhang H, Yan D-M and Sun J-G</subfield>
+  <subfield code="m">A quasi-Monte Carlo method for computing areas of point-sampled surfaces Comput. Des. 38 55-68, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.cad.2005.07.002</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Kargaran H, Minuchehr A and Zolfaghari A</subfield>
+  <subfield code="m">The development of GPU-based parallel PRNG for Monte Carlo applications in CUDA Fortran AIP Adv. 6 045101, Crossref:</subfield>
+  <subfield code="a">doi:10.1063/1.4945731</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Bird G A</subfield>
+  <subfield code="m">The DS2V/3V program suite for DSMC calculations</subfield>
+  <subfield code="s">AIP Conf.Proc.,762,541</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="m">Su C-C Wu J-S, Hsieh C-W and Tseng K-C Large-scale simulations on multiple graphics processing units (GPUs) for the direct simulation Monte Carlo method Crossref:</subfield>
+  <subfield code="h">Smith M R, Kuo F-A</subfield>
+  <subfield code="s">J.Comput.Phys.,231,7932-58</subfield>
+  <subfield code="a">doi:10.1016/j.jcp.2012.07.038</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Goldsworthy M J</subfield>
+  <subfield code="m">A GPU-CUDA based direct simulation Monte Carlo algorithm for real gas flows Comput. Fluids 94 58-68, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.compfluid.2014.01.033</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Allègre J, Raffin M and Lengrand J C</subfield>
+  <subfield code="m">Experimental flowfields around NACA 0012 airfoils located in subsonic and supersonic rarefied air streams (Numerical Simulation Compressible Navier-Stokes Flows vol 18) M Bristeau et al. (eds.) (Berlin: pp 59-68, Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-322-87873-1_3</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Abbott I H and Von Doenhoff A E</subfield>
+  <subfield code="m">Theory of Wing Sections, Including a Summary of Airfoil Data (New York:</subfield>
+  <subfield code="p">Dover</subfield>
+  <subfield code="y">1959</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Yang J Y, Huang J C and Wang C S</subfield>
+  <subfield code="m">1996 Nonoscillatory schemes for kinetic model equations for gases with internal energy states Crossref:</subfield>
+  <subfield code="s">AIAA J.,34,81</subfield>
+  <subfield code="a">doi:10.2514/3.13354</subfield>
+  <subfield code="y">2071</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

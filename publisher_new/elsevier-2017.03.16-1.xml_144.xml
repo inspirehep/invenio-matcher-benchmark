@@ -1,0 +1,627 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.027</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ghosh, Swarnava</subfield>
+    <subfield code="j">ORCID:0000-0003-3800-5264</subfield>
+    <subfield code="v">College of Engineering, Georgia Institute of Technology, GA 30332, USA</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Higher-order finite-difference formulation of periodic Orbital-free Density Functional Theory</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a real-space formulation and higher-order finite-difference implementation of periodic Orbital-free Density Functional Theory (OF-DFT). Specifically, utilizing a local reformulation of the electrostatic and kernel terms, we develop a generalized framework for performing OF-DFT simulations with different variants of the electronic kinetic energy. In particular, we propose a self-consistent field (SCF) type fixed-point method for calculations involving linear-response kinetic energy functionals. In this framework, evaluation of both the electronic ground-state and forces on the nuclei are amenable to computations that scale linearly with the number of atoms. We develop a parallel implementation of this formulation using the finite-difference discretization. We demonstrate that higher-order finite-differences can achieve relatively large convergence rates with respect to mesh-size in both the energies and forces. Additionally, we establish that the fixed-point iteration converges rapidly, and that it can be further accelerated using extrapolation techniques like Anderson's mixing. We validate the accuracy of the results by comparing the energies and forces with plane-wave methods for selected examples, including the vacancy formation energy in Aluminum. Overall, the suitability of the proposed formulation for scalable high performance computing makes it an attractive choice for large-scale OF-DFT calculations consisting of thousands of atoms.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite-differences</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Real-space</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fixed-point</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Anderson mixing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conjugate gradient</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Electronic structure</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Suryanarayana, Phanish</subfield>
+    <subfield code="v">College of Engineering, Georgia Institute of Technology, GA 30332, USA</subfield>
+    <subfield code="m">phanish.suryanarayana@ce.gatech.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">634-652</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hohenberg, P.</subfield>
+    <subfield code="h">Kohn, W.</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Rev.,136,B864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kohn, W.</subfield>
+    <subfield code="h">Sham, L.J.</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.,140,A1133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parr, R.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="t">Density-Functional Theory of Atoms and Molecules</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ciarlet, P.</subfield>
+    <subfield code="h">Lions, J.</subfield>
+    <subfield code="h">Le Bris, C.</subfield>
+    <subfield code="t">Computational Chemistry, Handbook of Numerical Analysis, vol. X</subfield>
+    <subfield code="p">North-Holland</subfield>
+    <subfield code="v">vol. X</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">Special Volume</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, R.</subfield>
+    <subfield code="t">Electronic Structure: Basic Theory and Practical Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goedecker, S.</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Rev.Mod.Phys.,71,1085</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bowler, D.R.</subfield>
+    <subfield code="h">Miyazaki, T.</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Rep.Prog.Phys.,75,036503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benzi, M.</subfield>
+    <subfield code="h">Boito, P.</subfield>
+    <subfield code="h">Razouk, N.</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">SIAM Rev.,55,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cances, E.</subfield>
+    <subfield code="h">Bris, C.L.</subfield>
+    <subfield code="h">Lions, P.-L.</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Nonlinearity,21,T165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.A.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">vol. 5</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Progress in Theoretical Chemistry and Physics,vol. 5,117</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thomas, L.H.</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1927</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Math.Proc.Camb.Philos.Soc.,23,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fermi, E.</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1927</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Rend.R.Accad.Naz.Lincei,6,602</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weizsacker, C.</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">1935</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Z.Phys.,96,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, L.-W.</subfield>
+    <subfield code="h">Teter, M.P.</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Rev.,B45,13196</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.A.</subfield>
+    <subfield code="h">Govind, N.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Rev.,B58,13465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.A.</subfield>
+    <subfield code="h">Govind, N.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Rev.,B60,16350</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carling, K.M.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Model.Simul.Mater.Sci.Eng.,11,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ho, G.</subfield>
+    <subfield code="h">Ong, M.T.</subfield>
+    <subfield code="h">Caspersen, K.J.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Chem.Chem.Phys.,9,4951</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Phys.Chem.Chem.Phys.,10,7109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, B.</subfield>
+    <subfield code="h">Ligneres, V.L.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">122</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Chem.Phys.,122,044103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="h">Shin, I.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Chem.Phys.,136,084102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sjostrom, T.</subfield>
+    <subfield code="h">Daligault, J.</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Rev.Lett.,113,155006</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karasiev, V.V.</subfield>
+    <subfield code="h">Sjostrom, T.</subfield>
+    <subfield code="h">Trickey, S.</subfield>
+    <subfield code="r">arXiv:1406.0835</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ho, G.S.</subfield>
+    <subfield code="h">Ligneres, V.L.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Phys.Commun.,179,839</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hung, L.</subfield>
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="h">Shin, I.</subfield>
+    <subfield code="h">Ho, G.S.</subfield>
+    <subfield code="h">Ligneres, V.L.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Phys.Commun.,181,2208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cooley, J.</subfield>
+    <subfield code="h">Tukey, J.</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Math.Comput.,19,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hung, L.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">475</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Chem.Phys.Lett.,475,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Phanish, D.</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,275,524</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gavini, V.</subfield>
+    <subfield code="h">Knap, J.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,55,669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Motamarri, P.</subfield>
+    <subfield code="h">Iyer, M.</subfield>
+    <subfield code="h">Knap, J.</subfield>
+    <subfield code="h">Gavini, V.</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6596</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gavini, V.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,55,697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garcia-Cervera, C.J.</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Commun.Comput.Phys.,2,334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benguria, R.</subfield>
+    <subfield code="h">Brezis, H.</subfield>
+    <subfield code="h">Lieb, E.</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Commun.Math.Phys.,79,167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blanc, X.</subfield>
+    <subfield code="h">Cances, E.</subfield>
+    <subfield code="v">122</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Chem.Phys.,122,214106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cances, E.</subfield>
+    <subfield code="h">Chakir, R.</subfield>
+    <subfield code="h">Maday, Y.</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Modél.Math.Anal.Numér.,46,341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, H.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Chem.Phys.,121,2030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hung, L.</subfield>
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="h">Carter, E.A.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perdew, J.P.</subfield>
+    <subfield code="h">Zunger, A.</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Rev.,B23,5048</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ceperley, D.M.</subfield>
+    <subfield code="h">Alder, B.J.</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Rev.Lett.,45,566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choly, N.</subfield>
+    <subfield code="h">Kaxiras, E.</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Solid State Commun.,121,281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pask, J.E.</subfield>
+    <subfield code="h">Sterne, P.A.</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phys.Rev.,B71,113101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Bhattacharya, K.</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,61,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pickett, W.E.</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Comput.Phys.Rep.,9,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fang, H.-r.</subfield>
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,16,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">V. Gavini</subfield>
+    <subfield code="m">The authors were exploring similar ideas when the approach was suggested in private communication</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, L.</subfield>
+    <subfield code="h">Yang, C.</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,S277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.</subfield>
+    <subfield code="t">Finite Difference Methods for Ordinary and Partial Differential Equations: Steady-state and Time-Dependent Problems</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazziotti, D.A.</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Chem.Phys.Lett.,299,473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jordan, D.</subfield>
+    <subfield code="h">Mazziotti, D.</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Chem.Phys.,120,574</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teter, M.P.</subfield>
+    <subfield code="h">Payne, M.C.</subfield>
+    <subfield code="h">Allan, D.C.</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Rev.,B40,12255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Payne, M.C.</subfield>
+    <subfield code="h">Teter, M.P.</subfield>
+    <subfield code="h">Allan, D.C.</subfield>
+    <subfield code="h">Arias, T.</subfield>
+    <subfield code="h">Joannopoulos, J.</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Rev.Mod.Phys.,64,1045</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, H.</subfield>
+    <subfield code="h">Yang, W.</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Chem.Phys.,121,2030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.R. Shewchuk</subfield>
+    <subfield code="m">An introduction to the conjugate gradient method without the agonizing pain</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Press, W.H.</subfield>
+    <subfield code="t">Numerical Recipes: The Art of Scientific Computing</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.H.</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Van Loan, C.F.</subfield>
+    <subfield code="t">Matrix Computations, vol. 3</subfield>
+    <subfield code="p">JHU Press</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, D.G.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.ACM,12,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Brown, J.</subfield>
+    <subfield code="h">Buschelman, K.</subfield>
+    <subfield code="h">Eijkhout, V.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">Kaushik, D.</subfield>
+    <subfield code="h">Knepley, M.G.</subfield>
+    <subfield code="h">McInnes, L.C.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">PETSc Users Manual</subfield>
+    <subfield code="p">Argonne National Laboratory</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">Technical Report ANL-95/11 – Revision 3.4</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">McInnes, L.C.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="t">Modern Software Tools in Scientific Computing</subfield>
+    <subfield code="p">Birkhäuser Press</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="e">Arge,E.</subfield>
+    <subfield code="e">Bruaset,A.M.</subfield>
+    <subfield code="e">Langtangen,H.P.</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gropp, W.</subfield>
+    <subfield code="h">Lusk, E.</subfield>
+    <subfield code="h">Skjellum, A.</subfield>
+    <subfield code="t">Using MPI: Portable Parallel Programming with the Message-Passing Interface, vol. 1</subfield>
+    <subfield code="p">MIT Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goodwin, L.</subfield>
+    <subfield code="h">Needs, R.</subfield>
+    <subfield code="h">Heine, V.</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,2,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suryanarayana, P.</subfield>
+    <subfield code="h">Phanish, D.</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Phys.,275,524</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Finnis, M.</subfield>
+    <subfield code="t">Interatomic Forces in Condensed Matter</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gillan, M.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,1,689</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hackbusch, W.</subfield>
+    <subfield code="t">Multi-Grid Methods and Applications, vol. 4</subfield>
+    <subfield code="p">Springer Science &amp; Business Media</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00246/S0021999115008463/S0021999115008463.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

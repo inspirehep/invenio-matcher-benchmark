@@ -1,0 +1,499 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.002</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Wu, Lei</subfield>
+    <subfield code="j">ORCID:0000-0002-6435-5041</subfield>
+    <subfield code="v">James Weir Fluids Laboratory, Department of Mechanical and Aerospace Engineering, University of Strathclyde, Glasgow, G1 1XJ, UK</subfield>
+    <subfield code="m">lei.wu.100@strath.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A fast iterative scheme for the linearized Boltzmann equation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-15</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Iterative schemes to find steady-state solutions to the Boltzmann equation are efficient for highly rarefied gas flows, but can be very slow to converge in the near-continuum flow regime. In this paper, a synthetic iterative scheme is developed to speed up the solution of the linearized Boltzmann equation by penalizing the collision operator L into the form <math altimg="si1.gif" display="inline" overflow="scroll"><mi>L</mi><mo>=</mo><mo stretchy="false">(</mo><mi>L</mi><mo>+</mo><mi>N</mi><mi>δ</mi><mi>h</mi><mo stretchy="false">)</mo><mo>−</mo><mi>N</mi><mi>δ</mi><mi>h</mi></math> , where δ is the gas rarefaction parameter, h is the velocity distribution function, and N is a tuning parameter controlling the convergence rate. The velocity distribution function is first solved by the conventional iterative scheme, then it is corrected such that the macroscopic flow velocity is governed by a diffusion-type equation that is asymptotic-preserving into the Navier–Stokes limit. The efficiency of this new scheme is assessed by calculating the eigenvalue of the iteration, as well as solving for Poiseuille and thermal transpiration flows. We find that the fastest convergence of our synthetic scheme for the linearized Boltzmann equation is achieved when Nδ is close to the average collision frequency. The synthetic iterative scheme is significantly faster than the conventional iterative scheme in both the transition and the near-continuum gas flow regimes. Moreover, due to its asymptotic-preserving properties, the synthetic iterative scheme does not need high spatial resolution in the near-continuum flow regime, which makes it even faster than the conventional iterative scheme. Using this synthetic scheme, with the fast spectral approximation of the linearized Boltzmann collision operator, Poiseuille and thermal transpiration flows between two parallel plates, through channels of circular/rectangular cross sections and various porous media are calculated over the whole range of gas rarefaction. Finally, the flow of a Ne–Ar gas mixture is solved based on the linearized Boltzmann equation with the Lennard–Jones intermolecular potential for the first time, and the difference between these results and those using the hard-sphere potential is discussed.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Linearized Boltzmann equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rarefied gas dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Synthetic iterative scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lennard–Jones potential</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Gas mixture</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, Jun</subfield>
+    <subfield code="v">School of Engineering, University of Edinburgh, Edinburgh, EH9 3FB, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Liu, Haihu</subfield>
+    <subfield code="v">School of Energy and Power Engineering, Xi'an Jiaotong University, 28 West Xianning Road, Xi'an, 710049, China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, Yonghao</subfield>
+    <subfield code="v">James Weir Fluids Laboratory, Department of Mechanical and Aerospace Engineering, University of Strathclyde, Glasgow, G1 1XJ, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Reese, Jason M.</subfield>
+    <subfield code="v">School of Engineering, University of Edinburgh, Edinburgh, EH9 3FB, UK</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cercignani, C.</subfield>
+    <subfield code="t">Rarefied Gas Dynamics: From Basic Concepts to Actual Calculations</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, New York</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows, Oxford Science Publications, </subfield>
+    <subfield code="p">Oxford University Press Inc New York</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pareschi, L.</subfield>
+    <subfield code="h">Russo, G.</subfield>
+    <subfield code="t">Time relaxed Monte Carlo methods for the Boltzmann equation</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,1253</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, B.</subfield>
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="h">Jin, S.</subfield>
+    <subfield code="t">An asymptotic preserving Monte Carlo method for the multispecies Boltzmann equation</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,305,575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tcheremissine, F.G.</subfield>
+    <subfield code="t">Direct numerical solution of the Boltzmann equation</subfield>
+    <subfield code="v">762</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">AIP Conf.Proc.,762,677</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Filbet, F.</subfield>
+    <subfield code="h">Jin, S.</subfield>
+    <subfield code="t">A class of asymptotic-preserving schemes for kinetic equations and related problems with stiff sources</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhatnagar, P.L.</subfield>
+    <subfield code="h">Gross, E.P.</subfield>
+    <subfield code="h">Krook, M.</subfield>
+    <subfield code="t">A model for collision processes in gases. I. Small amplitude processes in charged and neutral one-component systems</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.,94,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Huang, J.C.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shakhov, E.M.</subfield>
+    <subfield code="t">Approximate kinetic equations in rarefied gas theory</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Fluid Dyn.,3,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, J.C.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Yu, P.B.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flows II: multi-dimensional cases</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,662</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, C.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Sun, Q.H.</subfield>
+    <subfield code="h">Cai, Q.D.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flow IV: full Boltzmann and model equations</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,314,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A comparative study of an asymptotic preserving scheme and unified gas-kinetic scheme in continuum flow limit</subfield>
+    <subfield code="v">288</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,288,52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Wang, R.J.</subfield>
+    <subfield code="t">Discrete unified gas kinetic scheme for all Knudsen number flows: low-speed isothermal case</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Rev.,E88,033305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, P.</subfield>
+    <subfield code="h">Zhu, L.H.</subfield>
+    <subfield code="h">Guo, Z.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A comparative study of LBE and DUGKS methods for nearly incompressible flows</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Commun.Comput.Phys.,17,657</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, Y.</subfield>
+    <subfield code="h">Zhong, C.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">Implicit unified gas-kinetic scheme for steady state solutions in all flow regimes</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,315,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.L.</subfield>
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="t">Fast iterative methods for discrete-ordinates particle transport calculations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Prog.Nucl.Energy,40,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="h">Naris, S.</subfield>
+    <subfield code="t">Acceleration schemes of the discrete velocity method: gaseous flows in rectangular microchannels</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,25,534</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="t">A fast iterative model for discrete velocity calculations on triangular grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Naris, S.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="h">Kalempa, D.</subfield>
+    <subfield code="t">Discrete velocity modelling of gaseous mixture flows in MEMS</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Superlattices Microstruct.,35,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Naris, S.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="h">Kalempa, D.</subfield>
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="t">Gaseous mixture flow between two parallel plates in the whole range of the gas rarefaction</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Physica,A336,294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Naris, S.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="h">Kalempa, D.</subfield>
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="t">Flow of gaseous mixtures through rectangular microchannels driven by pressure, temperature, and concentration gradients</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Phys.Fluids,17,100607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="t">Accelerated discrete velocity method for axial-symmetric flows of gaseous mixtures as defined by the McCormack kinetic model</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Phys.Commun.,184,2430</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="t">An accelerated discrete velocity method for flows of rarefied ternary gas mixtures in long rectangular channels</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,128,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="t">A fast iterative discrete velocity method for ternary gas mixtures flowing through long tubes</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Phys.Commun.,200,44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCormack, F.</subfield>
+    <subfield code="t">Construction of linearized kinetic models for gaseous mixtures and molecular gases</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Fluids,12,2095</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ohwada, T.</subfield>
+    <subfield code="h">Sone, Y.</subfield>
+    <subfield code="h">Aoki, K.</subfield>
+    <subfield code="t">Numerical analysis of the Poiseuille and thermal transpiration flows between two parallel plates on the basis of the Boltzmann equation for hard sphere molecules</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Phys.Fluids,1,2042</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doi, T.</subfield>
+    <subfield code="t">Numerical analysis of the Poiseuille flow and thermal transpiration of a rarefied gas through a pipe with a rectangular cross section based on the linearized Boltzmann equation for a hard sphere molecular gas</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Vac.Sci.Technol.,A28,603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, L.</subfield>
+    <subfield code="h">Reese, J.M.</subfield>
+    <subfield code="h">Zhang, Y.H.</subfield>
+    <subfield code="t">Solving the Boltzmann equation by the fast spectral method: application to microflows</subfield>
+    <subfield code="v">746</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Fluid Mech.,746,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="h">Bertoldo, G.</subfield>
+    <subfield code="t">Poiseuille flow and thermal creep based on the Boltzmann equation with the Lennard–Jones potential over a wide range of the Knudsen number</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Phys.Fluids,21,067101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, L.</subfield>
+    <subfield code="h">Liu, H.H.</subfield>
+    <subfield code="h">Zhang, Y.H.</subfield>
+    <subfield code="h">Reese, J.M.</subfield>
+    <subfield code="t">Influence of intermolecular potentials on rarefied gas flows: fast spectral solutions of the Boltzmann equation</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Fluids,27,082002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garcia, R.D.M.</subfield>
+    <subfield code="h">Siewert, C.E.</subfield>
+    <subfield code="t">Channel flow of a binary mixture of rigid spheres described by the linearized Boltzmann equation and driven by temperature, pressure, and concentration gradients</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,67,1041</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jin, S.</subfield>
+    <subfield code="h">Li, Q.</subfield>
+    <subfield code="t">A BGK-penalization asymptotic-preserving scheme for the multispecies Boltzmann equation</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,29,1056</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dimarco, G.</subfield>
+    <subfield code="h">Pareschi, L.</subfield>
+    <subfield code="t">Asymptotic preserving implicit-explicit Runge–Kutta methods for nonlinear kinetic equations</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,51,1064</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mouhot, C.</subfield>
+    <subfield code="h">Pareschi, L.</subfield>
+    <subfield code="t">Fast algorithms for computing the Boltzmann collision operator</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Math.Comput.,75,1833</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, L.</subfield>
+    <subfield code="h">Zhang, J.</subfield>
+    <subfield code="h">Reese, J.M.</subfield>
+    <subfield code="h">Zhang, Y.H.</subfield>
+    <subfield code="t">A fast spectral method for the Boltzmann equation for monatomic gas mixtures</subfield>
+    <subfield code="v">298</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,298,602</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lihnaropoulos, J.</subfield>
+    <subfield code="h">Naris, S.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="t">Formulation and stability analysis of rapidly convergent iteration schemes for the 2-D linearized BGK equation</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Transp.Theory Stat.Phys.,36,513</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="t">An accelerated discrete velocity method for flows of rarefied ternary gas mixtures in long rectangular channels</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Fluids,128,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="t">Application of the Cercignani–Lampis scattering kernel to calculations of rarefied gas flows. II. slip and jump coefficients</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,22,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shakhov, E.M.</subfield>
+    <subfield code="t">Generalization of the Krook kinetic relaxation equation</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Fluid Dyn.,3,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="t">Application of the Cercignani–Lampis scattering kernel to calculations of rarefied gas flows. III. Poiseuille flow and thermal creep through a long tube</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,22,145</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rojas-Cárdenas, M.</subfield>
+    <subfield code="h">Graur, I.A.</subfield>
+    <subfield code="h">Perrier, P.</subfield>
+    <subfield code="h">Méolans, J.G.</subfield>
+    <subfield code="t">Time-dependent experimental analysis of a thermal transpiration rarefied gas flow</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phys.Fluids,25,072002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yamaguchi, H.</subfield>
+    <subfield code="h">Perrier, P.</subfield>
+    <subfield code="h">Ho, M.T.</subfield>
+    <subfield code="h">Méolans, J.G.</subfield>
+    <subfield code="h">Niimi, T.</subfield>
+    <subfield code="h">Graur, I.A.</subfield>
+    <subfield code="t">Mass flow rate measurement of thermal creep flow from transitional to slip flow regime</subfield>
+    <subfield code="v">795</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Fluid Mech.,795,690</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, P.</subfield>
+    <subfield code="h">Ho, M.T.</subfield>
+    <subfield code="h">Wu, L.</subfield>
+    <subfield code="h">Guo, Z.</subfield>
+    <subfield code="h">Zhang, Y.H.</subfield>
+    <subfield code="r">arXiv:1612.06590</subfield>
+    <subfield code="t">A comparative study of discrete velocity methods for rarefied gas flows</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, M.</subfield>
+    <subfield code="h">Wang, J.</subfield>
+    <subfield code="h">Pan, N.</subfield>
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="t">Mesoscopic predictions of the effective thermal conductivity for microscale random porous media</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Phys.Rev.,E75,036702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalmás, L.</subfield>
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="t">Rarefied gas flow of binary mixtures through long channels with triangular and trapezoidal cross sections</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Microfluid.Nanofluid.,9,471</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301894/S0021999117301894.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

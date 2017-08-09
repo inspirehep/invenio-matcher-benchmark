@@ -1,0 +1,419 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.asr.2017.01.027</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Renza, Diego</subfield>
+    <subfield code="v">Universidad Militar Nueva Granada, Bogotá, Colombia</subfield>
+    <subfield code="m">diego.renza@unimilitar.edu.co</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Unsupervised change detection in a particular vegetation land cover type using spectral angle mapper</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-04-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">13</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper presents a new unsupervised change detection methodology for multispectral images applied to specific land covers. The proposed method involves comparing each image against a reference spectrum, where the reference spectrum is obtained from the spectral signature of the type of coverage you want to detect. In this case the method has been tested using multispectral images (SPOT5) of the community of Madrid (Spain), and multispectral images (Quickbird) of an area over Indonesia that was impacted by the December 26, 2004 tsunami; here, the tests have focused on the detection of changes in vegetation. The image comparison is obtained by applying Spectral Angle Mapper between the reference spectrum and each multitemporal image. Then, a threshold to produce a single image of change is applied, which corresponds to the vegetation zones. The results for each multitemporal image are combined through an exclusive or (XOR) operation that selects vegetation zones that have changed over time. Finally, the derived results were compared against a supervised method based on classification with the Support Vector Machine. Furthermore, the NDVI-differencing and the Spectral Angle Mapper techniques were selected as unsupervised methods for comparison purposes. The main novelty of the method consists in the detection of changes in a specific land cover type (vegetation), therefore, for comparison purposes, the best scenario is to compare it with methods that aim to detect changes in a specific land cover type (vegetation). This is the main reason to select NDVI-based method and the post-classification method (SVM implemented in a standard software tool). To evaluate the improvements using a reference spectrum vector, the results are compared with the basic-SAM method. In SPOT5 image, the overall accuracy was 99.36% and the <math altimg="si3.gif" display="inline" overflow="scroll"><mrow><mi>κ</mi></mrow></math> index was 90.11%; in Quickbird image, the overall accuracy was 97.5% and the <math altimg="si3.gif" display="inline" overflow="scroll"><mrow><mi>κ</mi></mrow></math> index was 82.16%. Finally, the precision results of the method are comparable to those of a supervised method, supported by low detection of false positives and false negatives, along with a high overall accuracy and a high kappa index. On the other hand, the execution times were comparable to those of unsupervised methods of low computational load.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">COSPAR</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral angle mapper</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Change detection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Vegetation land cover</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SPOT5</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Quickbird</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Martinez, Estibaliz</subfield>
+    <subfield code="v">Universidad Politécnica de Madrid, Madrid, Spain</subfield>
+    <subfield code="m">emartinez@fi.upm.es</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Molina, Iñigo</subfield>
+    <subfield code="v">Universidad Politécnica de Madrid, Madrid, Spain</subfield>
+    <subfield code="m">inigo.molina@upm.es</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ballesteros L., Dora M.</subfield>
+    <subfield code="v">Universidad Militar Nueva Granada, Bogotá, Colombia</subfield>
+    <subfield code="m">dora.ballesteros@unimilitar.edu.co</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Adv.Space Res.</subfield>
+    <subfield code="c">2019-2031</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aggarwal, S.</subfield>
+    <subfield code="t">Principles of remote sensing</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Aggarwal, 2004</subfield>
+    <subfield code="s">Satellite Rem.Sens.GIS Appl.Agric.Meteorol.,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bovolo, F.</subfield>
+    <subfield code="h">Bruzzone, L.</subfield>
+    <subfield code="h">Marconcini, M.</subfield>
+    <subfield code="t">An unsupervised change detection technique based on bayesian initialization and semisupervised svm</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="q">2007 IEEE International Geoscience and Remote Sensing Symposium</subfield>
+    <subfield code="o">Bovolo et al, 2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bovolo, F.</subfield>
+    <subfield code="h">Camps-Valls, G.</subfield>
+    <subfield code="h">Bruzzone, L.</subfield>
+    <subfield code="t">A support vector domain method for change detection in multitemporal images</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">Bovolo et al, 2010</subfield>
+    <subfield code="s">Pattern Recogn.Lett.,31,1148</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bovolo, F.</subfield>
+    <subfield code="h">Marchesi, S.</subfield>
+    <subfield code="h">Bruzzone, L.</subfield>
+    <subfield code="t">A framework for automatic and unsupervised detection of multiple changes in multitemporal images</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">Bovolo et al, 2012</subfield>
+    <subfield code="s">IEEE Trans.Geosci.Rem.Sens.,50,2196</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carvalho Júnior, O.A.</subfield>
+    <subfield code="h">Guimarães, R.F.</subfield>
+    <subfield code="h">Gillespie, A.R.</subfield>
+    <subfield code="h">Silva, N.C.</subfield>
+    <subfield code="h">Gomes, R.A.</subfield>
+    <subfield code="t">A new approach to change vector analysis using distance and similarity measures</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">Carvalho Júnior et al, 2011</subfield>
+    <subfield code="s">Rem.Sens.,3,2473</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">De Carvalho, O.A.</subfield>
+    <subfield code="h">Meneses, P.R.</subfield>
+    <subfield code="t">Spectral correlation mapper (scm): an improvement on the spectral angle mapper (sam)</subfield>
+    <subfield code="v">vol. 9</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">De Carvalho and Meneses, 2000</subfield>
+    <subfield code="s">Summaries of the 9th JPL Airborne Earth Science Workshop, JPL Publication 00-18,vol. 9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Foody, G.M.</subfield>
+    <subfield code="t">Status of land cover classification accuracy assessment</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">Foody, 2002</subfield>
+    <subfield code="s">Rem.Sens.Environ.,80,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Im, J.</subfield>
+    <subfield code="h">Rhee, J.</subfield>
+    <subfield code="h">Jensen, J.R.</subfield>
+    <subfield code="h">Hodgson, M.E.</subfield>
+    <subfield code="t">An automated binary change detection model using a calibration approach</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">Im et al, 2007</subfield>
+    <subfield code="s">Rem.Sens.Environ.,106,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kapur, J.</subfield>
+    <subfield code="h">Sahoo, P.K.</subfield>
+    <subfield code="h">Wong, A.</subfield>
+    <subfield code="t">A new method for gray-level picture thresholding using the entropy of the histogram</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">Kapur et al, 1985</subfield>
+    <subfield code="s">Comput.Vis.Graph.Image Process.,29,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keshava, N.</subfield>
+    <subfield code="t">Distance metrics and band selection in hyperspectral processing with applications to material identification and spectral libraries</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Keshava, 2004</subfield>
+    <subfield code="s">IEEE Trans.Geosci.Rem.Sens.,42,1552</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lu, D.</subfield>
+    <subfield code="h">Mausel, P.</subfield>
+    <subfield code="h">Brondizio, E.</subfield>
+    <subfield code="h">Moran, E.</subfield>
+    <subfield code="t">Change detection techniques</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Lu et al, 2004</subfield>
+    <subfield code="s">Int.J.Rem.Sens.,25,2365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lu, D.</subfield>
+    <subfield code="h">Weng, Q.</subfield>
+    <subfield code="t">A survey of image classification methods and techniques for improving classification performance</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">Lu and Weng, 2007</subfield>
+    <subfield code="s">Int.J.Rem.Sens.,28,823</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martínez, E.</subfield>
+    <subfield code="h">Gonzalo, C.</subfield>
+    <subfield code="h">Arquero, A.</subfield>
+    <subfield code="h">Gordo, O.</subfield>
+    <subfield code="t">Evaluation of different fuzzy knowledge acquisition methods for remote sensing image classification</subfield>
+    <subfield code="v">vol. 5</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">Martinez et al, 1999</subfield>
+    <subfield code="s">IEEE 1999 International Geoscience and Remote Sensing Symposium, 1999.IGARSS’99 Proceedings,vol. 5,2489</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moughal, T.A.</subfield>
+    <subfield code="h">Yu, F.</subfield>
+    <subfield code="t">An automatic unsupervised method based on context-sensitive spectral angle mapper for change detection of remote sensing images</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">Advanced Data Mining and Applications</subfield>
+    <subfield code="o">Moughal and Yu, 2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Otsu, N.</subfield>
+    <subfield code="t">A threshold selection method from gray-level histograms</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">Otsu, 1975</subfield>
+    <subfield code="s">Automatica,11,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rees, G.</subfield>
+    <subfield code="h">Rees, W.G.</subfield>
+    <subfield code="t">Physical Principles of Remote Sensing</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Rees and Rees, 2013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renza, D.</subfield>
+    <subfield code="h">Martinez, E.</subfield>
+    <subfield code="h">Arquero, A.</subfield>
+    <subfield code="t">Quality assessment by region in spot images fused by means dual-tree complex wavelet transform</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">Renza et al, 2011</subfield>
+    <subfield code="s">Adv.Space Res.,48,1377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renza, D.</subfield>
+    <subfield code="h">Martinez, E.</subfield>
+    <subfield code="h">Arquero, A.</subfield>
+    <subfield code="t">A new approach to change detection in multispectral images by means of ergas index</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Renza et al, 2013</subfield>
+    <subfield code="s">IEEE Geosci.Rem.Sens.Lett.,10,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rosin, P.</subfield>
+    <subfield code="t">Thresholding for change detection</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="q">Sixth International Conference on Computer Vision, 1998</subfield>
+    <subfield code="o">Rosin, 1998</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rosin, P.L.</subfield>
+    <subfield code="h">Ioannidis, E.</subfield>
+    <subfield code="t">Evaluation of global image thresholding for change detection</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">Rosin and Ioannidis, 2003</subfield>
+    <subfield code="s">Pattern Recogn.Lett.,24,2345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sahoo, P.K.</subfield>
+    <subfield code="h">Soltani, S.</subfield>
+    <subfield code="h">Wong, A.K.</subfield>
+    <subfield code="t">A survey of thresholding techniques</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">Sahoo et al, 1988</subfield>
+    <subfield code="s">Comput.Vis.Graph.Image Process.,41,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sezgin, M.</subfield>
+    <subfield code="h">Sankur, B.</subfield>
+    <subfield code="t">Survey over image thresholding techniques and quantitative performance evaluation</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Sezgin and Sankur, 2004</subfield>
+    <subfield code="s">J.Electron.Imag.,13,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shah-Hosseini, R.</subfield>
+    <subfield code="h">Homayouni, S.</subfield>
+    <subfield code="h">Safari, A.</subfield>
+    <subfield code="t">Environmental monitoring based on automatic change detection from remotely sensed data: kernel-based approach</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">095992–095992</subfield>
+    <subfield code="o">Shah-Hosseini et al, 2015a</subfield>
+    <subfield code="s">J.Appl.Rem.Sens.,9,095992–095992</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shah-Hosseini, R.</subfield>
+    <subfield code="h">Homayouni, S.</subfield>
+    <subfield code="h">Safari, A.</subfield>
+    <subfield code="t">A hybrid kernel-based change detection method for remotely sensed data in a similarity space</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Shah-Hosseini et al, 2015b</subfield>
+    <subfield code="s">Rem.Sens.,7,12829</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Singh, A.</subfield>
+    <subfield code="t">Review article digital change detection techniques using remotely-sensed data</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">Singh, 1989</subfield>
+    <subfield code="s">Int.J.Rem.Sens.,10,989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Srivastava, P.K.</subfield>
+    <subfield code="h">Han, D.</subfield>
+    <subfield code="h">Rico-Ramirez, M.A.</subfield>
+    <subfield code="h">Bray, M.</subfield>
+    <subfield code="h">Islam, T.</subfield>
+    <subfield code="t">Selection of classification techniques for land use/land cover change investigation</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">Srivastava et al, 2012</subfield>
+    <subfield code="s">Adv.Space Res.,50,1250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teng, S.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Cheng, K.</subfield>
+    <subfield code="h">Lo, H.</subfield>
+    <subfield code="t">Hypothesis-test-based landcover change detection using multi-temporal satellite images – a comparative study</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">Teng et al, 2008</subfield>
+    <subfield code="s">Adv.Space Res.,41,1744</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tewkesbury, A.P.</subfield>
+    <subfield code="h">Comber, A.J.</subfield>
+    <subfield code="h">Tate, N.J.</subfield>
+    <subfield code="h">Lamb, A.</subfield>
+    <subfield code="h">Fisher, P.F.</subfield>
+    <subfield code="t">A critical synthesis of remotely sensed optical image change detection techniques</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Tewkesbury et al, 2015</subfield>
+    <subfield code="s">Rem.Sens.Environ.,160,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsai, W.-H.</subfield>
+    <subfield code="t">Moment-preserving thresolding: a new approach</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">Tsai, 1985</subfield>
+    <subfield code="s">Comput.Vis.Graph.Image Process.,29,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Meer, F.</subfield>
+    <subfield code="t">The effectiveness of spectral similarity measures for the analysis of hyperspectral imagery</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">van der Meer, 2006</subfield>
+    <subfield code="s">Int.J.Appl.Earth Observ.Geoinform.,8,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Volpi, M.</subfield>
+    <subfield code="h">Tuia, D.</subfield>
+    <subfield code="h">Camps-Valls, G.</subfield>
+    <subfield code="h">Kanevski, M.</subfield>
+    <subfield code="t">Unsupervised change detection by kernel clustering</subfield>
+    <subfield code="p">International Society for Optics and Photonics</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">78300V–78300V</subfield>
+    <subfield code="q">Remote Sensing</subfield>
+    <subfield code="o">Volpi et al, 2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Volpi, M.</subfield>
+    <subfield code="h">Tuia, D.</subfield>
+    <subfield code="h">Camps-Valls, G.</subfield>
+    <subfield code="h">Kanevski, M.</subfield>
+    <subfield code="t">Unsupervised change detection with kernels</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">Volpi et al, 2012</subfield>
+    <subfield code="s">IEEE Geosci.Rem.Sens.Lett.,9,1026</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Mitchell, B.</subfield>
+    <subfield code="h">Nugranad-Marzilli, J.</subfield>
+    <subfield code="h">Bonynge, G.</subfield>
+    <subfield code="h">Zhou, Y.</subfield>
+    <subfield code="h">Shriver, G.</subfield>
+    <subfield code="t">Remote sensing of land-cover change and landscape context of the national parks: a case study of the northeast temperate network</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">Wang et al, 2009</subfield>
+    <subfield code="s">Rem.Sens.Environ.,113,1453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weng, Q.</subfield>
+    <subfield code="h">Ehlers, M.</subfield>
+    <subfield code="h">Sofina, N.</subfield>
+    <subfield code="h">Filippovska, Y.</subfield>
+    <subfield code="h">Kada, M.</subfield>
+    <subfield code="t">Automated techniques for change detection using combined edge segment texture analysis, gis, and 3d information</subfield>
+    <subfield code="p">CRC Press</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">Global Urban Monitoring and Assessment through Earth Observation</subfield>
+    <subfield code="o">Weng et al, 2014</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0273-1177/S0273117717X00069/S0273117717300571/S0273117717300571.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

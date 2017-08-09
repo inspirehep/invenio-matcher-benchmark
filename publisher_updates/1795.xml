@@ -1,0 +1,198 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Deep Recurrent Neural Networks for Supernovae Classification</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We apply deep recurrent neural networks, which are capable of learning complex sequential information, to classify supernovae (code available at https://github.com/adammoss/supernovae). The observational time and filter fluxes are used as inputs to the network, but since the inputs are agnostic, additional data such as host galaxy information can also be included. Using the Supernovae Photometric Classification Challenge (SPCC) data, we find that deep networks are capable of learning about light curves, however the performance of the network is highly sensitive to the amount of training data. For a training size of 50% of the representational SPCC data set (around 10(4) supernovae) we obtain a type-Ia versus non-type-Ia classification accuracy of 94.7%, an area under the Receiver Operating Characteristic curve AUC of 0.986 and an SPCC figure-of-merit F (1) = 0.64. When using only the data for the early-epoch challenge defined by the SPCC, we achieve a classification accuracy of 93.1%, AUC of 0.977, and F (1) = 0.58, results almost as good as with the whole light curve. By employing bidirectional neural networks, we can acquire impressive classification results between supernovae types I, II and III at an accuracy of 90.4% and AUC of 0.974. We also apply a pre-trained model to obtain classification probabilities as a function of time and show that it can give early indications of supernovae type. Our method is competitive with existing algorithms and has applications for future large-scale photometric surveys.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: data analysis</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">supernovae: general</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">techniques: miscellaneous</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">L28</subfield>
+  <subfield code="v">837</subfield>
+  <subfield code="n">2</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/2041-8213/aa603d</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">6</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-10</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-3479-3542</subfield>
+  <subfield code="a">Charnock, Tom</subfield>
+  <subfield code="v">School of Physics &amp; Astronomy - U. of Nottingham - Nottingham NG7 2RD - UK</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Moss, Adam</subfield>
+  <subfield code="v">School of Physics &amp; Astronomy - U. of Nottingham - Nottingham NG7 2RD - UK</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Although, these numbers are not guaranteed</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">We find that obtaining a consensus view improves the performance of the network</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">The original SPCC training set was non-representational</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">If training with a GPU, larger mini-batches are recommended to make use of the GPU cores</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chung J., Gulcehre C., Cho K. and Bengio Y.</subfield>
+  <subfield code="r">arXiv:1412.3555</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1412.3555</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hochreiter S. and Schmidhuber J.</subfield>
+  <subfield code="s">Neural Comput.,9,1735</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1162/neco.1997.9.8.1735</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Karpenka N. V., Feroz F. and Hobson M. P.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,429,1278</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/sts412</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.429.1278K</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1126076</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kessler R., Bassett B., Belov P. et al.</subfield>
+  <subfield code="m">a ADS:</subfield>
+  <subfield code="s">Publ.Astron.Soc.Pac.,122,1415</subfield>
+  <subfield code="a">doi:10.1088/1538-3873/122/898/1415</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010PASP..122.1415K</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">864542</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kessler R., Conley A., Jha S. and Kuhlmann S.</subfield>
+  <subfield code="m">b Preprint:</subfield>
+  <subfield code="r">arXiv:1001.5210</subfield>
+  <subfield code="r">arXiv:1001.5210</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">843918</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kingma D.</subfield>
+  <subfield code="m">and Ba J Preprint:</subfield>
+  <subfield code="r">arXiv:1412.6980</subfield>
+  <subfield code="r">arXiv:1412.6980</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lecun Y., Bengio Y. and Hinton G.</subfield>
+  <subfield code="s">Nature,521,436</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1038/nature14539</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015Natur.521..436L</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lochner M., McEwen J. D., Peiris H. V., Lahav O. and Winter M. K.</subfield>
+  <subfield code="r">arXiv:1603.00882</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1603.00882</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1425910</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">LSST Science Collaboration Preprint:</subfield>
+  <subfield code="h">Abell P. A., Allison J. et al.</subfield>
+  <subfield code="r">arXiv:0912.0201</subfield>
+  <subfield code="r">arXiv:0912.0201</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">838560</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Matheson T., Fan X., Green R. et al.</subfield>
+  <subfield code="r">arXiv:1311.2496</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1311.2496</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1265007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Medsker L. and Jain L. C.</subfield>
+  <subfield code="m">Recurrent Neural Networks: Design and Applications (Boca Raton, FL: CRC Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1201/9781420049176</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Newling J., Varughese M., Bassett B. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,414,1987</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.18514.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.414.1987N</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">871913</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sako M., Bassett B., Becker A. et al.</subfield>
+  <subfield code="s">Astron.J.,135,348</subfield>
+  <subfield code="a">doi:10.1088/1538-3881/135/1/348</subfield>
+  <subfield code="m">ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008AJ....135..348S</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">758698</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Srivastava N., Hinton G., Krizhevsky A., Sutskever I. and Salakhutdinov R.</subfield>
+  <subfield code="m">2014 J. Mach Learn. Res. 15</subfield>
+  <subfield code="y">1929</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

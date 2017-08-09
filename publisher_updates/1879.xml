@@ -1,0 +1,2434 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">General relativistic simulations of compact binary mergers as engines for short gamma-ray bursts</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Black hole—neutron star (BHNS) and neutron star—neutron star (NSNS) binaries are among the favored candidates for the progenitors of the black hole—disk systems that may be the engines powering short-hard gamma ray bursts. After almost two decades of simulations of binary NSNSs and BHNSs in full general relativity we are now beginning to understand the ingredients that may be necessary for these systems to launch incipient jets. Here, we review our current understanding, and summarize the surprises and lessons learned from state-of-the-art (magnetohydrodynamic) simulations in full general relativity of BHNS and NSNS mergers as jet engines for short-hard gamma-ray bursts. We also propose a new approach to probing the nuclear equation of state by virtue of multimessenger observations.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Class.Quant.Grav.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">084002</subfield>
+  <subfield code="v">34</subfield>
+  <subfield code="n">8</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6382/aa61ce</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">34</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-20</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Paschalidis, Vasileios</subfield>
+  <subfield code="v">Department of Physics - Princeton U. - Princeton - NJ 08544 - United States of America</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(a) The Einstein equations which govern the evolution of the spacetime metric, and are given by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{G}_{\mu \nu}}=8\pi {{T}_{\mu \nu}},\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 6 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where {{G}_{\mu \nu}} is the Einstein tensor and {{T}_{\mu \nu}} the total stress-energy tensor. The Einstein equations are 10 second-order, non-linear partial differential equations (PDEs)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(b) The energy-momentum and radiation transport equations which govern the evolution of the matter and radiation and are given by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{\nabla}_{\mu}}T{{_{(m)}^{\mu \nu}}^{{}}} &amp; = &amp; -{{\nabla}_{\mu}}{{R}^{\mu \nu}}, \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 7 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{\nabla}_{\mu}}{{R}^{\mu \nu}} &amp; = &amp; -{{G}^{\nu}}, \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 8 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where T_{(m)}^{\mu \nu} is the matter stress-energy tensor, {{R}_{\mu \nu}} is the radiation stress tensor and {{G}^{\nu}} the radiation four-force density. These form a set of another 8 PDEs</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(c) Maxwell&apos;s equations which govern the evolution of the electromagnetic fields, and are given by</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{\nabla}_{\mu}}{{F}^{\mu \nu}} &amp; = &amp; -4\pi {{J}^{\nu}}, \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 9 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{\nabla}_{\mu}}^{\ast}{{F}^{\mu \nu}} &amp; = &amp; 0, \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 10 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where {{F}_{\mu \nu}} is the electromagnetic tensor and {{}^{\ast}}{{F}^{\mu \nu}} its dual. Maxwell&apos;s equations add another 8 PDEs</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(d) The baryon number conservation (or continuity) equation \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\nabla}_{\mu}}\left({{\rho}_{0}}{{u}^{\mu}}\right)=0.\end{eqnarray} \end{align*} \tag{ 11 } \end{equation*} These add up to a total of 27 coupled PDEs in 3 spatial plus 1 temporal dimensions. In fact, the radiation transport equation has an additional 3 dimensions (two angular and the radiation frequency) making it a 6 + 1 dimensional problem. This system of equations must also be supplemented with a microphysical, hot, nuclear EOS and, in the general case, with an Ohm&apos;s law for the current, which both add even more to the complexity of the problem. Note that the above counting does not even account for the lepton number conservation equations nor does it account for the fact that these equations are not in a form amenable for numerical integration, and that standard formulations of these equations used in numerical simulations involve many more coupled PDEs (see e.g. Alcubierre [, 8: #cqgaa61cebib008], Bona, Palenzuela and Bona [, 35: #cqgaa61cebib035], Baumgarte and Shapiro [, 20: #cqgaa61cebib020], Gourgoulhon [, 94: #cqgaa61cebib094], and Shibata [, 184: #cqgaa61cebib184] for textbooks)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(I) If the binary total mass MNSNS is less than the Tolman-Oppenheimer-Volkoff (TOV) limit mass, a massive, spinning neutron star that never collapses to a BH will form</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(II) If MNSNS (minus any mass lost to escaping material) is greater than the TOV limit, but less than the maximum mass when allowing for maximal uniform rotation—the supramassive limit (which is typically 20% larger than the TOV limit, see e.g. Morrison, Baumgarte and Shapiro [, 135: #cqgaa61cebib135])—a supramassive NS (SMNS) will form. An SMNS is initially differentially rotating, but due to braking of the differential rotation by magnetic fields (or by viscosity), see Shapiro [, 182: #cqgaa61cebib182] and Duez et al [, 55: #cqgaa61cebib055], it will eventually be brought to uniform rotation, and can collapse to a BH following spin-down, e.g. due to magnetic dipole radiation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(III) If MNSNS (minus any mass lost to escaping material) exceeds the supramassive limit, straight after merger either a BH will form or threshold mass Mthres separates these two possibilities:</subfield>
+  <subfield code="h">an HMNS. A</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(a) If {{M}_{\text{NSNS}}}&gt;{{M}_{\text{thres}}}, then a BH will form following merger on a dynamical time scale (prompt collapse).(b) If {{M}_{\text{NSNS}}}&lt; {{M}_{\text{thres}}}, then a hot, differentially rotating, dynamically stable HMNS will form. The HMNS is transient because a combination of gravitational wave emission, braking of the differential rotation and neutrino cooling will drive its eventual collapse to a BH (delayed collapse).For work on determining Mthres see Shibata, Taniguchi and Uryū [, 191: #cqgaa61cebib191], Shibata and Taniguchi [, 185: #cqgaa61cebib185], and Bauswein, Baumgarte and Janka [, 23: #cqgaa61cebib023]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(a) If {{M}_{\text{NSNS}}}&gt;{{M}_{\text{thres}}}, then a BH will form following merger on a dynamical time scale (prompt collapse)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(b) If {{M}_{\text{NSNS}}}&lt; {{M}_{\text{thres}}}, then a hot, differentially rotating, dynamically stable HMNS will form. The HMNS is transient because a combination of gravitational wave emission, braking of the differential rotation and neutrino cooling will drive its eventual collapse to a BH (delayed collapse)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Tests of relativistic gravitation with GW astronomy is an entire topic by itself, which we will not touch upon in this review. However, for some recent work and reviews see e.g. [, 2: #cqgaa61cebib002,, 11: #cqgaa61cebib011,, 18: #cqgaa61cebib018,, 31: #cqgaa61cebib031,, 34: #cqgaa61cebib034,, 37: #cqgaa61cebib037,, 39: #cqgaa61cebib039,, 43: #cqgaa61cebib043,, 53: #cqgaa61cebib053,, 87: #cqgaa61cebib087,, 118: #cqgaa61cebib118,, 160: #cqgaa61cebib160,, 165: #cqgaa61cebib165,, 176: #cqgaa61cebib176,, 181: #cqgaa61cebib181,, 192: #cqgaa61cebib192,, 205: #cqgaa61cebib205,, 208: #cqgaa61cebib208,, 210: #cqgaa61cebib210-, 214: #cqgaa61cebib214] and references therein</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">However, the aLIGO horizon for a binary BHNS with masses 10{{M}_{\odot}} for the BH and 1.4{{M}_{\odot}} for the NS is ~900 Mpc</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Abbott B P et al.</subfield>
+  <subfield code="m">Localization and broadband follow-up of the gravitational-wave transient GW150914</subfield>
+  <subfield code="s">Astrophys.J.Lett.,826,L13</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/826/1/L13</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Abbott B P et al.</subfield>
+  <subfield code="m">Tests of general relativity with GW150914 Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,116,221101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.116.221101</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1421154</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Abbott B P et al.</subfield>
+  <subfield code="m">Gw151226: observation of gravitational waves from a 22-solar-mass binary black hole coalescence Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,116,241103</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.116.241103</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1469395</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Abbott B P et al.</subfield>
+  <subfield code="m">Observation of gravitational waves from a binary black hole merger Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,116,061102</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.116.061102</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1421100</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Abbott B P et al.</subfield>
+  <subfield code="m">Search for gravitational waves associated with gamma-ray bursts during the first advanced LIGO observing run and implications for the origin of GRB 150906B Preprint:</subfield>
+  <subfield code="r">arXiv:1611.07947</subfield>
+  <subfield code="r">arXiv:1611.07947</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1499860</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Abramowicz M A and Fragile P C</subfield>
+  <subfield code="m">Foundations of black hole accretion disk theory Living Reviews in Relativity 16, Crossref: DOI: 10.12942/lrr--1</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Akmal A, Pandharipande V R and Ravenhall D G</subfield>
+  <subfield code="m">Equation of state of nucleon matter and neutron star structure Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,C58,1804-28</subfield>
+  <subfield code="a">doi:10.1103/PhysRevC.58.1804</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">469208</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Alcubierre M</subfield>
+  <subfield code="m">Introduction to 3 + 1 Numerical Relativity (Oxford: Oxford University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1093/acprof:oso/9780199205677.001.0001</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Aloy M A, Janka H T and Müller E</subfield>
+  <subfield code="m">Relativistic outflows from remnants of compact object mergers and their viability for short gamma-ray bursts Crossref:</subfield>
+  <subfield code="s">Astron.Astrophys.,436,273-311</subfield>
+  <subfield code="a">doi:10.1051/0004-6361:20041865</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">656725</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Anderson M, Hirschmann E W, Lehner L, Liebling S L, Motl P M, Neilsen D, Palenzuela C and Tohline J E</subfield>
+  <subfield code="m">Magnetized neutron star mergers and gravitational-wave signals Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,100,191101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.100.191101</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">778323</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Arun K G and Pai A</subfield>
+  <subfield code="m">Tests of general relativity and alternative theories of gravity using gravitational wave observations Crossref:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,D22,1341012</subfield>
+  <subfield code="a">doi:10.1142/S0218271813410125</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1218351</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Baiotti L and Rezzolla L</subfield>
+  <subfield code="m">Binary neutron-star mergers: a review of Einstein’s richest laboratory Preprint:</subfield>
+  <subfield code="r">arXiv:1607.03540</subfield>
+  <subfield code="r">arXiv:1607.03540</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1475455</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Baiotti L, Giacomazzo B and Rezzolla L</subfield>
+  <subfield code="m">Accurate evolutions of inspiralling neutron-star binaries: prompt and delayed collapse to a black hole Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D78,084033</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.084033</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">782692</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Baiotti L, Hawke I and Rezzolla L</subfield>
+  <subfield code="m">On the gravitational radiation from the collapse of neutron stars to rotating black holes</subfield>
+  <subfield code="s">Class.Quant.Grav.,24,S187-206</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/24/12/S13</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">741879</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Baiotti L, Hawke I, Montero P J, Löffler F, Rezzolla L, Stergioulas N, Font J A and Seidel E</subfield>
+  <subfield code="m">Three-dimensional relativistic simulations of rotating neutron-star collapse to a Kerr black hole Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D71,024035</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.71.024035</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">645826</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Baker J G, Centrella J, Choi D I, Koppitz M and van Meter J</subfield>
+  <subfield code="m">Gravitational wave extraction from an inspiraling configuration of merging black holes Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,96,111102</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.96.111102</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">698229</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Barausse E, Palenzuela C, Ponce M and Lehner L</subfield>
+  <subfield code="m">Neutron-star mergers in scalar-tensor theories of gravity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D87,081506</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.87.081506</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1208250</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Barausse E, Yunes N and Chamberlain K</subfield>
+  <subfield code="m">Theory-agnostic constraints on black-hole dipole radiation with multiband gravitational-wave astrophysics Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,116,241104</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.116.241104</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1427378</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Bardeen J M, Press W H and Teukolsky S A</subfield>
+  <subfield code="m">Rotating black holes: locally nonrotating frames, energy extraction, and scalar synchrotron radiation Crossref:</subfield>
+  <subfield code="s">Astrophys.J.,178,347-70</subfield>
+  <subfield code="a">doi:10.1086/151796</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="0">76239</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Baumgarte T W and Shapiro S L</subfield>
+  <subfield code="m">Numerical Relativity: Solving Einstein’s Equations on the Computer (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9781139193344</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Baumgarte T W, Shapiro S L and Shibata M</subfield>
+  <subfield code="m">On the maximum mass of differentially rotating neutron stars</subfield>
+  <subfield code="s">Astrophys.J.Lett.,528,L29-32</subfield>
+  <subfield code="a">doi:10.1088/1538-4357/528/1/L29</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Baumgarte T W, Skoge M L and Shapiro S L</subfield>
+  <subfield code="m">Black hole-neutron star binaries in general relativity: quasiequilibrium formulation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D70,064040</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.70.064040</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">650456</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Bauswein A, Baumgarte T W and Janka H T</subfield>
+  <subfield code="m">Prompt merger collapse and the maximum mass of neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,131101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.131101</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1243563</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Beckwith K, Hawley J F and Krolik J H</subfield>
+  <subfield code="m">The influence of magnetic field geometry on the evolution of black hole accretion flows: similar disks, drastically different jets</subfield>
+  <subfield code="s">Astrophys.J.,678,1180-99</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/678/2/1180</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">761792</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Belczynski K, Dominik M, Bulik T, O’Shaughnessy R, Fryer C and Holz D E</subfield>
+  <subfield code="m">The effect of metallicity on the detection prospects for gravitational waves</subfield>
+  <subfield code="s">Astrophys.J.Lett.,715,L138-41</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/715/2/L138</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">850935</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Berger E</subfield>
+  <subfield code="m">2010 A short gamma-ray burst ‘no-host’ problem? Investigating large progenitor offsets for short grbs with optical afterglows</subfield>
+  <subfield code="s">Astrophys.J.,722,61</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/722/2/1946</subfield>
+  <subfield code="y">1946</subfield>
+  <subfield code="0">860077</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Berger E</subfield>
+  <subfield code="m">Short-duration gamma-ray bursts Crossref:</subfield>
+  <subfield code="s">Ann.Rev.Astron.Astrophys.,52,43-105</subfield>
+  <subfield code="a">doi:10.1146/annurev-astro-081913-035926</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1264103</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Berger E, Fong W and Chornock R</subfield>
+  <subfield code="m">An r-process Kilonova associated with the short-hard GRB 130603B</subfield>
+  <subfield code="s">Astrophys.J.Lett.,774,L23</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/774/2/L23</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1238792</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Bernuzzi S, Dietrich T, Tichy W and Bruegmann B</subfield>
+  <subfield code="m">Mergers of binary neutron stars with realistic spin Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,104021</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.104021</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1264787</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Bernuzzi S, Radice D, Ott C D, Roberts L F, Mösta P and Galeazzi F</subfield>
+  <subfield code="m">How loud are neutron star mergers? Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,024023</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.024023</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1410776</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Berti E et al.</subfield>
+  <subfield code="m">Testing general relativity with present and future astrophysical observations</subfield>
+  <subfield code="s">Class.Quant.Grav.,32,243001</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/32/24/243001</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1341964</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Bildsten L and Cutler C</subfield>
+  <subfield code="m">Tidal interactions of inspiraling compact binaries Crossref:</subfield>
+  <subfield code="s">Astrophys.J.,400,175-80</subfield>
+  <subfield code="a">doi:10.1086/171983</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="0">350789</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Blandford R D and Znajek R L</subfield>
+  <subfield code="m">Electromagnetic extraction of energy from Kerr black holes Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,179,433-56</subfield>
+  <subfield code="a">doi:10.1093/mnras/179.3.433</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="0">128256</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Blas D and Lim E</subfield>
+  <subfield code="m">Phenomenology of theories of gravity without Lorentz invariance: the preferred frame case Crossref:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,D23,1443009</subfield>
+  <subfield code="a">doi:10.1142/S0218271814430093</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1334476</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Bona C, Palenzuela-Luque C and Bona-Casas C</subfield>
+  <subfield code="m">Elements of Numerical Relativity and Relativistic Hydrodynamics (Berlin: Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-642-01164-1</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Bucciantini N, Metzger B D, Thompson T A and Quataert E</subfield>
+  <subfield code="m">Short gamma-ray bursts with extended emission from magnetar birth: jet formation and collimation Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,419,1537-45</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.19810.x</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">914983</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Calabrese E, Battaglia N and Spergel D N</subfield>
+  <subfield code="m">Testing gravity with gravitational wave source counts</subfield>
+  <subfield code="s">Class.Quant.Grav.,33,165004</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/33/16/165004</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1421145</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Campanelli M, Lousto C O, Marronetti P and Zlochower Y</subfield>
+  <subfield code="m">Accurate evolutions of orbiting black-hole binaries without excision Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,96,111101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.96.111101</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">697351</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Chatziioannou K, Yunes N and Cornish N</subfield>
+  <subfield code="m">Model-independent test of general relativity: an extended post-Einsteinian framework with complete polarization content Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,022004</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.022004</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1110678</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Chawla S, Anderson M, Besselman M, Lehner L, Liebling S L, Motl P M and Neilsen D</subfield>
+  <subfield code="m">Mergers of magnetized neutron stars with spinning black holes: disruption, accretion, and fallback Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,105,111101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.105.111101</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">858382</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Ciolfi R and Siegel D M</subfield>
+  <subfield code="m">Short gamma-ray bursts in the ‘time-reversal’ scenario</subfield>
+  <subfield code="s">Astrophys.J.Lett.,798,L36</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/798/2/L36</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1326622</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Connaughton V et al.</subfield>
+  <subfield code="m">Fermi GBM observations of LIGO gravitational-wave event GW150914</subfield>
+  <subfield code="s">Astrophys.J.Lett.,826,L6</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/826/1/L6</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Cornish N, Sampson L, Yunes N and Pretorius F</subfield>
+  <subfield code="m">Gravitational wave tests of general relativity with the parameterized post-Einsteinian framework Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D84,062003</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.84.062003</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">899257</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">de Mink S E and Belczynski K</subfield>
+  <subfield code="m">Merger rates of double neutron stars and stellar origin black holes: the impact of initial conditions on binary evolution predictions</subfield>
+  <subfield code="s">Astrophys.J.,814,58</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/814/1/58</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1375788</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">De Pietri R, Feo A, Maione F and Löffler F</subfield>
+  <subfield code="m">Modeling equal and unequal mass binary neutron star mergers using public codes Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D93,064047</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.93.064047</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1395223</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Deaton M B et al.</subfield>
+  <subfield code="m">Black hole-Neutron star mergers with a hot nuclear equation of state: outflow and neutrino-cooled disk for a low-mass, high-spin case</subfield>
+  <subfield code="s">Astrophys.J.,776,47</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/776/1/47</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1227920</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Dietrich T, Bernuzzi S, Ujevic M and Brügmann B</subfield>
+  <subfield code="m">Numerical relativity simulations of neutron star merger remnants using conservative mesh refinement Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,124041</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.124041</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1357962</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Dietrich T, Moldenhauer N, Johnson-McDaniel N K, Bernuzzi S, Markakis C M, Bruegmann B and Tichy W</subfield>
+  <subfield code="m">Binary Neutron stars with generic spin, eccentricity, mass ratio, and compactness—quasi-equilibrium sequences and first evolutions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,124007</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.124007</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1385061</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Dietrich T, Ujevic M, Tichy W, Bernuzzi S and Bruegmann B</subfield>
+  <subfield code="m">Gravitational waves and mass ejecta from binary neutron star mergers: effect of the mass-ratio Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D95,024029</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.95.024029</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1477559</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">Dionysopoulou K, Alic D and Rezzolla L</subfield>
+  <subfield code="m">General-relativistic resistive-magnetohydrodynamic simulations of binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,084064</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.084064</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1343309</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Dionysopoulou K, Alic D, Palenzuela C, Rezzolla L and Giacomazzo B</subfield>
+  <subfield code="m">General-relativistic resistive magnetohydrodynamics in three dimensions: formulation and tests Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,044020</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.044020</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1128016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">Douchin F and Haensel P</subfield>
+  <subfield code="m">A unified equation of state of dense matter and neutron star structure Crossref:</subfield>
+  <subfield code="s">Astron.Astrophys.,380,151-67</subfield>
+  <subfield code="a">doi:10.1051/0004-6361:20011402</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">577786</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="m">Du S M and Nishizawa AGravitational wave memory: a new approach to study modified gravity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,104063</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.104063</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1489078</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="h">Duez M D</subfield>
+  <subfield code="m">Numerical relativity confronts compact neutron star binaries: a review and status report</subfield>
+  <subfield code="s">Class.Quant.Grav.,27,114002</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/27/11/114002</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">840558</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="h">Duez M D, Liu Y T, Shapiro S L and Stephens B C</subfield>
+  <subfield code="m">General relativistic hydrodynamics with viscosity: contraction, catastrophic collapse, and disk formation in hypermassive neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D69,104030</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.69.104030</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">644872</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="h">Duez M D, Liu Y T, Shapiro S L and Stephens B C</subfield>
+  <subfield code="m">Relativistic magnetohydrodynamics in dynamical spacetimes: numerical methods and tests Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D72,024028</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.72.024028</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">678706</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">Duez M D, Liu Y T, Shapiro S L, Shibata M and Stephens B C</subfield>
+  <subfield code="m">Collapse of magnetized hypermassive neutron stars in general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,96,031101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.96.031101</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">695903</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">Duffell P C and MacFadyen A I</subfield>
+  <subfield code="m">From engine to afterglow: collapsars naturally produce top-heavy jets and early-time plateaus in gamma-ray burst afterglows</subfield>
+  <subfield code="s">Astrophys.J.,806,205</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/806/2/205</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1309086</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">East W E and Pretorius F</subfield>
+  <subfield code="m">Dynamical capture binary neutron star mergers</subfield>
+  <subfield code="s">Astrophys.J.Lett.,760,L4</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/760/1/L4</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1182034</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">East W E, Paschalidis V and Pretorius F</subfield>
+  <subfield code="m">Eccentric mergers of black holes with spinning neutron stars</subfield>
+  <subfield code="s">Astrophys.J.Lett.,807,L3</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/807/1/L3</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1355508</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">East W E, Paschalidis V and Pretorius F</subfield>
+  <subfield code="m">Equation of state effects and one-arm spiral instability in hypermassive neutron stars formed in eccentric neutron star mergers</subfield>
+  <subfield code="s">Class.Quant.Grav.,33,244004</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/33/24/244004</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1485149</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">East W E, Paschalidis V, Pretorius F and Shapiro S L</subfield>
+  <subfield code="m">Relativistic simulations of eccentric binary neutron star mergers: one-arm spiral instability and effects of neutron star spin Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D93,024011</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.93.024011</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1402739</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">East W E, Pretorius F and Stephens B C</subfield>
+  <subfield code="m">Eccentric black hole-neutron star mergers: effects of black hole spin and equation of state Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D85,124009</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.124009</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">945607</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">East W E, Pretorius F and Stephens B C</subfield>
+  <subfield code="m">Hydrodynamics in full general relativity with conservative adaptive mesh refinement Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D85,124010</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.124010</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1081254</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="h">Eichler D, Livio M, Piran T and Schramm D N</subfield>
+  <subfield code="m">Nucleosynthesis, neutrino bursts and gamma-rays from coalescing neutron stars Crossref:</subfield>
+  <subfield code="s">Nature,340,126-8</subfield>
+  <subfield code="a">doi:10.1038/340126a0</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="0">278591</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">Endrizzi A, Ciolfi R, Giacomazzo B, Kastaun W and Kawamura T</subfield>
+  <subfield code="m">General relativistic magnetohydrodynamic simulations of binary Neutron star mergers with the APR4 equation of state</subfield>
+  <subfield code="s">Class.Quant.Grav.,33,164001</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/33/16/164001</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1445095</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="h">Etienne Z B, Faber J A, Liu Y T, Shapiro S L, Taniguchi K and Baumgarte T W</subfield>
+  <subfield code="m">Fully general relativistic simulations of black hole-neutron star mergers Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D77,084002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.77.084002</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">770571</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="h">Etienne Z B, Liu Y T and Shapiro S L</subfield>
+  <subfield code="m">Relativistic magnetohydrodynamics in dynamical spacetimes: a new AMR implementation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D82,084031</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.084031</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">861906</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="h">Etienne Z B, Liu Y T, Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">General relativistic simulations of black hole-neutron star mergers: effects of magnetic fields Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D85,064029</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.064029</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1080067</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">Etienne Z B, Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">General relativistic simulations of black hole-neutron star mergers: effects of tilted magnetic fields Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,084026</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.084026</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1184859</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">Etienne Z B, Paschalidis V, Haas R, Mösta P and Shapiro S L</subfield>
+  <subfield code="m">IllinoisGRMHD: an open-source, user-friendly GRMHD code for dynamical spacetimes</subfield>
+  <subfield code="s">Class.Quant.Grav.,32,175009</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/32/17/175009</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1341966</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="h">Etienne Z B, Paschalidis V, Liu Y T and Shapiro S L</subfield>
+  <subfield code="m">Relativistic MHD in dynamical spacetimes: improved EM gauge condition for AMR grids Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D85,024013</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.024013</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">940748</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">Faber J A and Rasio F A</subfield>
+  <subfield code="m">Binary Neutron star mergers Crossref: DOI: 10.12942/lrr--8</subfield>
+  <subfield code="s">Living Rev.Rel.,15,8</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1111139</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">Faber J A, Baumgarte T W, Shapiro S L and Taniguchi K</subfield>
+  <subfield code="m">General relativistic binary merger simulations and short gamma-ray bursts</subfield>
+  <subfield code="s">Astrophys.J.Lett.,641,L93-6</subfield>
+  <subfield code="a">doi:10.1088/1538-4357/641/2/L93</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="h">Faber J A, Baumgarte T W, Shapiro S L, Taniguchi K and Rasio F A</subfield>
+  <subfield code="m">Dynamical evolution of black hole-neutron star binaries in general relativity: simulations of tidal disruption Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D73,024012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.73.024012</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">697793</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">Farris B D, Gold R, Paschalidis V, Etienne Z B and Shapiro S L</subfield>
+  <subfield code="m">Binary black hole mergers in magnetized disks: simulations in full general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,109,221102</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.109.221102</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1122604</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="h">Feo A, De Pietri R, Maione F and Löffler F</subfield>
+  <subfield code="m">Modeling mergers of known galactic systems of binary neutron stars</subfield>
+  <subfield code="s">Class.Quant.Grav.,34,034001</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/34/3/034001</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1480168</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">Fernández R and Metzger B D</subfield>
+  <subfield code="m">Nuclear dominated accretion flows in two dimensions. I. Torus evolution with parametric microphysics</subfield>
+  <subfield code="s">Astrophys.J.,763,108</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/763/2/108</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1185348</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">Fong W and Berger E</subfield>
+  <subfield code="m">The locations of short gamma-ray bursts as evidence for compact object binary progenitors</subfield>
+  <subfield code="s">Astrophys.J.,776,18</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/776/1/18</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1241352</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="h">Fong W, Berger E, Margutti R and Zauderer B A</subfield>
+  <subfield code="m">A decade of short-duration gamma-ray burst broadband afterglows: energetics, circumburst densities, and jet opening angles</subfield>
+  <subfield code="s">Astrophys.J.,815,102</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/815/2/102</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1392756</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">81</subfield>
+  <subfield code="h">Foucart F</subfield>
+  <subfield code="m">Black-hole-neutron-star mergers: disk mass predictions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,124007</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.124007</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1123887</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">82</subfield>
+  <subfield code="h">Foucart F, O’Connor E, Roberts L, Duez M D, Haas R, Kidder L E, Ott C D, Pfeiffer H P, Scheel M A and Szilagyi B</subfield>
+  <subfield code="m">Post-merger evolution of a neutron star-black hole binary with neutrino transport Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,124021</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.124021</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1344975</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">83</subfield>
+  <subfield code="h">Galeazzi F, Kastaun W, Rezzolla L and Font J A</subfield>
+  <subfield code="m">Implementation of a simplified approach to radiative transfer in general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,064009</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.064009</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1239328</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">84</subfield>
+  <subfield code="h">Gao W H and Fan Y Z</subfield>
+  <subfield code="m">Short-living supermassive magnetar model for the early x-ray flares following short GRBs</subfield>
+  <subfield code="s">Chin.J.Astron.Astrophys.,6,513-6</subfield>
+  <subfield code="a">doi:10.1088/1009-9271/6/5/01</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">701501</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">85</subfield>
+  <subfield code="h">Gehrels N, Cannizzo J K and Norris J P</subfield>
+  <subfield code="m">Gamma-ray bursts in the Swift era</subfield>
+  <subfield code="s">New J.Phys.,9,37</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/9/2/037</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">86</subfield>
+  <subfield code="h">Gehrels N et al.</subfield>
+  <subfield code="m">The swift gamma-ray burst mission</subfield>
+  <subfield code="s">Astrophys.J.,611,1005-20</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/611/2/1005</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">650205</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">87</subfield>
+  <subfield code="h">Gerosa D, Sperhake U and Ott C D</subfield>
+  <subfield code="m">Numerical simulations of stellar collapse in scalar-tensor theories of gravity</subfield>
+  <subfield code="s">Class.Quant.Grav.,33,135002</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/33/13/135002</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1423031</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">88</subfield>
+  <subfield code="h">Giacomazzo B and Rezzolla L</subfield>
+  <subfield code="m">WhiskyMHD: a new numerical code for general relativistic magnetohydrodynamics</subfield>
+  <subfield code="s">Class.Quant.Grav.,24,235</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/24/12/S16</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">742739</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">89</subfield>
+  <subfield code="h">Giacomazzo B, Zrake J, Duffell P C, MacFadyen A I and Perna R</subfield>
+  <subfield code="m">Producing magnetar magnetic fields in the merger of binary neutron stars</subfield>
+  <subfield code="s">Astrophys.J.,809,39</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/809/1/39</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1319594</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">90</subfield>
+  <subfield code="h">Gold R, Bernuzzi S, Thierfelder M, Brügmann B and Pretorius F</subfield>
+  <subfield code="m">Eccentric binary neutron star mergers Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,121501</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.121501</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">928276</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">91</subfield>
+  <subfield code="h">Gold R, Paschalidis V, Etienne Z B, Shapiro S L and Pfeiffer H P</subfield>
+  <subfield code="m">Accretion disks around binary black holes of unequal mass: general relativistic magnetohydrodynamic simulations near decoupling Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,064060</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.064060</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1267161</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">92</subfield>
+  <subfield code="h">Gold R, Paschalidis V, Ruiz M, Shapiro S L, Etienne Z B and Pfeiffer H P</subfield>
+  <subfield code="m">Accretion disks around binary black holes of unequal mass: general relativistic MHD simulations of postdecoupling and merger Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D90,104030</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.104030</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1320725</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">93</subfield>
+  <subfield code="h">Gompertz B P, O’Brien P T and Wynn G A</subfield>
+  <subfield code="m">Magnetar powered GRBs: explaining the extended emission and x-ray plateau of short GRB light curves Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,438,240-50</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt2165</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1263625</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">94</subfield>
+  <subfield code="h">Gourgoulhon E</subfield>
+  <subfield code="m">3 + 1 Formalism in General Relativity (Berlin: Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-642-24525-1</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">95</subfield>
+  <subfield code="h">Guilet J, Bauswein A, Just O and Janka H T</subfield>
+  <subfield code="m">Magnetorotational instability in neutron star mergers: impact of neutrinos Preprint:</subfield>
+  <subfield code="r">arXiv:1610.08532</subfield>
+  <subfield code="r">arXiv:1610.08532</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1494757</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">96</subfield>
+  <subfield code="h">Hanauske M, Takami K, Bovard L, Rezzolla L, Font J A, Galeazzi F and Stcker H</subfield>
+  <subfield code="m">Rotational properties of hypermassive neutron stars from binary mergers Preprint:</subfield>
+  <subfield code="r">arXiv:1611.07152</subfield>
+  <subfield code="r">arXiv:1611.07152</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1499682</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">97</subfield>
+  <subfield code="h">Hansen B M and Lyutikov M</subfield>
+  <subfield code="m">Radio and x-ray signatures of merging neutron stars Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,322,695</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2001.04103.x</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">545026</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">98</subfield>
+  <subfield code="h">Hotokezaka K, Kiuchi K, Kyutoku K, Muranushi T, Sekiguchi Y, Shibata M and Taniguchi K</subfield>
+  <subfield code="m">Remnant massive neutron stars of binary neutron star mergers: evolution process and gravitational waveform Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,044026</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.044026</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1244056</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">99</subfield>
+  <subfield code="h">Janka H T, Eberl T, Ruffert M and Fryer C L</subfield>
+  <subfield code="m">Black hole-neutron star mergers as central engines of gamma-ray bursts</subfield>
+  <subfield code="s">Astrophys.J.Lett.,527,L39-42</subfield>
+  <subfield code="a">doi:10.1088/1538-4357/527/1/L39</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">100</subfield>
+  <subfield code="h">Jin Z P, Hotokezaka K</subfield>
+  <subfield code="m">Li X, Tanaka M, D’Avanzo P, Fan Y Z, Covino S, Wei D M and Piran T The Macronova in GRB 050709 and the GRB-macronova connection Nat. Commun. 7 12898, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/ncomms12898</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1434953</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">101</subfield>
+  <subfield code="h">Jin Z P</subfield>
+  <subfield code="m">Li X, Cano Z, Covino S, Fan Y Z and Wei D M The light curve of the macronova associated with the long-short burst GRB 060614</subfield>
+  <subfield code="s">Astrophys.J.Lett.,811,L22</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/811/2/L22</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1385065</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">102</subfield>
+  <subfield code="h">Just O, Obergaulinger M, Janka H T, Bauswein A and Schwarz N</subfield>
+  <subfield code="m">Neutron-star merger ejecta as obstacles to neutrino-powered jets of gamma-ray bursts</subfield>
+  <subfield code="s">Astrophys.J.,816,L30</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/816/2/L30</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1397997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">103</subfield>
+  <subfield code="h">Kalogera V, Belczynski K, Kim C, O’Shaughnessy R and Willems B</subfield>
+  <subfield code="m">Formation of double compact objects Crossref:</subfield>
+  <subfield code="s">Phys.Rept.,442,75-108</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2007.02.008</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">733587</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">104</subfield>
+  <subfield code="h">Kastaun W and Galeazzi F</subfield>
+  <subfield code="m">Properties of hypermassive neutron stars formed in mergers of spinning binaries Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,064027</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.064027</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1331387</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">105</subfield>
+  <subfield code="h">Kawamura T, Giacomazzo B, Kastaun W, Ciolfi R, Endrizzi A, Baiotti L and Perna R</subfield>
+  <subfield code="m">Binary neutron star mergers and short gamma-ray bursts: effects of magnetic field orientation, equation of state, and mass ratio Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,064012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.064012</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1474365</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">106</subfield>
+  <subfield code="h">Kiuchi K, Cerdá-Durán P, Kyutoku K, Sekiguchi Y and Shibata M</subfield>
+  <subfield code="m">Efficient magnetic-field amplification due to the Kelvin-Helmholtz instability in binary neutron star mergers Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,124034</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.124034</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1395438</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">107</subfield>
+  <subfield code="h">Kiuchi K, Kyutoku K and Shibata M</subfield>
+  <subfield code="m">Three-dimensional evolution of differentially rotating magnetized neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,064008</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.064008</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1124010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">108</subfield>
+  <subfield code="h">Kiuchi K, Kyutoku K, Sekiguchi Y, Shibata M and Wada T</subfield>
+  <subfield code="m">High resolution numerical-relativity simulations for the merger of binary magnetized neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D90,041502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.041502</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1305597</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">109</subfield>
+  <subfield code="h">Kiuchi K, Sekiguchi Y, Kyutoku K, Shibata M, Taniguchi K and Wada T</subfield>
+  <subfield code="m">High resolution magnetohydrodynamic simulation of black hole-neutron star merger: mass ejection and short gamma ray bursts Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,064034</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.064034</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1377548</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">110</subfield>
+  <subfield code="h">Kocsis B and Levin J</subfield>
+  <subfield code="m">Repeated bursts from relativistic scattering of compact objects in galactic nuclei Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D85,123005</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.123005</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">927925</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">111</subfield>
+  <subfield code="h">Kouveliotou C, Meegan C A, Fishman G J, Bhat N P, Briggs M S, Koshut T M, Paciesas W S and Pendleton G N</subfield>
+  <subfield code="m">Identification of two classes of gamma-ray bursts Crossref:</subfield>
+  <subfield code="s">Astrophys.J.Lett.,413,L101-4</subfield>
+  <subfield code="a">doi:10.1086/186969</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="0">370019</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">112</subfield>
+  <subfield code="h">Lackey B D and Wade L</subfield>
+  <subfield code="m">Reconstructing the neutron-star equation of state with gravitational-wave detectors from a realistic population of inspiralling binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,043002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.043002</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1325537</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">113</subfield>
+  <subfield code="h">Lattimer J M</subfield>
+  <subfield code="m">The nuclear equation of state and neutron star masses Crossref:</subfield>
+  <subfield code="s">Ann.Rev.Nucl.Part.Sci.,62,485-515</subfield>
+  <subfield code="a">doi:10.1146/annurev-nucl-102711-095018</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1215888</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">114</subfield>
+  <subfield code="h">Lattimer J M and Lim Y</subfield>
+  <subfield code="m">Constraining the symmetry parameters of the nuclear interaction</subfield>
+  <subfield code="s">Astrophys.J.,771,51</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/771/1/51</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1094339</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">115</subfield>
+  <subfield code="h">Lee W H and Ramirez-Ruiz E</subfield>
+  <subfield code="m">The progenitors of short gamma-ray bursts</subfield>
+  <subfield code="s">New J.Phys.,9,17</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/9/1/017</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">743444</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">116</subfield>
+  <subfield code="h">Lee W H, Ramirez-Ruiz E</subfield>
+  <subfield code="m">and van de Ven G Short gamma-ray bursts from dynamically assembled compact binaries in globular clusters: pathways, rates, hydrodynamics, and cosmological setting</subfield>
+  <subfield code="s">Astrophys.J.,720,953-75</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/720/1/953</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">831387</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">117</subfield>
+  <subfield code="h">Lehner L, Palenzuela C, Liebling S L, Thompson C and Hanna C</subfield>
+  <subfield code="m">Intense electromagnetic outbursts from collapsing hypermassive neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,104035</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.104035</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1080878</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">118</subfield>
+  <subfield code="m">Li T G F Van Den Broeck C, Agathos M, Veitch J, Grover K, Sidery T, Sturani R and Vecchio A Towards a generic test of the strong field dynamics of general relativity using compact binary coalescence Crossref:</subfield>
+  <subfield code="h">Del Pozzo W, Vitale S</subfield>
+  <subfield code="s">Phys.Rev.,D85,082003</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.082003</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">930393</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">119</subfield>
+  <subfield code="m">Li X, Hu Y M GRB/GW association: long-short GRB candidates, time lag, measuring gravitational wave velocity, and testing Einstein’s equivalence principle</subfield>
+  <subfield code="h">Fan Y Z and Wei D M</subfield>
+  <subfield code="s">Astrophys.J.,827,75</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/827/1/75</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1412003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">120</subfield>
+  <subfield code="h">Liu Y T, Shapiro S L, Etienne Z B and Taniguchi K</subfield>
+  <subfield code="m">General relativistic simulations of magnetized binary neutron star mergers Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D78,024012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.024012</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">782322</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">121</subfield>
+  <subfield code="h">Löffler F et al.</subfield>
+  <subfield code="m">The Einstein Toolkit: a community computational infrastructure for relativistic astrophysics</subfield>
+  <subfield code="s">Class.Quant.Grav.,29,115001</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/29/11/115001</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">945623</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">122</subfield>
+  <subfield code="h">Lovelace G, Duez M D, Foucart F, Kidder L E, Pfeiffer H P, Scheel M A and Szilágyi B</subfield>
+  <subfield code="m">Massive disc formation in the tidal disruption of a neutron star by a nearly extremal black hole</subfield>
+  <subfield code="s">Class.Quant.Grav.,30,135004</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/30/13/135004</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1221189</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">123</subfield>
+  <subfield code="h">MacFadyen A I, Ramirez-Ruiz E and Zhang W</subfield>
+  <subfield code="m">X-ray flares following short gamma-ray bursts from shock heating of binary stellar companions arXiv: Preprint:</subfield>
+  <subfield code="r">astro-ph/0510192</subfield>
+  <subfield code="r">arXiv:astro-ph/0510192</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">694365</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">124</subfield>
+  <subfield code="h">Margalit B and Metzger B D</subfield>
+  <subfield code="m">Time-dependent models of accretion discs with nuclear burning following the tidal disruption of a white dwarf by a neutron star Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,461,1154-76</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw1410</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1434263</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">125</subfield>
+  <subfield code="h">Margalit B, Metzger B D and Beloborodov A M</subfield>
+  <subfield code="m">Does the collapse of a supramassive neutron star leave a debris disk? Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,115,171101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.115.171101</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1368890</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">126</subfield>
+  <subfield code="h">McKinney J C</subfield>
+  <subfield code="m">General relativistic force-free electrodynamics: a new code and applications to black hole magnetospheres Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,367,1797-807</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2006.10087.x</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">708848</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">127</subfield>
+  <subfield code="h">McWilliams S T and Levin J</subfield>
+  <subfield code="m">Electromagnetic extraction of energy from black-hole-neutron-star binaries</subfield>
+  <subfield code="s">Astrophys.J.,742,90</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/742/2/90</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">883867</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">128</subfield>
+  <subfield code="h">Meszaros P</subfield>
+  <subfield code="m">Gamma-ray bursts</subfield>
+  <subfield code="s">Rept.Prog.Phys.,69,2259-322</subfield>
+  <subfield code="a">doi:10.1088/0034-4885/69/8/R01</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">716369</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">129</subfield>
+  <subfield code="h">Metzger B D</subfield>
+  <subfield code="m">Nuclear-dominated accretion and subluminous supernovae from the merger of a white dwarf with a neutron star or black hole Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,419,827-40</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.19747.x</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">902139</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">130</subfield>
+  <subfield code="h">Metzger B D and Berger E</subfield>
+  <subfield code="m">What is the most promising electromagnetic counterpart of a neutron star binary merger?</subfield>
+  <subfield code="s">Astrophys.J.,746,48</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/746/1/48</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">925899</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">131</subfield>
+  <subfield code="h">Metzger B D and Zivancev C</subfield>
+  <subfield code="m">Pair fireball precursors of neutron star mergers Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,461,4435-40</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw1800</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1455748</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">132</subfield>
+  <subfield code="h">Metzger B D, Bauswein A, Goriely S and Kasen D</subfield>
+  <subfield code="m">Neutron-powered precursors of kilonovae Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,446,1115-20</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2225</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1313570</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">133</subfield>
+  <subfield code="h">Metzger B D, Quataert E and Thompson T A</subfield>
+  <subfield code="m">Short-duration gamma-ray bursts with extended emission from protomagnetar spin-down Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,385,1455-60</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.12923.x</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">769978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">134</subfield>
+  <subfield code="h">Mochkovitch R, Hernanz M, Isern J and Martin X</subfield>
+  <subfield code="m">Gamma-ray bursts as collimated jets from neutron star/black hole mergers Crossref:</subfield>
+  <subfield code="s">Nature,361,236-8</subfield>
+  <subfield code="a">doi:10.1038/361236a0</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">135</subfield>
+  <subfield code="h">Morrison I A, Baumgarte T W and Shapiro S L</subfield>
+  <subfield code="m">Effect of differential rotation on the maximum mass of neutron stars: realistic nuclear equations of state</subfield>
+  <subfield code="s">Astrophys.J.,610,941-7</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/610/2/941</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">643476</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">136</subfield>
+  <subfield code="h">Muhlberger C D, Nouri F H, Duez M D, Foucart F, Kidder L E, Ott C D, Scheel M A, Szilágyi B and Teukolsky S A</subfield>
+  <subfield code="m">Magnetic effects on the low-T /|W | instability in differentially rotating neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D90,104014</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.104014</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1295465</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">137</subfield>
+  <subfield code="h">Murguia-Berthier A, Montes G, Ramirez-Ruiz E, De Colle F and Lee W H</subfield>
+  <subfield code="m">Necessary conditions for short gamma-ray burst production in binary neutron star mergers</subfield>
+  <subfield code="s">Astrophys.J.Lett.,788,L8</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/788/1/L8</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1288289</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">138</subfield>
+  <subfield code="h">Nakar E</subfield>
+  <subfield code="m">Short-hard gamma-ray bursts Crossref:</subfield>
+  <subfield code="s">Phys.Rept.,442,166-236</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2007.02.005</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">743197</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">139</subfield>
+  <subfield code="h">Narayan R, Paczynski B and Piran T</subfield>
+  <subfield code="m">Gamma-ray bursts as the death throes of massive binary stars Crossref:</subfield>
+  <subfield code="s">Astrophys.J.Lett.,395,L83-6</subfield>
+  <subfield code="a">doi:10.1086/186493</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="0">333508</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">140</subfield>
+  <subfield code="h">Neilsen D, Liebling S L, Anderson M, Lehner L, O’Connor E and Palenzuela C</subfield>
+  <subfield code="m">Magnetized neutron stars with realistic equations of state and neutrino cooling Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,104029</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.104029</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1285941</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">141</subfield>
+  <subfield code="h">Nissanke S, Holz D E, Dalal N, Hughes S A, Sievers J L and Hirata C M</subfield>
+  <subfield code="m">Determining the Hubble constant from gravitational wave observations of merging compact binaries Preprint:</subfield>
+  <subfield code="r">arXiv:1307.2638</subfield>
+  <subfield code="r">arXiv:1307.2638</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1242077</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">142</subfield>
+  <subfield code="h">Nissanke S, Kasliwal M and Georgieva A</subfield>
+  <subfield code="m">Identifying elusive electromagnetic counterparts to gravitational wave mergers: an end-to-end simulation</subfield>
+  <subfield code="s">Astrophys.J.,767,124</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/767/2/124</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1192990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">143</subfield>
+  <subfield code="h">Özel F and Freire P</subfield>
+  <subfield code="m">Masses, radii, and the equation of state of neutron stars Crossref:</subfield>
+  <subfield code="s">Ann.Rev.Astron.Astrophys.,54,401-40</subfield>
+  <subfield code="a">doi:10.1146/annurev-astro-081915-023322</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1426801</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">144</subfield>
+  <subfield code="h">Palenzuela C</subfield>
+  <subfield code="m">Modelling magnetized neutron stars using resistive magnetohydrodynamics Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,431,1853-65</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt311</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1205064</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">145</subfield>
+  <subfield code="h">Palenzuela C, Barausse E, Ponce M and Lehner L</subfield>
+  <subfield code="m">Dynamical scalarization of neutron stars in scalar-tensor gravity theories Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,044024</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.044024</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1260539</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">146</subfield>
+  <subfield code="h">Palenzuela C et al.</subfield>
+  <subfield code="m">Linking electromagnetic and gravitational radiation in coalescing binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,043011</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.043011</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1244968</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">147</subfield>
+  <subfield code="h">Palenzuela C, Lehner L, Ponce M, Liebling S L, Anderson M, Neilsen D and Motl P</subfield>
+  <subfield code="m">Electromagnetic and gravitational outputs from binary-neutron-star coalescence Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,061105</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.061105</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1216827</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">148</subfield>
+  <subfield code="h">Palenzuela C, Liebling S L, Neilsen D, Lehner L, Caballero O L, O’Connor E and Anderson M</subfield>
+  <subfield code="m">Effects of the microphysical equation of state in the mergers of magnetized neutron stars with neutrino cooling Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,044045</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.044045</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1367291</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">149</subfield>
+  <subfield code="h">Pannarale F and Ohme F</subfield>
+  <subfield code="m">Prospects for joint gravitational-wave and electromagnetic observations of neutron-star-black-hole coalescing binaries</subfield>
+  <subfield code="s">Astrophys.J.,791,L7</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/791/1/L7</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1302773</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">150</subfield>
+  <subfield code="h">Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">A new scheme for matching general relativistic ideal magnetohydrodynamics to its force-free limit Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,104031</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.104031</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1258354</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">151</subfield>
+  <subfield code="h">Paschalidis V, East W E, Pretorius F and Shapiro S L</subfield>
+  <subfield code="m">One-arm spiral instability in hypermassive neutron stars formed by dynamical-capture binary neutron star mergers Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,121502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.121502</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1397590</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">152</subfield>
+  <subfield code="h">Paschalidis V, Etienne Z B and Shapiro S L</subfield>
+  <subfield code="m">Importance of cooling in triggering the collapse of hypermassive neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,064032</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.064032</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1182163</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">153</subfield>
+  <subfield code="h">Paschalidis V, Etienne Z B and Shapiro S L</subfield>
+  <subfield code="m">General-relativistic simulations of binary black hole-neutron stars: precursor electromagnetic signals Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,021504</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.021504</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1227417</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">154</subfield>
+  <subfield code="h">Paschalidis V, Etienne Z, Liu Y T and Shapiro S L</subfield>
+  <subfield code="m">Head-on collisions of binary white dwarf-neutron stars: simulations in full general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D83,064002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.83.064002</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">873962</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">155</subfield>
+  <subfield code="h">Paschalidis V, Liu Y T, Etienne Z and Shapiro S L</subfield>
+  <subfield code="m">Merger of binary white dwarf-neutron stars: simulations in full general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D84,104032</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.84.104032</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">929589</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">156</subfield>
+  <subfield code="h">Paschalidis V, MacLeod M, Baumgarte T W and Shapiro S L</subfield>
+  <subfield code="m">Merger of white dwarf-neutron star binaries: prelude to hydrodynamic simulations in general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D80,024006</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.80.024006</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">828042</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">157</subfield>
+  <subfield code="h">Paschalidis V, Ruiz M and Shapiro S L</subfield>
+  <subfield code="m">Relativistic simulations of black hole-neutron star coalescence: the jet emerges</subfield>
+  <subfield code="s">Astrophys.J.Lett.,806,L14</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/806/1/L14</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1324742</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">158</subfield>
+  <subfield code="h">Paschalidis V, Zachariah B E and Shapiro L S</subfield>
+  <subfield code="m">A new scheme for matching ideal magnetohydrodynamics to general relativistic force-free electrodynamics in preparation</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">159</subfield>
+  <subfield code="h">Peters P and Mathews J</subfield>
+  <subfield code="m">Gravitational radiation from point masses in a keplerian orbit Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,131,435-40</subfield>
+  <subfield code="a">doi:10.1103/PhysRev.131.435</subfield>
+  <subfield code="y">1963</subfield>
+  <subfield code="0">42308</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">160</subfield>
+  <subfield code="h">Ponce M, Palenzuela C, Barausse E and Lehner L</subfield>
+  <subfield code="m">Electromagnetic outflows in a class of scalar-tensor theories: binary neutron star coalescence Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,084038</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.084038</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1319741</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">161</subfield>
+  <subfield code="h">Ponce M, Palenzuela C, Lehner L and Liebling S L</subfield>
+  <subfield code="m">Interaction of misaligned magnetospheres in the coalescence of binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D90,044007</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.044007</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1288448</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">162</subfield>
+  <subfield code="h">Pretorius F</subfield>
+  <subfield code="m">Evolution of binary black-hole spacetimes Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,95,121101</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.95.121101</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">686567</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">163</subfield>
+  <subfield code="h">Price D J and Rosswog S</subfield>
+  <subfield code="m">Producing ultrastrong magnetic fields in neutron star mergers Crossref:</subfield>
+  <subfield code="s">Science,312,719-22</subfield>
+  <subfield code="a">doi:10.1126/science.1125201</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">713525</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">164</subfield>
+  <subfield code="h">Radice D, Rezzolla L and Galeazzi F</subfield>
+  <subfield code="m">High-order fully general-relativistic hydrodynamics: new approaches and tests</subfield>
+  <subfield code="s">Class.Quant.Grav.,31,075012</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/31/7/075012</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1272645</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">165</subfield>
+  <subfield code="h">Ramazanoǧlu F M and Pretorius F</subfield>
+  <subfield code="m">Spontaneous scalarization with massive fields Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D93,064005</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.93.064005</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1417090</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">166</subfield>
+  <subfield code="h">Rezzolla L and Kumar P</subfield>
+  <subfield code="m">A novel paradigm for short gamma-ray bursts with extended x-ray emission</subfield>
+  <subfield code="s">Astrophys.J.,802,95</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/802/2/95</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1325519</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">167</subfield>
+  <subfield code="h">Rezzolla L, Baiotti L, Giacomazzo B, Link D and Font J A</subfield>
+  <subfield code="m">Accurate evolutions of unequal-mass neutron-star binaries: properties of the torus and short GRB engines</subfield>
+  <subfield code="s">Class.Quant.Grav.,27,114105</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/27/11/114105</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">843068</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">168</subfield>
+  <subfield code="h">Rezzolla L, Giacomazzo B, Baiotti L, Granot J, Kouveliotou C and Aloy M A</subfield>
+  <subfield code="m">The missing link: merging neutron stars naturally produce jet-like structures and can power short gamma-ray bursts</subfield>
+  <subfield code="s">Astrophys.J.Lett.,732,L6</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/732/1/L6</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">885255</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">169</subfield>
+  <subfield code="h">Rosswog S and Davies M B</subfield>
+  <subfield code="m">High-resolution calculations of merging neutron stars—I. Model description and hydrodynamic evolution Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,334,481-97</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2002.05409.x</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">577237</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">170</subfield>
+  <subfield code="h">Rosswog S, Thielemann F K, Davies M B, Benz W and Piran T</subfield>
+  <subfield code="m">Coalescing neutron stars: a solution to the R-process problem? Nuclear Astrophysics W Hillebrandt and E Muller (eds.) (Amsterdam: p 103</subfield>
+  <subfield code="p">North-Holland</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">171</subfield>
+  <subfield code="h">Rowlinson A, O’Brien P T, Metzger B D, Tanvir N R and Levan A J</subfield>
+  <subfield code="m">Signatures of magnetar central engines in short GRB light curves Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,430,1061-87</subfield>
+  <subfield code="a">doi:10.1093/mnras/sts683</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1209394</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">172</subfield>
+  <subfield code="h">Ruffert M, Janka H T and Schaefer G</subfield>
+  <subfield code="m">Coalescing neutron stars—a step towards physical models. I. Hydrodynamic evolution and gravitational-wave emission</subfield>
+  <subfield code="s">Astron.Astrophys.,311,532-66</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">406854</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">173</subfield>
+  <subfield code="h">Ruffini R, Bianco C L, Enderli M, Kovacevic M</subfield>
+  <subfield code="m">Li L, Muccino M, Moradi R, Pisani G B, Rueda J A and Wang Y GRB 150906B: theoretical estimation of redshift and isotropic energy GRB Coordinates Netw. 18296</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">174</subfield>
+  <subfield code="h">Ruffini R, Rueda J A, Muccino M, Aimuratov Y, Becerra L M, Bianco C L, Kovacevic M, Moradi R, Oliveira F G, Pisani G B and Wang Y</subfield>
+  <subfield code="m">On the classification of GRBs and their occurrence rates arXiv e-prints</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">175</subfield>
+  <subfield code="h">Ruiz M, Lang R N, Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">Binary neutron star mergers: a jet engine for short gamma-ray bursts</subfield>
+  <subfield code="s">Astrophys.J.Lett.,824,L6</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/824/1/L6</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">176</subfield>
+  <subfield code="h">Sampson L, Yunes N, Cornish N, Ponce M, Barausse E, Klein A, Palenzuela C and Lehner L</subfield>
+  <subfield code="m">Projected constraints on scalarization with gravitational waves from neutron star binaries Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D90,124091</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.124091</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1308492</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">177</subfield>
+  <subfield code="h">Samsing J, MacLeod M and Ramirez-Ruiz E</subfield>
+  <subfield code="m">The formation of eccentric compact binary inspirals and the role of gravitational wave emission in binary-single stellar encounters</subfield>
+  <subfield code="s">Astrophys.J.,784,71</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/784/1/71</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1247750</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">178</subfield>
+  <subfield code="h">Savchenko V et al.</subfield>
+  <subfield code="m">INTEGRAL upper limits on gamma-ray emission associated with the gravitational wave event GW150914</subfield>
+  <subfield code="s">Astrophys.J.Lett.,820,L36</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/820/2/L36</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">179</subfield>
+  <subfield code="h">Sekiguchi Y</subfield>
+  <subfield code="m">An implementation of the microphysics in full general relativity: a general relativistic neutrino leakage scheme</subfield>
+  <subfield code="s">Class.Quant.Grav.,27,114107</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/27/11/114107</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">858780</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">180</subfield>
+  <subfield code="h">Sekiguchi Y, Kiuchi K, Kyutoku K and Shibata M</subfield>
+  <subfield code="m">Gravitational waves and neutrino emission from the merger of binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,107,051102</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.107.051102</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">899249</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">181</subfield>
+  <subfield code="h">Sennett N and Buonanno A</subfield>
+  <subfield code="m">Modeling dynamical scalarization with a resummed post-Newtonian expansion Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D93,124004</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.93.124004</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1427017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">182</subfield>
+  <subfield code="h">Shapiro S L</subfield>
+  <subfield code="m">Differential rotation in neutron stars: magnetic braking and viscous damping</subfield>
+  <subfield code="s">Astrophys.J.,544,397-408</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/544/1/397</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">535612</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">183</subfield>
+  <subfield code="h">Shibata M</subfield>
+  <subfield code="m">Collapse of rotating supramassive neutron stars to black holes: fully general relativistic simulations</subfield>
+  <subfield code="s">Astrophys.J.,595,992-9</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/595/2/992</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">629504</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">184</subfield>
+  <subfield code="h">Shibata M</subfield>
+  <subfield code="m">Numerical Relativity (Singapore: Crossref:</subfield>
+  <subfield code="p">World Scientific</subfield>
+  <subfield code="a">doi:10.1142/9692</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">185</subfield>
+  <subfield code="h">Shibata M and Taniguchi K</subfield>
+  <subfield code="m">Merger of binary neutron stars to a black hole: disk mass, short gamma-ray bursts, and quasinormal mode ringing Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D73,064027</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.73.064027</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">711809</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">186</subfield>
+  <subfield code="h">Shibata M and Taniguchi K</subfield>
+  <subfield code="m">Coalescence of black hole-neutron star binaries Crossref: DOI: 10.12942/lrr--6</subfield>
+  <subfield code="s">Living Rev.Rel.,14,6</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">1252897</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">187</subfield>
+  <subfield code="h">Shibata M</subfield>
+  <subfield code="m">and Ury&amp;umacr</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">187</subfield>
+  <subfield code="m">K &amp;omacr</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">187</subfield>
+  <subfield code="m">Simulation of merging binary neutron stars in full general relativity: Γ = 2 case Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D61,064001</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.61.064001</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">510211</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">188</subfield>
+  <subfield code="h">Shibata M</subfield>
+  <subfield code="m">and Ury&amp;umacr</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">188</subfield>
+  <subfield code="m">KMerger of black hole-neutron star binaries in full general relativity</subfield>
+  <subfield code="s">Class.Quant.Grav.,24,S125-38</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/24/12/S09</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">731951</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">189</subfield>
+  <subfield code="h">Shibata M, Baumgarte T W and Shapiro S L</subfield>
+  <subfield code="m">Stability and collapse of rapidly rotating, supramassive neutron stars: 3D simulations in general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D61,044012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.61.044012</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">510265</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">190</subfield>
+  <subfield code="h">Shibata M, Liu Y T, Shapiro S L and Stephens B C</subfield>
+  <subfield code="m">Magnetorotational collapse of massive stellar cores to neutron stars: simulations in full general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D74,104026</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.74.104026</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">730171</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">191</subfield>
+  <subfield code="h">Shibata M, Taniguchi K</subfield>
+  <subfield code="m">and Ury&amp;umacr</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">191</subfield>
+  <subfield code="m">KMerger of binary neutron stars of unequal mass in full general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D68,084020</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.68.084020</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">629854</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">192</subfield>
+  <subfield code="h">Shibata M, Taniguchi K, Okawa H and Buonanno A</subfield>
+  <subfield code="m">Coalescence of binary neutron stars in a scalar-tensor theory of gravity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,084005</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.084005</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1256465</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">193</subfield>
+  <subfield code="h">Steiner A W, Lattimer J M and Brown E F</subfield>
+  <subfield code="m">The equation of state from observed masses and radii of neutron stars</subfield>
+  <subfield code="s">Astrophys.J.,722,33-54</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/722/1/33</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">854009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">194</subfield>
+  <subfield code="h">Stephens B C, East W E and Pretorius F</subfield>
+  <subfield code="m">Eccentric black hole-neutron star mergers</subfield>
+  <subfield code="s">Astrophys.J.Lett.,737,L5</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/737/1/L5</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">900105</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">195</subfield>
+  <subfield code="h">Tacik N et al.</subfield>
+  <subfield code="m">Binary neutron stars with arbitrary spins in numerical relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D92,124012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.049903</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1390109</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">196</subfield>
+  <subfield code="h">Taniguchi K, Baumgarte T W, Faber J A and Shapiro S L</subfield>
+  <subfield code="m">Black hole-neutron star binaries in general relativity: effects of neutron star spin Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D72,044008</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.72.044008</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">683126</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">197</subfield>
+  <subfield code="h">Tanvir N R, Levan A J, Fruchter A S, Hjorth J, Hounsell R A, Wiersema K and Tunnicliffe R L</subfield>
+  <subfield code="m">A ‘kilonova’ associated with the short-duration γ-ray burst GRB 130603B Crossref:</subfield>
+  <subfield code="s">Nature,500,547-9</subfield>
+  <subfield code="a">doi:10.1038/nature12505</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1239331</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">198</subfield>
+  <subfield code="h">Tavani M et al.</subfield>
+  <subfield code="m">AGILE observations of the gravitational-wave event GW150914</subfield>
+  <subfield code="s">Astrophys.J.Lett.,825,L4</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/825/1/L4</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">199</subfield>
+  <subfield code="h">Tchekhovskoy A, McKinney J C and Narayan R</subfield>
+  <subfield code="m">Simulations of ultrarelativistic magnetodynamic jets from gamma-ray burst engines Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,388,551-72</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.13425.x</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">782088</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">200</subfield>
+  <subfield code="h">Thierfelder M, Bernuzzi S and Brügmann B</subfield>
+  <subfield code="m">Numerical relativity simulations of binary neutron stars Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D84,044012</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.84.044012</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">897061</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">201</subfield>
+  <subfield code="h">Thorne K S, Price R H and MacDonald D A</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="t">BLACK HOLES: THE MEMBRANE PARADIGM</subfield>
+  <subfield code="0">242360</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">202</subfield>
+  <subfield code="h">Tichy W</subfield>
+  <subfield code="m">Initial data for binary neutron stars with arbitrary spins Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D84,024041</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.84.024041</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">917378</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">203</subfield>
+  <subfield code="h">Tichy W</subfield>
+  <subfield code="m">Constructing quasi-equilibrium initial data for binary neutron stars with arbitrary spins Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,064024</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.064024</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1187937</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">204</subfield>
+  <subfield code="h">Tsatsin P and Marronetti P</subfield>
+  <subfield code="m">Initial data for neutron star binaries with arbitrary spins Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,064060</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.064060</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1225649</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">205</subfield>
+  <subfield code="h">Vallisneri M</subfield>
+  <subfield code="m">Testing general relativity with gravitational waves: a reality check Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,082001</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.082001</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1123105</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">206</subfield>
+  <subfield code="h">Vietri M and Stella L</subfield>
+  <subfield code="m">Supranova events from spun-up neutron stars: an explosion in search of an observation</subfield>
+  <subfield code="s">Astrophys.J.Lett.,527,L43-6</subfield>
+  <subfield code="a">doi:10.1088/1538-4357/527/1/L43</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">207</subfield>
+  <subfield code="h">Vlahakis N and Königl A</subfield>
+  <subfield code="m">Relativistic magnetohydrodynamics with application to gamma-ray burst outflows. I. Theory and semianalytic trans-Alfvénic solutions</subfield>
+  <subfield code="s">Astrophys.J.,596,1080-103</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/596/2/1080</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">615534</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">208</subfield>
+  <subfield code="h">Yagi K and Stein L C</subfield>
+  <subfield code="m">Black hole based tests of general relativity</subfield>
+  <subfield code="s">Class.Quant.Grav.,33,054001</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/33/5/054001</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1420113</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">209</subfield>
+  <subfield code="h">Yang B, Jin Z P</subfield>
+  <subfield code="m">Li X, Covino S, Zheng X Z, Hotokezaka K, Fan Y Z, Piran T and Wei D M A possible macronova in the late afterglow of the long-short burst GRB 060614 Nat. Commun. 6 7323, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/ncomms8323</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1356253</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">210</subfield>
+  <subfield code="h">Yunes N</subfield>
+  <subfield code="m">Is Einstein still right? Preprint:</subfield>
+  <subfield code="r">arXiv:1510.03845</subfield>
+  <subfield code="r">arXiv:1510.03845</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1397816</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">211</subfield>
+  <subfield code="h">Yunes N and Hughes S A</subfield>
+  <subfield code="m">Binary pulsar constraints on the parametrized post-Einsteinian framework Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D82,082002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.082002</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">861148</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">212</subfield>
+  <subfield code="h">Yunes N and Pretorius F</subfield>
+  <subfield code="m">Fundamental theoretical bias in gravitational wave astrophysics and the parametrized post-Einsteinian framework Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D80,122003</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.80.122003</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">831579</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">213</subfield>
+  <subfield code="h">Yunes N and Siemens X</subfield>
+  <subfield code="m">Gravitational-wave tests of general relativity with ground-based detectors and pulsar-timing arrays Crossref: DOI: 10.12942/lrr--9</subfield>
+  <subfield code="s">Living Rev.Rel.,16,9</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1228165</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">214</subfield>
+  <subfield code="h">Yunes N, Yagi K and Pretorius F</subfield>
+  <subfield code="m">Theoretical physics implications of the binary black-hole mergers GW150914 and GW151226 Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,084002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.084002</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1436468</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">215</subfield>
+  <subfield code="h">Zalamea I and Beloborodov A M</subfield>
+  <subfield code="m">Neutrino heating near hyper-accreting black holes Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,410,2302-8</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.17600.x</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">847546</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">216</subfield>
+  <subfield code="h">Zhang B, Hou-Jun L and Liang E W</subfield>
+  <subfield code="m">GRB observational properties Crossref:</subfield>
+  <subfield code="s">Space Sci.Rev.,202,3-32</subfield>
+  <subfield code="a">doi:10.1007/s11214-016-0305-9</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1495954</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">217</subfield>
+  <subfield code="h">Zhang F W, Zhang B and Zhang B</subfield>
+  <subfield code="m">GRB 150906B—NGC 3313 association: constraints from Ep-Eiso and Ep-Liso Relations. GRB Coordinates Netw. 18298</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">218</subfield>
+  <subfield code="h">Zrake J and MacFadyen A I</subfield>
+  <subfield code="m">Magnetic energy production by turbulence in binary neutron star mergers</subfield>
+  <subfield code="s">Astrophys.J.Lett.,769,L29</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/769/2/L29</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1222662</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">219</subfield>
+  <subfield code="h">Khokhlov A M and Novikov I D</subfield>
+  <subfield code="m">Gauge stability of 3+1 formulations of general relativity</subfield>
+  <subfield code="s">Class.Quant.Grav.,19,827</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/19/4/314</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">565836</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">220</subfield>
+  <subfield code="h">Paschalidis V, Khokhlov A and Novikov I D</subfield>
+  <subfield code="m">Well-posed constrained evolution of 3+1 formulations of general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D75,024026</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.75.024026</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">697851</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">221</subfield>
+  <subfield code="h">Paschalidis V</subfield>
+  <subfield code="m">Mixed hyperbolic: Second-order parabolic formulations of general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D78,024002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.024002</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">749055</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">222</subfield>
+  <subfield code="h">Goldreich P and Julian W H</subfield>
+  <subfield code="m">Pulsar electrodynamics Crossref:</subfield>
+  <subfield code="s">Astrophys.J.,157,869</subfield>
+  <subfield code="a">doi:10.1086/150119</subfield>
+  <subfield code="y">1969</subfield>
+  <subfield code="0">57091</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">223</subfield>
+  <subfield code="h">Contopoulos I, Kazanas D and Fendt C</subfield>
+  <subfield code="m">The axisymmetric pulsar magnetosphere</subfield>
+  <subfield code="s">Astrophys.J.,511,351</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/511/1/351</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">496108</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">224</subfield>
+  <subfield code="h">McKinney J C</subfield>
+  <subfield code="m">Relativistic force-free electrodynamic simulations of neutron star magnetospheres Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,368,L30-4</subfield>
+  <subfield code="a">doi:10.1111/j.1745-3933.2006.00150.x</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">708849</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">225</subfield>
+  <subfield code="h">Spitkovsky A</subfield>
+  <subfield code="m">Time-dependent force-free pulsar magnetospheres: axisymmetric and oblique rotators</subfield>
+  <subfield code="s">Astrophys.J.,648,L51-4</subfield>
+  <subfield code="a">doi:10.1088/1538-4357/648/1/L51</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">711811</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">226</subfield>
+  <subfield code="h">Philippov A A and Spitkovsky A</subfield>
+  <subfield code="m">Ab-initio pulsar magnetosphere: three-dimensional particle-in-cell simulations of axisymmetric pulsars</subfield>
+  <subfield code="s">Astrophys.J.,785,L33</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/785/2/L33</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1272641</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">227</subfield>
+  <subfield code="h">Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">A new scheme for matching general relativistic ideal magnetohydrodynamics to its force-free limit Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,104031</subfield>
+  <subfield code="a">doi:10.1103/physrevd.88.104031</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1258354</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">228</subfield>
+  <subfield code="h">Ruiz M, Paschalidis V and Shapiro S L</subfield>
+  <subfield code="m">Pulsar spin-down luminosity: Simulations in general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D89,084045</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.084045</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1282215</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">229</subfield>
+  <subfield code="h">Pétri J</subfield>
+  <subfield code="m">General-relativistic electromagnetic fields around a slowly rotating neutron star: time-dependent pseudo-spectral simulations Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,439,1071-8</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu036</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1276276</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Focus issue: Rattle and shine: the signals from compact binary mergers</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Rattle and shine: the signals from compact binary mergers</subfield>
+ </datafield>
+</record>

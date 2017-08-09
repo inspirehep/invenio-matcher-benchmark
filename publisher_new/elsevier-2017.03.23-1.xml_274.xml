@@ -1,0 +1,532 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.043</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Huang, Rongzong</subfield>
+    <subfield code="v">Key Laboratory for Power Machinery and Engineering of Ministry of Education, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Total enthalpy-based lattice Boltzmann method with adaptive mesh refinement for solid-liquid phase change</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">19</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A total enthalpy-based lattice Boltzmann (LB) method with adaptive mesh refinement (AMR) is developed in this paper to efficiently simulate solid-liquid phase change problem where variables vary significantly near the phase interface and thus finer grid is required. For the total enthalpy-based LB method, the velocity field is solved by an incompressible LB model with multiple-relaxation-time (MRT) collision scheme, and the temperature field is solved by a total enthalpy-based MRT LB model with the phase interface effects considered and the deviation term eliminated. With a kinetic assumption that the density distribution function for solid phase is at equilibrium state, a volumetric LB scheme is proposed to accurately realize the nonslip velocity condition on the diffusive phase interface and in the solid phase. As compared with the previous schemes, this scheme can avoid nonphysical flow in the solid phase. As for the AMR approach, it is developed based on multiblock grids. An indicator function is introduced to control the adaptive generation of multiblock grids, which can guarantee the existence of overlap area between adjacent blocks for information exchange. Since MRT collision schemes are used, the information exchange is directly carried out in the moment space. Numerical tests are firstly performed to validate the strict satisfaction of the nonslip velocity condition, and then melting problems in a square cavity with different Prandtl numbers and Rayleigh numbers are simulated, which demonstrate that the present method can handle solid-liquid phase change problem with high efficiency and accuracy.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lattice Boltzmann method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Total enthalpy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Solid-liquid phase change</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonslip velocity condition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiple-relaxation-time</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wu, Huiying</subfield>
+    <subfield code="v">Key Laboratory for Power Machinery and Engineering of Ministry of Education, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China</subfield>
+    <subfield code="m">whysrj@sjtu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">65-83</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, S.Y.</subfield>
+    <subfield code="h">Doolen, G.D.</subfield>
+    <subfield code="t">Lattice Boltzmann method for fluid flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,30,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aidun, C.K.</subfield>
+    <subfield code="h">Clausen, J.R.</subfield>
+    <subfield code="t">Lattice-Boltzmann method for complex flows</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,42,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Succi, S.</subfield>
+    <subfield code="t">Lattice Boltzmann 2038</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Europhys.Lett.,109,50001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miller, W.</subfield>
+    <subfield code="h">Succi, S.</subfield>
+    <subfield code="h">Mansutti, D.</subfield>
+    <subfield code="t">Lattice Boltzmann model for anisotropic liquid-solid phase transition</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Rev.Lett.,86,3578</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiaung, W.S.</subfield>
+    <subfield code="h">Ho, J.R.</subfield>
+    <subfield code="h">Kuo, C.P.</subfield>
+    <subfield code="t">Lattice Boltzmann method for the heat conduction problem with phase change</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,39,167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, R.Z.</subfield>
+    <subfield code="h">Wu, H.Y.</subfield>
+    <subfield code="t">An immersed boundary-thermal lattice Boltzmann method for solid-liquid phase change</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,277,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rasin, I.</subfield>
+    <subfield code="h">Miller, W.</subfield>
+    <subfield code="h">Succi, S.</subfield>
+    <subfield code="t">Phase-field lattice kinetic scheme for the numerical simulation of dendritic growth</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.,E72,066705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Medvedev, D.</subfield>
+    <subfield code="h">Kassner, K.</subfield>
+    <subfield code="t">Lattice-Boltzmann scheme for dendritic growth in presence of convection</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Cryst.Growth,275,e1495</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chatterjee, D.</subfield>
+    <subfield code="h">Chakraborty, S.</subfield>
+    <subfield code="t">An enthalpy-based lattice Boltzmann model for diffusion dominated solid-liquid phase transformation</subfield>
+    <subfield code="v">341</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Lett.,A341,320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huber, C.</subfield>
+    <subfield code="h">Parmigiani, A.</subfield>
+    <subfield code="h">Chopard, B.</subfield>
+    <subfield code="h">Manga, M.</subfield>
+    <subfield code="h">Bachmann, O.</subfield>
+    <subfield code="t">Lattice Boltzmann model for melting with natural convection</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,29,1469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eshraghi, M.</subfield>
+    <subfield code="h">Felicelli, S.D.</subfield>
+    <subfield code="t">An implicit lattice Boltzmann model for heat conduction with phase change</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,55,2420</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, R.Z.</subfield>
+    <subfield code="h">Wu, H.Y.</subfield>
+    <subfield code="h">Cheng, P.</subfield>
+    <subfield code="t">A new lattice Boltzmann model for solid-liquid phase change</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,59,295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Feng, Y.C.</subfield>
+    <subfield code="h">Li, H.X.</subfield>
+    <subfield code="h">Li, L.X.</subfield>
+    <subfield code="h">Bu, L.</subfield>
+    <subfield code="h">Wang, T.</subfield>
+    <subfield code="t">Numerical investigation on the melting of nanoparticle-enhanced phase change materials (NEPCM) in a bottom-heated rectangular cavity using lattice Boltzmann method</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,81,415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huo, Y.T.</subfield>
+    <subfield code="h">Rao, Z.H.</subfield>
+    <subfield code="t">Lattice Boltzmann simulation for solid-liquid phase change phenomenon of phase change material under constant heat flux</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,86,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, R.Z.</subfield>
+    <subfield code="h">Wu, H.Y.</subfield>
+    <subfield code="t">Phase interface effects in the total enthalpy-based lattice Boltzmann model for solid-liquid phase change</subfield>
+    <subfield code="v">294</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,294,346</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chakraborty, S.</subfield>
+    <subfield code="h">Chatterjee, D.</subfield>
+    <subfield code="t">An enthalpy-based hybrid lattice-Boltzmann method for modelling solid-liquid phase transition in the presence of convective transport</subfield>
+    <subfield code="v">592</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Fluid Mech.,592,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miranda Fuentes, J.</subfield>
+    <subfield code="h">Kuznik, F.</subfield>
+    <subfield code="h">Johannes, K.</subfield>
+    <subfield code="h">Virgone, J.</subfield>
+    <subfield code="t">Development and validation of a new LBM-MRT hybrid model with enthalpy formulation for melting with natural convection</subfield>
+    <subfield code="v">378</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Lett.,A378,374</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, K.</subfield>
+    <subfield code="h">Yao, F.J.</subfield>
+    <subfield code="h">Yi, H.L.</subfield>
+    <subfield code="h">Tan, H.P.</subfield>
+    <subfield code="t">Lattice Boltzmann simulation of convection melting in complex heat storage systems filled with phase change materials</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Appl.Therm.Eng.,86,238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noble, D.</subfield>
+    <subfield code="h">Torczynski, J.</subfield>
+    <subfield code="t">A lattice-Boltzmann method for partially saturated computational cells</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Mod.Phys.,C9,1189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chatterjee, D.</subfield>
+    <subfield code="h">Chakraborty, S.</subfield>
+    <subfield code="t">A hybrid lattice Boltzmann model for solid-liquid phase transition in presence of fluid flow</subfield>
+    <subfield code="v">351</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Lett.,A351,359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chatterjee, D.</subfield>
+    <subfield code="t">Lattice Boltzmann simulation of incompressible transport phenomena in macroscopic solidification processes</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Numer.Heat Transf., Part B, Fundam.,58,55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mencinger, J.</subfield>
+    <subfield code="t">Numerical simulation of melting in two-dimensional cavity using adaptive grid</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,198,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Danaila, I.</subfield>
+    <subfield code="h">Moglan, R.</subfield>
+    <subfield code="h">Hecht, F.</subfield>
+    <subfield code="h">Le Masson, S.</subfield>
+    <subfield code="t">A Newton method with adaptive finite elements for solving phase-change problems with natural convection</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,274,826</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guzik, S.M.</subfield>
+    <subfield code="h">Weisgraber, T.H.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Alder, B.J.</subfield>
+    <subfield code="t">Interpolation methods and the accuracy of lattice-Boltzmann mesh refinement</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,259,461</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Finite-difference lattice Boltzmann method with a block-structured adaptive-mesh-refinement technique</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Rev.,E89,033310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Numerics of the lattice Boltzmann method on nonuniform grids: standard LBM and finite-difference LBM</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Fluids,107,205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tölke, J.</subfield>
+    <subfield code="h">Freudiger, S.</subfield>
+    <subfield code="h">Krafczyk, M.</subfield>
+    <subfield code="t">An adaptive scheme using hierarchical grids for lattice Boltzmann multi-phase flow simulations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Fluids,35,820</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Z.</subfield>
+    <subfield code="h">Fan, L.S.</subfield>
+    <subfield code="t">An interaction potential based lattice Boltzmann method with adaptive mesh refinement (AMR) for two-phase flow simulation</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6456</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, J.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="t">A solution-adaptive lattice Boltzmann method for two-dimensional incompressible viscous flows</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,230,2246</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eitel-Amor, G.</subfield>
+    <subfield code="h">Meinke, M.</subfield>
+    <subfield code="h">Schröder, W.</subfield>
+    <subfield code="t">A lattice-Boltzmann method with hierarchically refined meshes</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Fluids,75,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lallemand, P.</subfield>
+    <subfield code="h">Luo, L.S.</subfield>
+    <subfield code="t">Theory of the lattice Boltzmann method: dispersion, dissipation, isotropy, Galilean invariance, and stability</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Phys.Rev.,E61,6546</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.Y.</subfield>
+    <subfield code="h">Luo, L.S.</subfield>
+    <subfield code="t">Lattice Boltzmann model for the incompressible Navier–Stokes equation</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Stat.Phys.,88,927</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.L.</subfield>
+    <subfield code="h">Zheng, C.G.</subfield>
+    <subfield code="h">Shi, B.C.</subfield>
+    <subfield code="t">Discrete lattice effects on the forcing term in the lattice Boltzmann method</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Phys.Rev.,E65,046308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.L.</subfield>
+    <subfield code="h">Zheng, C.G.</subfield>
+    <subfield code="t">Analysis of lattice Boltzmann equation for microscale gas flows: relaxation times, boundary conditions and the Knudsen layer</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,22,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, R.Z.</subfield>
+    <subfield code="h">Wu, H.Y.</subfield>
+    <subfield code="t">A modified multiple-relaxation-time lattice Boltzmann model for convection–diffusion equation</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,274,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, R.Z.</subfield>
+    <subfield code="h">Wu, H.Y.</subfield>
+    <subfield code="t">Multiblock approach for the passive scalar thermal lattice Boltzmann method</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Phys.Rev.,E89,043303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Axner, L.</subfield>
+    <subfield code="h">Bernsdorf, J.</subfield>
+    <subfield code="h">Zeiser, T.</subfield>
+    <subfield code="h">Lammers, P.</subfield>
+    <subfield code="h">Linxweiler, J.</subfield>
+    <subfield code="h">Hoekstra, A.G.</subfield>
+    <subfield code="t">Performance evaluation of a parallel sparse lattice Boltzmann solver</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4895</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.L.</subfield>
+    <subfield code="h">Zheng, C.G.</subfield>
+    <subfield code="h">Shi, B.C.</subfield>
+    <subfield code="t">An extrapolation method for boundary conditions in lattice Boltzmann method</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Fluids,14,2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nieuwstadt, F.</subfield>
+    <subfield code="h">Keller, H.</subfield>
+    <subfield code="t">Viscous flow past circular cylinders</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Fluids,1,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seta, T.</subfield>
+    <subfield code="h">Rojas, R.</subfield>
+    <subfield code="h">Hayashi, K.</subfield>
+    <subfield code="h">Tomiyama, A.</subfield>
+    <subfield code="t">Implicit-correction-based immersed boundary-lattice Boltzmann method with two relaxation times</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Phys.Rev.,E89,023307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, S.K.</subfield>
+    <subfield code="h">Hassan, Y.A.</subfield>
+    <subfield code="t">A comparative study of direct-forcing immersed boundary-lattice Boltzmann methods for stationary complex boundaries</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,66,1132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bertrand, O.</subfield>
+    <subfield code="h">Binet, B.</subfield>
+    <subfield code="h">Combeau, H.</subfield>
+    <subfield code="h">Couturier, S.</subfield>
+    <subfield code="h">Delannoy, Y.</subfield>
+    <subfield code="h">Gobin, D.</subfield>
+    <subfield code="h">Lacroix, M.</subfield>
+    <subfield code="h">Le Quéré, P.</subfield>
+    <subfield code="h">Médale, M.</subfield>
+    <subfield code="h">Mencinger, J.</subfield>
+    <subfield code="h">Sadat, H.</subfield>
+    <subfield code="h">Vieira, G.</subfield>
+    <subfield code="t">Melting driven by natural convection. A comparison exercise: first results</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Int.J.Therm.Sci.,38,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="h">Chen, C.</subfield>
+    <subfield code="h">Mei, R.</subfield>
+    <subfield code="h">Klausner, J.F.</subfield>
+    <subfield code="t">Conjugate heat and mass transfer in the lattice Boltzmann equation method</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Rev.,E89,043308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoshida, H.</subfield>
+    <subfield code="h">Kobayashi, T.</subfield>
+    <subfield code="h">Hayashi, H.</subfield>
+    <subfield code="h">Kinjo, T.</subfield>
+    <subfield code="h">Washizu, H.</subfield>
+    <subfield code="h">Fukuzawa, K.</subfield>
+    <subfield code="t">Boundary condition at a two-phase interface in the lattice Boltzmann method for the convection–diffusion equation</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Phys.Rev.,E90,013303</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karani, H.</subfield>
+    <subfield code="h">Huber, C.</subfield>
+    <subfield code="t">Lattice Boltzmann formulation for conjugate heat transfer in heterogeneous media</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Phys.Rev.,E91,023304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le, G.</subfield>
+    <subfield code="h">Oulaid, O.</subfield>
+    <subfield code="h">Zhang, J.</subfield>
+    <subfield code="t">Counter-extrapolation method for conjugate interfaces in computational heat and mass transfer</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Phys.Rev.,E91,033306</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116001959/S0021999116001959.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

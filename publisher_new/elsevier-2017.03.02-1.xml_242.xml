@@ -1,0 +1,744 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.cpc.2017.02.016</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Poya, Roman</subfield>
+    <subfield code="v">Zienkiewicz Centre for Computational Engineering, College of Engineering, Swansea University, Bay Campus, SA1 8EN, United Kingdom</subfield>
+    <subfield code="v">Institute for Computational Mechanics, Technische Universität München, Boltzmannstrasse 15, D-85748 Garching b. München, Germany</subfield>
+    <subfield code="m">r.poya@swansea.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A high performance data parallel tensor contraction framework: Application to coupled electro-mechanics</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-02</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The paper presents aspects of implementation of a new high performance tensor contraction framework for the numerical analysis of coupled and multi-physics problems on streaming architectures. In addition to explicit SIMD instructions and smart expression templates, the framework introduces domain specific constructs for the tensor cross product and its associated algebra recently rediscovered by Bonet et al. (2015, 2016) in the context of solid mechanics. The two key ingredients of the presented expression template engine are as follows. First, the capability to mathematically transform complex chains of operations to simpler equivalent expressions, while potentially avoiding routes with higher levels of computational complexity and, second, to perform a compile time depth-first search to find the optimal contraction indices of a large tensor network in order to minimise the number of floating point operations. For optimisations of tensor contraction such as loop transformation, loop fusion and data locality optimisations, the framework relies heavily on compile time technologies rather than source-to-source translation or JIT techniques. Every aspect of the framework is examined through relevant performance benchmarks, including the impact of data parallelism on the performance of isomorphic and nonisomorphic tensor products, the FLOP and memory I/O optimality in the evaluation of tensor networks, the compilation cost and memory footprint of the framework and the performance of tensor cross product kernels. The framework is then applied to finite element analysis of coupled electromechanical problems to assess the speed-ups achieved in kernel-based numerical integration of complex electroelastic energy functionals. In this context, domain-aware expression templates are shown to provide a significant speed-up over the classical low-level style programming techniques.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tensor contraction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Data parallelism</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Domain-aware expression templates</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonlinear coupled electromechanics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gil, Antonio J.</subfield>
+    <subfield code="v">Zienkiewicz Centre for Computational Engineering, College of Engineering, Swansea University, Bay Campus, SA1 8EN, United Kingdom</subfield>
+    <subfield code="m">a.j.gil@swansea.ac.uk</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ortigosa, Rogelio</subfield>
+    <subfield code="v">Zienkiewicz Centre for Computational Engineering, College of Engineering, Swansea University, Bay Campus, SA1 8EN, United Kingdom</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Comput.Phys.Commun.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chi-Chung, L.</subfield>
+    <subfield code="h">Sadayappan, P.</subfield>
+    <subfield code="h">Wenger, R.</subfield>
+    <subfield code="v">07</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Parallel Process.Lett.,07,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reif, J.H.</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Inform.Process.Lett.,20,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cociorva, D.</subfield>
+    <subfield code="h">Wilkins, J.</subfield>
+    <subfield code="h">Baumgartner, G.</subfield>
+    <subfield code="h">Sadayappan, P.</subfield>
+    <subfield code="h">Ramanujam, J.</subfield>
+    <subfield code="h">Nooijen, M.</subfield>
+    <subfield code="h">Bernholdt, D.</subfield>
+    <subfield code="h">Harrison, R.</subfield>
+    <subfield code="t">High Performance Computing — HiPC 2001: 8th International Conference Hyderabad, India, December 17–20, 2001 Proceedings</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="e">Monien,B.</subfield>
+    <subfield code="e">Prasanna,V.K.</subfield>
+    <subfield code="e">Vajapeyam,S.</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cormen, T.H.</subfield>
+    <subfield code="h">Leiserson, C.E.</subfield>
+    <subfield code="h">Rivest, R.L.</subfield>
+    <subfield code="h">Stein, C.</subfield>
+    <subfield code="t">Introduction to Algorithms</subfield>
+    <subfield code="p">MIT Press</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pfeifer, R.N.C.</subfield>
+    <subfield code="h">Haegeman, J.</subfield>
+    <subfield code="h">Verstraete, F.</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Rev.,E90,033315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Evenbly, G.</subfield>
+    <subfield code="h">Pfeifer, R.N.C.</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Phys.Rev.,B89,245118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hartono, A.</subfield>
+    <subfield code="h">Sibiryakov, A.</subfield>
+    <subfield code="h">Nooijen, M.</subfield>
+    <subfield code="h">Baumgartner, G.</subfield>
+    <subfield code="h">Bernholdt, D.E.</subfield>
+    <subfield code="h">Hirata, S.</subfield>
+    <subfield code="h">Lam, C.-C.</subfield>
+    <subfield code="h">Itzer, R.M.</subfield>
+    <subfield code="h">Ramanujam, J.</subfield>
+    <subfield code="h">Sadayappan, P.</subfield>
+    <subfield code="t">Computational Science–ICCS 2005: 5th International Conference, Atlanta, GA, USA, May 22–25, 2005. Proceedings, Part I</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="e">Sunderam,V.S.</subfield>
+    <subfield code="e">van Albada,G.D.</subfield>
+    <subfield code="e">Sloot,P.M.A.</subfield>
+    <subfield code="e">Dongarra,J.J.</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Russell, S.J.</subfield>
+    <subfield code="h">Norvig, P.</subfield>
+    <subfield code="t">Artificial Intelligence: A Modern Approach</subfield>
+    <subfield code="p">Prentice Hall</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ølgaard, K.B.</subfield>
+    <subfield code="h">Wells, G.N.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,37,8:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeremić, B.</subfield>
+    <subfield code="h">Runesson, K.</subfield>
+    <subfield code="h">Sture, S.</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Eng.Comput.,15,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Landry, W.</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Sci.Program.,11,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="v">vol. 84</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 84</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alnæs, M.S.</subfield>
+    <subfield code="h">Logg, A.</subfield>
+    <subfield code="h">Ølgaard, K.B.</subfield>
+    <subfield code="h">Rognes, M.E.</subfield>
+    <subfield code="h">Wells, G.N.</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,40,9:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.C.</subfield>
+    <subfield code="h">Logg, A.</subfield>
+    <subfield code="h">Scott, L.R.</subfield>
+    <subfield code="h">Terrel, A.R.</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,28,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirby, R.C.</subfield>
+    <subfield code="h">Knepley, M.</subfield>
+    <subfield code="h">Logg, A.</subfield>
+    <subfield code="h">Scott, L.R.</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,741</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Logg, A.</subfield>
+    <subfield code="h">Wells, G.N.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">ACM Trans.Math.Software,37,20:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McRae, A.T.T.</subfield>
+    <subfield code="h">Bercea, G.-T.</subfield>
+    <subfield code="h">Mitchell, L.</subfield>
+    <subfield code="h">Ham, D.A.</subfield>
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,38,S25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rathgeber, F.</subfield>
+    <subfield code="h">Ham, D.A.</subfield>
+    <subfield code="h">Mitchell, L.</subfield>
+    <subfield code="h">Lange, M.</subfield>
+    <subfield code="h">Luporini, F.</subfield>
+    <subfield code="h">McRae, A.T.T.</subfield>
+    <subfield code="h">Bercea, G.-T.</subfield>
+    <subfield code="h">Markall, G.R.</subfield>
+    <subfield code="h">Kelly, P.H.J.</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">ACM Trans.Math.Software</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christophe, Prud’homme</subfield>
+    <subfield code="h">Chabannes, Vincent</subfield>
+    <subfield code="h">Doyeux, Vincent</subfield>
+    <subfield code="h">Ismail, Mourad</subfield>
+    <subfield code="h">Samake, Abdoulaye</subfield>
+    <subfield code="h">Pena, Goncalo</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">ESAIM Proc.,38,429</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veldhuizen, T.L.</subfield>
+    <subfield code="t">Computing in Object-Oriented Parallel Environments: Second International Symposium, ISCOPE 98 Santa Fe, NM, USA, December 8–11, 1998 Proceedings</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="e">Caromel,D.</subfield>
+    <subfield code="e">Oldehoeft,R.R.</subfield>
+    <subfield code="e">Tholburn,M.</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Czarnecki, K.</subfield>
+    <subfield code="h">Eisenecker, U.</subfield>
+    <subfield code="h">Glück, R.</subfield>
+    <subfield code="h">Vandevoorde, D.</subfield>
+    <subfield code="h">Veldhuizen, T.</subfield>
+    <subfield code="t">Generic Programming: International Seminar on Generic Programming Dagstuhl Castle, Germany, April 27–May 1, 1998 Selected Papers</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="e">Jazayeri,M.</subfield>
+    <subfield code="e">Loos,R.G.K.</subfield>
+    <subfield code="e">Musser,D.R.</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jeremi, B.</subfield>
+    <subfield code="h">Sture, S.</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Engrg.,41,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Limachea, P. Rojas Fredini</subfield>
+    <subfield code="m">Mecanica Computacional, vol. XXVII, San Luis, Argentina,, pp. 2907-2925</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Epifanovsky, E.</subfield>
+    <subfield code="h">Wormit, M.</subfield>
+    <subfield code="h">Ku, T.</subfield>
+    <subfield code="h">Landau, A.</subfield>
+    <subfield code="h">Zuev, D.</subfield>
+    <subfield code="h">Khistyaev, K.</subfield>
+    <subfield code="h">Manohar, P.</subfield>
+    <subfield code="h">Kaliman, I.</subfield>
+    <subfield code="h">Dreuw, A.</subfield>
+    <subfield code="h">Krylov, A.I.</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Chem.,34,2293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Guennebaud, B. Jacob</subfield>
+    <subfield code="m">Eigen V3</subfield>
+    <subfield code="u">http://eigen.tuxfamily.org</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirata, S.</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Phys.Chem.,A107,9887</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lu, Q.</subfield>
+    <subfield code="h">Gao, X.</subfield>
+    <subfield code="h">Krishnamoorthy, S.</subfield>
+    <subfield code="h">Baumgartner, G.</subfield>
+    <subfield code="h">Ramanujam, J.</subfield>
+    <subfield code="h">Sadayappan, P.</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Parallel Distrib.Comput.,72,338</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lam, C.-C.</subfield>
+    <subfield code="h">Rauber, T.</subfield>
+    <subfield code="h">Baumgartner, G.</subfield>
+    <subfield code="h">Cociorva, D.</subfield>
+    <subfield code="h">Sadayappan, P.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Lang.Syst.Struct.,37,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.A. Calvin, E.F. Valeev</subfield>
+    <subfield code="m">Task-based algorithm for matrix multiplication: A step towards block-sparse tensor computing</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Solomonik, E.</subfield>
+    <subfield code="h">Matthews, D.</subfield>
+    <subfield code="h">Hammond, J.R.</subfield>
+    <subfield code="h">Stanton, J.F.</subfield>
+    <subfield code="h">Demmel, J.</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Domain-Specific Languages and High-Level Frameworks for High-Performance Computing</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Parallel Distrib.Comput.,74,3176</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Solomonik, T. Hoefler</subfield>
+    <subfield code="m">Sparse Tensor Algebra as a Parallel Programming Model, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veldhuizen, T.</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">C++ Rept.,7,26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matsuzaki, K.</subfield>
+    <subfield code="h">Emoto, K.</subfield>
+    <subfield code="t">Implementation and Application of Functional Languages: 21st International Symposium, IFL 2009, South Orange, NJ, USA, September 23–25, 2009, Revised Selected Papers</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Morazán,M.T.</subfield>
+    <subfield code="e">Scholz,S.-B.</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Iglberger, K.</subfield>
+    <subfield code="h">Hager, G.</subfield>
+    <subfield code="h">Treibig, J.</subfield>
+    <subfield code="h">Rüde, U.</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,C42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y.I.J. Progsch, A. Adelmann</subfield>
+    <subfield code="m">A new vectorization technique for expression templates in C++</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kretz, M.</subfield>
+    <subfield code="h">Lindenstruth, V.</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Softw.Pract.Exp.,42,1409</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witherden, F.</subfield>
+    <subfield code="h">Farrington, A.</subfield>
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Phys.Comm.,185,3028</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wozniak, B.D.</subfield>
+    <subfield code="h">Witherden, F.D.</subfield>
+    <subfield code="h">Russell, F.P.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Kelly, P.H.</subfield>
+    <subfield code="v">202</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Comput.Phys.Comm.,202,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luporini, F.</subfield>
+    <subfield code="h">Varbanescu, A.L.</subfield>
+    <subfield code="h">Rathgeber, F.</subfield>
+    <subfield code="h">Bercea, G.-T.</subfield>
+    <subfield code="h">Ramanujam, J.</subfield>
+    <subfield code="h">Ham, D.A.</subfield>
+    <subfield code="h">Kelly, P.H.J.</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">ACM Trans.Archit.Code Optim.,11,57:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dagum, L.</subfield>
+    <subfield code="h">Menon, R.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">IEEE Comput.Sci.Eng.,5,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">OpenMP Architecture Review Board, OpenMP application program interface version 4.0,. URL:</subfield>
+    <subfield code="u">http://www.openmp.org/mp-documents/OpenMP4.0.0.pdf</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frigo, M.</subfield>
+    <subfield code="h">Halpern, P.</subfield>
+    <subfield code="h">Leiserson, C.E.</subfield>
+    <subfield code="h">Lewin-Berlin, S.</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">SPAA 2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, J.E.</subfield>
+    <subfield code="h">Gohara, D.</subfield>
+    <subfield code="h">Shi, G.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">IEEE Des.Test,12,66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Fog</subfield>
+    <subfield code="m">C++ vector class library, 1.22 ed.,. URL:</subfield>
+    <subfield code="u">http://www.agner.org/optimize/vectorclass.pdf</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,302,293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,302,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="v">309</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,309,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Lee, C.H.</subfield>
+    <subfield code="v">310</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,310,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de~Boer, R.</subfield>
+    <subfield code="t">Vektor- und Tensorrechnung für Ingenieure</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,283,1061</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Int.J.Solids Struct.,84,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dorfmann, A.L.</subfield>
+    <subfield code="h">Ogden, R.W.</subfield>
+    <subfield code="p">Springer Dordrecht, Heidelberg, London, New York</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McMeeking, R.M.</subfield>
+    <subfield code="h">Landis, C.M.</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Appl.Mech.,72,581</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vu, D.K.</subfield>
+    <subfield code="h">Steinmann, P.</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Int.J.Solids Struct.,44,7891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vu, D.K.</subfield>
+    <subfield code="h">Steinmann, P.</subfield>
+    <subfield code="h">Possart, G.</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Engrg.,70,685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bustamante, R.</subfield>
+    <subfield code="h">A., D.</subfield>
+    <subfield code="h">Ogden, R.W.</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Z.Angew.Math.Phys.,60,154</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poya, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Ledger, P.D.</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Comput.Struct.,152,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Hesch, C.</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Comput.Mech.,57,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ortigosa, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in print. http://dx.doi.org/10.1016/j.cma.2016.12.034</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poya, R.</subfield>
+    <subfield code="h">Sevilla, R.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Comput.Mech.,58,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cirak, F.</subfield>
+    <subfield code="h">Cummings, J.C.</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Eng.Comput.,24,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alexandrescu, A.</subfield>
+    <subfield code="t">Modern C++ Design: Generic Programming and Design Patterns Applied</subfield>
+    <subfield code="p">Addison-Wesley</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Kretz</subfield>
+    <subfield code="m">Data-Parallel Vector Types &amp; Operations, ISO/IEC C++ Standards Committee Paper</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meyers, S.</subfield>
+    <subfield code="t">Effective modern c++</subfield>
+    <subfield code="p">O’Reilly Media</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van Zee, F.G.</subfield>
+    <subfield code="h">van~de Geijn, R.A.</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">ACM Trans.Math.Software,41,14:1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Levinthal</subfield>
+    <subfield code="m">Performance Analysis Guide for Intel Core™ i7 Processor and Intel Xeon™ 5500 processors,. URL:</subfield>
+    <subfield code="u">https://software.intel.com/sites/products/collateral/hpc/vtune/performance_analysis_guide.pdf</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abdelfattah, A.</subfield>
+    <subfield code="h">Baboulin, M.</subfield>
+    <subfield code="h">Dobrev, V.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="h">Earl, C.</subfield>
+    <subfield code="h">Falcou, J.</subfield>
+    <subfield code="h">Haidar, A.</subfield>
+    <subfield code="h">Karlin, I.</subfield>
+    <subfield code="h">Kolev, T.</subfield>
+    <subfield code="h">Masliah, I.</subfield>
+    <subfield code="h">Tomov, S.</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">International Conference on Computational Science 2016, ICCS 2016, 6–8 June 2016, San Diego, California, USA</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Procedia Comput.Sci.,80,108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Acar, R.J. Harrison, F. Olken, O. Alter, M. Helal, L. Omberg, B. Bader, A. Kennedy, H. Park, Z. Bai, D. Kim, R. Plemmons, G. Beylkin, T. Kolda, S. Ragnarsson, L. Delathauwer, J. Langou, S.P. Ponnapalli, I. Dhillon, L. Lim, J.R. Ramanujam, C. Ding, M. Mahoney, J. Raynolds, L. Elden, C. Martin, P. Regalia, P. Drineas, M. Mohlenkamp, C. Faloutsos, J. Morton, B. Savas, S. Friedland, L. Mullin, C.V. Loan</subfield>
+    <subfield code="m">NSF Workshop Report, VA, USA</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Porkoláb, Z.</subfield>
+    <subfield code="h">Mihalicza, J.</subfield>
+    <subfield code="h">Pataki, N.</subfield>
+    <subfield code="h">Sipos, Á.</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Ann.Univ.Sci.Budapest.Sect.Comput.,30,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pataki, N.</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Acta Univ.Sapientiae,2,154</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonet, J.</subfield>
+    <subfield code="h">Gil, A.J.</subfield>
+    <subfield code="h">Wood, R.D.</subfield>
+    <subfield code="t">Nonlinear Solid Mechanics for Finite Element Analysis: Statics</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, UK</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witherden, F.D.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">J.Sci.Comput.,61,398</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witherden, F.</subfield>
+    <subfield code="h">Vincent, P.</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Comput.Math.Appl.,69,1232</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0010-4655/aip/S0010465517300681/S0010465517300681.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,500 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.047</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kästner, Markus</subfield>
+    <subfield code="v">Institute of Solid Mechanics, TU Dresden, Dresden, 01062, Germany</subfield>
+    <subfield code="v">Dresden Center for Computational Materials Science (DCMS), TU Dresden, Dresden, 01062, Germany</subfield>
+    <subfield code="m">markus.kaestner@tu-dresden.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Isogeometric analysis of the Cahn–Hilliard equation – a convergence study</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">12</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Herein, we present a numerical convergence study of the Cahn–Hilliard phase-field model within an isogeometric finite element analysis framework. Using a manufactured solution, a mixed formulation of the Cahn–Hilliard equation and the direct discretisation of the weak form, which requires a <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msup></math> -continuous approximation, are compared in terms of convergence rates. For approximations that are higher than second-order in space, the direct discretisation is found to be superior. Suboptimal convergence rates occur when splines of order <math altimg="si2.gif" display="inline" overflow="scroll"><mi>p</mi><mo>=</mo><mn>2</mn></math> are used. This is validated with a priori error estimates for linear problems. The convergence analysis is completed with an investigation of the temporal discretisation. Second-order accuracy is found for the generalised- α method. This ensures the functionality of an adaptive time stepping scheme which is required for the efficient numerical solution of the Cahn–Hilliard equation. The isogeometric finite element framework is eventually validated by two numerical examples of spinodal decomposition.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cahn–Hilliard equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Isogeometric analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bézier extraction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Manufactured solutions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Metsch, Philipp</subfield>
+    <subfield code="v">Institute of Solid Mechanics, TU Dresden, Dresden, 01062, Germany</subfield>
+    <subfield code="m">philipp.metsch@tu-dresden.de</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">de Borst, René</subfield>
+    <subfield code="j">ORCID:0000-0002-3457-3574</subfield>
+    <subfield code="v">School of Engineering, University of Glasgow, Oakfield Avenue, Glasgow, G12 8LT, UK</subfield>
+    <subfield code="m">rene.deborst@glasgow.ac.uk</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">360-371</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, L.-Q.</subfield>
+    <subfield code="t">Phase-field models for microstructure evolution</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Mater.Res.,32,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emmerich, H.</subfield>
+    <subfield code="t">Advances of and by phase-field modelling in condensed-matter physics</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Adv.Phys.,57,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moelans, N.</subfield>
+    <subfield code="h">Blanpain, B.</subfield>
+    <subfield code="h">Wollants, P.</subfield>
+    <subfield code="t">An introduction to phase-field modeling of microstructure evolution</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Calphad,32,268</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steinbach, I.</subfield>
+    <subfield code="t">Phase-field models in materials science</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Model.Simul.Mater.Sci.Eng.,17,073001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steinbach, I.</subfield>
+    <subfield code="h">Apel, M.</subfield>
+    <subfield code="t">The influence of lattice strain on pearlite formation in Fe-C</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Acta Mater.,55,4817</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koyama, T.</subfield>
+    <subfield code="t">Phase-field modeling of microstructure evolutions in magnetic materials</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Sci.Technol.Adv.Mater.,9,013006</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hawkins-Daarud, A.</subfield>
+    <subfield code="h">van der Zee, K.G.</subfield>
+    <subfield code="h">Tinsley Oden, J.</subfield>
+    <subfield code="t">Numerical simulation of a thermodynamically consistent four-species tumor growth model</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,28,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wise, S.M.</subfield>
+    <subfield code="h">Lowengrub, J.S.</subfield>
+    <subfield code="h">Frieboes, H.B.</subfield>
+    <subfield code="h">Cristini, V.</subfield>
+    <subfield code="t">Three-dimensional multispecies nonlinear tumor growth – I: model and numerical method</subfield>
+    <subfield code="v">253</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Theor.Biol.,253,524</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vilanova, G.</subfield>
+    <subfield code="h">Colominas, I.</subfield>
+    <subfield code="h">Gomez, H.</subfield>
+    <subfield code="t">Capillary networks in tumor angiogenesis: from discrete endothelial cells to phase-field averaged descriptions via isogeometric analysis</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,29,1015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bertozzi, A.L.</subfield>
+    <subfield code="h">Esedoglu, S.</subfield>
+    <subfield code="h">Gillette, A.</subfield>
+    <subfield code="t">Inpainting of binary images using the Cahn–Hilliard equation</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">IEEE Trans.Image Process.,16,285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miehe, C.</subfield>
+    <subfield code="h">Welschinger, F.</subfield>
+    <subfield code="h">Hofacker, M.</subfield>
+    <subfield code="t">Thermodynamically consistent phase-field models of fracture: variational principles and multi-field FE implementations</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,83,1273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spatschek, R.</subfield>
+    <subfield code="h">Brener, E.</subfield>
+    <subfield code="h">Karma, A.</subfield>
+    <subfield code="t">Phase field modeling of crack propagation</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Philos.Mag.,91,75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuhn, C.</subfield>
+    <subfield code="h">Müller, R.</subfield>
+    <subfield code="t">A continuum phase field model for fracture</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Eng.Fract.Mech.,77,3625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesch, C.</subfield>
+    <subfield code="h">Weinberg, K.</subfield>
+    <subfield code="t">Thermodynamically consistent algorithms for a finite-deformation phase-field approach to fracture</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,99,906</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">May, S.</subfield>
+    <subfield code="h">Vignollet, J.</subfield>
+    <subfield code="h">de Borst, R.</subfield>
+    <subfield code="t">A numerical assessment of phase-field models for brittle and cohesive fracture: Γ-convergence and stress oscillations</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Eur.J.Mech.A, Solids</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Huh, J.-Y.</subfield>
+    <subfield code="h">Jeong, D.</subfield>
+    <subfield code="h">Shin, J.</subfield>
+    <subfield code="h">Yun, A.</subfield>
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="t">Physical, mathematical, and numerical derivations of the Cahn–Hilliard equation</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Compos.Mater.Sci.,81,216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elliott, C.M.</subfield>
+    <subfield code="h">French, D.A.</subfield>
+    <subfield code="h">Milner, F.A.</subfield>
+    <subfield code="t">A second order splitting method for the Cahn–Hilliard equation</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Numer.Math.,54,575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barrett, J.</subfield>
+    <subfield code="h">Blowey, J.</subfield>
+    <subfield code="h">Garcke, H.</subfield>
+    <subfield code="t">Finite element approximation of the Cahn–Hilliard equation with degenerate mobility</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,286</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="t">On the existence, uniqueness and approximation of saddle-point problems arising from Lagrangian multipliers</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Modél.Math.Anal.Numér.,8,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Fortin, M.</subfield>
+    <subfield code="t">Mixed and Hybrid Finite Element Methods, Springer Series in Computational Mathematics, </subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wells, G.N.</subfield>
+    <subfield code="h">Kuhl, E.</subfield>
+    <subfield code="h">Garikipati, K.</subfield>
+    <subfield code="t">A discontinuous Galerkin method for the Cahn–Hilliard equation</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,218,860</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engel, G.</subfield>
+    <subfield code="h">Garikipati, K.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Larson, M.G.</subfield>
+    <subfield code="h">Mazzei, L.</subfield>
+    <subfield code="h">Taylor, R.L.</subfield>
+    <subfield code="t">Continuous/discontinuous finite element approximations of fourth-order elliptic problems in structural and continuum mechanics with applications to thin beams and plates, and strain gradient elasticity</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,3669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gómez, H.</subfield>
+    <subfield code="h">Calo, V.M.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Isogeometric analysis of the Cahn–Hilliard phase-field model</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,4333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chan, P.K.</subfield>
+    <subfield code="h">Rey, A.D.</subfield>
+    <subfield code="t">A numerical method for the nonlinear Cahn–Hilliard equation with nonperiodic boundary conditions</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Compos.Mater.Sci.,3,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stogner, R.H.</subfield>
+    <subfield code="h">Carey, G.F.</subfield>
+    <subfield code="h">Murray, B.T.</subfield>
+    <subfield code="t">Approximation of Cahn–Hilliard diffuse interface models using parallel adaptive mesh refinement and coarsening with <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msup></math> elements</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,76,636</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gómez, H.</subfield>
+    <subfield code="h">Reali, A.</subfield>
+    <subfield code="h">Sangalli, G.</subfield>
+    <subfield code="t">Accurate, efficient, and (iso)geometrically flexible collocation methods for phase-field models</subfield>
+    <subfield code="v">262</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,262,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Tonks, M.R.</subfield>
+    <subfield code="h">Gaston, D.</subfield>
+    <subfield code="h">Peterson, J.W.</subfield>
+    <subfield code="h">Andrs, D.</subfield>
+    <subfield code="h">Millett, P.C.</subfield>
+    <subfield code="h">Biner, B.S.</subfield>
+    <subfield code="t">A quantitative comparison between <math altimg="si3.gif" display="inline" overflow="scroll"><msup><mrow><mi>C</mi></mrow><mrow><mn>0</mn></mrow></msup></math> and <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi>C</mi></mrow><mrow><mn>1</mn></mrow></msup></math> elements for solving the Cahn–Hilliard equation</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,236,74</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shih, T.M.</subfield>
+    <subfield code="t">A procedure to debug computer programs</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,21,1027</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aristotelous, A.C.</subfield>
+    <subfield code="h">Karakashian, O.A.</subfield>
+    <subfield code="h">Wise, S.M.</subfield>
+    <subfield code="t">A mixed discontinuous Galerkin, convex splitting scheme for a modified Cahn–Hilliard equation and an efficient nonlinear multigrid solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Discrete Contin.Dyn.Syst., Ser.,B18,2211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kay, D.</subfield>
+    <subfield code="h">Styles, V.</subfield>
+    <subfield code="h">Süli, E.</subfield>
+    <subfield code="t">Discontinuous Galerkin finite element approximation of the Cahn–Hilliard equation with convection</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,2660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cahn, J.W.</subfield>
+    <subfield code="h">Hilliard, J.E.</subfield>
+    <subfield code="t">Free energy of a nonuniform system. I. Interfacial free energy</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Chem.Phys.,28,258</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cahn, J.W.</subfield>
+    <subfield code="t">Phase separation by spinodal decomposition in isotropic systems</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Chem.Phys.,42,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wodo, O.</subfield>
+    <subfield code="h">Ganapathysubramanian, B.</subfield>
+    <subfield code="t">Computationally efficient solution to the Cahn–Hilliard equation: adaptive implicit time schemes, mesh sensitivity analysis and the 3D isoperimetric problem</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6037</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chung, J.</subfield>
+    <subfield code="h">Hulbert, G.M.</subfield>
+    <subfield code="t">A time integration algorithm for structural dynamics with improved numerical dissipation: the generalized- α method</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Appl.Mech.,60,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jansen, K.E.</subfield>
+    <subfield code="h">Whiting, C.H.</subfield>
+    <subfield code="h">Hulbert, G.M.</subfield>
+    <subfield code="t">A generalized- α method for integrating the filtered Navier–Stokes equations with a stabilized finite element method</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cottrell, J.A.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="t">Isogeometric Analysis: Toward Integration of CAD and FEA</subfield>
+    <subfield code="p">John Wiley &amp; Sons Chichester</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Piegl, L.</subfield>
+    <subfield code="h">Tiller, W.</subfield>
+    <subfield code="t">The NURBS Book</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borden, M.J.</subfield>
+    <subfield code="h">Scott, M.A.</subfield>
+    <subfield code="h">Evans, J.A.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Isogeometric finite element data structures based on Bézier extraction of NURBS</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,87,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Söderlind, G.</subfield>
+    <subfield code="t">Automatic control and adaptive time-stepping</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Numer.Algorithms,31,281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, D.</subfield>
+    <subfield code="h">Xuan, J.</subfield>
+    <subfield code="t">An improved NURBS-based isogeometric analysis with enhanced treatment of essential boundary conditions</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,2425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kiendl, J.</subfield>
+    <subfield code="h">Bletzinger, K.-U.</subfield>
+    <subfield code="h">Linhard, J.</subfield>
+    <subfield code="h">Wüchner, R.</subfield>
+    <subfield code="t">Isogeometric shell analysis with Kirchhoff–Love elements</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,198,3902</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="h">Fix, G.</subfield>
+    <subfield code="t">An Analysis of the Finite Element Method</subfield>
+    <subfield code="p">Wellesley–Cambridge Press Wellesley</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tagliabue, A.</subfield>
+    <subfield code="h">Dedè, L.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">Isogeometric analysis and error estimates for high order partial differential equations in fluid dynamics</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Comput.Fluids,102,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, J.</subfield>
+    <subfield code="h">Dedè, L.</subfield>
+    <subfield code="h">Evans, J.A.</subfield>
+    <subfield code="h">Borden, M.J.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Isogeometric analysis of the advective Cahn–Hilliard equation: spinodal decomposition under shear flow</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,242,321</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00222/S002199911500724X/S002199911500724X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

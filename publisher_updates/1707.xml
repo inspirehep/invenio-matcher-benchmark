@@ -1,0 +1,1466 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Speeding up N-body simulations of modified gravity: chameleon screening models</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We describe and demonstrate the potential of a new and very efficient method for simulating certain classes of modified gravity theories, such as the widely studied f(R) gravity models. High resolution simulations for such models are currently very slow due to the highly nonlinear partial differential equation that needs to be solved exactly to predict the modified gravitational force. This nonlinearity is partly inherent, but is also exacerbated by the specific numerical algorithm used, which employs a variable redefinition to prevent numerical instabilities. The standard Newton-Gauss-Seidel iterative method used to tackle this problem has a poor convergence rate. Our new method not only avoids this, but also allows the discretised equation to be written in a form that is analytically solvable. We show that this new method greatly improves the performance and efficiency of f(R) simulations. For example, a test simulation with 512(3) particles in a box of size 512 Mpc/h is now 5 times faster than before, while a Millennium-resolution simulation for f(R) gravity is estimated to be more than 20 times faster than with the old method. Our new implementation will be particularly useful for running very high resolution, large-sized simulations which, to date, are only possible for the standard model, and also makes it feasible to run large numbers of lower resolution simulations for covariance analyses. We hope that the method will bring us to a new era for precision cosmological tests of gravity.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JCAP</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">050</subfield>
+  <subfield code="v">1702</subfield>
+  <subfield code="n">02</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1475-7516/2017/02/050</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-28</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="037" ind1=" " ind2=" ">
+  <subfield code="a">arXiv:1611.09375</subfield>
+  <subfield code="9">arXiv</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">arXiv</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Bose, Sownak</subfield>
+  <subfield code="v">Institute for Computational Cosmology - Department of Physics - Durham U. - Durham DH1 3LE - U.K.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Li, Baojiu</subfield>
+  <subfield code="v">Institute for Computational Cosmology - Department of Physics - Durham U. - Durham DH1 3LE - U.K.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Barreira, Alexandre</subfield>
+  <subfield code="v">Max-Planck-Institut für Astrophysik - Karl-Schwarzschild-Str. 1 - 85741 Garching - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">He, Jian-hua</subfield>
+  <subfield code="v">Institute for Computational Cosmology - Department of Physics - Durham U. - Durham DH1 3LE - U.K.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Hellwing, Wojciech A.</subfield>
+  <subfield code="v">Institute of Cosmology and Gravitation - U. of Portsmouth - Portsmouth PO1 3FX - U.K.</subfield>
+  <subfield code="v">Janusz Gil Institute of Astronomy - U. of Zielona Góra - ul.Szafrana 2 - 65-516 Zielona Góra - Poland</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Koyama, Kazuya</subfield>
+  <subfield code="v">Institute of Cosmology and Gravitation - U. of Portsmouth - Portsmouth PO1 3FX - U.K.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Llinares, Claudio</subfield>
+  <subfield code="v">Institute for Computational Cosmology - Department of Physics - Durham U. - Durham DH1 3LE - U.K.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Zhao, Gong-Bo</subfield>
+  <subfield code="v">National Astronomy Observatories - Chinese Academy of Science - Beijing - 100012 - P.R. China</subfield>
+  <subfield code="v">Institute of Cosmology and Gravitation - U. of Portsmouth - Portsmouth PO1 3FX - U.K.</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">T. Clifton, P.G. Ferreira, A. Padilla and C. Skordis</subfield>
+  <subfield code="m">Modified gravity and cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rept.,513,1</subfield>
+  <subfield code="r">arXiv:1106.2476</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2012.01.001</subfield>
+  <subfield code="r">arXiv:1106.2476</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">913415</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">A. Joyce, L. Lombriser and F. Schmidt</subfield>
+  <subfield code="m">Dark energy versus modified gravity Crossref:</subfield>
+  <subfield code="s">Ann.Rev.Nucl.Part.Sci.,66,95</subfield>
+  <subfield code="a">doi:10.1146/annurev-nucl-102115-044553</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1416632</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">E.J. Copeland, M. Sami and S. Tsujikawa</subfield>
+  <subfield code="m">Dynamics of dark energy Crossref: Preprint:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,D15,1753</subfield>
+  <subfield code="r">hep-th/0603057</subfield>
+  <subfield code="a">doi:10.1142/S021827180600942X</subfield>
+  <subfield code="r">arXiv:hep-th/0603057</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">711939</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">SNLS collaboration The Supernova Legacy Survey 3-year sample: Type Ia Supernovae photometric distances and cosmological constraints Crossref: Preprint:</subfield>
+  <subfield code="h">J. Guy et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,523,A7</subfield>
+  <subfield code="r">arXiv:1010.4743</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201014468</subfield>
+  <subfield code="r">arXiv:1010.4743</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">873894</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">SDSS collaboration Baryon Acoustic Oscillations in the Sloan Digital Sky Survey data release 7 galaxy sample Crossref: Preprint:</subfield>
+  <subfield code="h">W.J. Percival et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,401,2148</subfield>
+  <subfield code="r">arXiv:0907.1660</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2009.15812.x</subfield>
+  <subfield code="r">arXiv:0907.1660</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">825356</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">F. Beutler et al.</subfield>
+  <subfield code="m">The 6dF galaxy survey: Baryon Acoustic Oscillations and the local Hubble constant Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,416,3017</subfield>
+  <subfield code="r">arXiv:1106.3366</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.19250.x</subfield>
+  <subfield code="r">arXiv:1106.3366</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">914162</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">B.A. Reid et al.</subfield>
+  <subfield code="m">The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: measurements of the growth of structure and expansion rate at z=0.57 from anisotropic clustering Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,426,2719</subfield>
+  <subfield code="r">arXiv:1203.6641</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.21779.x</subfield>
+  <subfield code="r">arXiv:1203.6641</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1095442</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">WMAP collaboration Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: cosmological parameter results IOPscience: Preprint:</subfield>
+  <subfield code="h">G. Hinshaw et al.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,208,19</subfield>
+  <subfield code="r">arXiv:1212.5226</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/208/2/19</subfield>
+  <subfield code="r">arXiv:1212.5226</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1208272</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">A.G. Riess et al.</subfield>
+  <subfield code="m">A Redetermination of the Hubble constant with the Hubble space telescope from a differential distance ladder IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,699,539</subfield>
+  <subfield code="r">arXiv:0905.0695</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/699/1/539</subfield>
+  <subfield code="r">arXiv:0905.0695</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">819510</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">C.M. Will</subfield>
+  <subfield code="m">The confrontation between general relativity and experiment Crossref: DOI: 10.12942/lrr--4</subfield>
+  <subfield code="s">Living Rev.Rel.,17,4</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1287712</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">J. Khoury and A. Weltman</subfield>
+  <subfield code="m">Chameleon cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D69,044026</subfield>
+  <subfield code="r">astro-ph/0309411</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.69.044026</subfield>
+  <subfield code="r">arXiv:astro-ph/0309411</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">628250</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">D.F. Mota and D.J. Shaw</subfield>
+  <subfield code="m">Evading equivalence principle violations, cosmological and other experimental constraints in scalar field theories with a strong coupling to matter Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D75,063501</subfield>
+  <subfield code="r">hep-ph/0608078</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.75.063501</subfield>
+  <subfield code="r">arXiv:hep-ph/0608078</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">723347</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">T.P. Sotiriou and V. Faraoni</subfield>
+  <subfield code="m">f(R) theories of gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Rev.Mod.Phys.,82,451</subfield>
+  <subfield code="r">arXiv:0805.1726</subfield>
+  <subfield code="a">doi:10.1103/RevModPhys.82.451</subfield>
+  <subfield code="r">arXiv:0805.1726</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">785578</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">B. Li and J.D. Barrow</subfield>
+  <subfield code="m">The cosmology of f(R) gravity in metric variational approach Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D75,084010</subfield>
+  <subfield code="r">gr-qc/0701111</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.75.084010</subfield>
+  <subfield code="r">arXiv:gr-qc/0701111</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">742834</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">W. Hu and I. Sawicki</subfield>
+  <subfield code="m">Models of f(R) cosmic acceleration that evade solar-system tests Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D76,064004</subfield>
+  <subfield code="r">arXiv:0705.1158</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.76.064004</subfield>
+  <subfield code="r">arXiv:0705.1158</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">750201</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">P. Brax</subfield>
+  <subfield code="m">C. van de Bruck, A.-C Davis and D.J. Shaw,f(R) gravity and chameleon theories Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D78,104021</subfield>
+  <subfield code="r">arXiv:0806.3415</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.104021</subfield>
+  <subfield code="r">arXiv:0806.3415</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">788827</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">J. Wang, L. Hui and J. Khoury</subfield>
+  <subfield code="m">No-go theorems for generalized chameleon field theories Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,109,241301</subfield>
+  <subfield code="r">arXiv:1208.4612</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.109.241301</subfield>
+  <subfield code="r">arXiv:1208.4612</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1180152</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">M. Raveri, B. Hu, N. Frusciante and A. Silverstri</subfield>
+  <subfield code="m">Effective field theory of cosmic acceleration: constraining dark energy with CMB data Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D90,043513</subfield>
+  <subfield code="r">arXiv:1405.1022</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.043513</subfield>
+  <subfield code="r">arXiv:1405.1022</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1294126</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">J. Ceron-Hurtado, J. He and B. Li</subfield>
+  <subfield code="m">Heat transport in nonuniform superconductors Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,064502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.94.064502</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">P. Brax</subfield>
+  <subfield code="m">C. van de Bruck, A.-C Davis and D. Shaw,The dilaton and modified gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D82,063519</subfield>
+  <subfield code="r">arXiv:1005.3735</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.063519</subfield>
+  <subfield code="r">arXiv:1005.3735</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">855074</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">K. Hinterbichler and J. Khoury</subfield>
+  <subfield code="m">Symmetron fields: screening long-range forces through local symmetry restoration Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,104,231301</subfield>
+  <subfield code="r">arXiv:1001.4525</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.104.231301</subfield>
+  <subfield code="r">arXiv:1001.4525</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">843552</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">H. Oyaizu</subfield>
+  <subfield code="m">Non-linear evolution of f(R) cosmologies I: methodology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D78,123523</subfield>
+  <subfield code="r">arXiv:0807.2449</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.123523</subfield>
+  <subfield code="r">arXiv:0807.2449</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">790828</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">H. Oyaizu, M. Lima and W. Hu</subfield>
+  <subfield code="m">Nonlinear evolution of f(R) cosmologies. 2. Power spectrum Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D78,123524</subfield>
+  <subfield code="r">arXiv:0807.2462</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.78.123524</subfield>
+  <subfield code="r">arXiv:0807.2462</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">790838</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">F. Schmidt, M.V. Lima, H. Oyaizu and W. Hu</subfield>
+  <subfield code="m">Non-linear evolution of f(R) cosmologies III: halo statistics Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D79,083518</subfield>
+  <subfield code="r">arXiv:0812.0545</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.79.083518</subfield>
+  <subfield code="r">arXiv:0812.0545</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">804148</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">B. Li and H. Zhao</subfield>
+  <subfield code="m">Structure formation by fifth force I: N-Body vs. linear simulations Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D80,044027</subfield>
+  <subfield code="r">arXiv:0906.3880</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.80.044027</subfield>
+  <subfield code="r">arXiv:0906.3880</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">823745</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">H. Zhao, A.V. Maccio, B. Li, H. Hoekstra and M. Feix</subfield>
+  <subfield code="m">Structure formation by fifth force: power spectrum from N-body simulations IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.Lett.,L712,179</subfield>
+  <subfield code="r">arXiv:0910.3207</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/712/2/L179</subfield>
+  <subfield code="r">arXiv:0910.3207</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">834255</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">C. Llinares, A. Knebe and H. Zhao</subfield>
+  <subfield code="m">Cosmological structure formation under MOND: a new numerical solver for Poisson&apos;s equation Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,391,1778</subfield>
+  <subfield code="r">arXiv:0809.2899</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.13961.x</subfield>
+  <subfield code="r">arXiv:0809.2899</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">796846</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">B. Li and H. Zhao</subfield>
+  <subfield code="m">Structure formation by the fifth force III: segregation of baryons and dark matter Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D81,104047</subfield>
+  <subfield code="r">arXiv:1001.3152</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.81.104047</subfield>
+  <subfield code="r">arXiv:1001.3152</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">843272</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">G.-B. Zhao, B. Li and K. Koyama</subfield>
+  <subfield code="m">N-body simulations for f(R) gravity using a self-adaptive particle-mesh code Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D83,044007</subfield>
+  <subfield code="r">arXiv:1011.1257</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.83.044007</subfield>
+  <subfield code="r">arXiv:1011.1257</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">875805</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">G.-B. Zhao, B. Li and K. Koyama</subfield>
+  <subfield code="m">Testing general relativity using the environmental dependence of dark matter halos Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,107,071303</subfield>
+  <subfield code="r">arXiv:1105.0922</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.107.071303</subfield>
+  <subfield code="r">arXiv:1105.0922</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">898688</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Y. Li and W. Hu</subfield>
+  <subfield code="m">Chameleon halo modeling in f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D84,084033</subfield>
+  <subfield code="r">arXiv:1107.5120</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.84.084033</subfield>
+  <subfield code="r">arXiv:1107.5120</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">920277</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">B. Li, G.-B. Zhao and K. Koyama</subfield>
+  <subfield code="m">Halos and voids in f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,421,3481</subfield>
+  <subfield code="r">arXiv:1111.2602</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.20573.x</subfield>
+  <subfield code="r">arXiv:1111.2602</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">945567</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">L. Lombriser, K. Koyama, G.-B. Zhao and B. Li</subfield>
+  <subfield code="m">Chameleon f(R) gravity in the virialized cluster Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D85,124054</subfield>
+  <subfield code="r">arXiv:1203.5125</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.124054</subfield>
+  <subfield code="r">arXiv:1203.5125</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1094708</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">J. Lee, G.-B. Zhao, B. Li and K. Koyama</subfield>
+  <subfield code="m">Modified gravity spins up galactic halos IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,763,28</subfield>
+  <subfield code="r">arXiv:1204.6608</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/763/1/28</subfield>
+  <subfield code="r">arXiv:1204.6608</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1112912</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">E. Jennings, C.M. Baugh, B. Li, G.-B. Zhao and K. Koyama</subfield>
+  <subfield code="m">Redshift space distortions in f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,425,2128</subfield>
+  <subfield code="r">arXiv:1205.2698</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.21567.x</subfield>
+  <subfield code="r">arXiv:1205.2698</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1114401</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">B. Li, W.A. Hellwing, K. Koyama, G.-B. Zhao, E. Jennings and C.M. Baugh</subfield>
+  <subfield code="m">The nonlinear matter and velocity power spectra in f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,428,743</subfield>
+  <subfield code="r">arXiv:1206.4317</subfield>
+  <subfield code="a">doi:10.1093/mnras/sts072</subfield>
+  <subfield code="r">arXiv:1206.4317</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1118793</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">B. Li, G. Zhao</subfield>
+  <subfield code="m">Roy. Teyssier and K. Koyama,ECOSMOG: an Efficient COde for Simulating MOdified Gravity IOPscience:</subfield>
+  <subfield code="s">JCAP,1201,051</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2012/01/051</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">931527</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">R. Teyssier</subfield>
+  <subfield code="m">Cosmological hydrodynamics with adaptive mesh refinement: a new high resolution code called ramses Crossref: Preprint:</subfield>
+  <subfield code="s">Astron.Astrophys.,385,337</subfield>
+  <subfield code="r">astro-ph/0111367</subfield>
+  <subfield code="a">doi:10.1051/0004-6361:20011817</subfield>
+  <subfield code="r">arXiv:astro-ph/0111367</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">578019</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">P. Brax, A.-C. Davis and B. Li</subfield>
+  <subfield code="m">Modified gravity tomography Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Lett.,B715,38</subfield>
+  <subfield code="r">arXiv:1111.6613</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2012.08.002</subfield>
+  <subfield code="r">arXiv:1111.6613</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1079216</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">P. Brax, A.-C. Davis, B. Li and H.A. Winther</subfield>
+  <subfield code="m">A unified description of screened modified gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D86,044015</subfield>
+  <subfield code="r">arXiv:1203.4812</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.044015</subfield>
+  <subfield code="r">arXiv:1203.4812</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1094531</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">P. Brax, A.C. Davis, B. Li, H.A. Winther and G. Zhao</subfield>
+  <subfield code="m">Systematic simulations of modified gravity: symmetron and dilaton models IOPscience:</subfield>
+  <subfield code="s">JCAP,1210,002</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2012/10/002</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1118476</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">P. Brax, A.C. Davis, B. Li, H.A. Winther and G. Zhao</subfield>
+  <subfield code="m">Systematic simulations of modified gravity: chameleon models IOPscience:</subfield>
+  <subfield code="s">JCAP,1304,029</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2013/04/029</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1222064</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">E. Puchwein, M. Baldi and V. Springel</subfield>
+  <subfield code="m">Modified gravity-GADGET: a new code for cosmological hydrodynamical simulations of modified gravity models Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,436,348</subfield>
+  <subfield code="r">arXiv:1305.2418</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1575</subfield>
+  <subfield code="r">arXiv:1305.2418</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1233009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">C. Llinares, D.F. Mota and H.A. Winther</subfield>
+  <subfield code="m">ISIS: a new N-body cosmological code with scalar fields based on RAMSES Code presentation and application to the shapes of clusters Crossref:</subfield>
+  <subfield code="s">Astron.Astrophys.,562,78</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201322412</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1244499</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">H. Wilcox, R.C. Nichol, G.-B. Zhao, D. Bacon, K. Koyama and A.K. Romer</subfield>
+  <subfield code="m">Simulation tests of galaxy cluster constraints on chameleon gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,462,715</subfield>
+  <subfield code="r">arXiv:1603.05911</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw1617</subfield>
+  <subfield code="r">arXiv:1603.05911</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1430038</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">H.A. Winther et al.</subfield>
+  <subfield code="m">Modified gravity n-body code comparison project Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,454,4208</subfield>
+  <subfield code="r">arXiv:1506.06384</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv2253</subfield>
+  <subfield code="r">arXiv:1506.06384</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1377320</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">G.R. Dvali, G. Gabadadze and M. Porrati</subfield>
+  <subfield code="m">4D gravity on a brane in 5D Minkowski space Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Lett.,B485,208</subfield>
+  <subfield code="r">hep-th/0005016</subfield>
+  <subfield code="a">doi:10.1016/S0370-2693(00)00669-9</subfield>
+  <subfield code="r">arXiv:hep-th/0005016</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">526784</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">P. Brax and P. Valageas</subfield>
+  <subfield code="m">K-mouflage cosmology: the background evolution Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D90,023507</subfield>
+  <subfield code="r">arXiv:1403.5420</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.023507</subfield>
+  <subfield code="r">arXiv:1403.5420</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1286736</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">P. Brax and P. Valageas</subfield>
+  <subfield code="m">K-mouflage cosmology: formation of large-scale structures Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D90,023508</subfield>
+  <subfield code="r">arXiv:1403.5424</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.023508</subfield>
+  <subfield code="r">arXiv:1403.5424</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1286738</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">A.I. Vainshtein</subfield>
+  <subfield code="m">To the problem of nonvanishing gravitation mass Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B39,393</subfield>
+  <subfield code="a">doi:10.1016/0370-2693(72)90147-5</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="0">75796</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">C. de Rham, G. Gabadadze and A.J. Tolley</subfield>
+  <subfield code="m">Resummation of massive gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,106,231101</subfield>
+  <subfield code="r">arXiv:1011.1232</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.106.231101</subfield>
+  <subfield code="r">arXiv:1011.1232</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">875509</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">F. Sbisa, G. Niz, K. Koyama and G. Tasinato</subfield>
+  <subfield code="m">Characterising Vainshtein solutions in massive gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D86,024033</subfield>
+  <subfield code="r">arXiv:1204.1193</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.024033</subfield>
+  <subfield code="r">arXiv:1204.1193</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1104733</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="h">G. Chkareuli and D. Pirtskhalava</subfield>
+  <subfield code="m">Vainshtein mechanism in Λ3-theories Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Lett.,B713,99</subfield>
+  <subfield code="r">arXiv:1105.1783</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2012.05.030</subfield>
+  <subfield code="r">arXiv:1105.1783</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">899123</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="h">A. Nicolis, R. Rattazzi and E. Trincherini</subfield>
+  <subfield code="m">The Galileon as a local modification of gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D79,064036</subfield>
+  <subfield code="r">arXiv:0811.2197</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.79.064036</subfield>
+  <subfield code="r">arXiv:0811.2197</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">802539</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="h">C. Deffayet, G. Esposito-Farese and A. Vikman</subfield>
+  <subfield code="m">Covariant Galileon Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D79,084003</subfield>
+  <subfield code="r">arXiv:0901.1314</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.79.084003</subfield>
+  <subfield code="r">arXiv:0901.1314</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">810705</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="h">C. Burrage and D. Seery</subfield>
+  <subfield code="m">Revisiting fifth forces in the Galileon model IOPscience:</subfield>
+  <subfield code="s">JCAP,1008,011</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2010/08/011</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">855896</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">N. Kaloper, A. Padilla and N. Tanahashi</subfield>
+  <subfield code="m">Galileon hairs of Dyson spheres, Vainshtein&apos;s coiffure and Hirsute bubbles J. High Energy Phys. JHEP10148 Crossref: Preprint:</subfield>
+  <subfield code="r">arXiv:1106.4827</subfield>
+  <subfield code="a">doi:10.1007/JHEP10(2011)148</subfield>
+  <subfield code="r">arXiv:1106.4827</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">915892</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">A. De Felice, R. Kase and S. Tsujikawa</subfield>
+  <subfield code="m">Vainshtein mechanism in second-order scalar-tensor theories Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D85,044059</subfield>
+  <subfield code="r">arXiv:1111.5090</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.044059</subfield>
+  <subfield code="r">arXiv:1111.5090</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">947039</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">R. Kimura, T. Kobayashi and K. Yamamoto</subfield>
+  <subfield code="m">Vainshtein screening in a cosmological background in the most general second-order scalar-tensor theory Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D85,024023</subfield>
+  <subfield code="r">arXiv:1111.6749</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.85.024023</subfield>
+  <subfield code="r">arXiv:1111.6749</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1079190</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">N. Chow and J. Khoury</subfield>
+  <subfield code="m">Galileon cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D80,024037</subfield>
+  <subfield code="r">arXiv:0905.1325</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.80.024037</subfield>
+  <subfield code="r">arXiv:0905.1325</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">819856</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">F.P. Silva and K. Koyama</subfield>
+  <subfield code="m">Self-accelerating universe in galileon cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D80,121301</subfield>
+  <subfield code="r">arXiv:0909.4538</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.80.121301</subfield>
+  <subfield code="r">arXiv:0909.4538</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">832119</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">R. Gannouji and M. Sami</subfield>
+  <subfield code="m">Galileon gravity and its relevance to late time cosmic acceleration Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D82,024011</subfield>
+  <subfield code="r">arXiv:1004.2808</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.024011</subfield>
+  <subfield code="r">arXiv:1004.2808</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">852185</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">A. De Felice and S. Tsujikawa</subfield>
+  <subfield code="m">Cosmology of a covariant Galileon field Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,105,111301</subfield>
+  <subfield code="r">arXiv:1007.2700</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.105.111301</subfield>
+  <subfield code="r">arXiv:1007.2700</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">861732</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">S. Nesseris, A. De Felice and S. Tsujikawa</subfield>
+  <subfield code="m">Observational constraints on Galileon cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D82,124054</subfield>
+  <subfield code="r">arXiv:1010.0407</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.124054</subfield>
+  <subfield code="r">arXiv:1010.0407</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">871747</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="h">A. Ali, R. Gannouji and M. Sami</subfield>
+  <subfield code="m">Modified gravity a la Galileon: late time cosmic acceleration and observational constraints Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D82,103015</subfield>
+  <subfield code="r">arXiv:1008.1588</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.82.103015</subfield>
+  <subfield code="r">arXiv:1008.1588</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">865064</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">P. Brax, C. Burrage and A.C. Davis</subfield>
+  <subfield code="m">Laboratory tests of the Galileon IOPscience:</subfield>
+  <subfield code="s">JCAP,1109,020</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2011/09/020</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">913046</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="h">S.A. Appleby and E.V. Linder</subfield>
+  <subfield code="m">The paths of gravity in galileon cosmology IOPscience:</subfield>
+  <subfield code="s">JCAP,1203,043</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2012/03/043</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1080791</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="h">S.A. Appleby and E.V. Linder</subfield>
+  <subfield code="m">Trial of Galileon gravity by cosmological expansion and growth observations IOPscience:</subfield>
+  <subfield code="s">JCAP,1208,026</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2012/08/026</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1111617</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="h">A. Barreira, B. Li, C.M. Baugh and S. Pascoli</subfield>
+  <subfield code="m">Linear perturbations in Galileon gravity models Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D86,124016</subfield>
+  <subfield code="r">arXiv:1208.0600</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.124016</subfield>
+  <subfield code="r">arXiv:1208.0600</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1125800</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">J. Neveu et al.</subfield>
+  <subfield code="m">Experimental constraints on the uncoupled Galileon model from SNLS3 data and other cosmological probes Crossref:</subfield>
+  <subfield code="s">Astron.Astrophys.,555,53</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201321256</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1218970</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">J. Noller and J. Magueijo</subfield>
+  <subfield code="m">Non-Gaussianity in single field models without slow-roll Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D83,103511</subfield>
+  <subfield code="r">arXiv:1102.0275</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.83.103511</subfield>
+  <subfield code="r">arXiv:1102.0275</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">886254</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="h">A. Barreira et al.</subfield>
+  <subfield code="m">Halo model and halo properties in Galileon gravity cosmologies IOPscience:</subfield>
+  <subfield code="s">JCAP,1404,029</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2014/04/029</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1276287</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">B. Falck, K. Koyama, G. B. Zhao and B. Li</subfield>
+  <subfield code="m">The Vainshtein mechanism in the cosmic web IOPscience:</subfield>
+  <subfield code="s">JCAP,1407,058</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2014/07/058</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1289037</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">B. Falck, K. Koyama and G.B. Zhao</subfield>
+  <subfield code="m">Cosmic web and environmental dependence of screening: Vainshtein vs. chameleon IOPscience:</subfield>
+  <subfield code="s">JCAP,1507,049</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2015/07/049</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1355189</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="h">H. Okada, T. Totani and S. Tsujikawa</subfield>
+  <subfield code="m">Constraints on f(R) theory and Galileons from the latest data of galaxy redshift surveys Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D87,103002</subfield>
+  <subfield code="r">arXiv:1208.4681</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.87.103002</subfield>
+  <subfield code="r">arXiv:1208.4681</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1180170</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">M. Wyman, E. Jennings and M. Lima</subfield>
+  <subfield code="m">Simulations of Galileon modified gravity: clustering statistics in real and redshift space Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D88,084029</subfield>
+  <subfield code="r">arXiv:1303.6630</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.084029</subfield>
+  <subfield code="r">arXiv:1303.6630</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1225597</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="h">Y. Zu, D.H. Weinberg, E. Jennings, B. Li and M. Wyman</subfield>
+  <subfield code="m">Galaxy infall kinematics as a test of modified gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,445,1885</subfield>
+  <subfield code="r">arXiv:1310.6768</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu1739</subfield>
+  <subfield code="r">arXiv:1310.6768</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1262465</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">A. Barreira, S. Bose, B. Li and C. Llinares</subfield>
+  <subfield code="m">Weak lensing by galaxy troughs with modified gravity IOPscience: Preprint:</subfield>
+  <subfield code="s">JCAP,1702,031</subfield>
+  <subfield code="r">arXiv:1605.08436</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2017/02/031</subfield>
+  <subfield code="r">arXiv:1605.08436</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1465824</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">J. Neveu et al.</subfield>
+  <subfield code="m">Constraining the ΛCDM and Galileon models with recent cosmological data Preprint:</subfield>
+  <subfield code="r">arXiv:1605.02627</subfield>
+  <subfield code="r">arXiv:1605.02627</subfield>
+  <subfield code="0">1456767</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="m">eROSITA collaboration eROSITA science book: mapping the Structure of the Energetic Universe Preprint:</subfield>
+  <subfield code="h">A. Merloni et al.</subfield>
+  <subfield code="r">arXiv:1209.3114</subfield>
+  <subfield code="r">arXiv:1209.3114</subfield>
+  <subfield code="0">1185540</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">81</subfield>
+  <subfield code="u">http://www.mpe.mpg.de/eROSITA/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">82</subfield>
+  <subfield code="m">EUCLID collaboration Euclid Definition Study Report Preprint:</subfield>
+  <subfield code="h">R. Laureijs et al.</subfield>
+  <subfield code="r">arXiv:1110.3193</subfield>
+  <subfield code="r">arXiv:1110.3193</subfield>
+  <subfield code="0">940088</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">83</subfield>
+  <subfield code="u">http://desi.lbl.gov/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">84</subfield>
+  <subfield code="m">DESI collaboration The DESI experiment part I: science, targeting and survey design Preprint:</subfield>
+  <subfield code="h">A. Aghamousa et al.</subfield>
+  <subfield code="r">arXiv:1611.00036</subfield>
+  <subfield code="r">arXiv:1611.00036</subfield>
+  <subfield code="0">1495394</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">85</subfield>
+  <subfield code="m">DESI collaboration The DESI experiment part II: instrument design Preprint:</subfield>
+  <subfield code="h">A. Aghamousa et al.</subfield>
+  <subfield code="r">arXiv:1611.00037</subfield>
+  <subfield code="r">arXiv:1611.00037</subfield>
+  <subfield code="0">1495395</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">86</subfield>
+  <subfield code="m">DESI collaboration The DESI experiment, a whitepaper for Snowmass Preprint:</subfield>
+  <subfield code="h">M. Levi et al.</subfield>
+  <subfield code="r">arXiv:1308.0847</subfield>
+  <subfield code="r">arXiv:1308.0847</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1246316</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">87</subfield>
+  <subfield code="m">LSST collaboration LSST: from science drivers to reference design and anticipated data products Preprint:</subfield>
+  <subfield code="h">Z. Ivezic et al.</subfield>
+  <subfield code="r">arXiv:0805.2366</subfield>
+  <subfield code="r">arXiv:0805.2366</subfield>
+  <subfield code="0">785865</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">88</subfield>
+  <subfield code="h">K. Koyama</subfield>
+  <subfield code="m">Cosmological tests of modified gravity IOPscience:</subfield>
+  <subfield code="s">Rept.Prog.Phys.,79,046902</subfield>
+  <subfield code="a">doi:10.1088/0034-4885/79/4/046902</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1362135</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">89</subfield>
+  <subfield code="h">H.A. Winther and P.G. Ferreira</subfield>
+  <subfield code="m">Fast route to nonlinear clustering statistics in modified gravity theories Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D91,123507</subfield>
+  <subfield code="r">arXiv:1403.6492</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.123507</subfield>
+  <subfield code="r">arXiv:1403.6492</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1287314</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">90</subfield>
+  <subfield code="h">A. Barreira, S. Bose and B. Li</subfield>
+  <subfield code="m">Speeding up N-body simulations of modified gravity: Vainshtein screening models IOPscience:</subfield>
+  <subfield code="s">JCAP,1512,059</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2015/12/059</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1406544</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">91</subfield>
+  <subfield code="h">B. Li and G. Efstathiou</subfield>
+  <subfield code="m">An extended excursion set approach to structure formation in chameleon models Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,421,1431</subfield>
+  <subfield code="r">arXiv:1110.6440</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.20404.x</subfield>
+  <subfield code="r">arXiv:1110.6440</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">943869</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">92</subfield>
+  <subfield code="h">G.-B. Zhao</subfield>
+  <subfield code="m">Modeling the nonlinear clustering in modified gravity models. I. A fitting formula for the matter power spectrum of f(R) gravity IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,211,23</subfield>
+  <subfield code="r">arXiv:1312.1291</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/211/2/23</subfield>
+  <subfield code="r">arXiv:1312.1291</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1267477</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">93</subfield>
+  <subfield code="h">A.J. Mead, J.A. Peacock, L. Lombriser and B. Li</subfield>
+  <subfield code="m">Rapid simulation rescaling from standard to modified gravity models Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,452,4203</subfield>
+  <subfield code="r">arXiv:1412.5195</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv1484</subfield>
+  <subfield code="r">arXiv:1412.5195</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1334638</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">94</subfield>
+  <subfield code="h">M. Cataneo, D. Rapetti, L. Lombriser and B. Li</subfield>
+  <subfield code="m">Cluster abundance in chameleon f(R) gravity I: toward an accurate halo mass function prediction IOPscience: Preprint:</subfield>
+  <subfield code="s">JCAP,1612,024</subfield>
+  <subfield code="r">arXiv:1607.08788</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2016/12/024</subfield>
+  <subfield code="r">arXiv:1607.08788</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1478575</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">95</subfield>
+  <subfield code="h">S. Bose, W.A. Hellwing and B. Li</subfield>
+  <subfield code="m">Testing the quasi-static approximation in f(R) gravity simulations IOPscience:</subfield>
+  <subfield code="s">JCAP,1502,034</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2015/02/034</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1329743</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">96</subfield>
+  <subfield code="h">B. Jain, V. Vikram and J. Sakstein</subfield>
+  <subfield code="m">Astrophysical tests of modified gravity: constraints from distance indicators in the nearby universe IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,779,39</subfield>
+  <subfield code="r">arXiv:1204.6044</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/779/1/39</subfield>
+  <subfield code="r">arXiv:1204.6044</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1112709</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">97</subfield>
+  <subfield code="h">V. Vikram, A. Cabre, B. Jain and J.T. Van der Plas</subfield>
+  <subfield code="m">Astrophysical tests of modified gravity: the morphology and kinematics of dwarf galaxies IOPscience:</subfield>
+  <subfield code="s">JCAP,1308,020</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2013/08/020</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1222254</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">98</subfield>
+  <subfield code="h">L. Lombriser</subfield>
+  <subfield code="m">Constraining chameleon models with cosmology Crossref: Preprint:</subfield>
+  <subfield code="s">Annals Phys.,526,259</subfield>
+  <subfield code="r">arXiv:1403.4268</subfield>
+  <subfield code="a">doi:10.1002/andp.201400058</subfield>
+  <subfield code="r">arXiv:1403.4268</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1286275</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">99</subfield>
+  <subfield code="h">C. Burrage and J. Sakstein</subfield>
+  <subfield code="m">A Compendium of Chameleon Constraints IOPscience: Preprint:</subfield>
+  <subfield code="s">JCAP,1611,045</subfield>
+  <subfield code="r">arXiv:1609.01192</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2016/11/045</subfield>
+  <subfield code="r">arXiv:1609.01192</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1485176</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">100</subfield>
+  <subfield code="h">A. Terukina et al.</subfield>
+  <subfield code="m">Testing chameleon gravity with the Coma cluster IOPscience:</subfield>
+  <subfield code="s">JCAP,1404,013</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2014/04/013</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1272652</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">101</subfield>
+  <subfield code="h">H. Wilcox et al.</subfield>
+  <subfield code="m">The XMM cluster survey: testing chameleon gravity using the profiles of clusters Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,452,1171</subfield>
+  <subfield code="r">arXiv:1504.03937</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv1366</subfield>
+  <subfield code="r">arXiv:1504.03937</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1359784</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">102</subfield>
+  <subfield code="h">M. Cataneo et al.</subfield>
+  <subfield code="m">New constraints on f(R) gravity from clusters of galaxies Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D92,044009</subfield>
+  <subfield code="r">arXiv:1412.0133</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.92.044009</subfield>
+  <subfield code="r">arXiv:1412.0133</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1331730</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">103</subfield>
+  <subfield code="h">X. Liu et al.</subfield>
+  <subfield code="m">Constraining f(R) gravity theory using weak lensing peak statistics from the Canada-France-Hawaii-Telescope lensing survey Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,117,051101</subfield>
+  <subfield code="r">arXiv:1607.00184</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.117.051101</subfield>
+  <subfield code="r">arXiv:1607.00184</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1473313</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">104</subfield>
+  <subfield code="h">Y.-C. Cai, N. Padilla and B. Li</subfield>
+  <subfield code="m">Testing gravity using cosmic voids Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,451,1036</subfield>
+  <subfield code="r">arXiv:1410.1510</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv777</subfield>
+  <subfield code="r">arXiv:1410.1510</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1320545</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">105</subfield>
+  <subfield code="h">S. Peirone, M. Raveri, M. Viel, S. Borgani and S. Ansoldi</subfield>
+  <subfield code="m">Constraining f(R) Gravity with Planck Sunyaev-Zel&apos;dovich Clusters Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D95,023521</subfield>
+  <subfield code="r">arXiv:1607.07863</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.95.023521</subfield>
+  <subfield code="r">arXiv:1607.07863</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1478028</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">106</subfield>
+  <subfield code="h">H. Martel and P.R. Shapiro</subfield>
+  <subfield code="m">A convenient set of comoving cosmological variables and their application Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,297,467</subfield>
+  <subfield code="r">astro-ph/9710119</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.1998.01497.x</subfield>
+  <subfield code="r">arXiv:astro-ph/9710119</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">440057</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">107</subfield>
+  <subfield code="h">A. Brandt</subfield>
+  <subfield code="m">Multi-level adaptive solutions to boundary-value problems Crossref:</subfield>
+  <subfield code="s">Math.Comput.,31,333</subfield>
+  <subfield code="a">doi:10.1090/S0025-5718-1977-0431719-X</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">108</subfield>
+  <subfield code="h">V. Springel et al.</subfield>
+  <subfield code="m">Simulations of the formation, evolution and clustering of galaxies and quasars Crossref:</subfield>
+  <subfield code="s">Nature,435,629</subfield>
+  <subfield code="a">doi:10.1038/nature03597</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">679676</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">109</subfield>
+  <subfield code="m">Planck collaboration Planck 2015 results XIII. Cosmological parameters Crossref:</subfield>
+  <subfield code="h">P.A.R. Ade et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,594,A13</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201525830</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1343079</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">110</subfield>
+  <subfield code="m">WMAP collaboration Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: cosmological interpretation IOPscience: Preprint:</subfield>
+  <subfield code="h">E. Komatsu et al.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,192,18</subfield>
+  <subfield code="r">arXiv:1001.4538</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/192/2/18</subfield>
+  <subfield code="r">arXiv:1001.4538</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">843543</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">111</subfield>
+  <subfield code="h">S. Colombi, A.H. Jaffe, D. Novikov and C. Pichon</subfield>
+  <subfield code="m">Accurate estimators of power spectra in N-body simulations Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,393,511</subfield>
+  <subfield code="r">arXiv:0811.0313</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.14176.x</subfield>
+  <subfield code="r">arXiv:0811.0313</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">801402</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">112</subfield>
+  <subfield code="h">R. Juszkiewicz, F.R. Bouchet and S. Colombi</subfield>
+  <subfield code="m">Skewness induced by gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,412,L9</subfield>
+  <subfield code="r">astro-ph/9306003</subfield>
+  <subfield code="a">doi:10.1086/186927</subfield>
+  <subfield code="r">arXiv:astro-ph/9306003</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="0">35149</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">113</subfield>
+  <subfield code="h">F. Bernardeau</subfield>
+  <subfield code="m">Skewness and kurtosis in large-scale cosmic fields Crossref: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,433,1</subfield>
+  <subfield code="r">astro-ph/9312026</subfield>
+  <subfield code="a">doi:10.1086/174620</subfield>
+  <subfield code="r">arXiv:astro-ph/9312026</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">359708</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">114</subfield>
+  <subfield code="h">W.A. Hellwing, B. Li, C.S. Frenk and S. Cole</subfield>
+  <subfield code="m">Hierarchical clustering in chameleon f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,435,2806</subfield>
+  <subfield code="r">arXiv:1305.7486</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1430</subfield>
+  <subfield code="r">arXiv:1305.7486</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1236343</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">115</subfield>
+  <subfield code="h">M.A. Strauss et al.</subfield>
+  <subfield code="m">A redshift survey of IRAS galaxies. V — The acceleration on the Local Group Crossref:</subfield>
+  <subfield code="s">Astrophys.J.,397,395</subfield>
+  <subfield code="a">doi:10.1086/171796</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">116</subfield>
+  <subfield code="h">M.J. Chodorowski and P. Ciecielag</subfield>
+  <subfield code="m">Local group velocity versus gravity: the coherence function Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,331,133</subfield>
+  <subfield code="r">astro-ph/0109291</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2002.05161.x</subfield>
+  <subfield code="r">arXiv:astro-ph/0109291</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">576844</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">117</subfield>
+  <subfield code="h">D. Shi, B. Li, J. Han, L. Gao and W.A. Hellwing</subfield>
+  <subfield code="m">Exploring the liminality: properties of haloes and subhaloes in borderline f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,452,3179</subfield>
+  <subfield code="r">arXiv:1503.01109</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv1549</subfield>
+  <subfield code="r">arXiv:1503.01109</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1347216</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">118</subfield>
+  <subfield code="h">A. Hammami, C. Llinares, D.F. Mota and H.A. Winther</subfield>
+  <subfield code="m">Hydrodynamic effects in the symmetron and f(R)-gravity models Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,449,3635</subfield>
+  <subfield code="r">arXiv:1503.02004</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv529</subfield>
+  <subfield code="r">arXiv:1503.02004</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1348524</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">119</subfield>
+  <subfield code="h">C. Arnold, V. Springel and E. Puchwein</subfield>
+  <subfield code="m">Zoomed cosmological simulations of Milky Way-sized haloes in f(R) gravity Crossref: Preprint:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,462,1530</subfield>
+  <subfield code="r">arXiv:1604.06095</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw1708</subfield>
+  <subfield code="r">arXiv:1604.06095</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1449950</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">120</subfield>
+  <subfield code="h">B. Li, G.B. Zhao and K. Koyama</subfield>
+  <subfield code="m">Exploring Vainshtein mechanism on adaptively refined meshes IOPscience:</subfield>
+  <subfield code="s">JCAP,1305,023</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2013/05/023</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1222065</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">121</subfield>
+  <subfield code="h">B. Li et al.</subfield>
+  <subfield code="m">Simulating the quartic Galileon gravity model on adaptively refined meshes IOPscience:</subfield>
+  <subfield code="s">JCAP,1311,012</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2013/11/012</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1249345</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">122</subfield>
+  <subfield code="h">A. Barreira et al.</subfield>
+  <subfield code="m">Nonlinear structure formation in the cubic Galileon gravity model IOPscience:</subfield>
+  <subfield code="s">JCAP,1310,027</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2013/10/027</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1238540</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">123</subfield>
+  <subfield code="h">A.-C. Davis, B. Li, D.F. Mota and H.A. Winther</subfield>
+  <subfield code="m">Structure formation in the symmetron model IOPscience: Preprint:</subfield>
+  <subfield code="s">Astrophys.J.,748,61</subfield>
+  <subfield code="r">arXiv:1108.3081</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/748/1/61</subfield>
+  <subfield code="r">arXiv:1108.3081</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">924207</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">124</subfield>
+  <subfield code="h">C. Llinares and L. Pogosian</subfield>
+  <subfield code="m">Domain walls coupled to matter: the symmetron example Crossref: Preprint:</subfield>
+  <subfield code="s">Phys.Rev.,D90,124041</subfield>
+  <subfield code="r">arXiv:1410.2857</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.90.124041</subfield>
+  <subfield code="r">arXiv:1410.2857</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1321527</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

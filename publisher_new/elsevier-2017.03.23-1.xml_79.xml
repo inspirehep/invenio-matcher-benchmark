@@ -1,0 +1,886 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.054</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Moortgat, Joachim</subfield>
+    <subfield code="j">ORCID:0000-0002-0259-3597</subfield>
+    <subfield code="v">School of Earth Sciences, the Ohio State University, Columbus, OH, USA</subfield>
+    <subfield code="m">moortgat.1@osu.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Mixed-hybrid and vertex-discontinuous-Galerkin finite element modeling of multiphase compositional flow on 3D unstructured grids</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Problems of interest in hydrogeology and hydrocarbon resources involve complex heterogeneous geological formations. Such domains are most accurately represented in reservoir simulations by unstructured computational grids. Finite element methods accurately describe flow on unstructured meshes with complex geometries, and their flexible formulation allows implementation on different grid types. In this work, we consider for the first time the challenging problem of fully compositional three-phase flow in 3D unstructured grids, discretized by any combination of tetrahedra, prisms, and hexahedra. We employ a mass conserving mixed hybrid finite element (MHFE) method to solve for the pressure and flux fields. The transport equations are approximated with a higher-order vertex-based discontinuous Galerkin (DG) discretization. We show that this approach outperforms a face-based implementation of the same polynomial order. These methods are well suited for heterogeneous and fractured reservoirs, because they provide globally continuous pressure and flux fields, while allowing for sharp discontinuities in compositions and saturations. The higher-order accuracy improves the modeling of strongly non-linear flow, such as gravitational and viscous fingering. We review the literature on unstructured reservoir simulation models, and present many examples that consider gravity depletion, water flooding, and gas injection in oil saturated reservoirs. We study convergence rates, mesh sensitivity, and demonstrate the wide applicability of our chosen finite element methods for challenging multiphase flow problems in geometrically complex subsurface media.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured 3D grids</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Higher-order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compositional</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compressible</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mixed Hybrid Finite Elements</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SPE 10</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Egg model</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Firoozabadi, Abbas</subfield>
+    <subfield code="v">Reservoir Engineering Research Institute, Palo Alto, CA, 94301, USA</subfield>
+    <subfield code="v">Department of Chemical and Environmental Engineering, Yale University, New Haven, CT, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">476-500</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L.S. Fung, X.Y. Ding, A.H. Dogru</subfield>
+    <subfield code="m">Using unstructured grids for modeling densely-spaced complex wells in field-scale reservoir simulation, in: Paper SPE-17062-MS presented at the 6th International Petroleum Technology Conference, Beijing, China, March 26-28,, pp. 1-14</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fung, L.S.K.</subfield>
+    <subfield code="h">Dogru, A.H.</subfield>
+    <subfield code="t">Parallel unstructured-solver methods for simulation of complex giant reservoirs</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SPE J.,13,440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="h">Barkve, T.</subfield>
+    <subfield code="h">Bøe, Ø.</subfield>
+    <subfield code="h">Mannseth, T.</subfield>
+    <subfield code="t">Discretization on non-orthogonal, quadrilateral grids for inhomogeneous, anisotropic media</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,127,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, X.H.</subfield>
+    <subfield code="h">Parashkevov, R.R.</subfield>
+    <subfield code="t">Effect of grid deviation on flow solutions</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SPE J.,14,67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="h">Barkve, T.</subfield>
+    <subfield code="h">Bøe, Ø.</subfield>
+    <subfield code="h">Mannseth, T.</subfield>
+    <subfield code="t">Discretization on unstructured grids for inhomogeneous, anisotropic media. Part I: derivation of the methods</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,19,1700</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="t">Unstructured, control-volume distributed, full-tensor finite volume schemes with flow based grids</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Geosci.,6,433</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Zheng, H.</subfield>
+    <subfield code="t">Quasi-positive families of continuous Darcy-flux finite volume schemes on structured and unstructured grids</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,234,2152</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Zheng, H.</subfield>
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Pal, M.</subfield>
+    <subfield code="t">Continuous elliptic and multi-dimensional hyperbolic Darcy-flux finite-volume methods</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Comput.Fluids,46,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="h">Zheng, H.</subfield>
+    <subfield code="t">Quasi M-matrix multifamily continuous Darcy-flux approximations with full pressure support on structured and unstructured grids in three dimensions</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="t">Higher order cell-based multidimensional upwind schemes for flow in porous media on unstructured grids</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Comput.Methods Appl.Math.,259,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lamine, S.</subfield>
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="t">Multidimensional upwind convection schemes for flow in porous media on structured and unstructured quadrilateral grids</subfield>
+    <subfield code="v">234</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,234,2106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eymard, R.</subfield>
+    <subfield code="h">Gallouët, T.</subfield>
+    <subfield code="h">Herbin, R.</subfield>
+    <subfield code="t">Discretization of heterogeneous and anisotropic diffusion problems on general nonconforming meshes sushi: a scheme using stabilization and hybrid interfaces</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,30,1009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Droniou, J.</subfield>
+    <subfield code="h">Eymard, R.</subfield>
+    <subfield code="t">A mixed finite volume scheme for anisotropic diffusion problems on any grid</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Numer.Math.,105,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karimi-Fard, M.</subfield>
+    <subfield code="h">Durlofsky, L.</subfield>
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="t">An efficient discrete-fracture model applicable for general-purpose reservoir simulators</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SPE J.,9,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monteagudo, J.E.P.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Control-volume model for simulation of water injection in fractured media: incorporating matrix heterogeneity and reservoir wettability effects</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SPE J.,12,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schmid, K.S.</subfield>
+    <subfield code="h">Geiger, S.</subfield>
+    <subfield code="h">Sorbie, K.S.</subfield>
+    <subfield code="t">Higher order FE–FV method on unstructured grids for transport and two-phase flow with variable viscosity in heterogeneous porous media</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,241,416</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="t">An introduction to multipoint flux approximations for quadrilateral grids</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Geosci.,6,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kozdon, J.</subfield>
+    <subfield code="h">Mallison, B.</subfield>
+    <subfield code="h">Gerritsen, M.</subfield>
+    <subfield code="h">Chen, W.</subfield>
+    <subfield code="t">Multidimensional upwinding for multiphase transport in porous media</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SPE J.,16,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batista Fernandes, B.R.</subfield>
+    <subfield code="h">Marcondes, F.</subfield>
+    <subfield code="h">Sepehrnoori, K.</subfield>
+    <subfield code="t">Investigation of several interpolation functions for unstructured meshes in conjunction with compositional reservoir simulation</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Numer.Heat Transf., Part A, Appl.,64,974</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nordbotten, J.</subfield>
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="h">Eigestad, G.</subfield>
+    <subfield code="t">Monotonicity of control volume methods</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Numer.Math.,106,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="h">Eigestad, G.T.</subfield>
+    <subfield code="h">Mallison, B.T.</subfield>
+    <subfield code="h">Nordbotten, J.M.</subfield>
+    <subfield code="t">A compact multipoint flux approximation method with improved robustness</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Numer.Methods Partial Differ.Equ.,24,1329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Younes, A.</subfield>
+    <subfield code="h">Fahs, M.</subfield>
+    <subfield code="h">Belfort, B.</subfield>
+    <subfield code="t">Monotonicity of the cell-centred triangular MPFA method for saturated and unsaturated flow in heterogeneous porous media</subfield>
+    <subfield code="v">504</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Hydrol.,504,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aavatsmark, I.</subfield>
+    <subfield code="h">Eigestad, G.T.</subfield>
+    <subfield code="h">Heimsund, B.O.</subfield>
+    <subfield code="h">Mallison, B.T.</subfield>
+    <subfield code="h">Nordbotten, J.M.</subfield>
+    <subfield code="h">Qian, E.</subfield>
+    <subfield code="t">A new finite-volume approach to efficient discretization on challenging grids</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SPE J.,15,658</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matringe, S.F.</subfield>
+    <subfield code="h">Juanes, R.</subfield>
+    <subfield code="h">Tchelepi, H.A.</subfield>
+    <subfield code="t">A new mixed finite element and its related finite volume discretization on general hexahedral grids</subfield>
+    <subfield code="v">vol. 12</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salama, A.</subfield>
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">El Amin, M.F.</subfield>
+    <subfield code="t">A multipoint flux approximation of the steady-state heat conduction equation in anisotropic media</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Heat Transf.,135,041302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agélas, L.</subfield>
+    <subfield code="h">Masson, R.</subfield>
+    <subfield code="t">Convergence of the finite volume MPFA O scheme for heterogeneous anisotropic diffusion problems on general meshes</subfield>
+    <subfield code="v">346</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">C.R.Math.,346,1007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eymard, R.</subfield>
+    <subfield code="h">Guichard, C.</subfield>
+    <subfield code="h">Herbin, R.</subfield>
+    <subfield code="h">Masson, R.</subfield>
+    <subfield code="t">Vertex-centred discretization of multiphase compositional Darcy flows on general meshes</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Geosci.,16,987</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.D. Jackson, J.L. Gomes, P. Mostaghimi, J. Percival, B.S. Tollit, D. Pavlidis, C.C. Pain, A.H. El-Sheikh, A.H. Muggeridge, M.J. Blunt</subfield>
+    <subfield code="m">Reservoir modeling for flow simulation using surfaces, adaptive unstructured meshes, and control-volume-finite-element methods, in: Paper SPE-163633-MS presented at the SPE Reservoir Simulation Symposium, The Woodlands, Texas, 18-20 February, pp. 1-20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.</subfield>
+    <subfield code="t">An interior penalty finite element method with discontinuous elements</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,19,742</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="t">The finite element method with penalty</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Math.Comput.,27,221</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="h">Zlamal, M.</subfield>
+    <subfield code="t">Nonconforming elements in the finite element method with penalty</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,10,863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">An elliptic collocation finite element method with interior penalties</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,15,152</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Fortin, M.</subfield>
+    <subfield code="t">Mixed and Hybrid Finite Element Methods</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Shu, C.E.</subfield>
+    <subfield code="t">Discontinuous Galerkin Methods, Theory, Computation, and Applications</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dawson, C.</subfield>
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Compatible algorithms for coupled flow and transport</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Methods Appl.Math.,193,2565</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Riviere, B.</subfield>
+    <subfield code="h">Wheeler, M.</subfield>
+    <subfield code="h">Girault, V.</subfield>
+    <subfield code="t">A priori error estimates for finite element methods based on discontinuous approximation spaces for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,902</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Girault, V.</subfield>
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="h">Yotov, I.</subfield>
+    <subfield code="t">Coupling discontinuous Galerkin and mixed finite element discretizations using mortar finite elements</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,46,949</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Discontinuous Galerkin methods for coupled flow and reactive transport problems</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Appl.Numer.Math.,52,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t"><math altimg="si179.gif" display="inline" overflow="scroll"><msup><mrow><mi>l</mi></mrow><mrow><mn>2</mn></mrow></msup><mo stretchy="false">(</mo><msup><mrow><mi>h</mi></mrow><mrow><mn>1</mn></mrow></msup><mo stretchy="false">)</mo></math> norm a posteriori error estimation for discontinuous Galerkin approximations of reactive transport problems</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Sci.Comput.,22,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Symmetric and nonsymmetric discontinuous Galerkin methods for reactive transport in porous media</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,43,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Analysis of discontinuous Galerkin methods for multicomponent reactive transport problems</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Math.Appl.,52,637</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Anisotropic and dynamic mesh adaptation for discontinuous Galerkin methods applied to reactive transport</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,3382</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">A dynamic, adaptive, locally conservative and nonconforming solution strategy for transport phenomena in chemical engineering</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Chem.Eng.Commun.,193,1527</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Wheeler, M.F.</subfield>
+    <subfield code="t">Discontinuous Galerkin methods for simulating bioreactive transport of viruses in porous media</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Adv.Water Resour.,30,1696</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnold, D.</subfield>
+    <subfield code="h">Brezzi, F.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Marini, L.</subfield>
+    <subfield code="t">Unified analysis of discontinuous Galerkin methods for elliptic problems</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,39,1749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Persson, P.O.</subfield>
+    <subfield code="t">The compact discontinuous Galerkin (CDG) method for elliptic problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,1806</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for nonlinear convection–diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8841</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nguyen, N.C.</subfield>
+    <subfield code="h">Peraire, J.</subfield>
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="t">An implicit high-order hybridizable discontinuous Galerkin method for linear convection–diffusion equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Agélas, L.</subfield>
+    <subfield code="h">Di Pietro, D.A.</subfield>
+    <subfield code="h">Eymard, R.</subfield>
+    <subfield code="h">Masson, R.</subfield>
+    <subfield code="t">An abstract analysis framework for nonconforming approximations of anisotropic heterogeneous diffusion</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Int.J.Finite Vol.,7,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Di Pietro, D.A.</subfield>
+    <subfield code="h">Ern, A.</subfield>
+    <subfield code="t">Mathematical Aspects of Discontinuous Galerkin Methods, vol. 69</subfield>
+    <subfield code="p">Springer Science and Business Media Berlin</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="t">A sparse and high-order accurate line-based discontinuous Galerkin method for unstructured meshes</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,233,414</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scovazzi, G.</subfield>
+    <subfield code="h">Huang, H.</subfield>
+    <subfield code="h">Collis, S.S.</subfield>
+    <subfield code="h">Yin, J.</subfield>
+    <subfield code="t">A fully-coupled upwind discontinuous Galerkin method for incompressible porous media flows: high-order computations of viscous fingering instabilities in complex geometry</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,252,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chavent, G.</subfield>
+    <subfield code="h">Jaffre, J.</subfield>
+    <subfield code="t">Mathematical Models and Finite Elements for Reservoir Simulation, Studies in Mathematics and its Applications, </subfield>
+    <subfield code="p">Elsevier, North-Holland</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mose, R.</subfield>
+    <subfield code="h">Siegel, P.</subfield>
+    <subfield code="h">Ackerer, P.</subfield>
+    <subfield code="h">Chavent, G.</subfield>
+    <subfield code="t">Application of the mixed hybrid finite-element approximation in a groundwater-flow model – luxury or necessity</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Water Resour.Res.,30,3001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Mose, R.</subfield>
+    <subfield code="h">Philippe, B.</subfield>
+    <subfield code="h">Ackerer, P.</subfield>
+    <subfield code="t">Numerical reliability for mixed methods applied to flow problems in porous media</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Comput.Geosci.,6,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Douglas, J.</subfield>
+    <subfield code="h">Ewing, R.</subfield>
+    <subfield code="h">Wheeler, M.</subfield>
+    <subfield code="t">A time-discretization procedure for a mixed finite element approximation of miscible displacement in porous media</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">RAIRO.Anal.Numér.,17,249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Darlow, B.</subfield>
+    <subfield code="h">Ewing, R.</subfield>
+    <subfield code="h">Wheeler, M.</subfield>
+    <subfield code="t">Mixed finite-element method for miscible displacement problems in porous media</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SPE J.,24,391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Multicomponent fluid flow by discontinuous Galerkin and mixed methods in unfractured and fractured media</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Water Resour.Res.,41,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mikysta, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Implementation of higher-order methods for robust and efficient compositional simulation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2898</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Edwards, M.G.</subfield>
+    <subfield code="t">Higher-resolution hyperbolic-coupled-elliptic flux-continuous CVD schemes on structured and unstructured grids in 3-D</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,51,1079</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">An efficient numerical model for incompressible two-phase flow in fractured media</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Adv.Water Resour.,31,891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Compositional modeling by the combined discontinuous Galerkin and mixed methods</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">SPE J.,11,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Compositional modeling of discrete-fractured media without transfer functions by the discontinuous Galerkin and mixed methods</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">SPE J.,11,341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Numerical modeling of two-phase flow in heterogeneous permeable media with different capillarity pressures</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Adv.Water Resour.,31,56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Sun, S.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Compositional modeling of three-phase flow with gravity using higher-order finite element methods</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Water Resour.Res.,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2011WR011736</subfield>
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Three-phase compositional modeling of CO 2 injection by higher-order finite element methods with CPA equation of state for aqueous phase</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Water Resour.Res.,48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Cubic-plus-association equation of state for water-containing mixtures: is “cross association” necessary?</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">AIChE J.,55,1803</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/135563-PA</subfield>
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">Espósito, R.</subfield>
+    <subfield code="t">CO 2 injection in vertical and horizontal cores: measurements and numerical simulation</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">SPE J.,18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Three-phase compositional modeling with capillarity in heterogeneous and fractured media</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">SPE J.,18,1150</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Higher-order compositional modeling of three-phase flow in 3D fractured porous media based on cross-flow equilibrium</subfield>
+    <subfield code="v">250</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">J.Comput.Phys.,250,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christie, M.A.</subfield>
+    <subfield code="h">Blunt, M.J.</subfield>
+    <subfield code="t">Tenth SPE comparative solution project: a comparison of upscaling techniques</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">SPE Reserv.Eval.Eng.,4,308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jansen, J.D.</subfield>
+    <subfield code="h">Fonseca, R.M.</subfield>
+    <subfield code="h">Kahrobaei, S.</subfield>
+    <subfield code="h">Siraj, M.M.</subfield>
+    <subfield code="h">Van Essen, G.M.</subfield>
+    <subfield code="h">Van den Hof, P.M.J.</subfield>
+    <subfield code="t">The Egg model – a geological ensemble for reservoir simulation</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Geosci.Data J.,1,192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jansen, J.</subfield>
+    <subfield code="t">Egg Model</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peng, D.-Y.</subfield>
+    <subfield code="h">Robinson, D.B.</subfield>
+    <subfield code="t">A new two-constant equation of state</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Ind.Eng.Chem.Fundam.,15,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Higher-order compositional modeling with Fickian diffusion in unstructured and anisotropic media</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Adv.Water Resour.,33,951</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">Fickian diffusion in discrete-fractured media from chemical potential gradients and comparison to experiment</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Energy Fuels,27,5793</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Acs, G.</subfield>
+    <subfield code="h">Doleschall, S.</subfield>
+    <subfield code="h">Farkas, E.</subfield>
+    <subfield code="t">General purpose compositional model</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">SPE J.,25,543</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Watts, J.W.</subfield>
+    <subfield code="t">A compositional formulation of the pressure and saturation equations</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">SPE Reserv.Eng.,1,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shahraeeni, E.</subfield>
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="h">Firoozabadi, A.</subfield>
+    <subfield code="t">High resolution finite element methods for 3D simulation of compositionally triggered instabilities in porous media</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Comput.Geosci.,19,899</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoteit, H.</subfield>
+    <subfield code="h">Ackerer, P.</subfield>
+    <subfield code="h">Mose, R.</subfield>
+    <subfield code="h">Erhel, J.</subfield>
+    <subfield code="h">Philippe, B.</subfield>
+    <subfield code="t">New two-dimensional slope limiters for discontinuous Galerkin methods on arbitrary meshes</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,61,2566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moortgat, J.</subfield>
+    <subfield code="t">Viscous and gravitational fingering in multiphase compositional and compressible flow</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Adv.Water Resour.,89,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, H.</subfield>
+    <subfield code="t">Probability model for estimating three-phase relative permeability</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">J.Pet.Technol.,22,214</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, H.</subfield>
+    <subfield code="t">Estimation of three-phase relative permeability and residual oil data</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">J.Can.Pet.Technol.,12,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lie, K.-A.</subfield>
+    <subfield code="h">Krogstad, S.</subfield>
+    <subfield code="h">Ligaarden, I.S.</subfield>
+    <subfield code="h">Natvig, J.R.</subfield>
+    <subfield code="h">Nilsen, H.M.</subfield>
+    <subfield code="h">Skaflestad, B.</subfield>
+    <subfield code="t">Open source MATLAB implementation of consistent discretisations on complex grids</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Comput.Geosci.,16,297</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300171/S0021999116300171.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

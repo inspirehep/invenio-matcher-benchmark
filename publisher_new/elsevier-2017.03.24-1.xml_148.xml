@@ -1,0 +1,375 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.027</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Goshayeshi, Bijan</subfield>
+    <subfield code="v">High Performance Computing (HPC) Laboratory, Department of Mechanical Engineering, Ferdowsi University of Mashhad, P.O. Box 91775-1111, Mashhad, Iran</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">DSMC simulation of hypersonic flows using an improved SBT-TAS technique</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-12-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The current paper examines a new DSMC approach to hypersonic flow simulation consisting of a combination between the Simplified Bernoulli Trials (SBT) collision algorithm and the transient adaptive subcell (TAS) selection procedure. The SBT collision algorithm has already been introduced as a scheme that provides accurate results with a quite small number of particles per cells and its combination with the transient adaptive subcell (TAS) technique will enable SBT to have coarser grid sizes as well. In the current research, the no-time-counter (NTC) collision algorithm and nearest neighbor (NN) pair selection procedure of Bird DS2V code are substituted by the SBT-TAS and comparisons between the new algorithm and NTC-NN are made considering appropriate test cases including hypersonic cylinder flow and axisymmetric biconic flow. Hypersonic cylinder flow is a well-known benchmark problem with a wide collision frequency range while the biconic flow exhibits laminar shock/shock and shock/boundary-layer interactions. Improvements implemented in the SBT-TAS technique, including subcell volume estimation, surface properties filter, and time controller, are discussed in detail. The simulations of these hypersonic test cases demonstrated that from the viewpoint of consumed sample-size, SBT-TAS is an efficient collision technique.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Simplified Bernoulli-trials (SBT) scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Transient Adaptive Subcell (TAS)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Collision frequency</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mean Collision Separation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nearest Neighbor (NN)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Roohi, Ehsan</subfield>
+    <subfield code="j">ORCID:0000-0001-5739-3210</subfield>
+    <subfield code="v">High Performance Computing (HPC) Laboratory, Department of Mechanical Engineering, Ferdowsi University of Mashhad, P.O. Box 91775-1111, Mashhad, Iran</subfield>
+    <subfield code="m">e.roohi@ferdowsi.um.ac.ir</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Stefanov, Stefan</subfield>
+    <subfield code="v">Institute of Mechanics, Bulgarian Academy of Science, Acad. G. Bontchev Str., 1113, Sofia, Bulgaria</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">28-44</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics</subfield>
+    <subfield code="p">Oxford University Press Oxford</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows</subfield>
+    <subfield code="p">Oxford University Press Oxford</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wagner, W.</subfield>
+    <subfield code="t">A convergence proof for Bird's direct simulation Monte Carlo method for the Boltzmann equation</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Stat.Phys.,66,1011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belotserkovskii, O.M.</subfield>
+    <subfield code="h">Yanitskii, V.E.</subfield>
+    <subfield code="t">The statistical particles-in-cells method for solving rarefied gas dynamics problems</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">USSR Comput.Math.Math.Phys.,15,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yanitskiy, V.E.</subfield>
+    <subfield code="t">Operator approach to direct simulation Monte Carlo theory in rarefied gas dynamics</subfield>
+    <subfield code="p">New York: VCH</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="e">Beylich,A.</subfield>
+    <subfield code="q">Proceedings of the 17th Symposium on Rarefied Gas Dynamics</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stefanov, S.K.</subfield>
+    <subfield code="t">Particle Monte Carlo algorithms with small number of particles in grid cells</subfield>
+    <subfield code="v">vol. 6046</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.,vol. 6046,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stefanov, S.K.</subfield>
+    <subfield code="t">On DSMC calculation of rarefied gas flow s with small number of particles in cells</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,677</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amiri, A.</subfield>
+    <subfield code="h">Roohi, E.</subfield>
+    <subfield code="h">Niazmand, H.</subfield>
+    <subfield code="h">Stefanov, S.</subfield>
+    <subfield code="t">DSMC simulation of low Knudsen micro/nano flows using small number of particles per cells</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Heat Transf.,135,01008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shoja-Sani, A.</subfield>
+    <subfield code="h">Roohi, E.</subfield>
+    <subfield code="h">Kahrom, M.</subfield>
+    <subfield code="h">Stefanov, S.</subfield>
+    <subfield code="t">Investigation of rarefied gas flow around NACA 0012 airfoils using DSMC and NS solvers</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,48,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Direct simulation of high vorticity gas flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Fluids,30,364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stefanov, S.</subfield>
+    <subfield code="h">Boyd, I.D.</subfield>
+    <subfield code="h">Cai, C.-P.</subfield>
+    <subfield code="t">Monte Carlo analysis of macroscopic fluctuations in a rarefied hypersonic flow around a cylinder</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Fluids,12,1226</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stefanov, S.</subfield>
+    <subfield code="h">Roussinov, V.</subfield>
+    <subfield code="h">Cercignani, C.</subfield>
+    <subfield code="t">Rayleigh–Bénard flow of a rarefied gas and its attractors. I. Convection regime</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Fluids,14,2255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Visual DSMC program for two-dimensional and axially symmetric flows</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="q">The DS2V Program User's Guide, Ver. 2.1</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">The DS2V/3V program suite for DSMC calculations</subfield>
+    <subfield code="v">vol. 762</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Rarefied Gas Dynamics,vol. 762,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, C.C.</subfield>
+    <subfield code="h">Tseng, K.C.</subfield>
+    <subfield code="h">Cave, H.M.</subfield>
+    <subfield code="h">Wu, J.S.</subfield>
+    <subfield code="h">Lian, Y.Y.</subfield>
+    <subfield code="h">Kuo, T.C.</subfield>
+    <subfield code="h">Jermy, M.C.</subfield>
+    <subfield code="t">Implementation of a transient adaptive sub-cell module for the parallel-DSMC code using unstructured grids</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Fluids,39,1136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, C.C.</subfield>
+    <subfield code="h">Wu, J.S.</subfield>
+    <subfield code="h">Lo, M.C.</subfield>
+    <subfield code="h">Kuo, F.A.</subfield>
+    <subfield code="t">Development of parallel direct simulation Monte Carlo method using a cut-cell Cartesian grid on a single graphics processor</subfield>
+    <subfield code="v">101</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,101,114</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burt, J.M.</subfield>
+    <subfield code="h">Josyula, E.</subfield>
+    <subfield code="h">Boyd, I.D.</subfield>
+    <subfield code="t">Novel Cartesian implementation of the direct simulation Monte Carlo method</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Thermophys.Heat Transf.,26,258</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ivanov, M.S.</subfield>
+    <subfield code="h">Rogasinsky, S.V.</subfield>
+    <subfield code="t">Analysis of the numerical techniques of the direct simulation Monte Carlo method in the rarefied gas dynamics</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Sov.J.Numer.Anal.Math.Model.,3,453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amiri, A.</subfield>
+    <subfield code="h">Roohi, E.</subfield>
+    <subfield code="h">Stefanov, S.</subfield>
+    <subfield code="h">Nami, H.</subfield>
+    <subfield code="h">Niazmand, H.</subfield>
+    <subfield code="t">DSMC simulation of micro/nano flows using SBT-TAS technique</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Fluids,102,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Sophisticated versus simple DSMC</subfield>
+    <subfield code="p">Proceedings of the 25th International Symposium on Rarefied Gas Dynamics, St. Petersburg, Russia, 2006</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G.A. Bird</subfield>
+    <subfield code="m">Sophisticated DSMC, Notes prepared for a short course at the DSMC07 meeting, Santa Fe, USA</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="h">Gallis, M.A.</subfield>
+    <subfield code="h">Torczynski, J.R.</subfield>
+    <subfield code="h">Rader, D.J.</subfield>
+    <subfield code="t">Accuracy and efficiency of the sophisticated direct simulation Monte Carlo algorithm for simulating noncontinuum gas flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Fluids,21,017103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">The DSMC Method</subfield>
+    <subfield code="p">CreateSpace Independent Publishing Platform USA</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lofthouse, A.J.</subfield>
+    <subfield code="h">Boyd, I.D.</subfield>
+    <subfield code="h">Wright, J.M.</subfield>
+    <subfield code="t">Effects of continuum breakdown on hypersonic aerothermodynamics</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Fluids,19,027105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, C.C.</subfield>
+    <subfield code="h">Tseng, K.C.</subfield>
+    <subfield code="h">Wu, J.S.</subfield>
+    <subfield code="h">Cave, H.M.</subfield>
+    <subfield code="h">Jermy, M.C.</subfield>
+    <subfield code="h">Lian, Y.Y.</subfield>
+    <subfield code="t">Two-level virtual mesh refinement algorithm in a parallelized DSMC code using unstructured grids</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Fluids,48,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knight, D.</subfield>
+    <subfield code="t">RTO WG 10: test cases for CFD validation of hypersonic flight</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics Reston, VA</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">AIAA 2002-0433</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holden, M.S.</subfield>
+    <subfield code="h">Wadhams, T.P.</subfield>
+    <subfield code="h">Candler, G.V.</subfield>
+    <subfield code="h">Harvey, J.K.</subfield>
+    <subfield code="t">Measurements of regions of low density laminar shock wave/boundary layer interactions in hypersonic flows and comparison with Navier–Stokes predictions</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">AIAA 2003-1131</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moss, J.N.</subfield>
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Direct simulation Monte Carlo simulations of hypersonic flows with shock interactions</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">AIAA J.,43,2565</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallis, M.A.</subfield>
+    <subfield code="h">Torczynski, J.R.</subfield>
+    <subfield code="t">Effect of collision-partner selection schemes on the accuracy and efficiency of the direct simulation Monte Carlo method</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,67,1057</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeBeau, G.J.</subfield>
+    <subfield code="h">Boyles, K.A.</subfield>
+    <subfield code="h">Lumpkin, F.E.</subfield>
+    <subfield code="t">Virtual sub-cells for the direct simulation Monte Carlo method</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">AIAA 2003-1031</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Titov, E.</subfield>
+    <subfield code="h">Burt, J.</subfield>
+    <subfield code="h">Josyula, E.</subfield>
+    <subfield code="h">Nompelis, I.</subfield>
+    <subfield code="t">Implications of slip boundary conditions on surface properties in hypersonic flows</subfield>
+    <subfield code="p">43rd AIAA Thermophysics Conference, New Orleans, 2012</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">AIAA 2012-3307</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saadati, A.</subfield>
+    <subfield code="h">Roohi, E.</subfield>
+    <subfield code="t">Detailed investigation of flow and thermal field in micro/nano nozzle using Simplified Bernouli Trial (SBT) collision scheme in DSMC</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Aerosp.Sci.Technol.,46,236</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00209/S0021999115006208/S0021999115006208.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

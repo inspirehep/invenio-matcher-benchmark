@@ -1,0 +1,365 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.066</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Diggs, Angela</subfield>
+    <subfield code="v">Department of Mechanical &amp; Aerospace Engineering, University of Florida, Gainesville, FL, 32611, United States</subfield>
+    <subfield code="v">Air Force Research Laboratory, Munitions Directorate, Eglin AFB, FL, 32542, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Evaluation of methods for calculating volume fraction in Eulerian–Lagrangian multiphase flow simulations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The present work addresses numerical methods required to compute particle volume fraction or number density. Local volume fraction of the l th particle, <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>α</mi></mrow><mrow><mi>l</mi></mrow></msub></math> , is the quantity of foremost importance in calculating the gas-mediated particle–particle interaction effect in multiphase flows. A general multiphase flow with a distribution of Lagrangian particles inside a fluid flow discretized on an Eulerian grid is considered. Particle volume fraction is needed both as a Lagrangian quantity associated with each particle and also as an Eulerian quantity associated with the grid cell for Eulerian–Lagrangian simulations. In Grid-Based (GB) methods the particle volume fraction is first obtained within each grid cell as an Eulerian quantity and then the local particle volume fraction associated with any Lagrangian particle can be obtained from interpolation. The second class of methods presented are Particle-Based (PB) methods, where particle volume fraction will first be obtained at each particle as a Lagrangian quantity, which then can be projected onto the Eulerian grid. Traditionally, the GB methods are used in multiphase flow, but sub-grid resolution can be obtained through use of the PB methods. By evaluating the total error, and its discretization, bias and statistical error components, the performance of the different PB methods is compared against several common GB methods of calculating volume fraction. The standard von Neumann error analysis technique has been adapted for evaluation of rate of convergence of the different methods. The discussion and error analysis presented focus on the volume fraction calculation, but the methods can be extended to obtain field representations of other Lagrangian quantities, such as particle velocity and temperature.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lagrangian point-particle approach</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">von-Neumann error analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Eulerian–Lagrangian simulation of multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Volume fraction calculation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Balachandar, S.</subfield>
+    <subfield code="j">ORCID:0000-0003-3619-3695</subfield>
+    <subfield code="v">Department of Mechanical &amp; Aerospace Engineering, University of Florida, Gainesville, FL, 32611, United States</subfield>
+    <subfield code="m">bala1s@ufl.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">775-798</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Squires, K.D.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Particle response and turbulence modification in isotropic turbulence</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Fluids,2,1191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="h">Truesdell, G.C.</subfield>
+    <subfield code="t">On the two-way interaction between homogeneous turbulence and dispersed solid particles. I: Turbulence modification</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Fluids,5,1790</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balachandar, S.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Turbulent dispersed multiphase flow</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,42,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrews, M.J.</subfield>
+    <subfield code="h">O'Rourke, P.J.</subfield>
+    <subfield code="t">The multiphase particle-in-cell (MP-PIC) method for dense particulate flows</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,22,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Snider, D.M.</subfield>
+    <subfield code="h">O'Rourke, P.J.</subfield>
+    <subfield code="h">Andrews, M.J.</subfield>
+    <subfield code="t">Sediment flow in inclined vessels calculated using a multiphase particle-in-cell model for dense particle flows</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,24,1359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Snider, D.M.</subfield>
+    <subfield code="t">An incompressible three-dimensional multiphase particle-in-cell model for dense particle flows</subfield>
+    <subfield code="v">170</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,170,523</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, N.A.</subfield>
+    <subfield code="h">Joseph, D.D.</subfield>
+    <subfield code="t">Modeling and numerical simulation of particulate flows by the Eulerian–Lagrangian approach</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,27,1659</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Apte, S.V.</subfield>
+    <subfield code="h">Mahesh, K.</subfield>
+    <subfield code="h">Lundgren, T.</subfield>
+    <subfield code="t">Accounting for finite-size effects in simulations of disperse particle-laden flows</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,34,260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="t">Particle-laden turbulent flows: direct simulation and closure models</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Appl.Sci.Res.,48,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="t">On predicting particle-laden turbulent flows</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Appl.Sci.Res.,52,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balachandar, S.</subfield>
+    <subfield code="h">Maxey, M.R.</subfield>
+    <subfield code="t">Methods for evaluating fluid velocities in spectral simulations of turbulence</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,83,96</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yeung, P.K.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">An algorithm for tracking fluid particles in numerical simulations of homogeneous turbulence</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,79,373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M.W. Evans, F.H. Harlow, E. Bromberg</subfield>
+    <subfield code="m">The particle-in-cell method for hydrodynamic calculations, Los Alamos National Lab, NM, No. LA-2139</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harlow, F.H.</subfield>
+    <subfield code="t">PIC and its progeny</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Phys.Commun.,48,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sundaram, S.</subfield>
+    <subfield code="h">Collins, L.R.</subfield>
+    <subfield code="t">Considerations in simulating a turbulent suspension of finite-volume particles</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,124,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boivin, M.</subfield>
+    <subfield code="h">Simonin, O.</subfield>
+    <subfield code="h">Squires, K.D.</subfield>
+    <subfield code="t">Direct numerical simulation of turbulence modulation by particles in isotropic turbulence</subfield>
+    <subfield code="v">375</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Fluid Mech.,375,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Narayanan, C.</subfield>
+    <subfield code="h">Lakehal, D.</subfield>
+    <subfield code="h">Yadigaroglu, G.</subfield>
+    <subfield code="t">Linear stability analysis of particle-laden mixing layers using Lagrangian particle tracking</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Powder Technol.,125,122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garg, R.</subfield>
+    <subfield code="h">Narayanan, C.</subfield>
+    <subfield code="h">Lakehal, D.</subfield>
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">Accurate numerical estimation of interphase momentum transfer in Lagrangian–Eulerian simulations of dispersed two-phase flows</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,33,1337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garcia-Villalba, M.</subfield>
+    <subfield code="h">Kidanemariam, A.G.</subfield>
+    <subfield code="h">Uhlmann, M.</subfield>
+    <subfield code="t">DNS of vertical plane channel flow with finite-size particles: Voronoi analysis, acceleration statistics and particle-conditioned averaging</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,46,54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garg, R.</subfield>
+    <subfield code="h">Narayanan, C.</subfield>
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">A numerically convergent Lagrangian–Eulerian simulation method for dispersed two-phase flows</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,35,376</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stoyan, D.</subfield>
+    <subfield code="h">Kendall, W.S.</subfield>
+    <subfield code="h">Meinke, J.</subfield>
+    <subfield code="t">Stochastic Geometry and Its Applications</subfield>
+    <subfield code="p">Akademie-Verlag Berlin</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">Statistical representation of a spray as a point process</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Fluids,12,2413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">Statistical modeling of sprays using the droplet distribution function</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Fluids,13,624</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">Lagrangian–Eulerian methods for multiphase flows</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,39,215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balkovsky, E.</subfield>
+    <subfield code="h">Falkovich, G.</subfield>
+    <subfield code="h">Fouxon, A.</subfield>
+    <subfield code="t">Intermittent distribution of inertial particles in turbulent flows</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Rev.Lett.,86,2790</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toschi, F.</subfield>
+    <subfield code="h">Bodenschatz, E.</subfield>
+    <subfield code="t">Lagrangian properties of particles in turbulence</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,41,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roma, M.</subfield>
+    <subfield code="h">Peskin, C.S.</subfield>
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="t">An adaptive version of the immersed boundary method</subfield>
+    <subfield code="v">153</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,153,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Uhlmann, M.</subfield>
+    <subfield code="t">An immersed boundary method with direct forcing for the simulation of particulate flows</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,209,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Onate, E.</subfield>
+    <subfield code="h">Idelsohn, S.</subfield>
+    <subfield code="t">A mesh-free finite point method for advective–diffusive transport and fluid flow problems</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Mech.,21,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, J.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Assessment of numerical accuracy of pdf/Monte Carlo methods for turbulent reacting flows</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,152,192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Particle method for turbulent flows: integration of stochastic model equations</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,117,332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casella, G.</subfield>
+    <subfield code="h">Berger, R.L.</subfield>
+    <subfield code="t">Statistical Inference</subfield>
+    <subfield code="p">Duxbury Pacific Grove, CA</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X0006X/S0021999116001388/S0021999116001388.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

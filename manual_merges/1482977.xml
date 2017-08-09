@@ -1,0 +1,229 @@
+<record>
+  <controlfield tag="001">1482977</controlfield>
+  <controlfield tag="005">20170406084111.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">An:2016vwh</subfield>
+    <subfield code="9">INSPIRETeX</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">oai:arXiv.org:1608.06399</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="9">arXiv</subfield>
+    <subfield code="a">arXiv:1608.06399</subfield>
+    <subfield code="c">physics.ins-det</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">An, Mangmang</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Detailed study of the column-based priority logic readout of Topmetal-II- CMOS pixel direct charge sensor</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="246" ind1=" " ind2=" ">
+    <subfield code="a">Detailed study of the column-based priority logic readout of Topmetal-II- CMOS pixel direct charge sensor</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-23</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">*Brief entry*</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present the detailed study of the digital readout of Topmetal-II- CMOS pixel direct charge sensor. Topmetal-II- is an integrated sensor with an array of 72X72 pixels each capable of directly collecting external charge through exposed metal electrodes in the topmost metal layer. In addition to the time-shared multiplexing readout of the analog output from Charge Sensitive Amplifiers in each pixel, hits are also generated through comparators with individually DAC settable thresholds in each pixel. The hits are read out via a column-based priority logic structure, retaining both hit location and time information. The in-array column-based priority logic is fully combinational hence there is no clock distributed in the pixel array. Sequential logic and clock are placed on the peripheral of the array. We studied the detailed working behavior and performance of this readout, and demonstrated its potential in imaging applications.</subfield>
+    <subfield code="9">arXiv</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://arxiv.org/licenses/nonexclusive-distrib/1.0/</subfield>
+    <subfield code="b">arXiv</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="a">arxiv</subfield>
+    <subfield code="c">OAI</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="9">CERN</subfield>
+    <subfield code="a">CDS-2210008</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">physics.ins-det</subfield>
+    <subfield code="2">arXiv</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Instrumentation</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chen, Chufeng</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gao, Chaosong</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Han, Mikyung</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Huang, Guangming</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ji, Rong</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Li, Xiaoting</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mei, Yuan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pei, Hua</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sun, Quan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sun, Xiangming</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Kai</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xiao, Le</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yang, Ping</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, Wei</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhou, Wei</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">1211</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_TopmetalII-BlockDiagram.png</subfield>
+    <subfield code="y">00001 Photograph of a \TMIIm sensor (left) and its top-level block diagram (right). The chip is $8\times\SI{9}{mm^2}$ (blue box) in size, in which a $6\times\SI{6}{mm^2}$ charge sensitive area (red box) containing $72\times72$ pixels is located in the center of the sensor. Major functional units are shown in the top-level block diagram. The digital logic inside of the array is entirely combinational without a clock. Sequential logic driven by a clock is placed at the edge of the array.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">1607</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_PriorityLogicSCH.png</subfield>
+    <subfield code="y">00003 (a) Schematic of in-pixel Priority Logic (PL) circuitry.  (b) Truth table of PL.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">17016</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_4-bit_DAC_StepDis.png</subfield>
+    <subfield code="y">00008 The step size distribution of in-pixel 4-bit DACs in 2D (a) and 1D histogram (b). Black points in the 2D distribution indicates the pixel is faulty and therefore its DAC is not testable.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">17429</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_TopmetalII-DigitalStruct.png</subfield>
+    <subfield code="y">00002 Digital readout pathway from a single pixel to the edge of array. Structures at pixel, column and edge-of-array levels are indicated in the red, green and blue dashed boxes, respectively. A hit generated by \sym{CSA\_OUT} rising above the threshold (left-side inset plot) propagates through the in-pixel priority logic that drives the column address bus (\sym{Addr\_Bus}) by asserting \sym{AddrEN} (right-side inset plot), which in turn is read out by the CRU and the MUX. The in-pixel logic and the column Address Bus (AB) are entirely combinational (purple dashed box). The CRU \&amp;amp; MUX shown in the yellow box are sequential logic driven by a common clock.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">18438</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_TopmetalII-PriLogicSeq.png</subfield>
+    <subfield code="y">00004 Timing diagram of relevant signal activities during a hit and its readout. In-pixel, in-column, in-CRU and in-MUX signals are indicated in red, green, blue and purple dashed boxes, respectively.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">19283</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_light_spot_vector.png</subfield>
+    <subfield code="y">00011 Time stamping of hits. (a) Time stamps printed at the location of corresponding pixels resulting from one light pulse. The T-shaped light hit pattern is clearly visible. Arrows connect hits in the same column, pointing from lower to higher time values. (b) Time stamp (y-axis) read out as a function of clock cycle (Counter, x-axis). Light pulse arrives in section (frame) $-1$. Frame $0$ reads out the initial time stamps from highest priority pixels in each column. Subsequent frames read out pixels hit by the same light pulse but with progressively lower priority. Inset in (a) illustrates the readout of column No.~38 in this fashion.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">2150685</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/img_TopmetalII-Photo.png</subfield>
+    <subfield code="y">00000 Photograph of a \TMIIm sensor (left) and its top-level block diagram (right). The chip is $8\times\SI{9}{mm^2}$ (blue box) in size, in which a $6\times\SI{6}{mm^2}$ charge sensitive area (red box) containing $72\times72$ pixels is located in the center of the sensor. Major functional units are shown in the top-level block diagram. The digital logic inside of the array is entirely combinational without a clock. Sequential logic driven by a clock is placed at the edge of the array.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">27880</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_T_four.png</subfield>
+    <subfield code="y">00010 A set of images collected with the T-shaped photo mask placed at four different orientations. Black points mark the disabled pixels.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">3457</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_platform_diagram.png</subfield>
+    <subfield code="y">00009 Light pulse injection setup. A violet LED with a peak emission wavelength of \SI{390}{nm} is placed $\sim\SI{2}{cm}$ above the top surface of a \TMIIm sensor. Light from the LED is filtered by a photo mask with a T-shaped transparent opening before arriving at the sensor.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">39395</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_baseline_mid.png</subfield>
+    <subfield code="y">00006 Baseline median distribution across the array in 2D (a, b) and 1D histogram (c) before (a and dashed line in c) and after (b and dotted line in c) trimming with a 4-bit DAC in every pixel. The baseline median is defined in Fig.~\ref{fig:baseline_mid}. The reduction of spread ($\sigma$) of the baseline median distribution is clearly visible with the trimming. The shift of the mean is unimportant. Black points in (b) indicates the pixels are disabled.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">5909</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_threshold.png</subfield>
+    <subfield code="y">00007 The dotted line shows the distribution of the distance from the transition ($\mu$) to the baseline median of an S-Curve (Fig.~\ref{fig:baseline_mid}), which equals to the CSA output amplitude response to the injected pulse height. The dashed line shows the distribution of signal threshold in the array with the optimized trimming settings.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">6827</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/fig_s_curve.png</subfield>
+    <subfield code="y">00005 Threshold scan and response parameterization. A representative S-Curve of one pixel is shown. The baseline median and width are determined with the $\text{probability}&amp;gt;2$ part of the curve (see text for details). The transition region is fitted with the CDF of Gaussian to determine its mean ($\mu$) and width ($\sigma$). Inset shows the distribution of the width of the transition ($\sigma$) across all the pixels in the array.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">3408541</subfield>
+    <subfield code="u">http://inspirehep.net/record/1482977/files/arXiv:1608.06399.pdf</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:inspirehep.net:1482977</subfield>
+    <subfield code="p">INSPIRE:HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">arXiv</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="h">J. Millaud, D. Nygren</subfield>
+    <subfield code="m">The column architecture-a novel architecture for event driven 2D pixel imagers, in: Nuclear Science Symposium and Medical Imaging Conference Record vol. 1, 321-325</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">1995</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="h">P. Yang, G. Aglieri, C. Cavicchioli, P. Chalmet, N. Chanlek, A. Collu, C. Gao, H. Hillemanns, A. Junique, M. Kofarago, M. Keil, T. Kugathasan, D. Kim, J. Kim, A. Lattuca, C. M. Tobon, D. Marras, M. Mager, P. Martinengo, G. Mazza, H. Mugnier, L. Musa, C. Puggioni, J. Rousset, F. Reidt, P. Riedler, W. Snoeys, S. Siddhanta, G. Usai, J. van Hoorne, J. Yi</subfield>
+    <subfield code="m">Lowpower priority Address-Encoder and Reset-Decoder data-driven readout for Monolithic Active Pixel Sensors for tracker system 400 600 800 1000 1200 188500 188600 188700 188800 188900 189000 189100 189200 189300 (a) (b) -1 0 1 2 3 4 5 6 7 8 9 72 Time Counter Valid hit Start reading column 0 of a frame 0</subfield>
+    <subfield code="s">Nucl.Instrum.Meth.,0,200</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="h">M. Garcia-Sciveres, D. Arutinov, M. Barbero, R. Beccherle, S. Dube, D. Elledge, J. Fleury, D. Fougeron, F. Gensolen, D. Gnani, V. Gromov, T. Hemperek, M. Karagounis, R. Kluit, A. Kruth, A. Mekkaoui, M. Menouni, J.-D. Schipper</subfield>
+    <subfield code="m">The FE-I4 pixel readout integrated circuit, Nuclear Instruments and Methods in Physics Research Section A : Accelerators, Spectrometers, Detectors and Associated Equipment 636 (1, Supplement)  S155 - S159, ISSN 0168-9002, URL</subfield>
+    <subfield code="u">http://www.sciencedirect.com/science/article/pii/S0168900210009551</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">C. Hu-Guo, J. Baudot, G. Bertolone, A. Besson, A. S. Brogna, C. Colledani, G. Claus, R. D. Masi, Y. Degerli, A. Dorokhov, G. Doziere, W. Dulinski, X. Fang, M. Gelin, M. Goffe, F. Guilloux, A. Himmi, K. Jaaskelainen, M. Koziel, F. Morel, F. Orsini, M. Specht, Q. Sun, I. Valin, M. Winter</subfield>
+    <subfield code="m">CMOS pixel sensor development: a fast read-out architecture with integrated zero suppression URL</subfield>
+    <subfield code="s">JINST,4,P04012</subfield>
+    <subfield code="u">http://stacks.iop.org/1748-0221/4/i=04/a=P04012</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="0">826174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="h">C. Hu-Guo, J. Baudot, G. Bertolone, A. Besson, A. Brogna, C. Colledani, G. Claus, R. D. Masi, Y. Degerli, A. Dorokhov, G. Doziere, W. Dulinski, X. Fang, M. Gelin, M. Goffe, F. Guilloux, A. Himmi, K. Jaaskelainen, M. Koziel, F. Morel, F. Orsini, M. Specht, Q. Sun, O. Torheim, I. Valin, M. Winter</subfield>
+    <subfield code="m">First reticule size {MAPS} with digital output and integrated zero suppression for the EUDET-JRA1 beam telescope, Nuclear Instruments and Methods in Physics Research Section A : Accelerators, Spectrometers, Detectors and Associated Equipment 623 (1)  480 - 482, ISSN 01689002, URL 1st International Conference on Technology and Instrumentation in Particle Physics</subfield>
+    <subfield code="u">http://www.sciencedirect.com/science/article/pii/S0168900210006078</subfield>
+    <subfield code="y">2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">M. An, C. Chen, C. Gao, M. Han, R. Ji, X. Li, Y. Mei, Q. Sun, X. Sun, K. Wang, L. Xiao, P. Yang, W. Zhou</subfield>
+    <subfield code="m">A low-noise {CMOS} pixel direct charge sensor, Topmetal-II-, Nuclear Instruments and Methods in Physics Research Section A : Accelerators, Spectrometers, Detectors and Associated Equipment 810  144 - 150, ISSN 0168-9002, URL</subfield>
+    <subfield code="u">http://www.sciencedirect.com/science/article/pii/S0168900215015727</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-2-1-0-0</subfield>
+    <subfield code="t">2016-08-24 08:29:22</subfield>
+    <subfield code="v">Invenio/1.1.2.1260-aa76f refextract/1.5.44</subfield>
+    <subfield code="v">content.pdf;1</subfield>
+  </datafield>
+</record>

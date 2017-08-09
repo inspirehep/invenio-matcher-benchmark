@@ -1,0 +1,319 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.064</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Hager, Robert</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, P.O. Box 451, Princeton, NJ, 08543, USA</subfield>
+    <subfield code="m">rhager@pppl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A fully non-linear multi-species Fokker–Planck–Landau collision operator for simulation of fusion plasma</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Fusion edge plasmas can be far from thermal equilibrium and require the use of a non-linear collision operator for accurate numerical simulations. In this article, the non-linear single-species Fokker–Planck–Landau collision operator developed by Yoon and Chang (2014) [9] is generalized to include multiple particle species. The finite volume discretization used in this work naturally yields exact conservation of mass, momentum, and energy. The implementation of this new non-linear Fokker–Planck–Landau operator in the gyrokinetic particle-in-cell codes XGC1 and XGCa is described and results of a verification study are discussed. Finally, the numerical techniques that make our non-linear collision operator viable on high-performance computing systems are described, including specialized load balancing algorithms and nested OpenMP parallelization. The collision operator's good weak and strong scaling behavior are shown.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Plasma</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Collision operator</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">XGC</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Particle-in-cell</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yoon, E.S.</subfield>
+    <subfield code="v">Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY, 12180, USA</subfield>
+    <subfield code="m">yoone@rpi.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ku, S.</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, P.O. Box 451, Princeton, NJ, 08543, USA</subfield>
+    <subfield code="m">sku@pppl.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">D'Azevedo, E.F.</subfield>
+    <subfield code="v">Oak Ridge National Laboratory, P.O. Box 2008, Oak Ridge, TN, 37831, USA</subfield>
+    <subfield code="m">dazevedoef@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Worley, P.H.</subfield>
+    <subfield code="v">Oak Ridge National Laboratory, P.O. Box 2008, Oak Ridge, TN, 37831, USA</subfield>
+    <subfield code="m">worleyph@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chang, C.S.</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, P.O. Box 451, Princeton, NJ, 08543, USA</subfield>
+    <subfield code="m">cschang@pppl.gov</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">644-660</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.861356</subfield>
+    <subfield code="h">Hirshman, S.P.</subfield>
+    <subfield code="h">Sigmar, D.J.</subfield>
+    <subfield code="t">Approximate Fokker–Planck collision operator for transport theory applications</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Fluids (1958–1988),19,1532</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.863445</subfield>
+    <subfield code="h">Boozer, A.H.</subfield>
+    <subfield code="h">Kuo-Petravic, G.</subfield>
+    <subfield code="t">Monte Carlo evaluation of transport coefficients</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Fluids (1958–1988),24,851</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, W.X.</subfield>
+    <subfield code="h">Nakajima, N.</subfield>
+    <subfield code="h">Okamoto, M.</subfield>
+    <subfield code="h">Murakami, S.</subfield>
+    <subfield code="t">A new delta-f method for neoclassical transport studies</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Plasma Phys.Control.Fusion,41,1091</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belli, E.A.</subfield>
+    <subfield code="h">Candy, J.</subfield>
+    <subfield code="t">Full linearized Fokker–Planck collisions in neoclassical transport simulations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Plasma Phys.Control.Fusion,54,015015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buet, C.</subfield>
+    <subfield code="h">Le Thanh, K.-C.</subfield>
+    <subfield code="t">About positive, energy conservative and equilibrium state preserving schemes for the isotropic Fokker–Planck–Landau equation</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buet, C.</subfield>
+    <subfield code="h">Le Thanh, K.-C.</subfield>
+    <subfield code="t">Positive, conservative, equilibrium state preserving and implicit difference schemes for the isotropic Fokker–Planck–Landau equation</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.05.025</subfield>
+    <subfield code="h">Taitano, W.</subfield>
+    <subfield code="h">Chacón, L.</subfield>
+    <subfield code="h">Simakov, A.</subfield>
+    <subfield code="h">Molvig, K.</subfield>
+    <subfield code="t">A mass, momentum, and energy conserving, fully implicit, scalable algorithm for the multi-dimensional, multi-species Rosenbluth–Fokker–Planck equation</subfield>
+    <subfield code="v">297</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,297,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2011.07.005</subfield>
+    <subfield code="h">Pataki, A.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="t">Fast elliptic solvers in cylindrical coordinates and the Coulomb collision operator</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4867359</subfield>
+    <subfield code="h">Yoon, E.S.</subfield>
+    <subfield code="h">Chang, C.S.</subfield>
+    <subfield code="t">A Fokker–Planck–Landau collision equation solver on two-dimensional velocity grid and its application to particle-in-cell simulation</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Plasmas (1994–present),21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ku, S.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Diamond, P.</subfield>
+    <subfield code="t">Full-f gyrokinetic particle simulation of centrally heated global ITG turbulence from magnetic axis to edge pedestal top in a realistic tokamak geometry</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Nucl.Fusion,49,115021</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hager, R.</subfield>
+    <subfield code="h">Chang, C.S.</subfield>
+    <subfield code="t">A new bootstrap current formula for the H-mode pedestal</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Phys.Plasmas,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRev.107.1</subfield>
+    <subfield code="h">Rosenbluth, M.N.</subfield>
+    <subfield code="h">MacDonald, W.M.</subfield>
+    <subfield code="h">Judd, D.L.</subfield>
+    <subfield code="t">Fokker–Planck equation for an inverse-square force</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Rev.,107,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W.T. Taitano, L. Chacón, A.N. Simakov</subfield>
+    <subfield code="m">private communication</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goldston, R.J.</subfield>
+    <subfield code="h">Rutherford, P.H.</subfield>
+    <subfield code="t">Introduction to Plasma Physics</subfield>
+    <subfield code="p">Taylor and Francis New York</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2006.09.016</subfield>
+    <subfield code="h">Larroche, O.</subfield>
+    <subfield code="t">An efficient explicit numerical scheme for diffusion-type equations with a highly inhomogeneous and highly anisotropic diffusion tensor</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,223,436</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.08.033</subfield>
+    <subfield code="h">Peigney, B.</subfield>
+    <subfield code="h">Larroche, O.</subfield>
+    <subfield code="h">Tikhonchuk, V.</subfield>
+    <subfield code="t">Fokker–Planck kinetic modeling of suprathermal alpha-particles in a fusion plasma</subfield>
+    <subfield code="v">278</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,278,416</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0010-4655(88)90165-8</subfield>
+    <subfield code="h">Epperlein, E.</subfield>
+    <subfield code="h">Rickard, G.</subfield>
+    <subfield code="h">Bell, A.</subfield>
+    <subfield code="t">A code for the solution of the Vlasov–Fokker–Planck equation in 1-D or 2-D</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Phys.Commun.,52,7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0263034600007722</subfield>
+    <subfield code="h">Epperlein, E.</subfield>
+    <subfield code="t">Fokker–Planck modeling of electron transport in laser-produced plasmas</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Laser Part.Beams,12,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huba, J.D.</subfield>
+    <subfield code="t">NRL Plasma Formulary</subfield>
+    <subfield code="p">Naval Research Laboratory Washington, DC</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/RevModPhys.48.239</subfield>
+    <subfield code="h">Hinton, F.</subfield>
+    <subfield code="h">Hazeltine, R.</subfield>
+    <subfield code="t">Theory of plasma transport in toroidal confinement systems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Rev.Mod.Phys.,48,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belli, E.A.</subfield>
+    <subfield code="h">Candy, J.</subfield>
+    <subfield code="t">Kinetic calculation of neoclassical transport including self-consistent electron and impurity dynamics</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Plasma Phys.Control.Fusion,50,095010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.F.</subfield>
+    <subfield code="h">Ku, S.-H.</subfield>
+    <subfield code="h">Worley, P.</subfield>
+    <subfield code="h">D'Azevedo, E.</subfield>
+    <subfield code="h">Cummings, J.C.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="t">Scaling to 150k cores: recent algorithm and performance engineering developments enabling XGC1 to run at scale</subfield>
+    <subfield code="v">180</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,180,012036</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00366-015-0417-y</subfield>
+    <subfield code="h">Zhang, F.</subfield>
+    <subfield code="h">Hager, R.</subfield>
+    <subfield code="h">Ku, S.-H.</subfield>
+    <subfield code="h">Chang, C.-S.</subfield>
+    <subfield code="h">Jardin, S.C.</subfield>
+    <subfield code="h">Ferraro, N.M.</subfield>
+    <subfield code="h">Seol, E.S.</subfield>
+    <subfield code="h">Yoon, E.</subfield>
+    <subfield code="h">Shephard, M.S.</subfield>
+    <subfield code="t">Mesh generation for confined fusion plasma simulation</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Eng.Comput.,32,285</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300298/S0021999116300298.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

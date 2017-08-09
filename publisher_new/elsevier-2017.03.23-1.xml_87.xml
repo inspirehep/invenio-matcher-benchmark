@@ -1,0 +1,442 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.039</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Liu, Hongxu</subfield>
+    <subfield code="v">Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, NY 11794, USA</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">WLS-ENO: Weighted-least-squares based essentially non-oscillatory schemes for finite volume methods on unstructured meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">ENO (Essentially Non-Oscillatory) and WENO (Weighted Essentially Non-Oscillatory) schemes are widely used high-order schemes for solving partial differential equations (PDEs), especially hyperbolic conservation laws with piecewise smooth solutions. For structured meshes, these techniques can achieve high order accuracy for smooth functions while being non-oscillatory near discontinuities. For unstructured meshes, which are needed for complex geometries, similar schemes are required but they are much more challenging. We propose a new family of non-oscillatory schemes, called WLS-ENO , in the context of solving hyperbolic conservation laws using finite-volume methods over unstructured meshes. WLS-ENO is derived based on Taylor series expansion and solved using a weighted least squares formulation. Unlike other non-oscillatory schemes, the WLS-ENO does not require constructing sub-stencils, and hence it provides a more flexible framework and is less sensitive to mesh quality. We present rigorous analysis of the accuracy and stability of WLS-ENO, and present numerical results in 1-D, 2-D, and 3-D for a number of benchmark problems, and also report some comparisons against WENO.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Essentially non-oscillatory scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Weighted least squares</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite volume method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hyperbolic conservation law</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured mesh</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jiao, Xiangmin</subfield>
+    <subfield code="j">ORCID:0000-0002-7111-9813</subfield>
+    <subfield code="v">Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, NY 11794, USA</subfield>
+    <subfield code="m">xiangmin.jiao@stonybrook.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">749-773</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Essentially non-oscillatory and weighted essentially non-oscillatory schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">vol. 1697</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Lect.Notes Math.,vol. 1697,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">High order weighted essentially nonoscillatory schemes for convection dominated problems</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM Rev.,51,82</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, C.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes on triangular meshes</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,150,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levy, D.</subfield>
+    <subfield code="h">Puppo, G.</subfield>
+    <subfield code="h">Russo, G.</subfield>
+    <subfield code="t">A fourth-order central WENO scheme for multidimensional hyperbolic systems of conservation laws</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,480</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shi, J.</subfield>
+    <subfield code="h">Hu, C.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A technique of treating negative weights in WENO schemes</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,175,108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsoutsanis, P.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Drikakis, D.</subfield>
+    <subfield code="t">WENO schemes on arbitrary mixed-element unstructured meshes in three space dimensions</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1585</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lahooti, M.</subfield>
+    <subfield code="h">Pishevar, A.</subfield>
+    <subfield code="t">A new fourth order central WENO method for 3D hyperbolic conservation laws</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Appl.Math.Comput.,218,10258</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Titarev, V.</subfield>
+    <subfield code="h">Toro, E.</subfield>
+    <subfield code="t">Finite-volume WENO schemes for three-dimensional conservation laws</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,201,238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henrick, A.K.</subfield>
+    <subfield code="h">Aslam, T.D.</subfield>
+    <subfield code="h">Powers, J.M.</subfield>
+    <subfield code="t">Mapped weighted essentially non-oscillatory schemes: achieving optimal order near critical points</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,207,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borges, R.</subfield>
+    <subfield code="h">Costa, B.</subfield>
+    <subfield code="h">Don, W.S.</subfield>
+    <subfield code="t">An improved weighted essentially non-oscillatory scheme for hyperbolic conservation laws</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A new smoothness indicator for the WENO schemes and its effect on the convergence to steady state solutions</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,31,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Y.</subfield>
+    <subfield code="h">Zha, G.</subfield>
+    <subfield code="t">Improvement of the WENO scheme smoothness estimator</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,64,653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grasso, F.</subfield>
+    <subfield code="h">Pirozzoli, S.</subfield>
+    <subfield code="t">Shock-wave vortex interactions: shock and vortex deformations, and sound production</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Theor.Comput.Fluid Dyn.,13,421</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, J.-Y.</subfield>
+    <subfield code="h">Yang, S.-C.</subfield>
+    <subfield code="h">Chen, Y.-N.</subfield>
+    <subfield code="h">Hsu, C.-A.</subfield>
+    <subfield code="t">Implicit weighted ENO schemes for the three-dimensional incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,146,464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Peng, D.</subfield>
+    <subfield code="t">Weighted ENO schemes for Hamilton–Jacobi equations</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,2126</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liska, R.</subfield>
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">Two dimensional shallow water equations by composite schemes</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,30,461</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="t">A robust reconstruction for unstructured WENO schemes</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Sci.Comput.,54,603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, A.J.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Tang, Q.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="t">High order parametrized maximum-principle-preserving and positivity-preserving WENO schemes on unstructured meshes</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,281,334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Charest, M.R.</subfield>
+    <subfield code="h">Canfield, T.R.</subfield>
+    <subfield code="h">Morgan, N.R.</subfield>
+    <subfield code="h">Waltz, J.</subfield>
+    <subfield code="h">Wohlbier, J.G.</subfield>
+    <subfield code="t">A high-order vertex-based central ENO finite-volume scheme for three-dimensional compressible flows</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Fluids,114,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Qiu, J.</subfield>
+    <subfield code="t">Finite volume Hermite WENO schemes for solving the Hamilton–Jacobi equations II: unstructured meshes</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Math.Appl.,68,1137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sod, G.</subfield>
+    <subfield code="t">Numerical Methods in Fluid Dynamics</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.</subfield>
+    <subfield code="t">Numerical Methods for Conservation Laws</subfield>
+    <subfield code="p">Birkhäuser Verlag Basel–Boston–Berlin</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Chakravarthy, S.</subfield>
+    <subfield code="t">Uniformly high order accurate essentially non-oscillatory schemes, III</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,71,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castro, M.</subfield>
+    <subfield code="h">Costa, B.</subfield>
+    <subfield code="h">Don, W.S.</subfield>
+    <subfield code="t">High order weighted essentially non-oscillatory WENO-Z schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1766</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A new smoothness indicator for the WENO schemes and its effect on the convergence to steady state solutions</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Y.</subfield>
+    <subfield code="h">Zha, G.</subfield>
+    <subfield code="t">Improvement of the WENO scheme smoothness estimator</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,64,653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wolf, W.</subfield>
+    <subfield code="h">Azevedo, J.</subfield>
+    <subfield code="t">High-order ENO and WENO schemes for unstructured grids</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,55,917</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Third order WENO scheme on three dimensional tetrahedral meshes</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Commun.Comput.Phys.,5,836</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Charest, M.R.</subfield>
+    <subfield code="h">Groth, C.P.</subfield>
+    <subfield code="h">Gauthier, P.Q.</subfield>
+    <subfield code="t">High-order CENO finite-volume scheme for low-speed viscous flows on three-dimensional unstructured mesh</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Convergence,59,60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Wang, D.</subfield>
+    <subfield code="t">Reconstructing high-order surfaces for meshing</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Shontz,S.</subfield>
+    <subfield code="q">Proceedings of the 19th International Meshing Roundtable</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.5246</subfield>
+    <subfield code="h">Conley, R.</subfield>
+    <subfield code="h">Delaney, T.J.</subfield>
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="t">Overcoming element quality dependence of finite elements with adaptive extended stencil FEM (AES-FEM)</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.S.</subfield>
+    <subfield code="h">Yoon, S.-H.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="t">Multi-dimensional limiting process for hyperbolic conservation laws on unstructured grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,229,788</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dyedov, V.</subfield>
+    <subfield code="h">Ray, N.</subfield>
+    <subfield code="h">Einstein, D.</subfield>
+    <subfield code="h">Jiao, X.</subfield>
+    <subfield code="h">Tautges, T.J.</subfield>
+    <subfield code="t">AHF: array-based half-facet data structure for mixed-dimensional and non-manifold meshes</subfield>
+    <subfield code="p">Springer International Publishing</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="e">Sarrate,J.</subfield>
+    <subfield code="e">Staten,M.</subfield>
+    <subfield code="q">Proceedings of the 22nd International Meshing Roundtable</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Nonlinear conservation laws and finite volume methods</subfield>
+    <subfield code="v">vol. 27</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Saas–Fee Advanced Courses,vol. 27,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Numerical simulation of two-dimensional fluid flows with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Hidalgo, A.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">ADER-WENO finite volume schemes with space–time adaptive mesh refinement</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,248,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics: A Practical Introduction</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00071/S0021999116001911/S0021999116001911.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

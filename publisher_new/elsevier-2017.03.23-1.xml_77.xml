@@ -1,0 +1,669 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.061</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Trędak, Przemysław</subfield>
+    <subfield code="v">Faculty of Physics, University of Warsaw, ul. Pasteura 5, Warsaw, 02-093, Poland</subfield>
+    <subfield code="m">przemyslaw.tredak@fuw.edu.pl</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Efficient implementation of the many-body Reactive Bond Order (REBO) potential on GPU</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">15</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The second generation Reactive Bond Order (REBO) empirical potential is commonly used to accurately model a wide range hydrocarbon materials. It is also extensible to other atom types and interactions. REBO potential assumes complex multi-body interaction model, that is difficult to represent efficiently in the SIMD or SIMT programming model. Hence, despite its importance, no efficient GPGPU implementation has been developed for this potential. Here we present a detailed description of a highly efficient GPGPU implementation of molecular dynamics algorithm using REBO potential. The presented algorithm takes advantage of rarely used properties of the SIMT architecture of a modern GPU to solve difficult synchronizations issues that arise in computations of multi-body potential. Techniques developed for this problem may be also used to achieve efficient solutions of different problems. The performance of proposed algorithm is assessed using a range of model systems. It is compared to highly optimized CPU implementation (both single core and OpenMP) available in LAMMPS package. These experiments show up to 6x improvement in forces computation time using single processor of the NVIDIA Tesla K80 compared to high end 16-core Intel Xeon processor.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPU</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Reactive bond order potentials</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Molecular dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Efficient thread synchronization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rudnicki, Witold R.</subfield>
+    <subfield code="v">Institute of Informatics, University of Białystok, ul. Konstantego Ciołkowskiego 1M, Białystok, 15-245, Poland</subfield>
+    <subfield code="v">Interdisciplinary Centre for Mathematical and Computational Modelling, University of Warsaw, ul. Pawińskiego 5a, Warsaw, 02-106, Poland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Majewski, Jacek A.</subfield>
+    <subfield code="v">Faculty of Physics, University of Warsaw, ul. Pasteura 5, Warsaw, 02-093, Poland</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">556-570</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allen, M.P.</subfield>
+    <subfield code="h">Tildesley, D.J.</subfield>
+    <subfield code="t">Computer Simulation of Liquids</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rahman, A.</subfield>
+    <subfield code="t">Correlations in the motion of atoms in liquid argon</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.,136,A405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verlet, L.</subfield>
+    <subfield code="t">Computer “experiments” on classical fluids, I: thermodynamical properties of Lennard–Jones molecules</subfield>
+    <subfield code="v">159</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Rev.,159,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsai, D.H.</subfield>
+    <subfield code="h">Beckett, C.</subfield>
+    <subfield code="t">Shock wave propagation in cubic lattices</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Geophys.Res.,71,2601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rahman, A.</subfield>
+    <subfield code="h">Stillinger, F.H.</subfield>
+    <subfield code="t">Molecular dynamics study of liquid water</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Chem.Phys.,55,3336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCammon, J.A.</subfield>
+    <subfield code="h">Gelin, B.R.</subfield>
+    <subfield code="h">Karplus, M.</subfield>
+    <subfield code="t">Dynamics of folded proteins</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Nature,267,585</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holian, B.L.</subfield>
+    <subfield code="h">Straub, G.K.</subfield>
+    <subfield code="t">Molecular dynamics of shock waves in three-dimensional solids: transition from nonsteady to steady waves in perfect crystals and implications for the Rankine–Hugoniot conditions</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.Lett.,43,1598</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van Gunsteren, W.</subfield>
+    <subfield code="h">Berendsen, H.</subfield>
+    <subfield code="t">Computer simulation as a tool for tracing the conformational differences between proteins in solution and in the crystalline state</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Mol.Biol.,176,559</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levitt, M.</subfield>
+    <subfield code="h">Sharon, R.</subfield>
+    <subfield code="t">Accurate simulation of protein dynamics in solution</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,85,7557</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holian, B.L.</subfield>
+    <subfield code="t">Modeling shock-wave deformation via molecular dynamics</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Rev.,A37,2562</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Freddolino, P.L.</subfield>
+    <subfield code="h">Arkhipov, A.S.</subfield>
+    <subfield code="h">Larson, S.B.</subfield>
+    <subfield code="h">McPherson, A.</subfield>
+    <subfield code="h">Schulten, K.</subfield>
+    <subfield code="t">Molecular dynamics simulations of the complete satellite tobacco mosaic virus</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Structure,14,437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, G.</subfield>
+    <subfield code="h">Perilla, J.R.</subfield>
+    <subfield code="h">Yufenyuy, E.L.</subfield>
+    <subfield code="h">Meng, X.</subfield>
+    <subfield code="h">Chen, B.</subfield>
+    <subfield code="h">Ning, J.</subfield>
+    <subfield code="h">Ahn, J.</subfield>
+    <subfield code="h">Gronenborn, A.M.</subfield>
+    <subfield code="h">Schulten, K.</subfield>
+    <subfield code="h">Aiken, C.</subfield>
+    <subfield code="t">Mature HIV-1 capsid structure by cryo-electron microscopy and all-atom molecular dynamics</subfield>
+    <subfield code="v">497</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Nature,497,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abraham, F.F.</subfield>
+    <subfield code="h">Walkup, R.</subfield>
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="h">Duchaineau, M.</subfield>
+    <subfield code="h">De La Rubia, T.D.</subfield>
+    <subfield code="h">Seager, M.</subfield>
+    <subfield code="t">Simulating materials failure by using up to one billion atoms and the world's fastest computer: Brittle fracture</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,99,5777</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shekhar, A.</subfield>
+    <subfield code="h">Nomura, K.-i.</subfield>
+    <subfield code="h">Kalia, R.K.</subfield>
+    <subfield code="h">Nakano, A.</subfield>
+    <subfield code="h">Vashishta, P.</subfield>
+    <subfield code="t">Nanobubble collapse on a silica surface in water: billion-atom reactive molecular dynamics simulations</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Rev.Lett.,111,184503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, J.E.</subfield>
+    <subfield code="h">Phillips, J.C.</subfield>
+    <subfield code="h">Freddolino, P.L.</subfield>
+    <subfield code="h">Hardy, D.J.</subfield>
+    <subfield code="h">Trabuco, L.G.</subfield>
+    <subfield code="h">Schulten, K.</subfield>
+    <subfield code="t">Accelerating molecular modeling applications with graphics processors</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Chem.,28,2618</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">Schmidt, B.</subfield>
+    <subfield code="h">Voss, G.</subfield>
+    <subfield code="h">Müller-Wittig, W.</subfield>
+    <subfield code="t">Accelerating molecular dynamics simulations using graphics processing units with CUDA</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Phys.Commun.,179,634</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Friedrichs, M.S.</subfield>
+    <subfield code="h">Eastman, P.</subfield>
+    <subfield code="h">Vaidyanathan, V.</subfield>
+    <subfield code="h">Houston, M.</subfield>
+    <subfield code="h">Legrand, S.</subfield>
+    <subfield code="h">Beberg, A.L.</subfield>
+    <subfield code="h">Ensign, D.L.</subfield>
+    <subfield code="h">Bruns, C.M.</subfield>
+    <subfield code="h">Pande, V.S.</subfield>
+    <subfield code="t">Accelerating molecular dynamic simulation on graphics processing units</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Chem.,30,864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pronk, S.</subfield>
+    <subfield code="h">Páll, S.</subfield>
+    <subfield code="h">Schulz, R.</subfield>
+    <subfield code="h">Larsson, P.</subfield>
+    <subfield code="h">Bjelkmar, P.</subfield>
+    <subfield code="h">Apostolov, R.</subfield>
+    <subfield code="h">Shirts, M.R.</subfield>
+    <subfield code="h">Smith, J.C.</subfield>
+    <subfield code="h">Kasson, P.M.</subfield>
+    <subfield code="h">van der Spoel, D.</subfield>
+    <subfield code="t">GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Bioinformatics</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salomon-Ferrer, R.</subfield>
+    <subfield code="h">Case, D.A.</subfield>
+    <subfield code="h">Walker, R.C.</subfield>
+    <subfield code="t">An overview of the amber biomolecular simulation package</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">WIREs Comput.Mol.Sci.,3,198</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, J.C.</subfield>
+    <subfield code="h">Braun, R.</subfield>
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="h">Gumbart, J.</subfield>
+    <subfield code="h">Tajkhorshid, E.</subfield>
+    <subfield code="h">Villa, E.</subfield>
+    <subfield code="h">Chipot, C.</subfield>
+    <subfield code="h">Skeel, R.D.</subfield>
+    <subfield code="h">Kale, L.</subfield>
+    <subfield code="h">Schulten, K.</subfield>
+    <subfield code="t">Scalable molecular dynamics with NAMD</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Chem.,26,1781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brooks, B.R.</subfield>
+    <subfield code="h">Bruccoleri, R.E.</subfield>
+    <subfield code="h">Olafson, B.D.</subfield>
+    <subfield code="h">David, S.</subfield>
+    <subfield code="h">Swaminathan, S.</subfield>
+    <subfield code="h">Karplus, M.</subfield>
+    <subfield code="t">CHARMM: a program for macromolecular energy, minimization, and dynamics calculations</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Chem.,4,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plimpton, S.</subfield>
+    <subfield code="t">Fast parallel algorithms for short-range molecular dynamics</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,117,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stadler, J.</subfield>
+    <subfield code="h">Mikulla, R.</subfield>
+    <subfield code="h">Trebin, H.-R.</subfield>
+    <subfield code="t">IMD: a software package for molecular dynamics studies on parallel computers</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Mod.Phys.,C8,1131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harvey, M.J.</subfield>
+    <subfield code="h">Giupponi, G.</subfield>
+    <subfield code="h">Fabritiis, G.D.</subfield>
+    <subfield code="t">ACEMD: accelerating biomolecular dynamics in the microsecond time scale</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,5,1632</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goetz, A.W.</subfield>
+    <subfield code="h">Williamson, M.J.</subfield>
+    <subfield code="h">Xu, D.</subfield>
+    <subfield code="h">Poole, D.</subfield>
+    <subfield code="h">Le Grand, S.</subfield>
+    <subfield code="h">Walker, R.C.</subfield>
+    <subfield code="t">Routine microsecond molecular dynamics simulations with AMBER on GPUs, 1: generalized born</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,8,1542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salomon-Ferrer, R.</subfield>
+    <subfield code="h">Goetz, A.W.</subfield>
+    <subfield code="h">Poole, D.</subfield>
+    <subfield code="h">Le Grand, S.</subfield>
+    <subfield code="h">Walker, R.C.</subfield>
+    <subfield code="t">Routine microsecond molecular dynamics simulations with AMBER on GPUs, 2: explicit solvent particle mesh ewald</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,9,3878</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eastman, P.</subfield>
+    <subfield code="h">Friedrichs, M.S.</subfield>
+    <subfield code="h">Chodera, J.D.</subfield>
+    <subfield code="h">Radmer, R.J.</subfield>
+    <subfield code="h">Bruns, C.M.</subfield>
+    <subfield code="h">Ku, J.P.</subfield>
+    <subfield code="h">Beauchamp, K.A.</subfield>
+    <subfield code="h">Lane, T.J.</subfield>
+    <subfield code="h">Wang, L.-P.</subfield>
+    <subfield code="h">Shukla, D.</subfield>
+    <subfield code="t">OpenMM 4: a reusable, extensible, hardware independent library for high performance molecular simulation</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Chem.Theory Comput.,9,461</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, W.M.</subfield>
+    <subfield code="h">Wang, P.</subfield>
+    <subfield code="h">Plimpton, S.J.</subfield>
+    <subfield code="h">Tharrington, A.N.</subfield>
+    <subfield code="t">Implementing molecular dynamics on hybrid high performance computers-short range forces</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,898</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, W.M.</subfield>
+    <subfield code="h">Kohlmeyer, A.</subfield>
+    <subfield code="h">Plimpton, S.J.</subfield>
+    <subfield code="h">Tharrington, A.N.</subfield>
+    <subfield code="t">Implementing molecular dynamics on hybrid high performance computers – particle–particle particle-mesh</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Phys.Commun.,183,449</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Glaser, J.</subfield>
+    <subfield code="h">Nguyen, T.D.</subfield>
+    <subfield code="h">Anderson, J.A.</subfield>
+    <subfield code="h">Lui, P.</subfield>
+    <subfield code="h">Spiga, F.</subfield>
+    <subfield code="h">Millan, J.A.</subfield>
+    <subfield code="h">Morse, D.C.</subfield>
+    <subfield code="h">Glotzer, S.C.</subfield>
+    <subfield code="t">Strong scaling of general-purpose molecular dynamics simulations on GPUs</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Phys.Commun.,192,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ohira, T.</subfield>
+    <subfield code="h">Ukai, O.</subfield>
+    <subfield code="h">Noda, M.</subfield>
+    <subfield code="t">Fundamental processes of microcrystalline silicon film growth: a molecular dynamics study</subfield>
+    <subfield code="v">458</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Surf.Sci.,458,216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liew, K.</subfield>
+    <subfield code="h">Wong, C.</subfield>
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Tan, M.</subfield>
+    <subfield code="h">Meguid, S.</subfield>
+    <subfield code="t">Nanomechanics of single and multiwalled carbon nanotubes</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Phys.Rev.B, Solid State,69,115429</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, T.</subfield>
+    <subfield code="h">Lim, T.</subfield>
+    <subfield code="h">Min, T.</subfield>
+    <subfield code="h">Hung, S.</subfield>
+    <subfield code="h">Jakse, N.</subfield>
+    <subfield code="h">Lai, S.</subfield>
+    <subfield code="t">Epitaxial growth of graphene on 6H-silicon carbide substrate by simulated annealing method</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Chem.Phys.,139,204702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abell, G.C.</subfield>
+    <subfield code="t">Empirical chemical pseudopotential theory of molecular and metallic bonding</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Phys.Rev.,B31,6184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tersoff, J.</subfield>
+    <subfield code="t">New empirical approach for the structure and energy of covalent systems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Rev.,B37,6991</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenner, D.W.</subfield>
+    <subfield code="t">Empirical potential for hydrocarbons for use in simulating the chemical vapor deposition of diamond films</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Phys.Rev.,B42,9458</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenner, D.W.</subfield>
+    <subfield code="h">Shenderova, O.A.</subfield>
+    <subfield code="h">Harrison, J.A.</subfield>
+    <subfield code="h">Stuart, S.J.</subfield>
+    <subfield code="h">Ni, B.</subfield>
+    <subfield code="h">Sinnott, S.B.</subfield>
+    <subfield code="t">A second-generation reactive empirical bond order (REBO) potential energy expression for hydrocarbons</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,14,783</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kylasa, S.B.</subfield>
+    <subfield code="h">Aktulga, H.M.</subfield>
+    <subfield code="h">Grama, A.Y.</subfield>
+    <subfield code="t">PuReMD-GPU: a reactive molecular dynamics simulation package for GPUs</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,272,343</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, M.</subfield>
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="h">Guo, L.</subfield>
+    <subfield code="t">Algorithms of GPU-enabled reactive force field (ReaxFF) molecular dynamics</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Mol.Graph.Model.,41,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keating, P.N.</subfield>
+    <subfield code="t">Effect of invariance requirements on the elastic strain energy of crystals with application to the diamond structure</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Phys.Rev.,145,637</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stillinger, F.H.</subfield>
+    <subfield code="h">Weber, T.A.</subfield>
+    <subfield code="t">Computer simulation of local order in condensed phases of silicon</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phys.Rev.,B31,5262</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stuart, S.J.</subfield>
+    <subfield code="h">Tutein, A.B.</subfield>
+    <subfield code="h">Harrison, J.A.</subfield>
+    <subfield code="t">A reactive potential for hydrocarbons with intermolecular interactions</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Chem.Phys.,112,6472</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schall, J.D.</subfield>
+    <subfield code="h">Gao, G.</subfield>
+    <subfield code="h">Harrison, J.A.</subfield>
+    <subfield code="t">Elastic constants of silicon materials calculated as a function of temperature using a parametrization of the second-generation reactive empirical bond-order potential</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Rev.,B77,115209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schall, J.D.</subfield>
+    <subfield code="h">Harrison, J.A.</subfield>
+    <subfield code="t">Reactive bond-order potential for Si-, C-, and H-containing materials</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Phys.Chem.,C117,1323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ni, B.</subfield>
+    <subfield code="h">Lee, K.-H.</subfield>
+    <subfield code="h">Sinnott, S.B.</subfield>
+    <subfield code="t">A reactive empirical bond order (REBO) potential for hydrocarbon–oxygen interactions</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,16,7261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">CUDA C Programming Guide</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dagum, L.</subfield>
+    <subfield code="h">Enon, R.</subfield>
+    <subfield code="t">OpenMP: an industry standard API for shared-memory programming</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">IEEE Comput.Sci.Eng.,5,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoshino, T.</subfield>
+    <subfield code="h">Maruyama, N.</subfield>
+    <subfield code="h">Matsuoka, S.</subfield>
+    <subfield code="h">Takaki, R.</subfield>
+    <subfield code="t">CUDA vs OpenACC: performance case studies with kernel benchmarks and a memory-bound CFD application</subfield>
+    <subfield code="p">13th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, CCGrid 2013, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Norman, M.</subfield>
+    <subfield code="h">Larkin, J.</subfield>
+    <subfield code="h">Vose, A.</subfield>
+    <subfield code="h">Evans, K.</subfield>
+    <subfield code="t">A case study of CUDA FORTRAN and OpenACC for an atmospheric climate kernel</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Sci.,9,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rueda, A.J.</subfield>
+    <subfield code="h">Noguera, J.M.</subfield>
+    <subfield code="h">Luque, A.</subfield>
+    <subfield code="t">A comparison of native GPU computing versus OpenACC for implementing flow-routing algorithms in hydrological applications</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.Geosci.,87,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lindholm, E.</subfield>
+    <subfield code="h">Nickolls, J.</subfield>
+    <subfield code="h">Oberman, S.</subfield>
+    <subfield code="h">Montrym, J.</subfield>
+    <subfield code="t">NVIDIA Tesla: a unified graphics and computing architecture</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">IEEE Micro,2,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nickolls, J.</subfield>
+    <subfield code="h">Buck, I.</subfield>
+    <subfield code="h">Garland, M.</subfield>
+    <subfield code="h">Skadron, K.</subfield>
+    <subfield code="t">Scalable parallel programming with CUDA</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">ACM Queue,6,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stone, J.E.</subfield>
+    <subfield code="h">Hardy, D.J.</subfield>
+    <subfield code="h">Ufimtsev, I.S.</subfield>
+    <subfield code="h">Schulten, K.</subfield>
+    <subfield code="t">GPU-accelerated molecular modeling coming of age</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Mol.Graph.Model.,29,116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">NVIDIA</subfield>
+    <subfield code="t">NVIDIAs next generation CUDA compute architecture: Kepler GK110</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Tech. rep., NVIDIA white paper</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stuart, S.J.</subfield>
+    <subfield code="h">Li, Y.</subfield>
+    <subfield code="h">Kum, O.</subfield>
+    <subfield code="h">Mintmire, J.</subfield>
+    <subfield code="h">Voter, A.F.</subfield>
+    <subfield code="t">Reactive bond-order simulations using both spatial and temporal approaches to parallelism</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Struct.Chem.,15,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">NVIDIA, NVIDIA delivers massive performance leap for deep learning, HPC applications with NVIDIA Tesla P100 accelerators, Press release (April)</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116302066/S0021999116302066.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,397 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Interactive simulation of local interactions in dense crowds using elliptical agents</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We present a practical approach for interactive crowd simulation based on elliptical agents. Our formulation uses a biomechanically accurate pedestrian representation to simulate different local interactions, including backpedaling, side-stepping, and shoulder-twisting. We present an efficient algorithm for local navigation and collision avoidance among multiple elliptical agents using velocity obstacles. Furthermore, we describe techniques to link the orientation of each elliptical agent to its velocity to automatically generate turning and lateral movements. In practice, our approach can simulate dense crowds of hundreds of pedestrians at interactive rates on a single CPU core. We highlight the performance in complex scenarios and validate our simulation results by comparing with real-world crowd videos and experiments.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JSTAT</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">033403</subfield>
+  <subfield code="v">1703</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1742-5468/aa58ab</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">26</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-20</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Narang, Sahil</subfield>
+  <subfield code="v">Department of Computer Science at the U. of North Carolina at Chapel Hill - 201 S. Columbia St - Chapel Hill - NC 27599-3175 - United States of America</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Best, Andrew</subfield>
+  <subfield code="v">Department of Computer Science at the U. of North Carolina at Chapel Hill - 201 S. Columbia St - Chapel Hill - NC 27599-3175 - United States of America</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Manocha, Dinesh</subfield>
+  <subfield code="v">Department of Computer Science at the U. of North Carolina at Chapel Hill - 201 S. Columbia St - Chapel Hill - NC 27599-3175 - United States of America</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Simulating human-like local interactions and collision-avoidance behaviors, including side-stepping, shoulder-turning, and backpedaling</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) A method to link the orientation computation to velocity, which reduces the simulation cost and dimensionality of motion planning</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Validation with pedestrian experiments including comparison to video data and behavior classification experiments</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Helbing D, Farkas I and Vicsek T</subfield>
+  <subfield code="s">Nature,407,487-90</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1038/35035023</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Karamouzas I, Skinner B and Guy S J</subfield>
+  <subfield code="s">Phys.Rev.Lett.,113,238701</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.113.238701</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">van Reciprocal n-body collision avoidance Int. Symp. on Robotics Research pp 3-19</subfield>
+  <subfield code="h">den Berg J, Guy S J, Lin M and Manocha D</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Pettré J</subfield>
+  <subfield code="m">Ond&amp;rcaron</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">ej J Experiment-based modeling, simulation and validation of interactions between virtual walkers Symp. on Computer Animation pp 189-98</subfield>
+  <subfield code="h">Olivier A H, Cretual A and Donikian S</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Reynolds C</subfield>
+  <subfield code="m">Flocks, herds and schools: a distributed behavioral model Proc. of SIGGRAPH</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Schadschneider A</subfield>
+  <subfield code="m">Pedestrian and Evacuation Dynamics (Berlin: pp 75-86, Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-319-02447-9</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Imanishi M and Sano T</subfield>
+  <subfield code="m">Transp. Res. Procedia 2 367-75, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.trpro.2014.09.034</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Hughes R, Ondrej J and Dingliana J</subfield>
+  <subfield code="m">Holonomic collision avoidance for virtual crowds Symposium on Computer Animation V Koltun and E Sifakis (eds.) (Goslar: Eurographics Association) pp 103-11</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Karamouzas I, Heil P, van Beek P and Overmars M H</subfield>
+  <subfield code="m">A predictive collision avoidance model for pedestrian simulation Motion in Games (Lecture Notes in Computer Science vol 5884) (Berlin: pp 41-52, Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-642-10347-6_4</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Johansson A, Helbing D and Shukla P K</subfield>
+  <subfield code="m">Adv Crossref:</subfield>
+  <subfield code="s">Complex Syst.,10,271-88</subfield>
+  <subfield code="a">doi:10.1142/S0219525907001355</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Berseth G, Kapadia M and Faloutsos P</subfield>
+  <subfield code="m">Computer animation and virtual worlds</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Gérin-Lajoie M, Richards C L and McFadyen B J</subfield>
+  <subfield code="m">Motor Control 9 242-69, Crossref:</subfield>
+  <subfield code="a">doi:10.1123/mcj.9.3.242</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Fruin J</subfield>
+  <subfield code="m">Pedestrian Planning and Design (New York: Metropolitan Association of Urban Designers and Environmental Planners)</subfield>
+  <subfield code="y">1971</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Pauls J L</subfield>
+  <subfield code="m">Suggestions on evacuation models and research questions Conf. Proc. of the 3rd Int. Symp. on Human Behaviour in Fire</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Chraibi M, Seyfried A and Schadschneider A</subfield>
+  <subfield code="s">Phys.Rev.,E82,046111</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.82.046111</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Burstedde C, Klauck K, Schadschneider A and Zittartz J</subfield>
+  <subfield code="s">Physica,A295,507-25</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0378-4371(01)00141-8</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">De Berg M, Cheong O, Van Kreveld M and Overmars M</subfield>
+  <subfield code="m">Computational Geometry: Algorithms and Applications 3rd edn (Heidelberg: Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-540-77974-2</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Best A, Narang S and Manocha D</subfield>
+  <subfield code="m">Real-time reciprocal collision avoidance with elliptical agents Int. Conf. on Robotics and Automation</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Lee I K, Kim M S and Elber G</subfield>
+  <subfield code="m">Graph. Models Image Process. 60 136-65, Crossref:</subfield>
+  <subfield code="a">doi:10.1006/gmip.1998.0464</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Pelechano N, Allbeck J and Badler N</subfield>
+  <subfield code="m">Controlling individual agents in high-density crowd simulation Symp. on Computer Animation pp 99-108</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Patil S</subfield>
+  <subfield code="m">van den Berg J, Curtis S, Lin M and Manocha D TVCG pp 244-54</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Sung M, Gleicher M and Chenney S</subfield>
+  <subfield code="m">Comput. Graph. Forum 23 519-28, Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1467-8659.2004.00783.x</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">Ond&amp;rcaron</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">ej J A synthetic-vision based steering approach for crowd simulation Proc. ACM SIGGRAPH pp 123:1-9</subfield>
+  <subfield code="h">Pettré J, Olivier A H and Donikian S</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Treuille A, Cooper S</subfield>
+  <subfield code="m">and Popovi&amp;cacute</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="m">ZContinuum crowds Proc. ACM SIGGRAPH pp 1160-8, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/1141911.1142008</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Narain R, Golas A, Curtis S and Lin M C</subfield>
+  <subfield code="s">ACM Trans.Graph.,28,122</subfield>
+  <subfield code="m">1-8, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/1618452.1618468</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Kapadia M, Singh S, Hewlett W and Faloutsos P</subfield>
+  <subfield code="m">Egocentric affordance fields in pedestrian steering Proc. of the Symp. on Interactive 3D Graphics and Games pp 215-23</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Funge J</subfield>
+  <subfield code="m">Tu X and Terzopoulos DCognitive modeling: knowledge, reasoning and planning for intelligent characters Proc. of SIGGRAPH pp 29-38</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="m">Yu Q and Terzopoulos DA decision network framework for the behavioral animation of virtual humans Symp. on Computer Animation pp 119-28</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Lee K H, Choi M G, Hong Q and Lee J</subfield>
+  <subfield code="m">Group behavior from video: a data-driven approach to crowd simulation Symp. on Computer Animation pp 109-18</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Lerner A, Chrysanthou Y and Lischinski D</subfield>
+  <subfield code="m">Comput. Graph. Forum 26 655-64, Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1467-8659.2007.01089.x</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Templer J</subfield>
+  <subfield code="m">The Staircase: Studies of Hazards, Falls, and Safer Design (Cambridge, MA: MIT Press)</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Singh S, Kapadia M, Reinman G and Faloutsos P</subfield>
+  <subfield code="m">Comput. Animat. Virtual Worlds 22 151-8, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/cav.403</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Giese A, Latypov D and Amato N M</subfield>
+  <subfield code="m">Reciprocally-rotating velocity obstacles Int. Conf. on Robotics and Automation pp 3234-41</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Karamouzas I and Guy S J</subfield>
+  <subfield code="m">Prioritized group navigation with formation velocity obstacles Int. Conf. on Robotics and Automation</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Choi M G, Kim M, Hyun K and Lee J</subfield>
+  <subfield code="m">Comput. Graph. Forum 30 445-53, Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1467-8659.2011.01889.x</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">van Basten B J H, Stuvel S A and Egges A</subfield>
+  <subfield code="m">Graph. Interface 1 9-16</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Brscic D, Kanda T, Ikeda T and Miyashita T</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="m">Trans. Hum.-Mach. Syst. 43 522-34, Crossref:</subfield>
+  <subfield code="a">doi:10.1109/THMS.2013.2283945</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Weidmann U</subfield>
+  <subfield code="m">Transporttechnische Eigenschaften des Fußgängerverkehrs (Literaturauswertung) (Transporttechnik der Fußgänger) Technical Report 90</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Fiorini P and Shiller Z</subfield>
+  <subfield code="m">Int. J Robot. Res. 17 760-2, Crossref:</subfield>
+  <subfield code="a">doi:10.1177/027836499801700706</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Helbing D and Molnár P</subfield>
+  <subfield code="s">Phys.Rev.,E51,4282-6</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.51.4282</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Zhang J, Klingsch W, Schadschneider A and Seyfried A</subfield>
+  <subfield code="m">J. Stat Mech. P02002</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2012/02/P02002</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

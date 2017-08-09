@@ -1,0 +1,617 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.059</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Motheau, E.</subfield>
+    <subfield code="j">ORCID:0000-0003-1968-1611</subfield>
+    <subfield code="v">School of Mechanical Engineering, University of Adelaide, Adelaide, SA, 5005, Australia</subfield>
+    <subfield code="m">emotheau@lbl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A high-order numerical algorithm for DNS of low-Mach-number reactive flows with detailed chemistry and quasi-spectral accuracy</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel and efficient algorithm is presented in this paper to deal with DNS of turbulent reacting flows under the low-Mach-number assumption, with detailed chemistry and a quasi-spectral accuracy. The temporal integration of the equations relies on an operating-split strategy, where chemical reactions are solved implicitly with a stiff solver and the convection–diffusion operators are solved with a Runge–Kutta–Chebyshev method. The spatial discretisation is performed with high-order compact schemes, and a FFT based constant-coefficient spectral solver is employed to solve a variable-coefficient Poisson equation. The numerical implementation takes advantage of the 2DECOMP&amp;FFT; libraries developed by [1] , which are based on a pencil decomposition method of the domain and are proven to be computationally very efficient. An enhanced pressure-correction method is proposed to speed up the achievement of machine precision accuracy. It is demonstrated that a second-order accuracy is reached in time, while the spatial accuracy ranges from fourth-order to sixth-order depending on the set of imposed boundary conditions. The software developed to implement the present algorithm is called HOLOMAC , and its numerical efficiency opens the way to deal with DNS of reacting flows to understand complex turbulent and chemical phenomena in flames.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">DNS</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Low-Mach-number</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Detailed chemistry</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Turbulent reacting flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral accuracy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Operator splitting</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Abraham, J.</subfield>
+    <subfield code="v">School of Mechanical Engineering, University of Adelaide, Adelaide, SA, 5005, Australia</subfield>
+    <subfield code="v">School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN, 47907-2088, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">430-454</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">N. Li, S. Laizet</subfield>
+    <subfield code="m">2DECOMP&amp;FFT; - a highly scalable 2d decomposition library and FFT interface, in: Cray User GroupConference, pp. 1-13</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pitsch, H.</subfield>
+    <subfield code="t">Large eddy simulation of turbulent combustion</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,38,453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gicquel, L.Y.M.</subfield>
+    <subfield code="h">Staffelbach, G.</subfield>
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="t">Large eddy simulations of gaseous flames in gas turbine combustion chambers</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Prog.Energy Combust.Sci.,38,782</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Motheau, E.</subfield>
+    <subfield code="h">Nicoud, F.</subfield>
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="t">Mixed acoustic-entropy combustion instabilities in gas turbines</subfield>
+    <subfield code="v">749</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Fluid Mech.,749,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Franzelli, B.</subfield>
+    <subfield code="h">Riber, E.</subfield>
+    <subfield code="h">Sanjosé, M.</subfield>
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="t">A two-step chemical scheme for large-eddy simulation of kerosene–air flames</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Combust.Flame,157,1364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mukhopadhyay, S.</subfield>
+    <subfield code="h">Abraham, J.</subfield>
+    <subfield code="t">Influence of heat release and turbulence on scalar dissipation rate in autoigniting n -heptane/air mixtures</subfield>
+    <subfield code="v">159</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Combust.Flame,159,2883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Charentenay, J.</subfield>
+    <subfield code="h">Thévenin, D.</subfield>
+    <subfield code="h">Zamuner, B.</subfield>
+    <subfield code="t">Comparison of direct numerical simulations of turbulent flames using compressible or low-Mach number formulations</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,39,497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Volpe, G.</subfield>
+    <subfield code="t">Performance of compressible flow codes at low Mach numbers</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">AIAA J.,31,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turkel, E.</subfield>
+    <subfield code="t">Preconditioned methods for solving the incompressible and low speed compressible equations</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,72,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venkateswaran, S.</subfield>
+    <subfield code="h">Merkle, C.</subfield>
+    <subfield code="t">Dual time stepping and preconditioning for unsteady computations</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">AIAA paper</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shuen, J.-S.</subfield>
+    <subfield code="h">Chen, K.-H.</subfield>
+    <subfield code="h">Choi, Y.</subfield>
+    <subfield code="t">A coupled implicit method for chemical non-equilibrium flows at all speeds</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,106,306</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="t">The design of local Navier–Stokes preconditioning for compressible flow</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,144,460</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">A numerical method for solving incompressible viscous flow problems</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,135,118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicoud, F.</subfield>
+    <subfield code="t">Conservative high-order finite difference schemes for low-Mach number flows</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,158,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knikker, R.</subfield>
+    <subfield code="t">A comparative study of high-order variable-property segregated algorithms for unsteady low Mach number flows</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,66,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Heul, D.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Wesseling, P.</subfield>
+    <subfield code="t">A conservative pressure-correction method for flow at all speeds</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,32,1113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nerinckx, K.</subfield>
+    <subfield code="h">Vierendeels, J.</subfield>
+    <subfield code="h">Dick, E.</subfield>
+    <subfield code="t">Mach-uniformity through the coupled pressure and temperature correction algorithm</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,206,597</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cordier, F.</subfield>
+    <subfield code="h">Degond, P.</subfield>
+    <subfield code="h">Kumbaro, A.</subfield>
+    <subfield code="t">An asymptotic-preserving all-speed scheme for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5685</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doom, J.</subfield>
+    <subfield code="h">Hou, Y.</subfield>
+    <subfield code="h">Mahesh, K.</subfield>
+    <subfield code="t">A numerical method for DNS/LES of turbulent reacting flows</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sewall, E.A.</subfield>
+    <subfield code="h">Tafti, D.K.</subfield>
+    <subfield code="t">A time-accurate variable property algorithm for calculating flows with large temperature variations</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Fluids,37,51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Majda, A.</subfield>
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">The derivation and numerical solution of the equations for zero Mach number combustion</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Combust.Sci.Technol.,42,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McMurtry, P.A.</subfield>
+    <subfield code="h">Jou, W.-H.</subfield>
+    <subfield code="h">Riley, J.</subfield>
+    <subfield code="h">Metcalfe, R.W.</subfield>
+    <subfield code="t">Direct numerical simulations of a reacting mixing layer with chemical heat release</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">AIAA J.,24,962</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="h">Riley, J.J.</subfield>
+    <subfield code="t">Direct numerical simulation of a turbulent reactive plume on a parallel computer</subfield>
+    <subfield code="v">129</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,129,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Wyckoff, P.S.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="t">A semi-implicit numerical scheme for reacting flow: I. Stiff chemistry</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,143,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Wyckoff, P.S.</subfield>
+    <subfield code="t">A semi-implicit numerical scheme for reacting flow: II. Stiff, operator-split formulation</subfield>
+    <subfield code="v">154</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,154,428</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Day, M.S.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="t">Numerical simulation of laminar reacting flows with complex chemistry</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Combust.Theory Model.,4,535</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Ray, J.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="t">A high-order low-Mach number AMR construction for chemically reacting flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,229,9299</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, R.</subfield>
+    <subfield code="h">Yu, J.</subfield>
+    <subfield code="h">Bai, X.-S.</subfield>
+    <subfield code="t">An improved high-order scheme for DNS of low Mach number turbulent reacting flows based on stiff chemistry solver</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,231,5504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giovangigli, V.</subfield>
+    <subfield code="t">Multicomponent Flow Modeling, Modeling and Simulation in Science, Engineering and Technology</subfield>
+    <subfield code="p">Birkhauser Boston</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="h">Veynante, D.</subfield>
+    <subfield code="t">Theoretical and Numerical Combustion</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ern, A.</subfield>
+    <subfield code="h">Giovangigli, V.</subfield>
+    <subfield code="t">Fast and accurate multicomponent transport property evaluation</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,120,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magin, T.E.</subfield>
+    <subfield code="h">Degrez, G.</subfield>
+    <subfield code="t">Transport algorithms for partially ionized and unmagnetized plasmas</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,198,424</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirschfelder, J.O.</subfield>
+    <subfield code="h">Curtiss, C.F.</subfield>
+    <subfield code="h">Bird, R.B.</subfield>
+    <subfield code="t">Molecular Theory of Gases and Liquids</subfield>
+    <subfield code="p">John Wiley &amp; Sons New York</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, E.</subfield>
+    <subfield code="h">Wanner, G.</subfield>
+    <subfield code="t">Solving Ordinary Differential Equations II - Stiff and Differential-Algebraic Problems, , vol. 14</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="v">vol. 14</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="t">On the construction and comparison of difference schemes</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,5,506</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duarte, M.</subfield>
+    <subfield code="h">Descombes, S.</subfield>
+    <subfield code="h">Tenaud, C.</subfield>
+    <subfield code="h">Candel, S.</subfield>
+    <subfield code="h">Massot, M.</subfield>
+    <subfield code="t">Time–space adaptive numerical methods for the simulation of combustion fronts</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Combust.Flame,160,1083</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="t">Modeling low Mach number reacting flow with detailed chemistry and transport</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Sci.Comput.,25,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verwer, J.G.</subfield>
+    <subfield code="h">Sommeijer, B.P.</subfield>
+    <subfield code="h">Hundsdorfer, W.</subfield>
+    <subfield code="t">RKC time-stepping for advection–diffusion-reaction problems</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,201,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kee, R.J.</subfield>
+    <subfield code="h">Rupley, F.</subfield>
+    <subfield code="h">Meeks, E.</subfield>
+    <subfield code="t">CHEMKIN-III: a FORTRAN chemical kinetics package for the analysis of gas-phase chemical and plasma kinetics</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="m">Technical report SAND96-8216</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="h">Blanquart, G.</subfield>
+    <subfield code="h">Balarac, G.</subfield>
+    <subfield code="h">Pitsch, H.</subfield>
+    <subfield code="t">High order conservative finite difference scheme for variable density low Mach number turbulent flows</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7125</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laizet, S.</subfield>
+    <subfield code="h">Lamballais, E.</subfield>
+    <subfield code="t">High-order compact schemes for incompressible flows: a simple and efficient method with quasi-spectral accuracy</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laizet, S.</subfield>
+    <subfield code="h">Li, N.</subfield>
+    <subfield code="t">Incompact3d: a powerful tool to tackle turbulence problems with up to O(10 5 ) computational cores</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,67,1735</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frigo, M.</subfield>
+    <subfield code="h">Johnson, S.</subfield>
+    <subfield code="t">The design and implementation of FFTW3</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Proc.IEEE,93,216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, P.N.</subfield>
+    <subfield code="h">Byrne, G.D.</subfield>
+    <subfield code="h">Hindmarsh, A.C.</subfield>
+    <subfield code="t">Vode: a variable-coefficient ode solver</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,10,1038</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Orlanski, I.</subfield>
+    <subfield code="t">A simple boundary condition for unbounded hyperbolic flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,21,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guermond, J.L.</subfield>
+    <subfield code="h">Minev, P.</subfield>
+    <subfield code="h">Shen, J.</subfield>
+    <subfield code="t">An overview of projection methods for incompressible flows</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,6011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gresho, P.M.</subfield>
+    <subfield code="t">Incompressible fluid dynamics: some fundamental formulation issues</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,23,413</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicoud, F.C.</subfield>
+    <subfield code="t">Numerical study of a channel flow with variable properties</subfield>
+    <subfield code="p">Center for Turbulence Research, NASA Ames/Stanford Univ.</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="q">Annual Research Briefs</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dodd, M.S.</subfield>
+    <subfield code="h">Ferrante, A.</subfield>
+    <subfield code="t">A fast pressure-correction method for incompressible two-fluid flows</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,273,416</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lele, S.</subfield>
+    <subfield code="t">Compact finite difference schemes with spectral like resolution</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,103,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaitonde, D.V.</subfield>
+    <subfield code="h">Visbal, M.R.</subfield>
+    <subfield code="t">High-order schemes for Navier–Stokes equations: algorithm and implementation into FDL3DI</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">Technical report, DTIC Document</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sankaran, R.</subfield>
+    <subfield code="h">Hawkes, E.</subfield>
+    <subfield code="h">Chen, J.</subfield>
+    <subfield code="h">Lu, T.</subfield>
+    <subfield code="h">Law, C.K.</subfield>
+    <subfield code="t">Structure of a spatially developing turbulent lean methane–air Bunsen flame</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Proc.Combust.Inst.,31,1291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colin, O.</subfield>
+    <subfield code="h">Ducros, F.</subfield>
+    <subfield code="h">Veynante, D.</subfield>
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="t">A thickened flame model for large eddy simulations of turbulent premixed combustion</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Phys.Fluids,12,1843</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lessani, B.</subfield>
+    <subfield code="h">Papalexandris, M.V.</subfield>
+    <subfield code="t">Time-accurate calculation of variable density flows with strong temperature gradients and combustion</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,212,218</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dong, S.</subfield>
+    <subfield code="h">Shen, J.</subfield>
+    <subfield code="t">A pressure correction scheme for generalized form of energy-stable open boundary conditions for incompressible flows</subfield>
+    <subfield code="v">291</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,291,254</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raymond, W.H.</subfield>
+    <subfield code="h">Kuo, H.L.</subfield>
+    <subfield code="t">A radiation boundary condition for multi-dimensional flows</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,110,535</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Billson, M.</subfield>
+    <subfield code="h">Eriksson, L.-E.</subfield>
+    <subfield code="h">Davidson, L.</subfield>
+    <subfield code="t">Acoustic source terms for the linearized Euler equations in conservative form</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">AIAA J.,43,752</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peters, N.</subfield>
+    <subfield code="h">Paczko, G.</subfield>
+    <subfield code="h">Seiser, R.</subfield>
+    <subfield code="h">Seshadri, K.</subfield>
+    <subfield code="t">Temperature cross-over and non-thermal runaway at two-stage ignition of n -heptane</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Combust.Flame,128,38</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X0006X/S0021999116001315/S0021999116001315.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,711 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.011</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Carpio, Jaime</subfield>
+    <subfield code="v">Departamento de Ingeniería Energética, E.T.S. Ingenieros Industriales, Universidad Politécnica de Madrid, Madrid, 28006, Spain</subfield>
+    <subfield code="m">jaime.carpio@upm.es</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A local anisotropic adaptive algorithm for the solution of low-Mach transient combustion problems</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A novel numerical algorithm for the simulation of transient combustion problems at low Mach and moderately high Reynolds numbers is presented. These problems are often characterized by the existence of a large disparity of length and time scales, resulting in the development of directional flow features, such as slender jets, boundary layers, mixing layers, or flame fronts. This makes local anisotropic adaptive techniques quite advantageous computationally. In this work we propose a local anisotropic refinement algorithm using, for the spatial discretization, unstructured triangular elements in a finite element framework. For the time integration, the problem is formulated in the context of semi-Lagrangian schemes, introducing the semi-Lagrange–Galerkin (SLG) technique as a better alternative to the classical semi-Lagrangian (SL) interpolation. The good performance of the numerical algorithm is illustrated by solving a canonical laminar combustion problem: the flame/vortex interaction. First, a premixed methane–air flame/vortex interaction with simplified transport and chemistry description (Test I) is considered. Results are found to be in excellent agreement with those in the literature, proving the superior performance of the SLG scheme when compared with the classical SL technique, and the advantage of using anisotropic adaptation instead of uniform meshes or isotropic mesh refinement. As a more realistic example, we then conduct simulations of non-premixed hydrogen–air flame/vortex interactions (Test II) using a more complex combustion model which involves state-of-the-art transport and chemical kinetics. In addition to the analysis of the numerical features, this second example allows us to perform a satisfactory comparison with experimental visualizations taken from the literature.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lagrange–Galerkin schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Anisotropic refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Transient combustion problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Flame/vortex interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Prieto, Juan Luis</subfield>
+    <subfield code="v">Departamento de Ingeniería Energética, E.T.S. Ingenieros Industriales, Universidad Politécnica de Madrid, Madrid, 28006, Spain</subfield>
+    <subfield code="m">juanluis.prieto@upm.es</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vera, Marcos</subfield>
+    <subfield code="v">Departamento de Ingeniería Térmica y de Fluidos, Universidad Carlos III de Madrid, Leganés, 28911, Spain</subfield>
+    <subfield code="m">marcos.vera@uc3m.es</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">19-42</subfield>
+    <subfield code="v">306</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Combustion Theory</subfield>
+    <subfield code="p">Addison-Wesley Redwood City</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge University Press UK</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peters, N.</subfield>
+    <subfield code="t">Turbulent Combustion</subfield>
+    <subfield code="p">Cambridge University Press UK</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Fundamental Aspects of Combustion</subfield>
+    <subfield code="p">Oxford Univ. Press New York</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buckmaster, J.</subfield>
+    <subfield code="h">Clavin, P.</subfield>
+    <subfield code="h">Liñan, A.</subfield>
+    <subfield code="h">Matalon, M.</subfield>
+    <subfield code="h">Peters, N.</subfield>
+    <subfield code="h">Sivashinsky, G.</subfield>
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Combustion theory and modeling</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Proc.Combust.Inst.,30,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smooke, M.D.</subfield>
+    <subfield code="t">The computation of laminar flames</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Proc.Combust.Inst.,34,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="h">Veynante, D.</subfield>
+    <subfield code="t">Theoretical and Numerical Combustion</subfield>
+    <subfield code="p">RT Edwards, Inc.</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Wyckoff, P.S.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="t">A semi-implicit numerical scheme for reacting flow: I. Stiff chemistry</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,143,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bennett, B.A.V.</subfield>
+    <subfield code="h">Smooke, M.D.</subfield>
+    <subfield code="t">Local rectangular refinement with application to non-reacting and reacting fluid flow problems</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,151,684</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lessani, B.</subfield>
+    <subfield code="h">Papalexandris, M.V.</subfield>
+    <subfield code="t">Time-accurate calculation of variable density flows with strong temperature gradients and combustion</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,212,218</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Ray, J.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="t">A high-order low-Mach number AMR construction for chemically reacting flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,229,9299</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tomboulides, A.G.</subfield>
+    <subfield code="h">Lee, J.C.Y.</subfield>
+    <subfield code="h">Orszag, S.A.</subfield>
+    <subfield code="t">Numerical simulation of low Mach number reactive flows</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Sci.Comput.,12,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pember, R.B.</subfield>
+    <subfield code="h">Howell, L.H.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Crutchfield, W.Y.</subfield>
+    <subfield code="h">Fiveland, W.A.</subfield>
+    <subfield code="h">Jessee, J.P.</subfield>
+    <subfield code="t">An adaptive projection method for unsteady, low-Mach number combustion</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Combust.Sci.Technol.,140,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Filippova, O.</subfield>
+    <subfield code="h">Hänel, D.</subfield>
+    <subfield code="t">A novel lattice BGK approach for low Mach number combustion</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,158,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Paolucci, S.</subfield>
+    <subfield code="h">Zikoski, Z.J.</subfield>
+    <subfield code="h">Wirasaet, D.</subfield>
+    <subfield code="t">WAMR: an adaptive wavelet method for the simulation of compressible reacting flow. Part I. Accuracy and efficiency of algorithm</subfield>
+    <subfield code="v">272</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,272,814</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Estep, D.J.</subfield>
+    <subfield code="h">Larson, M.G.</subfield>
+    <subfield code="h">Williams, R.D.</subfield>
+    <subfield code="t">Estimating the Error of Numerical Solutions of Systems of Reaction–Diffusion Equations, , vol. 696</subfield>
+    <subfield code="p">American Mathematical Soc.</subfield>
+    <subfield code="v">vol. 696</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="t">An adaptive finite element method for reactive flow problems</subfield>
+    <subfield code="p">University of Heidelberg Heidelberg, Germany</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becker, R.</subfield>
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="h">Rannacher, R.</subfield>
+    <subfield code="t">Numerical simulation of laminar flames at low Mach number by adaptive finite elements</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Combust.Theory Model.,3,503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Becker, R.</subfield>
+    <subfield code="h">Rannacher, R.</subfield>
+    <subfield code="t">An optimal control approach to a posteriori error estimation in finite element methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="e">Iserles,A.</subfield>
+    <subfield code="q">Acta Numerica 2001</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Ern, A.</subfield>
+    <subfield code="h">Giovangigli, V.</subfield>
+    <subfield code="t">An adaptive finite element method with crosswind diffusion for low Mach, steady, laminar combustion</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,188,472</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Ern, A.</subfield>
+    <subfield code="h">Giovangigli, V.</subfield>
+    <subfield code="t">Bunsen flame simulation by finite elements on adaptively refined, unstructured triangulations</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Combust.Theory Model.,8,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braack, M.</subfield>
+    <subfield code="h">Richter, T.</subfield>
+    <subfield code="t">Stabilized finite elements for 3-d reactive flows</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Int.J.Numer.Math.Fluids,51,981</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="h">Carpio, J.</subfield>
+    <subfield code="t">A space–time element algorithm based on dual weighted residual methodology for parabolic equations</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,3324</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belme, A.</subfield>
+    <subfield code="h">Dervieux, A.</subfield>
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">Time accurate anisotropic goal-oriented mesh adaptation for unsteady flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michaelis, B.</subfield>
+    <subfield code="h">Rogg, B.</subfield>
+    <subfield code="t">FEM-simulation of laminar flame propagation. I: two-dimensional flames</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,196,417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michaelis, B.</subfield>
+    <subfield code="h">Rogg, B.</subfield>
+    <subfield code="t">FEM-simulation of laminar flame propagation. II: twin and triple flames in counterflow</subfield>
+    <subfield code="v">177</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Combust.Sci.Technol.,177,955</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Opiola, P.</subfield>
+    <subfield code="t">High-quality real-time simulation of a turbulent flame</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="q">Computational Science and Its Applications-ICCSA</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ainsworth, M.</subfield>
+    <subfield code="h">Oden, J.T.</subfield>
+    <subfield code="t">A Posteriori Error Estimation in Finite Element Analysis</subfield>
+    <subfield code="p">John Wiley &amp; Sons</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frey, P.J.</subfield>
+    <subfield code="h">Alauzet, F.</subfield>
+    <subfield code="t">Anisotropic mesh adaptation for CFD computations</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,5068</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coupez, T.</subfield>
+    <subfield code="h">Jannoun, G.</subfield>
+    <subfield code="h">Nassif, N.</subfield>
+    <subfield code="h">Nguyen, H.C.</subfield>
+    <subfield code="h">Digonnet, H.</subfield>
+    <subfield code="h">Hachem, E.</subfield>
+    <subfield code="t">Adaptive time-step with anisotropic meshing for incompressible flows</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,241,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="h">Carpio, J.</subfield>
+    <subfield code="t">An adaptive finite element semi-Lagrangian Runge–Kutta–Chebychev method for convection dominated reaction–diffusion problems</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Appl.Numer.Math.,58,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermúdez, A.</subfield>
+    <subfield code="h">Ferrín, J.L.</subfield>
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="h">Saavedra, L.</subfield>
+    <subfield code="t">Numerical simulation of group combustion of pulverized coal</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Combust.Flame,158,1852</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allievi, A.</subfield>
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="t">Finite element modified method of characteristics for Navier–Stokes equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,32,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpio, J.</subfield>
+    <subfield code="h">Prieto, J.L.</subfield>
+    <subfield code="t">An anisotropic, fully adaptive algorithm for the solution of convection dominated equations with semi-Lagrangian schemes</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,273,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morton, K.W.</subfield>
+    <subfield code="h">Priestley, A.</subfield>
+    <subfield code="h">Süli, E.</subfield>
+    <subfield code="t">Stability of the Lagrange–Galerkin method with non-exact integration</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">ESAIM, Math.Model.Numer.,22,625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pironneau, O.</subfield>
+    <subfield code="t">On the transport–diffusion algorithm and its applications to the Navier–Stokes equations</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Numer.Math.,38,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="h">Carpio, J.</subfield>
+    <subfield code="t">A semi-Lagrange–Galerkin projection scheme for convection equations</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,30,799</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="h">Galán del Sastre, P.</subfield>
+    <subfield code="h">Saavedra, L.</subfield>
+    <subfield code="t">A second order in time modified Lagrange–Galerkin finite element method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,3084</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mueller, C.J.</subfield>
+    <subfield code="h">Driscoll, J.F.</subfield>
+    <subfield code="h">Reuss, D.L.</subfield>
+    <subfield code="h">Drake, M.C.</subfield>
+    <subfield code="h">Rosalik, M.E.</subfield>
+    <subfield code="t">Vorticity generation and attenuation as vortices convect through a premixed flame</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Combust.Flame,112,342</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poinsot, T.</subfield>
+    <subfield code="h">Veynante, D.</subfield>
+    <subfield code="h">Candel, S.</subfield>
+    <subfield code="t">Quenching processes and premixed turbulent combustion diagram</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Fluid Mech.,228,561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rolon, J.C.</subfield>
+    <subfield code="h">Aguerre, F.</subfield>
+    <subfield code="h">Candel, S.</subfield>
+    <subfield code="t">Experiments on the interaction between a vortex and a strained diffusion flame</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Combust.Flame,100,422</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Santoro, V.S.</subfield>
+    <subfield code="h">Kyritsis, D.C.</subfield>
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="h">Gomez, A.</subfield>
+    <subfield code="t">Vortex-induced extinction behavior in methanol gaseous flames: a comparison with quasi-steady extinction</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Proc.Combust.Inst.,28,2109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hermanns, M.</subfield>
+    <subfield code="h">Vera, M.</subfield>
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="t">On the dynamics of flame edges in diffusion–flame/vortex interaction</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Combust.Flame,149,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renard, P.H.</subfield>
+    <subfield code="h">Thevenin, D.</subfield>
+    <subfield code="h">Rolon, J.C.</subfield>
+    <subfield code="h">Candel, S.</subfield>
+    <subfield code="t">Dynamics of flame/vortex interactions</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Prog.Energy Combust.,26,225</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allievi, A.</subfield>
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="t">A generalized particle search-locate algorithm for arbitrary grid</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,132,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sommeijer, B.P.</subfield>
+    <subfield code="h">Shampine, L.F.</subfield>
+    <subfield code="h">Verwer, J.G.</subfield>
+    <subfield code="t">RKC: an explicit solver for parabolic PDEs</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,88,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verwer, J.G.</subfield>
+    <subfield code="h">Sommeijer, B.</subfield>
+    <subfield code="h">Hundsdorfer, W.</subfield>
+    <subfield code="t">RKC time-stepping for advection–diffusion–reaction problems</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,201,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dean, E.J.</subfield>
+    <subfield code="h">Glowinski, R.</subfield>
+    <subfield code="t">On some finite elements methods for the numerical simulation of incompressible viscous flow</subfield>
+    <subfield code="p">Cambridge: Cambridge University Press</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="e">Gunzburger,M.D.</subfield>
+    <subfield code="e">Nicolaides,R.A.</subfield>
+    <subfield code="q">Incompressible Computational Fluid Dynamics: Trends and Advances</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coupez, T.</subfield>
+    <subfield code="t">Metric construction by length distribution tensor and edge based error for anisotropic adaptive meshing</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,230,2391</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, W.</subfield>
+    <subfield code="t">Metric tensors for anisotropic mesh generation</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,204,633</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carpio, J.</subfield>
+    <subfield code="h">Prieto, J.L.</subfield>
+    <subfield code="h">Bermejo, R.</subfield>
+    <subfield code="t">Anisotropic “goal-oriented” mesh adaptivity for elliptic problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Georgoulis, E.H.</subfield>
+    <subfield code="h">Hall, E.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">Discontinuous Galerkin methods for advection–diffusion–reaction problems on anisotropically refined meshes</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,246</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giani, S.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">Anisotropic hp-adaptive discontinuous Galerkin finite element methods for compressible fluid flows</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Int.J.Numer.Anal.Model.,9,928</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cliffe, K.A.</subfield>
+    <subfield code="h">Collins, J.</subfield>
+    <subfield code="h">Houston, P.</subfield>
+    <subfield code="t">Goal-oriented a posterior error estimation for the travel time functional in porous media flows</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,B127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hecht, F.</subfield>
+    <subfield code="t">BAMG: Bidimensional Anisotropic Mesh Generator</subfield>
+    <subfield code="p">INRIA-Rocquencourt France</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="h">Vera, M.</subfield>
+    <subfield code="h">Sánchez, A.L.</subfield>
+    <subfield code="t">Ignition, liftoff, and extinction of gaseous diffusion flames</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,47,293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Renard, P.H.</subfield>
+    <subfield code="h">Rolon, J.C.</subfield>
+    <subfield code="h">Thevenin, D.</subfield>
+    <subfield code="h">Candel, S.</subfield>
+    <subfield code="t">Investigations of heat release, extinction, and time evolution of the flame surface for a non-premixed flame interacting with a vortex</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Combust.Flame,117,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vera, M.</subfield>
+    <subfield code="h">Liñán, A.</subfield>
+    <subfield code="t">On the interaction of vortices with mixing layers</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Phys.Fluids,16,2237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fristrom, R.M.</subfield>
+    <subfield code="h">Monchick, L.</subfield>
+    <subfield code="t">Two simple approximations to the thermal diffusion factor and their applications to flame studies</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Combust.Flame,71,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kee, R.J.</subfield>
+    <subfield code="h">Rupley, F.M.</subfield>
+    <subfield code="h">Miller, J.A.</subfield>
+    <subfield code="h">Coltrin, M.E.</subfield>
+    <subfield code="h">Grcar, J.F.</subfield>
+    <subfield code="h">Meeks, E.</subfield>
+    <subfield code="h">Moffat, H.K.</subfield>
+    <subfield code="h">Lutz, A.E.</subfield>
+    <subfield code="h">Dixon-Lewis, G.</subfield>
+    <subfield code="h">Smooke, M.D.</subfield>
+    <subfield code="h">Warnatz, J.</subfield>
+    <subfield code="h">Evans, G.H.</subfield>
+    <subfield code="h">Larson, R.S.</subfield>
+    <subfield code="h">Mitchell, R.E.</subfield>
+    <subfield code="h">Petzold, L.R.</subfield>
+    <subfield code="h">Reynolds, W.C.</subfield>
+    <subfield code="h">Caracotsios, M.</subfield>
+    <subfield code="h">Stewart, W.E.</subfield>
+    <subfield code="h">Glarborg, P.</subfield>
+    <subfield code="t">CHEMKIN Collection, Release 3.5</subfield>
+    <subfield code="p">Reaction Design, Inc. San Diego, CA</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, G.P.</subfield>
+    <subfield code="h">Golden, D.M.</subfield>
+    <subfield code="h">Frenklach, M.</subfield>
+    <subfield code="h">Moriarty, N.W.</subfield>
+    <subfield code="h">Eiteneer, B.</subfield>
+    <subfield code="h">Goldenberg, M.</subfield>
+    <subfield code="h">Bowman, C.T.</subfield>
+    <subfield code="h">Hanson, R.K.</subfield>
+    <subfield code="h">Song, S.</subfield>
+    <subfield code="h">Gardiner, W.C.</subfield>
+    <subfield code="h">Lissianski, V.V.</subfield>
+    <subfield code="h">Quin, Z.</subfield>
+    <subfield code="t">GRI-Mech 3.0</subfield>
+    <subfield code="m">1999</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sánchez, A.L.</subfield>
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Recent advances in understanding of flammability characteristics of hydrogen</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Prog.Energy Combust.,41,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boivin, P.</subfield>
+    <subfield code="h">Jiménez, C.</subfield>
+    <subfield code="h">Sánchez, A.L.</subfield>
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">An explicit reduced mechanism for H 2 –air combustion</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Proc.Combust.Inst.,33,517</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saxena, P.</subfield>
+    <subfield code="h">Williams, F.A.</subfield>
+    <subfield code="t">Testing a small detailed chemical-kinetic mechanism for the combustion of hydrogen and carbon monoxide</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Combust.Flame,145,316</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00234/S0021999115007512/S0021999115007512.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,160 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Computing with Non-convex Polyhedra on the GPU</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We recently introduced Blaze-DEMGPU, a GPUGraphical processing unit(GPU) based computing framework for convex polyhedral shaped particles (Govender et al. Appl. Math. Comp. 267, 810–829, 2015). The computing framework was validated against numerous industrial applications that include particulate discharge and estimating power draw for a ball mill in comminution applications. In this study we extend the computing capabilities of the convex polyhedral Blaze-DEMGPU computing platform to include non-convexNon-convex polyhedralPolyhedral particles. We follow a similar philosophy to the well known clumping, clustering or fusing of spheres (Chong et al. Gran. Mat. 17, 377–387, 2015), but instead we fuse convex polyhedral particles. This allows for fused or super polyhedral particles that constitute effective physical properties for the fused particle e.g. the inertia tensor. The major benefit of fused polyhedral particles as opposed to clustered spherical particles is that the number of particles required to fuse fairly complex particle shapes is small. In addition, numerous decompositions exist to exactly decompose a non-convex particle in a number of convex particles. The main complexity of non-convex polyhedral particles is to resolve contact effectively and efficiently on the GPU. In this paper we outline our approach.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">7</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Springer Proc.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">1371-1377</subfield>
+  <subfield code="v">188</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/978-981-10-1926-5_141</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">ConferencePaper</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Wilke, Daniel N.</subfield>
+  <subfield code="v">Pretoria U. - Hatfield - Pretoria - 0086 - South Africa</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Govender, N.</subfield>
+  <subfield code="v">Meraka Institute CHPC - Cape Town - South Africa</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Pizette, Patrick</subfield>
+  <subfield code="v">Mines-Douai - LGCgE GCE - 59508 - Douai - France</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Abriak, N.E.</subfield>
+  <subfield code="v">Mines-Douai - LGCgE GCE - 59508 - Douai - France</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">CW Boon UtiliA new algorithm for contact detection between convex polygonal and polyhedral particles in the discrete element method Comput 82 Boon, C.W., Houlsby, G.T., Utili, S : A new algorithm for contact detection between convex polygonal and polyhedral particles in the discrete element method. Comput</subfield>
+  <subfield code="h">GT Houlsby S</subfield>
+  <subfield code="s">Geotech.,44,73</subfield>
+  <subfield code="a">doi:10.1016/j.compgeo.2012.03.012</subfield>
+  <subfield code="s">Geotech.,44,73-82</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="a">doi:10.1016/j.compgeo.2012.03.012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">S Chong Xu Li D-j Wang</subfield>
+  <subfield code="m">R W-yDiscrete element cluster modeling of complex mesoscopic particles for use with the particle flow code method Gran. Mat. 17 377 387 Chong, S Li D-j, Xu, W-y, Wang R : Discrete element cluster modeling of complex mesoscopic particles for use with the particle flow code method. Gran. Mat. 17, 377-387</subfield>
+  <subfield code="a">doi:10.1007/s10035-015-0557-1</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="a">doi:10.1007/s10035-015-0557-1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Dubois, F.</subfield>
+  <subfield code="m">: Numerical modeling of granular media made of polyhedral particles. ISTE pp. 233-262</subfield>
+  <subfield code="p">Wiley</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">N Govender DN Wilke S Kok</subfield>
+  <subfield code="m">Collision detection of convex polyhedra on the NVIDIA GPU architecture for the discrete element method Appl. Math. Comp. 267 810 829 3399094 Govender, N., Wilke, D.N., Kok, S : Collision detection of convex polyhedra on the NVIDIA GPU architecture for the discrete element method. Appl. Math. Comp. 267, 810-829</subfield>
+  <subfield code="a">doi:10.1016/j.amc.2014.10.013</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="a">doi:10.1016/j.amc.2014.10.013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">MA HopkinsPolyhedra faster than spheres Eng. Comp. 31 567 583 : Polyhedra faster than spheres. Eng. Comp. 31, 567-583</subfield>
+  <subfield code="a">doi:10.1108/EC-09-2012-0211</subfield>
+  <subfield code="h">Hopkins, M.A.</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="a">doi:10.1108/EC-09-2012-0211</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">J-M Lien NM Amato</subfield>
+  <subfield code="m">Approximate convex decomposition of polyhedra and its applications Comp. Aided Geom. Design 25 503 522 2451653 1172.65355 Lien, J.-M., Amato, N.M : Approximate convex decomposition of polyhedra and its applications. Comp. Aided Geom. Design 25, 503-522</subfield>
+  <subfield code="a">doi:10.1016/j.cagd.2008.05.003</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="a">doi:10.1016/j.cagd.2008.05.003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Lu, G : Discrete element models for non-spherical particle systems: from theoretical developments to applications</subfield>
+  <subfield code="h">Third, J.R., Muller, C.R.</subfield>
+  <subfield code="s">Chem.Eng.Sci.,127,425-465</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Mirtich, B.</subfield>
+  <subfield code="m">: V-Clip : fast and robust polyhedral collision detection. MERL TR-97-05:1-28</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">F Tonon</subfield>
+  <subfield code="m">Explicit exact formulas for the 3D tetrahedron inertia tensor in terms of its vertex coordinates J. Math Stats. 1 8 11 1960JMP.....1....8T 2157385 1142.70304 Tonon, F : Explicit exact formulas for the 3D tetrahedron inertia tensor in terms of its vertex coordinates. J. Math Stats. 1, 8-11</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">CRK Windows-Yule DR Tunuguntla DJ ParkerNumerical modelling of granular flows: a reality check Comp. Part Mech. 3 1 15 : Numerical modelling of granular flows: a reality check. Comp. Part Mech. 3, 1-15</subfield>
+  <subfield code="a">doi:10.1007/s40571-015-0083-2</subfield>
+  <subfield code="h">Windows-Yule, C.R.K., Tunuguntla, D.R., Parker, D.J.</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="a">doi:10.1007/s40571-015-0083-2</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

@@ -1,0 +1,412 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.019</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cools, S.</subfield>
+    <subfield code="v">Applied Mathematics Research Group, Department of Mathematics and Computer Science, University of Antwerp, Middelheimlaan 1, 2020 Antwerp, Belgium</subfield>
+    <subfield code="m">siegfried.cools@uantwerpen.be</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A fast and robust computational method for the ionization cross sections of the driven Schrödinger equation using an <math altimg="si1.gif" display="inline" overflow="scroll"><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></math> multigrid-based scheme</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-03-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">20</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper improves the convergence and robustness of a multigrid-based solver for the cross sections of the driven Schrödinger equation. Adding a Coupled Channel Correction Step (CCCS) after each multigrid (MG) V-cycle efficiently removes the errors that remain after the V-cycle sweep. The combined iterative solution scheme (MG-CCCS) is shown to feature significantly improved convergence rates over the classical MG method at energies where bound states dominate the solution, resulting in a fast and scalable solution method for the complex-valued Schrödinger break-up problem for any energy regime. The proposed solver displays optimal scaling; a solution is found in a time that is linear in the number of unknowns. The method is validated on a 2D Temkin–Poet model problem, and convergence results both as a solver and preconditioner are provided to support the <math altimg="si1.gif" display="inline" overflow="scroll"><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></math> scalability of the method. This paper extends the applicability of the complex contour approach for far field map computation (Cools et al. (2014) [10] ).</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Schrödinger equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cross sections</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Complex contour</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multigrid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Coupled channel correction scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Temkin–Poet</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vanroose, W.</subfield>
+    <subfield code="v">Applied Mathematics Research Group, Department of Mathematics and Computer Science, University of Antwerp, Middelheimlaan 1, 2020 Antwerp, Belgium</subfield>
+    <subfield code="m">wim.vanroose@uantwerpen.be</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">20-39</subfield>
+    <subfield code="v">308</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arfken, G.B.</subfield>
+    <subfield code="h">Weber, H.J.</subfield>
+    <subfield code="t">Mathematical Methods for Physicists</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baertschy, M.</subfield>
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="h">Isaacs, W.A.</subfield>
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="t">Electron-impact ionization of atomic hydrogen</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.,A63,022712</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balslev, E.</subfield>
+    <subfield code="h">Combes, J.M.</subfield>
+    <subfield code="t">Spectral properties of many-body Schrödinger operators with dilatation-analytic interactions</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Commun.Math.Phys.,22,280</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berenger, J.-P.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bollhöfer, M.</subfield>
+    <subfield code="h">Grote, M.J.</subfield>
+    <subfield code="h">Schenk, O.</subfield>
+    <subfield code="t">Algebraic multilevel preconditioner for the Helmholtz equation in heterogeneous media</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,3781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brandt, A.</subfield>
+    <subfield code="t">Multi-level adaptive solutions to boundary-value problems</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Math.Comput.,31,333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Briggs, W.L.</subfield>
+    <subfield code="h">Henson, V.E.</subfield>
+    <subfield code="h">McCormick, S.F.</subfield>
+    <subfield code="t">A Multigrid Tutorial</subfield>
+    <subfield code="p">Society for Industrial Mathematics Philadelphia</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Calandra, H.</subfield>
+    <subfield code="h">Gratton, S.</subfield>
+    <subfield code="h">Lago, R.</subfield>
+    <subfield code="h">Pinel, X.</subfield>
+    <subfield code="h">Vasseur, X.</subfield>
+    <subfield code="t">Two-level preconditioned Krylov subspace methods for the solution of three-dimensional heterogeneous Helmholtz problems in seismics</subfield>
+    <subfield code="p">CERFACS Toulouse, France</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">Technical report, TR/PA/11/80, 2011.3</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colton, D.L.</subfield>
+    <subfield code="h">Kress, R.</subfield>
+    <subfield code="t">Inverse Acoustic and Electromagnetic Scattering Theory, Applied Mathematical Sciences, vol. 93</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 93</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cools, S.</subfield>
+    <subfield code="h">Reps, B.</subfield>
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="t">An efficient multigrid calculation of the far field map for Helmholtz and Schrödinger equations</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,B367</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cools, S.</subfield>
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="t">Local Fourier analysis of the complex shifted Laplacian preconditioner for Helmholtz problems</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,20,575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elman, H.</subfield>
+    <subfield code="h">Mihajlović, M.</subfield>
+    <subfield code="h">Silvester, D.</subfield>
+    <subfield code="t">Fast iterative solvers for buoyancy driven flow problems</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,230,3900</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elman, H.C.</subfield>
+    <subfield code="h">Ernst, O.G.</subfield>
+    <subfield code="h">O'Leary, D.P.</subfield>
+    <subfield code="t">A multigrid method enhanced by Krylov subspace iteration for discrete Helmholtz equations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,1291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erlangga, Y.A.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">A novel multigrid based preconditioner for heterogeneous Helmholtz problems</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,1471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ernst, O.G.</subfield>
+    <subfield code="h">Gander, M.J.</subfield>
+    <subfield code="t">Why it is difficult to solve Helmholtz problems with classical iterative methods</subfield>
+    <subfield code="p">Numerical Analysis of Multiscale Problems, Durham LMS Symposium, 2010</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Friedrich, H.</subfield>
+    <subfield code="t">Theoretical Atomic Physics, vol. 3</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grimes, R.G.</subfield>
+    <subfield code="h">Lewis, J.G.</subfield>
+    <subfield code="h">Simon, H.D.</subfield>
+    <subfield code="t">A shifted block Lanczos algorithm for solving sparse symmetric generalized eigenproblems</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,15,228</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heller, E.J.</subfield>
+    <subfield code="h">Reinhardt, W.P.</subfield>
+    <subfield code="t">Comment on the direct-matrix solution of a singular Lippmann–Schwinger equation</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Rev.,A7,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, S.G.</subfield>
+    <subfield code="t">Saddle-point integration of C ∞ “bump” functions</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Manuscript, available at</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirsch, A.</subfield>
+    <subfield code="t">An Introduction to the Mathematical Theory of Inverse Problems, Applied Mathematical Sciences, vol. 120</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 120</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Made, M.M.M.</subfield>
+    <subfield code="t">Incomplete factorization-based preconditionings for solving the Helmholtz equation</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,50,1077</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCarthy, I.E.</subfield>
+    <subfield code="h">Stelbovics, A.T.</subfield>
+    <subfield code="t">Momentum-space coupled-channels optical method for electron-atom scattering</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Rev.,A28,2693</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="h">Baertschy, M.</subfield>
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="t">Solving the three-body Coulomb breakup problem using exterior complex scaling</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Phys.B, At.Mol.Opt.Phys.,37,R137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="h">Byrum, D.</subfield>
+    <subfield code="t">Approach to electron-impact ionization that avoids the three-body Coulomb asymptotic form</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Rev.,A56,1958</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mead, K.O.</subfield>
+    <subfield code="h">Delves, L.M.</subfield>
+    <subfield code="t">On the convergence rate of generalized Fourier expansions</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">IMA J.Appl.Math.,12,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moiseyev, N.</subfield>
+    <subfield code="t">Quantum theory of resonances: calculating energies, widths and cross-sections by complex scaling</subfield>
+    <subfield code="v">302</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Phys.Rep.,302,212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reps, B.</subfield>
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="h">Zubair, H. bin</subfield>
+    <subfield code="t">On the indefinite Helmholtz equation: complex stretched absorbing boundary layers, iterative analysis, and preconditioning</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8384</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="h">Baertschy, M.</subfield>
+    <subfield code="h">Isaacs, W.A.</subfield>
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="t">Collisional breakup in a quantum system of three charged particles</subfield>
+    <subfield code="v">286</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Science,286,2474</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Riyanti, C.D.</subfield>
+    <subfield code="h">Erlangga, Y.A.</subfield>
+    <subfield code="h">Plessix, R.E.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Oosterlee, C.</subfield>
+    <subfield code="t">A new iterative solver for the time-harmonic wave equation</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Geophysics,71,E57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sheikh, A.H.</subfield>
+    <subfield code="h">Lahaye, D.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">On the convergence of shifted Laplace preconditioner combined with multilevel deflation</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,20,645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simon, B.</subfield>
+    <subfield code="t">The definition of molecular resonance curves by the method of exterior complex scaling</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Phys.Lett.,A71,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trottenberg, U.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Schüller, A.</subfield>
+    <subfield code="t">Multigrid</subfield>
+    <subfield code="p">Academic Press New York</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van der Vorst, H.A.</subfield>
+    <subfield code="t">Iterative Krylov Methods for Large Linear Systems, vol. 13</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="h">Horner, D.A.</subfield>
+    <subfield code="h">Martin, F.</subfield>
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="t">Double photoionization of aligned molecular hydrogen</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Phys.Rev.,A74,052702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="h">Martin, F.</subfield>
+    <subfield code="h">Rescigno, T.N.</subfield>
+    <subfield code="h">McCurdy, C.W.</subfield>
+    <subfield code="t">Complete photo-induced breakup of the <math altimg="si276.gif" display="inline" overflow="scroll"><msub><mrow><mi>h</mi></mrow><mrow><mn>2</mn></mrow></msub></math> molecule as a probe of molecular electron correlation</subfield>
+    <subfield code="v">310</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Science,310,1787</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilkinson, J.H.</subfield>
+    <subfield code="t">Rounding Errors in Algebraic Processes</subfield>
+    <subfield code="p">Courier Dover Publications</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00258/S0021999115008384/S0021999115008384.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

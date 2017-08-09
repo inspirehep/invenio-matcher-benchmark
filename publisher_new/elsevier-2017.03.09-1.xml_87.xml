@@ -1,0 +1,736 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.cpc.2017.02.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Mycek, Paul</subfield>
+    <subfield code="j">ORCID:0000-0002-6919-112X</subfield>
+    <subfield code="v">Duke University, Department of Mechanical Engineering and Materials Science, 144 Hudson Hall, Box 90300, Durham, NC, 27708, United States</subfield>
+    <subfield code="m">paul.mycek@duke.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A resilient domain decomposition polynomial chaos solver for uncertain elliptic PDEs</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-09</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A resilient method is developed for the solution of uncertain elliptic PDEs on extreme scale platforms. The method is based on a hybrid domain decomposition, polynomial chaos (PC) framework that is designed to address soft faults. Specifically, parallel and independent solves of multiple deterministic local problems are used to define PC representations of local Dirichlet boundary-to-boundary maps that are used to reconstruct the global solution. A LAD-lasso type regression is developed for this purpose. The performance of the resulting algorithm is tested on an elliptic equation with an uncertain diffusivity field. Different test cases are considered in order to analyze the impacts of correlation structure of the uncertain diffusivity field, the stochastic resolution, as well as the probability of soft faults. In particular, the computations demonstrate that, provided sufficiently many samples are generated, the method effectively overcomes the occurrence of soft faults.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Resilience</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Exascale computing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Uncertainty quantification</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Polynomial chaos</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Contreras, Andres</subfield>
+    <subfield code="v">Duke University, Durham, NC, United States</subfield>
+    <subfield code="m">andres.contreras@duke.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Maître, Olivier Le</subfield>
+    <subfield code="v">Laboratoire d’Informatique pour la Mécanique et les Sciences de l’Ingénieur, Orsay, France</subfield>
+    <subfield code="m">olm@limsi.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sargsyan, Khachik</subfield>
+    <subfield code="v">Sandia National Laboratories, Livermore, CA, United States</subfield>
+    <subfield code="m">ksargsy@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rizzi, Francesco</subfield>
+    <subfield code="v">Sandia National Laboratories, Livermore, CA, United States</subfield>
+    <subfield code="m">fnrizzi@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Morris, Karla</subfield>
+    <subfield code="v">Sandia National Laboratories, Livermore, CA, United States</subfield>
+    <subfield code="m">knmorri@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Safta, Cosmin</subfield>
+    <subfield code="v">Sandia National Laboratories, Livermore, CA, United States</subfield>
+    <subfield code="m">csafta@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Debusschere, Bert</subfield>
+    <subfield code="v">Sandia National Laboratories, Livermore, CA, United States</subfield>
+    <subfield code="m">bjdebus@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Knio, Omar</subfield>
+    <subfield code="v">Duke University, Department of Mechanical Engineering and Materials Science, 144 Hudson Hall, Box 90300, Durham, NC, 27708, United States</subfield>
+    <subfield code="m">omar.knio@duke.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Comput.Phys.Commun.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cappello, F.</subfield>
+    <subfield code="h">Geist, A.</subfield>
+    <subfield code="h">Gropp, B.</subfield>
+    <subfield code="h">Kale, L.</subfield>
+    <subfield code="h">Kramer, B.</subfield>
+    <subfield code="h">Snir, M.</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cappello, F.</subfield>
+    <subfield code="h">Geist, A.</subfield>
+    <subfield code="h">Gropp, W.</subfield>
+    <subfield code="h">Kale, S.</subfield>
+    <subfield code="h">Kramer, B.</subfield>
+    <subfield code="h">Snir, M.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL http://superfri.org/superfri/article/view/14</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Supercomput.Front.Innov.,1,URL http://superfri.org/superfri/article/view/14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Snir, M.</subfield>
+    <subfield code="h">Wisniewski, R.W.</subfield>
+    <subfield code="h">Abraham, J.A.</subfield>
+    <subfield code="h">Adve, S.V.</subfield>
+    <subfield code="h">Bagchi, S.</subfield>
+    <subfield code="h">Balaji, P.</subfield>
+    <subfield code="h">Belak, J.</subfield>
+    <subfield code="h">Bose, P.</subfield>
+    <subfield code="h">Cappello, F.</subfield>
+    <subfield code="h">Carlson, B.</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">1094342014522573</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shalf, J.</subfield>
+    <subfield code="h">Dosanjh, S.</subfield>
+    <subfield code="h">Morrison, J.</subfield>
+    <subfield code="t">Proceedings of the 9th International Conference on High Performance Computing for Computational Science, VECPAR’10</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer-Verlag</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL http://dl.acm.org/citation.cfm?id=1964238.1964240</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laplante, P.</subfield>
+    <subfield code="t">Dictionary of Computer Science, Engineering and Technology</subfield>
+    <subfield code="p">Taylor &amp; Francis</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/2642769.2642774</subfield>
+    <subfield code="h">Teranishi, K.</subfield>
+    <subfield code="h">Heroux, M.A.</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/2642769.2642774</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">EuroMPI/ASIA ’14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jpdc.2008.12.002</subfield>
+    <subfield code="h">Bosilca, G.</subfield>
+    <subfield code="h">Delmas, R.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="h">Langou, J.</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Parallel Distrib.Comput.,69,410</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/ISPA.2011.50</subfield>
+    <subfield code="h">Ding, C.</subfield>
+    <subfield code="h">Karlsson, C.</subfield>
+    <subfield code="h">Liu, H.</subfield>
+    <subfield code="h">Davies, T.</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="t">Parallel and Distributed Processing with Applications, ISPA, 2011 IEEE 9th International Symposium on</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/2145816.2145845</subfield>
+    <subfield code="h">Du, P.</subfield>
+    <subfield code="h">Bouteiller, A.</subfield>
+    <subfield code="h">Bosilca, G.</subfield>
+    <subfield code="h">Herault, T.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="t">Proceedings of the 17th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP ’12</subfield>
+    <subfield code="p">New York, NY, USA: ACM</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/2145816.2145845</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/1996130.1996142</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="t">Proceedings of the 20th International Symposium on High Performance Distributed Computing, HPDC ’11</subfield>
+    <subfield code="p">New York, NY, USA: ACM</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/1996130.1996142</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/2063384.2063443</subfield>
+    <subfield code="h">Ferreira, K.</subfield>
+    <subfield code="h">Stearley, J.</subfield>
+    <subfield code="h">Laros, J.H.</subfield>
+    <subfield code="h">Oldfield, R.</subfield>
+    <subfield code="h">Pedretti, K.</subfield>
+    <subfield code="h">Brightwell, R.</subfield>
+    <subfield code="h">Riesen, R.</subfield>
+    <subfield code="h">Bridges, P.G.</subfield>
+    <subfield code="h">Arnold, D.</subfield>
+    <subfield code="t">Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis, SC ’11</subfield>
+    <subfield code="p">New York, NY, USA: ACM</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/2063384.2063443</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/DSN.2007.98</subfield>
+    <subfield code="h">Shye, A.</subfield>
+    <subfield code="h">Moseley, T.</subfield>
+    <subfield code="h">Reddi, V.</subfield>
+    <subfield code="h">Blomstedt, J.</subfield>
+    <subfield code="h">Connors, D.</subfield>
+    <subfield code="t">Dependable Systems and Networks, 2007, DSN ’07, 37th Annual IEEE/IFIP International Conference on</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/IPDPS.2010.5470411</subfield>
+    <subfield code="h">Malkowski, K.</subfield>
+    <subfield code="h">Raghavan, P.</subfield>
+    <subfield code="h">Kandemir, M.</subfield>
+    <subfield code="t">Parallel Distributed Processing, IPDPS, 2010 IEEE International Symposium on</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/15M1014474</subfield>
+    <subfield code="h">Sargsyan, K.</subfield>
+    <subfield code="h">Rizzi, F.</subfield>
+    <subfield code="h">Mycek, P.</subfield>
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Morris, K.</subfield>
+    <subfield code="h">Najm, H.</subfield>
+    <subfield code="h">Matre, O.L.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,A2317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="h">Valli, A.</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Numerical Mathematics and Scientific Computation</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/b137868</subfield>
+    <subfield code="h">Toselli, A.</subfield>
+    <subfield code="h">Widlund, O.</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">URL http://link.springer.com/book/10.1007/b137868</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Springer Series in Computational Mathematics</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P.G. Bridges, K.B. Ferreira, M.A. Heroux, M. Hoemmen</subfield>
+    <subfield code="m">Fault-tolerant linear solvers via selective reliability, arXiv.org</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghanem, R.G.</subfield>
+    <subfield code="h">Spanos, P.D.</subfield>
+    <subfield code="t">Stochastic Finite Elements: A Spectral Approach</subfield>
+    <subfield code="p">Courier Corporation</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Maître, O.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">URL https://books.google.com/books?id=lOFCquL6SxYC</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Scientific Computation</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2002.7104</subfield>
+    <subfield code="h">Le Maître, O.P.</subfield>
+    <subfield code="h">Reagan, M.T.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Ghanem, R.G.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">URL http://www.sciencedirect.com/science/article/pii/S0021999102971044</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,181,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reagan, M.T.</subfield>
+    <subfield code="h">Najm, H.N.</subfield>
+    <subfield code="h">Ghanem, R.G.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Combust.Flame,132,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2012.03.019</subfield>
+    <subfield code="h">Constantine, P.G.</subfield>
+    <subfield code="h">Eldred, M.S.</subfield>
+    <subfield code="h">Phipps, E.T.</subfield>
+    <subfield code="v">229–232</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">URL http://www.sciencedirect.com/science/article/pii/S0045782512000953</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,229–232,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/120890715</subfield>
+    <subfield code="h">Conrad, P.R.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A2643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/050645142</subfield>
+    <subfield code="h">Babuka, I.</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="h">Tempone, R.</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">SIAM J.Numer Anal.,45,1005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/070680540</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="h">Tempone, R.</subfield>
+    <subfield code="h">Webster, C.G.</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,46,2411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0965-9978(00)00034-X</subfield>
+    <subfield code="h">Pellissetti, M.</subfield>
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Adv.Eng.Softw.,31,607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0045-7825(03)00457-2</subfield>
+    <subfield code="h">Le Matre, O.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="h">Najm, H.</subfield>
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">URL http://www.sciencedirect.com/science/article/pii/S0045782503004572</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,192,4723</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matthies, H.G.</subfield>
+    <subfield code="h">Keese, A.</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">(Special Issue on Computational Methods in Stochastic Mechanics and Reliability Analysis) http://dx.doi.org/10.1016/j.cma.2004.05.027 . URL http://www.sciencedirect.com/science/article/pii/S0045782504003950</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,1295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2009.01.001</subfield>
+    <subfield code="h">Le Matre, O.</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">URL http://www.sciencedirect.com/science/article/pii/S0045793009000036</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.&amp; Fluids,38,1566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/080727026</subfield>
+    <subfield code="h">Rosseel, E.</subfield>
+    <subfield code="h">Vandewalle, S.</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,372</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nla.1869</subfield>
+    <subfield code="h">Sousedk, B.</subfield>
+    <subfield code="h">Ghanem, R.G.</subfield>
+    <subfield code="h">Phipps, E.T.</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,21,136</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/14100097X</subfield>
+    <subfield code="h">Ullmann, E.</subfield>
+    <subfield code="h">Powell, C.E.</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM/ASA J.Uncertain.Quantif.,3,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10208-015-9265-9</subfield>
+    <subfield code="h">Dahmen, W.</subfield>
+    <subfield code="h">DeVore, R.</subfield>
+    <subfield code="h">Grasedyck, L.</subfield>
+    <subfield code="h">Süli, E.</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Found.Comput.Math.,16,813</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, H.</subfield>
+    <subfield code="h">Li, G.</subfield>
+    <subfield code="h">Jiang, G.</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Bus.Econom.Statist.,25,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zou, H.</subfield>
+    <subfield code="h">Hastie, T.</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.R.Stat.Soc.Ser.B Stat.Methodol.,67,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garbey, M.</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,1871</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Portnoy, S.</subfield>
+    <subfield code="h">Koenker, R.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Statist.Sci.,12,279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tibshirani, R.</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.R.Stat.Soc.Ser.B Stat.Methodol.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, A.</subfield>
+    <subfield code="h">Davenport, M.A.</subfield>
+    <subfield code="h">Leviatan, D.</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Found.Comput.Math.,13,819</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Migliorati, G.</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="h">von Schwerin, E.</subfield>
+    <subfield code="h">Tempone, R.</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A1440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osborne, M.R.</subfield>
+    <subfield code="t">Finite Algorithms in Optimization and Data Analysis</subfield>
+    <subfield code="p">John Wiley &amp; Sons, Inc. New York, NY, USA</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schlossmacher, E.J.</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">URL http://www.jstor.org/stable/2284512</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Amer.Statist.Assoc.,68,857</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/355900.355905</subfield>
+    <subfield code="h">Coleman, D.</subfield>
+    <subfield code="h">Holland, P.</subfield>
+    <subfield code="h">Kaden, N.</subfield>
+    <subfield code="h">Klema, V.</subfield>
+    <subfield code="h">Peters, S.C.</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/355900.355905</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,6,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scales, J.A.</subfield>
+    <subfield code="h">Gersztenkorn, A.</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Inverse Prob.,4,1071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chartrand, R.</subfield>
+    <subfield code="h">Yin, W.</subfield>
+    <subfield code="t">Acoustics, Speech and Signal Processing, 2008, ICASSP 2008, IEEE International Conference on</subfield>
+    <subfield code="p">IEEE</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Daubechies, I.</subfield>
+    <subfield code="h">DeVore, R.</subfield>
+    <subfield code="h">Fornasier, M.</subfield>
+    <subfield code="h">Güntürk, C.S.</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comm.Pure Appl.Math.,63,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/355984.355989</subfield>
+    <subfield code="h">Paige, C.C.</subfield>
+    <subfield code="h">Saunders, M.A.</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/355984.355989</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,8,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/355993.356000</subfield>
+    <subfield code="h">Paige, C.C.</subfield>
+    <subfield code="h">Saunders, M.A.</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/355993.356000</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,8,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kohavi, R.</subfield>
+    <subfield code="t">Proceedings of the 14th International Joint Conference on Artificial Intelligence - Volume 2, IJCAI’95</subfield>
+    <subfield code="p">San Francisco, CA, USA: Morgan Kaufmann Publishers Inc.</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">URL http://dl.acm.org/citation.cfm?id=1643031.1643047</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arlot, S.</subfield>
+    <subfield code="h">Celisse, A.</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Stat.Surv.,4,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1109/IEEESTD.2008.4610935</subfield>
+    <subfield code="p">Microprocessor Standards Committee of the IEEE Computer Society</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1177/1094342013488238</subfield>
+    <subfield code="h">Bland, W.</subfield>
+    <subfield code="h">Bouteiller, A.</subfield>
+    <subfield code="h">Herault, T.</subfield>
+    <subfield code="h">Bosilca, G.</subfield>
+    <subfield code="h">Dongarra, J.</subfield>
+    <subfield code="r">arXiv:http://hpc.sagepub.com/content/27/3/244.full.pdf+html</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:http://hpc.sagepub.com/content/27/3/244.full.pdf+html . URL http://hpc.sagepub.com/content/27/3/244.abstract</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.,27,244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rizzi, F.</subfield>
+    <subfield code="h">Morris, K.</subfield>
+    <subfield code="h">Sargsyan, K.</subfield>
+    <subfield code="h">Mycek, P.</subfield>
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Najm, H.</subfield>
+    <subfield code="h">Le Maître, O.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="t">FTS –IEEE Cluster</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/2909428.2909429</subfield>
+    <subfield code="h">Rizzi, F.</subfield>
+    <subfield code="h">Morris, K.</subfield>
+    <subfield code="h">Sargsyan, K.</subfield>
+    <subfield code="h">Mycek, P.</subfield>
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="h">LeMaitre, O.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="t">Proceedings of the ACM Workshop on Fault-Tolerance for HPC At Extreme Scale, FTXS ’16</subfield>
+    <subfield code="p">New York, NY, USA: ACM</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">URL http://doi.acm.org/10.1145/2909428.2909429</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mycek, P.</subfield>
+    <subfield code="h">Rizzi, F.</subfield>
+    <subfield code="h">Le Matre, O.</subfield>
+    <subfield code="h">Sargsyan, K.</subfield>
+    <subfield code="h">Morris, K.</subfield>
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/100800531</subfield>
+    <subfield code="h">Charrier, J.</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,216</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, T.T.</subfield>
+    <subfield code="h">Lange, K.</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Ann.Appl.Stat.,2,222</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Breheny, P.</subfield>
+    <subfield code="h">Huang, J.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Ann.Appl.Stat.,5,232</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnst, M.</subfield>
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="h">Phipps, E.</subfield>
+    <subfield code="h">Red-Horse, J.</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Engrg.,92,940</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnst, M.</subfield>
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="h">Phipps, E.</subfield>
+    <subfield code="h">Red-Horse, J.</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Engrg.,92,1044</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arnst, M.</subfield>
+    <subfield code="h">Ghanem, R.</subfield>
+    <subfield code="h">Phipps, E.</subfield>
+    <subfield code="h">Red-Horse, J.</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Engrg.,97,352</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liao, Q.</subfield>
+    <subfield code="h">Willcox, K.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,A103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Jakeman, J.</subfield>
+    <subfield code="h">Gittelson, C.</subfield>
+    <subfield code="h">Xiu, D.</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,A79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Contreras, A.</subfield>
+    <subfield code="h">Mycek, P.</subfield>
+    <subfield code="h">Le Maître, O.</subfield>
+    <subfield code="h">Rizzi, F.</subfield>
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="h">Knio, O.</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted for publication</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0010-4655/aip/S001046551730067X/S001046551730067X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

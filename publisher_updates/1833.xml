@@ -1,0 +1,696 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The random-bond Ising model in 2.01 and 3 dimensions</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We consider the Ising model between 2 and 4 dimensions perturbed by quenched disorder in the strength of the interaction between nearby spins. In the interval 2  &lt;  d  &lt;  4 this disorder is a relevant perturbation that drives the system to a new fixed point of the renormalization group. At d  =  2 such disorder is marginally irrelevant and can be studied using conformal perturbation theory. Combining conformal perturbation theory with recent results from the conformal bootstrap we compute some scaling exponents in an expansion around d  =  2. If one trusts these computations also in d  =  3, one finds results consistent with experimental data and Monte Carlo simulations. In addition, we perform a direct uncontrolled computation in d  =  3 using new results for low-lying operator dimensions and OPE coefficients in the 3d Ising model. We compare these new methods with previous studies. Finally, we comment about the O(2) model in d  =  3, where we predict a large logarithmic correction to the infrared scaling of disorder.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">154001</subfield>
+  <subfield code="v">A50</subfield>
+  <subfield code="n">15</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1751-8121/aa6087</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">34</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-14</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Komargodski, Zohar</subfield>
+  <subfield code="v">Weizmann Institute of Science - Rehovot 76100 - Israel</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Simmons-Duffin, David</subfield>
+  <subfield code="v">School of Natural Sciences - Institute for Advanced Study - Princeton - NJ 08540 - United States of America</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">We have a family of CFTs where δ is a continuous parameter that can be dialed to zero. Assuming the CFT data has an analytic power-series expansion in δ, we can then regulate the deformed theory by minimal subtraction. Specifically, we compute integrals like (, 3.6: #aaa6087eqn020) as a Laurent series in δ, and then add counterterms to cancel the poles. Physical observables (like IR scaling dimensions) will be scheme-independent, and in principle can be computed to arbitrary order using these techniques. An example of this situation is the usual Wilson-Fisher fixed point in 4-\epsilon dimensions. An example where the spacetime dimension does not vary is the Potts model where q is regarded as a continuous parameter</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">We might have an isolated CFT where δ just happens to be numerically small. In this case, the Laurent expansion of integrals like (, 3.6: #aaa6087eqn020) becomes ambiguous beyond the leading nonzero order. For example, without an expansion {{C}_{\mathcal{O}\mathcal{O}\mathcal{O}}}(\delta )={{C}_{\mathcal{O}\mathcal{O}\mathcal{O}}}(0)+\delta C_{\mathcal{O}\mathcal{O}\mathcal{O}}^{\prime}(0)+\ldots, we cannot compute subleading terms in expressions involving {{C}_{\mathcal{O}\mathcal{O}\mathcal{O}}}. In this scenario, minimal subtraction does not work. In fact, there is no scheme-independent expression for subleading corrections to physical observables in conformal perturbation theory. This is ultimately because the IR theory lives at the end of a nontrivial RG flow. To learn about it, we must perform a nonperturbative diagonalization of the full Hamiltonian, perhaps using conformal truncation methods [, 22: #aaa6087bib022] (see also more recent work [, 23: #aaa6087bib023]). An example of this situation is the disordered 3d Ising model, where \delta \approx 0.18. We will only be able to compute the leading nonzero contributions to disordered observables as an expansion in δ. In some cases these contributions occur at one loop, and in others at two loops, 8: #aaa6087fn8</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">If disorder is absent, then the coupling {{\lambda}^{2}} is marginally irrelevant, which, of course, is very well known</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">If we take pure Mean Field Theory (i.e. {{\lambda}^{2}}=0) in d = 4 and introduce disorder in temperature, the theory, at least initially, flows to strong coupling because the beta function for c2 is negative!</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Disorder renders the coupling {{\lambda}^{2}} relevant, as the dimension of the interaction proportional to {{\lambda}^{2}} becomes {{ \Delta }_{{{\epsilon}^{2}}}}=4-12{{c}^{2}} (This follows from the first line in (, 4.5: #aaa6087eqn056), where the coefficient of {{\lambda}^{2}} is interpreted as usual to be -4+{{ \Delta }_{{{\epsilon}^{2}}}}.)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">The one-loop approximation has a line of fixed points with 2{{c}^{2}}=3{{\lambda}^{2}}. This degeneracy disappears at higher orders. This line of fixed points is attractive for {{\lambda}^{2}} but unstable under disorder perturbations</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">See, for example [, 7: #aaa6087bib007], for higher order computations</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">Recently there was renewed activity and interest in the epsilon expansion, mostly motivated by potential applications for quantum phase transitions. See, for example [, 11: #aaa6087bib011,, 10: #aaa6087bib010-, 15: #aaa6087bib015], and references therein</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">It is instructive to re-derive the coefficient of the double-log from the expression (, 3.16: #aaa6087eqn030). There are three regions with a C_{\mathcal{O}\mathcal{O}\mathcal{O}}^{2}/{{x}^{d}} singularity, namely, {{x}_{2}}\to \left\{0,1,\infty \right\}. But the cutoff in the x2 coordinate is rescaled by x1 because of the change of variables. Therefore we get the integral 3C_{\mathcal{O}\mathcal{O}\mathcal{O}}^{2}{\int}^{}\frac{d|{{x}_{1}}|}{|{{x}_{1}}|}\log \left(|{{x}_{1}}|\right)\sim \frac{3C_{\mathcal{O}\mathcal{O}\mathcal{O}}^{2}}{2}{{\log}^{2}}(\mu ), which precisely agrees with (, 3.11: #aaa6087eqn025)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">This is unless there are relevant operators in the OPE of \mathcal{O}(x)\mathcal{O}(0) (other than the unit operator). Let us consider one such, normalized (\langle \Psi (0) \Psi (\infty )\rangle =1), relevant operator \Psi of dimension {{ \Delta }_{ \Psi }}&lt;d such that the coefficient {{C}_{ \Psi }}, defined as</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\mathcal{O}(x)\mathcal{O}(0)\sim \frac{{{C}_{ \Psi }}}{{{x}^{2d-{{ \Delta }_{ \Psi }}}}} \Psi (0).\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 3.19 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} Is non-vanishing. This leads to a power divergence in (, 3.18: #aaa6087eqn032). We have to tune this away. For example, in the region that {{x}_{2}}\to 0 we simply subtract</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;C_{ \Psi }^{2}{\int}^{}\frac{\text{d}\rho}{\rho}{\int}^{}{{\text{d}}^{d}}{{x}_{2}}\frac{1}{x_{2}^{2d-{{ \Delta }_{ \Psi }}}}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 3.20 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} More generally, (, 3.18: #aaa6087eqn032) is modified to</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{\beta}_{2}}= &amp; \frac{-1}{6}{\int}^{}{{\text{d}}^{d}}x\left[F(x)-\frac{1}{2}C_{\mathcal{O}\mathcal{O}\mathcal{O}}^{2}\left(\frac{1}{{{x}^{d}}{{\left(x-{{e}_{1}}\right)}^{d}}}+\frac{1}{{{x}^{d}}}+\frac{1}{{{\left(x-{{e}_{1}}\right)}^{d}}}\right) \right. \\ {} &amp; \left. -\,C_{ \Psi }^{2}\left(\frac{1}{{{x}^{2d-{{ \Delta }_{\psi}}}}}+\frac{1}{{{\left(x-{{e}_{1}}\right)}^{2d-{{ \Delta }_{\psi}}}}}+{{x}^{-{{ \Delta }_{\psi}}}}\right)\right]. \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 3.21 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} If we sum over all the relevant operators, the integral (, 3.21: #aaa6087eqn145) becomes convergent. Note that the OPE of \mathcal{O}(x)\mathcal{O}(0) necessarily contains the stress tensor, but this leads to no divergence in the integral (, 3.18: #aaa6087eqn032) due to the angular dependence of the leading OPE term</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Indeed, assume</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\beta}_{g}}={{\beta}_{1}}{{g}^{2}}+{{\beta}_{2}}{{g}^{3}}+\ldots.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 3.23 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} Now perform an analytic change of variables {{g}^{\prime}}=g+\frac{1}{2}\alpha {{g}^{2}}+\ldots. It turns out that α cancels and we have</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\beta}_{{{g}^{\prime}}}}={{\beta}_{1}}{{g}^{\prime 2}}+{{\beta}_{2}}{{g}^{\prime 3}}+\ldots.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 3.24 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">As we explain in section, 8: #aaa6087s8, the disordered 3d Ising model can be also viewed as a perturbation around (very close to) the disordered O(2) model, thereby making it controllable</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">The conformal cross-ratio z in this configuration is given by z=\left(x\centerdot {{e}_{1}}\right)+\text{i}|x-\left(x\centerdot {{e}_{1}}\right){{e}_{1}}|, so that \mathcal{R}=\left\{z:|z|&lt;1,|z|&lt;|1-z|\right\}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">In [, 31: #aaa6087bib031] the value {{C}_{\epsilon \epsilon \epsilon}}=1.45\pm 0.30 is obtained. In [, 32: #aaa6087bib032] the value {{C}_{\epsilon \epsilon \epsilon}}=1.32\pm 0.15 is reported</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">Note that in the d = 2 Ising model, {{C}_{\epsilon \epsilon \epsilon}}=0 by the Kramers-Wannier duality. In d = 4, Mean Field Theory is valid and we get (, 4.1: #aaa6087eqn052) {{C}_{\epsilon \epsilon \epsilon}}=2\sqrt{2}. The average of these two values is in the right ballpark for {{C}_{\epsilon \epsilon \epsilon}} in d = 3</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="m">When the quantity to be integrated is a linear function of Ising four-point functions, then it is possible to obtain direct bounds on the integral without computing the operators that appear in the four-point function [, 39: #aaa6087bib039]. An advantage of this approach is that we obtain precise error bars on the result. Here, we take the more straightforward route of approximating the entire function {{g}_{\sigma \epsilon \epsilon \sigma}}(u,v) first and then integrating</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">Our conventions are such that g_{ \Delta,\ell}^{{{ \Delta }_{12}},{{ \Delta }_{34}}}(u,v)\approx \frac{\ell !}{{{(2\nu )}_{\ell}}}(-1){{}^{\ell}}C_{\ell}^{\nu}(\cos \theta )(4r){{}^{ \Delta }}+O\left({{r}^{ \Delta +1}}\right), where \rho =r{{\text{e}}^{\text{i}\theta}}, \nu =\frac{d-2}{2} and C_{\ell}^{\nu}(\cos \theta ) is a Gegenbauer polynomial. This differs from the conventions of [, 29: #aaa6087bib029] by g_{ \Delta,\ell}^{\text{here}}={{4}^{ \Delta }}g_{ \Delta,\ell}^{\text{there}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">For example, reflection positivity fails in the Wilson-Fisher theory for non-integer [, 47: #aaa6087bib047] and in O(N) models for non-positive integer N [, 48: #aaa6087bib048]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">This operator is not turned on in the RG flow by {\sum}_{A\ne B}{{\epsilon}_{A}}{{\epsilon}_{B}} because it is protected by the \mathbb{Z}_{2}^{n} global symmetry of the replicated theory. It would be interesting to estimate its dimension and compare with bootstrap bounds</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">We easily see that {{C}_{ \Psi \Psi \mathcal{O}}}=\sqrt{2} and hence {{ \Delta }_{ \Psi }}(\,f)={{ \Delta }_{ \Psi }}-\sqrt{2}f</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Belanger D P</subfield>
+  <subfield code="m">Experimental characterization of the Ising model in disordered antiferromagnets Crossref:</subfield>
+  <subfield code="s">Braz.J.Phys.,30,682-92</subfield>
+  <subfield code="a">doi:10.1590/S0103-97332000000400009</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Harris A B</subfield>
+  <subfield code="m">Effect of random defects on the critical behaviour of Ising models J. Phys. C:</subfield>
+  <subfield code="s">Solid State Phys.,7,1671</subfield>
+  <subfield code="a">doi:10.1088/0022-3719/7/9/009</subfield>
+  <subfield code="y">1974</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">El-Showk S, Paulos M, Poland D, Rychkov S, Simmons-Duffin D and Vichi A</subfield>
+  <subfield code="m">Conformal field theories in fractional dimensions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,112,141601</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.112.141601</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1254877</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Harris A B and Lubensky T C</subfield>
+  <subfield code="m">Renormalization-group approach to the critical behaviour of random-spin models Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,33,1540</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.33.1540</subfield>
+  <subfield code="y">1974</subfield>
+  <subfield code="0">98061</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Lubensky T C</subfield>
+  <subfield code="m">Critical properties of random-spin models from the &amp;epsi</subfield>
+  <subfield code="y">1975</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">expansion Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,B11,3573</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.11.3573</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Khmelnitskii D E</subfield>
+  <subfield code="m">1975 Phase-transition of 2nd kind in inhomogeneous bodies</subfield>
+  <subfield code="s">Zh.Eksp.Teor.Fiz.,68,8</subfield>
+  <subfield code="y">1960</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Shalaev B N, Antonenko S A and Sokolov A I</subfield>
+  <subfield code="m">Five-loop ϵ expansions for random Ising model and marginal spin dimensionality for cubic systems Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,A230,105-10</subfield>
+  <subfield code="a">doi:10.1016/S0375-9601(97)00225-9</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">Ma S-K(Modern Theory of Critical Phenomena vol 46)</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Wilson K and Fisher M</subfield>
+  <subfield code="m">Critical exponents in 3.99 dimensions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,28,240</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.28.240</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="0">67609</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Rychkov S and Tan Z M</subfield>
+  <subfield code="m">The &amp;epsi</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">-expansion from conformal field theory J. Phys. A: Math. Theor. 48 29FT01</subfield>
+  <subfield code="a">doi:10.1088/1751-8121/48/29/29FT01</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Di Pietro L, Komargodski Z, Shamir I and Stamou E</subfield>
+  <subfield code="m">Quantum electrodynamics in d = 3 from the epsilon-expansion Preprint:</subfield>
+  <subfield code="r">arXiv:1508.06278</subfield>
+  <subfield code="r">arXiv:1508.06278</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1389875</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Sen K and Sinha A</subfield>
+  <subfield code="m">On critical exponents without Feynman diagrams Preprint:</subfield>
+  <subfield code="r">arXiv:1510.07770</subfield>
+  <subfield code="r">arXiv:1510.07770</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1401039</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Chester S M, Mezei M, Pufu S S and Yaakov I</subfield>
+  <subfield code="m">Monopole operators from the 4-ϵ expansion Preprint:</subfield>
+  <subfield code="r">arXiv:1511.07108</subfield>
+  <subfield code="r">arXiv:1511.07108</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1406006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Diab K, Fei L, Giombi S, Klebanov I R and Tarnopolsky G</subfield>
+  <subfield code="m">On CJ and CT in the Gross-Neveu and O(N) models Preprint:</subfield>
+  <subfield code="r">arXiv:1601.07198</subfield>
+  <subfield code="r">arXiv:1601.07198</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1417125</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Bashmakov V, Bertolini M, Di Pietro L and Raj H</subfield>
+  <subfield code="m">Scalar multiplet recombination at large N and holography Preprint:</subfield>
+  <subfield code="r">arXiv:1603.00387</subfield>
+  <subfield code="r">arXiv:1603.00387</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1425582</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Cardy J</subfield>
+  <subfield code="m">Scaling and Renormalization in Statistical Physics vol 5 (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9781316036440</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Ludwig A W W</subfield>
+  <subfield code="m">Critical behavior of the two-dimensional random Q state Potts model by expansion in (Q-2) Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B285,97</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(87)90330-0</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="0">250050</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Dotsenko V, Picco M and Pujol P</subfield>
+  <subfield code="m">Spin spin critical point correlation functions for the 2D random bond Ising and Potts models Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B347,113</subfield>
+  <subfield code="a">doi:10.1016/0370-2693(95)00035-J</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="0">373189</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Dotsenko V, Picco M and Pujol P</subfield>
+  <subfield code="m">Renormalization group calculation of correlation functions for the 2d random bond Ising and Potts models Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B455,701</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(95)00534-Y</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="0">381999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Shimada H</subfield>
+  <subfield code="m">Disordered O(n) loop model and coupled conformal field theories Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B820,707</subfield>
+  <subfield code="a">doi:10.1016/j.nuclphysb.2009.05.013</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">816003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Ludwig A and Cardy J</subfield>
+  <subfield code="m">Perturbative evaluation of the conformal anomaly at new critical points with applications to random systems Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B285,687-718</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(87)90362-2</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="0">250687</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Yurov V P and Zamolodchikov A B</subfield>
+  <subfield code="m">Truncated conformal space approach to scaling Lee-Yang model Crossref:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,A5,3221</subfield>
+  <subfield code="a">doi:10.1142/S0217751X9000218X</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="0">285394</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Hogervorst M, Rychkov S and van Rees B C</subfield>
+  <subfield code="m">Truncated conformal space approach in d dimensions: a cheap alternative to lattice field theory? Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,025005</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.025005</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1315331</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Aharony O, Komargodski Z and Yankielowicz S</subfield>
+  <subfield code="m">Disorder in large-N theories Preprint:</subfield>
+  <subfield code="r">arXiv:1509.02547</subfield>
+  <subfield code="r">arXiv:1509.02547</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1392664</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Dotsenko V S and Dotsenko V S</subfield>
+  <subfield code="m">Critical behaviour of the 2D Ising model with impurity bonds J. Phys. C:</subfield>
+  <subfield code="s">Solid State Phys.,15,495</subfield>
+  <subfield code="a">doi:10.1088/0022-3719/15/3/015</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Fan S, Xiong W, Yuan W and Zhong F</subfield>
+  <subfield code="m">Critical behavior of a three-dimensional random-bond Ising model using finite-time scaling with extensive Monte Carlo renormalization-group method Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E81,051132</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.81.051132</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Dotsenko V</subfield>
+  <subfield code="m">Introduction to the Replica Theory of Disordered Statistical Systems (Cambridge: Cambridge University Press)</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">El-Showk S, Paulos M F, Poland D, Rychkov S, Simmons-Duffin D and Vichi A</subfield>
+  <subfield code="m">Solving the 3D Ising model with the conformal bootstrap Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,025022</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.025022</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1095260</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Kos F, Poland D and Simmons-Duffin D</subfield>
+  <subfield code="m">Bootstrapping mixed correlators in the 3D Ising model J. High Energy Phys. JHEP11 109, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2014)109</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1301561</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Simmons-Duffin D</subfield>
+  <subfield code="m">A semidefinite program solver for the conformal bootstrap J. High Energy Phys. JHEP06 174, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP06(2015)174</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1343540</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Caselle M, Costagliola G and Magnoli N</subfield>
+  <subfield code="m">Numerical determination of the operator-product-expansion coefficients in the 3D Ising model from off-critical correlators Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D91,061901</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.91.061901</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1339626</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Costagliola G</subfield>
+  <subfield code="m">OPE coefficients of the 3D Ising model with a trapping potential Preprint:</subfield>
+  <subfield code="r">arXiv:1511.02921</subfield>
+  <subfield code="r">arXiv:1511.02921</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1403802</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Kos F, Poland D, Simmons-Duffin D and Vichi A Precision Islands</subfield>
+  <subfield code="m">in the Ising and O(n) models to appear</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Gurarie V</subfield>
+  <subfield code="m">c-theorem for disordered systems Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B546,765-78</subfield>
+  <subfield code="a">doi:10.1016/S0550-3213(99)00013-9</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">509089</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Cardy J</subfield>
+  <subfield code="m">The stress tensor in quenched random systems Stat. Field Theor. 73 215-22, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/978-94-010-0514-2_20</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Rychkov S</subfield>
+  <subfield code="m">EPFL Lectures on Conformal Field Theory in D &gt; =3 Dimensions Briefs in Physics) (New York: p 72, Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-319-43626-5</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1415968</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Pappadopulo D, Rychkov S, Espin J and Rattazzi R</subfield>
+  <subfield code="m">OPE convergence in conformal field theory Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D86,105043</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.86.105043</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1184046</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Rychkov S and Yvernay P</subfield>
+  <subfield code="m">Remarks on the convergence properties of the conformal block expansion Preprint:</subfield>
+  <subfield code="r">arXiv:1510.08486</subfield>
+  <subfield code="r">arXiv:1510.08486</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1401411</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Lin Y H, Shao S H, Simmons-Duffin D, Wang Y and Yin X</subfield>
+  <subfield code="m">N = 4 superconformal bootstrap of the K3 CFT Preprint:</subfield>
+  <subfield code="r">arXiv:1511.04065</subfield>
+  <subfield code="r">arXiv:1511.04065</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1404199</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Rattazzi R, Rychkov V S, Tonni E and Vichi A</subfield>
+  <subfield code="m">Bounding scalar operator dimensions in 4D CFT J High Energy Phys. JHEP12 031</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2008/12/031</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">789530</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">El-Showk S, Paulos M F, Poland D, Rychkov S, Simmons-Duffin D and Vichi A</subfield>
+  <subfield code="m">Solving the 3d Ising model with the conformal bootstrap II. c-minimization and precise critical exponents Crossref:</subfield>
+  <subfield code="s">J.Statist.Phys.,157,869</subfield>
+  <subfield code="a">doi:10.1007/s10955-014-1042-7</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1286327</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">El-Showk S and Paulos M F</subfield>
+  <subfield code="m">Bootstrapping conformal field theories with the extremal functional method Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,241601</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.241601</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1202519</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Poland D and Simmons-Duffin D</subfield>
+  <subfield code="m">Bounds on 4D conformal and superconformal field theories J. High Energy Phys. JHEP05 017, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2011)017</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">867600</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Poland D, Simmons-Duffin D and Vichi A</subfield>
+  <subfield code="m">Carving out the space of 4D CFTs J High Energy Phys. JHEP05 110, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2012)110</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">929469</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Kos F, Poland D and Simmons-Duffin D</subfield>
+  <subfield code="m">Bootstrapping the O(N) vector models J. High Energy Phys. JHEP06 091, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP06(2014)091</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1244691</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Brezin E and Zinn-Justin J</subfield>
+  <subfield code="m">Spontaneous breakdown of continuous symmetries near two-dimensions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,B14,3110</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.14.3110</subfield>
+  <subfield code="y">1976</subfield>
+  <subfield code="0">3711</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Hogervorst M, Rychkov S and van Rees B C</subfield>
+  <subfield code="m">Unitarity violation at the Wilson-Fisher fixed point in 4-epsilon dimensions Preprint:</subfield>
+  <subfield code="r">arXiv:1512.00013</subfield>
+  <subfield code="r">arXiv:1512.00013</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1407516</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Maldacena J and Zhiboedov A</subfield>
+  <subfield code="m">Constraining conformal field theories with a higher spin symmetry J. Phys. A: Math. Theor. 46 214011</subfield>
+  <subfield code="a">doi:10.1088/1751-8121/46/21/214011</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Gliozzi F</subfield>
+  <subfield code="m">More constraining conformal bootstrap Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,161602</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.161602</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1242304</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">Cardy J</subfield>
+  <subfield code="m">The Ising model in a random boundary field</subfield>
+  <subfield code="s">J.Phys.,A24,L1315</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/24/22/003</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="0">30206</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Pleimling M et al.</subfield>
+  <subfield code="m">Logarithmic corrections in the two-dimensional Ising model in a random surface field</subfield>
+  <subfield code="s">J.Phys.,A37,8801</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/37/37/003</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">John Cardy&apos;s scale-invariant journey in low dimensions: a special issue for his 70th birthday</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">John Cardy&apos;s scale-invariant journey in low dimensions: a special issue for his 70th birthday</subfield>
+ </datafield>
+</record>

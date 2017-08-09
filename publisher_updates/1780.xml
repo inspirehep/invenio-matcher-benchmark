@@ -1,0 +1,1782 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Self-consistent Modeling of Reionization in Cosmological Hydrodynamical Simulations</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">The ultraviolet background (UVB) emitted by quasars and galaxies governs the ionization and thermal state of the intergalactic medium (IGM), regulates the formation of high-redshift galaxies, and is thus a key quantity for modeling cosmic reionization. The vast majority of cosmological hydrodynamical simulations implement the UVB via a set of spatially uniform photoionization and photoheating rates derived from UVB synthesis models. We show that simulations using canonical UVB rates reionize and, perhaps more importantly, spuriously heat the IGM, much earlier ($z\sim 15$) than they should. This problem arises because at $z\gt 6$, where observational constraints are nonexistent, the UVB amplitude is far too high. We introduce a new methodology to remedy this issue, and we generate self-consistent photoionization and photoheating rates to model any chosen reionization history. Following this approach, we run a suite of hydrodynamical simulations of different reionization scenarios and explore the impact of the timing of reionization and its concomitant heat injection on the thermal state of the IGM. We present a comprehensive study of the pressure smoothing scale of IGM gas, illustrating its dependence on the details of both hydrogen and helium reionization, and argue that it plays a fundamental role in interpreting Lyα forest statistics and the thermal evolution of the IGM. The premature IGM heating we have uncovered implies that previous work has likely dramatically overestimated the impact of photoionization feedback on galaxy formation, which sets the minimum halo mass able to form stars at high redshifts. We make our new UVB photoionization and photoheating rates publicly available for use in future simulations.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">early universe</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">galaxies: evolution</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">galaxies: formation</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">intergalactic medium</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">large-scale structure of universe</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: numerical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">106</subfield>
+  <subfield code="v">837</subfield>
+  <subfield code="n">2</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/1538-4357/aa6031</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">26</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-08</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-8723-1180</subfield>
+  <subfield code="a">Oñorbe, Jose</subfield>
+  <subfield code="v">Max-Planck-Institut für Astronomie - Königstuhl 17 - D-69117 Heidelberg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Hennawi, Joseph F.</subfield>
+  <subfield code="v">Max-Planck-Institut für Astronomie - Königstuhl 17 - D-69117 Heidelberg - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Lukić, Zarija</subfield>
+  <subfield code="v">Lawrence Berkeley National Laboratory - Berkeley - CA 94720-8139 - USA</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">That all species are in ionization equilibrium at all times. This is done to be fully consistent with (most of) the codes that will be using these UVB models, but it could be changed in the future</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">That the gas composition can be approximated as primordial. Therefore, the evolution of the number density of electrons, {n}_{{\rm{e}}}, is given as {n}_{{\rm{e}}}={n}_{{\rm{H}}{\rm{II}}}+{n}_{\mathrm{He}{\rm{II}}}+2{n}_{\mathrm{He}{\rm{III}}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">That \mathrm{He}\,{\rm{I}} reionization is perfectly coupled with {\rm{H}}\,{\rm{I}} reionization</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">That \mathrm{He}\,{\rm{II}} reionization is not relevant during {\rm{H}}\,{\rm{I}} reionization and vice versa</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">That the heating due to reionization is perfectly coupled to the reionization process. Therefore, the heating can be written as a function of the total heat injection and the ionization history, i.e., \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\displaystyle \frac{{{dT}}_{{\rm{H}}{\rm{I}}}}{{dt}}\propto {\rm{\Delta }}{T}_{{\rm{H}}{\rm{I}}}\displaystyle \frac{d\langle {x}_{{\rm{H}}{\rm{II}}}\rangle }{{dt}}.\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 6 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Baryon Oscillation Spectroscopic Survey (BOSS): :</subfield>
+  <subfield code="u">https://www.sdss3.org/surveys/boss.php</subfield>
+  <subfield code="u">https://www.sdss3.org/surveys/boss.php</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">Notice that calculating the volume filling factor, {Q}_{{\rm{H}}{\rm{II}}}, is not the optimal way to describe reionization in optically thin simulations. One needs to set up an ionization threshold (standard values are 0.999-0.9) and compute how many cells in the simulation have an ionization fraction above this level. It is easy to see that in optically thin simulations the filling factor evolution will be just a step function that jumps to 1 as soon as the volume-averaged ionization fraction, \langle {x}_{{\rm{H}}{\rm{II}}}\rangle, reaches the chosen threshold. The temperature evolution shown in Figure, 1: #apjaa6031f1 illustrates why this approach will not be the correct description of how reionization took place in these simulations</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">5During the making of this paper, new constraints on reionization from Planck were published (Planck b: #apjaa6031bib112), moving these constraints to a lower value and reducing the errors: {\tau }_{{\rm{e}}}=0.058\pm 0.012. These results do no change any of the conclusions of this paper</subfield>
+  <subfield code="h">Collaboration et al.</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">The recombination time for {\rm{H}}\,{\rm{I}} reionization is generally defined as {t}_{\mathrm{rec}}={[(1+\chi ){\alpha }_{{\rm{B}}}{C}_{\mathrm{IGM}}\langle {n}_{{\rm{H}}}\rangle]}^{-1}, where {\alpha }_{{\rm{B}}} is the recombination coefficient to the excited states of hydrogen, χ accounts also for the presence of photoelectrons from singly ionized helium, and {C}_{\mathrm{IGM}}\equiv \langle {n}_{{\rm{H}}\,{\rm{II}}}^{2}\rangle /\langle {n}_{{\rm{H}}{\rm{II}}}{\rangle }^{2} is the clumping factor of ionized hydrogen. A practical issue is how {t}_{\mathrm{rec}} should be evaluated when Q\lt 1, and in particular when Q\ll 1. We refer to the nice and detailed discussion on this issue in So et al. (,: #apjaa6031bib130). In any case, recombination rates are relatively unimportant at high redshifts, and this possibility cannot explain the big discrepancy between the model and the simulation</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">These models also need to assume some galaxy escape fraction at each redshift that is generally chosen by first iteratively solving the integrated cosmological radiative transfer equation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">Results of simulations using the cutoff approach can be found in Appendix B</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">Based on the same idea used to derive the photoionization rates, in Appendix, A.1.1: #apjaa6031app1-1-1 we introduce a numerical method to compute the expected volume-averaged ionization history outcome in optically thin hydrodynamical simulations from a specific mean photoionization rate, {{\rm{\Gamma }}}_{\gamma,{\rm{H}}{\rm{I}}}(z). We recommend that this approach be used in the future when generating different UVB tabulated models</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="m">We have assumed comoving coordinates: {{\boldsymbol{r}}}_{\mathrm{proper}}=a{\boldsymbol{x}}, ρ is the comoving baryon density (\rho ={a}^{3}{\rho }_{\mathrm{proper}}), p is comoving pressure (p={a}^{3}{p}_{\mathrm{proper}}), {\boldsymbol{v}} is the proper peculiar baryonic velocity ({\boldsymbol{v}}={{\boldsymbol{v}}}_{\mathrm{proper}}-\dot{a}{\boldsymbol{x}}), Φ is the modified gravitational potential, and E is the total comoving energy (E={E}_{\mathrm{proper}}-a{\boldsymbol{x}}\cdot {\boldsymbol{v}}-\tfrac{1}{2}{\dot{a}}^{2}{{\boldsymbol{x}}}^{2}). Refer to (,: #apjaa6031bib3) for details</subfield>
+  <subfield code="h">Almgren et al.</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">Photoheating terms in Equation (, 9: #apjaa6031eqn9) are written as they are usually defined in hydrodynamical simulations, a photoheating rate, {\dot{q}}_{{\rm{H}}{\rm{I}}} (in units of energy per time per ion), multiplied by the ion density, {n}_{{\rm{H}}{\rm{I}}}, of that resolution element. Therefore, the global heating due to reionization will be determined also by the amount of ions present, and we cannot expect a constant temperature increase, independent of density. We will discuss this in detail in Section, 8: #apjaa6031s8</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="m">As Equation (, 7: #apjaa6031eqn7) above shows, we also need to define the total heat input expected from each reionization process because there is also a weak dependence on temperature due to the recombination factor</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="m">In this work we used {\tau }_{{\rm{e}}} less constraining results based just on temperature angular power spectrum and polarization Planck data. Using more data reduces slightly the best value, but it is still in agreement with this best value. During the making of this paper, new constraints on reionization from Planck were published (Planck b: #apjaa6031bib112), moving these constraints to a lower value and reducing the errors: {\tau }_{{\rm{e}}}=0.058\pm 0.012. These results do no change any of the conclusions of this paper and in fact emphasize the disagreement between standard UVB models and these observational constraints</subfield>
+  <subfield code="h">Collaboration et al.</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">We define the reionization redshift of the models at the redshift when \langle {x}_{{\rm{H}}{\rm{II}}}\rangle =1</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">For all simulations we saved a snapshot at the following redshifts: 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 3.8, 3.6, 3.4, 3.2, 3.0, 2.8, 2.6, 2.4, 2.2, 2.0, 1.8, 1.6, 1.0, 0.5, and 0.2</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">Results of the simulations using, HM96: #apjaa6031bib47,, HM01: #apjaa6031bib48, and, FG09: #apjaa6031bib33 models can be found in Appendix B</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="m">That is, we renormalize the fluxes of each skewer, dividing them by its maximum flux value. Then we only used pixels where the renormalized fluxes are in the range 0.1\leqslant {F}_{{\rm{H}}\,{\rm{I}}}^{R20}\leqslant 0.9</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">We have tested that changing these thresholds within reasonable IGM densities produces differences just at a few percent level (see : #apjaa6031bib75, for similar conclusions), and in any case it does not affect the conclusions presented in this work. We also found no relevant effects in the main results of this paper if we employed a different fitting approach from the one used in Puchwein et al (,: #apjaa6031bib115)</subfield>
+  <subfield code="h">Lukić et al.</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="m">We do not directly compare to other measurements of γ : #apjaa6031bib121</subfield>
+  <subfield code="h">Ricotti et al.</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Schaye et al.</subfield>
+  <subfield code="m">: #apjaa6031bib126</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">McDonald et al.</subfield>
+  <subfield code="m">: #apjaa6031bib81</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Garzilli et al.</subfield>
+  <subfield code="m">: #apjaa6031bib39) because they are significantly less precise, employ outdated simulations, do not sufficiently treat degeneracies between T0 and {\lambda }_{{\rm{P}}}, or have other differences in methodology that make direct comparisons between them challenging</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="m">Using optimal densities given by (,: #apjaa6031bib11</subfield>
+  <subfield code="h">Boera et al.</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="m">A=-0.21838 and B = 1.05603) does not change any of the conclusions of this paper</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="m">This grid of simulations was created by modifying, HM12: #apjaa6031bib49 heating rates using two factors, A and B: \dot{q}=A{{\rm{\Delta }}}^{B}{\dot{q}}_{\mathrm{HM}12}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="m">Note that in this plot observations compute the mean flux averaging over a much smaller window than in the simulations</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="m">however, this would only change the variance, not the mean</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">Notice that as mentioned above, some authors have tried to solve for this issue by applying different simple redshift cutoffs to the standard UVB models. Results of simulations using the cutoff approach can be found in Appendix B</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="m">This method injects the same amount of heat with regard to the density at each resolution element, and in fact, we have also implemented it in our code and did several tests. This creates a very different evolution of the temperature-density relation slope, γ, with redshift. The evolution for the temperature at mean density, T0, was the same regardless of the method. This method has the advantage of only requiring an additional heating term and adding negligible computational overhead while capturing the timescale and magnitude of the heat input more realistically. Although we might explore it in more detail in the future, we decided to change to our current approach because it implied changing the standard algorithm used in several state-of-the-art cosmological hydrodynamical codes. Our current method produces new UVB models that can be directly plugged into any of these codes</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">25During the making of this paper, new constraints on reionization from Planck were published (Planck b: #apjaa6031bib112), moving these constraints to a lower value and reducing the errors: {\tau }_{{\rm{e}}}=0.058\pm 0.012. The, HM01: #apjaa6031bib48and, FG09: #apjaa6031bib33 models are in clear disagreement at 1\times \sigma with these new constraints</subfield>
+  <subfield code="h">Collaboration et al.</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="m">Notice, however, that it is in good agreement with the new Planck (,b: #apjaa6031bib112) constraints</subfield>
+  <subfield code="h">Collaboration et al.</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="m">In all cases we are assuming the same abundance values for hydrogen, {X}_{{\rm{p}}}, and helium, {Y}_{{\rm{p}}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Abel T. and Haehnelt M. G.</subfield>
+  <subfield code="s">Astrophys.J.,520,L13</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/312136</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999ApJ...520L..13A</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">496333</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Ahn K., Iliev I. T., Shapiro P. R. et al.</subfield>
+  <subfield code="s">Astrophys.J.,756,L16</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/756/1/L16</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...756L..16A</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1119344</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Almgren A. S., Bell J. B., Lijewski M. J.</subfield>
+  <subfield code="m">Luki&amp;cacute</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Z. and Van Andel E Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,765,39</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/765/1/39</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...765...39A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1215234</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Alvarez M. A., Busha M., Abel T. and Wechsler R. H.</subfield>
+  <subfield code="s">Astrophys.J.,703,L167</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/703/2/L167</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ApJ...703L.167A</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">805624</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Babul A. and Rees M. J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,255,346</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/255.2.346</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1992MNRAS.255..346B</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Becker G. D. and Bolton J. S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,436,1023</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1610</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.436.1023B</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1241947</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Becker G. D., Bolton J. S., Haehnelt M. G. and Sargent W. L. W.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,410,1096</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.17507.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.410.1096B</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">865383</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Becker G. D., Bolton J. S., Madau P. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,447,3402</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2646</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.447.3402B</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1306878</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Becker G. D., Rauch M. and Sargent W. L. W.</subfield>
+  <subfield code="s">Astrophys.J.,662,72</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/517866</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007ApJ...662...72B</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">722588</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Benítez-Llambay A., Navarro J. F., Abadi M. G. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,450,4207</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv925</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.450.4207B</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Boera E., Murphy M. T., Becker G. D. and Bolton J. S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,441,1916</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu660</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.441.1916B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1288682</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J., Meiksin A. and White M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,348,L43</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2004.07567.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004MNRAS.348L..43B</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">636007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J. S., Becker G. D., Haehnelt M. G. and Viel M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,438,2499</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt2374</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.438.2499B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1249952</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J. S. and Haehnelt M. G.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,382,325</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.12372.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.382..325B</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">746340</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J. S., Haehnelt M. G., Viel M. and Springel V.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,357,1178</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2005.08704.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2005MNRAS.357.1178B</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">663489</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J. S.</subfield>
+  <subfield code="m">Oh S. P. and Furlanetto S. R Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,395,736</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2009.14597.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009MNRAS.395..736B</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">790826</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bolton J. S., Viel M., Kim T.-S., Haehnelt M. G. and Carswell R. F.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,386,1131</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.13114.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008MNRAS.386.1131B</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">767543</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Boylan-Kolchin M., Bullock J. S. and Garrison-Kimmel S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,443,L44</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnrasl/slu079</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.443L..44B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1294619</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Brown T. M., Tumlinson J., Geha M. et al.</subfield>
+  <subfield code="s">Astrophys.J.,796,91</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/796/2/91</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...796...91B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1319963</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bullock J. S., Dekel A., Kolatt T. S. et al.</subfield>
+  <subfield code="s">Astrophys.J.,555,240</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/321477</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001ApJ...555..240B</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">548392</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Calverley A. P., Becker G. D., Haehnelt M. G. and Bolton J. S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,412,2543</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.18072.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.412.2543C</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">880271</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chang P., Broderick A. E. and Pfrommer C.</subfield>
+  <subfield code="s">Astrophys.J.,752,23</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/752/1/23</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...752...23C</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">916116</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Coc A., Uzan J.-P. and Vangioni E.</subfield>
+  <subfield code="r">arXiv:1307.6955</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1307.6955</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1244624</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Compostella M., Cantalupo S. and Porciani C.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,445,4186</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2035</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.445.4186C</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1305053</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">D’Aloisio A., McQuinn M. and Trac H.</subfield>
+  <subfield code="s">Astrophys.J.,813,L38</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/813/2/L38</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...813L..38D</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1392602</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Davé R., Thompson R. J. and Hopkins P. F.</subfield>
+  <subfield code="r">arXiv:1604.01418</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1604.01418</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Davies F. B. and Furlanetto S. R.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,437,1141</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1911</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.437.1141D</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1187700</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Davies F. B. and Furlanetto S. R.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,460,1328</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw931</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.460.1328D</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1394644</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Davies F. B., Furlanetto S. R. and McQuinn M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,457,3006</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw055</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.457.3006D</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1314952</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Desjacques V., Haehnelt M. G. and Nusser A.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,367,L74</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1745-3933.2006.00143.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006MNRAS.367L..74D</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">696613</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Efstathiou G.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,256,43</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/256.1.43P</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1992MNRAS.256P..43E</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Fan X., Strauss M. A., Becker R. H. et al.</subfield>
+  <subfield code="s">Astron.J.,132,117</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/504836</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006AJ....132..117F</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">699529</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Faucher-Giguère C.-A., Lidz A., Zaldarriaga M. and Hernquist L.</subfield>
+  <subfield code="s">Astrophys.J.,703,1416</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/703/2/1416</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ApJ...703.1416F</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">811974</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Faucher-Giguère C.-A., Prochaska J. X., Lidz A., Hernquist L. and Zaldarriaga M.</subfield>
+  <subfield code="s">Astrophys.J.,681,831</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/588648</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...681..831F</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">760907</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Finlator K.</subfield>
+  <subfield code="m">Oh S. P., Özel F. and Davé R Preprint:</subfield>
+  <subfield code="r">arXiv:1209.2489</subfield>
+  <subfield code="r">arXiv:1209.2489</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1185200</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Fumagalli M., O’Meara J. M., Prochaska J. X. and Worseck G.</subfield>
+  <subfield code="s">Astrophys.J.,775,78</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/775/1/78</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...775...78F</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1246729</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Furlanetto S. R.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,371,867</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2006.10725.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006MNRAS.371..867F</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">713735</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Furlanetto S. R., Zaldarriaga M. and Hernquist L.</subfield>
+  <subfield code="s">Astrophys.J.,613,1</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/423025</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004ApJ...613....1F</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">647321</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Garzilli A., Bolton J. S., Kim T.-S., Leach S. and Viel M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,424,1723</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.21223.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012MNRAS.424.1723G</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1089305</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Glover S. C. O. and Brand P. W. J. L.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,340,210</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2003.06311.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2003MNRAS.340..210G</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">597858</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gnat O. and Sternberg A.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,168,213</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/509786</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007ApJS..168..213G</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">723417</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gnedin N. Y.</subfield>
+  <subfield code="s">Astrophys.J.,542,535</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/317042</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...542..535G</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">544521</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gnedin N. Y.</subfield>
+  <subfield code="s">Astrophys.J.,793,29</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/793/1/29</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...793...29G</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1286266</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gnedin N. Y. and Hui L.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,296,44</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.1998.01249.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1998MNRAS.296...44G</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">444600</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gontcho A Gontcho</subfield>
+  <subfield code="m">S., Miralda-Escudé S. and Busca N. G J Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,442,187</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu860</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.442..187G</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1292993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Governato F., Weisz D., Pontzen A. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,448,792</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2720</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.448..792G</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1304244</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Haardt F. and Madau P.</subfield>
+  <subfield code="s">Astrophys.J.,461,20</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/177035</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996ApJ...461...20H</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">412894</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Haardt F. and Madau P.</subfield>
+  <subfield code="m">Clusters of Galaxies and the High Redshift Universe Observed in X-rays D. M. Neumann and J. T. V. Tran (eds.) 64, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001cghr.confE..64H</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Haardt F. and Madau P.</subfield>
+  <subfield code="s">Astrophys.J.,746,125</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/746/2/125</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...746..125H</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">899268</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Haehnelt M. G. and Steinmetz M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,298,L21</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.1998.01879.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1998MNRAS.298L..21H</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">461598</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hahn O. and Abel T.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,415,2101</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.18820.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.415.2101H</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">894639</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hennawi J. F., Myers A. D., Shen Y. et al.</subfield>
+  <subfield code="s">Astrophys.J.,719,1672</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/719/2/1672</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010ApJ...719.1672H</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">829587</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hennawi J. F., Strauss M. A., Oguri M. et al.</subfield>
+  <subfield code="s">Astron.J.,131,1</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/498235</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006AJ....131....1H</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">681197</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hoeft M., Yepes G., Gottlöber S. and Springel V.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,371,401</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2006.10678.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006MNRAS.371..401H</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">674910</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hopkins P. F., Kereš D., Oñorbe J. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,445,581</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu1738</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.445..581H</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1264999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Howlett C., Lewis A., Hall A. and Challinor A.</subfield>
+  <subfield code="s">JCAP,1204,27</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/1475-7516/2012/04/027</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012JCAP...04..027H</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1084947</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hui L. and Gnedin N. Y.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,292,27</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/292.1.27</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1997MNRAS.292...27H</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">441035</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Iliev I. T., Mellema G., Shapiro P. R. and Pen U.-L.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,376,534</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.11482.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.376..534I</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">722166</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Inoue A. K. and Kamaya H.</subfield>
+  <subfield code="r">arXiv:0810.5614</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:0810.5614</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">801211</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Jena T., Norman M. L., Tytler D. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,361,70</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2005.09095.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2005MNRAS.361...70J</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">667672</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Katz N., Weinberg D. H. and Hernquist L.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,105,19</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/192305</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996ApJS..105...19K</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">399702</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kaurov A. A. and Gnedin N. Y.</subfield>
+  <subfield code="s">Astrophys.J.,787,146</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/787/2/146</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...787..146K</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1264883</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kim T.-S., Bolton J. S., Viel M., Haehnelt M. G. and Carswell R. F.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,382,1657</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.12406.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.382.1657K</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">767416</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kirkman D., Tytler D., Lubin D. and Charlton J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,376,1227</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.11502.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.376.1227K</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">735755</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Klypin A., Kravtsov A. V., Valenzuela O. and Prada F.</subfield>
+  <subfield code="s">Astrophys.J.,522,82</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/307643</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999ApJ...522...82K</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">494190</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kohler K., Gnedin N. Y. and Hamilton A. J. S.</subfield>
+  <subfield code="s">Astrophys.J.,657,15</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/509907</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007ApJ...657...15K</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">698458</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kollmeier J. A., Miralda-Escudé J., Cen R. and Ostriker J. P.</subfield>
+  <subfield code="s">Astrophys.J.,638,52</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/498104</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006ApJ...638...52K</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">679382</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kulkarni G., Hennawi J. F., Oñorbe J., Rorai A. and Springel V.</subfield>
+  <subfield code="s">Astrophys.J.,812,30</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/812/1/30</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...812...30K</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1357569</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lee K.-G., Hennawi J. F., Spergel D. N. et al.</subfield>
+  <subfield code="s">Astrophys.J.,799,196</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/799/2/196</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...799..196L</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1294628</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lewis A., Challinor A. and Lasenby A.</subfield>
+  <subfield code="s">Astrophys.J.,538,473</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/309179</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...538..473L</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">517329</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Li T. Y Crossref: ADS:</subfield>
+  <subfield code="h">Alvarez M. A., Wechsler R. H. and Abel T.</subfield>
+  <subfield code="s">Astrophys.J.,785,134</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/785/2/134</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...785..134L</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1238367</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lidz A., Faucher-Giguère C.-A., Dall’Aglio A. et al.</subfield>
+  <subfield code="s">Astrophys.J.,718,199</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/718/1/199</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010ApJ...718..199L</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">832459</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lidz A., McQuinn M., Zaldarriaga M., Hernquist L. and Dutta S.</subfield>
+  <subfield code="s">Astrophys.J.,670,39</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/521974</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007ApJ...670...39L</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">747228</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Liu H., Slatyer T. R. and Zavala J.</subfield>
+  <subfield code="r">arXiv:1604.02457</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1604.02457</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1444934</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Luki&amp;cacute</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Z Crossref: ADS:</subfield>
+  <subfield code="h">Stark C. W., Nugent P. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,446,3697</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2377</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.446.3697L</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1303074</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Madau P., Haardt F. and Rees M. J.</subfield>
+  <subfield code="s">Astrophys.J.,514,648</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/306975</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999ApJ...514..648M</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">490167</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Madau P., Kuhlen M., Diemand J. et al.</subfield>
+  <subfield code="s">Astrophys.J.,689,L41</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/595814</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...689L..41M</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">800160</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Madau P., Rees M. J., Volonteri M., Haardt F.</subfield>
+  <subfield code="m">and Oh S. P Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,604,484</subfield>
+  <subfield code="a">doi:10.1086/381935</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004ApJ...604..484M</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">630086</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Malloy M. and Lidz A.</subfield>
+  <subfield code="s">Astrophys.J.,799,179</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/799/2/179</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...799..179M</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1319597</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Manrique A., Salvador-Solé E., Juan E. et al.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,216,13</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/216/1/13</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJS..216...13M</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1328770</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McDonald P., Miralda-Escudé J., Rauch M. et al.</subfield>
+  <subfield code="s">Astrophys.J.,562,52</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/323426</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001ApJ...562...52M</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">546068</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McGreer I. D., Mesinger A. and D’Odorico V.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,447,499</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu2449</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.447..499M</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1328928</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McQuinn M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,426,1349</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.21792.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012MNRAS.426.1349M</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1117495</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McQuinn M., Lidz A., Zahn O. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,377,1043</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.11489.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.377.1043M</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">727877</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McQuinn M., Lidz A., Zaldarriaga M. et al.</subfield>
+  <subfield code="s">Astrophys.J.,694,842</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/694/2/842</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ApJ...694..842M</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">790986</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">McQuinn M.</subfield>
+  <subfield code="m">and Upton Sanderbeck P. R Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,456,47</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv2675</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.456...47M</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1373716</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Meiksin A.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,314,566</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2000.03315.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000MNRAS.314..566M</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">544518</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Meiksin A., Bolton J. S. and Tittley E. R.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,445,2462</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu1938</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.445.2462M</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1323246</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Meiksin A. and White M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,350,1107</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2004.07724.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004MNRAS.350.1107M</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">623445</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Miralda-Escudé J., Cen R., Ostriker J. P. and Rauch M.</subfield>
+  <subfield code="s">Astrophys.J.,471,582</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/177992</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996ApJ...471..582M</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">402746</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Miralda-Escudé J., Haehnelt M. and Rees M. J.</subfield>
+  <subfield code="s">Astrophys.J.,530,1</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/308330</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...530....1M</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">485367</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Miralda-Escudé J. and Rees M. J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,266,343</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/266.2.343</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1994MNRAS.266..343M</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Moore B., Ghigna S., Governato F. et al.</subfield>
+  <subfield code="s">Astrophys.J.,524,L19</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/312287</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999ApJ...524L..19M</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">495917</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Noh Y. and McQuinn M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,444,503</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu1412</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.444..503N</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1276060</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Norman M. L., Reynolds D. R.</subfield>
+  <subfield code="m">So G. C., Harkness R. P. and Wise J. H Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,216,16</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/216/1/16</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJS..216...16N</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1236767</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Ocvirk P., Aubert D., Chardin J. et al.</subfield>
+  <subfield code="s">Astrophys.J.,777,51</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/777/1/51</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...777...51O</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1256398</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Ocvirk P., Gillet N., Shapiro P. R. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,463,1462</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw2036</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.463.1462O</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1402256</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Oh S. P Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,553,499</subfield>
+  <subfield code="a">doi:10.1086/320957</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001ApJ...553..499O</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">545829</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Okamoto T., Gao L. and Theuns T.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,390,920</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2008.13830.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008MNRAS.390..920O</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">787146</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">O’Meara J. M., Lehner N., Howk J. C. et al.</subfield>
+  <subfield code="s">Astron.J.,150,111</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/150/4/111</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015AJ....150..111O</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1370082</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">O’Meara J. M., Prochaska J. X., Worseck G., Chen H.-W. and Madau P.</subfield>
+  <subfield code="s">Astrophys.J.,765,137</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/765/2/137</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...765..137O</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1110910</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Oñorbe J., Boylan-Kolchin M., Bullock J. S. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,454,2092</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv2072</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.454.2092O</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1343454</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Oñorbe J., Garrison-Kimmel S., Maller A. H. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,437,1894</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt2020</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.437.1894O</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1236123</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Oppenheimer B. D. and Schaye J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,434,1043</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1043</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.434.1043O</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1220959</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Palanque-Delabrouille N., Yèche C., Borde A. et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,559,A85</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201322130</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013A&amp;A...559A..85P</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1239790</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Park H., Shapiro P. R., Komatsu E. et al.</subfield>
+  <subfield code="s">Astrophys.J.,769,93</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/769/2/93</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...769...93P</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1211127</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pawlik A. H., Schaye J.</subfield>
+  <subfield code="m">and Dalla Vecchia C Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,451,1586</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv976</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.451.1586P</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1338039</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pawlik A. H., Schaye J. and van Scherpenzeel E.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,394,1812</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2009.14486.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009MNRAS.394.1812P</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">791480</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Peeples M. S., Weinberg D. H., Davé R., Fardal M. A. and Katz N.</subfield>
+  <subfield code="m">a Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,404,1281</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.16383.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010MNRAS.404.1281P</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">832805</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Peeples M. S., Weinberg D. H., Davé R., Fardal M. A. and Katz N.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,404,1295</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.16384.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010MNRAS.404.1295P</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">832800</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Planck Collaboration a Crossref: ADS:</subfield>
+  <subfield code="h">Ade P. A. R., Aghanim N. et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,594,13</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201525830</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016A&amp;A...594A..13P</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1343079</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Planck Collaboration b Crossref: ADS:</subfield>
+  <subfield code="h">Aghanim N., Ashdown M. et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,596,107</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201628890</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016A&amp;A...596A.107P</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1456917</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pontzen A.</subfield>
+  <subfield code="s">Phys.Rev.,89,083010</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.89.083010</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014PhRvD..89h3010P</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1280010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Prochaska J. X. and Tumlinson J.</subfield>
+  <subfield code="m">Astrophysics in the Next Decade, Baryons: What, When and Where? H. A. Thronson, M. Stiavelli and A. Tielens (eds.) (Dordrecht: 419, ADS:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ASSP...10..419P</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Puchwein E., Bolton J. S., Haehnelt M. G. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,450,4081</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv773</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.450.4081P</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1320721</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Puchwein E., Pfrommer C., Springel V., Broderick A. E. and Chang P.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,423,149</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2012.20738.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012MNRAS.423..149P</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">919352</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Quinn T., Katz N. and Efstathiou G.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,278,L49</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/278.4.L49</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996MNRAS.278L..49Q</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">399866</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Rees M. J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,222,27</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/222.1.27P</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1986MNRAS.222P..27R</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Richings A. J., Schaye J. and Oppenheimer B. D.</subfield>
+  <subfield code="m">a Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,440,3349</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu525</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.440.3349R</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1278153</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Richings A. J., Schaye J. and Oppenheimer B. D.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,442,2780</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu1046</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.442.2780R</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1287023</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Ricotti M., Gnedin N. Y. and Shull J. M.</subfield>
+  <subfield code="s">Astrophys.J.,534,41</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/308733</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...534...41R</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">502379</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Rorai A., Hennawi J. F. and White M.</subfield>
+  <subfield code="s">Astrophys.J.,775,81</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/775/2/81</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...775...81R</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1231597</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Rudie G. C., Steidel C. C. and Pettini M.</subfield>
+  <subfield code="s">Astrophys.J.,757,L30</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/2041-8205/757/2/L30</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...757L..30R</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1184085</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Samui S., Subramanian K. and Srianand R.</subfield>
+  <subfield code="m">Proc. ICRC 9 215</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Schaye J.</subfield>
+  <subfield code="s">Astrophys.J.,562,L95</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/338106</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001ApJ...562L..95S</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">576835</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Schaye J., Theuns T., Rauch M., Efstathiou G. and Sargent W. L. W.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,318,817</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2000.03815.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000MNRAS.318..817S</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">520945</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Shen S., Madau P., Conroy C., Governato F. and Mayer L.</subfield>
+  <subfield code="s">Astrophys.J.,792,99</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/792/2/99</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...792...99S</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1249816</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Shull J. M., Moloney J., Danforth C. W. and Tilton E. M.</subfield>
+  <subfield code="s">Astrophys.J.,811,3</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/811/1/3</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ApJ...811....3S</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1342765</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Simpson C. M., Bryan G. L., Johnston K. V. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,432,1989</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt474</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.432.1989S</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1198270</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">So G. C Crossref: ADS:</subfield>
+  <subfield code="h">Norman M. L., Reynolds D. R. and Wise J. H.</subfield>
+  <subfield code="s">Astrophys.J.,789,149</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/789/2/149</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...789..149S</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1265001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Sobacchi E. and Mesinger A.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,432,3340</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt693</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.432.3340S</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1216620</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Somerville R. S. and Davé R.</subfield>
+  <subfield code="s">Ann.Rev.Astron.Astrophys.,53,51</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1146/annurev-astro-082812-140951</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015ARA&amp;A..53...51S</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1333340</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Songaila A. and Cowie L. L.</subfield>
+  <subfield code="s">Astrophys.J.,721,1448</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/721/2/1448</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010ApJ...721.1448S</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">862037</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Syphers D. and Shull J. M.</subfield>
+  <subfield code="s">Astrophys.J.,784,42</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/784/1/42</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...784...42S</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Theuns T., Bernardi M., Frieman J. et al.</subfield>
+  <subfield code="m">a Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,574,L111</subfield>
+  <subfield code="a">doi:10.1086/342531</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2002ApJ...574L.111T</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">588753</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Theuns T., Schaye J., Zaroubi S. et al.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,567,L103</subfield>
+  <subfield code="a">doi:10.1086/339998</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2002ApJ...567L.103T</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">593508</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Theuns T. and Zaroubi S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,317,989</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1046/j.1365-8711.2000.03729.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000MNRAS.317..989T</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">544536</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Thoul A. A. and Weinberg D. H.</subfield>
+  <subfield code="s">Astrophys.J.,465,608</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/177446</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996ApJ...465..608T</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">416516</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tittley E. R. and Meiksin A.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,380,1369</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.12214.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.380.1369T</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">716785</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Upton Crossref: ADS:</subfield>
+  <subfield code="h">Sanderbeck P. R., DAloisio A. and McQuinn M. J.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,460,1885</subfield>
+  <subfield code="a">doi:10.1093/mnras/stw1117</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016MNRAS.460.1885U</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1405404</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vasiliev E. O.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,414,3145</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2011.18623.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.414.3145V</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">867208</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Viel M., Becker G. D., Bolton J. S. and Haehnelt M. G.</subfield>
+  <subfield code="m">a Crossref: ADS:</subfield>
+  <subfield code="s">Phys.Rev.,88,043502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.043502</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013PhRvD..88d3502V</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1238031</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Viel M., Bolton J. S. and Haehnelt M. G.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,399,L39</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1745-3933.2009.00720.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009MNRAS.399L..39V</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">825948</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Viel M., Schaye J. and Booth C. M.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,429,1734</subfield>
+  <subfield code="a">doi:10.1093/mnras/sts465</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.429.1734V</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1124022</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vogelsberger M., Genel S., Sijacki D. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,436,3031</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt1789</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.436.3031V</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1233288</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Weinmann S. M., Macciò A. V., Iliev I. T., Mellema G. and Moore B.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,381,367</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2007.12279.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007MNRAS.381..367W</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">749872</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wheeler C., Oñorbe J., Bullock J. S. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,453,1305</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv1691</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.453.1305W</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1388127</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiersma R. P. C., Schaye J., Theuns T.</subfield>
+  <subfield code="m">Dalla Vecchia C. and Tornatore L Crossref: ADS:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,399,574</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2009.15331.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009MNRAS.399..574W</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">812926</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wise J. H., Demchenko V. G., Halicek M. T. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,442,2560</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stu979</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.442.2560W</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1287021</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Worseck G., Prochaska J. X., Hennawi J. F. and McQuinn M.</subfield>
+  <subfield code="r">arXiv:1405.7405</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1405.7405</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1298472</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Worseck G., Prochaska J. X., Hennawi J. F. and McQuinn M.</subfield>
+  <subfield code="s">Astrophys.J.,825,144</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.3847/0004-637X/825/2/144</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016ApJ...825..144W</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wyithe J. S. B. and Bolton J. S.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,412,1926</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2966.2010.18030.x</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011MNRAS.412.1926W</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">864702</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

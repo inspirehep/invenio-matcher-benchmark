@@ -1,0 +1,419 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ricketson, L.F.</subfield>
+    <subfield code="v">Courant Institute of Mathematical Sciences, New York University, New York, NY, 10012, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Accurate derivative evaluation for any Grad–Shafranov solver</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a numerical scheme that can be combined with any fixed boundary finite element based Poisson or Grad–Shafranov solver to compute the first and second partial derivatives of the solution to these equations with the same order of convergence as the solution itself. At the heart of our scheme is an efficient and accurate computation of the Dirichlet to Neumann map through the evaluation of a singular volume integral and the solution to a Fredholm integral equation of the second kind. Our numerical method is particularly useful for magnetic confinement fusion simulations, since it allows the evaluation of quantities such as the magnetic field, the parallel current density and the magnetic curvature with much higher accuracy than has been previously feasible on the affordable coarse grids that are usually implemented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Plasma</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Equilibrium</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Magnetic confinement fusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Grad–Shafranov equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite elements</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Integral equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Quadrature by expansion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Cerfon, A.J.</subfield>
+    <subfield code="v">Courant Institute of Mathematical Sciences, New York University, New York, NY, 10012, United States</subfield>
+    <subfield code="m">cerfon@cims.nyu.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rachh, M.</subfield>
+    <subfield code="v">Courant Institute of Mathematical Sciences, New York University, New York, NY, 10012, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Freidberg, J.P.</subfield>
+    <subfield code="v">Plasma Science and Fusion Center, Massachusetts Institute of Technology, Cambridge, MA, 02139, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">744-757</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grad, H.</subfield>
+    <subfield code="h">Rubin, H.</subfield>
+    <subfield code="t">Hydromagnetic equilibria and force-free fields</subfield>
+    <subfield code="v">vol. 31</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Proceedings of the Second United Nations Conference on the Peaceful Uses of Atomic Energy,vol. 31,190</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shafranov, V.D.</subfield>
+    <subfield code="t">On magnetohydrodynamical equilibrium configurations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Sov.Phys.JETP,6,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deriaz, E.</subfield>
+    <subfield code="h">Desprès, B.</subfield>
+    <subfield code="h">Faccanoni, G.</subfield>
+    <subfield code="h">Gostaf, K.</subfield>
+    <subfield code="h">Imbert-Gérard, L.-M.</subfield>
+    <subfield code="h">Sadaka, G.</subfield>
+    <subfield code="h">Sart, R.</subfield>
+    <subfield code="t">Magnetic equations with FreeFem++: the Grad–Shafranov equation &amp; the current hole</subfield>
+    <subfield code="v">vol. 32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">ESAIM: Proceedings,vol. 32,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Howell, E.C.</subfield>
+    <subfield code="h">Sovinec, C.R.</subfield>
+    <subfield code="t">Solving the Grad–Shafranov equation with spectral elements</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Comput.Phys.Commun.,185,1415</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huysmans, G.T.A.</subfield>
+    <subfield code="h">Goedbloed, J.P.</subfield>
+    <subfield code="h">Kerner, W.</subfield>
+    <subfield code="t">Isoparametric bicubic Hermite elements for solution of the Grad–Shafranov equation</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Mod.Phys.,C2,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lütjens, H.</subfield>
+    <subfield code="h">Bondeson, A.</subfield>
+    <subfield code="h">Roy, A.</subfield>
+    <subfield code="t">Axisymmetric mhd equilibrium solver with bicubic Hermite elements</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Phys.Commun.,69,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lütjens, H.</subfield>
+    <subfield code="h">Bondeson, A.</subfield>
+    <subfield code="h">Sauter, O.</subfield>
+    <subfield code="t">The CHEASE code for toroidal MHD equilibria</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Phys.Commun.,97,219</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goedbloed, J.P.</subfield>
+    <subfield code="h">Keppens, R.</subfield>
+    <subfield code="h">Poedts, S.</subfield>
+    <subfield code="t">Advanced Magnetohydrodynamics: With Applications to Laboratory and Astrophysical Plasmas</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beliën, A.J.C.</subfield>
+    <subfield code="h">Botchev, M.A.</subfield>
+    <subfield code="h">Goedbloed, J.P.</subfield>
+    <subfield code="h">van der Holst, B.</subfield>
+    <subfield code="h">Keppens, R.</subfield>
+    <subfield code="t">FINESSE: axisymmetric MHD equilibria with flow</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,182,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ling, K.M.</subfield>
+    <subfield code="h">Jardin, S.C.</subfield>
+    <subfield code="t">The Princeton spectral equilibrium code: PSEC</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,58,300</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pataki, A.</subfield>
+    <subfield code="h">Cerfon, A.J.</subfield>
+    <subfield code="h">Freidberg, J.P.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">O'Neil, M.</subfield>
+    <subfield code="t">A fast, high-order solver for the Grad–Shafranov equation</subfield>
+    <subfield code="v">243</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,243,28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, J.P.</subfield>
+    <subfield code="h">Cerfon, A.J.</subfield>
+    <subfield code="t">ECOM: a fast and accurate solver for toroidal axisymmetric MHD equilibria</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Phys.Commun.,190,72</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gruber, R.</subfield>
+    <subfield code="h">Troyon, F.</subfield>
+    <subfield code="h">Berger, D.</subfield>
+    <subfield code="h">Bernard, L.C.</subfield>
+    <subfield code="h">Rousset, S.</subfield>
+    <subfield code="h">Schreiber, R.</subfield>
+    <subfield code="h">Kerner, W.</subfield>
+    <subfield code="h">Schneider, W.</subfield>
+    <subfield code="h">Roberts, K.V.</subfield>
+    <subfield code="t">ERATO stability code</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Phys.Commun.,21,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, D.H.</subfield>
+    <subfield code="h">Bondeson, A.</subfield>
+    <subfield code="t">Improved poloidal convergence of the MARS code for MHD stability analysis</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Phys.Commun.,116,55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jolliet, S.</subfield>
+    <subfield code="h">Bottino, A.</subfield>
+    <subfield code="h">Angelino, P.</subfield>
+    <subfield code="h">Hatzky, R.</subfield>
+    <subfield code="h">Tran, T.M.</subfield>
+    <subfield code="h">Mcmillan, B.F.</subfield>
+    <subfield code="h">Sauter, O.</subfield>
+    <subfield code="h">Appert, K.</subfield>
+    <subfield code="h">Idomura, Y.</subfield>
+    <subfield code="h">Villard, L.</subfield>
+    <subfield code="t">A global collisionless PIC code in magnetic coordinates</subfield>
+    <subfield code="v">177</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Phys.Commun.,177,409</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vlad, G.</subfield>
+    <subfield code="h">Briguglio, S.</subfield>
+    <subfield code="h">Fogaccia, G.</subfield>
+    <subfield code="h">Zonca, F.</subfield>
+    <subfield code="t">Toward a new hybrid MHD gyrokinetic code: progresses and perspectives</subfield>
+    <subfield code="p">11th IAEA Technical Meeting on Energetic Particles in Magnetic Confinement Systems, Kyiv 21–23 Sept. 2009, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">P–25</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trefethen, L.N.</subfield>
+    <subfield code="h">Bau, D.</subfield>
+    <subfield code="t">Numerical Linear Algebra</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jardin, S.C.</subfield>
+    <subfield code="t">Computational Methods in Plasma Physics</subfield>
+    <subfield code="p">Chapman &amp; Hall/CRC Press New York</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Evans, L.C.</subfield>
+    <subfield code="t">Partial Differential Equations</subfield>
+    <subfield code="p">American Mathematical Society</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trefethen, L.N.</subfield>
+    <subfield code="t">Spectral Methods in MATLAB</subfield>
+    <subfield code="p">SIAM Philadelphia</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klöckner, A.</subfield>
+    <subfield code="h">Barnett, A.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">O'Neil, M.</subfield>
+    <subfield code="t">Quadrature by expansion: a new method for the evaluation of layer potentials</subfield>
+    <subfield code="v">252</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,252,332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast algorithm for particle simulations</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,73,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Epstein, C.L.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Klöckner, A.</subfield>
+    <subfield code="t">On the convergence of local expansions of layer potentials</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,51,2660</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Rachh, A. Klöckner, M. O'Neil</subfield>
+    <subfield code="m">Fast algorithms for ‘quadrature by expansion’ I: globally valid expansions, in preparation</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Manas, Rachh</subfield>
+    <subfield code="t">Integral equation methods for problems in electrostatics, elastostatics and viscous flow</subfield>
+    <subfield code="p">New York University</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beatson, R.K.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="t">A short course on fast multipole methods</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="m">Freely accessible at</subfield>
+    <subfield code="e">Ainsworth,M.</subfield>
+    <subfield code="e">Levesley,J.</subfield>
+    <subfield code="e">Light,W.</subfield>
+    <subfield code="e">Marletta,M.</subfield>
+    <subfield code="q">Wavelets, Multilevel Methods and Elliptic PDEs</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trefethen, L.N.</subfield>
+    <subfield code="h">Weideman, J.A.C.</subfield>
+    <subfield code="t">The exponentially convergent trapezoidal rule</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM Rev.,56,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sifuentes, J.</subfield>
+    <subfield code="h">Gimbutas, Z.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="r">arXiv:1401.3068</subfield>
+    <subfield code="t">Randomized methods for rank-deficient linear systems</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Solov'ev, L.S.</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Sov.Phys.JETP,26,400</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cerfon, A.J.</subfield>
+    <subfield code="h">Freidberg, J.P.</subfield>
+    <subfield code="t">“One size fits all” analytic solutions to the Grad–Shafranov equation</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Plasmas,17,032502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aymar, R.</subfield>
+    <subfield code="h">Barabaschi, P.</subfield>
+    <subfield code="h">Shimomura, Y.</subfield>
+    <subfield code="t">The ITER design</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Plasma Phys.Control.Fusion,44,519</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sabbagh, S.A.</subfield>
+    <subfield code="h">Kaye, S.M.</subfield>
+    <subfield code="h">Menard, J.</subfield>
+    <subfield code="h">Paoletti, F.</subfield>
+    <subfield code="h">Bell, M.</subfield>
+    <subfield code="h">Bell, R.E.</subfield>
+    <subfield code="h">Bialek, J.M.</subfield>
+    <subfield code="h">Bitter, M.</subfield>
+    <subfield code="h">Fredrickson, E.D.</subfield>
+    <subfield code="h">Gates, D.A.</subfield>
+    <subfield code="h">Glasser, A.H.</subfield>
+    <subfield code="h">Kugel, H.</subfield>
+    <subfield code="h">Lao, L.L.</subfield>
+    <subfield code="h">LeBlanc, B.P.</subfield>
+    <subfield code="h">Maingi, R.</subfield>
+    <subfield code="h">Maqueda, R.J.</subfield>
+    <subfield code="h">Mazzucato, E.</subfield>
+    <subfield code="h">Wurden, G.A.</subfield>
+    <subfield code="h">Zhu, W.</subfield>
+    <subfield code="t">Equilibrium properties of spherical torus plasmas in NSTX</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Nucl.Fusion,41,1601</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00222/S002199911500755X/S002199911500755X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

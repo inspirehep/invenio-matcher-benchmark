@@ -1,0 +1,570 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.011</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Rieutord, Michel</subfield>
+    <subfield code="v">Université de Toulouse, UPS-OMP, IRAP, Toulouse, France</subfield>
+    <subfield code="v">CNRS, IRAP, 14, avenue Edouard Belin, Toulouse, F-31400, France</subfield>
+    <subfield code="m">mrieutord@irap.omp.eu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An algorithm for computing the 2D structure of fast rotating stars</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">28</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Stars may be understood as self-gravitating masses of a compressible fluid whose radiative cooling is compensated by nuclear reactions or gravitational contraction. The understanding of their time evolution requires the use of detailed models that account for a complex microphysics including that of opacities, equation of state and nuclear reactions. The present stellar models are essentially one-dimensional, namely spherically symmetric. However, the interpretation of recent data like the surface abundances of elements or the distribution of internal rotation have reached the limits of validity of one-dimensional models because of their very simplified representation of large-scale fluid flows. In this article, we describe the ESTER code, which is the first code able to compute in a consistent way a two-dimensional model of a fast rotating star including its large-scale flows. Compared to classical 1D stellar evolution codes, many numerical innovations have been introduced to deal with this complex problem. First, the spectral discretization based on spherical harmonics and Chebyshev polynomials is used to represent the 2D axisymmetric fields. A nonlinear mapping maps the spheroidal star and allows a smooth spectral representation of the fields. The properties of Picard and Newton iterations for solving the nonlinear partial differential equations of the problem are discussed. It turns out that the Picard scheme is efficient on the computation of the simple polytropic stars, but Newton algorithm is unsurpassed when stellar models include complex microphysics. Finally, we discuss the numerical efficiency of our solver of Newton iterations. This linear solver combines the iterative Conjugate Gradient Squared algorithm together with an LU-factorization serving as a preconditioner of the Jacobian matrix.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Astrophysics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stellar models</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Espinosa Lara, Francisco</subfield>
+    <subfield code="v">Université de Toulouse, UPS-OMP, IRAP, Toulouse, France</subfield>
+    <subfield code="v">CNRS, IRAP, 14, avenue Edouard Belin, Toulouse, F-31400, France</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Putigny, Bertrand</subfield>
+    <subfield code="v">Université de Toulouse, UPS-OMP, IRAP, Toulouse, France</subfield>
+    <subfield code="v">CNRS, IRAP, 14, avenue Edouard Belin, Toulouse, F-31400, France</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">277-304</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aksenov, A.G.</subfield>
+    <subfield code="h">Blinnikov, S.I.</subfield>
+    <subfield code="t">A Newton iteration method for obtaining equilibria of rapidly rotating stars</subfield>
+    <subfield code="v">290</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Astron.Astrophys.,290,674</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Angulo, C.</subfield>
+    <subfield code="h">Arnould, M.</subfield>
+    <subfield code="h">Rayet, M.</subfield>
+    <subfield code="h">Descouvemont, P.</subfield>
+    <subfield code="h">Baye, D.</subfield>
+    <subfield code="h">Leclercq-Willain, C.</subfield>
+    <subfield code="h">Coc, A.</subfield>
+    <subfield code="h">Barhoumi, S.</subfield>
+    <subfield code="h">Aguer, P.</subfield>
+    <subfield code="h">Rolfs, C.</subfield>
+    <subfield code="h">Kunz, R.</subfield>
+    <subfield code="h">Hammer, J.W.</subfield>
+    <subfield code="h">Mayer, A.</subfield>
+    <subfield code="h">Paradellis, T.</subfield>
+    <subfield code="h">Kossionides, S.</subfield>
+    <subfield code="h">Chronidou, C.</subfield>
+    <subfield code="h">Spyrou, K.</subfield>
+    <subfield code="h">degl'Innocenti, S.</subfield>
+    <subfield code="h">Fiorentini, G.</subfield>
+    <subfield code="h">Ricci, B.</subfield>
+    <subfield code="h">Zavatarelli, S.</subfield>
+    <subfield code="h">Providencia, C.</subfield>
+    <subfield code="h">Wolters, H.</subfield>
+    <subfield code="h">Soares, J.</subfield>
+    <subfield code="h">Grama, C.</subfield>
+    <subfield code="h">Rahighi, J.</subfield>
+    <subfield code="h">Shotter, A.</subfield>
+    <subfield code="h">Lamehi Rachti, M.</subfield>
+    <subfield code="t">A compilation of charged-particle induced thermonuclear reaction rates</subfield>
+    <subfield code="v">656</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Nucl.Phys.,A656,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonazzola, S.</subfield>
+    <subfield code="h">Gourgoulhon, E.</subfield>
+    <subfield code="h">Marck, J.-A.</subfield>
+    <subfield code="t">Numerical approach for high precision 3D relativistic star models</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Rev.,D58,104020</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brott, I.</subfield>
+    <subfield code="h">Evans, C.J.</subfield>
+    <subfield code="h">Hunter, I.</subfield>
+    <subfield code="h">de Koter, A.</subfield>
+    <subfield code="h">Langer, N.</subfield>
+    <subfield code="h">Dufton, P.L.</subfield>
+    <subfield code="h">Cantiello, M.</subfield>
+    <subfield code="h">Trundle, C.</subfield>
+    <subfield code="h">Lennon, D.J.</subfield>
+    <subfield code="h">de Mink, S.E.</subfield>
+    <subfield code="h">Yoon, S.-C.</subfield>
+    <subfield code="h">Anders, P.</subfield>
+    <subfield code="t">Rotating massive main-sequence stars, II: simulating a population of LMC early B-type stars as a test of rotational mixing</subfield>
+    <subfield code="v">530</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Astron.Astrophys.,530,A116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Busse, F.</subfield>
+    <subfield code="t">Do Eddington–Sweet circulations exist?</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Geophys.Astrophys.Fluid Dyn.,17,215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Canuto, C.</subfield>
+    <subfield code="h">Hussaini, M.Y.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="h">Zang, T.A.</subfield>
+    <subfield code="t">Spectral Methods Evolution to Complex Geometries and Applications to Fluid Dynamics</subfield>
+    <subfield code="p">Springer Verlag</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clement, M.J.</subfield>
+    <subfield code="t">On the solution of Poisson's equation for rapidly rotating stars</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Astrophys.J.,194,709</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clement, M.J.</subfield>
+    <subfield code="t">On the solution of the equilibrium equations for rapidly rotating stars</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Astrophys.J.,222,967</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clement, M.J.</subfield>
+    <subfield code="t">On the equilibrium and secular instability of rapidly rotating stars</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Astrophys.J.,230,230</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clement, M.J.</subfield>
+    <subfield code="t">Differential rotation and the convective core mass of upper main-sequence stars</subfield>
+    <subfield code="v">420</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Astrophys.J.,420,797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deupree, R.G.</subfield>
+    <subfield code="t">Structure of uniformly rotating stars</subfield>
+    <subfield code="v">735</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Astrophys.J.,735,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deupree, R.G.</subfield>
+    <subfield code="h">Castañeda, D.</subfield>
+    <subfield code="h">Peña, F.</subfield>
+    <subfield code="h">Short, C.I.</subfield>
+    <subfield code="t">Matching the spectral energy distribution and P-mode oscillation frequencies of the rapidly rotating Delta Scuti star α Ophiuchi with a two-dimensional rotating stellar model</subfield>
+    <subfield code="v">753</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Astrophys.J.,753,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Domiciano de Souza, A.</subfield>
+    <subfield code="h">Kervella, P.</subfield>
+    <subfield code="h">Jankov, S.</subfield>
+    <subfield code="h">Abe, L.</subfield>
+    <subfield code="h">Vakili, F.</subfield>
+    <subfield code="h">di Folco, E.</subfield>
+    <subfield code="h">Paresce, F.</subfield>
+    <subfield code="t">The spinning-top be star Achernar from VLTI–VINCI</subfield>
+    <subfield code="v">407</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Astron.Astrophys.,407,L47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einset, E.O.</subfield>
+    <subfield code="h">Jensen, K.F.</subfield>
+    <subfield code="t">A finite element solution of three-dimensional mixed convection gas flows in horizontal channels using preconditioned iterative matrix methods</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,14,817</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eriguchi, Y.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="t">A general computational method for obtaining equilibria of self-gravitating and rotating gases</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Astron.Astrophys.,146,260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eriguchi, Y.</subfield>
+    <subfield code="h">Müller, E.</subfield>
+    <subfield code="t">Structure of rapidly rotating axisymmetric stars, I: a numerical method for stellar structure and meridional circulation</subfield>
+    <subfield code="v">248</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Astron.Astrophys.,248,435</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Espinosa Lara, F.</subfield>
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="t">The dynamics of a fully radiative rapidly rotating star enclosed within a spherical box</subfield>
+    <subfield code="v">470</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Astron.Astrophys.,470,1013</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Espinosa Lara, F.</subfield>
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="t">Self-consistent 2D models of fast rotating early-type stars</subfield>
+    <subfield code="v">552</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Astron.Astrophys.,552,A35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gourgoulhon, E.</subfield>
+    <subfield code="h">Grandclément, P.</subfield>
+    <subfield code="h">Taniguchi, K.</subfield>
+    <subfield code="h">Marck, J.-A.</subfield>
+    <subfield code="h">Bonazzola, S.</subfield>
+    <subfield code="t">Quasiequilibrium sequences of synchronized and irrotational binary neutron stars in general relativity: method and tests</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Phys.Rev.,D63,064029</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Greenspan, H.P.</subfield>
+    <subfield code="t">The Theory of Rotating Fluids</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hansen, C.</subfield>
+    <subfield code="h">Kawaler, S.</subfield>
+    <subfield code="t">Stellar Interiors: Physical Principles, Structure and Evolution</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Houdek, G.</subfield>
+    <subfield code="h">Rogl, J.</subfield>
+    <subfield code="t">On the accuracy of opacity interpolation schemes</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Bull.Astron.Soc.India,24,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hui-Bon-Hoa, A.</subfield>
+    <subfield code="t">The Toulouse Geneva Evolution Code (TGEC)</subfield>
+    <subfield code="v">316</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Astrophys.Space Sci.,316,55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jackson, S.</subfield>
+    <subfield code="h">MacGregor, K.B.</subfield>
+    <subfield code="h">Skumanich, A.</subfield>
+    <subfield code="t">Models for the rapidly rotating be star Achernar</subfield>
+    <subfield code="v">606</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Astrophys.J.,606,1196</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jackson, S.</subfield>
+    <subfield code="h">MacGregor, K.B.</subfield>
+    <subfield code="h">Skumanich, A.</subfield>
+    <subfield code="t">On the use of the self-consistent-field method in the construction of models for rapidly rotating main-sequence stars</subfield>
+    <subfield code="v">156</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,156,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">James, R.A.</subfield>
+    <subfield code="t">The structure and stability of rotating gas masses</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Astrophys.J.,140,552</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kippenhahn, R.</subfield>
+    <subfield code="h">Weigert, A.</subfield>
+    <subfield code="t">Stellar Structure and Evolution</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kippenhahn, R.</subfield>
+    <subfield code="h">Weigert, A.</subfield>
+    <subfield code="h">Weiss, A.</subfield>
+    <subfield code="t">Stellar Structure and Evolution</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Keyes, D.E.</subfield>
+    <subfield code="t">Jacobian-free Newton–Krylov methods: a survey of approaches and applications</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,193,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lemieux, J.-F.</subfield>
+    <subfield code="h">Price, S.F.</subfield>
+    <subfield code="h">Evans, K.J.</subfield>
+    <subfield code="h">Knoll, D.</subfield>
+    <subfield code="h">Salinger, A.G.</subfield>
+    <subfield code="h">Holland, D.M.</subfield>
+    <subfield code="h">Payne, A.J.</subfield>
+    <subfield code="t">Implementation of the Jacobian-free Newton–Krylov method for solving the first-order ice sheet momentum balance</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,230,6531</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">MacGregor, K.B.</subfield>
+    <subfield code="h">Jackson, S.</subfield>
+    <subfield code="h">Skumanich, A.</subfield>
+    <subfield code="h">Metcalfe, T.S.</subfield>
+    <subfield code="t">On the structure and properties of differentially rotating, main-sequence stars in the 1–2 <math altimg="si326.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi>s</mi><mi>o</mi><mi>l</mi><mi>a</mi><mi>r</mi></mrow></msub></math> range</subfield>
+    <subfield code="v">663</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Astrophys.J.,663,560</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maeder, A.</subfield>
+    <subfield code="t">Physics, Formation and Evolution of Rotating Stars</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monnier, J.D.</subfield>
+    <subfield code="h">Zhao, M.</subfield>
+    <subfield code="h">Pedretti, E.</subfield>
+    <subfield code="h">Thureau, N.</subfield>
+    <subfield code="h">Ireland, M.</subfield>
+    <subfield code="h">Muirhead, P.</subfield>
+    <subfield code="h">Berger, J.-P.</subfield>
+    <subfield code="h">Millan-Gabet, R.</subfield>
+    <subfield code="h">Van Belle, G.</subfield>
+    <subfield code="h">ten Brummelaar, T.</subfield>
+    <subfield code="h">McAlister, H.</subfield>
+    <subfield code="h">Ridgway, S.</subfield>
+    <subfield code="h">Turner, N.</subfield>
+    <subfield code="h">Sturmann, L.</subfield>
+    <subfield code="h">Sturmann, J.</subfield>
+    <subfield code="h">Berger, D.</subfield>
+    <subfield code="t">Imaging the surface of Altair</subfield>
+    <subfield code="v">317</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Science,317,342</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morel, P.</subfield>
+    <subfield code="t">CESAM: a code for stellar evolution calculations</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Astron.Astrophys.Suppl.Ser.,124,597</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morel, P.</subfield>
+    <subfield code="h">Lebreton, Y.</subfield>
+    <subfield code="t">CESAM: a free code for stellar evolution calculations</subfield>
+    <subfield code="v">316</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Astron.Astrophys.Suppl.Ser.,316,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oliver, H.J.</subfield>
+    <subfield code="h">Reiman, A.H.</subfield>
+    <subfield code="h">Monticello, D.A.</subfield>
+    <subfield code="t">Solving the 3D MHD equilibrium equations in toroidal geometry by Newton's method</subfield>
+    <subfield code="v">211</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,211,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ostriker, J.P.</subfield>
+    <subfield code="h">Mark, J.W.-K.</subfield>
+    <subfield code="t">Rapidly rotating stars. I. The self-consistent-field method</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Astrophys.J.,151,1075</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Paniconi, C.</subfield>
+    <subfield code="h">Putti, M.</subfield>
+    <subfield code="t">A comparison of Picard and Newton iteration in the numerical solution of multidimensional variably saturated flow problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Water Resour.Res.,30,3357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Paxton, B.</subfield>
+    <subfield code="h">Bildsten, L.</subfield>
+    <subfield code="h">Dotter, A.</subfield>
+    <subfield code="h">Herwig, F.</subfield>
+    <subfield code="h">Lesaffre, P.</subfield>
+    <subfield code="h">Timmes, F.</subfield>
+    <subfield code="t">Modules for Experiments in Stellar Astrophysics (MESA)</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Astrophys.J.Suppl.Ser.,192,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="t">The dynamics of the radiative envelope of rapidly rotating stars, I: a spherical Boussinesq model</subfield>
+    <subfield code="v">451</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Astron.Astrophys.,451,1025</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="r">astro-ph/0702384</subfield>
+    <subfield code="t">Modeling rapidly rotating stars</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="e">Casoli,F.</subfield>
+    <subfield code="q">SF2A Proceeding</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="t">On the dynamics of radiative zones in rotating star</subfield>
+    <subfield code="v">vol. 21</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">EAS,vol. 21,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="h">Espinosa Lara, F.</subfield>
+    <subfield code="t">On the dynamics of a radiative rapidly rotating star</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Commun.Asteroseismol.,158,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieutord, M.</subfield>
+    <subfield code="h">Espinosa Lara, F.</subfield>
+    <subfield code="r">arXiv:1208.4926 [astro-ph]</subfield>
+    <subfield code="t">Ab initio modelling of steady rotating stars</subfield>
+    <subfield code="v">vol. 865</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Lect.Notes Phys.,vol. 865,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rogers, F.J.</subfield>
+    <subfield code="h">Swenson, F.J.</subfield>
+    <subfield code="h">Iglesias, C.A.</subfield>
+    <subfield code="t">OPAL equation-of-state tables for astrophysical applications</subfield>
+    <subfield code="v">456</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Astrophys.J.,456,902</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roxburgh, I.W.</subfield>
+    <subfield code="t">2-Dimensional models of rapidly rotating stars, I: uniformly rotating zero age main sequence stars</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Astron.Astrophys.,428,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roxburgh, I.W.</subfield>
+    <subfield code="t">2-Dimensional models of rapidly rotating stars, II: hydrostatic and acoustic models with <math altimg="si327.gif" display="inline" overflow="scroll"><mi mathvariant="normal">Ω</mi><mo>=</mo><mi mathvariant="normal">Ω</mi><mo stretchy="false">(</mo><mi>r</mi><mo>,</mo><mi>θ</mi><mo stretchy="false">)</mo></math></subfield>
+    <subfield code="v">454</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Astron.Astrophys.,454,883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sonneveld, P.</subfield>
+    <subfield code="t">CGS: a fast Lanczos-type solver for nonsymmetric linear systems</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,10,36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Y.</subfield>
+    <subfield code="h">Takahashi, K.</subfield>
+    <subfield code="h">Goriely, S.</subfield>
+    <subfield code="h">Arnould, M.</subfield>
+    <subfield code="h">Ohta, M.</subfield>
+    <subfield code="h">Utsunomiya, H.</subfield>
+    <subfield code="t">NACRE II: an update of the NACRE compilation of charged-particle-induced thermonuclear reaction rates for nuclei with mass number <math altimg="si328.gif" display="inline" overflow="scroll"><mi>A</mi><mo>&lt;</mo><mn>16</mn></math></subfield>
+    <subfield code="v">918</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Nucl.Phys.,A918,61</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00113/S0021999116301395/S0021999116301395.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

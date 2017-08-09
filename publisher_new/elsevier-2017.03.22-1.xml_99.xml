@@ -1,0 +1,436 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.01.021</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jiang, Tian</subfield>
+    <subfield code="v">Department of Applied and Computational Mathematics and Statistics, University of Notre Dame, Notre Dame, IN 46556, USA</subfield>
+    <subfield code="m">jtian29@gmail.com</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Krylov single-step implicit integration factor WENO methods for advection–diffusion–reaction equations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-04-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Implicit integration factor (IIF) methods were developed in the literature for solving time-dependent stiff partial differential equations (PDEs). Recently, IIF methods were combined with weighted essentially non-oscillatory (WENO) schemes in Jiang and Zhang (2013) [19] to efficiently solve stiff nonlinear advection–diffusion–reaction equations. The methods can be designed for arbitrary order of accuracy. The stiffness of the system is resolved well and the methods are stable by using time step sizes which are just determined by the non-stiff hyperbolic part of the system. To efficiently calculate large matrix exponentials, Krylov subspace approximation is directly applied to the implicit integration factor (IIF) methods. So far, the IIF methods developed in the literature are multistep methods. In this paper, we develop Krylov single-step IIF-WENO methods for solving stiff advection–diffusion–reaction equations. The methods are designed carefully to avoid generating positive exponentials in the matrix exponentials, which is necessary for the stability of the schemes. We analyze the stability and truncation errors of the single-step IIF schemes. Numerical examples of both scalar equations and systems are shown to demonstrate the accuracy, efficiency and robustness of the new methods.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Advection–diffusion–reaction equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Single-step methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Implicit integration factor methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Krylov subspace approximation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Weighted essentially non-oscillatory schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, Yong-Tao</subfield>
+    <subfield code="v">Department of Applied and Computational Mathematics and Statistics, University of Notre Dame, Notre Dame, IN 46556, USA</subfield>
+    <subfield code="m">yzhang10@nd.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">22-44</subfield>
+    <subfield code="v">311</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.</subfield>
+    <subfield code="h">Ruuth, S.</subfield>
+    <subfield code="h">Wetton, B.</subfield>
+    <subfield code="t">Implicit–explicit methods for time-dependent PDE's</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,32,797</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Axelsson, O.</subfield>
+    <subfield code="t">A class of A-stable methods</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Bit,9,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="h">Keiser, J.M.</subfield>
+    <subfield code="h">Vozovoi, L.</subfield>
+    <subfield code="t">A new class of time discretization schemes for the solution of nonlinear PDEs</subfield>
+    <subfield code="v">147</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,147,362</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bourlioux, A.</subfield>
+    <subfield code="h">Layton, A.T.</subfield>
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">High-order multi-implicit spectral deferred correction methods for problems of reactive flow</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,189,651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="t">Krylov implicit integration factor methods for spatial discretization on high dimensional unstructured meshes: application to discontinuous Galerkin methods</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Christlieb, A.</subfield>
+    <subfield code="h">Ong, B.</subfield>
+    <subfield code="h">Qiu, J.-M.</subfield>
+    <subfield code="t">Integral deferred correction methods constructed with high order Runge–Kutta integrators</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Math.Comput.,79,761</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cox, S.M.</subfield>
+    <subfield code="h">Matthews, P.C.</subfield>
+    <subfield code="t">Exponential time differencing for stiff systems</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,176,430</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dutt, A.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Spectral deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Bit,40,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ehle, B.L.</subfield>
+    <subfield code="t">On Padé approximations to the exponential function and A-stable methods for the numerical solution of initial value problems</subfield>
+    <subfield code="p">Dept. AACS, Univ. of Waterloo Ontario, Canada</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Report CSRR</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Math.Anal.,4,671</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallopoulos, E.</subfield>
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Efficient solution of parabolic equations by Krylov approximation methods</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,13,1236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goodwin, B.C.</subfield>
+    <subfield code="h">Trainor, L.E.H.</subfield>
+    <subfield code="t">Tip and whorl morphogenesis in Acetabularia by calcium-regulated strain fields</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Theor.Biol.,117,79</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Total variation diminishing Runge–Kutta schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Math.Comput.,67,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Strong stability preserving high order time discretization methods</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM Rev.,43,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, E.</subfield>
+    <subfield code="h">Wanner, G.</subfield>
+    <subfield code="t">Stiff differential equations solved by Radau methods</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,111,93</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Higham, N.J.</subfield>
+    <subfield code="t">The scaling and squaring method for the matrix exponential revisited</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM Rev.,51,747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hochbruck, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">On Krylov subspace approximations to the matrix exponential operator</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,34,1911</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, J.</subfield>
+    <subfield code="h">Jia, J.</subfield>
+    <subfield code="h">Minion, M.</subfield>
+    <subfield code="t">Arbitrary order Krylov deferred correction methods for differential algebraic equations</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,221,739</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, T.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="t">Krylov implicit integration factor WENO methods for semilinear and fully nonlinear advection–diffusion–reaction equations</subfield>
+    <subfield code="v">253</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,253,368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jung, C.-Y.</subfield>
+    <subfield code="h">Nguyen, T.B.</subfield>
+    <subfield code="t">Semi-analytical time differencing methods for stiff problems</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Sci.Comput.,63,355</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kanevsky, A.</subfield>
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">Application of implicit–explicit high order Runge–Kutta methods to Discontinuous-Galerkin schemes</subfield>
+    <subfield code="v">225</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,225,1753</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kassam, A.-K.</subfield>
+    <subfield code="h">Trefethen, L.N.</subfield>
+    <subfield code="t">Fourth-order time stepping for stiff PDEs</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,1214</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kennedy, C.A.</subfield>
+    <subfield code="h">Carpenter, M.H.</subfield>
+    <subfield code="t">Additive Runge–Kutta schemes for convection–diffusion–reaction equations</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Appl.Numer.Math.,44,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Layton, A.T.</subfield>
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">Conservative multi-implicit spectral deferred correction methods for reacting gas dynamics</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,194,697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.F.</subfield>
+    <subfield code="h">Nie, Q.</subfield>
+    <subfield code="t">Compact integration factor methods for complex domains and adaptive mesh refinement</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5692</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maday, Y.</subfield>
+    <subfield code="h">Patera, A.T.</subfield>
+    <subfield code="h">Ronquist, E.M.</subfield>
+    <subfield code="t">An operator-integration-factor splitting method for time-dependent problems: application to incompressible fluid flow</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Sci.Comput.,5,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">Semi-implicit spectral deferred correction methods for ordinary differential equations</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Commun.Math.Sci.,1,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moler, C.</subfield>
+    <subfield code="h">Van Loan, C.</subfield>
+    <subfield code="t">Nineteen dubious ways to compute the exponential of a matrix twenty-five years later</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM Rev.,45,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nie, Q.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Zhao, R.</subfield>
+    <subfield code="t">Efficient semi-implicit schemes for stiff systems</subfield>
+    <subfield code="v">214</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,214,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nie, Q.</subfield>
+    <subfield code="h">Wan, F.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Liu, X.-F.</subfield>
+    <subfield code="t">Compact integration factor methods in high spatial dimensions</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,227,5238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schnakenberg, J.</subfield>
+    <subfield code="t">Simple chemical reaction systems with limit cycle behavior</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Theor.Biol.,81,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVD time discretizations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,9,1073</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Essentially non-oscillatory and weighted essentially non-oscillatory schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">vol. 1697</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Lect.Notes Math.,vol. 1697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trefethen, L.N.</subfield>
+    <subfield code="h">Bau, D.</subfield>
+    <subfield code="t">Numerical Linear Algebra</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Verwer, J.G.</subfield>
+    <subfield code="h">Sommeijer, B.P.</subfield>
+    <subfield code="h">Hundsdorfer, W.</subfield>
+    <subfield code="t">RKC time-stepping for advection–diffusion–reaction problems</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,201,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, S.</subfield>
+    <subfield code="h">Ovadia, J.</subfield>
+    <subfield code="h">Liu, X.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Nie, Q.</subfield>
+    <subfield code="t">Operator splitting implicit integration factor methods for stiff reaction–diffusion–advection systems</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,230,5996</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="t">Additive semi-implicit Runge–Kutta methods for computing high-speed nonequilibrium reactive flows</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,128,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhu, J.</subfield>
+    <subfield code="h">Zhang, Y.-T.</subfield>
+    <subfield code="h">Newman, S.A.</subfield>
+    <subfield code="h">Alber, M.</subfield>
+    <subfield code="t">Application of Discontinuous Galerkin Methods for reaction–diffusion systems in developmental biology</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Sci.Comput.,40,391</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00046/S0021999116000292/S0021999116000292.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

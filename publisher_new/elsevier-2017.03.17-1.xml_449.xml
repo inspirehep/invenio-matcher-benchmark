@@ -1,0 +1,584 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.06.038</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Yu, Yue</subfield>
+    <subfield code="v">Department of Mathematics, Lehigh University, Bethlehem, PA, 18015, USA</subfield>
+    <subfield code="m">yuy214@lehigh.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Fractional modeling of viscoelasticity in 3D cerebral arteries and aneurysms</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We develop efficient numerical methods for fractional order PDEs, and employ them to investigate viscoelastic constitutive laws for arterial wall mechanics. Recent simulations using one-dimensional models [1] have indicated that fractional order models may offer a more powerful alternative for modeling the arterial wall response, exhibiting reduced sensitivity to parametric uncertainties compared with the integer-calculus-based models. Here, we study three-dimensional (3D) fractional PDEs that naturally model the continuous relaxation properties of soft tissue, and for the first time employ them to simulate flow structure interactions for patient-specific brain aneurysms. To deal with the high memory requirements and in order to accelerate the numerical evaluation of hereditary integrals, we employ a fast convolution method [2] that reduces the memory cost to <math altimg="si1.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi mathvariant="normal">log</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></math> and the computational complexity to <math altimg="si2.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mi mathvariant="normal">log</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></math> . Furthermore, we combine the fast convolution with high-order backward differentiation to achieve third-order time integration accuracy. We confirm that in 3D viscoelastic simulations, the integer order models strongly depends on the relaxation parameters, while the fractional order models are less sensitive. As an application to long-time simulations in complex geometries, we also apply the method to modeling fluid–structure interaction of a 3D patient-specific compliant cerebral artery with an aneurysm. Taken together, our findings demonstrate that fractional calculus can be employed effectively in modeling complex behavior of materials in realistic 3D time-dependent problems if properly designed efficient algorithms are employed to overcome the extra memory requirements and computational complexity associated with the non-local character of fractional derivatives.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fast convolution method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fractional differential equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid–structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Patient-specific vasculature</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Brain aneurysm</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Perdikaris, Paris</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA</subfield>
+    <subfield code="m">parisp@mit.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Karniadakis, George Em</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, USA</subfield>
+    <subfield code="m">gk@dam.brown.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">219-242</subfield>
+    <subfield code="v">323</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perdikaris, P.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Fractional-order viscoelasticity in one-dimensional blood flow models</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Ann.Biomed.Eng.,42,1012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">López-Fernández, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Schädle, A.</subfield>
+    <subfield code="t">Adaptive, fast, and oblivious convolution in evolution equations with memory</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,1015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fung, Y.</subfield>
+    <subfield code="t">Biomechanics: Mechanical Properties of Living Tissues</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alastruey, J.</subfield>
+    <subfield code="h">Khir, A.W.</subfield>
+    <subfield code="h">Matthys, K.S.</subfield>
+    <subfield code="h">Segers, P.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="h">Verdonck, P.R.</subfield>
+    <subfield code="h">Parker, K.H.</subfield>
+    <subfield code="h">Peiró, J.</subfield>
+    <subfield code="t">Pulse wave propagation in a model human arterial network: assessment of 1-d visco-elastic simulations against in vitro measurements</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Biomech.,44,2250</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reymond, P.</subfield>
+    <subfield code="h">Bohraus, Y.</subfield>
+    <subfield code="h">Perren, F.</subfield>
+    <subfield code="h">Lazeyras, F.</subfield>
+    <subfield code="h">Stergiopulos, N.</subfield>
+    <subfield code="t">Validation of a patient-specific one-dimensional model of the systemic arterial tree</subfield>
+    <subfield code="v">301</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Am.J.Physiol., Heart Circ.Physiol.,301,H1173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eringen, A.C.</subfield>
+    <subfield code="t">Mechanics of Continua</subfield>
+    <subfield code="p">Robert E. Krieger Publishing Co. Huntington, NY</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="m">606 p</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doehring, T.C.</subfield>
+    <subfield code="h">Freed, A.D.</subfield>
+    <subfield code="h">Carew, E.O.</subfield>
+    <subfield code="h">Vesely, I.</subfield>
+    <subfield code="t">Fractional order viscoelasticity of the aortic valve cusp: an alternative to quasilinear viscoelasticity</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">ASME J.Biomech.Eng.,127,700</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craiem, D.O.</subfield>
+    <subfield code="h">Armentano, R.L.</subfield>
+    <subfield code="t">A fractional derivative model to describe arterial viscoelasticity</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Biorheology,44,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craiem, D.O.</subfield>
+    <subfield code="h">Rojo, F.J.</subfield>
+    <subfield code="h">Atienza, J.M.</subfield>
+    <subfield code="h">Guinea, G.V.</subfield>
+    <subfield code="h">Armentano, R.L.</subfield>
+    <subfield code="t">Fractional calculus applied to model arterial viscoelasticity</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Lat.Am.Appl.Res.,38,141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craiem, D.O.</subfield>
+    <subfield code="h">Rojo, F.J.</subfield>
+    <subfield code="h">Atienza, J.M.</subfield>
+    <subfield code="h">Armentano, R.L.</subfield>
+    <subfield code="h">Guinea, G.V.</subfield>
+    <subfield code="t">Fractional-order viscoelasticity applied to describe uniaxial stress relaxation of human arteries</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Med.Biol.,53,4543</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mainardi, F.</subfield>
+    <subfield code="t">Fractional Calculus and Waves in Linear Viscoelasticity: An Introduction to Mathematical Models</subfield>
+    <subfield code="p">World Scientific</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Podlubny, I.</subfield>
+    <subfield code="t">Fractional Differential Equations: An Introduction to Fractional Derivatives, Fractional Differential Equations, to Methods of Their Solution and Some of Their Applications, vol. 198</subfield>
+    <subfield code="p">Academic Press</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magin, R.L.</subfield>
+    <subfield code="t">Fractional Calculus in Bioengineering</subfield>
+    <subfield code="p">Begell House Publishers Inc. Redding, CT</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steinman, D.A.</subfield>
+    <subfield code="h">Hoi, Y.</subfield>
+    <subfield code="t">Variability of CFD solutions for pressure and flow in a giant aneurysm: the SBC2012 CFD challenge</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">(authors are ordered alphabetically by first author within the group)</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Biomech.Eng.,135,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Torii, R.</subfield>
+    <subfield code="h">Oshima, M.</subfield>
+    <subfield code="h">Kobayashi, T.</subfield>
+    <subfield code="h">Takagi, K.</subfield>
+    <subfield code="h">Tezduyar, T.E.</subfield>
+    <subfield code="t">Computer modeling of cardiovascular fluid–structure interactions with the deforming-spatial-domain/stabilized space–time formulation</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,1885</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tezduyar, T.E.</subfield>
+    <subfield code="h">Takizawa, K.</subfield>
+    <subfield code="h">Brummer, T.</subfield>
+    <subfield code="h">Chen, P.R.</subfield>
+    <subfield code="t">Space–time fluid–structure interaction modeling of patient-specific cerebral aneurysms</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,27,1665</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Torii, R.</subfield>
+    <subfield code="h">Oshima, M.</subfield>
+    <subfield code="h">Kobayashi, T.</subfield>
+    <subfield code="h">Takagi, K.</subfield>
+    <subfield code="h">Tezduyar, T.E.</subfield>
+    <subfield code="t">Influencing factors in image-based fluid–structure interaction computation of cerebral aneurysms</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,65,324</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Järvinen, E.</subfield>
+    <subfield code="h">Råback, P.</subfield>
+    <subfield code="h">Lyly, M.</subfield>
+    <subfield code="h">Salenius, J.-P.</subfield>
+    <subfield code="t">A method for partitioned fluid–structure interaction computation of flow in arteries</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Med.Eng.Phys.,30,917</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crosetto, P.</subfield>
+    <subfield code="h">Reymond, P.</subfield>
+    <subfield code="h">Deparis, S.</subfield>
+    <subfield code="h">Kontaxakis, D.</subfield>
+    <subfield code="h">Stergiopulos, N.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">Fluid–structure interaction simulation of aortic blood flow</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Fluids,43,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crosetto, P.</subfield>
+    <subfield code="h">Deparis, S.</subfield>
+    <subfield code="h">Fourestey, G.</subfield>
+    <subfield code="h">Quarteroni, A.</subfield>
+    <subfield code="t">Parallel algorithms for fluid–structure interaction problems in hemodynamics</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,1598</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="h">Vergara, C.</subfield>
+    <subfield code="t">An effective fluid–structure interaction formulation for vascular dynamics by generalized Robin conditions</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,30,731</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="h">Hsu, M.C.</subfield>
+    <subfield code="h">Zhang, Y.</subfield>
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="h">Liang, X.</subfield>
+    <subfield code="h">Kvamsdal, T.</subfield>
+    <subfield code="h">Brekken, R.</subfield>
+    <subfield code="h">Isaksen, J.G.</subfield>
+    <subfield code="t">A fully-coupled fluid–structure interaction simulation of cerebral aneurysms</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Mech.,46,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hsu, M.C.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="t">Blood vessel tissue prestress modeling for vascular fluid–structure interaction simulation</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Finite Elem.Anal.Des.,47,593</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Y.</subfield>
+    <subfield code="h">Baek, H.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Generalized fictitious methods for fluidâstructure interactions: analysis and simulations</subfield>
+    <subfield code="v">245</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,245,317</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ford, N.J.</subfield>
+    <subfield code="h">Simpson, A.C.</subfield>
+    <subfield code="t">The numerical solution of fractional differential equations: speed versus accuracy</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Numer.Algorithms,26,333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deng, W.</subfield>
+    <subfield code="t">Short memory principle and a predictor–corrector approach for fractional differential equations</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,206,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aceto, L.</subfield>
+    <subfield code="h">Magherini, C.</subfield>
+    <subfield code="h">Novati, P.</subfield>
+    <subfield code="t">On the construction and properties of m-step methods for FDEs</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,A653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, J.-R.</subfield>
+    <subfield code="t">A fast time stepping method for evaluating fractional integrals</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,4696</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="h">Schädle, A.</subfield>
+    <subfield code="t">Fast convolution for nonreflecting boundary conditions</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,24,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baffet, D.H.</subfield>
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">A Laplace transform based kernel reduction scheme for fractional differential equations</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Tech. rep., Society for Industrial and Applied Mathematics</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schädle, A.</subfield>
+    <subfield code="h">López-Fernández, M.</subfield>
+    <subfield code="h">Lubich, C.</subfield>
+    <subfield code="t">Fast and oblivious convolution quadrature</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,28,421</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">López-Fernández, M.</subfield>
+    <subfield code="h">Palencia, C.</subfield>
+    <subfield code="h">Schädle, A.</subfield>
+    <subfield code="t">A spectral order method for inverting sectorial Laplace transforms</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,44,1332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="t">Spectral/hp Element Methods for Computational Fluid Dynamics, Numerical Mathematics and Scientific Computation, </subfield>
+    <subfield code="p">Oxford University Press Oxford</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dong, S.</subfield>
+    <subfield code="h">Yosibash, Z.</subfield>
+    <subfield code="t">A parallel spectral element method for dynamic three-dimensional nonlinear elasticity problems</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Struct.,87,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Y.</subfield>
+    <subfield code="h">Baek, H.</subfield>
+    <subfield code="h">Bittencourt, M.L.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Mixed spectral/hp element formulation for nonlinear elasticity</subfield>
+    <subfield code="v">213–216</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,213–216,42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Y.</subfield>
+    <subfield code="h">Bittencourt, M.L.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A semi-local spectral/hp element solver for linear elasticity problems</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,100,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dong, S.</subfield>
+    <subfield code="t">BDF-like methods for nonlinear dynamic analysis</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3019</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Talbot, A.</subfield>
+    <subfield code="t">The accurate numerical inversion of Laplace transforms</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">IMA J.Appl.Math.,23,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rizzardi, M.</subfield>
+    <subfield code="t">A modification of talbot's method for the simultaneous approximation of several values of the inverse Laplace transform</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">ACM Trans.Math.Software (TOMS),21,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Idelsohn, S.R.</subfield>
+    <subfield code="h">Del Pin, F.</subfield>
+    <subfield code="h">Rossi, R.</subfield>
+    <subfield code="h">Oñate, E.</subfield>
+    <subfield code="t">Fluid–structure interaction problems with strong added-mass effect</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,80,1261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Causin, P.</subfield>
+    <subfield code="h">Gerbeau, J.F.</subfield>
+    <subfield code="h">Nobile, F.</subfield>
+    <subfield code="t">Added-mass effect in the design of partitioned algorithms for fluid–structure problems</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4506</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsson, S.</subfield>
+    <subfield code="h">Saedpanah, F.</subfield>
+    <subfield code="t">The continuous Galerkin method for an integro-differential equation modeling dynamic fractional order viscoelasticity</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,30,964</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baek, H.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A convergence study of a new partitioned fluid–structure interaction algorithm based on fictitious mass and damping</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,231,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craiem, D.</subfield>
+    <subfield code="h">Magin, R.L.</subfield>
+    <subfield code="t">Fractional order models of viscoelasticity as an alternative in the analysis of red blood cell (RBC) membrane mechanics</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Phys.Biol.,7,013001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robertson, A.M.</subfield>
+    <subfield code="h">Hill, M.R.</subfield>
+    <subfield code="h">Li, D.</subfield>
+    <subfield code="t">Structurally motivated damage models for arterial walls. Theory and application</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">Modeling of Physiological Flows</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bank, A.J.</subfield>
+    <subfield code="h">Kaiser, D.R.</subfield>
+    <subfield code="h">Rajala, S.</subfield>
+    <subfield code="h">Cheng, A.</subfield>
+    <subfield code="t">In vivo human brachial artery elastic mechanics effects of smooth muscle relaxation</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Circulation,100,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toth, M.</subfield>
+    <subfield code="h">Nadasy, G.L.</subfield>
+    <subfield code="h">Nyary, I.</subfield>
+    <subfield code="h">Kerényi, T.</subfield>
+    <subfield code="h">Orosz, M.s.</subfield>
+    <subfield code="h">Molnarka, G.</subfield>
+    <subfield code="h">Monos, E.</subfield>
+    <subfield code="t">Sterically inhomogenous viscoelastic behavior of human saccular cerebral aneurysms</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Vasc.Res.,35,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sadasivan, C.</subfield>
+    <subfield code="h">Fiorella, D.J.</subfield>
+    <subfield code="h">Woo, H.H.</subfield>
+    <subfield code="h">Lieber, B.B.</subfield>
+    <subfield code="t">Physical factors effecting cerebral aneurysm pathophysiology</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Ann.Biomed.Eng.,41,1347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cebral, J.R.</subfield>
+    <subfield code="h">Duan, X.</subfield>
+    <subfield code="h">Chung, B.J.</subfield>
+    <subfield code="h">Putman, C.</subfield>
+    <subfield code="h">Aziz, K.</subfield>
+    <subfield code="h">Robertson, A.M.</subfield>
+    <subfield code="t">Wall mechanical properties and hemodynamics of unruptured intracranial aneurysms</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Am.J.Neuroradiol.,36,1695</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robertson, A.M.</subfield>
+    <subfield code="h">Duan, X.</subfield>
+    <subfield code="h">Aziz, K.M.</subfield>
+    <subfield code="h">Hill, M.R.</subfield>
+    <subfield code="h">Watkins, S.C.</subfield>
+    <subfield code="h">Cebral, J.R.</subfield>
+    <subfield code="t">Diversity in the strength and structure of unruptured cerebral aneurysms</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Ann.Biomed.Eng.</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00162/S0021999116302637/S0021999116302637.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

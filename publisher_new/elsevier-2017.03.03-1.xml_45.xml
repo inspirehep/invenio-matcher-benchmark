@@ -1,0 +1,564 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.008</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cui, Tiangang</subfield>
+    <subfield code="v">Massachusetts Institute of Technology, Cambridge, MA, 02139, USA</subfield>
+    <subfield code="m">tcui@mit.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Dimension-independent likelihood-informed MCMC</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">29</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Many Bayesian inference problems require exploring the posterior distribution of high-dimensional parameters that represent the discretization of an underlying function. This work introduces a family of Markov chain Monte Carlo (MCMC) samplers that can adapt to the particular structure of a posterior distribution over functions. Two distinct lines of research intersect in the methods developed here. First, we introduce a general class of operator-weighted proposal distributions that are well defined on function space, such that the performance of the resulting MCMC samplers is independent of the discretization of the function. Second, by exploiting local Hessian information and any associated low-dimensional structure in the change from prior to posterior distributions, we develop an inhomogeneous discretization scheme for the Langevin stochastic differential equation that yields operator-weighted proposals adapted to the non-Gaussian structure of the posterior. The resulting dimension-independent and likelihood-informed (DILI) MCMC samplers may be useful for a large class of high-dimensional problems where the target probability measure has a density with respect to a Gaussian reference measure. Two nonlinear inverse problems are used to demonstrate the efficiency of these DILI samplers: an elliptic PDE coefficient inverse problem and path reconstruction in a conditioned diffusion.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Markov chain Monte Carlo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Likelihood-informed subspace</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Infinite-dimensional inverse problems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Langevin SDE</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conditioned diffusion</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Law, Kody J.H.</subfield>
+    <subfield code="v">Oak Ridge National Laboratory, Oak Ridge, TN, 37934, USA</subfield>
+    <subfield code="m">kody.law@kaust.edu.sa</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Marzouk, Youssef M.</subfield>
+    <subfield code="v">Massachusetts Institute of Technology, Cambridge, MA, 02139, USA</subfield>
+    <subfield code="m">ymarz@mit.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">109-137</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tarantola, A.</subfield>
+    <subfield code="t">Inverse Problem Theory and Methods for Model Parameter Estimation</subfield>
+    <subfield code="p">Society for Industrial Mathematics Philadelphia</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kaipio, J.P.</subfield>
+    <subfield code="h">Somersalo, E.</subfield>
+    <subfield code="t">Statistical and Computational Inverse Problems, , vol. 160</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="v">vol. 160</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Inverse problems: a Bayesian perspective</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Acta Numer.,19,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beskos, A.</subfield>
+    <subfield code="h">Papaspiliopoulos, O.</subfield>
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Fearnhead, P.</subfield>
+    <subfield code="t">Exact and computationally efficient likelihood based estimation for discretely observed diffusion processes (with discussion)</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,68,333</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, M.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Voss, J.</subfield>
+    <subfield code="t">Signal processing problems on function space: Bayesian formulation, stochastic PDEs and effective MCMC methods</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="e">Crisan,D.</subfield>
+    <subfield code="e">Rozovsky,B.</subfield>
+    <subfield code="q">The Oxford Handbook of Nonlinear Filtering</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Gelman, A.</subfield>
+    <subfield code="h">Gilks, W.R.</subfield>
+    <subfield code="t">Weak convergence and optimal scaling of random walk Metropolis algorithms</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Ann.Appl.Probab.,7,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Rosenthal, J.S.</subfield>
+    <subfield code="t">Optimal scaling of various Metropolis–Hastings algorithms</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Stat.Sci.,16,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mattingly, J.C.</subfield>
+    <subfield code="h">Pillai, N.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Diffusion limits of the random walk Metropolis algorithm in high dimensions</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Ann.Appl.Probab.,22,881</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pillai, N.S.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Thiery, A.H.</subfield>
+    <subfield code="t">Optimal scaling and diffusion limits for the Langevin algorithm in high dimensions</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Ann.Appl.Probab.,22,2320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beskos, A.</subfield>
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Voss, J.</subfield>
+    <subfield code="t">MCMC methods for diffusion bridges</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Stoch.Dyn.,8,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cotter, S.L.</subfield>
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">White, D.</subfield>
+    <subfield code="t">MCMC methods for functions: modifying old algorithms to make them faster</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Stat.Sci.,28,424</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chopin, N.</subfield>
+    <subfield code="t">A sequential particle filter method for static models</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Biometrika,89,539</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moral, P.D.</subfield>
+    <subfield code="h">Doucet, A.</subfield>
+    <subfield code="h">Jasra, A.</subfield>
+    <subfield code="t">Sequential Monte Carlo samplers</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,68,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrieu, C.</subfield>
+    <subfield code="h">Doucet, A.</subfield>
+    <subfield code="h">Holenstein, R.</subfield>
+    <subfield code="t">Particle Markov chain Monte Carlo methods</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,72,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giles, M.B.</subfield>
+    <subfield code="t">Multi-level Monte Carlo path simulation</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Oper.Res.,56,607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beskos, A.</subfield>
+    <subfield code="h">Jasra, A.</subfield>
+    <subfield code="h">Kantas, N.</subfield>
+    <subfield code="r">arXiv:1307.6127</subfield>
+    <subfield code="t">Sequential Monte Carlo methods for high-dimensional inverse problems: a case study for the Navier–Stokes equations</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">preprint</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoang, V.H.</subfield>
+    <subfield code="h">Schwab, C.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Complexity analysis of accelerated MCMC methods for Bayesian inversion</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Inverse Probl.,29,085010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ketelsen, C.</subfield>
+    <subfield code="h">Scheichl, R.</subfield>
+    <subfield code="h">Teckentrup, A.L.</subfield>
+    <subfield code="r">arXiv:1303.7343</subfield>
+    <subfield code="t">A hierarchical multilevel Markov chain Monte Carlo algorithm with applications to uncertainty quantification in subsurface flow</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">preprint</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Wilcox, L.C.</subfield>
+    <subfield code="h">Burstedde, C.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">A stochastic Newton MCMC method for large-scale statistical inverse problems with application to seismic inversion</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,A1460</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Girolami, M.</subfield>
+    <subfield code="h">Calderhead, B.</subfield>
+    <subfield code="t">Riemann manifold Langevin and Hamiltonian Monte Carlo methods</subfield>
+    <subfield code="v">73</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,73,123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spantini, A.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Tenorio, L.</subfield>
+    <subfield code="h">Marzouk, Y.</subfield>
+    <subfield code="r">arXiv:1407.3463</subfield>
+    <subfield code="t">Optimal low-rank approximation of linear Bayesian inverse problems</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">SIAM J. Sci. Comput. (2015), in press</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Law, K.J.</subfield>
+    <subfield code="t">Proposals which speed up function-space MCMC</subfield>
+    <subfield code="v">262</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,262,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Marzouk, Y.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Spantini, A.</subfield>
+    <subfield code="t">Likelihood-informed dimension reduction for nonlinear inverse problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Inverse Probl.,30,114015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dashti, M.</subfield>
+    <subfield code="h">Law, K.J.H.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Voss, J.</subfield>
+    <subfield code="t">MAP estimators and posterior consistency in Bayesian nonparametric inverse problems</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Inverse Probl.,29,095017</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Metropolis, N.</subfield>
+    <subfield code="h">Rosenbluth, A.W.</subfield>
+    <subfield code="h">Rosenbluth, M.N.</subfield>
+    <subfield code="h">Teller, A.H.</subfield>
+    <subfield code="h">Teller, E.</subfield>
+    <subfield code="t">Equation of state calculations by fast computing machines</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1953</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Chem.Phys.,21,1087</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hastings, W.</subfield>
+    <subfield code="t">Monte Carlo sampling using Markov chains and their applications</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Biometrika,57,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tierney, L.</subfield>
+    <subfield code="t">A note on Metropolis–Hastings kernels for general state spaces</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Ann.Appl.Probab.,8,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Besag, J.E.</subfield>
+    <subfield code="t">Discussion of “representations of knowledge in complex systems” by U. Grenander and I.M. Miller</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,56,549</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Rosenthal, J.S.</subfield>
+    <subfield code="t">Optimal scaling of discrete approximations to Langevin diffusions</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,60,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hairer, M.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="h">Vollmer, S.</subfield>
+    <subfield code="t">Spectral gaps for a Metropolis–Hastings algorithm in infinite dimensions</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Ann.Appl.Probab.,24,2455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Flath, H.P.</subfield>
+    <subfield code="h">Wilcox, L.C.</subfield>
+    <subfield code="h">Akcelik, V.</subfield>
+    <subfield code="h">Hill, J.</subfield>
+    <subfield code="h">van Bloemen Waanders, B.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">Fast algorithms for Bayesian uncertainty quantification in large-scale linear inverse problems based on low-rank partial Hessian approximations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bui-Thanh, T.</subfield>
+    <subfield code="h">Burstedde, C.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Stadler, G.</subfield>
+    <subfield code="h">Wilcox, L.C.</subfield>
+    <subfield code="t">Extreme-scale UQ for Bayesian inverse problems governed by PDEs</subfield>
+    <subfield code="p">ACM/IEEE Supercomputing SC12, Salt Lake City, Utah, 2012</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bui-Thanh, T.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Stadler, G.</subfield>
+    <subfield code="t">A computational framework for infinite-dimensional Bayesian inverse problems. Part I: The linearized case, with application to global seismic inversion</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,A2494</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Förstner, W.</subfield>
+    <subfield code="h">Boudewijn, M.</subfield>
+    <subfield code="t">A metric for covariance matrices</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="q">Geodesy: The Challenge of the 3rd Millennium</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haario, H.</subfield>
+    <subfield code="h">Saksman, E.</subfield>
+    <subfield code="h">Tamminen, J.</subfield>
+    <subfield code="t">An adaptive Metropolis algorithm</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Bernoulli,7,223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Atchadé, Y.F.</subfield>
+    <subfield code="t">An adaptive version for the Metropolis adjusted Langevin algorithm with a truncated drift</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Methodol.Comput.Appl.Probab.,8,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Golub, G.H.</subfield>
+    <subfield code="h">Loan, C.F.V.</subfield>
+    <subfield code="t">Matrix Computations</subfield>
+    <subfield code="p">JHU Press</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Halko, N.</subfield>
+    <subfield code="h">Martinsson, P.</subfield>
+    <subfield code="h">Tropp, J.A.</subfield>
+    <subfield code="t">Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">SIAM Rev.,53,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liberty, E.</subfield>
+    <subfield code="h">Woolfe, F.</subfield>
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="h">Tygert, M.</subfield>
+    <subfield code="t">Randomized algorithms for the low-rank approximation of matrices</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.,104,20167</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brand, M.</subfield>
+    <subfield code="t">Incremental singular value decomposition of uncertain data with missing values</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="q">Computer Vision – ECCV 2002</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, F.</subfield>
+    <subfield code="h">Dai, Q.</subfield>
+    <subfield code="h">Xu, W.</subfield>
+    <subfield code="h">Er, G.</subfield>
+    <subfield code="t">Weighted subspace distance and its applications to object recognition and retrieval with image sets</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">IEEE Signal Process.Lett.,16,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrieu, C.</subfield>
+    <subfield code="h">Moulines, E.</subfield>
+    <subfield code="t">On the ergodicity properties of some adaptive MCMC algorithms</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Ann.Appl.Probab.,16,1462</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Rosenthal, J.S.</subfield>
+    <subfield code="t">Coupling and ergodicity of adaptive Markov chain Monte Carlo algorithms</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Appl.Probab.,44,458</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saksman, E.</subfield>
+    <subfield code="h">Vihola, M.</subfield>
+    <subfield code="t">On the ergodicity of the adaptive metropolis algorithm on unbounded domains</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Ann.Appl.Probab.,20,2178</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, G.O.</subfield>
+    <subfield code="h">Stramer, S.</subfield>
+    <subfield code="t">Langevin diffusions and Metropolis–Hastings algorithms</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Methodol.Comput.Appl.Probab.,4,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Petra, N.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Stadler, G.</subfield>
+    <subfield code="h">Ghattas, O.</subfield>
+    <subfield code="t">A computational framework for infinite-dimensional Bayesian inverse problems, Part II: stochastic Newton MCMC with application to ice sheet flow inverse problems</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Russi, T.M.</subfield>
+    <subfield code="t">Uncertainty quantification with experimental data and complex system models</subfield>
+    <subfield code="p">University of California Berkeley</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Constantine, P.G.</subfield>
+    <subfield code="h">Dow, E.</subfield>
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="t">Active subspace methods in theory and practice: applications to kriging surfaces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1500</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beskos, A.</subfield>
+    <subfield code="t">A stable manifold MCMC method for high dimensions</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Stat.Probab.Lett.,90,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prato, G.D.</subfield>
+    <subfield code="h">Zabczyk, J.</subfield>
+    <subfield code="t">Stochastic Equations in Infinite Dimensions</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00210/S0021999115006701/S0021999115006701.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

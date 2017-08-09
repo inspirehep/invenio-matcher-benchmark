@@ -1,0 +1,531 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.026</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Johansson, A.</subfield>
+    <subfield code="v">Center for Biomedical Computing, Simula Research Laboratory, Norway</subfield>
+    <subfield code="m">august@simula.no</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A three-dimensional coupled Nitsche and level set method for electrohydrodynamic potential flows in moving domains</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-03-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we present a new algorithm for computing three-dimensional electrohydrodynamic flow in moving domains which can undergo topological changes. We consider a non-viscous, irrotational, perfect conducting fluid and introduce a way to model the electrically charged flow with an embedded potential approach. To numerically solve the resulting system, we combine a level set method to track both the free boundary and the surface velocity potential with a Nitsche finite element method for solving the Laplace equations. This results in an algorithmic framework that does not require body-conforming meshes, works in three dimensions, and seamlessly tracks topological change. Assembling this coupled system requires care: while convergence and stability properties of Nitsche's methods have been well studied for static problems, they have rarely been considered for moving domains or for obtaining the gradients of the solution on the embedded boundary. We therefore investigate the performance of the symmetric and non-symmetric Nitsche formulations, as well as two different stabilization techniques. The global algorithm and in particular the coupling between the Nitsche solver and the level set method are also analyzed in detail. Finally we present numerical results for several time-dependent problems, each one designed to achieve a specific objective: (a) The oscillation of a perturbed sphere, which is used for convergence studies and the examination of the Nitsche methods; (b) The break-up of a two lobe droplet with axial symmetry, which tests the capability of the algorithm to go past flow singularities such as topological changes and preservation of an axi-symmetric flow, and compares results to previous axi-symmetric calculations; (c) The electrohydrodynamical deformation of a thin film and subsequent jet ejection, which will account for the presence of electrical forces in a non-axi-symmetric geometry.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nitsche finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Level set method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Potential flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Electrostatic driven flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Garzon, M.</subfield>
+    <subfield code="v">Department of Applied Mathematics, University of Oviedo, Spain</subfield>
+    <subfield code="m">maria.garzon.martin@gmail.com</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sethian, J.A.</subfield>
+    <subfield code="v">Mathematics Department, Lawrence Berkeley National Laboratory, Department of Mathematics, University of California, Berkeley, United States</subfield>
+    <subfield code="m">sethian@math.berkeley.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">88-111</subfield>
+    <subfield code="v">309</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/35002540</subfield>
+    <subfield code="h">Schaffer, E.</subfield>
+    <subfield code="h">Thurn-Albrecht, T.</subfield>
+    <subfield code="h">Russell, T.P.</subfield>
+    <subfield code="h">Steiner, U.</subfield>
+    <subfield code="t">Electrically induced structure formation and pattern transfer</subfield>
+    <subfield code="v">403</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Nature,403,874</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2008GL035866</subfield>
+    <subfield code="h">Snook, N.</subfield>
+    <subfield code="h">Xue, M.</subfield>
+    <subfield code="t">Effects of microphysical drop size distribution on tornadogenesis in supercell thunderstorms</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Geophys.Res.Lett.,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.4171/IFB/87</subfield>
+    <subfield code="h">Yu, J.D.</subfield>
+    <subfield code="h">Sakai, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">A coupled level set-projection methods applied to ink jet simulations</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Interfaces Free Bound.,5,459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.80.010402</subfield>
+    <subfield code="h">Nudurupati, S.</subfield>
+    <subfield code="h">Janjua, M.</subfield>
+    <subfield code="h">Singh, P.</subfield>
+    <subfield code="h">Aubry, N.</subfield>
+    <subfield code="t">Electrohydrodynamic removal of particles from drop surfaces</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Rev.,E80,010402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.76.026320</subfield>
+    <subfield code="h">Marginean, I.</subfield>
+    <subfield code="h">Nemes, P.</subfield>
+    <subfield code="h">Vertes, A.</subfield>
+    <subfield code="t">Astable regime in electrosprays</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Rev.,E76,026320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nature08294</subfield>
+    <subfield code="h">Ristenpart, W.D.</subfield>
+    <subfield code="h">Bird, J.C.</subfield>
+    <subfield code="h">Belmonte, A.</subfield>
+    <subfield code="h">Dollar, F.</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Non-coalescence of oppositely charged drops</subfield>
+    <subfield code="v">461</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Nature,461,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/14786448208628425</subfield>
+    <subfield code="h">Rayleigh, Lord</subfield>
+    <subfield code="t">On the equilibrium of liquid conducting masses charged with electricity</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1882</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Philos.Mag.,14,184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rspa.1964.0151</subfield>
+    <subfield code="h">Taylor, G.</subfield>
+    <subfield code="t">Disintegration of water droplets in an electric field</subfield>
+    <subfield code="y">1964</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.,A,383</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rspa.1969.0205</subfield>
+    <subfield code="h">Taylor, G.</subfield>
+    <subfield code="t">Electrically driven jets</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.,A313,453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.4171/IFB/125</subfield>
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Adalsteinsson, D.</subfield>
+    <subfield code="h">Gray, L.J.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">A coupled level set-boundary integral method for moving boundary simulations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Interfaces Free Bound.,7,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.04.048</subfield>
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Gray, L.J.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Numerical simulation of non-viscous liquid pinch-off using a coupled level set-boundary integral method</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6079</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.83.046318</subfield>
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Gray, L.J.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Simulation of the droplet-to-bubble transition in a two-fluid system</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Rev.,E83,046318</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.2633</subfield>
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Gray, L.J.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Axisymmetric boundary integral formulation for a two-fluid system</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,69,1124</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.89.033011</subfield>
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Gray, L.J.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Numerical simulations of electrostatically driven jets from nonviscous droplets</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Rev.,E89,033011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF02995904</subfield>
+    <subfield code="h">Nitsche, J.</subfield>
+    <subfield code="t">Über ein Variationsprinzip zur Lösung von Dirichlet-Problemen bei Verwendung von Teilräumen, die keinen Randbedingungen unterworfen sind</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Abh.Math.Semin.Univ.Hamb.,36,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.crma.2010.10.006</subfield>
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="t">Ghost penalty</subfield>
+    <subfield code="v">348</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">C.R.Math.,348,1217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cma.2010.05.011</subfield>
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">Fictitious domain finite element methods using cut elements: I. A stabilized Lagrange multiplier method</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,2680</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.apnum.2011.01.008</subfield>
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">Fictitious domain finite element methods using cut elements: II. A stabilized Nitsche method</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Appl.Numer.Math.,62,328</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/imanum/drn081</subfield>
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">An interior-penalty-stabilized Lagrange multiplier method for the finite-element solution of elliptic interface problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">IMA J.Numer.Anal.,30,870</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00211-012-0497-1</subfield>
+    <subfield code="h">Johansson, A.</subfield>
+    <subfield code="h">Larson, M.G.</subfield>
+    <subfield code="t">A high order discontinuous Galerkin Nitsche method for elliptic problems with fictitious boundary</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Numer.Math.,123,607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garzon, M.</subfield>
+    <subfield code="h">Bobillo-Ares, N.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Some free boundary problems in potential flow regime using the level set method</subfield>
+    <subfield code="p">New York: Nova Publishers</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="q">Fluid Mechanics and Pipe flows: Turbulence, Simulations and Mechanics</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0045-7825(02)00524-8</subfield>
+    <subfield code="h">Hansbo, A.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="t">An unfitted finite element method, based on Nitsche's method, for elliptic interface problems</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Methods Appl.Math.,191,5537</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/m2an:2003039</subfield>
+    <subfield code="h">Hansbo, A.</subfield>
+    <subfield code="h">Hansbo, P.</subfield>
+    <subfield code="h">Larson, M.G.</subfield>
+    <subfield code="t">A finite element method on composite grids based on Nitsche's method</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,37,495</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/10081784X</subfield>
+    <subfield code="h">Burman, E.</subfield>
+    <subfield code="t">A penalty-free nonsymmetric Nitsche-type method for the weak imposition of boundary conditions</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,50,1959</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1145/37401.37422</subfield>
+    <subfield code="h">Lorensen, W.</subfield>
+    <subfield code="h">Cline, H.</subfield>
+    <subfield code="t">Marching cubes: a high resolution 3D surface construction algorithm</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Graph.,21,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Treece, G.</subfield>
+    <subfield code="h">Prager, R.</subfield>
+    <subfield code="h">Gee, A.</subfield>
+    <subfield code="t">Regularised marching tetrahedra: improved iso-surface extraction</subfield>
+    <subfield code="p">Cambridge University Engineering Department</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">CUED/F-INFENG/TR 333</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0010-4485(90)90007-Y</subfield>
+    <subfield code="h">Cattani, C.</subfield>
+    <subfield code="h">Paoluzzi, A.</subfield>
+    <subfield code="t">Boundary integration over linear polyhedra</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Comput.Aided Des.,22,130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larson, M.G.</subfield>
+    <subfield code="h">Massing, A.</subfield>
+    <subfield code="r">arXiv:1401.6994</subfield>
+    <subfield code="t"><math altimg="si126.gif" display="inline" overflow="scroll"><msup><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msup></math> -error estimates for finite element approximations of boundary fluxes</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">PETSc Web page</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(88)90002-2</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Fronts propagating with curvature dependent speed: algorithms based on Hamilton–Jacobi formulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0021-9991(02)00057-8</subfield>
+    <subfield code="h">Adalsteinsson, D.</subfield>
+    <subfield code="h">Sethian, J.</subfield>
+    <subfield code="t">Transport and diffusion of material quantities on propagating interfaces via level set methods</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,185,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S106482750037617X</subfield>
+    <subfield code="h">Chopp, D.</subfield>
+    <subfield code="t">Some improvements of the fast marching method</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,230</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Level Set Methods and Fast Marching Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1537237</subfield>
+    <subfield code="h">Leppinen, D.</subfield>
+    <subfield code="h">Lister, J.</subfield>
+    <subfield code="t">Capillary pinch-off in inviscid fluids</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Phys.Fluids,15,568</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.79.066305</subfield>
+    <subfield code="h">Gañán-Calvo, A.M.</subfield>
+    <subfield code="h">Montanero, J.M.</subfield>
+    <subfield code="t">Revision of capillary cone-jet physics: electrospray and flow focusing</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Rev.,E79,066305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.2204044</subfield>
+    <subfield code="h">Betelú, S.I.</subfield>
+    <subfield code="h">Fontelos, M.A.</subfield>
+    <subfield code="h">Kindelán, U.</subfield>
+    <subfield code="h">Vantzos, O.</subfield>
+    <subfield code="t">Singularities on charged viscous droplets</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Phys.Fluids,18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.2980030</subfield>
+    <subfield code="h">Fontelos, M.A.</subfield>
+    <subfield code="h">Kindelán, U.</subfield>
+    <subfield code="h">Vantzos, O.</subfield>
+    <subfield code="t">Evolution of neutral and charged droplets in an electric field</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Phys.Fluids,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4776238</subfield>
+    <subfield code="h">Ferrera, C.</subfield>
+    <subfield code="h">López-Herrera, J.M.</subfield>
+    <subfield code="h">Herrada, M.A.</subfield>
+    <subfield code="h">Montanero, J.M.</subfield>
+    <subfield code="h">Acero, A.J.</subfield>
+    <subfield code="t">Dynamical behavior of electrified pendant drops</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Fluids,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/ie00037a034</subfield>
+    <subfield code="h">Basaran, O.</subfield>
+    <subfield code="h">Patzek, T.W.</subfield>
+    <subfield code="h">Benner, R.E.</subfield>
+    <subfield code="h">Scriven, L.E.</subfield>
+    <subfield code="t">Nonlinear oscillations and breakup of conducting, inviscid drops in an externally applied electric field</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Ind.Eng.Chem.Res.,34,3454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.106.144501</subfield>
+    <subfield code="h">Burton, J.C.</subfield>
+    <subfield code="h">Taborek, P.</subfield>
+    <subfield code="t">Simulations of coulombic fission of charged inviscid drops</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Phys.Rev.Lett.,106,144501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.1213708110</subfield>
+    <subfield code="h">Collins, R.T.</subfield>
+    <subfield code="h">Sambath, K.</subfield>
+    <subfield code="h">Harris, M.T.</subfield>
+    <subfield code="h">Basaran, O.A.</subfield>
+    <subfield code="t">Universal scaling laws for the disintegration of electrified drops</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,110,4905</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.77.036319</subfield>
+    <subfield code="h">Giglio, E.</subfield>
+    <subfield code="h">Gervais, B.</subfield>
+    <subfield code="h">Rangama, J.</subfield>
+    <subfield code="h">Manil, B.</subfield>
+    <subfield code="h">Huber, B.A.</subfield>
+    <subfield code="h">Duft, D.</subfield>
+    <subfield code="h">Müller, R.</subfield>
+    <subfield code="h">Leisner, T.</subfield>
+    <subfield code="h">Guet, C.</subfield>
+    <subfield code="t">Shape deformations of surface-charged microdroplets</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Rev.,E77,036319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/jp0450540</subfield>
+    <subfield code="h">Grimm, R.L.</subfield>
+    <subfield code="h">Beauchamp, J.L.</subfield>
+    <subfield code="t">Dynamics of field-induced droplet ionization: time-resolved studies of distortion, jetting, and progeny formation from charged and neutral methanol droplets exposed to strong electric fields</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Phys.Chem.,B109,8244</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nphys807</subfield>
+    <subfield code="h">Collins, R.T.</subfield>
+    <subfield code="h">Jones, J.J.</subfield>
+    <subfield code="h">Harris, M.T.</subfield>
+    <subfield code="h">Basaran, O.A.</subfield>
+    <subfield code="t">Electrohydrodynamic tip streaming and emission of charged drops from liquid cones</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Nat.Phys.,4,149</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00022/S0021999115008451/S0021999115008451.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,172 @@
+<record>
+  <controlfield tag="001">1197027</controlfield>
+  <controlfield tag="005">20130122154039.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">Winklmeier:2012nta</subfield>
+    <subfield code="9">INSPIRETeX</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">CDS</subfield>
+    <subfield code="a">1455104</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">ATL-DAQ-PROC-2012-009</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">ATL-COM-DAQ-2012-110</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Winklmeier, F.</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A System for Monitoring and Tracking the LHC Beam Spot within the ATLAS High Level Trigger</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN</subfield>
+    <subfield code="a">Geneva</subfield>
+    <subfield code="c">2012-06-08</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The parameters of the beam spot produced by the LHC in the ATLAS interaction region are computed online using the ATLAS High Level Trigger (HLT) system. The high rate of triggered events is exploited to make precise measurements of the position, size and orientation of the luminous region in near real-time, as these parameters change significantly even during a single data-taking run. We present the challenges, solutions and results for the online determination, monitoring and beam spot feedback system in ATLAS. A specially designed algorithm, which uses tracks registered in the silicon detectors to reconstruct event vertices, is executed on the HLT processor farm of several thousand CPU cores. Monitoring histograms from all the cores are sampled and aggregated across the farm every 60 seconds. The reconstructed beam values are corrected for detector resolution effects, measured in situ from the separation of vertices whose tracks have been split into two collections. Furthermore, measurements for individual bunch crossings have allowed for studies of single-bunch distributions as well as the behavior of bunch trains, calibrated to the beam average. Run control invokes a comparison of the nominal and measured beam spot values, and when threshold conditions are satisfied the farm configuration is updated. To achieve sharp time boundaries across the event stream, which is triggered at rates of several kHz, a special datagram is injected into the event path via the Central Trigger Processor that signals the pending update to the trigger nodes. Thousands of clients then fetch the same set of values from the conditions database in a fraction of a second via an efficient near-simultaneous access made possible through a dedicated CORAL Server and Proxy tree.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Instrumentation</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="693" ind1=" " ind2=" ">
+    <subfield code="a">CERN LHC</subfield>
+    <subfield code="e">CERN-LHC-ATLAS</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bartoldus, C.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Cogan, J.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Salnikov, A.</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Strauss, E.</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="u">http://cdsweb.cern.ch/record/1455104/files/ATL-DAQ-PROC-2012-009.pdf</subfield>
+    <subfield code="y">Fulltext</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="u">http://inspirehep.net/record/1197027/files/ATL-DAQ-PROC-2012-009.pdf</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">NOTE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">CORE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">ConferencePaper</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="c">ATLAS Collaboration</subfield>
+    <subfield code="t">The ATLAS Experiment at the CERN Large Hadron Collider</subfield>
+    <subfield code="s">JINST,3,S08003</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="h">L. Evans and P. Bryant</subfield>
+    <subfield code="t">LHC Machine</subfield>
+    <subfield code="s">JINST,3,S08001</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="c">ATLAS Collaboration</subfield>
+    <subfield code="t">Performance of the ATLAS Trigger System in 2010</subfield>
+    <subfield code="s">Eur.Phys.J.,C72,1849</subfield>
+    <subfield code="y">2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">S. Ask et al.</subfield>
+    <subfield code="t">The ATLAS central level-1 trigger logic and TTC system</subfield>
+    <subfield code="s">JINST,3,P08002</subfield>
+    <subfield code="m">Online]. Available</subfield>
+    <subfield code="u">http://stacks.iop.org/1748-0221/3/i=08/a=P08002</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="h">D. Berge et al.</subfield>
+    <subfield code="t">The configuration system of the ATLAS Trigger</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,55,392</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">F. Viegas, R. Hawkings, and G. Dimitrov</subfield>
+    <subfield code="t">Relational databases for conditions data and event selection in ATLAS</subfield>
+    <subfield code="m">Journal of Physics: Conference Series, vol. 119, no. 4, p. 042032, 2008. [Online]. Available</subfield>
+    <subfield code="u">http://stacks.iop.org/1742-6596/119/i=4/a=042032</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">7</subfield>
+    <subfield code="m">S. van der Meer CERN, Geneva, Tech. Rep. CERN-ISR-PO-68-31, 1968</subfield>
+    <subfield code="t">Calibration of the effective beam height in the ISR</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">8</subfield>
+    <subfield code="h">W. Vandelli et al.</subfield>
+    <subfield code="t">Strategies and Tools for ATLAS Online Monitoring</subfield>
+    <subfield code="m">Nuclear Science Transactions on, vol. 54, no. 3, pp. 609 -615, june 2007</subfield>
+    <subfield code="p">IEEE</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">9</subfield>
+    <subfield code="h">R. Bartoldus</subfield>
+    <subfield code="t">Online Determination of the LHC Luminous Region with the ATLAS High-Level Trigger</subfield>
+    <subfield code="m">CERN, Geneva, Tech. Rep. ATL-DAQ-PROC-2011-028, Oct 2011. [Online]. Available</subfield>
+    <subfield code="u">https://cdsweb.cern.ch/record/1390835</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">10</subfield>
+    <subfield code="h">D. Miller</subfield>
+    <subfield code="t">Online measurement of LHC beam parameters with the ATLAS High-Level Trigger</subfield>
+    <subfield code="m">in Real Time Conference (RT), 2010 17th NPSS, May 2010, pp. 1-6</subfield>
+    <subfield code="p">IEEE</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">11</subfield>
+    <subfield code="m">LHC Operations web page. [Online]. Available</subfield>
+    <subfield code="u">http://opwebtools.web.cern.ch/op-webtools/vistar/vistars.php?usr=LHCCONFIG</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">12</subfield>
+    <subfield code="h">A. Valassi, R. Bartoldus, A. Kalkhof, A. Salnikov, and M. Wache</subfield>
+    <subfield code="t">CORAL Server and CORAL Server Proxy: Scalable Access to Relational Databases from CORAL Applications. oai:cds.cern.ch:1327671</subfield>
+    <subfield code="m">CERN, Geneva, Tech. Rep Feb 2011, submitted for publication in the Proceedings of CHEP 2010, T ei</subfield>
+    <subfield code="r">CERN-IT-2011-007</subfield>
+    <subfield code="p">AIP</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">13</subfield>
+    <subfield code="h">F. Winklmeier</subfield>
+    <subfield code="t">Real-time configuration changes of the ATLAS High Level Trigger</subfield>
+    <subfield code="m">in Real Time Conference (RT), 2010 17th NPSS, may 2010, pp. 1-5</subfield>
+    <subfield code="p">IEEE</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-1-0-0-1</subfield>
+    <subfield code="t">2012-11-23 01:47:13</subfield>
+    <subfield code="v">Invenio/1.0.0.1200-3a901 refextract/1.5.11</subfield>
+  </datafield>
+</record>

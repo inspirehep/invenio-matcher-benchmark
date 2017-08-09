@@ -1,0 +1,567 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.056</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Daude, F.</subfield>
+    <subfield code="v">IMSIA, UMR EDF-CNRS-CEA-ENSTA 9219, Palaiseau, F-91762, France</subfield>
+    <subfield code="v">EDF R&amp;D;, AMA, Clamart, F-92141, France</subfield>
+    <subfield code="m">frederic.daude@edf.fr</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">On the computation of the Baer–Nunziato model using ALE formulation with HLL- and HLLC-type solvers towards fluid–structure interactions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">42</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Computation of compressible two-phase flows with the unsteady compressible Baer–Nunziato model in conjunction with the moving grid approach is discussed in this paper. Both HLL- and HLLC-type Finite-Volume methods are presented and implemented in the context of Arbitrary Lagrangian–Eulerian formulation in a multidimensional framework. The construction of suitable numerical methods is linked to proper approximations of the non-conservative terms on moving grids. The HLL discretization follows global conservation properties such as free-stream preservation and uniform pressure and velocity profiles preservation on moving grids. The HLLC solver initially proposed by Tokareva and Toro [1] for the Baer–Nunziato model is based on an approximate solution of local Riemann problems containing all the characteristic fields present in the exact solution. Both “subsonic” and “supersonic” configurations are considered in the construction of the present HLLC solver. In addition, an adaptive 6-wave HLLC scheme is also proposed for computational efficiency. The methods are first assessed on a variety of 1-D Riemann problems including both fixed and moving grids applications. The methods are finally tested on 2-D and 3-D applications: 2-D Riemann problems, a 2-D shock–bubble interaction and finally a 3-D fluid–structure interaction problem with a good agreement with the experiments.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Two-phase compressible flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Baer–Nunziato equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">ALE formulation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite-Volume method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">HLL/HLLC solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured grids</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid–structure interaction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Galon, P.</subfield>
+    <subfield code="v">IMSIA, UMR EDF-CNRS-CEA-ENSTA 9219, Palaiseau, F-91762, France</subfield>
+    <subfield code="v">CEA Saclay, DEN/DANS/DM2S/SEMT/DYN, Gif-sur-Yvette, F-91191, France</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">189-230</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tokareva, S.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">HLLC-type Riemann solver for the Baer–Nunziato equations of compressible two-phase flow</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3573</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Drew, D.A.</subfield>
+    <subfield code="h">Passman, S.L.</subfield>
+    <subfield code="t">Theory of Multicomponent Fluids</subfield>
+    <subfield code="p">Springer New-York</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ishii, M.</subfield>
+    <subfield code="h">Hibiki, T.</subfield>
+    <subfield code="t">Thermo-Fluid Dynamics of Two-Phase Flow</subfield>
+    <subfield code="p">Springer New-York</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baer, M.R.</subfield>
+    <subfield code="h">Nunziato, J.W.</subfield>
+    <subfield code="t">A two-phase mixture theory for the deflagration-to-detonation transition (ddt) in reactive granular materials</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,12,861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Embid, P.</subfield>
+    <subfield code="h">Baer, M.R.</subfield>
+    <subfield code="t">Mathematical analysis of a two-phase continuum mixture theory</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Contin.Mech.Thermodyn.,4,279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A multiphase Godunov method for compressible multifluid and multiphase flows</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,150,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coquel, F.</subfield>
+    <subfield code="h">Gallouët, T.</subfield>
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="h">Seguin, N.</subfield>
+    <subfield code="t">Closure laws for a two-fluid two-pressure model</subfield>
+    <subfield code="v">334</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">C.R.Acad.Sci.Paris, Ser.,I334,927</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallouët, T.</subfield>
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="h">Seguin, N.</subfield>
+    <subfield code="t">Numerical modeling of two-phase flows using the two-fluid two-pressure approach</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,14,663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Andrianov, N.</subfield>
+    <subfield code="h">Warnecke, G.</subfield>
+    <subfield code="t">The Riemann problem for the Baer–Nunziato two-phase flow model</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,195,434</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwendeman, D.W.</subfield>
+    <subfield code="h">Wahle, C.W.</subfield>
+    <subfield code="h">Kapila, A.K.</subfield>
+    <subfield code="t">The Riemann problem and a high-resolution Godunov method for a model of compressible two-phase flow</subfield>
+    <subfield code="v">212</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,212,490</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deledicque, V.</subfield>
+    <subfield code="h">Papalexandris, M.V.</subfield>
+    <subfield code="t">An exact Riemann solver for compressible two-phase flow models containing non-conservative products</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,222,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">A simple extension of the Osher Riemann solver to non-conservative hyperbolic systems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Sci.Comput.,48,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ambroso, A.</subfield>
+    <subfield code="h">Chalons, C.</subfield>
+    <subfield code="h">Raviart, P.-A.</subfield>
+    <subfield code="t">A Godunov-type method for the seven-equation model for compressible two-phase flow</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Fluids,54,67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rusanov, V.V.</subfield>
+    <subfield code="t">Calculation of interaction of non-steady shock waves with obstacles</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Math.Phys.USSR,1,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.</subfield>
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buffard, T.</subfield>
+    <subfield code="h">Gallouët, T.</subfield>
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="t">A sequel to a rough Godunov scheme: application to real gases</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Fluids,29,813</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann Solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Riemann Solvers and Numerical Methods for Fluid Dynamics. A Practical Introduction</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Solomon, F.</subfield>
+    <subfield code="t">Upwind difference schemes for hyperbolic systems of conservation laws</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Math.Comput.,38,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ambroso, A.</subfield>
+    <subfield code="h">Chalons, C.</subfield>
+    <subfield code="h">Coquel, F.</subfield>
+    <subfield code="h">Galié, T.</subfield>
+    <subfield code="t">Relaxation and numerical approximation of a two-fluid two-pressure diphasic model</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Math.Model.Numer.Anal.,43,1064</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saleh, K.</subfield>
+    <subfield code="t">Analyse et Simulation Numérique par Relaxation d'Écoulements Diphasiques Compressibles. Contribution au Traitement des Phases Évanescentes</subfield>
+    <subfield code="p">Université de Paris VI-Pierre et Marie Currie</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zein, A.</subfield>
+    <subfield code="h">Hantke, M.</subfield>
+    <subfield code="h">Warnecke, G.</subfield>
+    <subfield code="t">Modeling phase transition for compressible two-phase flows applied to metastable liquids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2964</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liang, S.</subfield>
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">Yuan, L.</subfield>
+    <subfield code="t">Solving seven-equation model for compressible two-phase flow using multiple GPUs</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,99,156</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Furfaro, D.</subfield>
+    <subfield code="h">Saurel, R.</subfield>
+    <subfield code="t">A simple HLLC-type Riemann solver for compressible non-equilibrium two-phase flows</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Comput.Fluids,111,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="h">Hurisse, O.</subfield>
+    <subfield code="t">A fractional step method to compute a class of compressible gas–liquid flows</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Comput.Fluids,55,57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.-M. Hérard, O. Hurisse</subfield>
+    <subfield code="m">Computing two-fluid models of compressible water-vapour flows with mass transfer</subfield>
+    <subfield code="s">AIAA Paper,2012,2959</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crouzet, F.</subfield>
+    <subfield code="h">Daude, F.</subfield>
+    <subfield code="h">Galon, P.</subfield>
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="h">Hurisse, O.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Validation of a two-fluid model on unsteady water–vapour flows</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Fluids,119,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Lochon, F. Daude, P. Galon, J.-M. Hérard</subfield>
+    <subfield code="m">Computation of steam-water transients using a two-fluid seven-equation model, in: Pressure Surges, Dublin, Ireland</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hirt, C.W.</subfield>
+    <subfield code="h">Amsden, A.A.</subfield>
+    <subfield code="h">Cook, J.L.</subfield>
+    <subfield code="t">An arbitrary Lagrangian–Eulerian computing method for all flow speeds</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,14,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lesoinne, M.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">Geometric conservation laws for flow problems with moving boundaries and deformable meshes, and their impact on aeroelastic computations</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,134,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koobus, B.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">Second-order time-accurate and geometrically conservative implicit schemes for flow computations on unstructured dynamic meshes</subfield>
+    <subfield code="v">170</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,170,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Geuzaine, P.</subfield>
+    <subfield code="h">Grandmont, C.</subfield>
+    <subfield code="t">The discrete geometric conservation law and the nonlinear stability of ALE schemes for the solution of flow problems on moving grids</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,174,669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geuzaine, P.</subfield>
+    <subfield code="h">Grandmont, C.</subfield>
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="t">Design and analysis of ALE schemes for provable second-order time-accuracy for inviscid and viscous flow simulations</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,191,206</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Baum, J.D.</subfield>
+    <subfield code="h">Lohner, R.</subfield>
+    <subfield code="t">On the computation of multi-material flows using ALE formulation</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,194,304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Daude, F.</subfield>
+    <subfield code="h">Galon, P.</subfield>
+    <subfield code="h">Gao, Z.</subfield>
+    <subfield code="h">Blaud, E.</subfield>
+    <subfield code="t">Numerical experiments using a HLLC-type scheme with ALE formulation for compressible two-phase flows five-equation models with phase transition</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Fluids,94,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="t">High-order unstructured Lagrangian one-step WENO finite volume schemes for non-conservative hyperbolic systems: applications to compressible multi-phase flows</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Fluids,86,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">A direct Arbitrary-Lagrangian–Eulerian ADER-WENO finite volume scheme on unstructured tetrahedral meshes for conservative and non-conservative hyperbolic systems in 3D</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,275,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="t">On Godunov-type methods for gas dynamics</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,25,294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crouzet, F.</subfield>
+    <subfield code="h">Daude, F.</subfield>
+    <subfield code="h">Galon, P.</subfield>
+    <subfield code="h">Helluy, P.</subfield>
+    <subfield code="h">Hérard, J.-M.</subfield>
+    <subfield code="h">Hurisse, O.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Approximate solutions of the Baer–Nunziato model</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">ESAIM Proc.,40,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casadei, F.</subfield>
+    <subfield code="h">Halleux, J.P.</subfield>
+    <subfield code="t">An algorithm for permanent fluid–structure interaction in explicit transient dynamics</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,128,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Joint Research Centre (JRC)</subfield>
+    <subfield code="t">Commissariat à l'énergie atomique et aux énergies alternatives (CEA), Europlexus user's manual</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thanh, M.-D.</subfield>
+    <subfield code="h">Kröner, D.</subfield>
+    <subfield code="h">Chalons, C.</subfield>
+    <subfield code="t">A robust numerical method for approximating solutions of a model of two-phase flows and its properties</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Appl.Math.Comput.,219,320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Hidalgo, A.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="t">High order space–time adaptive ADER-WENO finite volume schemes for non-conservative hyperbolic systems</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,268,359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dallet, S.</subfield>
+    <subfield code="t">Vérification de schémas de convection pour le modèle de Baer–Nunziato</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Tech. Rep. H-I81-2015-02203-FR, EDF R</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tang, H.</subfield>
+    <subfield code="h">Huang, D.</subfield>
+    <subfield code="t">A second-order accurate capturing scheme for 1D inviscid flows of gas and water with vacuum zones</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,128,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Guillard, H.</subfield>
+    <subfield code="t">Godunov type method on non-structured meshes for three-dimensional moving boundary problems</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,113,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haas, J.F.</subfield>
+    <subfield code="h">Sturtevant, B.</subfield>
+    <subfield code="t">Interaction of weak shock waves with cylindrical and spherical gas in homogeneities</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Fluid Mech.,181,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kokh, S.</subfield>
+    <subfield code="h">Lagoutière, F.</subfield>
+    <subfield code="t">An anti-diffusive numerical scheme for the simulation of interfaces between compressible fluids by means of a five-equation model</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,229,2773</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kreeft, J.J.</subfield>
+    <subfield code="h">Koren, B.</subfield>
+    <subfield code="t">A new formulation of Kapila's five-equation model for compressible two-fluid flow, and its numerical treatment</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6220</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Romander, C.M.</subfield>
+    <subfield code="h">Schwer, L.E.</subfield>
+    <subfield code="h">Cagliostro, D.J.</subfield>
+    <subfield code="t">Response of water-filled thin-walled pipes to pressure pulses: experiments and analysis</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">ASME J.Press.Vessel Technol.,102,56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, T.G.</subfield>
+    <subfield code="h">Khoo, B.C.</subfield>
+    <subfield code="h">Xie, W.F.</subfield>
+    <subfield code="t">Isentropic one-fluid modelling of unsteady cavitating flow</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,201,80</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00210/S0021999115006774/S0021999115006774.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

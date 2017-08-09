@@ -1,0 +1,984 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.07.044</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Collin, Annabelle</subfield>
+    <subfield code="v">Inria Saclay Ile-de-France, Palaiseau, France</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A Luenberger observer for reaction–diffusion models with front position data</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">20</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We propose a Luenberger observer for reaction–diffusion models with propagating front features, and for data associated with the location of the front over time. Such models are considered in various application fields, such as electrophysiology, wild-land fire propagation and tumor growth modeling. Drawing our inspiration from image processing methods, we start by proposing an observer for the eikonal-curvature equation that can be derived from the reaction–diffusion model by an asymptotic expansion. We then carry over this observer to the underlying reaction–diffusion equation by an “inverse asymptotic analysis”, and we show that the associated correction in the dynamics has a stabilizing effect for the linearized estimation error. We also discuss the extension to joint state-parameter estimation by using the earlier-proposed ROUKF strategy. We then illustrate and assess our proposed observer method with test problems pertaining to electrophysiology modeling, including with a realistic model of cardiac atria. Our numerical trials show that state estimation is directly very effective with the proposed Luenberger observer, while specific strategies are needed to accurately perform parameter estimation – as is usual with Kalman filtering used in a nonlinear setting – and we demonstrate two such successful strategies.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Reaction–diffusion model</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Data assimilation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Image processing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Front propagation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Eikonal equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cardiac electrophysiology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chapelle, Dominique</subfield>
+    <subfield code="v">Inria Saclay Ile-de-France, Palaiseau, France</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Moireau, Philippe</subfield>
+    <subfield code="j">ORCID:0000-0001-9996-5213</subfield>
+    <subfield code="v">Inria Saclay Ile-de-France, Palaiseau, France</subfield>
+    <subfield code="m">philippe.moireau@inria.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">288-307</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anthes, R.A.</subfield>
+    <subfield code="t">Data assimilation and initialization of hurricane prediction model</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Atmos.Sci.,31,702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aronson, D.G.</subfield>
+    <subfield code="h">Weinberger, H.F.</subfield>
+    <subfield code="t">Multidimensional nonlinear diffusion arising in population genetics</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Adv.Math.,30,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ascher, U.M.</subfield>
+    <subfield code="h">Ruuth, S.J.</subfield>
+    <subfield code="h">Wetton, B.T.R.</subfield>
+    <subfield code="t">Implicit–explicit methods for time-dependent partial differential equations</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Asensio, M.I.</subfield>
+    <subfield code="h">Ferragut, L.</subfield>
+    <subfield code="t">On a wildland fire model with radiation</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,54,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Auroux, D.</subfield>
+    <subfield code="h">Blum, J.</subfield>
+    <subfield code="t">Back and forth nudging algorithm for data assimilation problems</subfield>
+    <subfield code="v">340</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">C.R.Math.,340,873</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">Curfman McInnes, L.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="t">Efficient management of parallelism in object oriented numerical software libraries</subfield>
+    <subfield code="p">Birkhäuser Press</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="e">Arge,E.</subfield>
+    <subfield code="e">Bruaset,A.M.</subfield>
+    <subfield code="e">Langtangen,H.P.</subfield>
+    <subfield code="q">Modern Software Tools in Scientific Computing</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bellettini, G.</subfield>
+    <subfield code="h">Colli Franzone, P.</subfield>
+    <subfield code="h">Paolini, M.</subfield>
+    <subfield code="t">Convergence of front propagation for anisotropic bistable reaction–diffusion equations</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Asymptot.Anal.,15,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bellman, R.</subfield>
+    <subfield code="h">Aström, K.J.</subfield>
+    <subfield code="t">On structural identifiability</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Math.Biosci.,7,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bendahmane, M.</subfield>
+    <subfield code="h">Karlsen, H.K.</subfield>
+    <subfield code="t">Analysis of a class of degenerate reaction–diffusion systems and the bidomain model of cardiac tissue</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Netw.Heterog.Media,1,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beyer, R.P.</subfield>
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Analysis of a one-dimensional model for the immersed boundary method</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blum, J.</subfield>
+    <subfield code="h">Le Dimet, F.-X.</subfield>
+    <subfield code="h">Navon, I.M.</subfield>
+    <subfield code="t">Data assimilation for geophysical fluids</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="e">Temam,R.</subfield>
+    <subfield code="e">Tribbia,J.</subfield>
+    <subfield code="q">Handbook of Numerical Analysis: Computational Methods for the Atmosphere and the Oceans</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boulakia, M.</subfield>
+    <subfield code="h">Gerbeau, J.-F.</subfield>
+    <subfield code="h">Schenone, E.</subfield>
+    <subfield code="t">Reduced-order modeling for cardiac electrophysiology. Application to parameter identification</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Biomed.Eng.,28,727</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boulanger, A.-C.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Perthame, B.</subfield>
+    <subfield code="h">Sainte-Marie, J.</subfield>
+    <subfield code="t">Data assimilation for hyperbolic conservation laws. A Luenberger observer approach based on a kinetic description</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Commun.Math.Sci.,13,587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bourgault, Y.</subfield>
+    <subfield code="h">Coudière, Y.</subfield>
+    <subfield code="h">Pierre, C.</subfield>
+    <subfield code="t">Existence and uniqueness of the solution for the bidomain model used in cardiac electrophysiology</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Nonlinear Anal., Real World Appl.,10,458</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burger, M.</subfield>
+    <subfield code="h">Hackl, B.</subfield>
+    <subfield code="h">Ring, W.</subfield>
+    <subfield code="t">Incorporating topological derivatives into level set methods</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,194,344</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cencini, M.</subfield>
+    <subfield code="h">Lopez, C.</subfield>
+    <subfield code="h">Vergni, D.</subfield>
+    <subfield code="t">Reaction–diffusion systems: front propagation and spatial structures</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Lect.Notes Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chan, T.F.</subfield>
+    <subfield code="h">Vese, L.A.</subfield>
+    <subfield code="t">Active contours without edges</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">IEEE Trans.Image Process.,10,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Charpentier, K.</subfield>
+    <subfield code="h">Claude, N.</subfield>
+    <subfield code="h">Fragu, M.</subfield>
+    <subfield code="h">Mallet, V.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Mouton, C.</subfield>
+    <subfield code="t">Documentation for Verdandi 1.6</subfield>
+    <subfield code="m">Inria</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Cîndea, N.</subfield>
+    <subfield code="h">De Buhan, M.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="t">Exponential convergence of an observer based on partial field measurements for the wave equation</subfield>
+    <subfield code="v">2012</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Math.Probl.Eng.,2012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Collin, A.</subfield>
+    <subfield code="h">Gerbeau, J.-F.</subfield>
+    <subfield code="t">A surface-based electrophysiology model relying on asymptotic analysis and motivated by cardiac atria modeling</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,23,2749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Fragu, M.</subfield>
+    <subfield code="h">Mallet, V.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="t">Fundamental principles of data assimilation underlying the Verdandi library: applications to biophysical model personalization within euHeart</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Med.Biol.Eng.Comput.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Gariah, A.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Sainte-Marie, J.</subfield>
+    <subfield code="t">A Galerkin strategy with proper orthogonal decomposition for parameter-dependent problems – analysis, assessments and applications to parameter estimation</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Modél.Math.Anal.Numér.,47,1821</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cîndea, N.</subfield>
+    <subfield code="h">Imperiale, A.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="t">Data assimilation of time under-sampled measurements using observers, application to wave-like equations</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">ESAIM Control Optim.Calc.Var.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colin, T.</subfield>
+    <subfield code="h">Iollo, A.</subfield>
+    <subfield code="h">Lombardi, D.</subfield>
+    <subfield code="h">Saut, O.</subfield>
+    <subfield code="t">System identification in tumor growth modeling using semi-empirical eigenfunctions</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,2,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colli Franzone, P.</subfield>
+    <subfield code="h">Guerri, L.</subfield>
+    <subfield code="h">Rovida, S.</subfield>
+    <subfield code="t">Wavefront propagation in an activation model of the anisotropic cardiac tissue: asymptotic analysis and numerical simulations</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Math.Biol.,28,121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colli Franzone, P.</subfield>
+    <subfield code="h">Pavarino, L.F.</subfield>
+    <subfield code="t">A parallel solver for reaction–diffusion systems in computational electrocardiology</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,14,883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colli Franzone, P.</subfield>
+    <subfield code="h">Pavarino, L.F.</subfield>
+    <subfield code="h">Taccardi, B.</subfield>
+    <subfield code="t">Simulating patterns of excitation, repolarization and action potential duration with cardiac bidomain and monodomain models</subfield>
+    <subfield code="v">197</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Math.Biosci.,197,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colli Franzone, P.</subfield>
+    <subfield code="h">Savaré, G.</subfield>
+    <subfield code="t">Degenerate evolution systems modeling cardiac electric field at micro and macroscopic</subfield>
+    <subfield code="v">vol. 50</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Prog.Nonlinear Diff.Eq.Appl.,vol. 50,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Collin, A.</subfield>
+    <subfield code="h">Gerbeau, J.-F.</subfield>
+    <subfield code="h">Hocini, M.</subfield>
+    <subfield code="h">Haïssaguerre, M.</subfield>
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="t">Surface-based electrophysiology modeling and assessment of physiological simulations in atria</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">FIMH 2013, vol. 7945</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Corrado, C.</subfield>
+    <subfield code="h">Gerbeau, J.-F.</subfield>
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="t">Identification of weakly coupled multiphysics problems. Application to the inverse problem of electrocardiography</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,283,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Courtemanche, M.</subfield>
+    <subfield code="h">Ramirez, R.J.</subfield>
+    <subfield code="h">Nattel, S.</subfield>
+    <subfield code="t">Ionic mechanisms underlying human atrial action potential properties: insights from a mathematical model</subfield>
+    <subfield code="v">275</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Am.J.Physiol.,275,H301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cristofol, M.</subfield>
+    <subfield code="h">Kaddouri, I.</subfield>
+    <subfield code="h">Nadin, G.</subfield>
+    <subfield code="h">Roques, L.</subfield>
+    <subfield code="t">Coefficient determination via asymptotic spreading speeds</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Inverse Probl.,30,035005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dapogny, C.</subfield>
+    <subfield code="h">Dobrzynski, C.</subfield>
+    <subfield code="h">Frey, P.</subfield>
+    <subfield code="t">Three-dimensional adaptive domain remeshing, implicit domain meshing, and applications to free and moving boundary problems</subfield>
+    <subfield code="v">262</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,262,358</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Delfour, M.C.</subfield>
+    <subfield code="h">Zolésio, J.-P.</subfield>
+    <subfield code="t">Shapes and Geometries: Analysis, Differential Calculus, and Optimization, Advances in Design and Control, </subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Tornberg, A.-K.</subfield>
+    <subfield code="h">Tsai, R.</subfield>
+    <subfield code="t">Discretization of Dirac delta functions in level set methods</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,207,28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Evensen, G.</subfield>
+    <subfield code="t">Data Assimilation – The Ensemble Kalman Filter</subfield>
+    <subfield code="p">Springer Verlag</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fabrèges, B.</subfield>
+    <subfield code="h">Maury, B.</subfield>
+    <subfield code="t">Approximation of single layer distributions by Dirac masses in finite element computations</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Sci.Comput.,58,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ferreira, S.C.</subfield>
+    <subfield code="h">Martins, M.L.</subfield>
+    <subfield code="h">Vilela, M.J.</subfield>
+    <subfield code="t">Reaction–diffusion model for the growth of avascular tumor</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">021907</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Rev.,E65,021907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Göktepe, S.</subfield>
+    <subfield code="h">Kuhl, E.</subfield>
+    <subfield code="t">Computational modeling of cardiac electrophysiology: a novel finite element approach</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,79,156</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haldenwang, P.</subfield>
+    <subfield code="h">Pignol, D.</subfield>
+    <subfield code="t">Dynamically adapted mesh refinement for combustion front tracking</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Fluids,31,589</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haney, S.</subfield>
+    <subfield code="h">Thompson, P.</subfield>
+    <subfield code="h">Cloughesy, T.</subfield>
+    <subfield code="h">Alger, J.</subfield>
+    <subfield code="h">Toga, A.</subfield>
+    <subfield code="t">Tracking tumor growth rates in patients with malignant gliomas: a test of two algorithms</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Am.J.Neuroradiol.,22,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harrild, D.M.</subfield>
+    <subfield code="h">Craig, S.H.</subfield>
+    <subfield code="t">A computer model of normal conduction in the human atria</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Circ.Res.,87,e25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hintermüller, M.</subfield>
+    <subfield code="h">Ring, W.</subfield>
+    <subfield code="t">An inexact Newton–C-G-type active contour approach for the minimization of the Mumford–Shah functional</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Math.Imaging Vis.,20,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hogea, C.</subfield>
+    <subfield code="h">Davatzikos, C.</subfield>
+    <subfield code="h">Biros, G.</subfield>
+    <subfield code="t">An image-driven parameter estimation problem for a reaction–diffusion glioma growth model with mass effects</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Math.Biol.,56,793</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoke, J.E.</subfield>
+    <subfield code="h">Anthes, R.A.</subfield>
+    <subfield code="t">The initialization of numerical models by a dynamic-initialization technique</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Mon.Weather Rev.,104,1551</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Horstmann, D.</subfield>
+    <subfield code="t">From 1970 until present: the Keller–Segel model in chemotaxis and its consequences</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Jahresber.Dtsch.Math.-Ver.,105,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jacquemet, V.</subfield>
+    <subfield code="t">An eikonal approach for the initiation of reentrant cardiac propagation in reaction–diffusion models</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">IEEE Trans.Biomed.Eng.,57,2090</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jones, C.K.R.T.</subfield>
+    <subfield code="t">Stability of the travelling wave solution of the FitzHugh–Nagumo system</subfield>
+    <subfield code="v">286</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Trans.Am.Math.Soc.,286,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keener, J.</subfield>
+    <subfield code="h">Sneyd, J.</subfield>
+    <subfield code="t">Mathematical Physiology</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keener, J.P.</subfield>
+    <subfield code="t">An eikonal-curvature equation for action potential propagation in myocardium</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Math.Biol.,29,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kolmogorov, A.N.</subfield>
+    <subfield code="h">Petrovsky, I.G.</subfield>
+    <subfield code="h">Piskunov, N.S.</subfield>
+    <subfield code="t">Etude de l'équation de la diffusion avec croissance de la quantité de matière et son application à un problème biologique</subfield>
+    <subfield code="y">1937</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Mosc.Univ.Math.Bull.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Konukoglu, E.</subfield>
+    <subfield code="h">Clatz, O.</subfield>
+    <subfield code="h">Menze, B.H.</subfield>
+    <subfield code="h">Stieltjes, B.</subfield>
+    <subfield code="h">Weber, M.-A.</subfield>
+    <subfield code="h">Mandonnet, E.</subfield>
+    <subfield code="h">Delingette, H.</subfield>
+    <subfield code="h">Ayache, N.</subfield>
+    <subfield code="t">Image guided personalization of reaction–diffusion type tumor growth models using modified anisotropic eikonal equations</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">IEEE Trans.Med.Imaging,29,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lakshmivarahan, S.</subfield>
+    <subfield code="h">Lewis, J.M.</subfield>
+    <subfield code="t">Nudging methods: a critical overview</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="e">Park,S.K.</subfield>
+    <subfield code="e">Xu,L.</subfield>
+    <subfield code="q">Data Assimilation for Atmospheric, Oceanic, and Hydrologic Applications, vol. XVIII</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Dimet, F.-X.</subfield>
+    <subfield code="h">Talagrand, O.</subfield>
+    <subfield code="t">Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Tellus,A38,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levermore, C.D.</subfield>
+    <subfield code="h">Xin, J.X.</subfield>
+    <subfield code="t">Multidimensional stability of traveling waves in a bistable reaction–diffusion equation, II</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Commun.Partial Differ.Equ.,17,1901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.-D.</subfield>
+    <subfield code="h">Xu, C.-Z.</subfield>
+    <subfield code="t">Infinite-dimensional Luenberger-like observers for a rotating body-beam system</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Syst.Control Lett.,60,138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luenberger, D.G.</subfield>
+    <subfield code="t">An introduction to observers</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">IEEE Trans.Autom.Control,16,596</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mandel, J.</subfield>
+    <subfield code="h">Bennethum, L.S.</subfield>
+    <subfield code="h">Beezley, J.D.</subfield>
+    <subfield code="h">Coen, J.L.</subfield>
+    <subfield code="h">Douglas, C.C.</subfield>
+    <subfield code="h">Franca, L.P.</subfield>
+    <subfield code="h">Kim, M.</subfield>
+    <subfield code="h">Vodacek, A.</subfield>
+    <subfield code="t">A wildland fire model with data assimilation</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Math.Comput.Simul.,79,584</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mitchell, C.C.</subfield>
+    <subfield code="h">Schaeffer, D.G.</subfield>
+    <subfield code="t">A two-current model for the dynamics of cardiac membrane</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Bull.Math.Biol.,65,767</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="t">Erratum of article “Reduced-order unscented Kalman filtering with application to parameter identification in large-dimensional systems”</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">ESAIM Control Optim.Calc.Var.,17,406</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="t">Reduced-order Unscented Kalman Filtering with application to parameter identification in large-dimensional systems</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">ESAIM Control Optim.Calc.Var.,17,380</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Le Tallec, P.</subfield>
+    <subfield code="t">Joint state and parameter estimation for distributed mechanical systems</subfield>
+    <subfield code="v">1987</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,1987,659</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moireau, P.</subfield>
+    <subfield code="h">Chapelle, D.</subfield>
+    <subfield code="h">Le Tallec, P.</subfield>
+    <subfield code="t">Filtering for distributed mechanical systems using position measurements: perspectives in medical imaging</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">(25 pp.)</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Inverse Probl.,25,035010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moreau-Villéger, V.</subfield>
+    <subfield code="h">Delingette, H.</subfield>
+    <subfield code="h">Sermesant, M.</subfield>
+    <subfield code="h">Ashikaga, H.</subfield>
+    <subfield code="h">McVeigh, E.</subfield>
+    <subfield code="h">Ayache, N.</subfield>
+    <subfield code="t">Building maps of local apparent conductivity of the epicardium with a 2D electrophysiological model of the heart</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">IEEE Trans.Biomed.Eng.,53,1457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Navon, I.M.</subfield>
+    <subfield code="t">Practical and theoretical aspects of adjoint parameter estimation and identifiability in meteorology and oceanography</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Dyn.Atmos.Ocean.,27,55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Navon, I.M.</subfield>
+    <subfield code="t">Data assimilation for numerical weather prediction: a review</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="q">Data Assimilation for Atmospheric, Oceanic and Hydrologic Applications</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Fedkiw, R.</subfield>
+    <subfield code="t">Level Set Methods and Dynamic Implicit Surfaces</subfield>
+    <subfield code="p">Applied Mathematical Sciences</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pertsov, A.M.</subfield>
+    <subfield code="h">Davidenko, J.M.</subfield>
+    <subfield code="h">Salomonsz, R.</subfield>
+    <subfield code="h">Baxter, W.T.</subfield>
+    <subfield code="h">Jalife, J.</subfield>
+    <subfield code="t">Spiral waves of excitation underlie reentrant activity in isolated cardiac muscle</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Circ.Res.,72,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Potse, M.</subfield>
+    <subfield code="h">Dubé, B.</subfield>
+    <subfield code="h">Richer, J.</subfield>
+    <subfield code="h">Vinet, A.</subfield>
+    <subfield code="h">Gulrajani, R.M.</subfield>
+    <subfield code="t">A comparison of monodomain and bidomain reaction–diffusion models for action potential propagation in the human heart</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">IEEE Trans.Biomed.Eng.,53,2425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramanathan, C.</subfield>
+    <subfield code="h">Ghanem, R.J.</subfield>
+    <subfield code="h">Jia, P.</subfield>
+    <subfield code="h">Ryu, K.</subfield>
+    <subfield code="h">Rudy, Y.</subfield>
+    <subfield code="t">Noninvasive electrocardiographic imaging for cardiac electrophysiology and arrhythmia</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Nat.Med.,10,422</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ramdani, K.</subfield>
+    <subfield code="h">Tucsnak, M.</subfield>
+    <subfield code="h">Weiss, G.</subfield>
+    <subfield code="t">Recovering the initial state of an infinite-dimensional system using observers</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Automatica,46,1616</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rauch, J.</subfield>
+    <subfield code="h">Smoller, J.</subfield>
+    <subfield code="t">Qualitative theory of the FitzHugh–Nagumo equations</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Adv.Math.,27,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Riggan, P.J.</subfield>
+    <subfield code="h">Tissell, R.G.</subfield>
+    <subfield code="t">Airborne remote sensing of wildland fires</subfield>
+    <subfield code="v">vol. 8</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Developments in Environmental Science,vol. 8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rochoux, M.C.</subfield>
+    <subfield code="h">Cuenot, B.</subfield>
+    <subfield code="h">Ricci, S.</subfield>
+    <subfield code="h">Trouvé, A.</subfield>
+    <subfield code="h">Delmotte, B.</subfield>
+    <subfield code="h">Massart, S.</subfield>
+    <subfield code="h">Paoli, R.</subfield>
+    <subfield code="h">Paugam, R.</subfield>
+    <subfield code="t">Data assimilation applied to combustion</subfield>
+    <subfield code="v">341</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">C.R., Méc.,341,266</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Runborg, O.</subfield>
+    <subfield code="t">Mathematical models and numerical methods for high frequency waves</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Commun.Comput.Phys.,2,827</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sachse, F.B.</subfield>
+    <subfield code="t">Computational Cardiology: Modeling of Anatomy, Electrophysiology and Mechanics</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sermesant, M.</subfield>
+    <subfield code="h">Rhode, K.</subfield>
+    <subfield code="h">Sanchez-Ortiz, G.I.</subfield>
+    <subfield code="h">Camara, O.</subfield>
+    <subfield code="h">Andriantsimiavona, R.</subfield>
+    <subfield code="h">Hegde, S.</subfield>
+    <subfield code="h">Rueckert, D.</subfield>
+    <subfield code="h">Lambiase, P.</subfield>
+    <subfield code="h">Bucknall, C.</subfield>
+    <subfield code="h">Rosenthal, E.</subfield>
+    <subfield code="h">Delingette, H.</subfield>
+    <subfield code="h">Hill, D.L.G.</subfield>
+    <subfield code="h">Ayache, N.</subfield>
+    <subfield code="h">Razavi, R.</subfield>
+    <subfield code="t">Simulation of cardiac pathologies using an electromechanical biventricular model and XMR interventional imaging</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Med.Image Anal.,9,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Theory, algorithms, and applications of level set methods for propagating interfaces</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Acta Numer.,5,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stauffer, D.R.</subfield>
+    <subfield code="h">Bao, J.-W.</subfield>
+    <subfield code="t">Optimal determination of nudging coefficients using the adjoint equations</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">Tellus,A45,358</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sundnes, J.</subfield>
+    <subfield code="h">Lines, G.T.</subfield>
+    <subfield code="h">Cai, X.</subfield>
+    <subfield code="h">Nielsen, B.F.</subfield>
+    <subfield code="h">Mardal, K.A.</subfield>
+    <subfield code="h">Tveito, A.</subfield>
+    <subfield code="t">Computing the Electrical Activity in the Heart, Monographs in Computational Science and Engineering, vol. 1</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="v">vol. 1</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tippett, M.K.</subfield>
+    <subfield code="h">Anderson, J.L.</subfield>
+    <subfield code="h">Bishop, C.H.</subfield>
+    <subfield code="h">Hamill, T.M.</subfield>
+    <subfield code="h">Whitaker, J.S.</subfield>
+    <subfield code="t">Ensemble square root filters</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Mon.Weather Rev.,131,1485</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tracqui, P.</subfield>
+    <subfield code="h">Mendjeli, M.</subfield>
+    <subfield code="t">Modelling three-dimensional growth of brain tumours from time series of scans</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,9,581</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tung, L.</subfield>
+    <subfield code="t">A bi-domain model for describing ischemic myocardial d–c potentials</subfield>
+    <subfield code="p">Massachusetts Institute of Technology, Dept. of Electrical Engineering and Computer Science</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Veneroni, M.</subfield>
+    <subfield code="t">Reaction–diffusion systems for the macroscopic bidomain model of the cardiac electric field</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Nonlinear Anal., Real World Appl.,10,849</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vese, L.A.</subfield>
+    <subfield code="h">Chan, F.C.</subfield>
+    <subfield code="t">A multiphase level set framework for image segmentation using the Mumford and Shah model</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Int.J.Comput.Vis.,50,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vidard, P.A.</subfield>
+    <subfield code="h">Le Dimet, F.-X.</subfield>
+    <subfield code="h">Piacentini, A.</subfield>
+    <subfield code="t">Determination of optimal nudging coefficients</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Tellus,A55,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wahl, R.L.</subfield>
+    <subfield code="h">Quint, L.E.</subfield>
+    <subfield code="h">Cieslak, R.D.</subfield>
+    <subfield code="h">Aisen, A.M.</subfield>
+    <subfield code="h">Koeppe, R.A.</subfield>
+    <subfield code="h">Meyer, C.R.</subfield>
+    <subfield code="t">“Anatometabolic” tumor imaging: fusion of FDG PET with CT or MRI to localize foci of increased activity</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">J.Nucl.Med.,34,1190</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xin, J.X.</subfield>
+    <subfield code="t">Multidimensional stability of traveling waves in a bistable reaction–diffusion equation. 1</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">Commun.Partial Differ.Equ.,17,1889</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Q.</subfield>
+    <subfield code="t">Adaptive observer for mimo linear time varying systems</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">IEEE Trans.Autom.Control,3,525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, H.K.</subfield>
+    <subfield code="h">Chan, T.</subfield>
+    <subfield code="h">Merriman, B.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">A variational level set approach to multiphase motion</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">J.Comput.Phys.,127,179</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zou, X.</subfield>
+    <subfield code="h">Navon, I.M.</subfield>
+    <subfield code="h">Le Dimet, F.-X.</subfield>
+    <subfield code="t">An optimal nudging data assimilation scheme using parameter estimation</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,118,1163</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115004891/S0021999115004891.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

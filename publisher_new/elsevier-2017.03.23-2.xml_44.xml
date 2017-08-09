@@ -1,0 +1,576 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Smolarkiewicz, Piotr K.</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+    <subfield code="m">smolar@ecmwf.int</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A finite-volume module for simulating global all-scale atmospheric flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The paper documents the development of a global nonhydrostatic finite-volume module designed to enhance an established spectral-transform based numerical weather prediction (NWP) model. The module adheres to NWP standards, with formulation of the governing equations based on the classical meteorological latitude–longitude spherical framework. In the horizontal, a bespoke unstructured mesh with finite-volumes built about the reduced Gaussian grid of the existing NWP model circumvents the notorious stiffness in the polar regions of the spherical framework. All dependent variables are co-located, accommodating both spectral-transform and grid-point solutions at the same physical locations. In the vertical, a uniform finite-difference discretisation facilitates the solution of intricate elliptic problems in thin spherical shells, while the pliancy of the physical vertical coordinate is delegated to generalised continuous transformations between computational and physical space. The newly developed module assumes the compressible Euler equations as default, but includes reduced soundproof PDEs as an option. Furthermore, it employs semi-implicit forward-in-time integrators of the governing PDE systems, akin to but more general than those used in the NWP model. The module shares the equal regions parallelisation scheme with the NWP model, with multiple layers of parallelism hybridising MPI tasks and OpenMP threads. The efficacy of the developed nonhydrostatic module is illustrated with benchmarks of idealised global weather.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Atmospheric models</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hierarchical modelling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Non-oscillatory forward-in-time schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Gravity waves</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Numerical weather prediction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Deconinck, Willem</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hamrud, Mats</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kühnlein, Christian</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mozdzynski, George</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Szmelter, Joanna</subfield>
+    <subfield code="v">Loughborough University, Leicestershire, LE11 3TU, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wedi, Nils P.</subfield>
+    <subfield code="v">European Centre For Medium-Range Weather Forecasts, Reading, RG2 9AX, UK</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">287-304</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baldauf, M.</subfield>
+    <subfield code="h">Seifert, A.</subfield>
+    <subfield code="h">Förstner, J.</subfield>
+    <subfield code="h">Majewski, D.</subfield>
+    <subfield code="h">Raschendorfer, M.</subfield>
+    <subfield code="t">Operational convective-scale numerical weather prediction with the COSMO model: description and sensitivities</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Mon.Weather Rev.,139,3887</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsamo, G.</subfield>
+    <subfield code="h">Agusti-Panareda, A.</subfield>
+    <subfield code="h">Albergel, C.</subfield>
+    <subfield code="h">Beljaars, A.</subfield>
+    <subfield code="h">Boussetta, S.</subfield>
+    <subfield code="h">Dutra, E.</subfield>
+    <subfield code="h">Komori, T.</subfield>
+    <subfield code="h">Lang, S.</subfield>
+    <subfield code="h">Munoz-Sabater, J.</subfield>
+    <subfield code="h">Pappenberger, F.</subfield>
+    <subfield code="h">de Rosnay, P.</subfield>
+    <subfield code="h">Sandu, I.</subfield>
+    <subfield code="h">Wedi, N.</subfield>
+    <subfield code="h">Weisheimer, A.</subfield>
+    <subfield code="h">Wetterhall, F.</subfield>
+    <subfield code="h">Zsoter, E.</subfield>
+    <subfield code="t">Representing the Earth surfaces in the Integrated Forecasting System: recent advances and future challenges</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">ECMWF Tech. Memorandum 729, Reading, UK</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barros, S.R.M.</subfield>
+    <subfield code="h">Dent, D.</subfield>
+    <subfield code="h">Isaksen, L.</subfield>
+    <subfield code="h">Robinson, G.</subfield>
+    <subfield code="h">Mozdzynski, G.</subfield>
+    <subfield code="h">Wollenweber, F.</subfield>
+    <subfield code="t">The IFS model: a parallel production weather code</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Parallel Comput.,21,1621</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bénard, P.</subfield>
+    <subfield code="h">Vivoda, J.</subfield>
+    <subfield code="h">Mašek, J.</subfield>
+    <subfield code="h">Smoliková, P.</subfield>
+    <subfield code="h">Yessad, K.</subfield>
+    <subfield code="h">Smith, Ch.</subfield>
+    <subfield code="h">Brožkovaá, R.</subfield>
+    <subfield code="h">Geleyn, J.F.</subfield>
+    <subfield code="t">Dynamical kernel of the ALADIN — NH spectral limited-area model: revised formulation and sensitivity experiments</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,136,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Domaradzki, J.A.</subfield>
+    <subfield code="h">Xiao, Z.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">Effective eddy viscosities in implicit large eddy simulations of turbulent flows</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Fluids,15,3890</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="t">Improving the anelastic approximation</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Atmos.Sci.,46,1453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dutton, J.A.</subfield>
+    <subfield code="t">The Ceaseless Wind</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="m">617 pp</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Held, I.M.</subfield>
+    <subfield code="h">Suarez, M.J.</subfield>
+    <subfield code="t">A proposal for the intercomparison of the dynamical cores of the atmospheric general circulation models</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Bull.Am.Meteorol.Soc.,75,1825</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="h">Williamson, D.L.</subfield>
+    <subfield code="t">A baroclinic instability test case for atmospheric model dynamical cores</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,132,2943</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaruga, A.</subfield>
+    <subfield code="h">Arabas, S.</subfield>
+    <subfield code="h">Jarecka, D.</subfield>
+    <subfield code="h">Pawlowska, H.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Waruszewski, M.</subfield>
+    <subfield code="t">libmpdata++ 1.0: a library of parallel MPDATA solvers for systems of generalised transport equations</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Geosci.Model Dev.,8,1005</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Janjic, Z.I.</subfield>
+    <subfield code="t">A nonhydrostatic model based on a new approach</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Meteorol.Atmos.Phys.,82,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keller, T.L.</subfield>
+    <subfield code="t">Implications of the hydrostatic assumption on atmospheric gravity-waves</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Atmos.Sci.,51,1915</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kühnlein, C.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Dörnbrack, A.</subfield>
+    <subfield code="t">Modelling atmospheric flows with adaptive moving meshes</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2741</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kurowski, M.</subfield>
+    <subfield code="h">Grabowski, W.W.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">Anelastic and compressible simulations of moist deep convection</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Atmos.Sci.,71,3767</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leopardi, P.</subfield>
+    <subfield code="t">A partitioning of the unit sphere of equal area and small diameter</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Electron.Trans.Numer.Anal.,25,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lipps, F.B.</subfield>
+    <subfield code="h">Hemler, R.S.</subfield>
+    <subfield code="t">A scale analysis of deep moist convection and some related numerical calculations</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Atmos.Sci.,39,2192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lipps, F.B.</subfield>
+    <subfield code="t">On the anelastic approximation for deep convection</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Atmos.Sci.,47,1794</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mozdzynski, G.</subfield>
+    <subfield code="t">A new partitioning approach for ECMWF's integrated forecasting system (IFS)</subfield>
+    <subfield code="p">Proceedings of the Twelfth ECMWF Workshop: Use of High Performance Computing in Meteorology, 30 October–3 November, 2006, Reading, UK, 2007</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">pp. 148–166, 273 pp</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mozdzynski, G.</subfield>
+    <subfield code="h">Hamrud, M.</subfield>
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="t">A partitioned global address space implementation of the ECMWF Integrated Forecasting System (IFS)</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.High Perform.,C29,261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plougonven, R.</subfield>
+    <subfield code="h">Zhang, F.</subfield>
+    <subfield code="t">Internal gravity waves from atmospheric jets and fronts</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Rev.Geophys.,52,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prusa, J.M.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">An all-scale anelastic model for geophysical flows: dynamic grid deformation</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,190,601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prusa, J.M.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Wyszogrodzki, A.A.</subfield>
+    <subfield code="t">EULAG, a computational model for multiscale flows</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Fluids,37,1193</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qaddouri, A.</subfield>
+    <subfield code="h">Lee, V.</subfield>
+    <subfield code="t">The Canadian Global Environmental Multiscale model on the Yin–Yang grid system</subfield>
+    <subfield code="v">137</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,137,1913</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Satoh, M.</subfield>
+    <subfield code="h">Matsuno, T.</subfield>
+    <subfield code="h">Tomita, H.</subfield>
+    <subfield code="h">Miura, H.</subfield>
+    <subfield code="h">Nasuno, T.</subfield>
+    <subfield code="h">Iga, S.</subfield>
+    <subfield code="t">Nonhydrostatic icosahedral atmospheric model (NICAM) for global cloud resolving simulations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seity, Y.</subfield>
+    <subfield code="h">Brousseau, P.</subfield>
+    <subfield code="h">Malardel, S.</subfield>
+    <subfield code="h">Hello, G.</subfield>
+    <subfield code="h">Bénard, P.</subfield>
+    <subfield code="h">Bouttier, F.</subfield>
+    <subfield code="h">Lac, C.</subfield>
+    <subfield code="h">Masson, V.</subfield>
+    <subfield code="t">The AROME-France convective-scale operational model</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Mon.Weather Rev.,139,976</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Skamarock, W.C.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Klemp, J.B.</subfield>
+    <subfield code="t">Preconditioned conjugate-residual solvers for Helmholtz equations in nonhydrostatic models</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Mon.Weather Rev.,125,587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Margolin, L.G.</subfield>
+    <subfield code="t">On forward-in-time differencing for fluids: extension to a curvilinear framework</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Mon.Weather Rev.,121,1847</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="t">MPDATA: an edge-based unstructured-grid formulation</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,206,624</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">Multidimensional positive definite advection transport algorithm: an overview</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,50,1123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Margolin, L.G.</subfield>
+    <subfield code="t">Studies in geophysics</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">546 pp</subfield>
+    <subfield code="e">Grinstein,F.F.</subfield>
+    <subfield code="e">Margolin,L.</subfield>
+    <subfield code="e">Rider,W.</subfield>
+    <subfield code="q">Implicit Large Eddy Simulation: Computing Turbulent Fluid Dynamics</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="t">Iterated upwind schemes for gas dynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,228,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="t">A nonhydrostatic unstructured-mesh soundproof model for simulation of internal gravity waves</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Acta Geophys.,59,1109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Charbonneau, P.</subfield>
+    <subfield code="t">EULAG, a computational model for multiscale flows: an MHD extension</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,236,608</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="h">Wyszogrodzki, A.A.</subfield>
+    <subfield code="t">An unstructured-mesh atmospheric model for nonhydrostatic dynamics</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,254,184</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Kühnlein, C.</subfield>
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="t">A consistent framework for discrete integrations of soundproof and compressible PDEs of atmospheric dynamics</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,263,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">MPDATA error estimator for mesh adaptivity</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,50,1269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">An edge-based unstructured mesh discretisation in geospherical framework</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4980</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szmelter, J.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">An edge-based unstructured mesh framework for atmospheric flows</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Comput.Fluids,46,455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warn-Varnas, A.</subfield>
+    <subfield code="h">Hawkins, J.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="h">Chin-Bing, S.A.</subfield>
+    <subfield code="h">King, D.</subfield>
+    <subfield code="h">Hallock, Z.</subfield>
+    <subfield code="t">Solitary wave effects north of Strait of Messina</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Ocean Model.,18,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Temperton, C.</subfield>
+    <subfield code="h">Hortal, M.</subfield>
+    <subfield code="h">Simmons, A.</subfield>
+    <subfield code="t">A two-time-level semi-Lagrangian global spectral model</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,127,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">Extending Gal–Chen and Somerville terrain-following coordinate transformation on time dependent curvilinear boundaries</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,193,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="h">Smolarkiewicz, P.K.</subfield>
+    <subfield code="t">A framework for testing global nonhydrostatic models</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,135,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="h">Hamrud, M.</subfield>
+    <subfield code="h">Mozdzynski, G.</subfield>
+    <subfield code="h">Austad, G.</subfield>
+    <subfield code="h">Curic, S.</subfield>
+    <subfield code="h">Bidlot, J.</subfield>
+    <subfield code="t">Global, non-hydrostatic, convection-permitting, medium-range forecasts: progress and challenges</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">ECMWF Newslett.,133,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="h">Hamrud, M.</subfield>
+    <subfield code="h">Mozdzynski, G.</subfield>
+    <subfield code="t">A fast spherical harmonics transform for global NWP and climate models</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Mon.Weather Rev.,141,3450</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wedi, N.P.</subfield>
+    <subfield code="t">Increasing horizontal resolution in numerical weather prediction and climate simulations: illusion or panacea?</subfield>
+    <subfield code="v">372</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.A, Math.Phys.Eng.Sci.,372,20130289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Williamson, D.L.</subfield>
+    <subfield code="t">The evolution of dynamical cores for global atmospheric models</subfield>
+    <subfield code="v">85B</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Meteorol.Soc.Jpn.,85B,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wood, N.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">White, A.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="h">Diamantakis, M.</subfield>
+    <subfield code="h">Gross, M.</subfield>
+    <subfield code="h">Melvin, T.</subfield>
+    <subfield code="h">Smith, C.</subfield>
+    <subfield code="h">Vosper, S.</subfield>
+    <subfield code="h">Zerroukat, M.</subfield>
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="t">An inherently mass-conserving semi-implicit semi-Lagrangian discretisation of the deep-atmosphere global non-hydrostatic equations</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,1505</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00071/S0021999116001674/S0021999116001674.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

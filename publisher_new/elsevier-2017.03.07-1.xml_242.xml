@@ -1,0 +1,811 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.01.069</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Liu, Youshan</subfield>
+    <subfield code="v">State Key Laboratory of Lithospheric Evolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, 100029, China</subfield>
+    <subfield code="m">ysliu@mail.iggcas.ac.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Higher-order triangular spectral element method with optimized cubature points for seismic wavefield modeling</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The mass-lumped method avoids the cost of inverting the mass matrix and simultaneously maintains spatial accuracy by adopting additional interior integration points, known as cubature points. To date, such points are only known analytically in tensor domains, such as quadrilateral or hexahedral elements. Thus, the diagonal-mass-matrix spectral element method (SEM) in non-tensor domains always relies on numerically computed interpolation points or quadrature points. However, only the cubature points for degrees 1 to 6 are known, which is the reason that we have developed a p-norm -based optimization algorithm to obtain higher-order cubature points. In this way, we obtain and tabulate new cubature points with all positive integration weights for degrees 7 to 9. The dispersion analysis illustrates that the dispersion relation determined from the new optimized cubature points is comparable to that of the mass and stiffness matrices obtained by exact integration. Simultaneously, the Lebesgue constant for the new optimized cubature points indicates its surprisingly good interpolation properties. As a result, such points provide both good interpolation properties and integration accuracy. The Courant–Friedrichs–Lewy (CFL) numbers are tabulated for the conventional Fekete-based triangular spectral element (TSEM), the TSEM with exact integration, and the optimized cubature-based TSEM (OTSEM). A complementary study demonstrates the spectral convergence of the OTSEM. A numerical example conducted on a half-space model demonstrates that the OTSEM improves the accuracy by approximately one order of magnitude compared to the conventional Fekete-based TSEM. In particular, the accuracy of the 7th-order OTSEM is even higher than that of the 14th-order Fekete-based TSEM. Furthermore, the OTSEM produces a result that can compete in accuracy with the quadrilateral SEM (QSEM). The high accuracy of the OTSEM is also tested with a non-flat topography model. In terms of computational efficiency, the OTSEM is more efficient than the Fekete-based TSEM, although it is slightly costlier than the QSEM when a comparable numerical accuracy is required.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Triangular spectral element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dispersion relation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Optimized cubature points</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Positive integration weights</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Courant–Friedrichs–Lewy numbers</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Teng, Jiwen</subfield>
+    <subfield code="v">State Key Laboratory of Lithospheric Evolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, 100029, China</subfield>
+    <subfield code="m">jwteng@mail.iggcas.ac.cn</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, Tao</subfield>
+    <subfield code="v">State Key Laboratory of Lithospheric Evolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, 100029, China</subfield>
+    <subfield code="v">CAS Center for Excellence in Tibetan Plateau Earth Sciences, Beijing, 100101, China</subfield>
+    <subfield code="m">xutao@mail.iggcas.ac.cn</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Badal, José</subfield>
+    <subfield code="v">Physics of the Earth, Sciences B, University of Zaragoza, Pedro Cerbuna 12, Zaragoza, 50009, Spain</subfield>
+    <subfield code="m">badal@unizar.es</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">458-480</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patera, A.T.</subfield>
+    <subfield code="t">A spectral element method for fluid dynamics-laminar flow in a channel expansion</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,54,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Maday, Y.</subfield>
+    <subfield code="h">Patera, A.T.</subfield>
+    <subfield code="t">Spectral element methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="p">New York: ASME</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="e">Noor,A.K.</subfield>
+    <subfield code="e">Oden,J.T.</subfield>
+    <subfield code="q">State of the Art Surveys on Computational Mechanics</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Vilotte, J.P.</subfield>
+    <subfield code="t">The spectral-element method: an efficient tool to simulate the seismic response of 2-D and 3-D geological structures</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,88,368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Tromp, J.</subfield>
+    <subfield code="t">Introduction to the spectral-element method for 3-D seismic wave propagation</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Geophys.J.Int.,139,806</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sherwin, S.J.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A triangular spectral element method: applications to the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">123</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,123,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="t">Fekete collocation points for triangular spectral elements</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Martin, R.</subfield>
+    <subfield code="h">Tromp, J.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="t">Wave propagation in 2-D elastic media using a spectral element method with triangles and quadrangles</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Acoust.,9,703</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mercerat, E.D.</subfield>
+    <subfield code="h">Vilotte, J.P.</subfield>
+    <subfield code="h">Sánchez-Sesma, F.J.</subfield>
+    <subfield code="t">Triangular spectral element simulation of two-dimensional elastic wave propagation using unstructured triangular grids</subfield>
+    <subfield code="v">166</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Geophys.J.Int.,166,679</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="t">A diagonal-mass-matrix triangular-spectral element method based on cubature points</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Eng.Math.,56,307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.S.</subfield>
+    <subfield code="h">Teng, J.W.</subfield>
+    <subfield code="h">Lan, H.Q.</subfield>
+    <subfield code="h">Si, X.</subfield>
+    <subfield code="h">Ma, X.Y.</subfield>
+    <subfield code="t">A comparative study of finite element and spectral element methods in seismic wavefield modeling</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Geophysics,79,T91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Owen, S.J.</subfield>
+    <subfield code="t">A survey of unstructured mesh generation technology</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="q">Proceedings of the 7th International Meshing Roundtable</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="t">A generalized diagonal mass matrix spectral element method for non-quadrilateral elements</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Appl.Numer.Math.,33,259</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="h">Vincent, R.E.</subfield>
+    <subfield code="t">An algorithm for computing Fekete points in the triangle</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,1707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="h">Bos, L.P.</subfield>
+    <subfield code="t">A cardinal algorithm for computing multivariate quadrature points</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,45,193</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="h">Rapetti, F.</subfield>
+    <subfield code="t">Spectral element methods on triangles and quadrilaterals: comparisons and applications</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,198,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="h">Rapetti, F.</subfield>
+    <subfield code="t">Spectral element methods on unstructured meshes: comparisons and recent advances</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Sci.Comput.,27,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="h">Rapetti, F.</subfield>
+    <subfield code="t">Spectral element methods on unstructured mesh: which interpolation points?</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Numer.Algorithms,55,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Braess, D.</subfield>
+    <subfield code="t">Approximation on Simplices and Orthogonal Polynomials, Int. Ser. Numer. Math., vol. 151</subfield>
+    <subfield code="v">vol. 151</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bos, L.</subfield>
+    <subfield code="t">Bounding the Lebesgue function for Lagrange interpolation in a simplex</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Approx.Theory,38,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Q.</subfield>
+    <subfield code="h">Babuška, I.</subfield>
+    <subfield code="t">Approximate optimal points for polynomial interpolation of real functions in an interval and in a triangle</subfield>
+    <subfield code="v">128</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,128,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">From electrostatics to almost optimal nodal sets for polynomial interpolation</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,655</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stieltjes, T.J.</subfield>
+    <subfield code="t">Sur quelques théorèmes d'algèbre</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1885</subfield>
+    <subfield code="m">(in French)</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">C.R.Acad.Sci., Paris,100,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stieltjes, T.J.</subfield>
+    <subfield code="t">Sur les polynômes de Jacobi</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1885</subfield>
+    <subfield code="m">(in French)</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">C.R.Acad.Sci., Paris,100,620</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">An explicit construction of interpolation nodes on the simplex</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Eng.Math.,56,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blyth, M.G.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">A Lobatto interpolation grid over the triangle</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">IMA J.Appl.Math.,71,153</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blyth, M.G.</subfield>
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">A comparison of interpolation grids over the triangle or the tetrahedron</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Eng.Math.,26,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Pozrikidis, C.</subfield>
+    <subfield code="t">A Lobatto interpolation grid in the tetrahedron</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">IMA J.Appl.Math.,71,298</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="t">Performance of numerically computed quadrature points</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Appl.Numer.Math.,58,1030</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giraldo, F.X.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">A nodal triangle-based spectral element method for the shallow water equations on the sphere</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,207,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, G.</subfield>
+    <subfield code="h">Joly, P.</subfield>
+    <subfield code="h">Tordjman, N.</subfield>
+    <subfield code="t">Higher order triangular finite elements with mass lumping for the wave equation</subfield>
+    <subfield code="p">Philadelphia: SIAM</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="e">Cohen,G.</subfield>
+    <subfield code="e">Bécache,E.</subfield>
+    <subfield code="e">Joly,P.</subfield>
+    <subfield code="e">Roberts,J.E.</subfield>
+    <subfield code="q">Proceedings of the Third International Conference on Mathematical and Numerical Aspects of Wave Propagation</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">A comparison between higher-order finite elements and finite differences for solving the wave equation</subfield>
+    <subfield code="p">Chichester: John Wiley &amp; Sons</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="e">Désidéri,J.</subfield>
+    <subfield code="e">LeTallec,P.</subfield>
+    <subfield code="e">Onate,E.</subfield>
+    <subfield code="e">Périaux,J.</subfield>
+    <subfield code="e">Stein,E.</subfield>
+    <subfield code="q">Proceedings of the Second ECCOMAS Conference on Numerical Methods in Engineering</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">Higher-order mass-lumped finite elements for the wave equation</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Acoust.,9,671</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">New triangular mass-lumped finite elements of degree six for wave propagation</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Prog.Electromagn.Res.,141,671</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Helenbrook, B.T.</subfield>
+    <subfield code="t">On the existence of explicit hp-finite element methods using Gauss–Lobatto integration on the triangle</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,47,1304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, Y.</subfield>
+    <subfield code="t">On Gauss–Lobatto integration on the triangle</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,49,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fried, I.</subfield>
+    <subfield code="h">Malkus, D.S.</subfield>
+    <subfield code="t">Finite element mass matrix lumping by numerical integration with no convergence rate loss</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Int.J.Solids Struct.,11,461</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, G.</subfield>
+    <subfield code="h">Joly, P.</subfield>
+    <subfield code="h">Roberts, J.E.</subfield>
+    <subfield code="h">Tordjman, N.</subfield>
+    <subfield code="t">Higher order triangular finite elements with mass lumping for the wave equation</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,2047</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chin-Joe-Kong, M.J.S.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="h">Veldhuizen, V.</subfield>
+    <subfield code="t">Higher-order triangular and tetrahedral finite elements with mass lumping for solving the wave equation</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Eng.Math.,35,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jund, S.</subfield>
+    <subfield code="h">Salmon, S.</subfield>
+    <subfield code="t">Arbitrary high-order finite element schemes and higher-order mass lumping</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Appl.Math.Comput.Sci.,17,375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Courant, R.</subfield>
+    <subfield code="h">Friedrichs, K.</subfield>
+    <subfield code="h">Lewy, H.</subfield>
+    <subfield code="t">Über die partiellen Differenzeng-leichungen der mathematischen Physik</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1928</subfield>
+    <subfield code="m">(in German)</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Math.Ann.,100,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">Systems of conservation laws</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,13,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holberg, O.</subfield>
+    <subfield code="t">Computational aspects of the choice of operator and sampling interval for numerical differentiation in large-scale simulation of wave phenomena</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Geophys.Prospect.,35,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robertsson, J.O.A.</subfield>
+    <subfield code="h">Blanch, J.O.</subfield>
+    <subfield code="h">Symes, W.W.</subfield>
+    <subfield code="h">Burrus, C.S.</subfield>
+    <subfield code="t">Galerkin-wavelet modeling of wave propagation: optimal finite difference stencil design</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Math.Comput.Model.,19,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, J.H.</subfield>
+    <subfield code="h">Yao, Z.X.</subfield>
+    <subfield code="t">Optimized finite-difference operator for broadband seismic wave modeling</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Geophysics,78,A13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, J.H.</subfield>
+    <subfield code="h">Yao, Z.X.</subfield>
+    <subfield code="t">Optimized explicit finite-difference schemes for spatial derivatives using maximum norm</subfield>
+    <subfield code="v">250</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Comput.Phys.,250,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, S.L.</subfield>
+    <subfield code="h">Li, X.F.</subfield>
+    <subfield code="h">Wang, W.S.</subfield>
+    <subfield code="h">Lu, M.W.</subfield>
+    <subfield code="h">Zhang, M.G.</subfield>
+    <subfield code="t">Optimal symplectic scheme and generalized discrete convolutional differentiator for seismic wave modeling</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">(in Chinese)</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Chin.J.Geophys.,56,2452</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, S.L.</subfield>
+    <subfield code="h">Li, X.F.</subfield>
+    <subfield code="h">Wang, W.S.</subfield>
+    <subfield code="h">Liu, Y.S.</subfield>
+    <subfield code="h">Zhang, M.G.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">A new kind of optimal second-order symplectic scheme for seismic wave simulations</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Sci.China Earth Sci.,57,751</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heinrichs, W.</subfield>
+    <subfield code="t">Improved Lebesgue constants on the triangle</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,207,625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Proriol, J.</subfield>
+    <subfield code="t">Sur une famille de polynomes à deux variables orthogonaux dans un triangle</subfield>
+    <subfield code="v">245</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="m">(in French)</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">C.R.Acad.Sci., Paris,245,2459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Koornwinder, T.</subfield>
+    <subfield code="t">Two-variable analogues of the classical orthogonal polynomials</subfield>
+    <subfield code="p">San Diego: Academic Press</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="e">Askey,R.</subfield>
+    <subfield code="q">Theory and Applications of Special Functions</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dubiner, M.</subfield>
+    <subfield code="t">Spectral methods on triangles and other domains</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Sci.Comput.,6,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Appell, M.P.</subfield>
+    <subfield code="t">Sur une classe de polynômes</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="m">(in French)</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Ann.Sci.Éc.Norm.Supér.,9,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anshelevich, M.</subfield>
+    <subfield code="t">Appell polynomials and their relatives</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Int.Math.Res.Not.,65,3469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Basabe, J.D.</subfield>
+    <subfield code="h">Sen, M.K.</subfield>
+    <subfield code="t">Grid dispersion and stability criteria of some common finite-element methods for acoustic and elastic wave equations</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Geophysics,72,T81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazzieri, I.</subfield>
+    <subfield code="h">Rapetti, F.</subfield>
+    <subfield code="t">Dispersion analysis of triangle-based spectral element methods for elastic wave propagation</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Numer.Algorithms,60,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, T.</subfield>
+    <subfield code="h">Sen, M.K.</subfield>
+    <subfield code="h">Hu, T.</subfield>
+    <subfield code="h">de Basabe, J.D.</subfield>
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="t">Dispersion analysis of the spectral element method using a triangular mesh</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Wave Motion,49,474</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Melvin, T.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="t">Dispersion analysis of the spectral element method</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,138,1934</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, S.L.</subfield>
+    <subfield code="h">Li, X.F.</subfield>
+    <subfield code="h">Liu, Y.S.</subfield>
+    <subfield code="h">Zhu, T.</subfield>
+    <subfield code="h">Zhang, M.G.</subfield>
+    <subfield code="t">Dispersion analysis of triangle-based finite element method for acoustic and elastic wave simulations</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">(in Chinese)</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Chin.J.Geophys.,57,2620</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cao, D.P.</subfield>
+    <subfield code="h">Zhou, J.K.</subfield>
+    <subfield code="h">Yin, X.Y.</subfield>
+    <subfield code="t">The study for numerical dispersion and stability of wave equation with triangle-based finite element algorithm</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">(in Chinese)</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Chin.J.Geophys.,58,1717</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brenner, S.C.</subfield>
+    <subfield code="h">Scott, L.R.</subfield>
+    <subfield code="t">The Mathematical Theory of Finite Element Methods, Texts Appl. Math., </subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Watkins, D.S.</subfield>
+    <subfield code="t">Fundamentals of Matrix Computations, Pure Appl. Math., </subfield>
+    <subfield code="p">John Wiley and Sons</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Briani, M.</subfield>
+    <subfield code="h">Sommariva, A.</subfield>
+    <subfield code="h">Vianello, M.</subfield>
+    <subfield code="t">Computing Fekete and Lebesgue points: simplex, square, disk</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,236,2477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alford, R.M.</subfield>
+    <subfield code="h">Kelly, K.R.</subfield>
+    <subfield code="h">Boore, D.M.</subfield>
+    <subfield code="t">Accuracy of finite difference modeling of the acoustic wave equation</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Geophysics,39,834</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="h">Kristek, J.</subfield>
+    <subfield code="h">Halada, L.</subfield>
+    <subfield code="t">3D fourth-order staggered-grid finite-difference schemes: stability and grid dispersion</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,90,587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tordjman, N.</subfield>
+    <subfield code="t">Élements finis d'order élevé avec condensation de masse pour l'équation des ondes</subfield>
+    <subfield code="p">L'Université Paris IX Dauphine</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">Ph.D. thesis (in French)</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keast, P.</subfield>
+    <subfield code="h">Diaz, J.C.</subfield>
+    <subfield code="t">Fully symmetric integration formulas for the surface of the sphere in s dimensions</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,20,406</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keast, P.</subfield>
+    <subfield code="t">Moderate-degree tetrahedral quadrature formulas</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,55,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Keast, P.</subfield>
+    <subfield code="t">Cubature formulas for the surface of the sphere</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,17,151</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cohen, G.</subfield>
+    <subfield code="t">Higher Order Numerical Method for Transient Wave Equations</subfield>
+    <subfield code="p">Springer-Verlag Berlin</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dai, Y.H.</subfield>
+    <subfield code="h">Yuan, Y.</subfield>
+    <subfield code="t">A nonlinear conjugate gradient method with a strong global convergence property</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">SIAM J.Optim.,10,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nocedal, J.</subfield>
+    <subfield code="h">Wright, S.J.</subfield>
+    <subfield code="t">Numerical Optimization</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hager, W.W.</subfield>
+    <subfield code="h">Zhang, H.C.</subfield>
+    <subfield code="t">A new conjugate gradient method with guaranteed descent and an efficient line search</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">SIAM J.Optim.,16,170</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hager, W.W.</subfield>
+    <subfield code="h">Zhang, H.C.</subfield>
+    <subfield code="t">A survey of nonlinear conjugate gradient methods</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Pac.J.Optim.,2,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khun, M.J.</subfield>
+    <subfield code="t">A numerical study of Lamb's problem</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Geophys.Prospect.,33,1103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bérenger, J.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, J.</subfield>
+    <subfield code="h">Bording, R.P.</subfield>
+    <subfield code="h">Liu, E.</subfield>
+    <subfield code="h">Zhang, Z.</subfield>
+    <subfield code="h">Badal, J.</subfield>
+    <subfield code="t">The application of the nearly optimal sponge boundary conditions for seismic wave propagation in poroelastic media</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Seism.Explor.,19,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhebel, E.</subfield>
+    <subfield code="h">Minisini, S.</subfield>
+    <subfield code="h">Kononov, A.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">A comparison of continuous mass-lumped finite elements with finite differences for 3-D wave propagation</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Geophys.Prospect.,62,1111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Hoop, A.T.</subfield>
+    <subfield code="t">A modification of Cagniard's method for solving seismic pulse problems</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Appl.Sci.Res.,B8,349</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00041/S0021999117300852/S0021999117300852.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,658 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Streamlining resummed QCD calculations using Monte Carlo integration</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Some of the most arduous and error-prone aspects of precision resummed calculations are related to the partonic hard process, having nothing to do with the resummation. In particular, interfacing to parton-distribution functions, combining various channels, and performing the phase space integration can be limiting factors in completing calculations. Conveniently, however, most of these tasks are already automated in many Monte Carlo programs, such as MadGraph [1], Alpgen [2] or Sherpa [3]. In this paper, we show how such programs can be used to produce distributions of partonic kinematics with associated color structures representing the hard factor in a resummed distribution. These distributions can then be used to weight convolutions of jet, soft and beam functions producing a complete resummed calculation. In fact, only around 1000 unweighted events are necessary to produce precise distributions. A number of examples and checks are provided, including e$^{+}$ e$^{−}$ two- and four-jet event shapes, n-jettiness and jet-mass related observables at hadron colliders at next-to-leading-log (NLL) matched to leading order (LO). Attached code can be used to modify MadGraph to export the relevant LO hard functions and color structures for arbitrary processes.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Jets</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">QCD Phenomenology</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JHEP</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="c">112</subfield>
+  <subfield code="v">1608</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/JHEP08(2016)112</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2016-08-18</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="037" ind1=" " ind2=" ">
+  <subfield code="a">arXiv:1507.06315</subfield>
+  <subfield code="9">arXiv</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">arXiv</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Farhi, David</subfield>
+  <subfield code="v">Center for the Fundamental Laws of Nature - Harvard U. - 17 Oxford St. - Cambridge - MA - 02138 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Feige, Ilya</subfield>
+  <subfield code="v">Center for the Fundamental Laws of Nature - Harvard U. - 17 Oxford St. - Cambridge - MA - 02138 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Freytsis, Marat</subfield>
+  <subfield code="v">Center for the Fundamental Laws of Nature - Harvard U. - 17 Oxford St. - Cambridge - MA - 02138 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Schwartz, Matthew D.</subfield>
+  <subfield code="v">Center for the Fundamental Laws of Nature - Harvard U. - 17 Oxford St. - Cambridge - MA - 02138 - USA</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">J Alwall R Frederix S Frixione</subfield>
+  <subfield code="m">The automated computation of tree-level and next-to-leading order differential cross sections and their matching to parton shower simulations HEP...07..079A [INSPIRE] J. Alwall, R. Frederix, S. Frixione et al The automated computation of tree-level and next-to-leading order differential cross sections and their matching to parton shower simulations</subfield>
+  <subfield code="s">JHEP,1407,079</subfield>
+  <subfield code="a">doi:10.1007/JHEP07(2014)079</subfield>
+  <subfield code="r">arXiv:1405.0301</subfield>
+  <subfield code="s">JHEP,1407,079</subfield>
+  <subfield code="r">arXiv:1405.0301</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1293923</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">M.L. Mangano, M. Moretti, F. Piccinini, R. Pittau and A.D. Polosa</subfield>
+  <subfield code="m">ALPGEN, a generator for hard multiparton processes in hadronic collisions [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0307,001</subfield>
+  <subfield code="r">hep-ph/0206293</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">589478</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">T. Gleisberg, S. Hoeche, F. Krauss et al.</subfield>
+  <subfield code="m">Event generation with SHERPA 1.1 [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0902,007</subfield>
+  <subfield code="r">arXiv:0811.4622</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">803708</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">C.W. Bauer, S. Fleming and M.E. Luke</subfield>
+  <subfield code="m">Summing Sudakov logarithms in B → X ( )s( ) γ in effective field theory [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D63,014006</subfield>
+  <subfield code="r">hep-ph/0005275</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">527930</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">C.W. Bauer, S. Fleming, D. Pirjol and I.W. Stewart</subfield>
+  <subfield code="m">An Effective field theory for collinear and soft gluons: Heavy to light decays [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D63,114020</subfield>
+  <subfield code="r">hep-ph/0011336</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">537516</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">M. Beneke, A.P. Chapovsky, M. Diehl and T. Feldmann</subfield>
+  <subfield code="m">Soft collinear effective theory and heavy to light currents beyond leading power [INSPIRE]</subfield>
+  <subfield code="s">Nucl.Phys.,B643,431</subfield>
+  <subfield code="r">hep-ph/0206152</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">588622</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">M. Beneke and T. Feldmann</subfield>
+  <subfield code="m">Multipole expanded soft collinear effective theory with nonAbelian gauge symmetry [INSPIRE]</subfield>
+  <subfield code="s">Phys.Lett.,B553,267</subfield>
+  <subfield code="r">hep-ph/0211358</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">602846</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">MD SchwartzResummation and NLO matching of event shapes with effective field theory hRvD..77a4026S [INSPIRE] Resummation and NLO matching of event shapes with effective field theory [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D77,014026</subfield>
+  <subfield code="r">arXiv:0709.2709</subfield>
+  <subfield code="h">M.D. Schwartz</subfield>
+  <subfield code="s">Phys.Rev.,D77,014026</subfield>
+  <subfield code="r">arXiv:0709.2709</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">761122</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">T Becher MD Schwartz</subfield>
+  <subfield code="m">A precise determination of α(s) from LEP thrust data using effective field theory HEP...07..034B [INSPIRE] T. Becher and M.D. Schwartz A precise determination of α ( )s( ) from LEP thrust data using effective field theory</subfield>
+  <subfield code="s">JHEP,0807,034</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2008/07/034</subfield>
+  <subfield code="r">arXiv:0803.0342</subfield>
+  <subfield code="s">JHEP,0807,034</subfield>
+  <subfield code="r">arXiv:0803.0342</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">780596</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Y-T Chien R Kelley</subfield>
+  <subfield code="m">MD Schwartz HX ZhuResummation of Jet Mass at Hadron Colliders hRvD..87a4010C [INSPIRE] Y.-T. Chien, R. Kelley, M.D. Schwartz and H.X. Zhu Resummation of Jet Mass at Hadron Colliders [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D87,014010</subfield>
+  <subfield code="r">arXiv:1208.0010</subfield>
+  <subfield code="s">Phys.Rev.,D87,014010</subfield>
+  <subfield code="r">arXiv:1208.0010</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1124589</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="m">TT Jouttenus IW Stewart FJ Tackmann WJ WaalewijnJet mass spectra in Higgs boson plus one jet at next-to-next-to-leading logarithmic order hRvD..88e4031J [INSPIRE] Jet mass spectra in Higgs boson plus one jet at next-to-next-to-leading logarithmic order [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D88,054031</subfield>
+  <subfield code="r">arXiv:1302.0846</subfield>
+  <subfield code="h">T.T. Jouttenus, I.W. Stewart, F.J. Tackmann and W.J. Waalewijn</subfield>
+  <subfield code="s">Phys.Rev.,D88,054031</subfield>
+  <subfield code="r">arXiv:1302.0846</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1217724</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">CF Berger C</subfield>
+  <subfield code="m">Marcantonini IW Stewart FJ Tackmann WJ WaalewijnHiggs Production with a Central Jet Veto at NNLL+NNLO HEP...04..092B [INSPIRE] C.F. Berger, C. Marcantonini, I.W. Stewart, F.J. Tackmann and W.J. Waalewijn Higgs Production with a Central Jet Veto at NNLL+NNLO</subfield>
+  <subfield code="s">JHEP,1104,092</subfield>
+  <subfield code="a">doi:10.1007/JHEP04(2011)092</subfield>
+  <subfield code="r">arXiv:1012.4480</subfield>
+  <subfield code="s">JHEP,1104,092</subfield>
+  <subfield code="r">arXiv:1012.4480</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">882373</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">T Becher M Neubert</subfield>
+  <subfield code="m">Factorization and NNLL Resummation for Higgs Production with a Jet Veto HEP...07..108B [INSPIRE] T. Becher and M. Neubert Factorization and NNLL Resummation for Higgs Production with a Jet Veto</subfield>
+  <subfield code="s">JHEP,1207,108</subfield>
+  <subfield code="a">doi:10.1007/JHEP07(2012)108</subfield>
+  <subfield code="r">arXiv:1205.3806</subfield>
+  <subfield code="s">JHEP,1207,108</subfield>
+  <subfield code="r">arXiv:1205.3806</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1115192</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">T Becher MD Schwartz</subfield>
+  <subfield code="m">Direct photon production with effective field theory HEP...02..040B 1270.81215 [INSPIRE] T. Becher and M.D. Schwartz Direct photon production with effective field theory</subfield>
+  <subfield code="s">JHEP,1002,040</subfield>
+  <subfield code="a">doi:10.1007/JHEP02(2010)040</subfield>
+  <subfield code="r">arXiv:0911.0681</subfield>
+  <subfield code="s">JHEP,1002,040</subfield>
+  <subfield code="r">arXiv:0911.0681</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">836025</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">M Dasgupta K Khelifa-Kerfa S Marzani M Spannowsky</subfield>
+  <subfield code="m">On jet mass distributions in Z+jet and dijet processes at the LHC HEP...10..126D [INSPIRE] M. Dasgupta, K. Khelifa-Kerfa, S. Marzani and M. Spannowsky On jet mass distributions in Z+jet and dijet processes at the LHC</subfield>
+  <subfield code="s">JHEP,1210,126</subfield>
+  <subfield code="a">doi:10.1007/JHEP10(2012)126</subfield>
+  <subfield code="r">arXiv:1207.1640</subfield>
+  <subfield code="s">JHEP,1210,126</subfield>
+  <subfield code="r">arXiv:1207.1640</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1121578</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">R Kelley MD Schwartz</subfield>
+  <subfield code="m">1-loop matching and NNLL resummation for all partonic 2 → 2 processes in QCD hRvD..83d5022K [INSPIRE] R. Kelley and M.D. Schwartz 1-loop matching and NNLL resummation for all partonic 2 → 2 processes in QCD [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D83,045022</subfield>
+  <subfield code="r">arXiv:1008.2759</subfield>
+  <subfield code="s">Phys.Rev.,D83,045022</subfield>
+  <subfield code="r">arXiv:1008.2759</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">865530</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">R Kelley MD Schwartz</subfield>
+  <subfield code="m">Threshold hadronic event shapes with effective field theory hRvD..83c3001K [INSPIRE] R. Kelley and M.D. Schwartz Threshold hadronic event shapes with effective field theory [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D83,033001</subfield>
+  <subfield code="r">arXiv:1008.4355</subfield>
+  <subfield code="s">Phys.Rev.,D83,033001</subfield>
+  <subfield code="r">arXiv:1008.4355</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">866345</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="c">ATLAS collaboration</subfield>
+  <subfield code="m">Jet mass and substructure of inclusive jets in s = 7 TeV pp collisions with the ATLAS experiment [INSPIRE]</subfield>
+  <subfield code="s">JHEP,1205,128</subfield>
+  <subfield code="r">arXiv:1203.4606</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1094564</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">J Thaler K Tilburg</subfield>
+  <subfield code="m">VanIdentifying Boosted Objects with N-subjettiness HEP...03..015T [INSPIRE] J. Thaler and K. Van Tilburg Identifying Boosted Objects with N-subjettiness</subfield>
+  <subfield code="s">JHEP,1103,015</subfield>
+  <subfield code="a">doi:10.1007/JHEP03(2011)015</subfield>
+  <subfield code="r">arXiv:1011.2268</subfield>
+  <subfield code="s">JHEP,1103,015</subfield>
+  <subfield code="r">arXiv:1011.2268</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">876746</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">I Feige MD Schwartz IW Stewart J</subfield>
+  <subfield code="m">ThalerPrecision Jet Substructure from Boosted Event Shapes hRvL.109i2001F [INSPIRE] I. Feige, M.D. Schwartz, I.W. Stewart and J. Thaler Precision Jet Substructure from Boosted Event Shapes</subfield>
+  <subfield code="s">Phys.Rev.Lett.,109,092001</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.109.092001</subfield>
+  <subfield code="r">arXiv:1204.3898</subfield>
+  <subfield code="s">Phys.Rev.Lett.,109,092001</subfield>
+  <subfield code="r">arXiv:1204.3898</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1111240</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">A. Banfi, G.P. Salam and G. Zanderighi</subfield>
+  <subfield code="m">Principles of general final-state resummation and automated implementation [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0503,073</subfield>
+  <subfield code="r">hep-ph/0407286</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">655163</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">A Banfi GP Salam G Zanderighi</subfield>
+  <subfield code="m">NLL+NNLO predictions for jet-veto efficiencies in Higgs-boson and Drell-Yan production HEP...06..159B [INSPIRE] A. Banfi, G.P. Salam and G. Zanderighi NLL+NNLO predictions for jet-veto efficiencies in Higgs-boson and Drell-Yan production</subfield>
+  <subfield code="s">JHEP,1206,159</subfield>
+  <subfield code="a">doi:10.1007/JHEP06(2012)159</subfield>
+  <subfield code="r">arXiv:1203.5773</subfield>
+  <subfield code="s">JHEP,1206,159</subfield>
+  <subfield code="r">arXiv:1203.5773</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1094890</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">A Banfi H McAslan PF Monni G</subfield>
+  <subfield code="m">ZanderighiA general method for the resummation of event-shape distributions in e (+) e (-) annihilation HEP...05..102B [INSPIRE] A. Banfi, H. McAslan, P.F. Monni and G. Zanderighi A general method for the resummation of event-shape distributions in e (+) e (-) annihilation</subfield>
+  <subfield code="s">JHEP,1505,102</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2015)102</subfield>
+  <subfield code="r">arXiv:1412.2126</subfield>
+  <subfield code="s">JHEP,1505,102</subfield>
+  <subfield code="r">arXiv:1412.2126</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1332934</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">E Gerwick S Hoeche S Marzani S Schumann</subfield>
+  <subfield code="m">Soft evolution of multi-jet final states HEP...02..106G 3321347 [INSPIRE] E. Gerwick, S. Hoeche, S. Marzani and S. Schumann Soft evolution of multi-jet final states</subfield>
+  <subfield code="s">JHEP,1502,106</subfield>
+  <subfield code="a">doi:10.1007/JHEP02(2015)106</subfield>
+  <subfield code="r">arXiv:1411.7325</subfield>
+  <subfield code="s">JHEP,1502,106</subfield>
+  <subfield code="r">arXiv:1411.7325</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1330322</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">C.W. Bauer, F.J. Tackmann and J. Thaler</subfield>
+  <subfield code="m">GenEvA. I. A New framework for event generation [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0812,010</subfield>
+  <subfield code="r">arXiv:0801.4026</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">778171</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">C.W. Bauer, F.J. Tackmann and J. Thaler</subfield>
+  <subfield code="m">GenEvA. II. A Phase space generator from a reweighted parton shower [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0812,011</subfield>
+  <subfield code="r">arXiv:0801.4028</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">778173</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">S Alioli CW Bauer</subfield>
+  <subfield code="m">CJ BerggrenCombining Higher-Order Resummation with Multiple NLO Calculations and Parton Showers in GENEVA HEP...09..120A [INSPIRE] S. Alioli, C.W. Bauer, C.J. Berggren et al Combining Higher-Order Resummation with Multiple NLO Calculations and Parton Showers in GENEVA</subfield>
+  <subfield code="s">JHEP,1309,120</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2013)120</subfield>
+  <subfield code="r">arXiv:1211.7049</subfield>
+  <subfield code="s">JHEP,1309,120</subfield>
+  <subfield code="r">arXiv:1211.7049</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1204791</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">C.W. Bauer and M.D. Schwartz</subfield>
+  <subfield code="m">Improving jet distributions with effective field theory [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.Lett.,97,142001</subfield>
+  <subfield code="r">hep-ph/0604065</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">714059</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">C.W. Bauer and M.D. Schwartz</subfield>
+  <subfield code="m">Event Generation from Effective Field Theory [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D76,074004</subfield>
+  <subfield code="r">hep-ph/0607296</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">722530</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">T Becher R Frederix M Neubert L Rothen</subfield>
+  <subfield code="m">Automated NNLL+NLO resummation for jet-veto cross sections PJC...75..154B [INSPIRE] T. Becher, R. Frederix, M. Neubert and L. Rothen Automated NNLL+NLO resummation for jet-veto cross sections</subfield>
+  <subfield code="s">Eur.Phys.J.,C75,154</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-015-3368-y</subfield>
+  <subfield code="r">arXiv:1412.8408</subfield>
+  <subfield code="s">Eur.Phys.J.,C75,154</subfield>
+  <subfield code="r">arXiv:1412.8408</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1335724</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">CW Bauer A</subfield>
+  <subfield code="m">Hornig FJ TackmannFactorization for generic jet production hRvD..79k4013B [INSPIRE] C.W. Bauer, A. Hornig and F.J. Tackmann Factorization for generic jet production [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D79,114013</subfield>
+  <subfield code="r">arXiv:0808.2191</subfield>
+  <subfield code="s">Phys.Rev.,D79,114013</subfield>
+  <subfield code="r">arXiv:0808.2191</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">793225</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">T. Becher, A. Broggio and A. Ferroglia</subfield>
+  <subfield code="m">Introduction to Soft-Collinear Effective Theory</subfield>
+  <subfield code="r">arXiv:1410.1892</subfield>
+  <subfield code="0">1320996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">E. Boos et al.</subfield>
+  <subfield code="m">Generic user process interface for event generators, in proceedings of Physics at TeV colliders, Euro Summer School, Les Houches, France, May 21-June 1 [INSPIRE]</subfield>
+  <subfield code="r">hep-ph/0109068</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">562546</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">J. Alwall et al.</subfield>
+  <subfield code="m">A Standard format for Les Houches event files [INSPIRE]</subfield>
+  <subfield code="s">Comput.Phys.Commun.,176,300</subfield>
+  <subfield code="r">hep-ph/0609017</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">725284</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">R Kleiss H Kuijf</subfield>
+  <subfield code="m">Multi-Gluon Cross-sections and Five Jet Production at Hadron Colliders uPhB.312..616K [INSPIRE] R. Kleiss and H. Kuijf Multi-Gluon Cross-sections and Five Jet Production at Hadron Colliders</subfield>
+  <subfield code="s">Nucl.Phys.,B312,616</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(89)90574-9</subfield>
+  <subfield code="s">Nucl.Phys.,B312,616</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="0">262072</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">V. Del Duca, L.J. Dixon and F. Maltoni</subfield>
+  <subfield code="m">New color decompositions for gauge amplitudes at tree and loop level [INSPIRE]</subfield>
+  <subfield code="s">Nucl.Phys.,B571,51</subfield>
+  <subfield code="r">hep-ph/9910563</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">509732</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Z Bern JJM Carrasco H Johansson</subfield>
+  <subfield code="m">New Relations for Gauge-Theory Amplitudes hRvD..78h5011B 2470033 [INSPIRE] Z. Bern, J.J.M. Carrasco and H. Johansson New Relations for Gauge-Theory Amplitudes [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D78,085011</subfield>
+  <subfield code="r">arXiv:0805.3993</subfield>
+  <subfield code="s">Phys.Rev.,D78,085011</subfield>
+  <subfield code="r">arXiv:0805.3993</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">786640</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">T Melia</subfield>
+  <subfield code="m">Dyck words and multiquark primitive amplitudes hRvD..88a4020M [INSPIRE] T. Melia Dyck words and multiquark primitive amplitudes [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D88,014020</subfield>
+  <subfield code="r">arXiv:1304.7809</subfield>
+  <subfield code="s">Phys.Rev.,D88,014020</subfield>
+  <subfield code="r">arXiv:1304.7809</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1231491</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">H Johansson A Ochirov</subfield>
+  <subfield code="m">Color-Kinematics Duality for QCD Amplitudes HEP...01..170J 3471410 [INSPIRE] H. Johansson and A. Ochirov Color-Kinematics Duality for QCD Amplitudes</subfield>
+  <subfield code="s">JHEP,1601,170</subfield>
+  <subfield code="a">doi:10.1007/JHEP01(2016)170</subfield>
+  <subfield code="r">arXiv:1507.00332</subfield>
+  <subfield code="s">JHEP,1601,170</subfield>
+  <subfield code="r">arXiv:1507.00332</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1380614</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="m">TT Jouttenus IW Stewart FJ Tackmann WJ WaalewijnThe Soft Function -Jet Production at Hadron Colliders hRvD..83k4030J [INSPIRE] T.T. Jouttenus, I.W. Stewart, F.J. Tackmann and W.J. Waalewijn The Soft Function for Exclusive N -Jet Production at Hadron Colliders [INSPIRE]</subfield>
+  <subfield code="h">for Exclusive N</subfield>
+  <subfield code="s">Phys.Rev.,D83,114030</subfield>
+  <subfield code="r">arXiv:1102.4344</subfield>
+  <subfield code="s">Phys.Rev.,D83,114030</subfield>
+  <subfield code="r">arXiv:1102.4344</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">890403</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">T. Sjöstrand, S. Mrenna and P.Z. Skands</subfield>
+  <subfield code="m">PYTHIA 6.4 Physics and Manual [INSPIRE]</subfield>
+  <subfield code="s">JHEP,0605,026</subfield>
+  <subfield code="r">hep-ph/0603175</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">712925</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">T. Sjöstrand, S. Ask, J.R. Christiansen et al.</subfield>
+  <subfield code="m">An Introduction to PYTHIA 8.2 [INSPIRE]</subfield>
+  <subfield code="s">Comput.Phys.Commun.,191,159</subfield>
+  <subfield code="r">arXiv:1410.3012</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1321709</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">G. Corcella, I.G. Knowles, G. Marchesini et al.</subfield>
+  <subfield code="m">HERWIG 6.5 release note [INSPIRE]</subfield>
+  <subfield code="r">hep-ph/0210213</subfield>
+  <subfield code="0">599813</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">M Bahr</subfield>
+  <subfield code="m">HERWIG++ Physics and Manual PJC...58..639B [INSPIRE] M. Bahr et al HERWIG++ Physics and Manual</subfield>
+  <subfield code="s">Eur.Phys.J.,C58,639</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-008-0798-9</subfield>
+  <subfield code="r">arXiv:0803.0883</subfield>
+  <subfield code="s">Eur.Phys.J.,C58,639</subfield>
+  <subfield code="r">arXiv:0803.0883</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">780833</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="m">CW Bauer FJ Tackmann ZuberiFactorization and Resummation for Dijet Invariant Mass Spectra hRvD..85g4006B [INSPIRE] C.W. Bauer, F.J. Tackmann, J.R. Walsh and S. Zuberi Factorization and Resummation for Dijet Invariant Mass Spectra [INSPIRE]</subfield>
+  <subfield code="h">JR Walsh S</subfield>
+  <subfield code="s">Phys.Rev.,D85,074006</subfield>
+  <subfield code="r">arXiv:1106.6047</subfield>
+  <subfield code="s">Phys.Rev.,D85,074006</subfield>
+  <subfield code="r">arXiv:1106.6047</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">916635</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">AJ Larkoski I Moult D Neill</subfield>
+  <subfield code="m">Analytic Boosted Boson Discrimination HEP...05..117L [INSPIRE] A.J. Larkoski, I. Moult and D. Neill Analytic Boosted Boson Discrimination</subfield>
+  <subfield code="s">JHEP,1605,117</subfield>
+  <subfield code="a">doi:10.1007/JHEP05(2016)117</subfield>
+  <subfield code="r">arXiv:1507.03018</subfield>
+  <subfield code="s">JHEP,1605,117</subfield>
+  <subfield code="r">arXiv:1507.03018</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1382586</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">T. Sjöstrand, S. Mrenna and P.Z. Skands</subfield>
+  <subfield code="m">A Brief Introduction to PYTHIA 8.1 [INSPIRE]</subfield>
+  <subfield code="s">Comput.Phys.Commun.,178,852</subfield>
+  <subfield code="r">arXiv:0710.3820</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">764903</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">S Catani BR Webber G Marchesini</subfield>
+  <subfield code="m">QCD coherent branching and semiinclusive processes at large x uPhB.349..635C [INSPIRE] S. Catani, B.R. Webber and G. Marchesini QCD coherent branching and semiinclusive processes at large x</subfield>
+  <subfield code="s">Nucl.Phys.,B349,635</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(91)90390-J</subfield>
+  <subfield code="s">Nucl.Phys.,B349,635</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="0">298129</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">R Abbate M Fickinger AH Hoang V</subfield>
+  <subfield code="m">Mateu IW StewartThrust at N (3) LL with Power Corrections and a Precision Global Fit for α ( )s( )(m ( )Z( ) ) hRvD..83g4021A [INSPIRE] R. Abbate, M. Fickinger, A.H. Hoang, V. Mateu and I.W. Stewart Thrust at N (3) LL with Power Corrections and a Precision Global Fit for α ( )s( )(m ( )Z( ) ) [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D83,074021</subfield>
+  <subfield code="r">arXiv:1006.3080</subfield>
+  <subfield code="s">Phys.Rev.,D83,074021</subfield>
+  <subfield code="r">arXiv:1006.3080</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">858620</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="m">IW Stewart FJ Tackmann WJ Waalewijn : An Inclusive Event Shape to Veto Jets hRvL.105i2002S [INSPIRE] I.W. Stewart, F.J. Tackmann and W.J. Waalewijn N -Jettiness : An Inclusive Event Shape to Veto Jets</subfield>
+  <subfield code="h">N -Jettiness</subfield>
+  <subfield code="s">Phys.Rev.Lett.,105,092002</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.105.092002</subfield>
+  <subfield code="r">arXiv:1004.2489</subfield>
+  <subfield code="s">Phys.Rev.Lett.,105,092002</subfield>
+  <subfield code="r">arXiv:1004.2489</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">852080</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">C.W. Bauer, N.D. Dunn and A. Hornig</subfield>
+  <subfield code="m">Subtractions for SCET Soft Functions</subfield>
+  <subfield code="r">arXiv:1102.4899 [INSPIRE]</subfield>
+  <subfield code="0">890672</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="m">IW Stewart FJ Tackmann WJ WaalewijnFactorization at the LHC: From PDFs to Initial State Jets hRvD..81i4035S [INSPIRE] Factorization at the LHC: From PDFs to Initial State Jets [INSPIRE]</subfield>
+  <subfield code="s">Phys.Rev.,D81,094035</subfield>
+  <subfield code="r">arXiv:0910.0467</subfield>
+  <subfield code="h">I.W. Stewart, F.J. Tackmann and W.J. Waalewijn</subfield>
+  <subfield code="s">Phys.Rev.,D81,094035</subfield>
+  <subfield code="r">arXiv:0910.0467</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">832907</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Regular Article - Theoretical Physics</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">ArXiv ePrint: 1507.06315</subfield>
+ </datafield>
+</record>

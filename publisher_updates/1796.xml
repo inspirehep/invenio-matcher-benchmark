@@ -1,0 +1,717 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Entanglement continuous unitary transformations</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Continuous unitary transformations are a powerful tool to extract valuable information out of quantum many-body Hamiltonians, in which the so-called flow equation transforms the Hamiltonian to a diagonal or block-diagonal form in second quantization. Yet, one of their main challenges is how to approximate the infinitely-many coupled differential equations that are produced throughout this flow. Here we show that tensor networks offer a natural and non-perturbative truncation scheme in terms of entanglement. The corresponding scheme is called “entanglement-CUT” or eCUT. It can be used to extract the low-energy physics of quantum many-body Hamiltonians, including quasiparticle energy gaps. We provide the general idea behind eCUT and explain its implementation for finite 1d systems using the formalism of matrix product operators. We also present proof-of-principle results for the spin-(1/2) 1d quantum Ising model and the 3-state quantum Potts model in a transverse field. Entanglement-CUTs can also be generalized to higher dimensions and to the thermodynamic limit.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Europhys.Lett.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">20002</subfield>
+  <subfield code="v">117</subfield>
+  <subfield code="n">2</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1209/0295-5075/117/20002</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">7</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-10</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Sahin, Serkan</subfield>
+  <subfield code="v">Institute of Physics - Johannes Gutenberg U. - 55099 Mainz - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Schmidt, Kai Phillip</subfield>
+  <subfield code="v">Institut für Theoretische Physik - Universität Erlangen-Nürnberg - Staudtstraße 7 - 91058 Erlangen - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Orús, Rom</subfield>
+  <subfield code="v">Institute of Physics - Johannes Gutenberg U. - 55099 Mainz - Germany</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">After every MPO truncation, normalize λ&apos;s and Γ&apos;s as \lambda^{[i]} \rightarrow \lambda^{[i]} / \max (\lambda^{[i]}),~\Gamma^{[i]} \rightarrow \Gamma^{[i]} \times \max (\lambda^{[i]}), with i a given site. This normalization, which we call relative normalization to the left, produces well-conditioned tensors and preserves the overall MPO norm</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">After computing a new MPO, contract Γ&apos;s and λ&apos;s as A^{[i]}_{\alpha \beta} \equiv \Gamma^{[i]}_{\alpha \beta} \lambda^{[i]}_{\beta \beta}, and operate with tensors A^{[i]} until the next truncation (i.e., absorb λ&apos;s to the left)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Compute the canonical form by applying until convergence the identity gate to the MPOs [, 19: #epl18397bib19a], sequentially and always from left to right</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">In the truncation, use an adaptive bond dimension, i.e., remove diagonal values of λ below some cutoff, being this cutoff proportional to the overall norm of λ, e.g., \epsilon = 10^{-15} \times \max (\lambda)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">More specifically, the singular values \{\lambda^{[i]}_\alpha \} for the bipartition [1, 2, \ldots, i: i+1, i+2, \ldots, N], if normalized such that \sum_{\alpha = 1}^{D^{[i]}} (\lambda^{[i]}_\alpha)^2 = 1, satisfy then the constraints -\sum_{\alpha = 1}^{D^{[i]}} (\lambda^{[i]}_\alpha)^2 \log (\lambda^{[i]}_\alpha)^2 \leq \log D^{[i]}, which are nothing but the MPO of the constraints for the entanglement entropies of an MPS [, 14: #epl18397bib14a]</subfield>
+  <subfield code="t">operator-version</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Hubbard J.</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A276,238</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1098/rspa.1963.0204</subfield>
+  <subfield code="y">1963</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Anderson P. W.</subfield>
+  <subfield code="s">Science,235,1196</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1126/science.235.4793.1196</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="0">244554</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Elser V.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,62,2405</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.62.2405</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Marston J. B. and Zeng C.</subfield>
+  <subfield code="s">J.Appl.Phys.,69,5962</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1063/1.347830</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Nikolic P. and Senthil T.</subfield>
+  <subfield code="s">Phys.Rev.,B68,214415</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.68.214415</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Singh R. R. P. and Huse D. A.</subfield>
+  <subfield code="s">Phys.Rev.,B76,180407</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.76.180407</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Singh R. R. P. and Huse D. A.</subfield>
+  <subfield code="s">Phys.Rev.,B77,144415</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.77.144415</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Evenbly G. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,104,187203</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.104.187203</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">1368962</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Yan S., Huse D. A. and White S. R.</subfield>
+  <subfield code="s">Science,332,1173</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1126/science.1201080</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">1236523</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Depenbrock S., McCulloch I. P. and Schollwoeck U.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,109,067201</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.109.067201</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Xie Z. Y., Chen J.</subfield>
+  <subfield code="m">Yu J. F., Kong X., Normand B. and Xiang T</subfield>
+  <subfield code="s">Phys.Rev.,X4,011025</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Poilblanc D. and Schuch N.</subfield>
+  <subfield code="s">Phys.Rev.,B87,140407</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.87.140407</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Poilblanc D., Schuch N., Pérez-García D. and Cirac J. I.</subfield>
+  <subfield code="s">Phys.Rev.,B86,014404</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.86.014404</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Picot T., Ziegler M., Orús R. and Poilblanc D.</subfield>
+  <subfield code="s">Phys.Rev.,B93,060407</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.93.060407</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Troyer M. and Wiese U.-J.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,94,170201</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.94.170201</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">656965</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Wegner F.</subfield>
+  <subfield code="s">Annalen Phys.,3,77</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1002/andp.19945060203</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Glazek S. D. and Wilson K. G.</subfield>
+  <subfield code="s">Phys.Rev.,D49,4214</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.49.4214</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">378610</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Glazek S. D. and Wilson K. G.</subfield>
+  <subfield code="s">Phys.Rev.,D48,5863</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.48.5863</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="0">354971</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kehrein S.</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="t">The flow equation approach to many-particle systems</subfield>
+  <subfield code="0">728134</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Toda M.</subfield>
+  <subfield code="m">Theory of Nonlinear Lattices, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/978-3-642-83219-2</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mielke A.</subfield>
+  <subfield code="s">Eur.Phys.J.,B5,605</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s100510050485</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">468232</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">White S. R.</subfield>
+  <subfield code="s">J.Chem.Phys.,117,7472</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1063/1.1508370</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Knetter C. and Uhrig G. S.</subfield>
+  <subfield code="s">Eur.Phys.J.,B13,209</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s100510050026</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Dawson C. M., Eisert J. and Osborne T. J.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,100,130501</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.100.130501</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">789812</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Stein J. J.</subfield>
+  <subfield code="m">Stat. Phys. 88 487, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/BF02508481</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Knetter C., Schmidt K. P. and Uhrig G. S.</subfield>
+  <subfield code="s">J.Phys.,A36,7889</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/36/29/302</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hackl A. and Kehrein S.</subfield>
+  <subfield code="s">Phys.Rev.,B78,092303</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.78.092303</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Krull H., Drescher N. A. and Uhrig G. S.</subfield>
+  <subfield code="s">Phys.Rev.,B86,125113</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.86.125113</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Yang H.-Y. and Schmidt K. P.</subfield>
+  <subfield code="s">Europhys.Lett.,94,17004</subfield>
+  <subfield code="a">doi:10.1088/0295-5075/94/1/17004</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Coester K., Clever S., Herbst F., Capponi S. and Schmidt K. P.</subfield>
+  <subfield code="s">Europhys.Lett.,110,20006</subfield>
+  <subfield code="a">doi:10.1088/0295-5075/110/2/20006</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Fischer T., Duffe S. and Uhrig G. S.</subfield>
+  <subfield code="s">New J.Phys.,12,033048</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/12/3/033048</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Drescher N. A., Fischer T. and Uhrig G. S.</subfield>
+  <subfield code="s">Eur.Phys.J.,B79,225</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1140/epjb/e2010-10723-6</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Heidbrink C. P. and Uhrig G. S.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,88,14601</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.88.146401</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Kehrein S.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,83,4914</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.83.4914</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">510517</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kehrein S.</subfield>
+  <subfield code="s">Nucl.Phys.,B592,512</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0550-3213(00)00507-1</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">529359</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Powalski M., Uhrig G. S. and Schmidt K. P.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,115,207202</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.115.207202</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Orús R.</subfield>
+  <subfield code="s">Annals Phys.,349,117</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.aop.2014.06.013</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1237922</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Eisert J.</subfield>
+  <subfield code="m">Modelling and Sim. 3 520</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Schuch N.</subfield>
+  <subfield code="m">QIP (Lecture Notes of the 44th IFF Spring School) ed D. DiVincenzo</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Cirac J. I. and Verstraete F.</subfield>
+  <subfield code="m">J. Phys. A: Math. Theor. 42 504004</subfield>
+  <subfield code="a">doi:10.1088/1751-8121/42/50/504004</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Verstraete F., Cirac J. I. and Murg V.</subfield>
+  <subfield code="s">Adv.Phys.,57,143</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1080/14789940801912366</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">White S. R.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,69,2863</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.69.2863</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="0">352225</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">White S. R.</subfield>
+  <subfield code="s">Phys.Rev.,B48,10345</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.48.10345</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="0">371076</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,91,147902</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.91.147902</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,93,040502</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.93.040502</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">1474495</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Verstraete F. and Cirac J. I.</subfield>
+  <subfield code="m">arXiv: Preprint:</subfield>
+  <subfield code="r">cond-mat/0407066</subfield>
+  <subfield code="r">arXiv:cond-mat/0407066</subfield>
+  <subfield code="0">671400</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Murg V., Verstraete F. and Cirac J. I.</subfield>
+  <subfield code="s">Phys.Rev.,A75,033605</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.75.033605</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,99,220405</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.99.220405</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">1236489</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">for an introduction, see, e.g.Vidal G.Understanding Quantum Phase Transitions (Boca Raton: Taylor &amp; Francis) Preprint:</subfield>
+  <subfield code="h">(Lincoln D. Carr (eds.))</subfield>
+  <subfield code="r">arXiv:0912.1651</subfield>
+  <subfield code="r">arXiv:0912.1651v2</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,91,147902</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.91.147902</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,93,040502</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.93.040502</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">1474495</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,98,070201</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.98.070201</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">1474486</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Orús R. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,B78,155117</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.78.155117</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Jordan J., Orús R., Vidal G., Verstraete F. and Cirac J. I.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,101,250602</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.101.250602</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">806679</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Orús R. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,B80,094403</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.80.094403</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Phien H. N., Bengua J. A., Tuan H. D., Corboz P. and Orús R.</subfield>
+  <subfield code="s">Phys.Rev.,B92,035142</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.92.035142</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1353395</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">McCulloch I. P.</subfield>
+  <subfield code="r">arXiv:0804.2509</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:0804.2509</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Crosswhite G. M., Doherty A. C. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,B78,035116</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.78.035116</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Corboz P., Evenbly G., Verstraete F. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,A81,010303</subfield>
+  <subfield code="m">R), Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.81.010303</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">1475768</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Corboz P. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,B80,165129</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.80.165129</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Corboz P., Orús R., Bauer B. and Vidal G.</subfield>
+  <subfield code="s">Phys.Rev.,B81,165104</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.81.165104</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kraus C. V., Schuch N., Verstraete F. and Cirac J. I.</subfield>
+  <subfield code="s">Phys.Rev.,A81,052338</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.81.052338</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pizorn I. and Verstraete F.</subfield>
+  <subfield code="s">Phys.Rev.,B81,245110</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.81.245110</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Shi Q.-Q.</subfield>
+  <subfield code="m">Li S.-Hao, Zhao J.-Hui and Zhou H.-Qiang Preprint:</subfield>
+  <subfield code="r">arXiv:0907.5520</subfield>
+  <subfield code="r">arXiv:0907.5520</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pineda C., Barthel T. and Eisert J.</subfield>
+  <subfield code="s">Phys.Rev.,A81,050303</subfield>
+  <subfield code="m">R), Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.81.050303</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Barthel T., Pineda C. and Eisert J.</subfield>
+  <subfield code="s">Phys.Rev.,A80,042333</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.80.042333</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Verstraete F. and Cirac J. I.</subfield>
+  <subfield code="s">Phys.Rev.,B73,094423</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.73.094423</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Dawson C. M., Eisert J. and Osborne T. J.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,100,130501</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.100.130501</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">789812</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Haegeman J., Osborne T. J., Verschelde H. and Verstrate F.</subfield>
+  <subfield code="s">Phys.Rev.Lett.,110,100402</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.110.100402</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">890887</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Vanderstraeten L., Mariën M., Verstraete F. and Haegeman J.</subfield>
+  <subfield code="s">Phys.Rev.,B92,201111</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.92.201111</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Nandkishore R. and Huse D. H.</subfield>
+  <subfield code="m">Annu. Rev Crossref:</subfield>
+  <subfield code="s">Condensed Matter Phys.,6,15</subfield>
+  <subfield code="a">doi:10.1146/annurev-conmatphys-031214-014726</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1288518</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Monthus C.</subfield>
+  <subfield code="m">J. Phys. A: Math. Theor. 49 305002</subfield>
+  <subfield code="a">doi:10.1088/1751-8121/49/30/305002</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Bauer B. and Nayak C.</subfield>
+  <subfield code="m">J. Stat Mech. P09005</subfield>
+  <subfield code="a">doi:10.1088/1742-5468/2013/09/P09005</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Pollmann F., Khemani V., Cirac J. I. and Sondhi S. L.</subfield>
+  <subfield code="s">Phys.Rev.,B94,041116</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevB.94.041116</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Beres J., Tetradis N. and Wetterich C.</subfield>
+  <subfield code="s">Phys.Rept.,363,223</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0370-1573(01)00098-9</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">527207</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Fischer T.</subfield>
+  <subfield code="m">Description of quasiparticle decay by continuous unitary transformations Technische Universität Dortmund PhD thesis</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

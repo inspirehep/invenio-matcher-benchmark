@@ -1,0 +1,307 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.08.010</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Lee, D.</subfield>
+    <subfield code="v">Computer, Computational and Statistical Sciences, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+    <subfield code="m">drlee@lanl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A high order characteristic discontinuous Galerkin scheme for advection on unstructured meshes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A new characteristic discontinuous Galerkin (CDG) advection scheme is presented. In contrast to standard discontinuous Galerkin schemes, the test functions themselves follow characteristics in order to ensure conservation and the edges of each element are also traced backwards along characteristics in order to create a swept region , which is integrated in order to determine the mass flux across the edge. Both the accuracy and performance of the scheme are greatly improved by the use of large Courant–Friedrichs–Lewy numbers for a shear flow test case and the scheme is shown to scale sublinearly with the number of tracers being advected, outperforming a standard flux corrected transport scheme for 10 or more tracers with a linear basis. Moreover the CDG scheme may be run to arbitrarily high order spatial accuracy and on unstructured grids, and is shown to give the correct order of error convergence for piecewise linear and quadratic bases on regular quadrilateral and hexahedral planar grids. Using a modal Taylor series basis, the scheme may be made monotone while preserving conservation with the use of a standard slope limiter, although this reduces the formal accuracy of the scheme to first order. The second order scheme is roughly as accurate as the incremental remap scheme with nonlocal gradient reconstruction at half the horizontal resolution. The scheme is being developed for implementation within the Model for Prediction Across Scales (MPAS) Ocean model, an unstructured grid finite volume ocean model.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Advection equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High order advection</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lagrangian characteristics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lowrie, R.</subfield>
+    <subfield code="v">Computer, Computational and Statistical Sciences, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Petersen, M.</subfield>
+    <subfield code="v">Computer, Computational and Statistical Sciences, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ringler, T.</subfield>
+    <subfield code="v">Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hecht, M.</subfield>
+    <subfield code="v">Computer, Computational and Statistical Sciences, Los Alamos National Laboratory, Los Alamos, NM, 87545, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">289-302</subfield>
+    <subfield code="v">324</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boris, J.P.</subfield>
+    <subfield code="h">Book, D.L.</subfield>
+    <subfield code="t">Flux-corrected transport. I. SHASTA, a fluid transport algorithm that works</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,11,38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dukowicz, J.K.</subfield>
+    <subfield code="h">Baumgardner, J.R.</subfield>
+    <subfield code="t">Incremental remapping as a transport/advection algorithm</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,160,318</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lipscomb, W.H.</subfield>
+    <subfield code="h">Ringler, T.D.</subfield>
+    <subfield code="t">An incremental remapping transport scheme on a spherical geodesic grid</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Mon.Weather Rev.,133,2335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="t">An conservative semi-lagrangian multi-tracer transport scheme (CSLAM) on the cubed-sphere grid</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1401</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erath, C.</subfield>
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Tufo, H.M.</subfield>
+    <subfield code="t">On mass conservation in high-order high-resolution rigorous remapping schemes on the sphere</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Mon.Weather Rev.,141,2128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Fournier, A.</subfield>
+    <subfield code="t">An compatible and conservative spectral element method on unstructured grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erath, C.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="t">A conservative multi-tracer transport scheme for spectral-element spherical grids</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,256,118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Celia, M.A.</subfield>
+    <subfield code="h">Russell, T.F.</subfield>
+    <subfield code="h">Herrera, I.</subfield>
+    <subfield code="h">Ewing, R.E.</subfield>
+    <subfield code="t">An Eulerian–Lagrangian localized adjoint method for the advection-diffusion equation</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Adv.Water Resour.,13,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Russell, T.F.</subfield>
+    <subfield code="h">Celia, M.A.</subfield>
+    <subfield code="t">An overview of research on Eulerian–Lagrangian localized adjoint methods (ELLAM)</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Adv.Water Resour.,25,1215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, W.</subfield>
+    <subfield code="h">Nair, R.D.</subfield>
+    <subfield code="h">Qiu, J.-M.</subfield>
+    <subfield code="t">A conservative semi-Lagrangian discontinuous Galerkin scheme on the cubed sphere</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Mon.Weather Rev.,142,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ringler, T.</subfield>
+    <subfield code="h">Petersen, M.</subfield>
+    <subfield code="h">Higdon, R.L.</subfield>
+    <subfield code="h">Jacobsen, D.</subfield>
+    <subfield code="h">Jones, P.W.</subfield>
+    <subfield code="h">Maltrud, M.</subfield>
+    <subfield code="t">A multi-resolution approach to global ocean modeling</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Ocean Model.,69,211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws IV: the multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection-dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Warburton, T.</subfield>
+    <subfield code="t">Nodal Discontinuous Galerkin Methods, Algorithms, Analysis, and Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Sherwin, S.</subfield>
+    <subfield code="t">Spectral/hp Element Methods for Computational Fluid Dynamics</subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, M.A.</subfield>
+    <subfield code="h">Wingate, B.A.</subfield>
+    <subfield code="h">Vincent, R.E.</subfield>
+    <subfield code="t">An algorithm for computing Fekete points in the triangle</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,1707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Leer, B.</subfield>
+    <subfield code="t">Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov's method</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,32,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dukowicz, J.K.</subfield>
+    <subfield code="h">Kodis, J.W.</subfield>
+    <subfield code="t">Accurate conservative remapping (rezoning) for arbitrary Lagrangian–Eulerian computations</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,8,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barth, T.</subfield>
+    <subfield code="h">Jespersen, D.C.</subfield>
+    <subfield code="t">The design and application of upwind schemes on unstructured meshes</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="m">Tech. Rep. AIAA Paper 89-0366</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, D.</subfield>
+    <subfield code="t">A vertex-based hierarchical slope limiter for p -adaptive discontinuous Galerkin methods</subfield>
+    <subfield code="v">233</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,233,3077</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.S.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="t">Higher-order multi-dimensional limiting strategy for discontinuous Galerkin methods in compressible inviscid and viscous flows</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Fluids,96,377</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, C.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes on triangular meshes</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,150,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blossey, P.N.</subfield>
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="t">Selective monotonicity preservation in scalar advection</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,227,5160</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ullrich, P.A.</subfield>
+    <subfield code="h">Lauritzen, P.H.</subfield>
+    <subfield code="h">Jablonowski, C.</subfield>
+    <subfield code="t">Some considerations for high-order ‘incremental remap’-based transport schemes: edges, reconstructions, and area integration</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,71,1131</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00174/S0021999116303539/S0021999116303539.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

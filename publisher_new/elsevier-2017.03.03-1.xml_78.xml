@@ -1,0 +1,784 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.09.028</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Berger-Vergiat, Luc</subfield>
+    <subfield code="v">Department of Civil Engineering &amp; Engineering Mechanics, Columbia University, New York, NY 10027, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Parallel preconditioners for monolithic solution of shear bands</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Shear bands are one of the most fascinating instabilities in metals that occur under high strain rates. They describe narrow regions, on the order of micron scales, where plastic deformations and significant heating are localized which eventually leads to fracture nucleation and failure of the component.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Shear bands</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Preconditioner</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphysics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Schur complement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Schwarz method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GMRES</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel scalability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">McAuliffe, Colin</subfield>
+    <subfield code="v">Department of Civil Engineering &amp; Engineering Mechanics, Columbia University, New York, NY 10027, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Waisman, Haim</subfield>
+    <subfield code="v">Department of Civil Engineering &amp; Engineering Mechanics, Columbia University, New York, NY 10027, United States</subfield>
+    <subfield code="m">waisman@civil.columbia.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">359-379</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wright, T.W.</subfield>
+    <subfield code="t">The Physics and Mathematics of Adiabatic Shear Bands, Cambridge Monographs on Mechanics</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marchand, A.</subfield>
+    <subfield code="h">Duffy, J.</subfield>
+    <subfield code="t">An experimental study of the formation process of adiabatic shear bands in a structural steel</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,36,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wright, T.W.</subfield>
+    <subfield code="h">Walter, J.W.</subfield>
+    <subfield code="t">On stress collapse in adiabatic shear bands</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,35,701</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cho, K.-M.</subfield>
+    <subfield code="h">Lee, S.</subfield>
+    <subfield code="h">Nutt, S.R.</subfield>
+    <subfield code="h">Duffy, J.</subfield>
+    <subfield code="t">Adiabatic shear band formation during dynamic torsional deformation of an HY-100 steel</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Acta Metall.Mater.,41,923</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bonnet-Lebouvier, A.-S.</subfield>
+    <subfield code="h">Molinari, A.</subfield>
+    <subfield code="h">Lipinski, P.</subfield>
+    <subfield code="t">Analysis of the dynamic propagation of adiabatic shear bands</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Int.J.Solids Struct.,39,4249</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shawki, T.G.</subfield>
+    <subfield code="h">Clifton, R.J.</subfield>
+    <subfield code="t">Shear band formation in thermal viscoplastic materials</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Mech.Mater.,8,13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Armero, F.</subfield>
+    <subfield code="h">Simo, J.C.</subfield>
+    <subfield code="t">A priori stability estimates and unconditionally stable product formula algorithms for nonlinear coupled thermoplasticity</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Int.J.Plast.,9,749</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lemaitre, J.</subfield>
+    <subfield code="h">Chaboche, J.L.</subfield>
+    <subfield code="t">Mechanics of Solid Materials</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wright, T.W.</subfield>
+    <subfield code="h">Walter, J.W.</subfield>
+    <subfield code="t">The asymptotic structure of an adiabatic shear band in antiplane motion</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,44,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, M.</subfield>
+    <subfield code="h">Ravichandran, G.</subfield>
+    <subfield code="h">Rosakis, A.J.</subfield>
+    <subfield code="t">Dynamically propagating shear bands in impact-loaded prenotched plates—II. Numerical simulations</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,44,1007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Liu, W.-K.</subfield>
+    <subfield code="h">Rosakis, A.J.</subfield>
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="h">Hao, W.</subfield>
+    <subfield code="t">Mesh-free Galerkin simulations of dynamic shear band propagation and failure mode transition</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Solids Struct.,39,1213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Seitz, A.</subfield>
+    <subfield code="h">Popp, A.</subfield>
+    <subfield code="h">Wall, W.A.</subfield>
+    <subfield code="t">A semi-smooth Newton method for orthotropic plasticity and frictional contact at finite strains</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,285,228</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peirce, D.</subfield>
+    <subfield code="h">Shih, C.F.</subfield>
+    <subfield code="h">Needleman, A.</subfield>
+    <subfield code="t">A tangent modulus method for rate dependent solids</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Struct.,18,875</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Al-Rub, R.K. Abu</subfield>
+    <subfield code="h">Voyiadjis, G.Z.</subfield>
+    <subfield code="t">A finite strain plastic-damage model for high velocity impact using combined viscosity and gradient localization limiters: Part I – theoretical formulation</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Damage Mech.,15,293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Liu, W.-K.</subfield>
+    <subfield code="h">Qian, D.</subfield>
+    <subfield code="h">Guduru, P.R.</subfield>
+    <subfield code="h">Rosakis, A.J.</subfield>
+    <subfield code="t">Dynamic shear band propagation and micro-structure of adiabatic shear band</subfield>
+    <subfield code="v">191</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Micromechanics of Brittle Materials and Stochastic Analysis of Mechanical Systems,191,73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Belytschko, T.</subfield>
+    <subfield code="h">Chiang, H.-Y.</subfield>
+    <subfield code="h">Plaskacz, E.</subfield>
+    <subfield code="t">High resolution two-dimensional shear band computations: imperfections and mesh dependence</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,119,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Liu, W.K.</subfield>
+    <subfield code="t">Numerical simulations of strain localization in inelastic solids using mesh-free methods</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,48,1285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Hao, W.</subfield>
+    <subfield code="h">Liu, W.-K.</subfield>
+    <subfield code="t">Mesh-free simulations of shear banding in large deformation</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Int.J.Solids Struct.,37,7185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, W.K.</subfield>
+    <subfield code="h">McVeigh, C.</subfield>
+    <subfield code="t">Predictive multiscale theory for design of heterogeneous materials</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Comput.Mech.,42,147</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McVeigh, C.</subfield>
+    <subfield code="h">Liu, W.K.</subfield>
+    <subfield code="t">Multiresolution continuum modeling of micro-void assisted dynamic adiabatic shear band propagation</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,58,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Loret, B.</subfield>
+    <subfield code="h">Prevost, J.H.</subfield>
+    <subfield code="t">Dynamic strain localization in elasto-(visco-)plastic solids, Part 1. General formulation and one-dimensional examples</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,83,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aifantis, E.C.</subfield>
+    <subfield code="t">On the role of gradients in the localization of deformation and fracture</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Int.J.Eng.Sci.,30,1279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batra, R.C.</subfield>
+    <subfield code="h">Kim, C.H.</subfield>
+    <subfield code="t">Effect of thermal conductivity on the initiation, growth and bandwidth of adiabatic shear bands</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Eng.Sci.,29,949</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Needleman, A.</subfield>
+    <subfield code="t">Material rate dependence and mesh sensitivity in localization problems</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,67,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Medyanik, S.N.</subfield>
+    <subfield code="h">Liu, W.K.</subfield>
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="t">On criteria for dynamic adiabatic shear band propagation</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,55,1439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, M.</subfield>
+    <subfield code="h">Needleman, A.</subfield>
+    <subfield code="h">Clifton, R.J.</subfield>
+    <subfield code="t">Finite element simulations of shear localization in plate impact</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,42,423</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wright, T.W.</subfield>
+    <subfield code="h">Batra, R.C.</subfield>
+    <subfield code="t">The initiation and growth of adiabatic shear bands</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Plast.,1,205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batra, R.C.</subfield>
+    <subfield code="t">The initiation and growth of, and the interaction among, adiabatic shear bands in simple and dipolar materials</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Int.J.Plast.,3,75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McAuliffe, C.</subfield>
+    <subfield code="h">Waisman, H.</subfield>
+    <subfield code="t">Mesh insensitive formulation for initiation and growth of shear bands using mixed finite elements</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Mech.,51,807</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McAuliffe, C.</subfield>
+    <subfield code="h">Waisman, H.</subfield>
+    <subfield code="t">A Pian–Sumihara type element for modeling shear bands at finite deformation</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Mech.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger-Vergiat, L.</subfield>
+    <subfield code="h">McAuliffe, C.</subfield>
+    <subfield code="h">Waisman, H.</subfield>
+    <subfield code="t">Isogeometric analysis of shear bands</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Mech.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lyness, J.</subfield>
+    <subfield code="h">Moler, C.</subfield>
+    <subfield code="t">Numerical differentiation of analytic functions</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,4,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Squire, W.</subfield>
+    <subfield code="h">Trapp, G.</subfield>
+    <subfield code="t">Using complex variables to estimate derivatives of real functions</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">SIAM Rev.,40,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pérez-Foguet, A.</subfield>
+    <subfield code="h">Rodríguez-Ferran, A.</subfield>
+    <subfield code="h">Huerta, A.</subfield>
+    <subfield code="t">Numerical differentiation for local and global tangent operators in computational plasticity</subfield>
+    <subfield code="v">189</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,189,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miehe, C.</subfield>
+    <subfield code="t">Numerical computation of algorithmic (consistent) tangent moduli in large-strain computational inelasticity</subfield>
+    <subfield code="v">134</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,134,223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="h">Schultz, M.</subfield>
+    <subfield code="t">GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,7,856</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Vorst, H.</subfield>
+    <subfield code="t">BI-CGSTAB: a fast and smoothly converging variant of BI-CG for the solution of nonsymmetric linear systems</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Sci.Stat.Comput.,13,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tuminaro, R.S.</subfield>
+    <subfield code="h">Tong, C.</subfield>
+    <subfield code="t">Parallel smoothed aggregation multigrid: aggregation strategies on massively parallel machines</subfield>
+    <subfield code="p">Proceedings of the 2000 ACM/IEEE Conference on Supercomputing, Supercomputing '00, 2000</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gee, M.W.</subfield>
+    <subfield code="h">Siefert, C.M.</subfield>
+    <subfield code="h">Hu, J.J.</subfield>
+    <subfield code="h">Tuminaro, R.S.</subfield>
+    <subfield code="h">Sala, M.G.</subfield>
+    <subfield code="t">ML 5.0 smoothed aggregation user's guide</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">Technical Report SAND2006-2649</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ipsen, I.</subfield>
+    <subfield code="t">A note on preconditioning nonsymmetric matrices</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,1050</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Howle, V.</subfield>
+    <subfield code="h">Kirby, R.</subfield>
+    <subfield code="h">Dillon, G.</subfield>
+    <subfield code="t">Block preconditioners for coupled physics problems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,S368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elman, H.</subfield>
+    <subfield code="h">Howle, V.E.</subfield>
+    <subfield code="h">Shadid, J.</subfield>
+    <subfield code="h">Shuttleworth, R.</subfield>
+    <subfield code="h">Tuminaro, R.</subfield>
+    <subfield code="t">A taxonomy and comparison of parallel block multi-level preconditioners for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Comput.Phys.,227,1790</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cyr, E.C.</subfield>
+    <subfield code="h">Shadid, J.N.</subfield>
+    <subfield code="h">Tuminaro, R.S.</subfield>
+    <subfield code="t">Stabilization and scalable block preconditioning for the Navier–Stokes equations</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,231,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eisenstat, S.C.</subfield>
+    <subfield code="h">Walker, H.F.</subfield>
+    <subfield code="t">Choosing the forcing terms in an inexact Newton method</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,17,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aagaard, B.T.</subfield>
+    <subfield code="h">Knepley, M.G.</subfield>
+    <subfield code="h">Williams, C.A.</subfield>
+    <subfield code="t">A domain decomposition approach to implementing fault slip in finite-element models of quasi-static and dynamic crustal deformation</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Geophys.Res., Solid Earth,118,3059</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhebergen, S.</subfield>
+    <subfield code="h">Wells, G.</subfield>
+    <subfield code="h">Katz, R.</subfield>
+    <subfield code="h">Wathen, A.</subfield>
+    <subfield code="t">Analysis of block preconditioners for models of coupled magma/mantle dynamics</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1960</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cyr, E.C.</subfield>
+    <subfield code="h">Shadid, J.N.</subfield>
+    <subfield code="h">Tuminaro, R.S.</subfield>
+    <subfield code="h">Pawlowski, R.P.</subfield>
+    <subfield code="h">Chacón, L.</subfield>
+    <subfield code="t">A new approximate block factorization preconditioner for two-dimensional incompressible (reduced) resistive MHD</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,701</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cai, X.-C.</subfield>
+    <subfield code="h">Sarkis, M.</subfield>
+    <subfield code="t">A restricted additive Schwarz preconditioner for general sparse linear systems</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,21,792</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Cottrell, J.A.</subfield>
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="t">Isogeometric analysis: CAD, finite elements, NURBS, exact geometry and mesh refinement</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bouclier, R.</subfield>
+    <subfield code="h">Elguedj, T.</subfield>
+    <subfield code="h">Combescure, A.</subfield>
+    <subfield code="t">Locking free isogeometric formulations of curved thick beams</subfield>
+    <subfield code="v">245–246</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,245–246,144</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bazilevs, Y.</subfield>
+    <subfield code="h">Beirao da Veiga, L.</subfield>
+    <subfield code="h">Cottrell, J.A.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Sangalli, G.</subfield>
+    <subfield code="t">Isogeometric analysis: approximation, stability and error estimates for h-refined meshes</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,16,1031</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schur, J.</subfield>
+    <subfield code="t">Über Potenzreihen, die im Innern des Einheitskreises beschränkt sind</subfield>
+    <subfield code="v">147</subfield>
+    <subfield code="y">1917</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Reine Angew.Math.,147,205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benzi, M.</subfield>
+    <subfield code="h">Szyld, D.B.</subfield>
+    <subfield code="t">Existence and uniqueness of splittings for stationary iterative methods with applications to alternating methods</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Numer.Math.,76,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elman, H.</subfield>
+    <subfield code="h">Howle, V.E.</subfield>
+    <subfield code="h">Shadid, J.</subfield>
+    <subfield code="h">Shuttleworth, R.</subfield>
+    <subfield code="h">Tuminaro, R.</subfield>
+    <subfield code="t">Block preconditioners based on approximate commutators</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,1651</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">A flexible inner-outer preconditioned GMRES algorithm</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,14,461</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schwarz, H.A.</subfield>
+    <subfield code="t">Über einen Grenzübergang durch alternierendes Verfahren</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1870</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Vierteljahrsschr.Nat.forsch.Ges.Zür.,15,272</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McAuliffe, C.</subfield>
+    <subfield code="h">Waisman, H.</subfield>
+    <subfield code="t">A unified model for metal failure capturing shear banding and fracture</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Int.J.Plast.,65,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Blue Gene/Q systems and supporting resources</subfield>
+    <subfield code="p">Argonne National Laboratory</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Technical Report ALCF-BGQ-Resources-07152014</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Milano, J.</subfield>
+    <subfield code="h">Lembke, P.</subfield>
+    <subfield code="t">IBM System Blue Gene Solution: Blue Gene/Q Hardware Overview and Installation Planning</subfield>
+    <subfield code="p">IBM Redbooks Publication</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karypis, G.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">A fast and high quality multilevel scheme for partitioning irregular graphs</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,20,359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karypis, G.</subfield>
+    <subfield code="h">Kumar, V.</subfield>
+    <subfield code="t">Parallel multilevel series k-way partitioning scheme for irregular graphs</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">SIAM Rev.,41,278</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.L. Taylor</subfield>
+    <subfield code="m">FEAP - A Finite Element Analysis Program, April</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Brown, J.</subfield>
+    <subfield code="h">Buschelman, K.</subfield>
+    <subfield code="h">Eijkhout, V.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">Kaushik, D.</subfield>
+    <subfield code="h">Knepley, M.G.</subfield>
+    <subfield code="h">McInnes, L. Curfman</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">PETSc users manual</subfield>
+    <subfield code="p">Argonne National Laboratory</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">Technical Report ANL-95/11 – Revision 3.4</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Brown, M.G. Knepley, D.A. May, L.C. McInnes, B. Smith</subfield>
+    <subfield code="m">Composable linear solvers for multiphysics, in:11th International Symposium on Parallel and Distributed Computing (ISPDC), June, pp. 55-62</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, B.</subfield>
+    <subfield code="h">McInnes, L. Curfman</subfield>
+    <subfield code="h">Constantinescu, E.</subfield>
+    <subfield code="h">Adams, M.</subfield>
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Brown, J.</subfield>
+    <subfield code="h">Knepley, M.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">PETSc's software strategy for the design space of composable extreme-scale solvers</subfield>
+    <subfield code="p">DOE Exascale Research Conference, April 16–18, 2012, Portland, OR, 2012</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">Preprint ANL/MCS-P2059-0312</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="h">Duff, I.S.</subfield>
+    <subfield code="h">L'Excellent, J.-Y.</subfield>
+    <subfield code="t">Multifrontal parallel distributed symmetric and unsymmetric solvers</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,184,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Falgout, R.D.</subfield>
+    <subfield code="h">Jones, J.E.</subfield>
+    <subfield code="h">Yang, U.M.</subfield>
+    <subfield code="t">The design and implementation of hypre, a library of parallel high performance preconditioners</subfield>
+    <subfield code="v">vol. 51</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 51,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henderson, A.</subfield>
+    <subfield code="t">ParaView Guide, A Parallel Visualization Application</subfield>
+    <subfield code="p">Kitware Inc.</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hunter, J.D.</subfield>
+    <subfield code="t">Matplotlib: a 2d graphics environment</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Comput.Sci.Eng.,9,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hendrickson, B.</subfield>
+    <subfield code="h">Rothberg, E.</subfield>
+    <subfield code="t">Improving the run time and quality of nested dissection ordering</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,20,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pellegrini, F.</subfield>
+    <subfield code="h">Roman, J.</subfield>
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="t">Hybridizing nested dissection and halo approximate minimum degree for efficient sparse matrix ordering</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Concurr.: Pract.Exp.,12,69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">George, A.</subfield>
+    <subfield code="h">Liu, J.W.H.</subfield>
+    <subfield code="t">A fast implementation of the minimum degree algorithm using quotient graphs</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,6,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="h">Davis, T.A.</subfield>
+    <subfield code="h">Duff, I.S.</subfield>
+    <subfield code="t">Algorithm 837: AMD, an approximate minimum degree ordering algorithm</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,30,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuck, D.J.</subfield>
+    <subfield code="h">Muraoka, Y.</subfield>
+    <subfield code="h">Chen, S.-C.</subfield>
+    <subfield code="t">On the number of operations simultaneously executable in Fortran-like programs and their resulting speedup</subfield>
+    <subfield code="v">C-21</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">IEEE Trans.Comput.,C-21,1293</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00210/S002199911500621X/S002199911500621X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

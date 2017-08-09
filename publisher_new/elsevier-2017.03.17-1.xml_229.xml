@@ -1,0 +1,597 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.07.038</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Xiao, H.</subfield>
+    <subfield code="j">ORCID:0000-0002-3323-4028</subfield>
+    <subfield code="v">Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, VA 24060, United States</subfield>
+    <subfield code="m">hengxiao@vt.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Quantifying and reducing model-form uncertainties in Reynolds-averaged Navier–Stokes simulations: A data-driven, physics-informed Bayesian approach</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Despite their well-known limitations, Reynolds-Averaged Navier–Stokes (RANS) models are still the workhorse tools for turbulent flow simulations in today's engineering analysis, design and optimization. While the predictive capability of RANS models depends on many factors, for many practical flows the turbulence models are by far the largest source of uncertainty. As RANS models are used in the design and safety evaluation of many mission-critical systems such as airplanes and nuclear power plants, quantifying their model-form uncertainties has significant implications in enabling risk-informed decision-making. In this work we develop a data-driven, physics-informed Bayesian framework for quantifying model-form uncertainties in RANS simulations. Uncertainties are introduced directly to the Reynolds stresses and are represented with compact parameterization accounting for empirical prior knowledge and physical constraints (e.g., realizability, smoothness, and symmetry). An iterative ensemble Kalman method is used to assimilate the prior knowledge and observation data in a Bayesian framework, and to propagate them to posterior distributions of velocities and other Quantities of Interest (QoIs). We use two representative cases, the flow over periodic hills and the flow in a square duct, to evaluate the performance of the proposed framework. Both cases are challenging for standard RANS turbulence models. Simulation results suggest that, even with very sparse observations, the obtained posterior mean velocities and other QoIs have significantly better agreement with the benchmark data compared to the baseline results. At most locations the posterior distribution adequately captures the true model error within the developed model form uncertainty bounds. The framework is a major improvement over existing black-box, physics-neutral methods for model-form uncertainty quantification, where prior knowledge and details of the models are not exploited. This approach has potential implications in many fields in which the governing equations are well understood but the model uncertainty comes from unresolved physical processes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Uncertainty quantification</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Ensemble Kalman filtering</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Turbulence modeling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Reynolds-Averaged Navier–Stokes equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wu, J.-L.</subfield>
+    <subfield code="v">Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, VA 24060, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, J.-X.</subfield>
+    <subfield code="v">Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, VA 24060, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sun, R.</subfield>
+    <subfield code="v">Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, VA 24060, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Roy, C.J.</subfield>
+    <subfield code="v">Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, VA 24060, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">115-136</subfield>
+    <subfield code="v">324</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilcox, D.C.</subfield>
+    <subfield code="t">Turbulence Modeling for CFD</subfield>
+    <subfield code="p">DCW Industries</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roy, C.J.</subfield>
+    <subfield code="h">Oberkampf, W.L.</subfield>
+    <subfield code="t">A comprehensive framework for verification, validation, and uncertainty quantification in scientific computing</subfield>
+    <subfield code="v">200</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,200,2131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Saltelli, P. Stano, P.B. Stark, W. Becker</subfield>
+    <subfield code="m">Climate models as economic guides: scientific challenge or quixotic quest?, Issues in Science and Technology 31 (3)</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kennedy, M.C.</subfield>
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Bayesian calibration of computer models</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.R.Stat.Soc., Ser.B, Stat.Methodol.,63,425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiong, Y.</subfield>
+    <subfield code="h">Chen, W.</subfield>
+    <subfield code="h">Apley, D.</subfield>
+    <subfield code="h">Ding, X.</subfield>
+    <subfield code="t">A non-stationary covariance-based Kriging method for metamodelling in engineering design</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,71,733</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, D.</subfield>
+    <subfield code="h">Allen, T.</subfield>
+    <subfield code="h">Notz, W.</subfield>
+    <subfield code="h">Miller, R.</subfield>
+    <subfield code="t">Sequential Kriging optimization using multiple-fidelity evaluations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Struct.Multidiscip.Optim.,32,369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Conti, S.</subfield>
+    <subfield code="h">Gosling, J.P.</subfield>
+    <subfield code="h">Oakley, J.E.</subfield>
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Gaussian process emulation of dynamic computer codes</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Biometrika,96,663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Higdon, D.</subfield>
+    <subfield code="h">Kennedy, M.</subfield>
+    <subfield code="h">Cavendish, J.C.</subfield>
+    <subfield code="h">Cafeo, J.A.</subfield>
+    <subfield code="h">Ryne, R.D.</subfield>
+    <subfield code="t">Combining field data and computer simulations for calibration and prediction</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brynjarsdóttir, J.</subfield>
+    <subfield code="h">O'Hagan, A.</subfield>
+    <subfield code="t">Learning about physical parameters: the importance of model discrepancy</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Inverse Probl.,30,114007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oliver, T.</subfield>
+    <subfield code="h">Moser, R.</subfield>
+    <subfield code="t">Uncertainty quantification for RANS turbulence model predictions</subfield>
+    <subfield code="v">vol. 1</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">APS Division of Fluid Dynamics Meeting Abstracts,vol. 1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oliver, T.A.</subfield>
+    <subfield code="h">Moser, R.D.</subfield>
+    <subfield code="t">Bayesian uncertainty quantification applied to RANS turbulence models</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">IOP Publishing</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Phys.Conf.Ser.,318,042032</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheung, S.H.</subfield>
+    <subfield code="h">Oliver, T.A.</subfield>
+    <subfield code="h">Prudencio, E.E.</subfield>
+    <subfield code="h">Prudhomme, S.</subfield>
+    <subfield code="h">Moser, R.D.</subfield>
+    <subfield code="t">Bayesian uncertainty analysis with applications to turbulence modeling</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Reliab.Eng.Syst.Saf.,96,1137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gorlé, C.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">A framework for epistemic uncertainty quantification of turbulent scalar flux models for Reynolds-averaged Navier–Stokes simulations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Fluids,25,055105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gorlé, C.</subfield>
+    <subfield code="h">Larsson, J.</subfield>
+    <subfield code="h">Emory, M.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">The deviation from parallel shear flow as an indicator of linear eddy-viscosity model inaccuracy</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Fluids,26,051702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emory, M.</subfield>
+    <subfield code="h">Larsson, J.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Modeling of structural uncertainties in Reynolds-averaged Navier–Stokes closures</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Fluids,25,110822</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emory, M.</subfield>
+    <subfield code="h">Pecnik, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Modeling structural uncertainties in Reynolds-averaged computations of shock/boundary layer interactions</subfield>
+    <subfield code="v">vol. 479</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">AIAA Paper,vol. 479,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Emory, M.A.</subfield>
+    <subfield code="t">Estimating model-form uncertainty in Reynolds-averaged Navier–Stokes closures</subfield>
+    <subfield code="p">Stanford University</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dow, E.</subfield>
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="t">Quantification of structural uncertainties in the k – ω turbulence model</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">2011-1762</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">AIAA Paper</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wikle, C.K.</subfield>
+    <subfield code="h">Milliff, R.F.</subfield>
+    <subfield code="h">Nychka, D.</subfield>
+    <subfield code="h">Berliner, L.M.</subfield>
+    <subfield code="t">Spatiotemporal hierarchical bayesian modeling tropical ocean surface winds</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Am.Stat.Assoc.,96,382</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berliner, L.M.</subfield>
+    <subfield code="t">Physical–statistical modeling in geophysics</subfield>
+    <subfield code="v">108</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Geophys.Res., Atmos.,108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Launder, B.</subfield>
+    <subfield code="h">Reece, G.</subfield>
+    <subfield code="h">Rodi, W.</subfield>
+    <subfield code="t">Progress in development of a Reynolds-stress turbulence closure</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Fluid Mech.,68,537</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tracey, B.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="h">Alonso, J.J.</subfield>
+    <subfield code="t">A machine learning strategy to assist turbulence model development</subfield>
+    <subfield code="v">vol. 1287</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">AIAA Paper,vol. 1287,2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parish, E.J.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="t">A paradigm for data-driven predictive modeling using field inversion and machine learning</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,305,758</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Singh, A.P.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="t">Using field inversion to quantify functional errors in turbulence closures</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Fluids,28,045110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wu, J.-L.</subfield>
+    <subfield code="h">Wang, J.-X.</subfield>
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="r">arXiv:1605.05962</subfield>
+    <subfield code="t">Quantifying model form uncertainty in rans simulation of wing–body junction flow</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">available at</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tennekes, H.</subfield>
+    <subfield code="h">Lumley, J.L.</subfield>
+    <subfield code="t">A First Course in Turbulence</subfield>
+    <subfield code="p">MIT Press</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banerjee, S.</subfield>
+    <subfield code="h">Krahl, R.</subfield>
+    <subfield code="h">Durst, F.</subfield>
+    <subfield code="h">Zenger, C.</subfield>
+    <subfield code="t">Presentation of anisotropy properties of turbulence, invariants versus eigenvalue approaches</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Turbul.,8,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="h">Wang, J.-X.</subfield>
+    <subfield code="h">Ghanem, R.G.</subfield>
+    <subfield code="r">arXiv:1603.09656</subfield>
+    <subfield code="t">A random matrix approach for quantifying model-form uncertainties in turbulence modeling</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted, available at</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ijheatfluidflow.2016.07.005</subfield>
+    <subfield code="h">Wang, J.-X.</subfield>
+    <subfield code="h">Sun, R.</subfield>
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="t">Quantification of uncertainties in turbulence modeling: a comparison of physics-based and random matrix theoretic approaches</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Le Maître, O.P.</subfield>
+    <subfield code="h">Knio, O.M.</subfield>
+    <subfield code="t">Spectral Methods for Uncertainty Quantification: With Applications to Computational Fluid Dynamics</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Daubechies, I.</subfield>
+    <subfield code="t">Orthonormal bases of compactly supported wavelets</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,41,909</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Buhmann, M.D.</subfield>
+    <subfield code="t">Radial Basis Functions: Theory and Implementations</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Iglesias, M.A.</subfield>
+    <subfield code="h">Law, K.J.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="t">Ensemble Kalman methods for inverse problems</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Inverse Probl.,29,045001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Evensen, G.</subfield>
+    <subfield code="t">Data Assimilation: The Ensemble Kalman Filter</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dennis, B.</subfield>
+    <subfield code="h">Ponciano, J.M.</subfield>
+    <subfield code="h">Lele, S.R.</subfield>
+    <subfield code="h">Taper, M.L.</subfield>
+    <subfield code="h">Staples, D.F.</subfield>
+    <subfield code="t">Estimating density dependence, process noise, and observation error</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Ecol.Monogr.,76,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Law, K.</subfield>
+    <subfield code="h">Stuart, A.</subfield>
+    <subfield code="t">Evaluating data assimilation algorithms</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Mon.Weather Rev.,140,3757</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Debusschere, B.</subfield>
+    <subfield code="h">Sargsyan, K.</subfield>
+    <subfield code="h">Safta, C.</subfield>
+    <subfield code="t">UQTk user manual</subfield>
+    <subfield code="p">Sandia National Laboratories Albuquerque, NM 87185 and Livermore, CA 94550</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">version 2.1 Edition</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patankar, S.V.</subfield>
+    <subfield code="h">Spalding, D.B.</subfield>
+    <subfield code="t">A calculation procedure for heat, mass and momentum transfer in three-dimensional parabolic flows</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,15,1787</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhie, C.M.</subfield>
+    <subfield code="h">Chow, W.L.</subfield>
+    <subfield code="t">A numerical study of the turbulent flow past an isolated airfoil with trailing edge separation</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">AIAA J.,21,1525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Launder, B.E.</subfield>
+    <subfield code="h">Sharma, B.I.</subfield>
+    <subfield code="t">Application of the energy dissipation model of turbulence to the calculation of flow near a spinning disc</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Lett.Heat Mass Transf.,1,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Breuer, M.</subfield>
+    <subfield code="h">Peller, N.</subfield>
+    <subfield code="h">Rapp, C.</subfield>
+    <subfield code="h">Manhart, M.</subfield>
+    <subfield code="t">Flow over periodic hills—numerical and experimental study in a wide range of Reynolds numbers</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Fluids,38,433</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Houtekamer, P.</subfield>
+    <subfield code="h">Mitchell, H.L.</subfield>
+    <subfield code="h">Deng, X.</subfield>
+    <subfield code="t">Model error representation in an operational ensemble Kalman filter</subfield>
+    <subfield code="v">137</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Mon.Weather Rev.,137,2126</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, J.-X.</subfield>
+    <subfield code="h">Wu, J.-L.</subfield>
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="r">arXiv:1512.01750</subfield>
+    <subfield code="t">Incorporating prior knowledge for quantifying and reducing model-form uncertainty in RANS simulations</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">submitted, available at</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schillings, C.</subfield>
+    <subfield code="h">Stuart, A.M.</subfield>
+    <subfield code="r">arXiv:1602.02020</subfield>
+    <subfield code="t">Analysis of the ensemble Kalman filter for inverse problems</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted, available at</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Neuman, S.P.</subfield>
+    <subfield code="t">Maximum likelihood Bayesian averaging of uncertain model predictions</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Stoch.Environ.Res.Risk Assess.,17,291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huser, A.</subfield>
+    <subfield code="h">Biringen, S.</subfield>
+    <subfield code="t">Direct numerical simulation of turbulent flow in a square duct</subfield>
+    <subfield code="v">257</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Fluid Mech.,257,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">AGARD</subfield>
+    <subfield code="t">A selection of test cases for the validation of large-eddy simulations of turbulent flows</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">Tech. Rep. 345, AGARD advisory report</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Demuren, A.</subfield>
+    <subfield code="h">Rodi, W.</subfield>
+    <subfield code="t">Calculation of turbulence-driven secondary motion in non-circular ducts</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Fluid Mech.,140,189</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Perkins, H.</subfield>
+    <subfield code="t">The formation of streamwise vorticity in turbulent flow</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Fluid Mech.,44,721</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Constantine, P.G.</subfield>
+    <subfield code="h">Dow, E.</subfield>
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="t">Active subspace methods in theory and practice: applications to Kriging surfaces</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A1500</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cui, T.</subfield>
+    <subfield code="h">Martin, J.</subfield>
+    <subfield code="h">Marzouk, Y.M.</subfield>
+    <subfield code="h">Solonen, A.</subfield>
+    <subfield code="h">Spantini, A.</subfield>
+    <subfield code="t">Likelihood-informed dimension reduction for nonlinear inverse problems</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Inverse Probl.,30,114015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haario, H.</subfield>
+    <subfield code="h">Laine, M.</subfield>
+    <subfield code="h">Mira, A.</subfield>
+    <subfield code="h">Saksman, E.</subfield>
+    <subfield code="t">DRAM: efficient adaptive MCMC</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Stat.Comput.,16,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10494-016-9725-6</subfield>
+    <subfield code="h">Wu, J.-L.</subfield>
+    <subfield code="h">Wang, J.-X.</subfield>
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="t">A Bayesian calibration–prediction method for reducing model-form uncertainties with application in RANS simulations</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Flow Turbul.Combust.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hua, C.</subfield>
+    <subfield code="t">An inverse transformation for quadrilateral isoparametric elements: analysis and application</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Finite Elem.Anal.Des.,7,159</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00174/S0021999116303394/S0021999116303394.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

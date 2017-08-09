@@ -1,0 +1,1089 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.066</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Hiller, Thomas</subfield>
+    <subfield code="j">ORCID:0000-0002-5581-8673</subfield>
+    <subfield code="v">Dynamics of Complex Fluids, Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, Göttingen, 37077, Germany</subfield>
+    <subfield code="m">THiller@eonerc.rwth-aachen.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Stochastic Rotation Dynamics simulations of wetting multi-phase flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Multi-color Stochastic Rotation Dynamics ( <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msup></math> ) has been introduced by Inoue et al. [1,2] as a particle based simulation method to study the flow of emulsion droplets in non-wetting microchannels. In this work, we extend the multi-color method to also account for different wetting conditions. This is achieved by assigning the color information not only to fluid particles but also to virtual wall particles that are required to enforce proper no-slip boundary conditions. To extend the scope of the original <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msup></math> algorithm to e.g. immiscible two-phase flow with viscosity contrast we implement an angular momentum conserving scheme ( <math altimg="si2.gif" display="inline" overflow="scroll"><msubsup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mo>+</mo></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msubsup></math> ). We perform extensive benchmark simulations to show that a mono-phase <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msup></math> fluid exhibits bulk properties identical to a standard SRD fluid and that <math altimg="si1.gif" display="inline" overflow="scroll"><msup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msup></math> fluids are applicable to a wide range of immiscible two-phase flows. To quantify the adhesion of a <math altimg="si2.gif" display="inline" overflow="scroll"><msubsup><mrow><mi mathvariant="normal">SRD</mi></mrow><mrow><mo>+</mo></mrow><mrow><mi mathvariant="normal">mc</mi></mrow></msubsup></math> fluid in contact to the walls we measure the apparent contact angle from sessile droplets in mechanical equilibrium. For a further verification of our wettability implementation we compare the dewetting of a liquid film from a wetting stripe to experimental and numerical studies of interfacial morphologies on chemically structured surfaces.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-phase fluid flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Meso-scale simulations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stochastic Rotation Dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Wettability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sanchez de La Lama, Marta</subfield>
+    <subfield code="v">Dynamics of Complex Fluids, Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, Göttingen, 37077, Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Brinkmann, Martin</subfield>
+    <subfield code="j">ORCID:0000-0003-0845-734X</subfield>
+    <subfield code="v">Dynamics of Complex Fluids, Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, Göttingen, 37077, Germany</subfield>
+    <subfield code="v">Department of Experimental Physics, Universität des Saarlandes, Campus E2 9, Saarbrücken, 66041, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">554-576</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2004.05.008</subfield>
+    <subfield code="h">Inoue, Y.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Ohashi, H.</subfield>
+    <subfield code="t">A mesoscopic simulation model for immiscible multiphase fluids</subfield>
+    <subfield code="v">201</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,201,191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2005.07.018</subfield>
+    <subfield code="h">Inoue, Y.</subfield>
+    <subfield code="h">Takagi, S.</subfield>
+    <subfield code="h">Matsumoto, Y.</subfield>
+    <subfield code="t">A mesoscopic simulation study of distributions of droplets in a bifurcating channel</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Comput.Fluids,35,971</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Liquid Film Coating: Scientific Principles and Their Technological Implications</subfield>
+    <subfield code="p">Chapmann &amp; Hall</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="e">Kistler,S.F.</subfield>
+    <subfield code="e">Schweizer,P.M.</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/RevModPhys.81.739</subfield>
+    <subfield code="h">Bonn, D.</subfield>
+    <subfield code="h">Eggers, J.</subfield>
+    <subfield code="h">Indekeu, J.</subfield>
+    <subfield code="h">Meunier, J.</subfield>
+    <subfield code="h">Rolley, E.</subfield>
+    <subfield code="t">Wetting and spreading</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Rev.Mod.Phys.,81,739</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2118/21621-PA</subfield>
+    <subfield code="h">Morrow, N.R.</subfield>
+    <subfield code="t">Wettability and its effect on oil recovery</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Pet.Technol.,42,1476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sahimi, M.</subfield>
+    <subfield code="t">Flow and Transport in Porous Media and Fractured Rock: From Classical Methods to Modern Approaches</subfield>
+    <subfield code="p">John Wiley &amp; Sons New York</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fluid.36.050802.122124</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="h">Stroock, A.D.</subfield>
+    <subfield code="h">Ajdari, A.</subfield>
+    <subfield code="t">Engineering flows in small devices: microfluidics toward a lab-on-a-chip</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,36,381</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0034-4885/75/1/016601</subfield>
+    <subfield code="h">Seemann, R.</subfield>
+    <subfield code="h">Brinkmann, M.</subfield>
+    <subfield code="h">Pfohl, T.</subfield>
+    <subfield code="h">Herminghaus, S.</subfield>
+    <subfield code="t">Droplet based microfluidics</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Rep.Prog.Phys.,75,016601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev-fluid-010313-141338</subfield>
+    <subfield code="h">Sui, Y.</subfield>
+    <subfield code="h">Ding, H.</subfield>
+    <subfield code="h">Spelt, P.D.M.</subfield>
+    <subfield code="t">Numerical simulation of flows with moving contact lines</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,46,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/19/3/001</subfield>
+    <subfield code="h">Hoogerbrugge, P.J.</subfield>
+    <subfield code="h">Koelman, J.M.V.A.</subfield>
+    <subfield code="t">Simulating microscopic hydrodynamics phenomena with dissipative particle dynamics</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Europhys.Lett.,19,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/30/4/001</subfield>
+    <subfield code="h">Español, P.</subfield>
+    <subfield code="h">Warren, P.</subfield>
+    <subfield code="t">Statistical mechanics of dissipative particle dynamics</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Europhys.Lett.,30,191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.47.1815</subfield>
+    <subfield code="h">Shan, X.</subfield>
+    <subfield code="h">Chen, H.</subfield>
+    <subfield code="t">Lattice Boltzmann model for simulating flows with multiple phases and components</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,47,1815</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fluid.30.1.329</subfield>
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Doolen, G.D.</subfield>
+    <subfield code="t">Lattice Boltzmann method for fluid flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,30,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Succi, S.</subfield>
+    <subfield code="t">The Lattice Boltzmann Equation for Fluid Dynamics and Beyond, Numerical Mathematics and Scientifc Computation, </subfield>
+    <subfield code="p">Oxford University Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.478857</subfield>
+    <subfield code="h">Malevanets, A.</subfield>
+    <subfield code="h">Kapral, R.</subfield>
+    <subfield code="t">Mesoscopic model for solvent dynamics</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Chem.Phys.,110,8605</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.481289</subfield>
+    <subfield code="h">Malevanets, A.</subfield>
+    <subfield code="h">Kapral, R.</subfield>
+    <subfield code="t">Solute molecular dynamics in a mesoscale solvent</subfield>
+    <subfield code="v">112</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Chem.Phys.,112,7260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/9780470371572.ch2</subfield>
+    <subfield code="h">Kapral, R.</subfield>
+    <subfield code="t">Multiparticle collision dynamics: simulation of complex systems on mesoscales</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Adv.Chem.Phys.,140,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-3-540-87706-6_1</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Multi-particle collision dynamics: a particle-based mesoscale simulation approach to the hydrodynamics of complex fluids</subfield>
+    <subfield code="v">vol. 221</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Advances in Polymer Sciences,vol. 221,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haile, J.M.</subfield>
+    <subfield code="t">Molecular Dynamics Simulation</subfield>
+    <subfield code="p">Wiley New York</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fluid.37.061903.175743</subfield>
+    <subfield code="h">Mittal, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Immersed boundary methods</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,37,239</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1039/C2SM26289D</subfield>
+    <subfield code="h">Kaoui, B.</subfield>
+    <subfield code="h">Krüger, T.</subfield>
+    <subfield code="h">Harting, J.</subfield>
+    <subfield code="t">How does confinement affect the dynamics of viscous vesicles and red blood cells?</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Soft Matter,8,9246</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.72.011408</subfield>
+    <subfield code="h">Hecht, M.</subfield>
+    <subfield code="h">Harting, J.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Herrmann, H.J.</subfield>
+    <subfield code="t">Simulation of claylike colloids</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,72,011408</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.74.031402</subfield>
+    <subfield code="h">Padding, J.T.</subfield>
+    <subfield code="h">Louis, A.A.</subfield>
+    <subfield code="t">Hydrodynamic interactions and Brownian forces in colloidal suspensions: coarse-graining over time and length scales</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,74,031402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.76.046705</subfield>
+    <subfield code="h">Götze, I.O.</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Relevance of angular momentum conservation in mesoscale hydrodynamics simulations</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,76,046705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nature10498</subfield>
+    <subfield code="h">Franosch, T.</subfield>
+    <subfield code="h">Grimm, M.</subfield>
+    <subfield code="h">Belushkin, M.</subfield>
+    <subfield code="h">Mor, F.M.</subfield>
+    <subfield code="h">Foffi, G.</subfield>
+    <subfield code="t">Resonances arising from hydrodynamic memory in Brownian motion</subfield>
+    <subfield code="v">478</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Nature,478,85</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/ma101836x</subfield>
+    <subfield code="h">Huang, C.-C.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Sutmann, G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Semidilute polymer solutions at equilibrium and under shear flow</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Macromolec.,43,10107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4799877</subfield>
+    <subfield code="h">Huang, C.-C.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Effect of hydrodynamic correlations on the dynamics of polymers in dilute solution</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Chem.Phys.,138,144902</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.66.036702</subfield>
+    <subfield code="h">Allahyarov, E.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Mesoscopic solvent simulations: multiparticle-collision dynamics of three-dimensional flows</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,66,036702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1140/epje/i2002-10107-0</subfield>
+    <subfield code="h">Lamura, A.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Numerical study of the flow around a cylinder using multi-particle collision dynamics</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Eur.Phys.J.,E9,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.93.220601</subfield>
+    <subfield code="h">Padding, J.T.</subfield>
+    <subfield code="h">Louis, A.A.</subfield>
+    <subfield code="t">Hydrodynamic and Brownian fluctuations in sedimenting suspensions</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Rev.Lett.,93,220601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/92/64003</subfield>
+    <subfield code="h">Götze, I.O.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Flow generation by rotating colloids in planar microchannels</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Europhys.Lett.,92,64003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.84.031404</subfield>
+    <subfield code="h">Götze, I.O.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Dynamic self-assembly and directed flow of rotating colloids in microchannels</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,84,031404</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.96.188302</subfield>
+    <subfield code="h">Ripoll, M.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Star polymers in shear flow</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Phys.Rev.Lett.,96,188302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/83/34007</subfield>
+    <subfield code="h">Cannavacciuolo, L.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Mesoscale simulations of polymer dynamics in microchannel flows</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Europhys.Lett.,83,34007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/83/38004</subfield>
+    <subfield code="h">Frank, S.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Polyelectrolyte electrophoresis: field effects and hydrodynamic interactions</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Europhys.Lett.,83,38004</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4919310</subfield>
+    <subfield code="h">Lee, K.-W.</subfield>
+    <subfield code="h">Mazza, M.G.</subfield>
+    <subfield code="t">Stochastic rotation dynamics for nematic liquid crystals</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Chem.Phys.,142,164110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.93.258102</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Fluid vesicles with viscous membranes in shear flow</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Phys.Rev.Lett.,93,258102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.0504243102</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Shape transitions of fluid vesicles and red blood cells in capillary flows</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,102,14159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.0811484106</subfield>
+    <subfield code="h">McWhirter, J.L.</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Flow-induced clustering and alignment of vesicles and red blood cells in microcapillaries</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,106,6039</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1039/C2SM07378A</subfield>
+    <subfield code="h">Reigh, S.-Y.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Synchronization and bundling of anchored bacterial flagella</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Soft Matter,8,4363</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.bpj.2010.05.015</subfield>
+    <subfield code="h">Elgeti, J.</subfield>
+    <subfield code="h">Kaupp, U.B.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Hydrodynamics of sperm cells near surfaces</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Biophys.J.,99,1018</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.2434160</subfield>
+    <subfield code="h">Earl, D.J.</subfield>
+    <subfield code="h">Pooley, C.M.</subfield>
+    <subfield code="h">Ryder, J.F.</subfield>
+    <subfield code="h">Bredberg, I.</subfield>
+    <subfield code="h">Yeomans, J.M.</subfield>
+    <subfield code="t">Modeling microscopic swimmers at low Reynolds number</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Chem.Phys.,126,064703</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.82.041921</subfield>
+    <subfield code="h">Götze, I.O.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Mesoscale simulations of hydrodynamic squirmer interactions</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,82,041921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.88.023012</subfield>
+    <subfield code="h">Theers, M.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Synchronization of rigid microrotors by time-dependent hydrodynamic interactions</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,88,023012</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1039/C4SM00770K</subfield>
+    <subfield code="h">Theers, M.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Effects of thermal fluctuations and fluid compressibility on hydrodynamic synchronization of microrotors at finite oscillatory Reynolds number: a multiparticle collision dynamics simulation study</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Soft Matter,10,5894</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.63.020201</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Stochastic rotation dynamics: a Galilean-invariant mesoscopic model for fluid flow</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,63,020201(R)</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.67.066705</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Stochastic rotation dynamics. I. Formalism, Galilean invariance, and Green–Kubo relations</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,67,066705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.67.066706</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Stochastic rotation dynamics. II. Transport coefficients, numerics, and long-time tails</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,67,066706</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0010-4655(00)00092-8</subfield>
+    <subfield code="h">Hashimoto, Y.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Ohashi, H.</subfield>
+    <subfield code="t">Immiscible real-coded lattice gas</subfield>
+    <subfield code="v">129</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Comput.Phys.Commun.,129,56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.65.031503</subfield>
+    <subfield code="h">Sakai, T.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Ohashi, H.</subfield>
+    <subfield code="t">Real-coded lattice gas model for ternary amphiphilic fluids</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,65,031503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/80/40010</subfield>
+    <subfield code="h">Tüzel, E.</subfield>
+    <subfield code="h">Pan, G.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Mesoscopic model for the fluctuating hydrodynamics of binary and ternary mixtures</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Europhys.Lett.,80,40010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.camwa.2007.08.017</subfield>
+    <subfield code="h">Inoue, Y.</subfield>
+    <subfield code="h">Takagi, S.</subfield>
+    <subfield code="h">Matsumoto, Y.</subfield>
+    <subfield code="t">A simulation model for amphiphilic molecules in a mesoscale solvent</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Comput.Math.Appl.,55,1469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.68.036701</subfield>
+    <subfield code="h">Tüzel, E.</subfield>
+    <subfield code="h">Strauss, M.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.M.</subfield>
+    <subfield code="t">Transport coefficients for stochastic rotation dynamics in three dimensions</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Phys.Rev.B, Condens.Matter Mater.Phys.,68,036701</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.70.035701</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Tüzel, E.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Resummed Green–Kubo relations for a fluctuating fluid-particle model</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,70,035701(R)</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/epl/i2003-10310-1</subfield>
+    <subfield code="h">Ripoll, M.</subfield>
+    <subfield code="h">Mussawisade, K.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Low-Reynolds-number hydrodynamics of complex fluids by multi-particle-collision dynamics</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Europhys.Lett.,68,106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.72.046707</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Tüzel, E.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Equilibrium calculation of transport coefficients for a fluid-particle model</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,72,046707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/jp046040x</subfield>
+    <subfield code="h">Pooley, C.M.</subfield>
+    <subfield code="h">Yeomans, J.M.</subfield>
+    <subfield code="t">Kinetic theory derivation of the transport coefficients of stochastic rotation dynamics</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Phys.Chem.,B109,6505</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.74.056702</subfield>
+    <subfield code="h">Tüzel, E.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Dynamic correlations in stochastic rotation dynamics</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,74,056702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.78.016706</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Transport coefficients of off-lattice mesoscale-hydrodynamics simulation techniques</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,78,016706</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.3077860</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="t">Stress tensors of multiparticle collision dynamics fluids</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Chem.Phys.,130,074907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2009.09.024</subfield>
+    <subfield code="h">Huang, C.</subfield>
+    <subfield code="h">Chatterji, A.</subfield>
+    <subfield code="h">Sutmann, G.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Cell-level canonical sampling by velocity scaling for multiparticle collision dynamics simulations</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,229,168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.3419070</subfield>
+    <subfield code="h">Petersen, M.K.</subfield>
+    <subfield code="h">Lechman, J.B.</subfield>
+    <subfield code="h">Plimpton, S.J.</subfield>
+    <subfield code="h">Grest, G.S.</subfield>
+    <subfield code="h">in 't Veld, P.J.</subfield>
+    <subfield code="h">Schunk, P.R.</subfield>
+    <subfield code="t">Mesoscale hydrodynamics via stochastic rotation dynamics: comparison with Lennard–Jones fluid</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">J.Chem.Phys.,132,174106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0953-8984/22/10/104106</subfield>
+    <subfield code="h">Whitmer, J.K.</subfield>
+    <subfield code="h">Luijten, E.</subfield>
+    <subfield code="t">Fluid-solid boundary conditions for multiparticle collision dynamics</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Phys.Condens.Matter,22,104106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1039/c2sm26316e</subfield>
+    <subfield code="h">Hanot, S.</subfield>
+    <subfield code="h">Belushkin, M.</subfield>
+    <subfield code="h">Foffi, G.</subfield>
+    <subfield code="t">Partial slip at fluid-solid boundaries by multiparticle collision dynamics simulations</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Soft Matter,9,291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.91.033309</subfield>
+    <subfield code="h">Theers, M.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Bulk viscosity of multiparticle collision dynamics fluids</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,91,033309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1603721</subfield>
+    <subfield code="h">Kikuchi, N.</subfield>
+    <subfield code="h">Pooley, C.M.</subfield>
+    <subfield code="h">Ryder, J.F.</subfield>
+    <subfield code="h">Yeomans, J.M.</subfield>
+    <subfield code="t">Transport coefficients of a mesoscopic fluid dynamics model</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Chem.Phys.,119,6388</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/epl/i2001-00522-9</subfield>
+    <subfield code="h">Lamura, A.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="h">Ihle, T.</subfield>
+    <subfield code="h">Kroll, D.</subfield>
+    <subfield code="t">Multi-particle collision dynamics: flow around a circular and a square cylinder</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Europhys.Lett.,56,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.86.066703</subfield>
+    <subfield code="h">Bolintineanu, D.S.</subfield>
+    <subfield code="h">Lechman, J.B.</subfield>
+    <subfield code="h">Plimpton, S.J.</subfield>
+    <subfield code="h">Grest, G.S.</subfield>
+    <subfield code="t">No-slip boundary conditions and forced flow in multiparticle collision dynamics</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,86,066703</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1209/0295-5075/79/36002</subfield>
+    <subfield code="h">Noguchi, H.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="t">Transport coefficients of dissipative particle dynamics with finite time step</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Europhys.Lett.,79,36002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.56.2172</subfield>
+    <subfield code="h">Evans, D.J.</subfield>
+    <subfield code="h">Morris, G.P.</subfield>
+    <subfield code="t">Shear thickening and turbulence in simple fluids</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Phys.Rev.Lett.,56,2172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.91.013310</subfield>
+    <subfield code="h">Huang, C.-C.</subfield>
+    <subfield code="h">Varghese, A.</subfield>
+    <subfield code="h">Gompper, G.</subfield>
+    <subfield code="h">Winkler, R.G.</subfield>
+    <subfield code="t">Thermostat for nonequilibrium multiparticle-collision-dynamics simulations</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,91,013310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/14786447008640370</subfield>
+    <subfield code="h">Clausius, R.J.E.</subfield>
+    <subfield code="t">On a mechanical theorem applicable to heat</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1870</subfield>
+    <subfield code="m">URL</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Philos.Mag.Ser.4,40,122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-94-009-2484-0</subfield>
+    <subfield code="h">Catlow, C.R.A.</subfield>
+    <subfield code="h">Parker, S.C.</subfield>
+    <subfield code="h">Allen, M.P.</subfield>
+    <subfield code="t">Computer Modeling of Fluids Polymers and Solids, NATO ASI Series, vol. 293</subfield>
+    <subfield code="p">Kluwer Academic Publishers</subfield>
+    <subfield code="v">vol. 293</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">73</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.52.1627</subfield>
+    <subfield code="h">Todd, B.D.</subfield>
+    <subfield code="h">Evans, D.J.</subfield>
+    <subfield code="h">Daivis, P.J.</subfield>
+    <subfield code="t">Pressure tensor for inhomogeneous fluids</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,52,1627</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.72.066704</subfield>
+    <subfield code="h">Heinz, H.</subfield>
+    <subfield code="h">Paul, W.</subfield>
+    <subfield code="h">Binder, K.</subfield>
+    <subfield code="t">Calculation of local pressure tensors in systems with many-body interactions</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,72,066704</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1747782</subfield>
+    <subfield code="h">Irving, J.H.</subfield>
+    <subfield code="h">Kirkwood, J.G.</subfield>
+    <subfield code="t">The statistical mechanical theory of transport processes. IV. The equations of hydrodynamics</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1950</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Chem.Phys.,18,817</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rspa.1982.0015</subfield>
+    <subfield code="h">Schofield, P.</subfield>
+    <subfield code="h">Henderson, J.</subfield>
+    <subfield code="t">Statistical mechanics of inhomogeneous fluids</subfield>
+    <subfield code="v">379</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A379,231</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0022-3719/5/15/006</subfield>
+    <subfield code="h">Lees, A.</subfield>
+    <subfield code="h">Edwards, S.</subfield>
+    <subfield code="t">The computer study of transport processes under extreme conditions</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Phys.C, Solid State,5,1921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1747248</subfield>
+    <subfield code="h">Kirkwood, J.G.</subfield>
+    <subfield code="h">Buff, F.P.</subfield>
+    <subfield code="t">The statistical mechanical theory of surface tension</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">J.Chem.Phys.,17,338</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rowlinson, J.S.</subfield>
+    <subfield code="h">Widom, B.</subfield>
+    <subfield code="t">Molecular Theory of Capillarity</subfield>
+    <subfield code="p">Clarendon Oxford</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/00268978300100971</subfield>
+    <subfield code="h">Walton, J.P.R.B.</subfield>
+    <subfield code="h">Tildesley, D.J.</subfield>
+    <subfield code="h">Rowlinson, J.S.</subfield>
+    <subfield code="h">Henderson, J.R.</subfield>
+    <subfield code="t">The pressure tensor at the planar surface of a liquid</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">81</subfield>
+    <subfield code="s">Mol.Phys.,48,1357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1288390</subfield>
+    <subfield code="h">Varnik, F.</subfield>
+    <subfield code="h">Baschnagel, J.</subfield>
+    <subfield code="h">Binder, K.</subfield>
+    <subfield code="t">Molecular dynamics results on the pressure tensor of polymer films</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">82</subfield>
+    <subfield code="s">J.Chem.Phys.,113,4444</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Safran, S.A.</subfield>
+    <subfield code="t">Statistical Thermodynamics of Surfaces, Interfaces, and Membranes</subfield>
+    <subfield code="p">Addison–Wesley</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.75.260</subfield>
+    <subfield code="h">Flekkoy, E.G.</subfield>
+    <subfield code="h">Rothman, D.H.</subfield>
+    <subfield code="t">Fluctuating fluid interfaces</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Phys.Rev.Lett.,75,260</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.53.1622</subfield>
+    <subfield code="h">Flekkoy, E.G.</subfield>
+    <subfield code="h">Rothman, D.H.</subfield>
+    <subfield code="t">Fluctuating hydrodynamic interfaces: theory and simulation</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Phys.Rev.E, Stat.Nonlinear Soft Matter Phys.,53,1622</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rspa.1932.0169</subfield>
+    <subfield code="h">Taylor, G.I.</subfield>
+    <subfield code="t">The viscosity of a fluid containing small drops of another fluid</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">1932</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A138,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1098/rspa.1934.0169</subfield>
+    <subfield code="h">Taylor, G.I.</subfield>
+    <subfield code="t">The formation of emulsions in definable fields of flow</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1934</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A146,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112086002811</subfield>
+    <subfield code="h">Bentley, B.J.</subfield>
+    <subfield code="h">Leal, L.G.</subfield>
+    <subfield code="t">An experimental investigation of drop deformation and breakup in steady two-dimensional linear flows</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">88</subfield>
+    <subfield code="s">J.Fluid Mech.,167,241</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S002211208100116X</subfield>
+    <subfield code="h">Rallison, J.M.</subfield>
+    <subfield code="t">A numerical study of the deformation and burst of a viscous drop in general shear flows</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">J.Fluid Mech.,109,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fl.16.010184.000401</subfield>
+    <subfield code="h">Rallison, J.M.</subfield>
+    <subfield code="t">The deformation of small viscous drops and bubbles in shear flows</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,16,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev.fl.26.010194.000433</subfield>
+    <subfield code="h">Stone, H.A.</subfield>
+    <subfield code="t">Dynamics of drop deformation and breakup in viscous fluids</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,26,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.870305</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Renardy, Y.Y.</subfield>
+    <subfield code="h">Renardy, M.</subfield>
+    <subfield code="t">Numerical simulation of breakup of a viscous drop in simple shear flow through a volume-of-fluid method</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">Phys.Fluids,12,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.2715621</subfield>
+    <subfield code="h">Janssen, P.J.A.</subfield>
+    <subfield code="h">Anderson, P.D.</subfield>
+    <subfield code="t">Boundary-integral method for drop deformation between parallel plates</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">Phys.Fluids,19,043602</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1126/science.283.5398.46</subfield>
+    <subfield code="h">Gau, H.</subfield>
+    <subfield code="h">Herminghaus, S.</subfield>
+    <subfield code="h">Lenz, P.</subfield>
+    <subfield code="h">Lipowsky, R.</subfield>
+    <subfield code="t">Liquid morphologies on structured surfaces: from microchannels to microchips</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">Science,283,46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0927-7757(99)00321-0</subfield>
+    <subfield code="h">Lipowsky, R.</subfield>
+    <subfield code="h">Lenz, P.S.</subfield>
+    <subfield code="h">Swain, Peter</subfield>
+    <subfield code="t">Wetting and dewetting of structured and imprinted surfaces</subfield>
+    <subfield code="v">161</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">95</subfield>
+    <subfield code="s">Colloids Surf.,A161,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1506003</subfield>
+    <subfield code="h">Brinkmann, M.</subfield>
+    <subfield code="h">Lipowsky, R.</subfield>
+    <subfield code="t">Wetting morphologies on substrates with striped surface domains</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">J.Appl.Phys.,92,4296</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1643771</subfield>
+    <subfield code="h">Klingner, A.</subfield>
+    <subfield code="h">Mugele, F.</subfield>
+    <subfield code="t">Electrowetting-induced morphological transitions of fluid microstructures</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">97</subfield>
+    <subfield code="s">J.Appl.Phys.,95,2918</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300328/S0021999116300328.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

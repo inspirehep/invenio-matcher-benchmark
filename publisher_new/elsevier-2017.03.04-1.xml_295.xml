@@ -1,0 +1,345 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.064</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Schaerer, Roman Pascal</subfield>
+    <subfield code="v">RWTH Aachen University, Schinkelstr. 2, 52062 Aachen, Germany</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Efficient algorithms and implementations of entropy-based moment closures for rarefied gases</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-04</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present efficient algorithms and implementations for the 35-moment system equipped with the maximum-entropy closure in the context of rarefied gases. While closures based on the principle of entropy maximization have been shown to yield very promising results for non-equilibrium gas processes, such as shock-structure problems, the computational cost of these closures is in general much higher than for closure theories with explicit closed-form expressions of the closing fluxes, such as Grad's classical closure. Following a similar approach as Garrett et al. (J. Comput. Phys., 2015), we investigate efficient implementations of the computationally expensive numerical quadrature to compute moments of the maximum-entropy distribution by exploiting its inherent fine-grained parallelism with the parallelism offered by multi-core processors and graphics cards. We show that using a single graphics card as an accelerator allows speed-ups of two orders of magnitude compared to a serial CPU implementation. In order to accelerate the time-to-solution for steady-state problems, we propose a new semi-implicit time discretization scheme. For the semi-implicit time discretization the resulting nonlinear system of equations is solved with a Newton type method in the Lagrange multipliers of the dual optimization problem in order to reduce the computational cost. Additionally, fully explicit Lax-Wendroff type schemes of first and second order accuracy are presented. We investigate the accuracy and efficiency of the proposed methods for several numerical test cases, including a steady-state shock-structure problem.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Non-equilibrium</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Maximum-entropy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Semi-implicit</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hyperbolic</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Roofline</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Shock-structure</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">AVX</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPU</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bansal, Pratyuksh</subfield>
+    <subfield code="j">ORCID:0000-0002-7547-8645</subfield>
+    <subfield code="v">RWTH Aachen University, Schinkelstr. 2, 52062 Aachen, Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Torrilhon, Manuel</subfield>
+    <subfield code="v">RWTH Aachen University, Schinkelstr. 2, 52062 Aachen, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Grad</subfield>
+    <subfield code="m">On the kinetic theory of rarefied gases</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,2,331-407</subfield>
+    <subfield code="a">doi:10.1002/cpa.3160020403</subfield>
+    <subfield code="y">1949</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Grad</subfield>
+    <subfield code="m">The profile of a steady plane shock wave</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,5,257-300</subfield>
+    <subfield code="a">doi:10.1002/cpa.3160050304</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Brini</subfield>
+    <subfield code="m">Hyperbolicity region in extended thermodynamics with 14 moments, Continuum Mech. Thermodyn. 13 (1)  1-8</subfield>
+    <subfield code="a">doi:10.1007/s001610100036</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Torrilhon</subfield>
+    <subfield code="m">Hyperbolic moment equations in kinetic gas theory based on multi-variate Pearson-IV-distributions</subfield>
+    <subfield code="s">Commun.Comput.Phys.,7,639-673</subfield>
+    <subfield code="a">doi:10.4208/cicp.2009.09.049</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Z. Cai, Y. Fan, R. Li</subfield>
+    <subfield code="m">On hyperbolicity of 13-moment system, Kinet. Relat. Mod. 7 (3)  415-432</subfield>
+    <subfield code="a">doi:10.3934/krm.2014.7.415</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W. Dreyer</subfield>
+    <subfield code="m">Maximisation of the entropy in non-equilibrium</subfield>
+    <subfield code="s">J.Phys.,A20,6505-6517</subfield>
+    <subfield code="a">doi:10.1088/0305-4470/20/18/047</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">I. Müller, T. Ruggeri</subfield>
+    <subfield code="m">Rational Extended Thermodynamics, Vol. 37 of Tracts in Natural Philosophy -Verlag New York</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. D. Levermore</subfield>
+    <subfield code="m">Moment closure hierarchies for kinetic theories</subfield>
+    <subfield code="s">J.Statist.Phys.,83,1021-1065</subfield>
+    <subfield code="a">doi:10.1007/BF02179552</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. G. M c Donald, M. Torrilhon</subfield>
+    <subfield code="m">Affordable robust moment closures for CFD based on the maximum-entropy hierarchy</subfield>
+    <subfield code="s">J.Comput.Phys.,251,500-523</subfield>
+    <subfield code="a">doi:10.1016/j.jcp.2013.05.046</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. P. Schaerer, M. Torrilhon</subfield>
+    <subfield code="m">A new closure mitigating the sub-shock phenomenon in the continuous shock-structure problem, in: PAMM, Vol. 13,, pp. 499-500</subfield>
+    <subfield code="a">doi:10.1002/pamm.201310242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. P. Schaerer, M. Torrilhon</subfield>
+    <subfield code="m">On singular closures for the 5-moment system in kinetic gas theory</subfield>
+    <subfield code="s">Commun.Comput.Phys.,17,371-400</subfield>
+    <subfield code="a">doi:10.4208/cicp.201213.130814a</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. P. Schaerer, M. Torrilhon</subfield>
+    <subfield code="m">The 35-moment system with the maximum-entropy closure for rarefied gas flows, in press</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. K. Garrett, C. D. Hauck, J. Hill</subfield>
+    <subfield code="m">Optimization and large scale computation of an entropy-based moment closure</subfield>
+    <subfield code="s">J.Comput.Phys.,302,573-590</subfield>
+    <subfield code="a">doi:10.1016/j.jcp.2015.09.008</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. L. Bhatnagar, E. P. Gross, M. Krook</subfield>
+    <subfield code="m">A model for collision processes in gases. I. small amplitude processes in charged and neutral one-component systems</subfield>
+    <subfield code="s">Phys.Rev.,94,511-525</subfield>
+    <subfield code="a">doi:10.1103/PhysRev.94.511</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="0">47032</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. H. Holway</subfield>
+    <subfield code="m">New statistical models for kinetic theory: Methods of construction</subfield>
+    <subfield code="s">Phys.Fluids,9,1658-1673</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. M. Shakov</subfield>
+    <subfield code="m">Generalization of the Krook kinetic relaxation equation, Fluid Dyn. 3  95-96</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Junk</subfield>
+    <subfield code="m">Maximum entropy for reduced moment problems, Math. Models Methods Appl</subfield>
+    <subfield code="s">Science,10,1001-1025</subfield>
+    <subfield code="a">doi:10.1142/S0218202500000513</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. T. Jaynes</subfield>
+    <subfield code="m">Information theory and statistical mechanics</subfield>
+    <subfield code="s">Phys.Rev.,106,620-630</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="0">45469</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. T. Jaynes</subfield>
+    <subfield code="m">Information theory and statistical mechanics. II</subfield>
+    <subfield code="s">Phys.Rev.,108,171-190</subfield>
+    <subfield code="a">doi:10.1103/PhysRev.108.171</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="0">45956</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. W. Alldredge, C. D. Hauck, D. P. O'Leary, A. L. Tits</subfield>
+    <subfield code="m">Adaptive change of basis in entropy-based moment closures for linear kinetic equations</subfield>
+    <subfield code="s">J.Comput.Phys.,258,489-508</subfield>
+    <subfield code="a">doi:10.1016/j.jcp.2013.10.049</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Intel ® Corporation, Intel ® Math Kernel Library. URL</subfield>
+    <subfield code="u">https://software.intel.com/en-us/intel-mkl</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Lindholm, J. Nickolls, S. Oberman, J. Montrym</subfield>
+    <subfield code="m">NVIDIA Tesla: A unified graphics and computing architecture</subfield>
+    <subfield code="s">IEEE Micro,28,39-55</subfield>
+    <subfield code="a">doi:10.1109/MM.2008.31</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Nickolls, I. Buck, M. Garland, K. Skadron</subfield>
+    <subfield code="m">Scalable parallel programming with CUDA, Queue 6 (2)  40-53</subfield>
+    <subfield code="a">doi:10.1145/1365490.1365500</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">NVIDIA Corporation URL</subfield>
+    <subfield code="h">CUDA C Programming Guide</subfield>
+    <subfield code="u">http://docs.nvidia.com/cuda/cuda-c-programming-guide/</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Saini, J. Chang, H. Jin</subfield>
+    <subfield code="m">High Performance Computing Systems. Performance Modeling, Benchmarking and Simulation: 4th International Workshop International Publishing,, Ch. Performance Evaluation of the Intel Sandy Bridge Based NASA Pleiades Using Scientific and Engineering Applications, pp. 25-51</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="a">doi:10.1007/978-3-319-10214-6_2</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Williams, A. Waterman, D. Patterson</subfield>
+    <subfield code="m">Roofline: An insightful visual performance model for multicore architectures</subfield>
+    <subfield code="s">Commun.ACM,52,65-76</subfield>
+    <subfield code="a">doi:10.1145/1498765.1498785</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Torrilhon, H. Struchtrup</subfield>
+    <subfield code="m">Regularized 13-moment-equations: Shock structure calculations and comparison to Burnett models</subfield>
+    <subfield code="s">J.Fluid Mech.,513,171-198</subfield>
+    <subfield code="a">doi:10.1017/S0022112004009917</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. P. T. Groth, J. G. M c Donald</subfield>
+    <subfield code="m">Towards physically realizable and hyperbolic moment closures for kinetic theory, Continuum Mech. Thermodyn. 21 (6)  467-493</subfield>
+    <subfield code="a">doi:10.1007/s00161-009-0125-1</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. W. Alldredge, C. D. Hauck, A. L. Tits</subfield>
+    <subfield code="m">High-order entropy-based closures for linear transport in slab geometry ii: A computational study of the optimization problem</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,B361-B391</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Boillat, T. Ruggeri</subfield>
+    <subfield code="m">On the shock structure problem for hyperbolic system of balance laws and convex entropy, Continuum Mech. Thermodyn. 10 (5)  285-292</subfield>
+    <subfield code="a">doi:10.1007/s001610050094</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. D. Vuyst</subfield>
+    <subfield code="m">Stable and accurate hybrid finite volume methods based on pure convexity arguments for hyperbolic systems of conservation law</subfield>
+    <subfield code="s">J.Comput.Phys.,193,426-468</subfield>
+    <subfield code="a">doi:10.1016/j.jcp.2003.07.028</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301675/S0021999117301675.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

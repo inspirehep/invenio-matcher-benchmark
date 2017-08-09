@@ -1,0 +1,388 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.025</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Shahbazi, Khosro</subfield>
+    <subfield code="v">Mechanical Engineering, South Dakota School of Mines &amp; Technology, 501 E. St. Joseph St., Rapid City, SD 57701, United States</subfield>
+    <subfield code="m">khosro.shahbazi@sdsmt.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Robust second-order scheme for multi-phase flow computations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A robust high-order scheme for the multi-phase flow computations featuring jumps and discontinuities due to shock waves and phase interfaces is presented. The scheme is based on high-order weighted-essentially non-oscillatory (WENO) finite volume schemes and high-order limiters to ensure the maximum principle or positivity of the various field variables including the density, pressure, and order parameters identifying each phase. The two-phase flow model considered besides the Euler equations of gas dynamics consists of advection of two parameters of the stiffened-gas equation of states, characterizing each phase. The design of the high-order limiter is guided by the findings of Zhang and Shu [Maximum-principle-satisfying and positivity-preserving high-order schemes for conservation laws: survey and new developments, Proceedings of the Royal Society A, 467 (2011), 2752—2776], and is based on limiting the quadrature values of the density, pressure and order parameters reconstructed using a high-order WENO scheme. The proof of positivity-preserving and accuracy are given, and the convergence and the robustness of the scheme are illustrated using the smooth isentropic vortex problem with very small density and pressure. The effectiveness and robustness of the scheme in computing the challenging problem of shock wave interaction with a cluster of tightly placed air or helium bubbles placed in a body of liquid water is also demonstrated. The superior performance of the high-order schemes over the first-order Godunov scheme for computations of shock-bubble interaction is also shown. The scheme is implemented in two-dimensional space on parallel computers using message passing interface (MPI). The proposed scheme with limiter features approximately <math altimg="si1.gif" display="inline" overflow="scroll"><mn>50</mn><mtext>%</mtext></math> higher number of inter-processor message communications compared to the corresponding scheme without limiter, but with only <math altimg="si2.gif" display="inline" overflow="scroll"><mn>10</mn><mtext>%</mtext></math> higher total CPU time. The scheme is provably second-order accurate in regions requiring positivity enforcement and higher order in the rest of domain.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-phase flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multi-component flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Shock waves</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Bubbles</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order finite volume WENO scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order limiters</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Parallel computation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Abgrall</subfield>
+    <subfield code="m">How to prevent pressure oscillations in multicomponent flow calculations: a quasi conservative approach</subfield>
+    <subfield code="s">J.Comput.Phys.,125,150-160</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. R. Baer and J. W. Nunziato</subfield>
+    <subfield code="m">A two-phase mixture theory for the deflagration-to-detonation transition (DDT) in reactive granular materials, Int. J Multiphase Flow 12, No. 6  861-889</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D.S. Balsara and J. Kim</subfield>
+    <subfield code="m">A subluminal relativistic magnetohydrodynamics scheme with ADER-WENO predictor and multidimensional Riemann solver-based corrector</subfield>
+    <subfield code="s">J.Comput.Phys.,312,357-384</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="0">1418796</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D.S. Balsara</subfield>
+    <subfield code="m">Self-Adjusting positivity preserving high order schemes for hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7504-7517</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Costa and W. S. Don</subfield>
+    <subfield code="m">Multi-domain hybrid spectral-WENO methods for hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,224,3358-3381</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Costa and W. S. Don</subfield>
+    <subfield code="m">High order hybrid central-WENO finite difference scheme for conservation laws</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,204,209-218</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Costa, W. Don, D. Gottlieb and R. Sendersky</subfield>
+    <subfield code="m">Two-dimensional multi-domain hybrid spectral- WENO methods for conservation laws, Cummunications in Comput</subfield>
+    <subfield code="s">Physics,1,550-577</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Castro, B. Costa, W. S. Don</subfield>
+    <subfield code="m">High order weighted essentially non-oscillatory WENO-Z schemes for hyperbolic conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1766-1792</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Cheng and C.-W. Shu</subfield>
+    <subfield code="m">Positivity-preserving Lagrangian scheme for multi-material compressible flow</subfield>
+    <subfield code="s">J.Comput.Phys.,257,143-168</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Colella, P. Woodward</subfield>
+    <subfield code="m">The piecewise parabolic method (PPM) for gas dynamical simulations</subfield>
+    <subfield code="s">J.Comput.Phys.,54,174-201</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="0">180307</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">V. Coralic and T. Colonius</subfield>
+    <subfield code="m">Finite-volume WENO scheme for viscous compressible multicomponent flows</subfield>
+    <subfield code="s">J.Comput.Phys.,274,95-121</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. K. Godunov</subfield>
+    <subfield code="m">A difference scheme for numerical solution of discontinuous solution of hydrodynamic equations</subfield>
+    <subfield code="s">Mat.Sbornik,47,271-306</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Harten</subfield>
+    <subfield code="m">Adaptive multiresolution schemes for shock computations</subfield>
+    <subfield code="s">J.Comput.Phys.,115,319-338</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X-D. Liu, S. Osher, and T. Chan</subfield>
+    <subfield code="m">Weighted essentially non-oscillatory schemes</subfield>
+    <subfield code="s">J.Comput.Phys.,115,200-212</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G.S. Jiang, C.W. Shu</subfield>
+    <subfield code="m">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202-228</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Johnsen and T. Colonius</subfield>
+    <subfield code="m">Implementation of WENO schemes for compressible multicomponent flow problems</subfield>
+    <subfield code="s">J.Comput.Phys.,219,715-732</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Johnsen and T. Colonius</subfield>
+    <subfield code="m">Numerical simulations of non-spherical bubble collapse</subfield>
+    <subfield code="s">J.Fluid Mech.,629,231-262</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Karni</subfield>
+    <subfield code="m">Multicomponent flow calculations by a consistent primitive algorithm</subfield>
+    <subfield code="s">J.Comput.Phys.,112,31-43</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. D. Lax</subfield>
+    <subfield code="m">Weak solution of conservation laws and their numerical computations</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,7,159-193</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Linde and P.L. Roe</subfield>
+    <subfield code="m">Robust Euler codes, Thirteenth Computational Fluid Dynamics Conference</subfield>
+    <subfield code="s">AIAA Paper,97,2098</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X.-D Liu and S. Osher</subfield>
+    <subfield code="m">Non-oscillatory high order accurate self similar max- imum principle satisfying shock capturing schemes</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,33,760-779</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. McCorquodale, P. Colella</subfield>
+    <subfield code="m">A high order finite volume method for conservation laws on locally refined grids, Commun. Appl. Math. Comput</subfield>
+    <subfield code="s">Science,6,1</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Menikoff, B.J. Plohr</subfield>
+    <subfield code="m">The Riemann problem for fluid flow of real materials</subfield>
+    <subfield code="s">Rev.Mod.Phys.,61,75-130</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="0">293249</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Muller, M. Bachman, D. Kroninger, T. Ku</subfield>
+    <subfield code="m">T and P. Hell, Comparison and validation of compressible flow simulations of laser-induced bubbles Comput. Fluids 38  1850-62</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Pelanti and K-M. Shyue</subfield>
+    <subfield code="m">A mixture-energy-consistent six-equation two-phase numerical model for fluids with interfaces, cavitation and evaporation waves</subfield>
+    <subfield code="s">J.Comput.Phys.,259,331-357</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Shahbazi, N. Albin, O. Bruno, J. Hesthaven</subfield>
+    <subfield code="m">Multi-domain Fourier-continuation/WENO hybrid solver for conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,230,8779-8796</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">K. Shahbazi, J.S. Hesthaven, and X. Zhu</subfield>
+    <subfield code="m">Multi-dimensional hybrid Fourier continuation-WENO solvers for conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,253,209-225</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.-W. Shu</subfield>
+    <subfield code="m">Essentially non-oscillatory and weighted essentially non-oscillatory schemes for hyperbolic conservation laws, in: A. Quarteroni (Ed Advanced Numerical Approximation of Nonlinear Hyperbolic Equations, Lecture Notes in Mathematics, vol 1697 Cetraro, Italy,  325</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Shu</subfield>
+    <subfield code="m">High order weighted essentially nonoscillatory schemes for convection dominated problems</subfield>
+    <subfield code="s">SIAM Rev.,51,82-126</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C.-W. Shu and S. Osher</subfield>
+    <subfield code="m">Efficient implementation of essentially non-oscillatory shock capturing schemes</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439-471</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">V.A. Titarev and E.F. Toro</subfield>
+    <subfield code="m">Finite-volume WENO schemes for three-dimensional conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,201,238-260</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Vilar, C.-W. Shu and P.-H. Maire</subfield>
+    <subfield code="m">Positivity-preserving cell-centered Lagrangian schemes for multi-material compressible flows: From first-order to high-orders. Part I : The one-dimensional case</subfield>
+    <subfield code="s">J.Comput.Phys.,312,385-415</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Vilar, C.-W. Shu and P.-H. Maire</subfield>
+    <subfield code="m">Positivity-preserving cell-centered Lagrangian schemes for multi-material compressible flows: From first-order to high-orders. Part II: The two-dimensional case</subfield>
+    <subfield code="s">J.Comput.Phys.,312,416-442</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Xiong, J.-M. Qiu, and Z. Xu</subfield>
+    <subfield code="m">Parametrized positivity preserving flux limiters for high order finite difference WENO scheme solving compressible Euler equations</subfield>
+    <subfield code="s">J.Sci.Comput.,67,1066-1088</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W. Shu</subfield>
+    <subfield code="m">On maximum-principle-satisfying high order schemes for scalar conservation laws</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3091-3120</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W. Shu</subfield>
+    <subfield code="m">On positivity preserving high order discontinuous Galerkin schemes for compressible Euler equations on rectangular meshes</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8918-8934</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W Shu</subfield>
+    <subfield code="m">Positivity-preserving high order discontinuous Galerkin schemes for compressible Euler equations with source terms</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1238-1248</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W. Shu</subfield>
+    <subfield code="m">Maximum-principle-satisfying and positivity-preserving high-order schemes for conservation laws: survey and new developments, Proceedings of the Royal Society A 467  2752-2776</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W. Shu</subfield>
+    <subfield code="m">Robust high order discontinuous Galerkin schemes for two-dimensional gaseous detonations</subfield>
+    <subfield code="s">J.Comput.Phys.,231,653-665</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">X. Zhang and C.-W. Shu</subfield>
+    <subfield code="m">Positivity-preserving high order finite difference WENO schemes for compressible Euler equations</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2245-2258</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302206/S0021999117302206.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

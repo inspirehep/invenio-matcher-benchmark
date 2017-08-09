@@ -1,0 +1,307 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.ascom.2017.01.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jennings, E.</subfield>
+    <subfield code="v">Center for Particle Astrophysics, Fermi National Accelerator Laboratory MS209, P.O. Box 500, Kirk Rd. &amp; Pine St., Batavia, IL 60510-0500, United States</subfield>
+    <subfield code="v">Kavli Institute for Cosmological Physics, Enrico Fermi Institute, University of Chicago, Chicago, IL 60637, United States</subfield>
+    <subfield code="m">elise@fnal.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">astroABC : An Approximate Bayesian Computation Sequential Monte Carlo sampler for cosmological parameter estimation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-04</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">7</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Given the complexity of modern cosmological parameter inference where we are faced with non-Gaussian data and noise, correlated systematics and multi-probe correlated datasets,the Approximate Bayesian Computation (ABC) method is a promising alternative to traditional Markov Chain Monte Carlo approaches in the case where the Likelihood is intractable or unknown. The ABC method is called “Likelihood free” as it avoids explicit evaluation of the Likelihood by using a forward model simulation of the data which can include systematics. We introduce astroABC , an open source ABC Sequential Monte Carlo (SMC) sampler for parameter estimation. A key challenge in astrophysics is the efficient use of large multi-probe datasets to constrain high dimensional, possibly correlated parameter spaces. With this in mind astroABC allows for massive parallelization using MPI, a framework that handles spawning of processes across multiple nodes. A key new feature of astroABC is the ability to create MPI groups with different communicators, one for the sampler and several others for the forward model simulation, which speeds up sampling time considerably. For smaller jobs the Python multiprocessing option is also available. Other key features of this new sampler include: a Sequential Monte Carlo sampler; a method for iteratively adapting tolerance levels; local covariance estimate using scikit-learn’s KDTree; modules for specifying optimal covariance matrix for a component-wise or multivariate normal perturbation kernel and a weighted covariance metric; restart files output frequently so an interrupted sampling run can be resumed at any iteration; output and restart files are backed up at every iteration; user defined distance metric and simulation methods; a module for specifying heterogeneous parameter priors including non-standard prior PDFs; a module for specifying a constant, linear, log or exponential tolerance level; well-documented examples and sample scripts. This code is hosted online at https://github.com/EliseJ/astroABC .</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Theory cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cosmological parameters galaxies</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Statistics methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Statistical (stars)</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Supernovae</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Madigan, M.</subfield>
+    <subfield code="v">Department of Theoretical Physics, University of Dublin, Trinity College, Dublin, Ireland</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Astron.Comput.</subfield>
+    <subfield code="c">16-22</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Akeret, J.</subfield>
+    <subfield code="m">Astrophysics Source Code Library</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Akeret (2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/biomet/asp052</subfield>
+    <subfield code="h">Beaumont, M.A.</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Biometrika,96,983</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beaumont, M.A.</subfield>
+    <subfield code="h">Zhang, W.</subfield>
+    <subfield code="h">Balding, D.J.</subfield>
+    <subfield code="v">162</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">Beaumont et al (2002</subfield>
+    <subfield code="s">GENETICS,162,2025</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cameron, E.</subfield>
+    <subfield code="h">Pettitt, A.N.</subfield>
+    <subfield code="v">425</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">Cameron and Pettitt (2012</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,425,44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Csilléry, K., François, O., Blum, M.G.</subfield>
+    <subfield code="m">ArXiv e-prints</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Csilléry et al (2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dodelson, S.</subfield>
+    <subfield code="h">Schneider, M.D.</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Dodelson and Schneider (2013</subfield>
+    <subfield code="s">Phys.Rev.,D88,063537</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eifler, T.</subfield>
+    <subfield code="h">Krause, E.</subfield>
+    <subfield code="h">Schneider, P.</subfield>
+    <subfield code="h">Honscheid, K.</subfield>
+    <subfield code="v">440</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">Eifler et al (2014</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,440,1379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Filippi, S., Barnes, C., Cornebise, J., Stumpf, M.P.H.</subfield>
+    <subfield code="m">ArXiv e-prints</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Filippi et al (2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goodman, J.</subfield>
+    <subfield code="h">Weare, J.</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">Goodman and Weare (2010</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.,5,65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heavens, A.</subfield>
+    <subfield code="m">ArXiv e-prints</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Heavens (2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ishida, E.E.O.</subfield>
+    <subfield code="h">Vitenti, S.D.P.</subfield>
+    <subfield code="h">Penna-Lima, M.</subfield>
+    <subfield code="h">Cisewski, J.</subfield>
+    <subfield code="h">de Souza, R.S.</subfield>
+    <subfield code="h">Trindade, A.M.M.</subfield>
+    <subfield code="h">Cameron, E.</subfield>
+    <subfield code="h">Busti, V.C.</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Ishida et al (2015</subfield>
+    <subfield code="s">Astron.Comput.,13,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jaynes, E.T.</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, UK</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">Jaynes (2003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ledoit, O.</subfield>
+    <subfield code="h">Wolf, M.</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">Ledoit and Wolf (2004</subfield>
+    <subfield code="s">J.Multivariate Anal.,88,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lewis, A.</subfield>
+    <subfield code="h">Bridle, S.</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">Lewis and Bridle (2002</subfield>
+    <subfield code="s">Phys.Rev.,D66,103511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, C.-A.</subfield>
+    <subfield code="h">Kilbinger, M.</subfield>
+    <subfield code="v">583</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Lin and Kilbinger (2015</subfield>
+    <subfield code="s">Astron.Astrophys.,583,A70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marjoram, P.</subfield>
+    <subfield code="h">Molitor, J.</subfield>
+    <subfield code="h">Plagnol, V.</subfield>
+    <subfield code="h">Tavaré, S.</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">Marjoram et al (2003</subfield>
+    <subfield code="s">Proc.Nat.Acad.Sci.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Metropolis, N.</subfield>
+    <subfield code="h">Rosenbluth, A.W.</subfield>
+    <subfield code="h">Rosenbluth, M.N.</subfield>
+    <subfield code="h">Teller, A.H.</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1953</subfield>
+    <subfield code="o">Metropolis et al (1953</subfield>
+    <subfield code="s">J.Chem.Phys.,21,1087</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morrison, C.B.</subfield>
+    <subfield code="h">Schneider, M.D.</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Morrison and Schneider (2013</subfield>
+    <subfield code="s">J.Cosmol.Astropart.Phys.,11,009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nicola, A., Refregier, A. Amara, A.</subfield>
+    <subfield code="a">doi:10.1103/PhysRevD.94.083517</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="0">1473776</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Nicola et al (2016</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Planck Collaboration ArXiv e-prints</subfield>
+    <subfield code="h">Adam, R., Ade, P.A.R, Aghanim, N., Akrami, Y., Alves, M.I.R., Arnaud, M., Arroja, F., Aumont, J., Baccigalupi, C., et al.</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Planck Collaboration et al (2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sisson, S., Fan, Y.</subfield>
+    <subfield code="m">ArXiv e-prints</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Sisson and Fan (2010</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toni, T., Welch, D., Strelkowa, N., Ipsen, A., Stumpf, M.P.H.</subfield>
+    <subfield code="a">doi:10.1098/rsif.2008.0172</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Toni et al (2009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Trotta, R.</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">Trotta (2008</subfield>
+    <subfield code="s">Contemp.Phys.,49,71</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Turner, B.</subfield>
+    <subfield code="h">Van Zandt, T.</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">Turner and zandt (2014</subfield>
+    <subfield code="s">Psychometrika,79,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weinberg, D.H.</subfield>
+    <subfield code="h">Mortonson, M.J.</subfield>
+    <subfield code="h">Eisenstein, D.J.</subfield>
+    <subfield code="h">Hirata, C.</subfield>
+    <subfield code="h">Riess, A.G.</subfield>
+    <subfield code="h">Rozo, E.</subfield>
+    <subfield code="v">530</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Weinberg et al (2013</subfield>
+    <subfield code="s">Phys.Rep.,530,87</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weyant, A.</subfield>
+    <subfield code="h">Schafer, C.</subfield>
+    <subfield code="h">Wood-Vasey, W.M.</subfield>
+    <subfield code="v">764</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">Weyant et al (2013</subfield>
+    <subfield code="s">Astrophys.J.,764,116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zuntz, J.</subfield>
+    <subfield code="h">Paterno, M.</subfield>
+    <subfield code="h">Jennings, E.</subfield>
+    <subfield code="h">Rudd, D.</subfield>
+    <subfield code="h">Manzotti, A.</subfield>
+    <subfield code="h">Dodelson, S.</subfield>
+    <subfield code="h">Bridle, S.</subfield>
+    <subfield code="h">Sehrish, S.</subfield>
+    <subfield code="h">Kowalkowski, J.</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">Zuntz et al (2015</subfield>
+    <subfield code="s">Astron.Comput.,12,45</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/2213-1337/S2213133717X00024/S2213133716300907/S2213133716300907.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

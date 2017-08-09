@@ -1,0 +1,605 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">A practical guide to event generation for prompt photon production with Sherpa</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">The production of prompt photons is one of the most relevant scattering processes studied at hadron–hadron colliders in recent years. This article will give an overview of the different approaches used to simulate prompt photon production in the Sherpa event generator framework. Special emphasis is placed on a complete simulation of this process including fragmentation configurations. As a novel application a merged simulation of $\gamma \gamma $ and $\gamma \gamma +$jet production at NLO accuracy is presented and compared to measurements from the ATLAS experiment.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">044007</subfield>
+  <subfield code="v">G44</subfield>
+  <subfield code="n">4</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6471/aa5f29</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">15</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-03</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-2893-6412</subfield>
+  <subfield code="a">Siegert, Frank</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Direct productionMatrix elements for {pp}\to \gamma +X production are calculated at the leading order and the parton shower adds QCD emissions, see figure, 1: #jpgaa5f29f1(a). This implies a strict hierarchy of scales in the shower evolution variable t, with QCD parton emissions {t}_{\mathrm{QCD}} allowed only at a lower (softer) scale than the factorisation scale defined by the direct photon production process {t}_{\mathrm{QED}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Fragmentation productionParton showers can be extended straightforwardly to include not only QCD splitting functions, but also their QED equivalent [, 18: #jpgaa5f29bib18a]. Thus, photons can be emitted from quark lines, resumming the corresponding logarithmic enhancement from collinear configurations.This implies a combined shower evolution with a &apos;competition&apos; for the emission phase space between QED and QCD emissions. Since QCD and QED emissions do not interfere, the Sudakov form factor takes a factorised form [, 13: #jpgaa5f29bib13]: \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{\rm{\Delta }}({\mu }_{0}^{2},{Q}^{2})={{\rm{\Delta }}}^{\mathrm{QCD}}({\mu }_{0}^{2},{Q}^{2})\ {{\rm{\Delta }}}^{\mathrm{QED}}({\mu }_{0}^{2},{Q}^{2}),\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 1 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} where the QED part, \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\rm{\Delta }}}^{\mathrm{QED}}({\mu }_{0}^{2},{Q}^{2})=\exp \left\{\,-{\int }_{{\mu }_{0}^{2}}^{{Q}^{2}}\displaystyle \frac{{\rm{d}}t}{t}\int {\rm{d}}z\,\displaystyle \sum _{i}\displaystyle \frac{1}{2}\,{{ \mathcal K }}_{i}^{\,\mathrm{QED}}(z,t)\ \right\},\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 2 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} contains the QED splitting functions {{ \mathcal K }}_{i}^{\,\mathrm{QED}}(z,t), in direct analogy to the QCD part.The production of photon pairs through this fragmentation mechanism requires the inclusion of matrix elements for {pp}\to \gamma {\rm{}}\,{\rm{+}}\,{\rm{jet}} (single fragmentation) and even {pp}\to {\rm{jet}}\,{\rm{+}}\,{\rm{jet}} (double fragmentation) in the simulation. A pictorial representation is shown in figure, 1: #jpgaa5f29f1(b).Again, as this is a parton shower, one encounters a strict hierarchy of scales opposite to the case above, with the QED emissions {t}_{\mathrm{QED}} being softer than the core parton production process {t}_{\mathrm{QCD}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Non-prompt productionHadrons decaying into photons, like {\pi }^{0}\to \gamma \gamma, see figure, 1: #jpgaa5f29f1(c), represent a photon contribution that is always present, but can be disentangled from the prompt production above in a physical and to some extent even experimentally meaningful way, and shall thus not be discussed in the course of this work</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Aad G et al.</subfield>
+  <subfield code="c">ATLAS Collaboration</subfield>
+  <subfield code="m">Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B716,1-29</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2012.08.020</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1124337</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chatrchyan S et al.</subfield>
+  <subfield code="c">CMS Collaboration</subfield>
+  <subfield code="m">Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B716,30-61</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2012.08.021</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1124338</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="c">ATLAS Collaboration</subfield>
+  <subfield code="m">Search for scalar diphoton resonances with 15.4 fb-1 of data collected at s = 13 TeV in 2015 andwith the ATLAS detector Tech. Report</subfield>
+  <subfield code="r">ATLAS-CONF-2016-059</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1480039</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Khachatryan V</subfield>
+  <subfield code="m">(The CMS Collaboration) et al Search for high-mass diphoton resonances in proton-proton collisions at 13 TeV and combination with 8 TeV search Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B767,147-70</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2017.01.027</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="0">1485702</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Badger S, Guffanti A and Yundin V</subfield>
+  <subfield code="m">Next-to-leading order QCD corrections to di-photon production in association with up to three jets at the Large Hadron Collider J. High Energy Phys. JHEP03122, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP03(2014)122</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1273454</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Bern Z, Dixon L</subfield>
+  <subfield code="m">Febres Cordero F, Höche S, Ita H, Kosower D A, Maître D and Ozeren K J Next-to-leading order W + 5 -Jet production at the LHC Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D88,014025</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.88.014025</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1227206</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Glover E W N and Morgan A G</subfield>
+  <subfield code="m">Measuring the photon fragmentation function at LEP Crossref:</subfield>
+  <subfield code="s">Z.Phys.,C62,311-22</subfield>
+  <subfield code="a">doi:10.1007/BF01560245</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">356093</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Catani S, Fontannaz M, Guillet J-P and Pilon E</subfield>
+  <subfield code="m">Isolating prompt photons with narrow cones J. High Energy Phys. JHEP09007, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2013)007</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1240110</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Frixione S</subfield>
+  <subfield code="m">Isolated photons in perturbative QCD Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B429,369-74</subfield>
+  <subfield code="a">doi:10.1016/S0370-2693(98)00454-7</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">466689</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Llewellyn QCD predictions for processes involving real photons Crossref:</subfield>
+  <subfield code="h">Smith C H</subfield>
+  <subfield code="s">Phys.Lett.,B79,83</subfield>
+  <subfield code="a">doi:10.1016/0370-2693(78)90441-0</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="0">6861</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Catani S, Fontannaz M, Guillet J-P and Pilon E</subfield>
+  <subfield code="m">Cross section of isolated prompt photons in hadron-hadron collisions J. High Energy Phys. JHEP05028, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2002/05/028</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">584902</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aurenche P, Fontannaz M, Guillet J-P, Pilon E and Werlen M</subfield>
+  <subfield code="m">Recent critical study of photon production in hadronic collisions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D73,094007</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.73.094007</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">710622</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Belghobsi Z et al.</subfield>
+  <subfield code="m">Photon-jet correlations and constraints on fragmentation functions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D79,114024</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.79.114024</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">816465</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Binoth T, Guillet J-P, Pilon E and Werlen M</subfield>
+  <subfield code="m">A full next-to-leading order study of direct photon pair production in hadronic collisions Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C16,311-30</subfield>
+  <subfield code="a">doi:10.1007/s100520050024</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">510079</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Binoth T, Guillet J-P, Pilon E and Werlen M</subfield>
+  <subfield code="m">Beyond leading order effects in photon pair production at the Tevatron Crossref:</subfield>
+  <subfield code="p">Fermilab</subfield>
+  <subfield code="s">Phys.Rev.,D63,114016</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.63.114016</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">538787</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Catani S, Cieri L, de Florian D, Ferrera G and Grazzini M</subfield>
+  <subfield code="m">Diphoton production at hadron colliders: a fully-differential QCD calculation at NNLO Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,108,072001</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.108.072001</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">939520</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Campbell J M, Ellis R K</subfield>
+  <subfield code="m">Li Y and Williams CPredictions for diphoton production at the LHC through NNLO in QCD J. High Energy Phys. JHEP07148, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP07(2016)148</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1426698</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Aad G et al.</subfield>
+  <subfield code="c">ATLAS collaboration</subfield>
+  <subfield code="m">Measurement of isolated-photon pair production in pp collisions at s = 7 TeV with the ATLAS detector J. High Energy Phys. JHEP01086, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP01(2013)086</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1199269</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Aaltonen T et al.</subfield>
+  <subfield code="c">CDF collaboration</subfield>
+  <subfield code="m">Measurement of the cross section for prompt isolated diphoton production using the full CDF run II data sample Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,110,101801</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.110.101801</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1207879</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Abazov V M et al.</subfield>
+  <subfield code="c">D0 Collaboration</subfield>
+  <subfield code="m">Measurement of the differential cross sections for isolated direct photon pair production in p p ¯ collisions at s = 1.96 TeV Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B725,6-14</subfield>
+  <subfield code="a">doi:10.1016/j.physletb.2013.06.036</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1215307</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chatrchyan S et al.</subfield>
+  <subfield code="c">CMS Collaboration</subfield>
+  <subfield code="m">Measurement of differential cross sections for the production of a pair of isolated photons in pp collisions at s = 7 TeV Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C74,3129</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-014-3129-3</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1298393</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Höche S, Schumann S and Siegert F</subfield>
+  <subfield code="m">Hard photon production and matrix-element parton-shower merging Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D81,034026</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.81.034026</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">840527</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Odaka S and Kurihara Y</subfield>
+  <subfield code="m">Consistent simulation of non-resonant diphoton production in hadron collisions including associated jet production up to two jets Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D94,114015</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.94.114015</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1473349</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">D’Errico L and Richardson P</subfield>
+  <subfield code="m">Next-to-leading-order Monte Carlo simulation of diphoton production in Hadronic collisions J. High Energy Phys. JHEP02130, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP02(2012)130</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">914215</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">Je&amp;zcaron</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="m">o T Prompt photon production and photon-hadron jet correlations with POWHEG J. High Energy Phys. JHEP11033, Crossref:</subfield>
+  <subfield code="h">Klasen M and König F</subfield>
+  <subfield code="a">doi:10.1007/JHEP11(2016)033</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1490664</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Gleisberg T, Höche S, Krauss F, Schönherr M, Schumann S, Siegert F and Winter J</subfield>
+  <subfield code="m">Event generation with Sherpa1.1 J. High Energy Phys. JHEP02007, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2009/02/007</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">803708</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Seymour M H</subfield>
+  <subfield code="m">Photon radiation in final state parton showering Crossref:</subfield>
+  <subfield code="s">Z.Phys.,C56,161-70</subfield>
+  <subfield code="a">doi:10.1007/BF01589719</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="0">324432</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Seymour M H</subfield>
+  <subfield code="m">Soft isolated photon production as a probe of the parton shower mechanism Crossref:</subfield>
+  <subfield code="s">Z.Phys.,C64,445-52</subfield>
+  <subfield code="a">doi:10.1007/BF01560106</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="0">374616</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Buskulic D et al.</subfield>
+  <subfield code="c">ALEPH Collaboration</subfield>
+  <subfield code="m">First measurement of the quark-to-photon fragmentation function Crossref:</subfield>
+  <subfield code="s">Z.Phys.,C69,365-78</subfield>
+  <subfield code="a">doi:10.1007/s002880050037</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="0">398193</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Catani S, Krauss F, Kuhn R and Webber B R</subfield>
+  <subfield code="m">QCD matrix elements + parton showers J. High Energy Phys. JHEP11063, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2001/11/063</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="0">563400</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lönnblad L</subfield>
+  <subfield code="m">Correcting the colour-dipole cascade model with fixed order matrix elements J. High Energy Phys. JHEP05046, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2002/05/046</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">568815</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mangano M L, Moretti M and Pittau R</subfield>
+  <subfield code="m">Multijet matrix elements and shower evolution in hadronic collisions: Wb b ¯ + n -jets as a case study Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B632,343-62</subfield>
+  <subfield code="a">doi:10.1016/S0550-3213(02)00249-3</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">561203</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Krauss F</subfield>
+  <subfield code="m">Matrix elements and parton showers in hadronic interactions J. High Energy Phys. JHEP08015, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2002/08/015</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">587271</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hamilton K, Richardson P and Tully J</subfield>
+  <subfield code="m">A modified CKKW matrix element merging approach to angular-ordered parton showers J. High Energy Phys. JHEP11038, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2009/11/038</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">820833</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lönnblad L and Prestel S</subfield>
+  <subfield code="m">Matching tree-level matrix elements with interleaved showers J. High Energy Phys. JHEP03019, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP03(2012)019</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">928181</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Höche S, Krauss F, Schumann S and Siegert F</subfield>
+  <subfield code="m">QCD matrix elements and truncated showers J. High Energy Phys. JHEP05053, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2009/05/053</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">814892</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Catani S, Dokshitzer Y L and Webber B R</subfield>
+  <subfield code="m">The k &amp;bot</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="m">clustering algorithm for jets in deep inelastic scattering and hadron collisions Crossref:</subfield>
+  <subfield code="s">Phys.Lett.,B285,291-9</subfield>
+  <subfield code="a">doi:10.1016/0370-2693(92)91467-N</subfield>
+  <subfield code="0">334096</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Catani S, Dokshitzer Y L, Seymour M H and Webber B R</subfield>
+  <subfield code="m">Longitudinally-invariant k &amp;bot</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">-clustering algorithms for hadron-hadron collisions Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B406,187-224</subfield>
+  <subfield code="a">doi:10.1016/0550-3213(93)90166-M</subfield>
+  <subfield code="0">354686</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Dittmaier S</subfield>
+  <subfield code="m">A general approach to photon radiation off fermions Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B565,69-122</subfield>
+  <subfield code="a">doi:10.1016/S0550-3213(99)00563-5</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">498796</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Dittmaier S, Kabelschacht A and Kasprzik T</subfield>
+  <subfield code="m">Polarized QED splittings of massive fermions and dipole subtraction for non-collinear-safe observables Crossref:</subfield>
+  <subfield code="s">Nucl.Phys.,B800,146-89</subfield>
+  <subfield code="a">doi:10.1016/j.nuclphysb.2008.03.010</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">779156</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Höche S, Krauss F, Schönherr M and Siegert F</subfield>
+  <subfield code="m">QCD matrix elements + parton showers: the NLO case J. High Energy Phys. JHEP04027, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP04(2013)027</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1123387</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">de Florian D, Sborlini G F R and Rodrigo G</subfield>
+  <subfield code="m">QED corrections to the Altarelli-Parisi splitting functions Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C76,282</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-016-4131-8</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1407853</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Schumann S and Krauss F</subfield>
+  <subfield code="m">A parton shower algorithm based on Catani-Seymour dipole factorisation J. High Energy Phys. JHEP03038, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2008/03/038</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">760143</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Krauss F, Kuhn R and Soff G</subfield>
+  <subfield code="m">AMEGIC++ 1.0: A matrix element generator in C++ J. High Energy Phys. JHEP02044, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2002/02/044</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">562391</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Gleisberg T and Höche S</subfield>
+  <subfield code="m">Comix, a new matrix element generator J. High Energy Phys. JHEP12039, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2008/12/039</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">793879</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Cascioli F, Maierhöfer P and Pozzorini S</subfield>
+  <subfield code="m">Scattering amplitudes with open loops Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,108,111601</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.108.111601</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">946998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Ball R D et al.</subfield>
+  <subfield code="m">(The NNPDF Collaboration)Parton distributions for the LHC run II J. High Energy Phys. JHEP04040, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP04(2015)040</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1325552</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Höche S, Krauss F, Schönherr M and Siegert F</subfield>
+  <subfield code="m">A critical appraisal of NLO+PS matching methods J. High Energy Phys. JHEP09049, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP09(2012)049</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">944643</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Frixione S and Webber B R</subfield>
+  <subfield code="m">Matching NLO QCD computations and parton shower simulations J. High Energy Phys. JHEP06029, Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1126-6708/2002/06/029</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">585687</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Höche S, Krauss F, Schönherr M and Siegert F</subfield>
+  <subfield code="m">NLO matrix elements and truncated showers J. High Energy Phys. JHEP08123, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/JHEP08(2011)123</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">867171</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Carli T, Gehrmann T and Höche S</subfield>
+  <subfield code="m">Hadronic final states in deep-inelastic scattering with Sherpa Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C67,73</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-010-1261-2</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">840637</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Buckley A et al.</subfield>
+  <subfield code="m">Rivet user manual Crossref:</subfield>
+  <subfield code="s">Comput.Phys.Commun.,184,2803-19</subfield>
+  <subfield code="a">doi:10.1016/j.cpc.2013.05.021</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">847552</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Dulat S, Hou T-J, Gao J, Guzzi M, Huston J, Nadolsky P, Pumplin J, Schmidt C, Stump D and Yuan C P</subfield>
+  <subfield code="m">New parton distribution functions from a global analysis of quantum chromodynamics Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D93,033006</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.93.033006</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1377752</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Harland-Lang L A, Martin A D, Motylinski P and Thorne R S</subfield>
+  <subfield code="m">Parton distributions in the LHC era: MMHT 2014 PDFs Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C75,204</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-015-3397-6</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="0">1334137</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Bothmann E, Schönherr M and Schumann S</subfield>
+  <subfield code="m">Reweighting QCD matrix-element and parton-shower calculations Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.,C76,590</subfield>
+  <subfield code="a">doi:10.1140/epjc/s10052-016-4430-0</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1472820</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Special issue: emerging leaders</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Special issue: emerging leaders</subfield>
+ </datafield>
+</record>

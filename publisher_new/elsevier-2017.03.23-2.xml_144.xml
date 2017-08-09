@@ -1,0 +1,568 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.046</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Laboure, Vincent M.</subfield>
+    <subfield code="j">ORCID:0000-0001-9316-9048</subfield>
+    <subfield code="v">Nuclear Engineering Department, Texas A&amp;M; University, College Station, TX, 77843, USA</subfield>
+    <subfield code="m">vincent.laboure@tamu.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Implicit filtered P N for high-energy density thermal radiation transport using discontinuous Galerkin finite elements</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">20</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this work, we provide a fully-implicit implementation of the time-dependent, filtered spherical harmonics (FP N ) equations for non-linear, thermal radiative transfer. We investigate local filtering strategies and analyze the effect of the filter on the conditioning of the system, showing in particular that the filter improves the convergence properties of the iterative solver. We also investigate numerically the rigorous error estimates derived in the linear setting, to determine whether they hold also for the non-linear case. Finally, we simulate a standard test problem on an unstructured mesh and make comparisons with implicit Monte Carlo (IMC) calculations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Radiation transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Thermal radiative transfer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spherical harmonics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Spectral filtering</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fully implicit methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous Galerkin</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">McClarren, Ryan G.</subfield>
+    <subfield code="v">Nuclear Engineering Department, Texas A&amp;M; University, College Station, TX, 77843, USA</subfield>
+    <subfield code="m">rgm@tamu.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hauck, Cory D.</subfield>
+    <subfield code="v">Computational and Applied Mathematics Group, Oak Ridge National Laboratory, Oak Ridge, TN, 37831, USA</subfield>
+    <subfield code="v">Department of Mathematics, University of Tennessee Knoxville, TN, 37996-1320, USA</subfield>
+    <subfield code="m">hauckc@ornl.gov</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">624-643</subfield>
+    <subfield code="v">321</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fleck, J.A.</subfield>
+    <subfield code="h">Cummings, J.D.</subfield>
+    <subfield code="t">An implicit Monte Carlo scheme for calculating time and frequency dependent nonlinear radiation transport</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,8,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, Ryan G.</subfield>
+    <subfield code="h">Urbatsch, Todd J.</subfield>
+    <subfield code="t">A modified implicit Monte Carlo method for time-dependent radiative transfer with adaptive material coupling</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsen, Edward W.</subfield>
+    <subfield code="h">Morel, Jim E.</subfield>
+    <subfield code="t">Advances in discrete-ordinates methodology</subfield>
+    <subfield code="p">Netherlands: Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="q">Nuclear Computational Science</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, Thomas A.</subfield>
+    <subfield code="h">Holloway, James P.</subfield>
+    <subfield code="t">Two-dimensional time dependent Riemann solvers for neutron transport</subfield>
+    <subfield code="v">210</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,210,386</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-3-540-85369-5</subfield>
+    <subfield code="h">Kanschat, G.</subfield>
+    <subfield code="t">Solution of radiative transfer problems with finite elements</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="e">Kanschat,G.</subfield>
+    <subfield code="e">Meinköhn,E.</subfield>
+    <subfield code="e">Rannacher,R.</subfield>
+    <subfield code="e">Wehrse,R.</subfield>
+    <subfield code="q">Numerical Methods in Multidimensional Radiative Transfer</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, T.A.</subfield>
+    <subfield code="h">Holloway, J.P.</subfield>
+    <subfield code="t">One-dimensional Riemann solvers and the maximum entropy closure</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Quant.Spectrosc.Radiat.Transf.,69,543</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="t">High-order entropy-based closures for linear transport in slab geometries</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Commun.Math.Sci.,9,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dubroca, B.</subfield>
+    <subfield code="h">Fuegas, J.-L.</subfield>
+    <subfield code="t">Étude théorique et numérique d'une hiérarchie de modèles aux moments pour le transfert radiatif</subfield>
+    <subfield code="v">329</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">C.R.Acad.Sci.Paris,I329,915</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, Ryan G.</subfield>
+    <subfield code="h">Hauck, Cory D.</subfield>
+    <subfield code="t">Robust and accurate filtered spherical harmonics expansions for radiative transfer</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,229,5597</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garrett, C.K.</subfield>
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="t">A comparison of moment closures for linear kinetic transport equations: the line source benchmark</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Transp.Theory Stat.Phys.,42,203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/090764918</subfield>
+    <subfield code="h">Hauck, Cory</subfield>
+    <subfield code="h">McClarren, Ryan G.</subfield>
+    <subfield code="t">Positive <math altimg="si227.gif" display="inline" overflow="scroll"><msub><mrow><mi>P</mi></mrow><mrow><mi>N</mi></mrow></msub></math> closures</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,2603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laiu, M.P.</subfield>
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="h">McClarren, R.G.</subfield>
+    <subfield code="h">O'Leary, D.P.</subfield>
+    <subfield code="h">Tits, A.L.</subfield>
+    <subfield code="t">Positive filtered p n moment closures for linear kinetic equations</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in press</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, Ryan G.</subfield>
+    <subfield code="h">Hauck, Cory</subfield>
+    <subfield code="t">Simulating radiative transfer with filtered spherical harmonics</subfield>
+    <subfield code="v">374</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Lett.,A374,2290</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, R.G.</subfield>
+    <subfield code="h">Hauck, C.D.</subfield>
+    <subfield code="h">Lowrie, R.B.</subfield>
+    <subfield code="t">Filtered spherical harmonics methods for transport problems</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="q">Proceedings of the 2009 International Conference on Mathematics and Computational Methods and Reactor Physics</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ahrens, C.</subfield>
+    <subfield code="h">Merton, S.</subfield>
+    <subfield code="t">An improved filtered spherical harmonic method for transport calculations</subfield>
+    <subfield code="p">Proceedings of the 2013 International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering, M&amp;C; 2013, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Radice, David</subfield>
+    <subfield code="h">Abdikamalov, Ernazar</subfield>
+    <subfield code="h">Rezzolla, Luciano</subfield>
+    <subfield code="h">Ott, Christian D.</subfield>
+    <subfield code="t">A new spherical harmonics scheme for multi-dimensional radiation transport I. Static matter configurations</subfield>
+    <subfield code="v">242</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,242,648</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gesh, Christopher J.</subfield>
+    <subfield code="t">Finite element methods for second order forms of the transport equation</subfield>
+    <subfield code="p">Texas A&amp;M; University</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Manteuffel, T.A.</subfield>
+    <subfield code="h">Ressel, K.J.</subfield>
+    <subfield code="t">Least-squares finite-element solution of the neutron transport equation in diffusive regimes</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,806</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Manteuffel, T.A.</subfield>
+    <subfield code="h">Ressel, K.J.</subfield>
+    <subfield code="h">Starke, G.</subfield>
+    <subfield code="t">A boundary functional for the least-squares finite-element solution of neutron transport problems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,37,556</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Egger, Herbert</subfield>
+    <subfield code="h">Schlottbom, Matthias</subfield>
+    <subfield code="t">A mixed variational framework for the radiative transfer equation</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/978-3-540-85369-5</subfield>
+    <subfield code="h">Wright, S.</subfield>
+    <subfield code="h">Arridge, S.</subfield>
+    <subfield code="h">Schweiger, M.</subfield>
+    <subfield code="t">A finite element method for the even-parity radiative transfer equation using the <math altimg="si227.gif" display="inline" overflow="scroll"><msub><mrow><mi>P</mi></mrow><mrow><mi>N</mi></mrow></msub></math> approximation</subfield>
+    <subfield code="p">Berlin, Heidelberg: Springer</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="e">Kanschat,G.</subfield>
+    <subfield code="e">Meinköhn,E.</subfield>
+    <subfield code="e">Rannacher,R.</subfield>
+    <subfield code="e">Wehrse,R.</subfield>
+    <subfield code="q">Numerical Methods in Multidimensional Radiative Transfer</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morel, J.E.</subfield>
+    <subfield code="h">McGhee, J.M.</subfield>
+    <subfield code="t">A self-adjoint angular flux equation</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,132,312</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pain, C.</subfield>
+    <subfield code="h">Eaton, M.</subfield>
+    <subfield code="h">Smedley-Stevenson, R.</subfield>
+    <subfield code="h">Goddard, A.</subfield>
+    <subfield code="h">Piggott, M.</subfield>
+    <subfield code="h">de Oliveira, C.</subfield>
+    <subfield code="t">Streamline upwind Petrov–Galerkin methods for the steady-state Boltzmann transport equation</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,4448</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pain, C.</subfield>
+    <subfield code="h">Eaton, M.</subfield>
+    <subfield code="h">Smedley-Stevenson, R.</subfield>
+    <subfield code="h">Goddard, A.</subfield>
+    <subfield code="h">Piggott, M.</subfield>
+    <subfield code="h">de Oliveira, C.</subfield>
+    <subfield code="t">Space–time streamline upwind Petrov–Galerkin methods for the Boltzmann transport equation</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,4334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Reed, W.H.</subfield>
+    <subfield code="h">Hill, T.</subfield>
+    <subfield code="t">Triangular mesh methods for the neutron transport equation</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="m">Los Alamos Report LA-UR-73-479</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guermond, J.L.</subfield>
+    <subfield code="h">Kanschat, G.</subfield>
+    <subfield code="t">Asymptotic analysis of upwind discontinuous Galerkin approximation of the radiative transport equation in the diffusion limit</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,48,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="h">Morel, J.E.</subfield>
+    <subfield code="h">Miller, W.F.</subfield>
+    <subfield code="t">Asymptotic solutions of numerical transport problems in optically thick, diffusive regimes</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,69,283</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.L.</subfield>
+    <subfield code="t">Discontinuous finite element transport solutions in thick diffusive problems</subfield>
+    <subfield code="v">137</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,137,298</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.522618</subfield>
+    <subfield code="h">Habetler, G.J.</subfield>
+    <subfield code="h">Matkowsky, B.J.</subfield>
+    <subfield code="t">Uniform asymptotic expansions in transport theory with small mean free paths, and the diffusion approximation</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Math.Phys.,16,846</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1666510</subfield>
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="h">Keller, J.B.</subfield>
+    <subfield code="t">Asymptotic solution of neutron transport problems for small mean free paths</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Math.Phys.,15,75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.04.029</subfield>
+    <subfield code="h">McClarren, R.G.</subfield>
+    <subfield code="h">Evans, T.M.</subfield>
+    <subfield code="h">Lowrie, R.B.</subfield>
+    <subfield code="h">Densmore, J.D.</subfield>
+    <subfield code="t">Semi-implicit time integration for thermal radiative transfer</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frank, Martin</subfield>
+    <subfield code="h">Hauck, Cory</subfield>
+    <subfield code="h">Kuepper, Kerstin</subfield>
+    <subfield code="t">Convergence of filtered spherical harmonic equations for radiation transport</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Commun.Math.Sci.,14,1443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Graziani, F.</subfield>
+    <subfield code="h">LeBlanc, J.</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">Tech. Rep. UCRL-MI-143393</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pomraning, G.</subfield>
+    <subfield code="t">The Equations of Radiation Hydrodynamics, International Series of Monographs in Natural Philosophy, </subfield>
+    <subfield code="p">Pergamon Press</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lowrie, Robert B.</subfield>
+    <subfield code="t">A comparison of implicit time integration methods for nonlinear relaxation and diffusion</subfield>
+    <subfield code="v">196</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,196,566</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, T.A.</subfield>
+    <subfield code="t">Riemann solvers for time-dependent transport based on the maximum entropy and spherical harmonics closures</subfield>
+    <subfield code="p">University of Michigan</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, Ryan G.</subfield>
+    <subfield code="h">Paul Holloway, James</subfield>
+    <subfield code="h">Brunner, Thomas A.</subfield>
+    <subfield code="t">On solutions to the <math altimg="si228.gif" display="inline" overflow="scroll"><msub><mrow><mi>P</mi></mrow><mrow><mi>n</mi></mrow></msub></math> equations for thermal radiative transfer</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,227,2864</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brunner, T.A.</subfield>
+    <subfield code="t">Forms of approximate radiation transport</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">Tech. Rep. SAND2002-1778</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garrett, C. Kristopher</subfield>
+    <subfield code="h">Hauck, Cory D.</subfield>
+    <subfield code="t">A comparison of moment closures for linear kinetic transport equations: the line source benchmark</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Transp.Theory Stat.Phys.,42,203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, Bernardo</subfield>
+    <subfield code="h">Shu, Chi-Wang</subfield>
+    <subfield code="t">Runge–Kutta discontinuous Galerkin methods for convection-dominated problems</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Sci.Comput.,16,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClarren, R.G.</subfield>
+    <subfield code="t">Spherical harmonics methods for thermal radiation transport</subfield>
+    <subfield code="p">The University of Michigan, Nuclear Engineering and Radiological Sciences</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaston, D.</subfield>
+    <subfield code="h">Newman, C.</subfield>
+    <subfield code="h">Hansen, G.</subfield>
+    <subfield code="h">Lebrun-Grandié, D.</subfield>
+    <subfield code="t">MOOSE: a parallel computational framework for coupled systems of nonlinear equations</subfield>
+    <subfield code="v">239</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Nucl.Eng.Des.,239,1768</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balay, S.</subfield>
+    <subfield code="h">Abhyankar, S.</subfield>
+    <subfield code="h">Adams, M.F.</subfield>
+    <subfield code="h">Brown, J.</subfield>
+    <subfield code="h">Brune, P.</subfield>
+    <subfield code="h">Buschelman, K.</subfield>
+    <subfield code="h">Eijkhout, V.</subfield>
+    <subfield code="h">Gropp, W.D.</subfield>
+    <subfield code="h">Kaushik, D.</subfield>
+    <subfield code="h">Knepley, M.G.</subfield>
+    <subfield code="h">McInnes, L.C.</subfield>
+    <subfield code="h">Rupp, K.</subfield>
+    <subfield code="h">Smith, B.F.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">PETSc users manual</subfield>
+    <subfield code="p">Argonne National Laboratory, Computer, Computational, and Statistical Sciences Division</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Tech. Rep. ANL-95/11 – Revision 3.5</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kirk, B.S.</subfield>
+    <subfield code="h">Peterson, J.W.</subfield>
+    <subfield code="h">Stogner, R.H.</subfield>
+    <subfield code="h">Carey, G.F.</subfield>
+    <subfield code="t">libMesh : a C++ library for parallel adaptive mesh refinement/coarsening simulations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Eng.Comput.,22,237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geuzaine, C.</subfield>
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="t">Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,79,1309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Childs, H.</subfield>
+    <subfield code="h">Brugger, E.</subfield>
+    <subfield code="h">Whitlock, B.</subfield>
+    <subfield code="h">Meredith, J.</subfield>
+    <subfield code="h">Ahern, S.</subfield>
+    <subfield code="h">Pugmire, D.</subfield>
+    <subfield code="h">Biagas, K.</subfield>
+    <subfield code="h">Miller, M.</subfield>
+    <subfield code="h">Harrison, C.</subfield>
+    <subfield code="h">Weber, G.H.</subfield>
+    <subfield code="h">Krishnan, H.</subfield>
+    <subfield code="h">Fogal, T.</subfield>
+    <subfield code="h">Sanderson, A.</subfield>
+    <subfield code="h">Garth, C.</subfield>
+    <subfield code="h">Bethel, E.W.</subfield>
+    <subfield code="h">Camp, D.</subfield>
+    <subfield code="h">Rübel, O.</subfield>
+    <subfield code="h">Durant, M.</subfield>
+    <subfield code="h">Favre, J.M.</subfield>
+    <subfield code="h">Navrátil, P.</subfield>
+    <subfield code="t">VisIt: an end-user tool for visualizing and analyzing very large data</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="q">High Performance Visualization—Enabling Extreme-Scale Scientific Insight</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Oliveira, C.R.E.</subfield>
+    <subfield code="h">Pain, C.C.</subfield>
+    <subfield code="h">Eaton, M.D.</subfield>
+    <subfield code="t">Hierarchical angular preconditioning for the finite element-spherical harmonics radiation transport method</subfield>
+    <subfield code="p">Proceedings of PHYSOR 2000 ANS International Topical Meeting on Advances in Reactor Physics and Mathematics and Computation into the Next Millennium, Pittsburgh, USA, 2000</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laboure, V.M.</subfield>
+    <subfield code="t">Improved fully-implicit spherical harmonics methods for first and second order forms of the transport equation using Galerkin finite elements</subfield>
+    <subfield code="p">Texas A&amp;M; University</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00149/S0021999116301917/S0021999116301917.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

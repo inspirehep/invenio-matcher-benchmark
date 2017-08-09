@@ -1,0 +1,288 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.062</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ku, S.</subfield>
+    <subfield code="j">ORCID:0000-0002-9964-1208</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, Princeton University, Princeton, NJ, 08543, USA</subfield>
+    <subfield code="m">sku@pppl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A new hybrid-Lagrangian numerical scheme for gyrokinetic simulation of tokamak edge plasma</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">9</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In order to enable kinetic simulation of non-thermal edge plasmas at a reduced computational cost, a new hybrid-Lagrangian δf scheme has been developed that utilizes the phase space grid in addition to the usual marker particles, taking advantage of the computational strengths from both sides. The new scheme splits the particle distribution function of a kinetic equation into two parts. Marker particles contain the fast space-time varying, δf , part of the distribution function and the coarse-grained phase-space grid contains the slow space-time varying part. The coarse-grained phase-space grid reduces the memory-requirement and the computing cost, while the marker particles provide scalable computing ability for the fine-grained physics. Weights of the marker particles are determined by a direct weight evolution equation instead of the differential form weight evolution equations that the conventional delta-f schemes use. The particle weight can be slowly transferred to the phase space grid, thereby reducing the growth of the particle weights. The non-Lagrangian part of the kinetic equation – e.g., collision operation, ionization, charge exchange, heat-source, radiative cooling, and others – can be operated directly on the phase space grid. Deviation of the particle distribution function on the velocity grid from a Maxwellian distribution function – driven by ionization, charge exchange and wall loss – is allowed to be arbitrarily large. The numerical scheme is implemented in the gyrokinetic particle code XGC1, which specializes in simulating the tokamak edge plasma that crosses the magnetic separatrix and is in contact with the material wall.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Plasma</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tokamak</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Gyrokinetic</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Lagrangian</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">delta-f</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">XGC</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Hager, R.</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, Princeton University, Princeton, NJ, 08543, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chang, C.S.</subfield>
+    <subfield code="v">Princeton Plasma Physics Laboratory, Princeton University, Princeton, NJ, 08543, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kwon, J.M.</subfield>
+    <subfield code="v">National Fusion Research Institute, Republic of Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Parker, S.E.</subfield>
+    <subfield code="v">University of Colorado Boulder, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">467-475</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, W.</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,72,243</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, Z.</subfield>
+    <subfield code="h">Hahm, T.</subfield>
+    <subfield code="h">Lee, W.</subfield>
+    <subfield code="h">Tang, W.</subfield>
+    <subfield code="h">White, R.</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Science,281,556</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Plasmas,6,1709</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jenko, F.</subfield>
+    <subfield code="h">Dorland, W.</subfield>
+    <subfield code="h">Kotschenreuther, M.</subfield>
+    <subfield code="h">Rogers, B.</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Plasmas,7,1904</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Ku, S.</subfield>
+    <subfield code="h">Diamond, P.</subfield>
+    <subfield code="h">Lin, Z.</subfield>
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="h">Hahm, T.</subfield>
+    <subfield code="h">Samatova, N.</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Plasmas,16,056108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,220,839</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, Z.</subfield>
+    <subfield code="h">Chen, L.</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Plasmas,8,1447</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="h">Lang, J.</subfield>
+    <subfield code="h">Fu, G.-Y.</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Phys.Plasmas,17,102504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sonnendrückera, E.</subfield>
+    <subfield code="h">Rochea, J.</subfield>
+    <subfield code="h">Bertrandb, P.</subfield>
+    <subfield code="h">Ghizzob, A.</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,149,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Garbet, X.</subfield>
+    <subfield code="h">Sarazin, Y.</subfield>
+    <subfield code="h">Grandgirard, V.</subfield>
+    <subfield code="h">Dif-Pradalier, G.</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Nucl.Fusion,47,1206</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Denavit, J.</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,9,75</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vadlamani, S.</subfield>
+    <subfield code="h">Parker, S.E.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="v">164</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Phys.Commun.,164,209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Plasmas,14,082301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Parker, S.</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Plasmas,16,052305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="h">Hahm, T.</subfield>
+    <subfield code="h">Lee, W.</subfield>
+    <subfield code="h">Rewoldt, G.</subfield>
+    <subfield code="h">Manickam, J.</subfield>
+    <subfield code="h">Tang, W.</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Plasmas,14,072306</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ku, S.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="h">Diamond, P.</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Nucl.Fusion,49,115021</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krommes, J.</subfield>
+    <subfield code="h">Hu, G.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Plasmas,1,3211</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, G.</subfield>
+    <subfield code="h">Krommes, J.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Plasmas,1,863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">White, R.</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Phys.Plasmas,10,3591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, W.X.</subfield>
+    <subfield code="h">Nakajima, N.</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Plasma Phys.Controll.Fusion,41,1091</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, E.</subfield>
+    <subfield code="h">Chang, C.</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Phys.Plasmas,21,032503</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hager, R.</subfield>
+    <subfield code="h">Yoon, E.</subfield>
+    <subfield code="h">Ku, S.</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,315,644</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300274/S0021999116300274.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

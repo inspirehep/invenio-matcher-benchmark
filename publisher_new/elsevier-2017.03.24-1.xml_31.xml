@@ -1,0 +1,798 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.08.017</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Sun, Weijia</subfield>
+    <subfield code="j">ORCID:0000-0001-9530-8558</subfield>
+    <subfield code="v">Key Laboratory of Earth and Planetary Physics, Institute of Geology and Geophysics, Chinese Academy of Science, Beijing, 10029, China</subfield>
+    <subfield code="m">swj@mail.iggcas.ac.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A staggered-grid convolutional differentiator for elastic wave modelling</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The computation of derivatives in governing partial differential equations is one of the most investigated subjects in the numerical simulation of physical wave propagation. An analytical staggered-grid convolutional differentiator (CD) for first-order velocity-stress elastic wave equations is derived in this paper by inverse Fourier transformation of the band-limited spectrum of a first derivative operator. A taper window function is used to truncate the infinite staggered-grid CD stencil. The truncated CD operator is almost as accurate as the analytical solution, and as efficient as the finite-difference (FD) method. The selection of window functions will influence the accuracy of the CD operator in wave simulation. We search for the optimal Gaussian windows for different order CDs by minimizing the spectral error of the derivative and comparing the windows with the normal Hanning window function for tapering the CD operators. It is found that the optimal Gaussian window appears to be similar to the Hanning window function for tapering the same CD operator. We investigate the accuracy of the windowed CD operator and the staggered-grid FD method with different orders. Compared to the conventional staggered-grid FD method, a short staggered-grid CD operator achieves an accuracy equivalent to that of a long FD operator, with lower computational costs. For example, an 8th order staggered-grid CD operator can achieve the same accuracy of a 16th order staggered-grid FD algorithm but with half of the computational resources and time required. Numerical examples from a homogeneous model and a crustal waveguide model are used to illustrate the superiority of the CD operators over the conventional staggered-grid FD operators for the simulation of wave propagations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Staggered-grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Convolutional differentiator</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Elastic wave</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Forward modelling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhou, Binzhong</subfield>
+    <subfield code="v">CSIRO Energy, PO Box 883, Kenmore, QLD, 4069, Australia</subfield>
+    <subfield code="m">Binzhong.Zhou@csiro.au</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fu, Li-Yun</subfield>
+    <subfield code="v">Key Laboratory of Petroleum Resources, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, 100029, China</subfield>
+    <subfield code="m">lfu@mail.iggcas.ac.cn</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">59-76</subfield>
+    <subfield code="v">301</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alford, R.M.</subfield>
+    <subfield code="h">Kelly, K.R.</subfield>
+    <subfield code="h">Boore, D.M.</subfield>
+    <subfield code="t">Accuracy of finite-difference modelling of the acoustic wave equation</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Geophysics,39,834</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aoi, S.</subfield>
+    <subfield code="h">Fujiwara, H.</subfield>
+    <subfield code="t">3D finite-difference method using discontinuous grids</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,89,918</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berenger, J.-P.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bohlen, T.</subfield>
+    <subfield code="h">Saenger, E.</subfield>
+    <subfield code="t">Accuracy of heterogeneous staggered-grid finite-difference modelling of Rayleigh waves</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Geophysics,71,T109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bording, R.P.</subfield>
+    <subfield code="t">Finite difference modelling – nearly optimal sponge boundary conditions</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="q">SEG Technical Program Expanded Abstracts 2004</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carcione, J.</subfield>
+    <subfield code="t">Staggered mesh for the anisotropic and viscoelastic wave equation</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Geophysics,64,1863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Carcione, J.</subfield>
+    <subfield code="h">Herman, G.C.</subfield>
+    <subfield code="h">ten Kroode, A.P.E.</subfield>
+    <subfield code="t">Seismic modelling</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Geophysics,67,1304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cerjan, C.</subfield>
+    <subfield code="h">Kosloff, D.</subfield>
+    <subfield code="h">Kosloff, R.</subfield>
+    <subfield code="h">Reshef, M.</subfield>
+    <subfield code="t">A nonreflecting boundary condition for discrete acoustic and elastic wave equations</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Geophysics,50,705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chaljub, E.</subfield>
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Vilotte, J.-P.</subfield>
+    <subfield code="h">Capdeville, Y.</subfield>
+    <subfield code="h">Valette, B.</subfield>
+    <subfield code="h">Festa, G.</subfield>
+    <subfield code="t">Spectral-element analysis in seismology</subfield>
+    <subfield code="v">vol. 48</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Adv.Geophys.,vol. 48,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, H.W.</subfield>
+    <subfield code="t">Staggered-grid pseudospectral viscoacoustic wave field simulation in two-dimensional media</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Acoust.Soc.Am.,100,120</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chu, C.</subfield>
+    <subfield code="h">Stoffa, P.</subfield>
+    <subfield code="t">Determination of finite-difference weights using scaled binomial windows</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Geophysics,77,W17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clayton, R.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="t">Absorbing boundary conditions for acoustic and elastic wave equations</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,67,1529</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Collino, F.</subfield>
+    <subfield code="h">Tsogka, C.</subfield>
+    <subfield code="t">Application of the perfectly matched absorbing layer model to the linear elastodynamic problem in anisotropic heterogeneous media</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Geophysics,66,294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Corrêa, G.J.P.</subfield>
+    <subfield code="h">Spiegelman, M.</subfield>
+    <subfield code="h">Carbotte, S.</subfield>
+    <subfield code="h">Mutter, J.C.</subfield>
+    <subfield code="t">Centered and staggered Fourier derivatives and Hilbert transforms</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Geophysics,67,1558</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Daudt, C.R.</subfield>
+    <subfield code="h">Braile, L.W.</subfield>
+    <subfield code="h">Nowack, R.L.</subfield>
+    <subfield code="h">Chiang, C.S.</subfield>
+    <subfield code="t">A comparison of finite-difference and Fourier method calculations of synthetic seismograms</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,79,1210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Hoop, A.T.</subfield>
+    <subfield code="t">A modification of Cagniard's method for solving seismic pulse problems</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Appl.Sci.Res.,B8,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fang, G.</subfield>
+    <subfield code="h">Fomel, S.</subfield>
+    <subfield code="h">Du, Q.</subfield>
+    <subfield code="h">Hu, J.</subfield>
+    <subfield code="t">Lowrank seismic-wave extrapolation on a staggered grid</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Geophysics,79,T157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="t">The pseudospectral method: comparisons with finite differences for the elastic wave equation</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Geophysics,52,483</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="t">The pseudospectral method; accurate representation of interfaces in elastic wave calculations</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Geophysics,53,625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="t">High-order finite differences and the pseudospectral method on staggered grids</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,27,904</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fu, L.-Y.</subfield>
+    <subfield code="t">Seismogram synthesis for piecewise heterogeneous media</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Geophys.J.Int.,150,800</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fu, L.-Y.</subfield>
+    <subfield code="h">Bouchon, M.</subfield>
+    <subfield code="t">Discrete wavenumber solutions to numerical wave propagation in piecewise heterogeneous media — I. Theory of two-dimensional SH case</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Geophys.J.Int.,157,481</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Furumura, T.</subfield>
+    <subfield code="h">Kennett, B.L.N.</subfield>
+    <subfield code="h">Furumura, M.</subfield>
+    <subfield code="t">Seismic wavefield calculation for laterally heterogeneous whole earth models using the pseudospectral method</subfield>
+    <subfield code="v">135</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Geophys.J.Int.,135,845</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gazdag, J.</subfield>
+    <subfield code="t">Modelling of the acoustic wave equation with transform methods</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Geophysics,46,854</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ge, Z.</subfield>
+    <subfield code="h">Fu, L.-Y.</subfield>
+    <subfield code="h">Wu, R.-S.</subfield>
+    <subfield code="t">P–SV wave-field connection technique for regional wave propagation simulation</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,95,1375</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Graves, R.W.</subfield>
+    <subfield code="t">Simulating seismic wave propagation in 3D elastic media using staggered-grid finite differences</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,86,1091</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Holberg, O.</subfield>
+    <subfield code="t">Computational aspects of the choice of operator and sampling interval for numerical differentiation in large-scale simulation of wave phenomena</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Geophys.Prospect.,35,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">If, F.</subfield>
+    <subfield code="h">Berg, P.</subfield>
+    <subfield code="h">Skovgaard, O.</subfield>
+    <subfield code="t">Regular and staggered grids in spectral approximations of the elastic wave equation</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="q">SEG Technical Program Expanded Abstracts 1990</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Igel, H.</subfield>
+    <subfield code="h">Mora, P.</subfield>
+    <subfield code="h">Riollet, B.</subfield>
+    <subfield code="t">Anisotropic wave propagation through finite-difference grids</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Geophysics,60,1203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kelly, K.</subfield>
+    <subfield code="h">Ward, R.</subfield>
+    <subfield code="h">Treitel, S.</subfield>
+    <subfield code="h">Alford, R.</subfield>
+    <subfield code="t">Synthetic seismograms: a finite-difference approach</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Geophysics,41,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kindelan, M.</subfield>
+    <subfield code="h">Kamel, A.</subfield>
+    <subfield code="h">Sguazzero, P.</subfield>
+    <subfield code="t">On the construction and efficiency of staggered numerical differentiators for the wave equation</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Geophysics,55,107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klin, P.</subfield>
+    <subfield code="h">Priolo, E.</subfield>
+    <subfield code="h">Seriani, G.</subfield>
+    <subfield code="t">Numerical simulation of seismic wave propagation in realistic 3-D geo-models with a Fourier pseudo-spectral method</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Geophys.J.Int.,183,905</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Tromp, J.</subfield>
+    <subfield code="t">Introduction to the spectral element method for three-dimensional seismic wave propagation</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Geophys.J.Int.,139,806</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Tromp, J.</subfield>
+    <subfield code="t">Spectral-element simulations of global seismic wave propagation—I. Validation</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Geophys.J.Int.,149,390</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Vilotte, J.-P.</subfield>
+    <subfield code="t">The spectral element method: an efficient tool to simulate the seismic response of 2D and 3D geological structures</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,88,368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komatitsch, D.</subfield>
+    <subfield code="h">Erlebacher, G.</subfield>
+    <subfield code="h">Göddeke, D.</subfield>
+    <subfield code="h">Michéa, D.</subfield>
+    <subfield code="t">High-order finite-element seismic wave propagation modelling with MPI on a large GPU cluster</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7692</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kosloff, D.</subfield>
+    <subfield code="h">Baysal, E.</subfield>
+    <subfield code="t">Forward modelling by a Fourier method</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Geophysics,47,1402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kosloff, D.</subfield>
+    <subfield code="h">Reshef, M.</subfield>
+    <subfield code="h">Loewenthal, D.</subfield>
+    <subfield code="t">Elastic wave calculations by the Fourier method</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,74,875</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kristekova, M.</subfield>
+    <subfield code="h">Kristek, J.</subfield>
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="h">Day, S.M.</subfield>
+    <subfield code="t">Misfit criteria for quantitative comparison of seismograms</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,96,1836</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kristekova, M.</subfield>
+    <subfield code="h">Kristek, J.</subfield>
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="t">Time-frequency misfit and goodness-of-fit criteria</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Geophys.J.Int.,178,813</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krüger, O.S.</subfield>
+    <subfield code="h">Saenger, E.H.</subfield>
+    <subfield code="h">Shapiro, S.A.</subfield>
+    <subfield code="t">Scattering and diffraction by a single crack: an accuracy analysis of the rotated staggered grid</subfield>
+    <subfield code="v">162</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Geophys.J.Int.,162,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levander, A.</subfield>
+    <subfield code="t">Fourth-order finite-difference P–SV seismograms</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Geophysics,53,1425</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="h">Wang, W.</subfield>
+    <subfield code="h">Lu, M.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="h">Li, Y.</subfield>
+    <subfield code="t">Structure-preserving modelling of elastic waves: a symplectic discrete singular convolution differentiator method</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Geophys.J.Int.,188,1382</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="h">Zhu, T.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="h">Long, G.</subfield>
+    <subfield code="t">Seismic scalar wave equation with variable coefficients modelling by a new convolutional differentiator</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Comput.Phys.Commun.,181,1850</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Sen, M.K.</subfield>
+    <subfield code="t">An implicit staggered-grid finite-difference method for seismic modelling</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Geophys.J.Int.,179,459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="h">Sen, M.K.</subfield>
+    <subfield code="t">A new time–space domain high-order finite-difference method for the acoustic wave equation</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Comput.Phys.,228,8779</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, Y.</subfield>
+    <subfield code="h">Schuster, G.</subfield>
+    <subfield code="t">Parsimonious staggered grid finite-differencing of the wave equation</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Geophys.Res.Lett.,17,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marfurt, K.J.</subfield>
+    <subfield code="t">Accuracy of finite-difference and finite-element modelling of the scalar and elastic wave equations</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Geophysics,49,533</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McClellan, J.</subfield>
+    <subfield code="h">Parks, T.</subfield>
+    <subfield code="t">A unified approach to the design of optimum FIR linear-phase digital filters</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">IEEE Trans.Circuit Theory,20,697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mittet, R.</subfield>
+    <subfield code="t">Free-surface boundary conditions for elastic staggered-grid modelling schemes</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Geophysics,67,1616</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="h">Kristek, J.</subfield>
+    <subfield code="h">Vavryčuk, V.</subfield>
+    <subfield code="h">Archuleta, R.J.</subfield>
+    <subfield code="h">Halada, L.</subfield>
+    <subfield code="t">3D heterogeneous staggered-grid finite-difference modelling of seismic motion with volume harmonic and arithmetic averaging of elastic Moduli and Densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,92,3042</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="h">Robertsson, J.O.A.</subfield>
+    <subfield code="h">Eisner, L.</subfield>
+    <subfield code="t">The finite-difference time-domain method for modelling of seismic wave propagation</subfield>
+    <subfield code="v">vol. 48</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Advances in Geophysics,vol. 48,421</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moczo, P.</subfield>
+    <subfield code="h">Kristek, J.</subfield>
+    <subfield code="h">Galis, M.</subfield>
+    <subfield code="t">The Finite-Difference Modelling of Earthquake Motions: Waves and Ruptures</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mora, P.</subfield>
+    <subfield code="t">Elastic finite differences with convolutional operators</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SEP Rep.,48,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oppenheim, A.V.</subfield>
+    <subfield code="h">Schafer, R.W.</subfield>
+    <subfield code="t">Digital Signal Processing</subfield>
+    <subfield code="p">Prentice-Hall New York</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rabiner, L.</subfield>
+    <subfield code="h">Steiglitz, K.</subfield>
+    <subfield code="t">The design of wide-band recursive and nonrecursive digital differentiators</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">IEEE Trans.Audio Electroacoust.,18,204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robertsson, J.O.A.</subfield>
+    <subfield code="h">Blanch, J.O.</subfield>
+    <subfield code="h">Symes, W.W.</subfield>
+    <subfield code="h">Burrus, C.S.</subfield>
+    <subfield code="t">Galerkin-wavelet modelling of wave propagation: optimal finite-difference stencil design</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Math.Comput.Model.,19,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robertsson, J.O.A.</subfield>
+    <subfield code="h">Levander, A.</subfield>
+    <subfield code="h">Symes, W.W.</subfield>
+    <subfield code="h">Holliger, K.</subfield>
+    <subfield code="t">A comparative study of free-surface boundary conditions for finite-difference simulation of elastic/viscoelastic wave propagation</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="q">SEG Technical Program Expanded Abstracts 1995</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saatcilar, R.</subfield>
+    <subfield code="h">Ergintav, S.</subfield>
+    <subfield code="t">Solving elastic wave equations with the Hartley method</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Geophysics,56,274</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saenger, E.H.</subfield>
+    <subfield code="h">Ciz, R.</subfield>
+    <subfield code="h">Krüger, O.S.</subfield>
+    <subfield code="h">Schmalholz, S.M.</subfield>
+    <subfield code="h">Gurevich, B.</subfield>
+    <subfield code="h">Shapiro, S.A.</subfield>
+    <subfield code="t">Finite-difference modelling of wave propagation on microscale: a snapshot of the work in progress</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Geophysics,72,SM293</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saenger, E.H.</subfield>
+    <subfield code="h">Gold, N.</subfield>
+    <subfield code="h">Shapiro, S.A.</subfield>
+    <subfield code="t">Modelling the propagation of elastic waves using a modified finite-difference grid</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Wave Motion,31,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saenger, E.H.</subfield>
+    <subfield code="h">Shapiro, S.A.</subfield>
+    <subfield code="t">Effective velocities in fractured media: a numerical study using the rotated staggered finite-difference grid</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Geophys.Prospect.,50,183</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scheuer, T.E.</subfield>
+    <subfield code="h">Oldenburg, D.W.</subfield>
+    <subfield code="t">Aspects of time-variant filtering</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Geophysics,53,1399</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Storchak, D.A.</subfield>
+    <subfield code="h">Schweitzer, J.</subfield>
+    <subfield code="h">Bormann, P.</subfield>
+    <subfield code="t">The IASPEI standard seismic phase list</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Seismol.Res.Lett.,74,761</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Vossen, R.</subfield>
+    <subfield code="h">Robertsson, J.O.A.</subfield>
+    <subfield code="h">Chapman, C.H.</subfield>
+    <subfield code="t">Finite-difference modelling of wave propagation in a fluid-solid configuration</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Geophysics,67,618</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vidale, J.</subfield>
+    <subfield code="h">Clayton, R.</subfield>
+    <subfield code="t">A stable free-surface boundary condition for two-dimensional elastic finite-difference wave simulation</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Geophysics,51,2247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Virieux, J.</subfield>
+    <subfield code="t">SH-wave propagation in heterogeneous media: velocity-stress finite-difference method</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Geophysics,49,1933</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Virieux, J.</subfield>
+    <subfield code="t">P–SV wave propagation in heterogeneous media: velocity-stress finite-difference method</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Geophysics,51,889</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Witte, D.C.</subfield>
+    <subfield code="t">The pseudospectral method for simulating wave propagation</subfield>
+    <subfield code="p">Columbia University</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="m">PhD Thesis</subfield>
+    <subfield code="o">69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Q.-q.</subfield>
+    <subfield code="h">Lin, C.</subfield>
+    <subfield code="h">Zhong, C.</subfield>
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="h">Wang, C.</subfield>
+    <subfield code="t">3-D acoustic modelling by a Hartley method</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">J.Appl.Geophys.,70,169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, J.-H.</subfield>
+    <subfield code="h">Yao, Z.-X.</subfield>
+    <subfield code="t">Optimized explicit finite-difference schemes for spatial derivatives using maximum norm</subfield>
+    <subfield code="v">250</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,250,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, J.</subfield>
+    <subfield code="h">Yao, Z.</subfield>
+    <subfield code="t">Optimized finite-difference operator for broadband seismic wave modelling</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Geophysics,78,A13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhao, Z.</subfield>
+    <subfield code="h">Xu, J.</subfield>
+    <subfield code="h">Horiuchi, S.</subfield>
+    <subfield code="t">Differentiation operation in the wave equation for the pseudospectral method with a staggered mesh</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Earth Planets Space,53,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, B.</subfield>
+    <subfield code="h">Greenhalgh, S.A.</subfield>
+    <subfield code="t">Seismic scalar wave equation modelling by a convolutional differentiator</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Bull.Seismol.Soc.Am.,82,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, B.</subfield>
+    <subfield code="h">Greenhalgh, S.A.</subfield>
+    <subfield code="h">Zhe, J.</subfield>
+    <subfield code="t">Numerical seismogram computations for inhomogeneous media using a short, variable length convolutional differentiator</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Geophys.Prospect.,41,751</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, B.</subfield>
+    <subfield code="h">Mason, I.M.</subfield>
+    <subfield code="h">Greenhalgh, S.A.</subfield>
+    <subfield code="t">Elastic wave equation modelling using staggered-grid convolutional differentiators</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="q">SEG Technical Program Expanded Abstracts</subfield>
+    <subfield code="o">76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, B.</subfield>
+    <subfield code="t">On: “The use of Hartley transform in geophysical applications” by R. Saatcilar, S. Ergintav and N. Canitez (Geophysics, 55 (11), 1488–1495, 1990) and “Solving elastic wave equations with the Hartley method” by R. Saatcilar, S. Ergintav and N. Canitez (Geophysics, 56 (2), 274–278, 1991)</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">Geophysics,57,196</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00180/S0021999115005367/S0021999115005367.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

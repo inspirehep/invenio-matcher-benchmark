@@ -1,0 +1,725 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.052</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Pan, Jianhua</subfield>
+    <subfield code="v">Tsinghua University, Beijing, 100084, China</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">High order sub-cell finite volume schemes for solving hyperbolic conservation laws II: Extension to two-dimensional systems on unstructured grids</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-11</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper, the second in a series, the high order sub-cell finite volume method is extended to two-dimensional hyperbolic systems on unstructured quadrilateral grids. The basic idea of this method is to subdivide a control volume (main cell) into several sub-cells and the finite volume method is applied to each of the sub-cells. The average values on the sub-cells belonging to current and face neighboring main cells are used to reconstruct a common polynomial distribution of a dependent variable on current main cell. This method can achieve high order accuracy using a compact stencil. The focus of this paper is to study the performance of the sub-cell finite volume method on two-dimensional unstructured quadrilateral grids and to verify that high order accuracy can be achieved using face neighboring sub-cells only. Fourier analysis is performed to analyze the dispersion and dissipation properties of the two-dimensional sub-cell finite volume schemes. To capture the discontinuities, the paper proposes a cell-based multi-dimensional limiting procedure using only face-neighboring main cells. Several benchmark test cases are simulated to validate the proposed sub-cell finite volume schemes and the multi-dimensional limiting procedure.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Compact high order method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Sub-cell finite volume method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unstructured grid</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cell-based multi-dimensional limiting procedure</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ren, Yu-xin</subfield>
+    <subfield code="v">Tsinghua University, Beijing, 100084, China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sun, Yutao</subfield>
+    <subfield code="v">Institute of Applied Physics and Computational Mathematics, Beijing, 100094, China</subfield>
+    <subfield code="m">ryx@mail.tsinghua.edu.cn</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Pan, Y. xin Ren</subfield>
+    <subfield code="m">High order sub-cell finite volume schemes for solving hyperbolic conservation laws I: basic formulation and one-dimensional analysis</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pan, J.</subfield>
+    <subfield code="h">Ren, Y.-x.</subfield>
+    <subfield code="t">High order sub-cell finite volume method in solving hyperbolic conservation laws</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">22nd AIAA Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barth, T.J.</subfield>
+    <subfield code="h">Frederickson, P.O.</subfield>
+    <subfield code="t">Higher order solution of the Euler equations on unstructured grids using quadratic reconstruction</subfield>
+    <subfield code="v">vol. 90</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="m">0013</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">AIAA Paper,vol. 90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Delanaye, M.</subfield>
+    <subfield code="t">Quadratic reconstruction finite volume schemes on 3D arbitrary unstructured polyhedral grids</subfield>
+    <subfield code="v">vol. 99</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">AIAA Paper,vol. 99,3295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ollivier-Gooch, C.</subfield>
+    <subfield code="h">Van Altena, M.</subfield>
+    <subfield code="t">A high-order-accurate unstructured mesh finite-volume scheme for the advection–diffusion equation</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,181,729</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ollivier-Gooch, C.F.</subfield>
+    <subfield code="t">Quasi-ENO schemes for unstructured meshes based on unlimited data-dependent least-squares reconstruction</subfield>
+    <subfield code="v">133</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,133,6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">On essentially non-oscillatory schemes on unstructured meshes: analysis and implementation</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,114,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Friedrich, O.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes for the interpolation of mean values on unstructured grids</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,144,194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Käser, M.</subfield>
+    <subfield code="t">Arbitrary high order non-oscillatory finite volume schemes on unstructured meshes for linear hyperbolic systems</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,221,693</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Käser, M.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">Quadrature-free non-oscillatory finite volume schemes on unstructured meshes for nonlinear hyperbolic systems</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,226,204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, C.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Weighted essentially non-oscillatory schemes on triangular meshes</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,150,97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, W.</subfield>
+    <subfield code="h">Ren, Y.-X.</subfield>
+    <subfield code="t">High-order k-exact WENO finite volume schemes for solving gas dynamic Euler equations on unstructured grids</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,70,742</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, W.</subfield>
+    <subfield code="h">Ren, Y.-X.</subfield>
+    <subfield code="t">The multi-dimensional limiters for discontinuous Galerkin method on unstructured grids</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Fluids,96,368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W.H. Reed, T. Hill</subfield>
+    <subfield code="m">Triangular mesh methods for the neutron transport equation, Los Alamos Report LA-UR-73-479</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws. II. General framework</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Math.Comput.,52,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Lin, S.-Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">TVB Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws III: one-dimensional systems</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,84,90</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Hou, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The Runge–Kutta local projection discontinuous Galerkin finite element method for conservation laws. IV. The multidimensional case</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Math.Comput.,54,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">The local discontinuous Galerkin method for time-dependent convection–diffusion systems</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,2440</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Rebay, S.</subfield>
+    <subfield code="t">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,131,267</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids: basic formulation</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,178,210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids: II. Extension to two-dimensional scalar equation</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,179,665</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids III: one dimensional systems and partition optimization</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Sci.Comput.,20,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">Spectral (finite) volume method for conservation laws on unstructured grids IV: extension to two-dimensional systems</subfield>
+    <subfield code="v">194</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,194,716</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">CIP/multi-moment finite volume method for Euler equations: a semi-lagrangian characteristic formulation</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,222,849</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">High order multi-moment constrained finite volume method. Part I: basic formulation</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,228,3669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Akoh, R.</subfield>
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">A multi-moment finite volume formulation for shallow water equations on unstructured mesh</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,229,4567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="r">arXiv:1207.6822</subfield>
+    <subfield code="t">CIP/multi-moment finite volume method with arbitrary order of accuracy</subfield>
+    <subfield code="m">arXiv preprint</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Chen, C.</subfield>
+    <subfield code="h">Li, X.</subfield>
+    <subfield code="t">A note on the general multi-moment constrained flux reconstruction formulation for high order schemes</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Appl.Math.Model.,37,5092</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xie, B.</subfield>
+    <subfield code="h">Ii, S.</subfield>
+    <subfield code="h">Ikebata, A.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">A multi-moment finite volume method for incompressible Navier–Stokes equations on unstructured grids: volume-average/point-value formulation</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,277,138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, Z.</subfield>
+    <subfield code="h">Teng, H.</subfield>
+    <subfield code="h">Xiao, F.</subfield>
+    <subfield code="t">A slope constrained 4th order multi-moment finite volume method with WENO limiter</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Commun.Comput.Phys.,18,901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Z. Sun, F. Xiao</subfield>
+    <subfield code="m">A semi-Lagrangian multi-moment finite volume method with fourth-order WENO projection, Int. J Numer. Methods Fluids</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Arbitrary high order <math altimg="si238.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi mathvariant="normal">N</mi></mrow></msub><msub><mrow><mi>P</mi></mrow><mrow><mi mathvariant="normal">M</mi></mrow></msub></math> schemes on unstructured meshes for the compressible Navier–Stokes equations</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Fluids,39,60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="t">Very high order <math altimg="si239.gif" display="inline" overflow="scroll"><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi mathvariant="normal">N</mi></mrow></msub><msub><mrow><mi mathvariant="normal">P</mi></mrow><mrow><mi mathvariant="normal">M</mi></mrow></msub></math> schemes on unstructured meshes for the resistive relativistic MHD equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6991</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Wei, L.</subfield>
+    <subfield code="h">Lixin, H.</subfield>
+    <subfield code="h">Xiaogang, D.</subfield>
+    <subfield code="h">Hanxin, Z.</subfield>
+    <subfield code="t">A class of hybrid <math altimg="si240.gif" display="inline" overflow="scroll"><mrow><mi mathvariant="normal">DG</mi></mrow><mo stretchy="false">/</mo><mrow><mi mathvariant="normal">FV</mi></mrow></math> methods for conservation laws I: basic formulation and one-dimensional systems</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,231,1081</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Wei, L.</subfield>
+    <subfield code="h">Lixin, H.</subfield>
+    <subfield code="h">Xiaogang, D.</subfield>
+    <subfield code="h">Hanxin, Z.</subfield>
+    <subfield code="t">A class of hybrid <math altimg="si240.gif" display="inline" overflow="scroll"><mrow><mi mathvariant="normal">DG</mi></mrow><mo stretchy="false">/</mo><mrow><mi mathvariant="normal">FV</mi></mrow></math> methods for conservation laws II: two-dimensional cases</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,231,1104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">He, L.</subfield>
+    <subfield code="h">Deng, X.</subfield>
+    <subfield code="t">A class of hybrid <math altimg="si240.gif" display="inline" overflow="scroll"><mrow><mi mathvariant="normal">DG</mi></mrow><mo stretchy="false">/</mo><mrow><mi mathvariant="normal">FV</mi></mrow></math> methods for conservation laws III: two-dimensional Euler equations</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Liu, W.</subfield>
+    <subfield code="h">Li, M.</subfield>
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">A class of <math altimg="si240.gif" display="inline" overflow="scroll"><mrow><mi mathvariant="normal">DG</mi></mrow><mo stretchy="false">/</mo><mrow><mi mathvariant="normal">FV</mi></mrow></math> hybrid schemes for conservation law IV: 2d viscous flows and implicit algorithm for steady cases</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Fluids,97,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Luo, L.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="h">Mousseau, V.A.</subfield>
+    <subfield code="h">Dinh, N.</subfield>
+    <subfield code="t">A reconstructed discontinuous Galerkin method for the compressible Navier–Stokes equations on arbitrary grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,229,6961</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Luo, L.</subfield>
+    <subfield code="h">Ali, A.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="h">Cai, C.</subfield>
+    <subfield code="t">A parallel, reconstructed discontinuous Galerkin method for the compressible flows on arbitrary grids</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Commun.Comput.Phys.,9,363</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Luo, L.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="t">A reconstructed discontinuous Galerkin method for the Euler equations on arbitrary grids</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,1495</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Xia, Y.</subfield>
+    <subfield code="h">Spiegel, S.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="h">Jiang, Z.</subfield>
+    <subfield code="t">A reconstructed discontinuous Galerkin method based on a hierarchical WENO reconstruction for compressible flows on tetrahedral grids</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,236,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xia, Y.</subfield>
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="h">Frisbey, M.</subfield>
+    <subfield code="h">Nourgaliev, R.</subfield>
+    <subfield code="t">A set of parallel, implicit methods for a reconstructed discontinuous Galerkin method for compressible flows on 3D hybrid grids</subfield>
+    <subfield code="v">98</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Fluids,98,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.</subfield>
+    <subfield code="h">Xia, Y.</subfield>
+    <subfield code="h">Cheng, J.</subfield>
+    <subfield code="h">Luo, H.</subfield>
+    <subfield code="t">Development and assessment of a reconstructed discontinuous Galerkin method for the compressible turbulent flows on hybrid grids</subfield>
+    <subfield code="p">American Institute of Aeronautics and Astronautics</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="q">54th AIAA Aerospace Sciences Meeting</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huynh, H.</subfield>
+    <subfield code="t">A flux reconstruction approach to high-order schemes including discontinuous Galerkin methods</subfield>
+    <subfield code="v">vol. 4079</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">AIAA Paper,vol. 4079,2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Sci.Comput.,47,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="t">On the non-linear stability of flux reconstruction schemes</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Sci.Comput.,50,434</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Castonguay, P.</subfield>
+    <subfield code="h">Vincent, P.E.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A new class of high-order energy stable flux reconstruction schemes for triangular elements</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Sci.Comput.,51,224</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">A conservative correction procedure via reconstruction formulation with the chain-rule divergence evaluation</subfield>
+    <subfield code="v">232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,232,7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, M.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">On the connection between the correction and weighting functions in the correction procedure via reconstruction method</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Sci.Comput.,54,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, M.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="h">Liu, Y.</subfield>
+    <subfield code="t">On the accuracy and efficiency of discontinuous Galerkin, spectral difference and correction procedure via reconstruction methods</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,259,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shi, L.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Adjoint-based error estimation and mesh adaptation for the correction procedure via reconstruction method</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,295,261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Du, J.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Zhang, M.</subfield>
+    <subfield code="t">A simple weighted essentially non-oscillatory limiter for the correction procedure via reconstruction (CPR) framework on unstructured meshes</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Appl.Numer.Math.,90,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Larat, A.</subfield>
+    <subfield code="h">Ricchiuto, M.</subfield>
+    <subfield code="t">Construction of very high order residual distribution schemes for steady inviscid flow problems on hybrid unstructured meshes</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="h">Ren, Y.-X.</subfield>
+    <subfield code="h">Li, W.</subfield>
+    <subfield code="t">Compact high order finite volume method on unstructured grids I: basic formulations and one-dimensional schemes</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,314,863</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="h">Ren, Y.-X.</subfield>
+    <subfield code="h">Li, W.</subfield>
+    <subfield code="t">Compact high order finite volume method on unstructured grids II: extension to two-dimensional Euler equations</subfield>
+    <subfield code="v">314</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Comput.Phys.,314,883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van den Abeele, K.</subfield>
+    <subfield code="h">Broeckhoven, T.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="t">Dispersion and dissipation properties of the 1D spectral volume method and application to a p -multigrid algorithm</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,224,616</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van den Abeele, K.</subfield>
+    <subfield code="h">Lacor, C.</subfield>
+    <subfield code="t">An accuracy and stability study of the 2D spectral volume method</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Tadmor, E.</subfield>
+    <subfield code="t">Strong stability-preserving high-order time discretization methods</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">SIAM Rev.,43,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, F.Q.</subfield>
+    <subfield code="h">Hussaini, M.</subfield>
+    <subfield code="h">Rasetarinera, P.</subfield>
+    <subfield code="t">An analysis of the discontinuous Galerkin method for wave propagation problems</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,151,921</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Godunov, S.K.</subfield>
+    <subfield code="t">A difference method for numerical calculation of discontinuous solutions of the equations of hydrodynamics</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Mat.Sb.,89,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.S.</subfield>
+    <subfield code="h">Yoon, S.-H.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="t">Multi-dimensional limiting process for hyperbolic conservation laws on unstructured grids</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,229,788</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J.S. Park, C. Kim</subfield>
+    <subfield code="m">Higher-order discontinuous Galerkin-MLP methods on triangular and tetrahedral grids, Proceedings of AIAA, 3059</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, J.S.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="t">Multi-dimensional limiting process for finite volume methods on unstructured grids</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Comput.Fluids,65,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Xia, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Maximum-principle-satisfying and positivity-preserving high order discontinuous Galerkin schemes for conservation laws on triangular meshes</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Sci.Comput.,50,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T.J. Barth, D.C. Jespersen</subfield>
+    <subfield code="m">The design and application of upwind schemes on unstructured meshes</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spekreijse, S.</subfield>
+    <subfield code="t">Multigrid solution of monotone second-order discretizations of hyperbolic conservation laws</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Math.Comput.,49,135</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="t">Shock capturing for high-order discontinuous Galerkin simulation of transient flow problems</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="q">21st AIAA Computational Fluid Dynamics Conference</subfield>
+    <subfield code="o">67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sanders, R.</subfield>
+    <subfield code="h">Morano, E.</subfield>
+    <subfield code="h">Druguet, M.-C.</subfield>
+    <subfield code="t">Multidimensional dissipation for upwind schemes: stability and applications to gas dynamics</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,145,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="t">Weak solutions of nonlinear hyperbolic equations and their numerical computation</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,7,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient Implementation of Weighted ENO Schemes</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">Tech. rep., DTIC Document</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">The numerical simulation of two-dimensional fluid flow with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301559/S0021999117301559.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

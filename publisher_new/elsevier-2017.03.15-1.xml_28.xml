@@ -1,0 +1,381 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.01.070</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Schunert, Sebastian</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+    <subfield code="m">sebastian.schunert@inl.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A flexible nonlinear diffusion acceleration method for the S N transport equations discretized with discontinuous finite elements</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-06-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">30</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This work presents a flexible nonlinear diffusion acceleration (NDA) method that discretizes both the <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>S</mi></mrow><mrow><mi>N</mi></mrow></msub></math> transport equation and the diffusion equation using the discontinuous finite element method (DFEM). The method is flexible in that the diffusion equation can be discretized on a coarser mesh with the only restriction that it is nested within the transport mesh and the FEM shape function orders of the two equations can be different. The consistency of the transport and diffusion solutions at convergence is defined by using a projection operator mapping the transport into the diffusion FEM space. The diffusion weak form is based on the modified incomplete interior penalty (MIP) diffusion DFEM discretization that is extended by volumetric drift, interior face, and boundary closure terms. In contrast to commonly used coarse mesh finite difference (CMFD) methods, the presented NDA method uses a full FEM discretized diffusion equation for acceleration. Suitable projection and prolongation operators arise naturally from the FEM framework. Via Fourier analysis and numerical experiments for a one-group, fixed source problem the following properties of the NDA method are established for structured quadrilateral meshes: (1) the presented method is unconditionally stable and effective in the presence of mild material heterogeneities if the same mesh and identical shape functions either of the bilinear or biquadratic type are used, (2) the NDA method remains unconditionally stable in the presence of strong heterogeneities, (3) the NDA method with bilinear elements extends the range of effectiveness and stability by a factor of two when compared to CMFD if a coarser diffusion mesh is selected. In addition, the method is tested for solving the C5G7 multigroup, eigenvalue problem using coarse and fine mesh acceleration. While NDA does not offer an advantage over CMFD for fine mesh acceleration, it reduces the iteration count required for convergence by almost a factor of two in the case of coarse mesh acceleration.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Neutron transport equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Nonlinear diffusion acceleration</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Discontinuous finite element method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Yaqi</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Gleicher, Frederick</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ortensi, Javier</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Baker, Benjamin</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Laboure, Vincent</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Congjian</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">DeHart, Mark</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Martineau, Richard</subfield>
+    <subfield code="v">Nuclear Science and Technology Division, Idaho National Laboratory, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">107-136</subfield>
+    <subfield code="v">338</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gaston, D.</subfield>
+    <subfield code="h">Newman, C.</subfield>
+    <subfield code="h">Hansen, G.</subfield>
+    <subfield code="h">Lebrun-Grandie, D.</subfield>
+    <subfield code="t">MOOSE: a parallel computational framework for coupled systems of nonlinear equations</subfield>
+    <subfield code="v">239</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Nucl.Eng.Des.,239,1768</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Crawford, D.</subfield>
+    <subfield code="t">Experimental capabilities of the transient reactor test (TREAT) facility</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="q">1999 ANS Winter Meeting</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="t">Nonlinear diffusion acceleration for the multigroup transport equation discretized with S N and continuous FEM with rattlesnake</subfield>
+    <subfield code="p">International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering, Idaho Falls, ID, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lewis, E.</subfield>
+    <subfield code="h">Miller, W.</subfield>
+    <subfield code="t">Computational Methods of Neutron Transport</subfield>
+    <subfield code="p">ANS</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.06.044</subfield>
+    <subfield code="h">Willert, J.</subfield>
+    <subfield code="h">Park, H.</subfield>
+    <subfield code="h">Knoll, D.</subfield>
+    <subfield code="t">A comparison of acceleration methods for solving the neutron transport k -eigenvalue problem</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,274,681</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alcouffe, R.</subfield>
+    <subfield code="t">Diffusion synthetic acceleration methods for the diamond-differenced discrete-ordinates equations</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,64,344</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="t">Unconditionally stable diffusion-synthetic acceleration methods for the slab geometry discrete ordinates equations. Part I: Theory</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,82,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.</subfield>
+    <subfield code="h">Martin, W.</subfield>
+    <subfield code="t">Diffusion synthetic acceleration of discontinuous finite element transport iterations</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,111,145</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anistratov, D.</subfield>
+    <subfield code="h">Gol'din, V.</subfield>
+    <subfield code="t">Multilevel quasidiffusion methods for solving multigroup transport k -eigenvalue problems in one-dimensional slab geometry</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,169,111</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chao, Y.</subfield>
+    <subfield code="t">Coarse mesh finite difference methods and applications</subfield>
+    <subfield code="p">Proceedings PHYSOR 2000, Pittsburgh, PA, 2000</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, D.W.</subfield>
+    <subfield code="h">Joo, H.</subfield>
+    <subfield code="t">Development of a sn transport code based on discontinuous finite element method and coarse mesh finite difference formulation</subfield>
+    <subfield code="p">An International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering, Sun Valley, ID, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="h">Martineau, R.</subfield>
+    <subfield code="t">Diffusion acceleration schemes for the self-adjoint angular flux formulation with void treatment</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,176,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Adams, M.</subfield>
+    <subfield code="h">Larsen, E.</subfield>
+    <subfield code="t">Fast iterative methods for discrete-ordinates particle transport calculations</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Prog.Nucl.Energy,40,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warsa, J.S.</subfield>
+    <subfield code="h">Wareing, T.A.</subfield>
+    <subfield code="h">Morel, J.E.</subfield>
+    <subfield code="t">Fully consistent diffusion synthetic acceleration of linear discontinuous sn transport discretizations on unstructured tetrahedral meshes</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,141,236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Warsa, J.S.</subfield>
+    <subfield code="h">Wareing, T.A.</subfield>
+    <subfield code="h">Morel, J.E.</subfield>
+    <subfield code="t">Krylov iterative methods and the degraded effectiveness of diffusion synthetic acceleration for multidimensional S N calculations in problems with material discontinuities</subfield>
+    <subfield code="v">147</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,147,218</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="t">Adaptive Mesh Refinement Solution Techniques for the Multigroup S N Transport Equation Using a Higher-Order Discontinuous Finite Element Method</subfield>
+    <subfield code="p">Texas A&amp;M; University College Station, TX, USA</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="t">Nodal method storage reduction by nonlinear iterations</subfield>
+    <subfield code="v">vol. 44</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Trans.Am.Nucl.Society,vol. 44,265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, D.</subfield>
+    <subfield code="h">Downar, T.</subfield>
+    <subfield code="h">Kim, Y.</subfield>
+    <subfield code="t">Convergence analysis of the nonlinear coarse-mesh finite difference method for one-dimensional fixed-source neutron diffusion problem</subfield>
+    <subfield code="v">147</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,147,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="h">Smith, K.</subfield>
+    <subfield code="h">Forget, B.</subfield>
+    <subfield code="t">Techniques for stabilizing coarse-mesh finite difference (CMFD) in methods of characteristics (MOC)</subfield>
+    <subfield code="p">MC2015 – Joint International Conference on Mathematics and Computation (M&amp;C;), Supercomputing in Nuclear Applications (SNA) and the Monte Carlo (MC) method, Nashville, TN, 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsen, E.W.</subfield>
+    <subfield code="h">Kelley, B.W.</subfield>
+    <subfield code="t">The relationship between the coarse-mesh finite difference and the coarse-mesh diffusion synthetic acceleration methods</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,178,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, H.</subfield>
+    <subfield code="h">Knoll, D.</subfield>
+    <subfield code="h">Newman, C.K.</subfield>
+    <subfield code="t">Nonlinear acceleration of transport criticality problems</subfield>
+    <subfield code="v">172</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,172,52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schunert, S.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Ortensi, J.</subfield>
+    <subfield code="h">Gleicher, F.</subfield>
+    <subfield code="h">DeHart, M.</subfield>
+    <subfield code="h">Martineau, R.</subfield>
+    <subfield code="t">A high-order nonlinear diffusion acceleration for the <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>S</mi></mrow><mrow><mi>N</mi></mrow></msub></math> equations discretized with the discontinuous FEM</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">2015 ANS Winter Meeting and Nuclear Technology Expo</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schunert, S.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Ortensi, J.</subfield>
+    <subfield code="h">Gleicher, F.</subfield>
+    <subfield code="h">DeHart, M.</subfield>
+    <subfield code="h">Martineau, R.</subfield>
+    <subfield code="t">A high-order nonlinear diffusion acceleration for the <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>S</mi></mrow><mrow><mi>N</mi></mrow></msub></math> equations discretized with the discontinuous FEM: Fourier analysis</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="q">2015 ANS Winter Meeting and Nuclear Technology Expo</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Valougeorgis, D.</subfield>
+    <subfield code="h">William, M.</subfield>
+    <subfield code="h">Larsen, E.</subfield>
+    <subfield code="t">Stability analysis of synthetic acceleration methods with anisotropic scattering</subfield>
+    <subfield code="v">99</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,99,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schunert, S.</subfield>
+    <subfield code="h">Hammer, H.</subfield>
+    <subfield code="h">Lou, J.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Ortensi, J.</subfield>
+    <subfield code="h">Gleicher, F.</subfield>
+    <subfield code="h">Baker, B.</subfield>
+    <subfield code="h">DeHart, M.</subfield>
+    <subfield code="h">Martineau, R.</subfield>
+    <subfield code="t">Using directional diffusion coefficients for nonlinear diffusion acceleration of the first order <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>S</mi></mrow><mrow><mi>N</mi></mrow></msub></math> equations in near-void regions</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="q">2016 ANS Winter Meeting and Nuclear Technology Expo</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sanchez, R.</subfield>
+    <subfield code="h">Rabiti, C.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="t">Nonlinear acceleration of a continuous finite element discretization of the self-adjoint angular flux form of the transport equation</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Nucl.Sci.Eng.,175,213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Emden, H.</subfield>
+    <subfield code="h">Meier Yang, U.</subfield>
+    <subfield code="t">BoomerAMG: a parallel algebraic multigrid solver and preconditioner</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Appl.Numer.Math.,41,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schunert, S.</subfield>
+    <subfield code="h">Wang, Y.</subfield>
+    <subfield code="h">Ortensi, J.</subfield>
+    <subfield code="h">Gleicher, F.</subfield>
+    <subfield code="h">Baker, B.</subfield>
+    <subfield code="h">DeHart, M.</subfield>
+    <subfield code="h">Martineau, R.</subfield>
+    <subfield code="t">On the degradation of the effectiveness of nonlinear diffusion acceleration with parallel block Jacobi splitting</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="q">2016 ANS Summer Meeting</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wolfram, I.</subfield>
+    <subfield code="t">Research, Mathematica: Version 10.3</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Azmy, Y.</subfield>
+    <subfield code="h">Morel, J.</subfield>
+    <subfield code="h">Wareing, T.</subfield>
+    <subfield code="t">Effect of material homogeneity on the performance of DSA for even-parity <math altimg="si1.gif" display="inline" overflow="scroll"><msub><mrow><mi>S</mi></mrow><mrow><mi>N</mi></mrow></msub></math> methods</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="q">International Conference on Mathematics and Computation, Reactor Physics and Environmental Analysis in Nuclear Applications</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Benchmark on Deterministic Transport Calculations Without Spatial Homogenisation</subfield>
+    <subfield code="p">Nuclear Energy Agency</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Tech. Rep. 5420</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00065/S0021999117301286/S0021999117301286.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

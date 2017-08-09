@@ -1,0 +1,451 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.038</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Zhu, Yajun</subfield>
+    <subfield code="v">National Key Laboratory of Science and Technology on Aerodynamic Design and Research, Northwestern Polytechnical University, Xi'an, Shaanxi, 710072, China</subfield>
+    <subfield code="m">zhuyajun@mail.nwpu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Implicit unified gas-kinetic scheme for steady state solutions in all flow regimes</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">23</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">This paper presents an implicit unified gas-kinetic scheme (UGKS) for non-equilibrium steady state flow computation. The UGKS is a direct modeling method for flow simulation in all regimes with the updates of both macroscopic flow variables and microscopic gas distribution function. By solving the macroscopic equations implicitly, a predicted equilibrium state can be obtained first through iterations. With the newly predicted equilibrium state, the evolution equation of the gas distribution function and the corresponding collision term can be discretized in a fully implicit way for fast convergence through iterations as well. The lower–upper symmetric Gauss–Seidel (LU-SGS) factorization method is implemented to solve both macroscopic and microscopic equations, which improves the efficiency of the scheme. Since the UGKS is a direct modeling method and its physical solution depends on the mesh resolution and the local time step, a physical time step needs to be fixed before using an implicit iterative technique with a pseudo-time marching step. Therefore, the physical time step in the current implicit scheme is determined by the same way as that in the explicit UGKS for capturing the physical solution in all flow regimes, but the convergence to a steady state speeds up through the adoption of a numerical time step with large CFL number. Many numerical test cases in different flow regimes from low speed to hypersonic ones, such as the Couette flow, cavity flow, and the flow passing over a cylinder, are computed to validate the current implicit method. The overall efficiency of the implicit UGKS can be improved by one or two orders of magnitude in comparison with the explicit one.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Implicit scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Unified gas kinetic scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">LU-SGS</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Steady state solution</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rarefied and continuum flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhong, Chengwen</subfield>
+    <subfield code="j">ORCID:0000-0001-7664-437X</subfield>
+    <subfield code="v">National Key Laboratory of Science and Technology on Aerodynamic Design and Research, Northwestern Polytechnical University, Xi'an, Shaanxi, 710072, China</subfield>
+    <subfield code="m">zhongcw@nwpu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, Kun</subfield>
+    <subfield code="v">Department of Mathematics, Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology, Hong Kong, China</subfield>
+    <subfield code="m">makxu@ust.hk</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">16-38</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhatnagar, P.L.</subfield>
+    <subfield code="h">Gross, E.P.</subfield>
+    <subfield code="h">Krook, M.</subfield>
+    <subfield code="t">A model for collision processes in gases. I. Small amplitude processes in charged and neutral one-component systems</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Rev.,94,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prendergast, K.H.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">Numerical hydrodynamics from gas-kinetic theory</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,109,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Prendergast, K.H.</subfield>
+    <subfield code="t">Numerical Navier–Stokes solutions from gas kinetic theory</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,114,9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A gas-kinetic BGK scheme for the Navier–Stokes equations and its connection with artificial dissipation and Godunov method</subfield>
+    <subfield code="v">171</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,171,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chapman, S.</subfield>
+    <subfield code="h">Cowling, T.G.</subfield>
+    <subfield code="t">The Mathematical Theory of Non-uniform Gases: An Account of the Kinetic Theory of Viscosity, Thermal Conduction and Diffusion in Gases</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Huang, J.-C.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,229,7747</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">Direct Modeling for Computational Fluid Dynamics: Construction and Application of Unified Gas-Kinetic Schemes</subfield>
+    <subfield code="p">World Scientific Singapore</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">A comparative study of an asymptotic preserving scheme and unified gas-kinetic scheme in continuum flow limit</subfield>
+    <subfield code="v">288</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,288,52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2016.03.014</subfield>
+    <subfield code="h">Liu, C.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Sun, Q.</subfield>
+    <subfield code="h">Cai, Q.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flows IV: full Boltzmann and model equations</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, W.</subfield>
+    <subfield code="h">Jiang, S.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="t">An asymptotic preserving unified gas kinetic scheme for gray radiative transfer equations</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,285,265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and the Direct Simulation of Gas Flows</subfield>
+    <subfield code="p">Oxford University Press USA</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mieussens, L.</subfield>
+    <subfield code="t">Discrete-velocity models and numerical schemes for the Boltzmann–BGK equation in plane and axisymmetric geometries</subfield>
+    <subfield code="v">162</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,162,429</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mieussens, L.</subfield>
+    <subfield code="t">Discrete velocity model and implicit scheme for the BGK equation of rarefied gas dynamics</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Math.Models Methods Appl.Sci.,10,1121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.-H.</subfield>
+    <subfield code="h">Bi, L.</subfield>
+    <subfield code="h">Zhang, H.-X.</subfield>
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="t">Gas-kinetic numerical study of complex flow problems covering various flow regimes</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Math.Appl.,61,3653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chae, D.</subfield>
+    <subfield code="h">Kim, C.</subfield>
+    <subfield code="h">Rho, O.-H.</subfield>
+    <subfield code="t">Development of an improved gas-kinetic BGK scheme for inviscid and viscous flows</subfield>
+    <subfield code="v">158</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,158,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, S.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">A Multigrid LU-SSOR Scheme for Approximate Newton Iteration Applied to the Euler Equations</subfield>
+    <subfield code="p">National Aeronautics and Space Administration</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="h">Yoon, S.</subfield>
+    <subfield code="t">Lower–upper implicit schemes with multiple grids for the Euler equations</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">AIAA J.,25,929</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, S.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Lower–upper symmetric-Gauss–Seidel method for the Euler and Navier–Stokes equations</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">AIAA J.,26,1025</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rieger, H.</subfield>
+    <subfield code="h">Jameson, A.</subfield>
+    <subfield code="t">Solution of steady three-dimensional compressible Euler and Navier–Stokes equations by an implicit LU scheme</subfield>
+    <subfield code="p">AIAA, Aerospace Sciences Meeting, 26th, Reno, NV, 1988</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sharov, D.</subfield>
+    <subfield code="h">Nakahashi, K.</subfield>
+    <subfield code="t">Reordering of 3-D hybrid unstructured grids for vectorized LU-SGS Navier–Stokes computations</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">AIAA Paper 97</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Mao, M.</subfield>
+    <subfield code="h">Tang, L.</subfield>
+    <subfield code="t">A multidimensional gas-kinetic BGK scheme for hypersonic viscous flow</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,203,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Q.</subfield>
+    <subfield code="h">Fu, S.</subfield>
+    <subfield code="t">Applications of implicit BGK scheme in near-continuum flow</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Int.J.Comput.Fluid Dyn.,20,453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, J.</subfield>
+    <subfield code="h">Qian, Y.</subfield>
+    <subfield code="t">Implicit gas-kinetic BGK scheme with multigrid for 3D stationary transonic high-Reynolds number flows</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,66,21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, W.</subfield>
+    <subfield code="h">Kaneda, M.</subfield>
+    <subfield code="h">Suga, K.</subfield>
+    <subfield code="t">An implicit gas kinetic BGK scheme for high temperature equilibrium gas flows on unstructured meshes</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,93,100</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, J.</subfield>
+    <subfield code="h">Huang, J.</subfield>
+    <subfield code="t">Rarefied flow computations using nonlinear model Boltzmann equations</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,120,323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mao, M.</subfield>
+    <subfield code="h">Jiang, D.</subfield>
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="t">Study on implicit implementation of the unified gas kinetic scheme</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Chin.J.Theor.Appl.Mech.,47,822</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taitano, W.T.</subfield>
+    <subfield code="h">Knoll, D.A.</subfield>
+    <subfield code="h">Chacón, L.</subfield>
+    <subfield code="h">Reisner, J.M.</subfield>
+    <subfield code="h">Prinja, A.K.</subfield>
+    <subfield code="t">Moment-based acceleration for neutral gas kinetics with BGK collision operator</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Theor.Transp.,43,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shakhov, E.</subfield>
+    <subfield code="t">Generalization of the Krook kinetic relaxation equation</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Fluid Dyn.,3,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, J.-C.</subfield>
+    <subfield code="h">Xu, K.</subfield>
+    <subfield code="h">Yu, P.</subfield>
+    <subfield code="t">A unified gas-kinetic scheme for continuum and rarefied flows II: multi-dimensional cases</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Commun.Comput.Phys.,12,662</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blazek, J.</subfield>
+    <subfield code="t">Computational Fluid Dynamics: Principles and Applications</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yoon, S.</subfield>
+    <subfield code="h">Kwakt, D.</subfield>
+    <subfield code="t">Implicit Navier–Stokes solver for three-dimensional compressible flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">AIAA J.,30,2653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, R.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">Fast, block lower–upper symmetric Gauss–Seidel scheme for arbitrary grids</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">AIAA J.,38,2238</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rogers, S.E.</subfield>
+    <subfield code="t">Comparison of implicit schemes for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">AIAA J.,33,2066</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yuan, L.</subfield>
+    <subfield code="t">Comparison of implicit multigrid schemes for three-dimensional incompressible flows</subfield>
+    <subfield code="v">177</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,177,134</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, L.</subfield>
+    <subfield code="h">Wang, Z.</subfield>
+    <subfield code="t">A block LU-SGS implicit dual time-stepping algorithm for hybrid dynamic meshes</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Fluids,33,891</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aoki, K.</subfield>
+    <subfield code="h">Degond, P.</subfield>
+    <subfield code="h">Mieussens, L.</subfield>
+    <subfield code="t">Numerical simulations of rarefied gases in curved channels: thermal creep, circulating flow, and pumping effect</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Commun.Comput.Phys.,6,919</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fan, J.</subfield>
+    <subfield code="h">Shen, C.</subfield>
+    <subfield code="t">Statistical simulation of low-speed rarefied gas flows</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,167,393</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marques, W.</subfield>
+    <subfield code="h">Kremer, G.</subfield>
+    <subfield code="h">Sharipov, F.</subfield>
+    <subfield code="t">Couette flow with slip and jump boundary conditions</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Contin.Mech.Thermodyn.,12,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sone, Y.</subfield>
+    <subfield code="h">Takata, S.</subfield>
+    <subfield code="h">Ohwada, T.</subfield>
+    <subfield code="t">Numerical analysis of the plane Couette flow of a rarefied gas on the basis of the linearized Boltzmann equation for hard-sphere molecules</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Eur.J.Mech.B, Fluids,9,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">John, B.</subfield>
+    <subfield code="h">Gu, X.-J.</subfield>
+    <subfield code="h">Emerson, D.R.</subfield>
+    <subfield code="t">Effects of incomplete surface accommodation on non-equilibrium heat transfer in cavity flow: a parallel DSMC study</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Fluids,45,197</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghia, U.</subfield>
+    <subfield code="h">Ghia, K.N.</subfield>
+    <subfield code="h">Shin, C.</subfield>
+    <subfield code="t">High-Re solutions for incompressible flow using the Navier–Stokes equations and a multigrid method</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,48,387</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S002199911600190X/S002199911600190X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

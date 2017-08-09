@@ -1,0 +1,498 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.008</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Wong, Man Long</subfield>
+    <subfield code="j">ORCID:0000-0001-8830-4989</subfield>
+    <subfield code="v">Department of Aeronautics and Astronautics, Stanford University, Stanford, CA, 94305, USA</subfield>
+    <subfield code="m">wongml@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">High-order localized dissipation weighted compact nonlinear scheme for shock- and interface-capturing in compressible flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-17</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Simulations of single- and multi-species compressible flows with shock waves and discontinuities are conducted using a weighted compact nonlinear scheme (WCNS) with a newly developed sixth order localized dissipative interpolation. In smooth regions, the scheme applies the central nonlinear interpolation with minimum dissipation to resolve fluctuating flow features while in regions containing discontinuities and high wavenumber features, the scheme suppresses spurious numerical oscillations by hybridizing the central interpolation with the more dissipative upwind-biased nonlinear interpolation. In capturing material interfaces between species of different densities, a quasi-conservative five equation model that can conserve mass of each species is used to prevent pressure oscillations across the interfaces. Compared to upwind-biased interpolations with classical nonlinear weights [1,2] and improved weights [3] , and the interpolation with adaptive central-upwind weights for scale-separation [4] , it is shown that WCNS with the proposed localized dissipative interpolation has better performance to simultaneously capture discontinuities and resolve smooth features.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Weighted compact nonlinear scheme</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Weighted essential non-oscillatory interpolation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Localized dissipation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Shock-capturing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Interface-capturing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lele, Sanjiva K.</subfield>
+    <subfield code="v">Department of Aeronautics and Astronautics, Stanford University, Stanford, CA, 94305, USA</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Stanford University, Stanford, CA, 94305, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient Implementation of Weighted Eno Schemes</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">Tech. rep., DTIC Document</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Deng, X.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">Developing high-order weighted compact nonlinear schemes</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,165,22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Borges, R.</subfield>
+    <subfield code="h">Carmona, M.</subfield>
+    <subfield code="h">Costa, B.</subfield>
+    <subfield code="h">Don, W.S.</subfield>
+    <subfield code="t">An improved weighted essentially non-oscillatory scheme for hyperbolic conservation laws</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, X.</subfield>
+    <subfield code="h">Adams, N.</subfield>
+    <subfield code="t">Scale separation for implicit large eddy simulation</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,230,7240</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="h">Larsson, J.</subfield>
+    <subfield code="h">Bhagatwala, A.V.</subfield>
+    <subfield code="h">Cabot, W.H.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="h">Olson, B.J.</subfield>
+    <subfield code="h">Rawat, P.S.</subfield>
+    <subfield code="h">Shankar, S.K.</subfield>
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="h">Yee, H.C.</subfield>
+    <subfield code="h">Zhong, X.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Assessment of high-resolution methods for numerical simulations of compressible turbulence with shock waves</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1213</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henrick, A.K.</subfield>
+    <subfield code="h">Aslam, T.D.</subfield>
+    <subfield code="h">Powers, J.M.</subfield>
+    <subfield code="t">Mapped weighted essentially non-oscillatory schemes: achieving optimal order near critical points</subfield>
+    <subfield code="v">207</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,207,542</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martín, M.P.</subfield>
+    <subfield code="h">Taylor, E.M.</subfield>
+    <subfield code="h">Wu, M.</subfield>
+    <subfield code="h">Weirs, V.G.</subfield>
+    <subfield code="t">A bandwidth-optimized WENO scheme for the effective direct numerical simulation of compressible turbulence</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,220,270</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hu, X.</subfield>
+    <subfield code="h">Wang, Q.</subfield>
+    <subfield code="h">Adams, N.</subfield>
+    <subfield code="t">An adaptive central-upwind weighted essentially non-oscillatory scheme</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8952</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Compact finite difference schemes with spectral-like resolution</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,103,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="h">Cabot, W.H.</subfield>
+    <subfield code="t">A high-wavenumber viscosity for high-resolution numerical methods</subfield>
+    <subfield code="v">195</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,195,594</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="h">Cabot, W.H.</subfield>
+    <subfield code="t">Hyperviscosity for shock-turbulence interactions</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,203,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cook, A.W.</subfield>
+    <subfield code="t">Artificial fluid properties for large-eddy simulation of compressible turbulent mixing</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Fluids (1994-present),19,055103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fiorina, B.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">An artificial nonlinear diffusivity method for supersonic reacting flows with shocks</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,222,246</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S.K. Shankar, S. Kawai, S.K. Lele</subfield>
+    <subfield code="m">Numerical simulation of multicomponent shock accelerated flows and mixing using localized artificial diffusivity method, AIAA Paper 352</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kawai, S.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Localized artificial diffusivity scheme for discontinuity capturing on curvilinear meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,227,9498</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pirozzoli, S.</subfield>
+    <subfield code="t">Conservative hybrid compact-WENO schemes for shock-turbulence interaction</subfield>
+    <subfield code="v">178</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,178,81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ren, Y.-X.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="t">A characteristic-wise hybrid compact-WENO scheme for solving hyperbolic conservation laws</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,192,365</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Nonomura, N. Iizuka, K. Fujii</subfield>
+    <subfield code="m">Increasing order of accuracy of weighted compact nonlinear scheme, AIAA Paper 893</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="h">Jiang, S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Development of nonlinear weighted compact schemes with increasingly higher order accuracy</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, X.</subfield>
+    <subfield code="h">Zhang, S.</subfield>
+    <subfield code="h">Zhang, H.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A new class of central compact schemes with spectral-like resolution II: hybrid weighted nonlinear schemes</subfield>
+    <subfield code="v">284</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,284,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnsen, E.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Implementation of WENO schemes in compressible multicomponent flow problems</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,219,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nonomura, T.</subfield>
+    <subfield code="h">Morizawa, S.</subfield>
+    <subfield code="h">Terashima, H.</subfield>
+    <subfield code="h">Obayashi, S.</subfield>
+    <subfield code="h">Fujii, K.</subfield>
+    <subfield code="t">Numerical (error) issues on compressible multicomponent flows using a high-order differencing scheme: weighted compact nonlinear scheme</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coralic, V.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Finite-volume WENO scheme for viscous compressible multicomponent flows</subfield>
+    <subfield code="v">274</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,274,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baer, M.</subfield>
+    <subfield code="h">Nunziato, J.</subfield>
+    <subfield code="t">A two-phase mixture theory for the deflagration-to-detonation transition (ddt) in reactive granular materials</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,12,861</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">How to prevent pressure oscillations in multicomponent flow calculations: a quasi conservative approach</subfield>
+    <subfield code="v">125</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,125,150</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shyue, K.-M.</subfield>
+    <subfield code="t">An efficient shock-capturing algorithm for compressible multicomponent problems</subfield>
+    <subfield code="v">142</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,142,208</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Allaire, G.</subfield>
+    <subfield code="h">Clerc, S.</subfield>
+    <subfield code="h">Kokh, S.</subfield>
+    <subfield code="t">A five-equation model for the simulation of interfaces between compressible fluids</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,181,577</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nonomura, T.</subfield>
+    <subfield code="h">Fujii, K.</subfield>
+    <subfield code="t">Robust explicit formulation of weighted compact nonlinear scheme</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Comput.Fluids,85,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taylor, E.M.</subfield>
+    <subfield code="h">Wu, M.</subfield>
+    <subfield code="h">Martín, M.P.</subfield>
+    <subfield code="t">Optimization of nonlinear error for weighted essentially non-oscillatory methods in direct numerical simulations of compressible turbulence</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,223,384</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wong, M.L.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Improved weighted compact nonlinear scheme for flows with shocks and material interfaces: algorithm and assessment</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="q">54th AIAA Aerospace Sciences Meeting</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the HLL-Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Harten, A.</subfield>
+    <subfield code="h">Lax, P.D.</subfield>
+    <subfield code="h">Leer, B.v.</subfield>
+    <subfield code="t">On upstream differencing and Godunov-type schemes for hyperbolic conservation laws</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">SIAM Rev.,25,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Huang, K.</subfield>
+    <subfield code="h">Wu, H.</subfield>
+    <subfield code="h">Yu, H.</subfield>
+    <subfield code="h">Yan, D.</subfield>
+    <subfield code="t">Cures for numerical shock instability in HLLC solver</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,65,1026</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Larsson, J.</subfield>
+    <subfield code="h">Lele, S.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Effect of numerical dissipation on the predicted spectra for compressible turbulence</subfield>
+    <subfield code="p">Stanford University</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="q">Annual Research Briefs, Center for Turbulence Research</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pirozzoli, S.</subfield>
+    <subfield code="t">On the spectral properties of shock-capturing schemes</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,219,489</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes, II</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,83,32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sod, G.A.</subfield>
+    <subfield code="t">A survey of several finite difference methods for systems of nonlinear hyperbolic conservation laws</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Comput.Phys.,27,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">The numerical simulation of two-dimensional fluid flow with strong shocks</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,54,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brachet, M.E.</subfield>
+    <subfield code="h">Meiron, D.I.</subfield>
+    <subfield code="h">Orszag, S.A.</subfield>
+    <subfield code="h">Nickel, B.</subfield>
+    <subfield code="h">Morf, R.H.</subfield>
+    <subfield code="h">Frisch, U.</subfield>
+    <subfield code="t">Small-scale structure of the Taylor–Green vortex</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Fluid Mech.,130,411</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Karni, S.</subfield>
+    <subfield code="t">Computations of compressible multifluids</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,169,594</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brouillette, M.</subfield>
+    <subfield code="h">Sturtevant, B.</subfield>
+    <subfield code="t">Experiments on the Richtmyer–Meshkov instability: single-scale perturbations on a continuous interface</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Fluid Mech.,263,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Collins, B.</subfield>
+    <subfield code="h">Jacobs, J.</subfield>
+    <subfield code="t">Plif flow visualization and measurements of the Richtmyer–Meshkov instability of an air/sf6 interface</subfield>
+    <subfield code="v">464</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Fluid Mech.,464,113</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="t">On Godunov-type methods near low densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S002199911730195X/S002199911730195X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

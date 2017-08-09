@@ -1,0 +1,538 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">van der Kaap, N.J.</subfield>
+    <subfield code="j">ORCID:0000-0001-5029-4578</subfield>
+    <subfield code="v">Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 4, 9747 AG Groningen, The Netherlands</subfield>
+    <subfield code="m">n.j.van.der.kaap@rug.nl</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Massively parallel kinetic Monte Carlo simulations of charge carrier transport in organic semiconductors</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-02-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">12</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A parallel, lattice based Kinetic Monte Carlo simulation is developed that runs on a GPGPU board and includes Coulomb like particle–particle interactions. The performance of this computationally expensive problem is improved by modifying the interaction potential due to nearby particle moves, instead of fully recalculating it. This modification is achieved by adding dipole correction terms that represent the particle move. Exact evaluation of these terms is guaranteed by representing all interactions as 32-bit floating numbers, where only the integers between <math altimg="si1.gif" display="inline" overflow="scroll"><mo>−</mo><msup><mrow><mn>2</mn></mrow><mrow><mn>22</mn></mrow></msup></math> and 2 22 are used. We validate our method by modelling the charge transport in disordered organic semiconductors, including Coulomb interactions between charges. Performance is mainly governed by the particle density in the simulation volume, and improves for increasing densities. Our method allows calculations on large volumes including particle–particle interactions, which is important in the field of organic semiconductors.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="u">http://creativecommons.org/licenses/by/4.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Kinetic Monte Carlo</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Organic semiconductors</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Charge transport</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">GPGPU</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Koster, L.J.A.</subfield>
+    <subfield code="v">Zernike Institute for Advanced Materials, University of Groningen, Nijenborgh 4, 9747 AG Groningen, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">321-332</subfield>
+    <subfield code="v">307</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aleksandrov, H.A.</subfield>
+    <subfield code="h">Moskaleva, L.V.</subfield>
+    <subfield code="h">Zhao, Z.-J.</subfield>
+    <subfield code="h">Basaran, D.</subfield>
+    <subfield code="h">Chen, Z.-X.</subfield>
+    <subfield code="h">Mei, D.</subfield>
+    <subfield code="h">Rösch, N.</subfield>
+    <subfield code="t">Ethylene conversion to ethylidyne on pd (111) and pt (111): a first-principles-based kinetic Monte Carlo study</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Catal.,285,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sadigh, B.</subfield>
+    <subfield code="h">Lenosky, T.J.</subfield>
+    <subfield code="h">Theiss, S.K.</subfield>
+    <subfield code="h">Caturla, M.</subfield>
+    <subfield code="h">de la Rubia, T.D.</subfield>
+    <subfield code="h">Foad, M.A.</subfield>
+    <subfield code="t">Mechanism of boron diffusion in silicon: an ab initio and kinetic Monte Carlo study</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.Lett.,83,4341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Levis, D.</subfield>
+    <subfield code="h">Berthier, L.</subfield>
+    <subfield code="t">Clustering and heterogeneous dynamics in a kinetic Monte Carlo model of self-propelled hard disks</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Rev.,E89,062301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, L.</subfield>
+    <subfield code="h">Clancy, P.</subfield>
+    <subfield code="t">Kinetic Monte Carlo simulation of the growth of polycrystalline cu films</subfield>
+    <subfield code="v">473</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Surf.Sci.,473,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schulze, T.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="t">Kinetic Monte Carlo simulation of heteroepitaxial growth: wetting layers, quantum dots, capping, and nanorings</subfield>
+    <subfield code="v">86</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Phys.Rev.,B86,235313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Treeratanaphitak, T.</subfield>
+    <subfield code="h">Pritzker, M.D.</subfield>
+    <subfield code="h">Abukhdeir, N.M.</subfield>
+    <subfield code="t">Kinetic Monte Carlo simulation of electrodeposition using the embedded-atom method</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Electrochim.Acta,121,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ziff, R.M.</subfield>
+    <subfield code="h">Gulari, E.</subfield>
+    <subfield code="h">Barshad, Y.</subfield>
+    <subfield code="t">Kinetic phase transitions in an irreversible surface–reaction model</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.Lett.,56,2553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jansen, A.P.J.</subfield>
+    <subfield code="t">An Introduction to Kinetic Monte Carlo Simulations of Surface Reactions, vol. 856</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stamatakis, M.</subfield>
+    <subfield code="h">Chen, Y.</subfield>
+    <subfield code="h">Vlachos, D.G.</subfield>
+    <subfield code="t">First-principles-based kinetic Monte Carlo simulation of the structure sensitivity of the water–gas shift reaction on platinum surfaces</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Phys.Chem.,C115,24750</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fu, C.</subfield>
+    <subfield code="h">Torre, J.D.</subfield>
+    <subfield code="h">Willaime, F.</subfield>
+    <subfield code="h">Bocquet, J.</subfield>
+    <subfield code="h">Barbu, A.</subfield>
+    <subfield code="t">Multiscale modelling of defect kinetics in irradiated iron</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Nat.Mater.,4,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin-Bragado, I.</subfield>
+    <subfield code="h">Rivera, A.</subfield>
+    <subfield code="h">Valles, G.</subfield>
+    <subfield code="h">Gomez-Selles, J.L.</subfield>
+    <subfield code="h">Caturla, M.J.</subfield>
+    <subfield code="t">Mmonca: an object kinetic Monte Carlo simulator for damage irradiation evolution and defect diffusion</subfield>
+    <subfield code="v">184</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Comput.Phys.Commun.,184,2703</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duke, T.A.J.</subfield>
+    <subfield code="h">le Noveère, N.</subfield>
+    <subfield code="h">Bray, D.</subfield>
+    <subfield code="t">Conformational spread in a ring of proteins: a stochastic approach to allostery</subfield>
+    <subfield code="v">308</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Mol.Biol.,308,541</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Flenner, E.</subfield>
+    <subfield code="h">Janosi, L.</subfield>
+    <subfield code="h">Barz, B.</subfield>
+    <subfield code="h">Neagu, A.</subfield>
+    <subfield code="h">Forgacs, G.</subfield>
+    <subfield code="h">Kosztin, I.</subfield>
+    <subfield code="t">Kinetic Monte Carlo and cellular particle dynamics simulations of multicellular systems</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Rev.,E85,031907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fichthorn, K.A.</subfield>
+    <subfield code="h">Weinberg, W.H.</subfield>
+    <subfield code="t">Theoretical foundations of dynamical Monte Carlo simulations</subfield>
+    <subfield code="v">95</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Chem.Phys.,95,1090</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhou, J.</subfield>
+    <subfield code="h">Zhou, Y.</subfield>
+    <subfield code="h">Zhao, J.</subfield>
+    <subfield code="h">Wu, C.</subfield>
+    <subfield code="h">Ding, X.</subfield>
+    <subfield code="h">Hou, X.</subfield>
+    <subfield code="t">Carrier density dependence of mobility in organic solids: a Monte Carlo simulation</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Rev.,B75,153201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schulze, T.P.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="t">An energy localization principle and its application to fast kinetic Monte Carlo simulation of heteroepitaxial growth</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,57,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kittiratanawasin, L.</subfield>
+    <subfield code="h">Smith, R.</subfield>
+    <subfield code="t">Long time scale evolution of radiation-induced defects in er2o3</subfield>
+    <subfield code="v">269</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Nucl.Instrum.Methods,B269,1712</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, H.</subfield>
+    <subfield code="h">Greengard, L.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast adaptive multipole algorithm in three dimensions</subfield>
+    <subfield code="v">155</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,155,468</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lashuk, I.</subfield>
+    <subfield code="h">Chandramowlishwaran, A.</subfield>
+    <subfield code="h">Langston, H.</subfield>
+    <subfield code="h">Nguyen, T.-A.</subfield>
+    <subfield code="h">Sampath, R.</subfield>
+    <subfield code="h">Shringarpure, A.</subfield>
+    <subfield code="h">Vuduc, R.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="h">Zorin, D.</subfield>
+    <subfield code="h">Biros, G.</subfield>
+    <subfield code="t">A massively parallel adaptive fast multipole method on heterogeneous architectures</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Commun.ACM,55,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Van der Holst, J.</subfield>
+    <subfield code="h">Van Oost, F.</subfield>
+    <subfield code="h">Coehoorn, R.</subfield>
+    <subfield code="h">Bobbert, P.</subfield>
+    <subfield code="t">Monte Carlo study of charge transport in organic sandwich-type single-carrier devices: effects of Coulomb interactions</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Rev.,B83,085206</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schulze, T.P.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="t">Simulation of three-dimensional strained heteroepitaxial growth using kinetic Monte Carlo</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Commun.Comput.Phys.,10,1089</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gibson, M.A.</subfield>
+    <subfield code="h">Bruck, J.</subfield>
+    <subfield code="t">Efficient exact stochastic simulation of chemical systems with many species and many channels</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Phys.Chem.,A104,1876</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Z.G.</subfield>
+    <subfield code="h">Smith, D.L.</subfield>
+    <subfield code="h">Saxena, A.</subfield>
+    <subfield code="h">Martin, R.L.</subfield>
+    <subfield code="h">Bishop, A.R.</subfield>
+    <subfield code="t">Molecular geometry fluctuations and field-dependent mobility in conjugated polymers</subfield>
+    <subfield code="v">63</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.,B63,085202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bortz, A.B.</subfield>
+    <subfield code="h">Kalos, M.H.</subfield>
+    <subfield code="h">Lebowitz, J.L.</subfield>
+    <subfield code="t">A new algorithm for Monte Carlo simulation of Ising spin systems</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,17,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubachevsky, B.D.</subfield>
+    <subfield code="t">Efficient parallel simulations of dynamic Ising spin systems</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,75,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shim, Y.</subfield>
+    <subfield code="h">Amar, J.G.</subfield>
+    <subfield code="t">Semirigorous synchronous sublattice algorithm for parallel kinetic Monte Carlo simulations of thin film growth</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Phys.Rev.,B71,125432</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martínez, E.</subfield>
+    <subfield code="h">Marian, J.</subfield>
+    <subfield code="h">Kalos, M.H.</subfield>
+    <subfield code="h">Perlado, J.M.</subfield>
+    <subfield code="t">Synchronous parallel kinetic Monte Carlo for continuum diffusion–reaction systems</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3804</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Merrick, M.</subfield>
+    <subfield code="h">Fichthorn, K.A.</subfield>
+    <subfield code="t">Synchronous relaxation algorithm for parallel kinetic Monte Carlo simulations of thin film growth</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Phys.Rev.,E75,011606</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shim, Y.</subfield>
+    <subfield code="h">Amar, J.G.</subfield>
+    <subfield code="t">Rigorous synchronous relaxation algorithm for parallel kinetic Monte Carlo simulations of thin film growth</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Phys.Rev.,B71,115436</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arampatzis, G.</subfield>
+    <subfield code="h">Katsoulakis, M.A.</subfield>
+    <subfield code="h">Plecháč, P.</subfield>
+    <subfield code="h">Taufer, M.</subfield>
+    <subfield code="h">Xu, L.</subfield>
+    <subfield code="t">Hierarchical fractional-step approximations and parallel kinetic Monte Carlo algorithms</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7795</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plimpton, S.</subfield>
+    <subfield code="h">Battaile, C.</subfield>
+    <subfield code="h">Chandross, M.</subfield>
+    <subfield code="h">Holm, L.</subfield>
+    <subfield code="h">Thompson, A.</subfield>
+    <subfield code="h">Tikare, V.</subfield>
+    <subfield code="h">Wagner, G.</subfield>
+    <subfield code="h">Webb, E.</subfield>
+    <subfield code="h">Zhou, X.</subfield>
+    <subfield code="h">Cardona, C.G.</subfield>
+    <subfield code="h">Slepoy, A.</subfield>
+    <subfield code="t">Crossing the mesoscale no-man's land via parallel kinetic Monte Carlo</subfield>
+    <subfield code="p">Sandia National Laboratories</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">Tech. rep., sAND20096226</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, J.A.</subfield>
+    <subfield code="h">Jankowski, E.</subfield>
+    <subfield code="h">Grubb, T.L.</subfield>
+    <subfield code="h">Engel, M.</subfield>
+    <subfield code="h">Glotzer, S.C.</subfield>
+    <subfield code="t">Massively parallel Monte Carlo for many-particle simulations on {GPUs}</subfield>
+    <subfield code="v">254</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Comput.Phys.,254,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martínez, E.</subfield>
+    <subfield code="h">Marian, J.</subfield>
+    <subfield code="h">Kalos, M.H.</subfield>
+    <subfield code="h">Perlado, J.M.</subfield>
+    <subfield code="t">Synchronous parallel kinetic Monte Carlo for continuum diffusion–reaction systems</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,227,3804</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martínez, E.</subfield>
+    <subfield code="h">Monasterio, P.R.</subfield>
+    <subfield code="h">Marian, J.</subfield>
+    <subfield code="t">Billion-atom synchronous parallel kinetic Monte Carlo simulations of critical 3d Ising systems</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,230,1359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bässler, H.</subfield>
+    <subfield code="t">Charge transport in disordered organic photoconductors a Monte Carlo simulation study</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Phys.Status Solidi,B175,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Casalegno, M.</subfield>
+    <subfield code="h">Raos, G.</subfield>
+    <subfield code="h">Po, R.</subfield>
+    <subfield code="t">Methodological assessment of kinetic Monte Carlo simulations of organic photovoltaic devices: the treatment of electrostatic interactions</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Chem.Phys.,132,094705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Coropceanu, V.</subfield>
+    <subfield code="h">Cornil, J.</subfield>
+    <subfield code="h">da Silva Filho, D.A.</subfield>
+    <subfield code="h">Olivier, Y.</subfield>
+    <subfield code="h">Silbey, R.</subfield>
+    <subfield code="h">Brédas, J.L.</subfield>
+    <subfield code="t">Charge transport in organic semiconductors</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Chem.Rev.,107,926</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miller, A.</subfield>
+    <subfield code="h">Abrahams, E.</subfield>
+    <subfield code="t">Impurity conduction at low concentrations</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Phys.Rev.,120,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Demeyu, L.</subfield>
+    <subfield code="h">Stafström, S.</subfield>
+    <subfield code="h">Bekele, M.</subfield>
+    <subfield code="t">Monte Carlo simulations of charge carrier mobility in semiconducting polymer field-effect transistors</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Rev.,B76,155202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pasveer, W.F.</subfield>
+    <subfield code="h">Cottaar, J.</subfield>
+    <subfield code="h">Tanase, C.</subfield>
+    <subfield code="h">Coehoorn, R.</subfield>
+    <subfield code="h">Bobbert, P.A.</subfield>
+    <subfield code="h">Blom, P.W.M.</subfield>
+    <subfield code="h">de Leeuw, D.M.</subfield>
+    <subfield code="h">Michels, M.A.J.</subfield>
+    <subfield code="t">Unified description of charge-carrier mobilities in disordered semiconducting polymers</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Phys.Rev.Lett.,94,206601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van der Holst, J.</subfield>
+    <subfield code="t">Three-dimensional modeling of charge transport, injection and recombination in organic light-emitting diodes</subfield>
+    <subfield code="p">Technische Universiteit Eindhoven</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cottaar, J.</subfield>
+    <subfield code="h">Bobbert, P.A.</subfield>
+    <subfield code="t">Calculating charge-carrier mobilities in disordered semiconducting polymers: mean field and beyond</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Rev.,B74,115204</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lukyanov, A.</subfield>
+    <subfield code="h">Andrienko, D.</subfield>
+    <subfield code="t">Extracting nondispersive charge carrier mobilities of organic semiconductors from simulations of small systems</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Rev.,B82,193202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Groves, C.</subfield>
+    <subfield code="h">Blakesley, J.C.</subfield>
+    <subfield code="h">Greenham, N.C.</subfield>
+    <subfield code="t">Effect of charge trapping on geminate recombination and polymer solar cell performance</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Nano Lett.,10,1063</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00246/S0021999115008153/S0021999115008153.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

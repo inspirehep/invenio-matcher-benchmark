@@ -1,0 +1,873 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.ascom.2016.02.004</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">McAlpine, S.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+    <subfield code="m">s.r.mcalpine@durham.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The eagle simulations of galaxy formation: Public release of halo and galaxy catalogues</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-04</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">18</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present the public data release of halo and galaxy catalogues extracted from the eagle suite of cosmological hydrodynamical simulations of galaxy formation. These simulations were performed with an enhanced version of the gadget code that includes a modified hydrodynamics solver, time-step limiter and subgrid treatments of baryonic physics, such as stellar mass loss, element-by-element radiative cooling, star formation and feedback from star formation and black hole accretion. The simulation suite includes runs performed in volumes ranging from 25 to 100 comoving megaparsecs per side, with numerical resolution chosen to marginally resolve the Jeans mass of the gas at the star formation threshold. The free parameters of the subgrid models for feedback are calibrated to the redshift <math altimg="si143.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>0</mn></math> galaxy stellar mass function, galaxy sizes and black hole mass–stellar mass relation. The simulations have been shown to match a wide range of observations for present-day and higher-redshift galaxies. The raw particle data have been used to link galaxies across redshifts by creating merger trees. The indexing of the tree produces a simple way to connect a galaxy at one redshift to its progenitors at higher redshift and to identify its descendants at lower redshift. In this paper we present a relational database which we are making available for general use. A large number of properties of haloes and galaxies and their merger trees are stored in the database, including stellar masses, star formation rates, metallicities, photometric measurements and mock <math altimg="si144.gif" display="inline" overflow="scroll"><mi>g</mi><mi>r</mi><mi>i</mi></math> images. Complex queries can be created to explore the evolution of more than <math altimg="si145.gif" display="inline" overflow="scroll"><msup><mrow><mn>10</mn></mrow><mrow><mn>5</mn></mrow></msup></math> galaxies, examples of which are provided in the Appendix. The relatively good and broad agreement of the simulations with a wide range of observational datasets makes the database an ideal resource for the analysis of model galaxies through time, and for connecting and interpreting observational datasets.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cosmology: theory</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Galaxies: formation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Galaxies: evolution</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Method: numerical</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Helly, J.C.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+    <subfield code="m">j.c.helly@durham.ac.uk</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schaller, M.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+    <subfield code="m">matthieu.schaller@durham.ac.uk</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Trayford, J.W.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Qu, Y.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Furlong, M.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bower, R.G.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Crain, R.A.</subfield>
+    <subfield code="v">Astrophysics Research Institute, Liverpool John Moores University, 146 Brownlow Hill, Liverpool, L3 5RF, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schaye, J.</subfield>
+    <subfield code="v">Leiden Observatory, Leiden University, P.O. Box 9513, Leiden, 2300 RA, The Netherlands</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Theuns, T.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dalla Vecchia, C.</subfield>
+    <subfield code="v">Instituto de Astrofísica de Canarias, C/ Vía Láctea s/n, 38205 La Laguna, Tenerife, Spain</subfield>
+    <subfield code="v">Departamento de Astrofísica, Universidad de La Laguna, Av. del Astrofísico Francisco Sánchez s/n, 38206 La Laguna, Tenerife, Spain</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Frenk, C.S.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">McCarthy, I.G.</subfield>
+    <subfield code="v">Astrophysics Research Institute, Liverpool John Moores University, 146 Brownlow Hill, Liverpool, L3 5RF, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jenkins, A.</subfield>
+    <subfield code="v">Institute for Computational Cosmology, Department of Physics, University of Durham, South Road, Durham, DH1 3LE, UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Rosas-Guevara, Y.</subfield>
+    <subfield code="v">Departamento de Astronomía, Universidad de Chile, Casilla 36-D, Las Condes, Santiago, Chile</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">White, S.D.M.</subfield>
+    <subfield code="v">Max-Planck-Institut fur Astrophysik, Karl-Schwarzschild-Str. 1, Garching, D-85748, Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Baes, M.</subfield>
+    <subfield code="v">Sterrenkundig Observatorium, Universiteit Gent, Krijgslaan 281, Gent, B-9000, Belgium</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Camps, P.</subfield>
+    <subfield code="v">Sterrenkundig Observatorium, Universiteit Gent, Krijgslaan 281, Gent, B-9000, Belgium</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lemson, G.</subfield>
+    <subfield code="v">Department of Physics &amp; Astronomy, Johns Hopkins University, Baltimore, MD, 21218, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Astron.Comput.</subfield>
+    <subfield code="c">72-89</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1046/j.1365-8711.2003.06770.x</subfield>
+    <subfield code="h">Baes, M.</subfield>
+    <subfield code="r">astro-ph/0304501</subfield>
+    <subfield code="t">Radiative transfer in disc galaxies—III. The observed kinematics of dusty disc galaxies</subfield>
+    <subfield code="v">343</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">arXiv:astro-ph/0304501</subfield>
+    <subfield code="o">Baes et al, 2003</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,343,1081</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2009.15043.x</subfield>
+    <subfield code="h">Booth, C.M.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="r">arXiv:0904.2572</subfield>
+    <subfield code="t">Cosmological simulations of the growth of supermassive black holes and feedback from active galactic nuclei: method and tests</subfield>
+    <subfield code="v">398</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0904.2572</subfield>
+    <subfield code="o">Booth and Schaye, 2009</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,398,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bruzual, G.</subfield>
+    <subfield code="h">Charlot, S.</subfield>
+    <subfield code="t">Stellar population synthesis at the resolution of 2003</subfield>
+    <subfield code="v">344</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">Bruzual and Charlot, 2003</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,344,1000</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/305262</subfield>
+    <subfield code="h">Bryan, G.L.</subfield>
+    <subfield code="h">Norman, M.L.</subfield>
+    <subfield code="r">astro-ph/9710107</subfield>
+    <subfield code="t">Statistical properties of x-ray clusters: Analytic and numerical comparisons</subfield>
+    <subfield code="v">495</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="m">arXiv:astro-ph/9710107</subfield>
+    <subfield code="o">Bryan and Norman, 1998</subfield>
+    <subfield code="s">Astrophys.J.,495,80</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ascom.2014.10.004</subfield>
+    <subfield code="h">Camps, P.</subfield>
+    <subfield code="h">Baes, M.</subfield>
+    <subfield code="r">arXiv:1410.1629</subfield>
+    <subfield code="t">SKIRT: An advanced dust radiative transfer code with a user-friendly architecture</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1410.1629</subfield>
+    <subfield code="o">Camps and Baes, 2015</subfield>
+    <subfield code="s">Astron.Comput.,9,20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/185686</subfield>
+    <subfield code="h">Carlberg, R.G.</subfield>
+    <subfield code="h">Couchman, H.M.P.</subfield>
+    <subfield code="h">Thomas, P.A.</subfield>
+    <subfield code="t">Cosmological velocity bias</subfield>
+    <subfield code="v">352</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">Carlberg et al, 1990</subfield>
+    <subfield code="s">Astrophys.J.,352,L29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/376392</subfield>
+    <subfield code="h">Chabrier, G.</subfield>
+    <subfield code="r">astro-ph/0304382</subfield>
+    <subfield code="t">Galactic stellar and substellar initial mass function</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">arXiv:astro-ph/0304382</subfield>
+    <subfield code="o">Chabrier, 2003</subfield>
+    <subfield code="s">Publ.Astron.Soc.Pac.,115,763</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0067-0049/219/1/8</subfield>
+    <subfield code="h">Chang, Y.Y.</subfield>
+    <subfield code="h">van der Wel, A.</subfield>
+    <subfield code="h">da Cunha, E.</subfield>
+    <subfield code="h">Rix, H.W.</subfield>
+    <subfield code="r">arXiv:1506.00648</subfield>
+    <subfield code="t">Stellar masses and star formation rates for 1M galaxies from SDSS+WISE</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1506.00648</subfield>
+    <subfield code="o">Chang et al, 2015</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,219,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv725</subfield>
+    <subfield code="h">Crain, R.A.</subfield>
+    <subfield code="r">arXiv:1501.01311</subfield>
+    <subfield code="t">The EAGLE simulations of galaxy formation: calibration of subgrid physics and model variations</subfield>
+    <subfield code="v">450</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1501.01311</subfield>
+    <subfield code="o">Crain et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,450,1937</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2010.17158.x</subfield>
+    <subfield code="h">Cullen, L.</subfield>
+    <subfield code="h">Dehnen, W.</subfield>
+    <subfield code="r">arXiv:1006.1524</subfield>
+    <subfield code="t">Inviscid smoothed particle hydrodynamics</subfield>
+    <subfield code="v">408</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:1006.1524</subfield>
+    <subfield code="o">Cullen and Dehnen, 2010</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,408,669</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2012.21704.x</subfield>
+    <subfield code="h">Dalla Vecchia, C.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="r">arXiv:1203.5667</subfield>
+    <subfield code="t">Simulating galactic outflows with thermal supernova feedback</subfield>
+    <subfield code="v">426</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">arXiv:1203.5667</subfield>
+    <subfield code="o">Dalla Vecchia and Schaye, 2012</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,426,140</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/163168</subfield>
+    <subfield code="h">Davis, M.</subfield>
+    <subfield code="h">Efstathiou, G.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="t">The evolution of large-scale structure in a universe dominated by cold dark matter</subfield>
+    <subfield code="v">292</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">Davis et al, 1985</subfield>
+    <subfield code="s">Astrophys.J.,292,371</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2006.11287.x</subfield>
+    <subfield code="h">De Lucia, G.</subfield>
+    <subfield code="h">Blaizot, J.</subfield>
+    <subfield code="r">astro-ph/0606519</subfield>
+    <subfield code="t">The hierarchical formation of the brightest cluster galaxies</subfield>
+    <subfield code="v">375</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">arXiv:astro-ph/0606519</subfield>
+    <subfield code="o">De Lucia and Blaizot, 2007</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,375,2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-6256/139/4/1628</subfield>
+    <subfield code="h">Doi, M.</subfield>
+    <subfield code="r">arXiv:1002.3701</subfield>
+    <subfield code="t">Photometric response functions of the sloan digital sky survey imager</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:1002.3701</subfield>
+    <subfield code="o">Doi et al, 2010</subfield>
+    <subfield code="s">Astron.J.,139,1628</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2009.15034.x</subfield>
+    <subfield code="h">Dolag, K.</subfield>
+    <subfield code="h">Borgani, S.</subfield>
+    <subfield code="h">Murante, G.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="r">arXiv:0808.3401</subfield>
+    <subfield code="t">Substructures in hydrodynamical cluster simulations</subfield>
+    <subfield code="v">399</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0808.3401</subfield>
+    <subfield code="o">Dolag et al, 2009</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,399,497</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stu1227</subfield>
+    <subfield code="h">Dubois, Y.</subfield>
+    <subfield code="r">arXiv:1402.1165</subfield>
+    <subfield code="t">Dancing in the dark: galactic properties trace spin swings along the cosmic web</subfield>
+    <subfield code="v">444</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1402.1165</subfield>
+    <subfield code="o">Dubois et al, 2014</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,444,1453</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2011.19712.x</subfield>
+    <subfield code="h">Durier, F.</subfield>
+    <subfield code="h">Dalla Vecchia, C.</subfield>
+    <subfield code="r">arXiv:1105.3729</subfield>
+    <subfield code="t">Implementation of feedback in smoothed particle hydrodynamics: towards concordance of methods</subfield>
+    <subfield code="v">419</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">arXiv:1105.3729</subfield>
+    <subfield code="o">Durier and Dalla Vecchia, 2012</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,419,465</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2008.13075.x</subfield>
+    <subfield code="h">Fakhouri, O.</subfield>
+    <subfield code="h">Ma, C.P.</subfield>
+    <subfield code="r">arXiv:0710.4567</subfield>
+    <subfield code="t">The nearly universal merger rate of dark matter haloes in <math altimg="si236.gif" display="inline" overflow="scroll"><mi>Λ</mi></math> CDM cosmology</subfield>
+    <subfield code="v">386</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0710.4567</subfield>
+    <subfield code="o">Fakhouri and Ma, 2008</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,386,577</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv852</subfield>
+    <subfield code="h">Furlong, M.</subfield>
+    <subfield code="r">arXiv:1410.3485</subfield>
+    <subfield code="t">Evolution of galaxy stellar masses and star formation rates in the EAGLE simulations</subfield>
+    <subfield code="v">450</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1410.3485</subfield>
+    <subfield code="o">Furlong et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,450,4486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1088/0004-637X/701/2/2002</subfield>
+    <subfield code="h">Genel, S.</subfield>
+    <subfield code="h">Genzel, R.</subfield>
+    <subfield code="h">Bouché, N.</subfield>
+    <subfield code="h">Naab, T.</subfield>
+    <subfield code="h">Sternberg, A.</subfield>
+    <subfield code="r">arXiv:0812.3154</subfield>
+    <subfield code="t">The halo merger rate in the millennium simulation and implications for observed galaxy merger fractions</subfield>
+    <subfield code="v">701</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0812.3154</subfield>
+    <subfield code="o">Genel et al, 2009</subfield>
+    <subfield code="s">Astrophys.J.,701,2002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/528711</subfield>
+    <subfield code="h">Groves, B.</subfield>
+    <subfield code="h">Dopita, M.A.</subfield>
+    <subfield code="h">Sutherland, R.S.</subfield>
+    <subfield code="h">Kewley, L.J.</subfield>
+    <subfield code="h">Fischera, J.</subfield>
+    <subfield code="h">Leitherer, C.</subfield>
+    <subfield code="h">Brandl, B.</subfield>
+    <subfield code="h">van Breugel, W.</subfield>
+    <subfield code="r">arXiv:0712.1824</subfield>
+    <subfield code="t">Modeling the pan-spectral energy distribution of starburst galaxies. IV. The controlling parameters of the starburst SED</subfield>
+    <subfield code="v">176</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0712.1824</subfield>
+    <subfield code="o">Groves et al, 2008</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,176,438</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv705</subfield>
+    <subfield code="h">Henriques, B.M.B.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Thomas, P.A.</subfield>
+    <subfield code="h">Angulo, R.</subfield>
+    <subfield code="h">Guo, Q.</subfield>
+    <subfield code="h">Lemson, G.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">Overzier, R.</subfield>
+    <subfield code="r">arXiv:1410.0365</subfield>
+    <subfield code="t">Galaxy formation in the Planck cosmology—I. Matching the observed evolution of star formation rates, colours and stellar masses</subfield>
+    <subfield code="v">451</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1410.0365</subfield>
+    <subfield code="o">Henriques et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,451,2663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2005.09969.x</subfield>
+    <subfield code="h">Hewett, P.C.</subfield>
+    <subfield code="h">Warren, S.J.</subfield>
+    <subfield code="h">Leggett, S.K.</subfield>
+    <subfield code="h">Hodgkin, S.T.</subfield>
+    <subfield code="r">astro-ph/0601592</subfield>
+    <subfield code="t">The UKIRT infrared deep sky survey ZY JHK photometric system: passbands and synthetic colours</subfield>
+    <subfield code="v">367</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">arXiv:astro-ph/0601592</subfield>
+    <subfield code="o">Hewett et al, 2006</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,367,454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/sts210</subfield>
+    <subfield code="h">Hopkins, P.F.</subfield>
+    <subfield code="r">arXiv:1206.5006</subfield>
+    <subfield code="t">A general class of Lagrangian smoothed particle hydrodynamics methods and implications for fluid mixing problems</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:1206.5006</subfield>
+    <subfield code="o">Hopkins, 2013</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,428,2840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2010.16259.x</subfield>
+    <subfield code="h">Jenkins, A.</subfield>
+    <subfield code="r">arXiv:0910.0258</subfield>
+    <subfield code="t">Second-order Lagrangian perturbation theory initial conditions for resimulations</subfield>
+    <subfield code="v">403</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:0910.0258</subfield>
+    <subfield code="o">Jenkins, 2010</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,403,1859</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stt1154</subfield>
+    <subfield code="h">Jenkins, A.</subfield>
+    <subfield code="r">arXiv:1306.5968</subfield>
+    <subfield code="t">A new way of setting the phases for cosmological multiscale Gaussian initial conditions</subfield>
+    <subfield code="v">434</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:1306.5968</subfield>
+    <subfield code="o">Jenkins, 2013</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,434,2094</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stu390</subfield>
+    <subfield code="h">Jiang, L.</subfield>
+    <subfield code="h">Helly, J.C.</subfield>
+    <subfield code="h">Cole, S.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="r">arXiv:1311.6649</subfield>
+    <subfield code="t">N-body dark matter haloes with simple hierarchical histories</subfield>
+    <subfield code="v">440</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1311.6649</subfield>
+    <subfield code="o">Jiang et al, 2014</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,440,2115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/186619</subfield>
+    <subfield code="h">Katz, N.</subfield>
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="h">Weinberg, D.H.</subfield>
+    <subfield code="t">Galaxies and gas in a cold dark matter universe</subfield>
+    <subfield code="v">399</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">Katz et al, 1992</subfield>
+    <subfield code="s">Astrophys.J.,399,L109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv627</subfield>
+    <subfield code="h">Khandai, N.</subfield>
+    <subfield code="h">Di Matteo, T.</subfield>
+    <subfield code="h">Croft, R.</subfield>
+    <subfield code="h">Wilkins, S.</subfield>
+    <subfield code="h">Feng, Y.</subfield>
+    <subfield code="h">Tucker, E.</subfield>
+    <subfield code="h">DeGraf, C.</subfield>
+    <subfield code="h">Liu, M.S.</subfield>
+    <subfield code="r">arXiv:1402.0888</subfield>
+    <subfield code="t">The MassiveBlack-II simulation: the evolution of haloes and galaxies to <math altimg="si143.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>0</mn></math></subfield>
+    <subfield code="v">450</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1402.0888</subfield>
+    <subfield code="o">Khandai et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,450,1349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lacey, C.G., et al.</subfield>
+    <subfield code="m">A unified multi-wavelength model of galaxy formation. ArXiv e-prints</subfield>
+    <subfield code="r">arXiv:1509.08473</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Lacey et al, 2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv1488</subfield>
+    <subfield code="h">Lagos, C.d.P.</subfield>
+    <subfield code="r">arXiv:1503.04807</subfield>
+    <subfield code="t">Molecular hydrogen abundances of galaxies in the EAGLE simulations</subfield>
+    <subfield code="v">452</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1503.04807</subfield>
+    <subfield code="o">Lagos et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,452,3815</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lemson, G.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="t">Cosmological simulations in a relational database: Modelling and storing merger trees</subfield>
+    <subfield code="v">vol. 351</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">Lemson and Springel, 2006</subfield>
+    <subfield code="s">ASP Conf.Ser.,vol. 351,212</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lemson, G.</subfield>
+    <subfield code="m">Virgo Consortium, T Halo and galaxy formation histories from the millennium simulation: Public release of a VO-oriented and SQL-queryable database for studying the evolution of galaxies in the LambdaCDM cosmogony. ArXiv Astrophysics e-prints arXiv:</subfield>
+    <subfield code="r">astro-ph/0608019</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="0">722792</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Lemson and Virgo Consortium, 2006</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/382245</subfield>
+    <subfield code="h">Lupton, R.</subfield>
+    <subfield code="h">Blanton, M.R.</subfield>
+    <subfield code="h">Fekete, G.</subfield>
+    <subfield code="h">Hogg, D.W.</subfield>
+    <subfield code="h">O’Mullane, W.</subfield>
+    <subfield code="h">Szalay, A.</subfield>
+    <subfield code="h">Wherry, N.</subfield>
+    <subfield code="r">astro-ph/0312483</subfield>
+    <subfield code="t">Preparing red–green–blue images from CCD data</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">arXiv:astro-ph/0312483</subfield>
+    <subfield code="o">Lupton et al, 2004</subfield>
+    <subfield code="s">Publ.Astron.Soc.Pac.,116,133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nelson, D., et al.</subfield>
+    <subfield code="m">The illustris simulation: Public data release. ArXiv e-prints</subfield>
+    <subfield code="a">doi:10.1016/j.ascom.2015.09.003</subfield>
+    <subfield code="r">arXiv:1504.00362</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="0">1357567</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Nelson et al, 2015</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/pasj/psu046</subfield>
+    <subfield code="h">Okamoto, T.</subfield>
+    <subfield code="h">Shimizu, I.</subfield>
+    <subfield code="h">Yoshida, N.</subfield>
+    <subfield code="r">arXiv:1404.7579</subfield>
+    <subfield code="t">Reproducing cosmic evolution of galaxy population from <math altimg="si297.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>4</mn></math> to 0</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1404.7579</subfield>
+    <subfield code="o">Okamoto et al, 2014</subfield>
+    <subfield code="s">Publ.Astron.Soc.Japan,66,70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2010.16872.x</subfield>
+    <subfield code="h">Oppenheimer, B.D.</subfield>
+    <subfield code="h">Davé, R.</subfield>
+    <subfield code="h">Kereš, D.</subfield>
+    <subfield code="h">Fardal, M.</subfield>
+    <subfield code="h">Katz, N.</subfield>
+    <subfield code="h">Kollmeier, J.A.</subfield>
+    <subfield code="h">Weinberg, D.H.</subfield>
+    <subfield code="r">arXiv:0912.0519</subfield>
+    <subfield code="t">Feedback and recycled wind accretion: assembling the <math altimg="si143.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>0</mn></math> galaxy mass function</subfield>
+    <subfield code="v">406</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">arXiv:0912.0519</subfield>
+    <subfield code="o">Oppenheimer et al, 2010</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,406,2325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peebles, P.J.E.</subfield>
+    <subfield code="m">The large-scale structure of the universe</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">Peebles, 1980</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/0004-6361/201321529</subfield>
+    <subfield code="r">arXiv:1303.5062</subfield>
+    <subfield code="t">Planck 2013 results. I. Overview of products and scientific results</subfield>
+    <subfield code="v">571</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1303.5062</subfield>
+    <subfield code="o">Planck Collaboration et al, 2014</subfield>
+    <subfield code="s">Astron.Astrophys.,571,A1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stu1434</subfield>
+    <subfield code="h">Porter, L.A.</subfield>
+    <subfield code="h">Somerville, R.S.</subfield>
+    <subfield code="h">Primack, J.R.</subfield>
+    <subfield code="h">Johansson, P.H.</subfield>
+    <subfield code="r">arXiv:1407.0594</subfield>
+    <subfield code="t">Understanding the structural scaling relations of early-type galaxies</subfield>
+    <subfield code="v">444</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1407.0594</subfield>
+    <subfield code="o">Porter et al, 2014</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,444,942</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2008.08.011</subfield>
+    <subfield code="h">Price, D.J.</subfield>
+    <subfield code="r">arXiv:0709.2772</subfield>
+    <subfield code="t">Modelling discontinuities and Kelvin Helmholtz instabilities in SPH</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0709.2772</subfield>
+    <subfield code="o">Price, 2008</subfield>
+    <subfield code="s">J.Comput.Phys.,227,10040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/sts243</subfield>
+    <subfield code="h">Puchwein, E.</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="r">arXiv:1205.2694</subfield>
+    <subfield code="t">Shaping the galaxy stellar mass function with supernova- and AGN-driven winds</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">arXiv:1205.2694</subfield>
+    <subfield code="o">Puchwein and Springel, 2013</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,428,2966</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv1414</subfield>
+    <subfield code="h">Rahmati, A.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="h">Bower, R.G.</subfield>
+    <subfield code="h">Crain, R.A.</subfield>
+    <subfield code="h">Furlong, M.</subfield>
+    <subfield code="h">Schaller, M.</subfield>
+    <subfield code="h">Theuns, T.</subfield>
+    <subfield code="r">arXiv:1503.05553</subfield>
+    <subfield code="t">The distribution of neutral hydrogen around high-redshift galaxies and quasars in the EAGLE simulation</subfield>
+    <subfield code="v">452</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1503.05553</subfield>
+    <subfield code="o">Rahmati et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,452,2034</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv2056</subfield>
+    <subfield code="h">Rosas-Guevara, Y.M.</subfield>
+    <subfield code="r">arXiv:1312.0598</subfield>
+    <subfield code="t">The impact of angular momentum on black hole accretion rates in simulations of galaxy formation</subfield>
+    <subfield code="v">454</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1312.0598</subfield>
+    <subfield code="o">Rosas-Guevara et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,454,1038</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv2169</subfield>
+    <subfield code="h">Schaller, M.</subfield>
+    <subfield code="h">Dalla Vecchia, C.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="h">Bower, R.G.</subfield>
+    <subfield code="h">Theuns, T.</subfield>
+    <subfield code="h">Crain, R.A.</subfield>
+    <subfield code="h">Furlong, M.</subfield>
+    <subfield code="h">McCarthy, I.G.</subfield>
+    <subfield code="r">arXiv:1509.05056</subfield>
+    <subfield code="t">The EAGLE simulations of galaxy formation: the importance of the hydrodynamics scheme</subfield>
+    <subfield code="v">454</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1509.05056</subfield>
+    <subfield code="o">Schaller et al, 2015a</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,454,2277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv1067</subfield>
+    <subfield code="h">Schaller, M.</subfield>
+    <subfield code="r">arXiv:1409.8617</subfield>
+    <subfield code="t">Baryon effects on the internal structure of <math altimg="si236.gif" display="inline" overflow="scroll"><mi>Λ</mi></math> CDM haloes in the EAGLE simulations</subfield>
+    <subfield code="v">451</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1409.8617</subfield>
+    <subfield code="o">Schaller et al, 2015b</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,451,1247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/421232</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="r">astro-ph/0205125</subfield>
+    <subfield code="t">Star formation thresholds and galaxy edges: Why and where</subfield>
+    <subfield code="v">609</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">arXiv:astro-ph/0205125</subfield>
+    <subfield code="o">Schaye, 2004</subfield>
+    <subfield code="s">Astrophys.J.,609,667</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stu2058</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="r">arXiv:1407.7040</subfield>
+    <subfield code="t">The EAGLE project: simulating the evolution and assembly of galaxies and their environments</subfield>
+    <subfield code="v">446</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1407.7040</subfield>
+    <subfield code="o">Schaye et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,446,521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2007.12639.x</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="h">Dalla Vecchia, C.</subfield>
+    <subfield code="r">arXiv:0709.0292</subfield>
+    <subfield code="t">On the relation between the Schmidt and Kennicutt–Schmidt star formation laws and its implications for numerical simulations</subfield>
+    <subfield code="v">383</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">arXiv:0709.0292</subfield>
+    <subfield code="o">Schaye and Dalla Vecchia, 2008</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,383,1210</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2005.09655.x</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="r">astro-ph/0505010</subfield>
+    <subfield code="t">The cosmological simulation code GADGET-2</subfield>
+    <subfield code="v">364</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">arXiv:astro-ph/0505010</subfield>
+    <subfield code="o">Springel, 2005</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,364,1105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2005.09238.x</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">Di Matteo, T.</subfield>
+    <subfield code="h">Hernquist, L.</subfield>
+    <subfield code="r">astro-ph/0411108</subfield>
+    <subfield code="t">Modelling feedback from stars and black holes in galaxy mergers</subfield>
+    <subfield code="v">361</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">arXiv:astro-ph/0411108</subfield>
+    <subfield code="o">Springel et al, 2005a</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,361,776</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1038/nature03597</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="r">astro-ph/0504097</subfield>
+    <subfield code="t">Simulations of the formation, evolution and clustering of galaxies and quasars</subfield>
+    <subfield code="v">435</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">arXiv:astro-ph/0504097</subfield>
+    <subfield code="o">Springel et al, 2005b</subfield>
+    <subfield code="s">Nature,435,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1046/j.1365-8711.2001.04912.x</subfield>
+    <subfield code="h">Springel, V.</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Tormen, G.</subfield>
+    <subfield code="h">Kauffmann, G.</subfield>
+    <subfield code="r">astro-ph/0012055</subfield>
+    <subfield code="t">Populating a cluster of galaxies—I. Results at [formmu2] <math altimg="si143.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>0</mn></math></subfield>
+    <subfield code="v">328</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">arXiv:astro-ph/0012055</subfield>
+    <subfield code="o">Springel et al, 2001</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,328,726</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Szalay, A.S.</subfield>
+    <subfield code="h">Kunszt, P.Z.</subfield>
+    <subfield code="h">Thakar, A.R.</subfield>
+    <subfield code="h">Gray, J.</subfield>
+    <subfield code="h">Slutz, D.</subfield>
+    <subfield code="r">astro-ph/9912382</subfield>
+    <subfield code="t">The sloan digital sky survey and its archive</subfield>
+    <subfield code="v">vol. 216</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">Szalay et al, 2000</subfield>
+    <subfield code="s">ASP Conf.Ser.,vol. 216,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stv1461</subfield>
+    <subfield code="h">Trayford, J.W.</subfield>
+    <subfield code="r">arXiv:1504.04374</subfield>
+    <subfield code="t">Colours and luminosities of <math altimg="si2.gif" display="inline" overflow="scroll"><mi>z</mi><mo>=</mo><mn>0.1</mn></math> galaxies in the EAGLE simulation</subfield>
+    <subfield code="v">452</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">arXiv:1504.04374</subfield>
+    <subfield code="o">Trayford et al, 2015</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,452,2879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1093/mnras/stu1536</subfield>
+    <subfield code="h">Vogelsberger, M.</subfield>
+    <subfield code="r">arXiv:1405.2921</subfield>
+    <subfield code="t">Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe</subfield>
+    <subfield code="v">444</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">arXiv:1405.2921</subfield>
+    <subfield code="o">Vogelsberger et al, 2014</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,444,1518</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF02123482</subfield>
+    <subfield code="h">Wendland, H.</subfield>
+    <subfield code="t">Piecewise polynomial, positive definite and compactly supported radial functions of minimal degree</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="m">URL http://www.springerlink.com/index/10.1007/BF02123482</subfield>
+    <subfield code="o">Wendland, 1995</subfield>
+    <subfield code="s">Adv.Comput.Math.,4,389</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1086/170483</subfield>
+    <subfield code="h">White, S.D.M.</subfield>
+    <subfield code="h">Frenk, C.S.</subfield>
+    <subfield code="t">Galaxy formation through hierarchical clustering</subfield>
+    <subfield code="v">379</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">White and Frenk, 1991</subfield>
+    <subfield code="s">Astrophys.J.,379,52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2008.14191.x</subfield>
+    <subfield code="h">Wiersma, R.P.C.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="h">Smith, B.D.</subfield>
+    <subfield code="r">arXiv:0807.3748</subfield>
+    <subfield code="t">The effect of photoionization on the cooling rates of enriched, astrophysical plasmas</subfield>
+    <subfield code="v">393</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0807.3748</subfield>
+    <subfield code="o">Wiersma et al, 2009a</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,393,99</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1111/j.1365-2966.2009.15331.x</subfield>
+    <subfield code="h">Wiersma, R.P.C.</subfield>
+    <subfield code="h">Schaye, J.</subfield>
+    <subfield code="h">Theuns, T.</subfield>
+    <subfield code="h">Dalla Vecchia, C.</subfield>
+    <subfield code="h">Tornatore, L.</subfield>
+    <subfield code="r">arXiv:0902.1535</subfield>
+    <subfield code="t">Chemical enrichment in cosmological, smoothed particle hydrodynamics simulations</subfield>
+    <subfield code="v">399</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">arXiv:0902.1535</subfield>
+    <subfield code="o">Wiersma et al, 2009b</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,399,574</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/2213-1337/S2213133716X00030/S2213133716300130/S2213133716300130.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

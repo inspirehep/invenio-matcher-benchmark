@@ -1,0 +1,327 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.cpc.2017.02.024</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jones, Adam</subfield>
+    <subfield code="v">School of Mechanical, Aerospace and Civil Engineering, University of Manchester, Manchester, M13 9PL, UK</subfield>
+    <subfield code="m">adam.jones-2@manchester.ac.uk</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Efficient computation of turbulent flow in ribbed passages using a non-overlapping near-wall domain decomposition method</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-10</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Turbulent flow in a ribbed channel is studied using an efficient near-wall domain decomposition (NDD) method. The NDD approach is formulated by splitting the computational domain into an inner and outer region, with an interface boundary between the two. The computational mesh covers the outer region, and the flow in this region is solved using the open-source CFD code Code_Saturne with special boundary conditions on the interface boundary, called interface boundary conditions (IBCs). The IBCs are of Robin type and incorporate the effect of the inner region on the flow in the outer region. IBCs are formulated in terms of the distance from the interface boundary to the wall in the inner region. It is demonstrated that up to 90% of the region between the ribs in the ribbed passage can be removed from the computational mesh with an error on the friction factor within 2.5%. In addition, computations with NDD are faster than computations based on low Reynolds number (LRN) models by a factor of five. Different rib heights can be studied with the same mesh in the outer region without affecting the accuracy of the friction factor. This is tested with six different rib heights in an example of a design optimisation study. It is found that the friction factors computed with NDD are almost identical to the fully-resolved results. When used for inverse problems, NDD is considerably more efficient than LRN computations because only one computation needs to be performed and only one mesh needs to be generated.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Published by Elsevier B.V.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Domain decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Robin boundary condition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Ribbed passages</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Design optimisation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Utyuzhnikov, Sergey</subfield>
+    <subfield code="v">School of Mechanical, Aerospace and Civil Engineering, University of Manchester, Manchester, M13 9PL, UK</subfield>
+    <subfield code="v">Moscow Institute of Physics and Technology, Dolgoprudny141700, Russia</subfield>
+    <subfield code="m">s.utyuzhnikov@manchester.ac.uk</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Comput.Phys.Commun.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.apm.2013.11.066</subfield>
+    <subfield code="h">Aleksin, V.A.</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0307904X1300807X</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Appl.Math.Model.,38,3591</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2005.05.005</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0045793005000836</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Comput.&amp; Fluids,35,1193</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.apnum.2007.09.003</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0168927407001432</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Appl.Numer.Math.,58,1521</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2012.07.023</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">68</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0045793012002915</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Comput.&amp; Fluids,68,186</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.cpc.2014.07.009</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">185</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0010465514002513</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Phys.Comm.,185,2879</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7825(74)90029-2</subfield>
+    <subfield code="h">Launder, B.E.</subfield>
+    <subfield code="h">Spalding, D.B.</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Engrg.,3,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Patanker, S.V.</subfield>
+    <subfield code="p">Morgan-Grampian</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Billard, K. Osman, D. Laurence</subfield>
+    <subfield code="m">7th Symposium on Turbulence, Heat and Mass Transfer, Palermo, Italy</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2004.10.018</subfield>
+    <subfield code="h">Kalitzin, G.</subfield>
+    <subfield code="h">Medic, G.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="h">Durbin, P.</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0021999104004164</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,204,265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Knopp, T.</subfield>
+    <subfield code="h">Alrutz, T.</subfield>
+    <subfield code="h">Schwamborn, D.</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,220,19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0142-727X(01)00143-6</subfield>
+    <subfield code="h">Craft, T.J.</subfield>
+    <subfield code="h">Gerasimov, A.V.</subfield>
+    <subfield code="h">Iacovides, H.</subfield>
+    <subfield code="h">Launder, B.E.</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0142727X01001436</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,23,148</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.compfluid.2015.06.031</subfield>
+    <subfield code="h">Jones, A.</subfield>
+    <subfield code="h">Utyuzhnikov, S.</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0045793015002224</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.&amp; Fluids,119,87</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.apm.2015.05.011</subfield>
+    <subfield code="h">Jones, A.</subfield>
+    <subfield code="h">Utyuzhnikov, S.</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0307904X15003741</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Appl.Math.Model.,40,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/fld.873</subfield>
+    <subfield code="h">Utyuzhnikov, S.V.</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Internat.J.Numer.Methods Fluids,47,1323</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0142-727X(99)00018-1</subfield>
+    <subfield code="h">Iacovides, H.</subfield>
+    <subfield code="h">Raisee, M.</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0142727X99000181</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,20,320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.nucengdes.2011.08.018</subfield>
+    <subfield code="h">Keshmiri, A.</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0029549311006431</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Nucl.Eng.Des.,241,4122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0008-6223(93)90135-W</subfield>
+    <subfield code="h">Sykes, M.</subfield>
+    <subfield code="h">Edwards, I.</subfield>
+    <subfield code="h">Thomas, K.</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/000862239390135W</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Carbon,31,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rau, G.</subfield>
+    <subfield code="h">Çakan, M.</subfield>
+    <subfield code="h">Moeller, D.</subfield>
+    <subfield code="h">Arts, T.</subfield>
+    <subfield code="v">120</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Turbomach.,120,368</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Okamoto, S.</subfield>
+    <subfield code="h">Seo, S.</subfield>
+    <subfield code="h">Nakaso, K.</subfield>
+    <subfield code="h">Kawai, I.</subfield>
+    <subfield code="v">115</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Fluids Eng.,115,631</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Casarsa, T. Arts</subfield>
+    <subfield code="m">11th International Symposium on Application of Laser Techniques to Fluid Mechanics, Lisbon, Portugal</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arts, T.</subfield>
+    <subfield code="h">Benocci, C.</subfield>
+    <subfield code="h">Rambaud, P.</subfield>
+    <subfield code="p">US Air Force Academy, CO USA</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.expthermflusci.2007.08.006</subfield>
+    <subfield code="h">Algawair, W.</subfield>
+    <subfield code="h">Iacovides, H.</subfield>
+    <subfield code="h">Kounadis, D.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">http://www.sciencedirect.com/science/article/pii/S0894177707001136</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Exp.Therm.Fluid Sci.,32,670</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10407782.2011.600593</subfield>
+    <subfield code="h">Keshmiri, A.</subfield>
+    <subfield code="h">Gotts, J.</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Numer.Heat Transfer,A60,305</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ijheatfluidflow.2014.10.008</subfield>
+    <subfield code="h">Narasimhamurthy, V.D.</subfield>
+    <subfield code="h">Andersson, H.I.</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Theme special issue celebrating the 75th birthdays of Brian Launder and Kemo Hanjalic</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,51,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.ijheatfluidflow.2014.10.028</subfield>
+    <subfield code="h">Bulat, G.</subfield>
+    <subfield code="h">Jones, W.P.</subfield>
+    <subfield code="h">Navarro-Martinez, S.</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Theme special issue celebrating the 75th birthdays of Brian Launder and Kemo Hanjalic</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,51,50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/10407790.2015.1096641</subfield>
+    <subfield code="h">Keshmiri, A.</subfield>
+    <subfield code="h">Osman, K.</subfield>
+    <subfield code="h">Benhamadouche, S.</subfield>
+    <subfield code="h">Shokri, N.</subfield>
+    <subfield code="v">69</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Numer.Heat Transfer,B69,96</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spalart, P.R.</subfield>
+    <subfield code="h">Allmaras, S.R.</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">La Rech.Aerosp.,1,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00231-012-0968-z</subfield>
+    <subfield code="h">Keshmiri, A.</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="m">http://dx.doi.org/10.1007/s00231-012-0968-z</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Heat Mass Transf.,48,1257</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0010-4655/aip/S0010465517300760/S0010465517300760.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

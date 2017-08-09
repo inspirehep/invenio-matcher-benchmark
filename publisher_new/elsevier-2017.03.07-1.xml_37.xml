@@ -1,0 +1,322 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.012</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Schmidt, Michael J.</subfield>
+    <subfield code="j">ORCID:0000-0001-9237-7910</subfield>
+    <subfield code="v">Hydrologic Science and Engineering Program, Department of Geology and Geological Engineering, Colorado School of Mines, Golden, CO, 80401, United States</subfield>
+    <subfield code="v">Department of Applied, Mathematics and Statistics, Colorado School of Mines, Golden, CO, 80401, United States</subfield>
+    <subfield code="m">mschmidt1@mines.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A Kernel-based Lagrangian method for imperfectly-mixed chemical reactions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">20</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Current Lagrangian (particle-tracking) algorithms used to simulate diffusion–reaction equations must employ a certain number of particles to properly emulate the system dynamics—particularly for imperfectly-mixed systems. The number of particles is tied to the statistics of the initial concentration fields of the system at hand. Systems with shorter-range correlation and/or smaller concentration variance require more particles, potentially limiting the computational feasibility of the method. For the well-known problem of bimolecular reaction, we show that using kernel-based, rather than Dirac delta, particles can significantly reduce the required number of particles. We derive the fixed width of a Gaussian kernel for a given reduced number of particles that analytically eliminates the error between kernel and Dirac solutions at any specified time. We also show how to solve for the fixed kernel size by minimizing the squared differences between solutions over any given time interval. Numerical results show that the width of the kernel should be kept below about 12% of the domain size, and that the analytic equations used to derive kernel width suffer significantly from the neglect of higher-order moments. The simulations with a kernel width given by least squares minimization perform better than those made to match at one specific time. A heuristic time-variable kernel size, based on the previous results, performs on par with the least squares fixed kernel size.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Diffusion–reaction equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Imperfect mixing</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Particle methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Pankavich, Stephen</subfield>
+    <subfield code="v">Department of Applied, Mathematics and Statistics, Colorado School of Mines, Golden, CO, 80401, United States</subfield>
+    <subfield code="m">pankavic@mines.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Benson, David A.</subfield>
+    <subfield code="v">Hydrologic Science and Engineering Program, Department of Geology and Geological Engineering, Colorado School of Mines, Golden, CO, 80401, United States</subfield>
+    <subfield code="m">dbenson@mines.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">288-307</subfield>
+    <subfield code="v">336</subfield>
+    <subfield code="y">2017</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jconhyd.2010.05.005</subfield>
+    <subfield code="h">Battiato, I.</subfield>
+    <subfield code="h">Tartakovsky, D.M.</subfield>
+    <subfield code="t">Applicability regimes for macroscopic models of reactive transport in porous media</subfield>
+    <subfield code="v">120–121</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Contam.Hydrol.,120–121,18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.advwatres.2009.08.008</subfield>
+    <subfield code="h">Battiato, I.</subfield>
+    <subfield code="h">Tartakovsky, D.M.</subfield>
+    <subfield code="h">Tartakovsky, A.M.</subfield>
+    <subfield code="h">Scheibe, T.</subfield>
+    <subfield code="t">On breakdown of macroscopic models of mixing-controlled heterogeneous reactions in porous media</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Adv.Water Resour.,32,1664</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2007WR006668</subfield>
+    <subfield code="h">Schwede, R.L.</subfield>
+    <subfield code="h">Cirpka, O.A.</subfield>
+    <subfield code="h">Nowak, W.</subfield>
+    <subfield code="h">Neuweiler, I.</subfield>
+    <subfield code="t">Impact of sampling volume on the probability density function of steady state concentration</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Water Resour.Res.,44,W12433</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/wrcr.20200</subfield>
+    <subfield code="h">Chiogna, G.</subfield>
+    <subfield code="h">Bellin, A.</subfield>
+    <subfield code="t">Analytical solution for reactive solute transport considering incomplete mixing within a reference elementary volume</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Water Resour.Res.,49,2589</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sweby, P.K.</subfield>
+    <subfield code="t">High resolution schemes using flux limiters for hyperbolic conservation laws</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,21,995</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leonard, B.</subfield>
+    <subfield code="t">The ultimate conservative difference scheme applied to unsteady one-dimensional advection</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,88,17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">LeVeque, R.J.</subfield>
+    <subfield code="t">Finite Volume Methods for Hyperbolic Problems</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s10915-005-9017-0</subfield>
+    <subfield code="h">Bokanowski, O.</subfield>
+    <subfield code="h">Zidani, H.</subfield>
+    <subfield code="t">Anti-dissipative schemes for advection and application to Hamilton–Jacobi–Bellmann equations</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Sci.Comput.,30,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gillespie, D.T.</subfield>
+    <subfield code="t">Exact stochastic simulation of coupled chemical reactions</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Phys.Chem.,81,2340</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4801941</subfield>
+    <subfield code="h">Gillespie, D.T.</subfield>
+    <subfield code="h">Hellander, A.</subfield>
+    <subfield code="h">Petzold, L.R.</subfield>
+    <subfield code="t">Perspective: stochastic algorithms for chemical kinetics</subfield>
+    <subfield code="v">138</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Chem.Phys.,138,170901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4816377</subfield>
+    <subfield code="h">Isaacson, S.A.</subfield>
+    <subfield code="t">A convergent reaction–diffusion master equation</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Chem.Phys.,139,054101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.93.013307</subfield>
+    <subfield code="h">Hellander, S.</subfield>
+    <subfield code="h">Petzold, L.</subfield>
+    <subfield code="t">Reaction rates for a generalized reaction–diffusion master equation</subfield>
+    <subfield code="v">93</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Rev.,E93,013307</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2008WR007111</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="h">Meerschaert, M.M.</subfield>
+    <subfield code="t">Simulation of chemical reaction via particle tracking: diffusion-limited versus thermodynamic rate-limited regimes</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Water Resour.Res.,44,W12201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.94.128103</subfield>
+    <subfield code="h">van Zon, J.S.</subfield>
+    <subfield code="h">ten Wolde, P.R.</subfield>
+    <subfield code="t">Simulating biochemical networks at the particle level and in time and space: Green's function reaction dynamics</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Phys.Rev.Lett.,94,128103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.advwatres.2011.11.005</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="h">de Anna, P.</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="h">Tartakovsky, A.M.</subfield>
+    <subfield code="t">Incomplete mixing and reactions with fractional dispersion</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Adv.Water Resour.,37,86</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/2015WR018310</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="h">Paster, A.</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="t">A particle number conserving Lagrangian method for mixing-driven reactive transport</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Water Resour.Res.,52,1518</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/2016WR019368</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="t">Arbitrarily complex chemical reactions on particles</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Water Resour.Res.,52,9190</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2014.01.020</subfield>
+    <subfield code="h">Paster, A.</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="t">Connecting the dots: semi-analytical and random walk numerical solutions of the diffusion–reaction equation with stochastic initial conditions</subfield>
+    <subfield code="v">263</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,263,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2015.09.030</subfield>
+    <subfield code="h">Rahbaralam, M.</subfield>
+    <subfield code="h">Fernàndez-Garcia, D.</subfield>
+    <subfield code="h">Sanchez-Vila, X.</subfield>
+    <subfield code="t">Do we really need a large number of particles to simulate bimolecular reactive transport with random walk methods? A kernel density estimation approach</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,303,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kang, K.</subfield>
+    <subfield code="h">Redner, S.</subfield>
+    <subfield code="t">Scaling approach for the kinetics of recombination processes</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Rev.Lett.,52,955</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ovchinnikov, A.A.</subfield>
+    <subfield code="h">Zeldovich, Y.B.</subfield>
+    <subfield code="t">Role of density fluctuations in bimolecular reaction kinetics</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Chem.Phys.,28,215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevA.30.2833</subfield>
+    <subfield code="h">Kang, K.</subfield>
+    <subfield code="h">Redner, S.</subfield>
+    <subfield code="t">Fluctuation effects in Smoluchowski reaction-kinetics</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Rev.,A30,2833</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toussaint, D.</subfield>
+    <subfield code="h">Wilczek, F.</subfield>
+    <subfield code="t">Particle–antiparticle annihilation in diffusive motion</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Chem.Phys.,78,2642</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tartakovsky, A.</subfield>
+    <subfield code="h">de Anna, P.</subfield>
+    <subfield code="h">Borgne, T.L.</subfield>
+    <subfield code="h">Balter, A.</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="t">Effect of spatial concentration fluctuations on effective kinetics in diffusion–reaction systems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Water Resour.Res.,48,W02526</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1029/2012WR012444</subfield>
+    <subfield code="h">Paster, A.</subfield>
+    <subfield code="h">Bolster, D.</subfield>
+    <subfield code="h">Benson, D.A.</subfield>
+    <subfield code="t">Particle tracking and the diffusion–reaction equation</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Water Resour.Res.,49,1</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999117X00041/S0021999117301055/S0021999117301055.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

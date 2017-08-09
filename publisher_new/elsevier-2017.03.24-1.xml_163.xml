@@ -1,0 +1,683 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.12.042</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Stewart, Andrew L.</subfield>
+    <subfield code="v">Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, CA, 90095, USA</subfield>
+    <subfield code="m">astewart@atmos.ucla.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An energy and potential enstrophy conserving numerical scheme for the multi-layer shallow water equations with complete Coriolis force</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present an energy- and potential enstrophy-conserving scheme for the non-traditional shallow water equations that include the complete Coriolis force and topography. These integral conservation properties follow from material conservation of potential vorticity in the continuous shallow water equations. The latter property cannot be preserved by a discretisation on a fixed Eulerian grid, but exact conservation of a discrete energy and a discrete potential enstrophy seems to be an effective substitute that prevents any distortion of the forward and inverse cascades in quasi-two dimensional turbulence through spurious sources and sinks of energy and potential enstrophy, and also increases the robustness of the scheme against nonlinear instabilities. We exploit the existing Arakawa–Lamb scheme for the traditional shallow water equations, reformulated by Salmon as a discretisation of the Hamiltonian and Poisson bracket for this system. The non-rotating, traditional, and our non-traditional shallow water equations all share the same continuous Hamiltonian structure and Poisson bracket, provided one distinguishes between the particle velocity and the canonical momentum per unit mass. We have determined a suitable discretisation of the non-traditional canonical momentum, which includes additional coupling between the layer thickness and velocity fields, and modified the discrete kinetic energy to suppress an internal symmetric computational instability that otherwise arises for multiple layers. The resulting scheme exhibits the expected second-order convergence under spatial grid refinement. We also show that the drifts in the discrete total energy and potential enstrophy due to temporal truncation error may be reduced to machine precision under suitable refinement of the timestep using the third-order Adams–Bashforth or fourth-order Runge–Kutta integration schemes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Geophysical fluid dynamics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Energy conserving schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hamiltonian structures</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dellar, Paul J.</subfield>
+    <subfield code="v">OCIAM, Mathematical Institute, Andrew Wiles Building, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG, UK</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">99-120</subfield>
+    <subfield code="v">313</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vallis, G.K.</subfield>
+    <subfield code="t">Atmospheric and Oceanic Fluid Dynamics</subfield>
+    <subfield code="p">Cambridge University Press Cambridge, UK, New York, USA</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">Lectures on Geophysical Fluid Dynamics</subfield>
+    <subfield code="p">Oxford University Press USA</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muller, P.</subfield>
+    <subfield code="t">Ertel's potential vorticity theorem in physical oceanography</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Rev.Geophys.,33,67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eckart, C.</subfield>
+    <subfield code="t">Variation principles of hydrodynamics</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Fluids,3,421</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phillips, N.A.</subfield>
+    <subfield code="t">The equations of motion for a shallow rotating atmosphere and the traditional approximation</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Atmos.Sci.,23,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerkema, T.</subfield>
+    <subfield code="h">Zimmerman, J.T.F.</subfield>
+    <subfield code="h">Maas, L.R.M.</subfield>
+    <subfield code="h">van Haren, H.</subfield>
+    <subfield code="t">Geophysical and astrophysical fluid dynamics beyond the traditional approximation</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Rev.Geophys.,46,RG2004</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Haren, H.</subfield>
+    <subfield code="h">Millot, C.</subfield>
+    <subfield code="t">Gyroscopic waves in the Mediterranean Sea</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Geophys.Res.Lett.,32,L24614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">van Haren, H.</subfield>
+    <subfield code="t">Sharp near-equatorial transitions in inertial motions and deep-ocean step-formation</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Geophys.Res.Lett.,32,L01605</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerkema, T.</subfield>
+    <subfield code="h">Shrira, V.I.</subfield>
+    <subfield code="t">Near-inertial waves in the ocean: beyond the “traditional approximation”</subfield>
+    <subfield code="v">529</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Fluid Mech.,529,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerkema, T.</subfield>
+    <subfield code="h">Shrira, V.I.</subfield>
+    <subfield code="t">Near-inertial waves on the non-traditional β -plane</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Geophys.Res.,110,C10003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gerkema, T.</subfield>
+    <subfield code="h">Shrira, V.I.</subfield>
+    <subfield code="t">Non-traditional reflection of internal waves from a sloping bottom, and the likelihood of critical reflection</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Geophys.Res.Lett.,33,L06611</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Multilayer shallow water equations with complete Coriolis force. Part 2. Linear plane waves</subfield>
+    <subfield code="v">690</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Fluid Mech.,690,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hua, B.L.</subfield>
+    <subfield code="h">Moore, D.W.</subfield>
+    <subfield code="h">Le Gentil, S.</subfield>
+    <subfield code="t">Inertial nonlinear equilibration of equatorial flows</subfield>
+    <subfield code="v">331</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Fluid Mech.,331,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colin de Verdière, A.</subfield>
+    <subfield code="t">The stability of short symmetric internal waves on sloping fronts: beyond the traditional approximation</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Phys.Oceanogr.,42,459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leibovich, S.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">The influence of the horizontal component of Earth's angular velocity on the instability of the Ekman layer</subfield>
+    <subfield code="v">150</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Fluid Mech.,150,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Marshall, J.</subfield>
+    <subfield code="h">Schott, F.</subfield>
+    <subfield code="t">Open-ocean convection: observations, theory, and models</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Rev.Geophys.,37,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Multilayer shallow water equations with complete Coriolis force. Part 3. Hyperbolicity and stability under shear</subfield>
+    <subfield code="v">723</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Fluid Mech.,723,289</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">The rôle of the complete Coriolis force in cross-equatorial flow of abyssal ocean currents</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Ocean Model.,38,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Cross-equatorial flow through an abyssal channel under the complete Coriolis force: two-dimensional solutions</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Ocean Model.,40,87</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Cross-equatorial channel flow with zero potential vorticity under the complete Coriolis force</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">IMA J.Appl.Math.,77,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Müller, R.</subfield>
+    <subfield code="t">A note on the relation between the “traditional approximation” and the metric of the primitive equations</subfield>
+    <subfield code="v">41A</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Tellus,A41A,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">White, A.A.</subfield>
+    <subfield code="h">Bromley, R.A.</subfield>
+    <subfield code="t">Dynamically consistent, quasi-hydrostatic equations for global models with a complete representation of the Coriolis force</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,121,399</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">White, A.A.</subfield>
+    <subfield code="t">A view of the equations of meteorological dynamics and various approximations</subfield>
+    <subfield code="p">Cambridge: Cambridge University Press</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="e">Norbury,J.</subfield>
+    <subfield code="e">Roulstone,I.</subfield>
+    <subfield code="q">Large-Scale Atmosphere–Ocean Dynamics 1: Analytical Methods and Numerical Models</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">White, A.A.</subfield>
+    <subfield code="h">Hoskins, B.J.</subfield>
+    <subfield code="h">Roulstone, I.</subfield>
+    <subfield code="h">Staniforth, A.</subfield>
+    <subfield code="t">Consistent approximate models of the global atmosphere: shallow, deep, hydrostatic, quasi-hydrostatic and non-hydrostatic</subfield>
+    <subfield code="v">131</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,131,2081</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tort, M.</subfield>
+    <subfield code="h">Dubos, T.</subfield>
+    <subfield code="t">Dynamically consistent shallow-atmosphere equations with a complete Coriolis force</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,2388</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tort, M.</subfield>
+    <subfield code="h">Dubos, T.</subfield>
+    <subfield code="t">Usual approximations to the equations of atmospheric motion: a variational perspective</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Atmos.Sci.,71,2452</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">Shallow water equations with a complete Coriolis force and topography</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Phys.Fluids,17,106601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stewart, A.L.</subfield>
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Multilayer shallow water equations with complete Coriolis force. Part 1. Derivation on a non-traditional beta-plane</subfield>
+    <subfield code="v">651</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Fluid Mech.,651,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ledwell, J.R.</subfield>
+    <subfield code="h">Watson, A.J.</subfield>
+    <subfield code="h">Law, C.S.</subfield>
+    <subfield code="t">Evidence for slow mixing across the pycnocline from an open-ocean tracer-release experiment</subfield>
+    <subfield code="v">364</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Nature,364,701</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roberts, M.</subfield>
+    <subfield code="h">Marshall, D.</subfield>
+    <subfield code="t">Do we require adiabatic dissipation schemes in eddy-resolving ocean models?</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Phys.Oceanogr.,28,2050</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bleck, R.</subfield>
+    <subfield code="h">Rooth, C.</subfield>
+    <subfield code="h">Hu, D.</subfield>
+    <subfield code="h">Smith, L.T.</subfield>
+    <subfield code="t">Salinity-driven thermocline transients in a wind- and thermohaline-forced isopycnic coordinate model of the North Atlantic</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Phys.Oceanogr.,22,1486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bleck, R.</subfield>
+    <subfield code="h">Chassignet, E.</subfield>
+    <subfield code="t">Simulating the oceanic circulation with isopycnic-coordinate models</subfield>
+    <subfield code="p">Easton, PA: Pennsylvania Acad. Sci.</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="e">Majumdar,S.</subfield>
+    <subfield code="e">Miller,E.</subfield>
+    <subfield code="e">Forbe,G.</subfield>
+    <subfield code="e">Schmalz,R.</subfield>
+    <subfield code="e">Panah,A.</subfield>
+    <subfield code="q">The Oceans: Physical–Chemical Dynamics and Human Impact</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hallberg, R.</subfield>
+    <subfield code="h">Rhines, P.</subfield>
+    <subfield code="t">Buoyancy-driven circulation in an ocean basin with isopycnals intersecting the sloping boundary</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Phys.Oceanogr.,26,913</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vitousek, S.</subfield>
+    <subfield code="h">Fringer, O.B.</subfield>
+    <subfield code="t">A nonhydrostatic, isopycnal-coordinate ocean model for internal waves</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Ocean Model.,83,118</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frank, J.</subfield>
+    <subfield code="h">Gottwald, G.</subfield>
+    <subfield code="h">Reich, S.</subfield>
+    <subfield code="t">A Hamiltonian particle-mesh method for the rotating shallow water equations</subfield>
+    <subfield code="v">vol. 26</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.Eng.,vol. 26,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dritschel, D.G.</subfield>
+    <subfield code="h">Polvani, L.M.</subfield>
+    <subfield code="h">Mohebalhojeh, A.R.</subfield>
+    <subfield code="t">The contour-advective semi-Lagrangian algorithm for the shallow water equations</subfield>
+    <subfield code="v">127</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Mon.Weather Rev.,127,1551</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thompson, P.D.</subfield>
+    <subfield code="t">On the structure of the hydrodynamical equations for two-dimensional flows of an incompressible fluid: the role of integral invariance</subfield>
+    <subfield code="v">vol. 88</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 88,301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arakawa, A.</subfield>
+    <subfield code="t">Computational design for long-term numerical integration of the equations of fluid motion: two-dimensional incompressible flow. Part I</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1966</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,1,119</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arakawa, A.</subfield>
+    <subfield code="h">Lamb, V.R.</subfield>
+    <subfield code="t">Computational design of the basic dynamical processes of the UCLA general circulation model</subfield>
+    <subfield code="v">vol. 17</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Methods Comput.Phys.,vol. 17,173</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thuburn, J.</subfield>
+    <subfield code="h">Kent, J.</subfield>
+    <subfield code="h">Wood, N.</subfield>
+    <subfield code="t">Cascades, backscatter and conservation in numerical models of two-dimensional turbulence</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="t">On the instability of leap-frog and Crank–Nicolson approximations of a nonlinear partial differential equation</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Math.Comput.,27,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arakawa, A.</subfield>
+    <subfield code="h">Lamb, V.R.</subfield>
+    <subfield code="t">A potential enstrophy and energy conserving scheme for the shallow water equations</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Mon.Weather Rev.,109,18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hollingsworth, A.</subfield>
+    <subfield code="h">Kållberg, P.</subfield>
+    <subfield code="h">Renner, V.</subfield>
+    <subfield code="h">Burridge, D.M.</subfield>
+    <subfield code="t">An internal symmetric computational instability</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,109,417</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Takano, K.</subfield>
+    <subfield code="h">Wurtele, M.G.</subfield>
+    <subfield code="t">A fourth-order energy and potential enstrophy conserving difference scheme</subfield>
+    <subfield code="p">Air Force Geophysics Laboratory, Hanscom Air Force Base Bedford, MA</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="m">Tech. rep. AFGL-TR-82-0205</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abramopoulos, F.</subfield>
+    <subfield code="t">Generalized energy and potential enstrophy conserving finite difference schemes for the shallow water equations</subfield>
+    <subfield code="v">116</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Mon.Weather Rev.,116,650</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abramopoulos, F.</subfield>
+    <subfield code="t">A new fourth-order enstrophy and energy conserving scheme</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Mon.Weather Rev.,119,128</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">Poisson-bracket approach to the construction of energy- and potential-enstrophy-conserving algorithms for the shallow-water equations</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Atmos.Sci.,61,2016</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ringler, T.D.</subfield>
+    <subfield code="h">Randall, D.A.</subfield>
+    <subfield code="t">A potential enstrophy and energy conserving numerical scheme for solution of the shallow-water equations on a geodesic grid</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Mon.Weather Rev.,130,1397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McRae, A.T.T.</subfield>
+    <subfield code="h">Cotter, C.J.</subfield>
+    <subfield code="t">Energy- and enstrophy-conserving schemes for the shallow-water equations, based on mimetic finite elements</subfield>
+    <subfield code="v">140</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.,140,2223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">Hamiltonian fluid mechanics</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,20,225</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shepherd, T.G.</subfield>
+    <subfield code="t">Symmetries, conservation laws, and Hamiltonian structure in geophysical fluid dynamics</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Adv.Geophys.,32,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morrison, P.J.</subfield>
+    <subfield code="t">Hamiltonian description of the ideal fluid</subfield>
+    <subfield code="v">70</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Rev.Mod.Phys.,70,467</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Durran, D.R.</subfield>
+    <subfield code="t">The third-order Adams–Bashforth method: an attractive alternative to leapfrog time-differencing</subfield>
+    <subfield code="v">119</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Mon.Weather Rev.,119,702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tort, M.</subfield>
+    <subfield code="h">Dubos, T.</subfield>
+    <subfield code="h">Melvin, T.</subfield>
+    <subfield code="t">Energy-conserving finite-difference schemes for quasi-hydrostatic equations</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Q.J.R.Meteorol.Soc.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">A general method for conserving quantities related to potential vorticity</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Nonlinearity,18,R1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">A general method for conserving energy and potential enstrophy in shallow-water models</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Atmos.Sci.,64,515</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Arakawa, A.</subfield>
+    <subfield code="h">Hsu, Y.J.G.</subfield>
+    <subfield code="t">Energy conserving and potential-enstrophy dissipating schemes for the shallow water equations</subfield>
+    <subfield code="v">118</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Mon.Weather Rev.,118,1960</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dellar, P.J.</subfield>
+    <subfield code="t">Variations on a beta-plane: derivation of non-traditional beta-plane equations from Hamilton's principle on a sphere</subfield>
+    <subfield code="v">674</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Fluid Mech.,674,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ripa, P.</subfield>
+    <subfield code="t">Symmetries and conservation laws for internal gravity waves</subfield>
+    <subfield code="v">vol. 76</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 76,281</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">Hamilton's principle and Ertel's theorem</subfield>
+    <subfield code="v">vol. 88</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">AIP Conf.Proc.,vol. 88,127</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hou, T.Y.</subfield>
+    <subfield code="h">Li, R.</subfield>
+    <subfield code="t">Computing nearly singular solutions using pseudo-spectral methods</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,226,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Sjögreen, B.</subfield>
+    <subfield code="t">The convergence rate of finite difference schemes in the presence of shocks</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,2464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Polvani, L.M.</subfield>
+    <subfield code="h">McWilliams, J.C.</subfield>
+    <subfield code="h">Spall, M.A.</subfield>
+    <subfield code="h">Ford, R.</subfield>
+    <subfield code="t">The coherent structures of shallow-water turbulence: deformation-radius effects, cyclone/anticyclone asymmetry and gravity-wave generation</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Chaos,4,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kahan, W.</subfield>
+    <subfield code="t">Further remarks on reducing truncation errors</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Commun.ACM,8,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Higham, N.</subfield>
+    <subfield code="t">Accuracy and Stability of Numerical Algorithms</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ketefian, G.</subfield>
+    <subfield code="h">Jacobson, M.</subfield>
+    <subfield code="t">A mass, energy, vorticity, and potential enstrophy conserving lateral fluid-land boundary scheme for the shallow water equations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ketefian, G.</subfield>
+    <subfield code="h">Jacobson, M.</subfield>
+    <subfield code="t">A mass, energy, vorticity, and potential enstrophy conserving lateral boundary scheme for the shallow water equations using piecewise linear boundary approximations</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,230,2751</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Salmon, R.</subfield>
+    <subfield code="t">An ocean circulation model based on operator-splitting, Hamiltonian brackets, and the inclusion of sound waves</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Phys.Oceanogr.,39,1615</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grimshaw, R.H.J.</subfield>
+    <subfield code="t">A note on the β -plane approximation</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Tellus,A27,351</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Richards, A.</subfield>
+    <subfield code="t">University of Oxford Advanced Research Computing</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Zenodo document</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X0006X/S002199911500861X/S002199911500861X.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

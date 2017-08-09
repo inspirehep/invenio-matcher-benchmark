@@ -1,0 +1,634 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.08.003</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Oguic, Romain</subfield>
+    <subfield code="v">Aix-Marseille Université, CNRS, École Centrale Marseille, Laboratoire M2P2 UMR 7340, 38 rue Frédéric Joliot-Curie, Technopôle Château-Gombert, Marseille, 13451, France</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A parallelized multidomain compact solver for incompressible turbulent flows in cylindrical geometries</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">22</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present an efficient parallelized multidomain algorithm for solving the 3D Navier–Stokes equations in cylindrical geometries. The numerical method is based on fourth-order compact schemes in the two non-homogeneous directions and Fourier series expansion in the azimuthal direction. The temporal scheme is a second-order semi-implicit projection scheme leading to the solution of five Helmholtz/Poisson equations. To handle the singularity appearing at the axis in cylindrical coordinates, while being able to have a thinner or conversely a coarser mesh in this zone, parity conditions are imposed at <math altimg="si1.gif" display="inline" overflow="scroll"><mi>r</mi><mo>=</mo><mn>0</mn></math> for each flow variable and azimuthal Fourier mode. To simulate flows in irregularly shaped cylindrical geometries and benefit from a hybrid OpenMP/MPI parallelization, an accurate perfectly free-divergence multidomain method based on the influence matrix technique is proposed. First, the accuracy of the present solver is checked by comparison with analytical solutions and the scalability is then evaluated. Simulations using the present code are then compared to reliable experimental and numerical results of the literature showing good quantitative agreements in the cases of the axisymmetric and 3D unsteady vortex breakdowns in a cylinder and turbulent pipe flow. Finally to show the capability of the algorithm to deal with more complex flows relevant of turbomachineries, the turbulent flow inside a simplified stage of High-Pressure compressor is considered.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fourth-order compact finite differences</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Axis singularity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multidomain decomposition solver</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hybrid parallelization</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Turbulent pipe flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rotating flows</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Viazzo, Stéphane</subfield>
+    <subfield code="v">Aix-Marseille Université, CNRS, École Centrale Marseille, Laboratoire M2P2 UMR 7340, 38 rue Frédéric Joliot-Curie, Technopôle Château-Gombert, Marseille, 13451, France</subfield>
+    <subfield code="m">stephane.viazzo@univ-amu.fr</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Poncet, Sébastien</subfield>
+    <subfield code="v">Aix-Marseille Université, CNRS, École Centrale Marseille, Laboratoire M2P2 UMR 7340, 38 rue Frédéric Joliot-Curie, Technopôle Château-Gombert, Marseille, 13451, France</subfield>
+    <subfield code="v">Département de génie mécanique, Faculté de Génie, Université de Sherbrooke, 2500 Boulevard de l'Université, Sherbrooke, Québec, J1K 2R1, Canada</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">710-731</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">Compact finite difference schemes with spectral-like resolution</subfield>
+    <subfield code="v">103</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Comput.Phys.,103,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Griffin, M.D.</subfield>
+    <subfield code="h">Jones, E.</subfield>
+    <subfield code="h">Anderson, J.D.</subfield>
+    <subfield code="t">A computational fluid dynamics technique valid at the centerline for non-axisymmetric problems in cylindrical coordinates</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">J.Comput.Phys.,30,352</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Constantinescu, G.S.</subfield>
+    <subfield code="h">Lele, S.K.</subfield>
+    <subfield code="t">A highly accurate technique for the treatment of flow equations at the polar axis in cylindrical coordinates using series expansions</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,183,165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mohseni, K.</subfield>
+    <subfield code="h">Colonius, T.</subfield>
+    <subfield code="t">Numerical treatment of polar coordinate</subfield>
+    <subfield code="v">157</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Comput.Phys.,157,787</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Serre, E.</subfield>
+    <subfield code="h">Pulicani, J.</subfield>
+    <subfield code="t">A three-dimensional pseudospectral method for rotating flows in a cylinder</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Comput.Fluids,30,491</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Peres, N.</subfield>
+    <subfield code="h">Poncet, S.</subfield>
+    <subfield code="h">Serre, E.</subfield>
+    <subfield code="t">A 3D pseudospectral method for cylindrical coordinates. Application to the simulations of rotating cavity flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,231,6290</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mercader, I.</subfield>
+    <subfield code="h">Batiste, O.</subfield>
+    <subfield code="h">Alonso, A.</subfield>
+    <subfield code="t">An efficient spectral code for incompressible flows in cylindrical geometries</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Comput.Fluids,39,215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lewis, H.R.</subfield>
+    <subfield code="h">Bellan, P.M.</subfield>
+    <subfield code="t">Physical constraints on the coefficients of Fourier expansions in cylindrical coordinates</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Math.Phys.,31,2592</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sandberg, R.D.</subfield>
+    <subfield code="t">An axis treatment for flow equations in cylindrical coordinates based on parity conditions</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Comput.Fluids,49,166</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boyd, J.P.</subfield>
+    <subfield code="t">Chebyshev and Fourier Spectral Methods</subfield>
+    <subfield code="p">Dover Publications</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laizet, S.</subfield>
+    <subfield code="h">Lamballais, E.</subfield>
+    <subfield code="t">High-order compact schemes for incompressible flows: a simple and efficient method with the quasi-spectral accuracy</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Laizet, S.</subfield>
+    <subfield code="h">Lamballais, E.</subfield>
+    <subfield code="h">Vassilicos, J.C.</subfield>
+    <subfield code="t">A numerical strategy to combine high-order schemes, complex geometry and parallel computing for high resolution DNS of fractal generated turbulence</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Comput.Fluids,39,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Henderson, R.D.</subfield>
+    <subfield code="h">Karniadakis, J.C.</subfield>
+    <subfield code="t">Unstructured spectral element methods for simulation of turbulent flows</subfield>
+    <subfield code="v">122</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,122,191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ranjan, R.</subfield>
+    <subfield code="h">Pantano, C.</subfield>
+    <subfield code="h">Fischer, P.</subfield>
+    <subfield code="t">Direct simulation of turbulent swept flow over a wire in a channel</subfield>
+    <subfield code="v">651</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Fluid Mech.,651,165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raspo, I.</subfield>
+    <subfield code="t">A direct spectral domain decomposition method for the computation of rotating flows in a T-shape geometry</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Comput.Fluids,32,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poncet, S.</subfield>
+    <subfield code="h">Da Soghe, R.</subfield>
+    <subfield code="h">Bianchini, C.</subfield>
+    <subfield code="h">Viazzo, S.</subfield>
+    <subfield code="h">Aubert, A.</subfield>
+    <subfield code="t">Turbulent Couette–Taylor flows with endwall effects: a numerical benchmark</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,44,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shi, L.</subfield>
+    <subfield code="h">Rampp, M.</subfield>
+    <subfield code="h">Hof, B.</subfield>
+    <subfield code="h">Avila, M.</subfield>
+    <subfield code="t">A hybrid MPI-OpenMP parallel implementation for pseudospectral simulations with application to Taylor–Couette flow</subfield>
+    <subfield code="v">106</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Fluids,106,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Morchoisne, Y.</subfield>
+    <subfield code="t">Inhomogeneous flow calculations by spectral methods: mono-domain and multi-domain techniques</subfield>
+    <subfield code="p">Philadelphia: SIAM–CBMS</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="e">Voigt,R.G.</subfield>
+    <subfield code="e">Gottlieb,D.</subfield>
+    <subfield code="e">Hussaini,M.Y.</subfield>
+    <subfield code="q">Spectral Methods for Partial Differential Equations</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Louchart, O.</subfield>
+    <subfield code="h">Randriamampianina, A.</subfield>
+    <subfield code="t">A spectral iterative domain decomposition technique for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Appl.Numer.Math.,33,233</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sengupta, T.K.</subfield>
+    <subfield code="h">Dipankar, A.</subfield>
+    <subfield code="h">Kameswara Rao, A.</subfield>
+    <subfield code="t">A new compact scheme for parallel computing using domain decomposition</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,220,654</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Danabasoglu, G.</subfield>
+    <subfield code="h">Biringen, S.</subfield>
+    <subfield code="h">Street, C.L.</subfield>
+    <subfield code="t">Application of the spectral multidomain method to the Navier–Stokes equations</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,113,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sabbah, C.</subfield>
+    <subfield code="h">Pasquetti, R.</subfield>
+    <subfield code="t">A divergence-free multidomain spectral solver of the Navier–Stokes equations in geometries of high aspect ratio</subfield>
+    <subfield code="v">139</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.,139,359</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Alizard, F.</subfield>
+    <subfield code="h">Robinet, J.C.</subfield>
+    <subfield code="h">Gloerfelt, X.</subfield>
+    <subfield code="t">A domain decomposition matrix-free method for global linear stability</subfield>
+    <subfield code="v">66</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Comput.Fluids,66,63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abide, S.</subfield>
+    <subfield code="h">Viazzo, S.</subfield>
+    <subfield code="t">A 2D compact fourth-order projection decomposition method</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Comput.Phys.,206,252</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poncet, S.</subfield>
+    <subfield code="h">Viazzo, S.</subfield>
+    <subfield code="h">Oguic, R.</subfield>
+    <subfield code="t">Large eddy simulations of Taylor–Couette–Poiseuille flows in a narrow-gap system</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Fluids,26,105108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hugues, S.</subfield>
+    <subfield code="h">Randriamampianina, A.</subfield>
+    <subfield code="t">An improved projection scheme applied to pseudospectral methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,28,501</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">Numerical solution of the Navier–Stokes equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Math.Comput.,22,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Temam, R.</subfield>
+    <subfield code="t">Une méthode d'approximation de la solution des équations de Navier–Stokes</subfield>
+    <subfield code="v">96</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Bull.Soc.Math.Fr.,96,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Goda, K.</subfield>
+    <subfield code="t">A multistep technique with implicit difference schemes for calculating two- or three-dimensional cavity flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,30,76</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Moin, P.</subfield>
+    <subfield code="t">Application of a fractional-step method to incompressible Navier–Stokes equation</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,59,308</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Botella, O.</subfield>
+    <subfield code="t">On the solution of the Navier–Stokes equations using Chebyshev projection schemes third-order accuracy in time</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Fluids,26,107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Raspo, I.</subfield>
+    <subfield code="h">Hugues, S.</subfield>
+    <subfield code="h">Serre, E.</subfield>
+    <subfield code="h">Randriamampianina, A.</subfield>
+    <subfield code="h">Bontoux, P.</subfield>
+    <subfield code="t">A spectral projection method for the simulation of complex three-dimensional rotating flows</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Comput.Fluids,31,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Israeli, M.</subfield>
+    <subfield code="h">Orszag, S.A.</subfield>
+    <subfield code="t">High-order splitting methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">97</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,97,414</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brown, D.L.</subfield>
+    <subfield code="h">Cortez, R.</subfield>
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">Accurate projection methods for the Navier–Stokes equations</subfield>
+    <subfield code="v">168</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Comput.Phys.,168,464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tuckerman, L.S.</subfield>
+    <subfield code="t">Divergence-free velocity fields in non-periodic geometries</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,80,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Madabhushi, R.K.</subfield>
+    <subfield code="h">Balachandar, S.</subfield>
+    <subfield code="h">Vanka, S.P.</subfield>
+    <subfield code="t">A divergence-free Chebyshev collocation procedure for incompressible flows with two non-periodic directions</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,104,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vedy, E.</subfield>
+    <subfield code="h">Viazzo, S.</subfield>
+    <subfield code="h">Schiestel, R.</subfield>
+    <subfield code="t">A high-order finite difference method for incompressible fluid turbulence simulations</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,42,1155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Visbal, M.R.</subfield>
+    <subfield code="h">Gaitonde, D.V.</subfield>
+    <subfield code="t">On the use of higher-order finite-difference schemes on curvilinear and deforming meshes</subfield>
+    <subfield code="v">181</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,181,155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.K.</subfield>
+    <subfield code="t">High-order compact filters with variable cut-off wavenumber and stable boundary treatment</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Fluids,39,1168</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sengupta, T.K.</subfield>
+    <subfield code="t">High Accuracy Computing Methods: Fluid Flow and Wave Phenomenon</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fontaine, G.</subfield>
+    <subfield code="h">Poncet, S.</subfield>
+    <subfield code="h">Serre, E.</subfield>
+    <subfield code="t">Multidomain extension of a divergence-free pseudo-spectral algorithm for the direct numerical simulation of wall-confined rotating flows</subfield>
+    <subfield code="v">vol. 95</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 95,261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Escudier, M.P.</subfield>
+    <subfield code="t">Observations of the flow produced in a cylindrical container by a rotating end wall</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Exp.Fluids,2,176</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sotiropoulos, F.</subfield>
+    <subfield code="h">Ventikos, Y.</subfield>
+    <subfield code="t">Transition from bubble-type vortex breakdown to columnar vortex in a confined swirling flow</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,19,446</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stevens, J.L.</subfield>
+    <subfield code="h">Lopez, J.M.</subfield>
+    <subfield code="h">Cantwell, B.J.</subfield>
+    <subfield code="t">Oscillatory flow states in an enclosed cylinder with a rotating endwall</subfield>
+    <subfield code="v">389</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Fluid Mech.,389,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Eggels, J.G.M.</subfield>
+    <subfield code="h">Unger, F.</subfield>
+    <subfield code="h">Weiss, M.H.</subfield>
+    <subfield code="h">Westerweel, J.</subfield>
+    <subfield code="h">Adrian, R.J.</subfield>
+    <subfield code="h">Friedrich, R.</subfield>
+    <subfield code="h">Nieuwstadt, F.T.M.</subfield>
+    <subfield code="t">Fully developed turbulent pipe flow: a comparison between direct numerical simulation and experiment</subfield>
+    <subfield code="v">268</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Fluid Mech.,268,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benocci, C.</subfield>
+    <subfield code="h">Pinelli, A.</subfield>
+    <subfield code="t">The role of the forcing term in the large eddy simulation of equilibrium channel flow</subfield>
+    <subfield code="p">Engineering Turbulence Modeling and Experiments, Wuhan, 1990</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wagner, C.</subfield>
+    <subfield code="h">Huttl, T.J.</subfield>
+    <subfield code="h">Friedrich, R.</subfield>
+    <subfield code="t">Low-Reynolds-number effects derived from direct numerical simulations of turbulent pipe flow</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Comput.Fluids,30,581</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zagarola, M.V.</subfield>
+    <subfield code="h">Smits, A.J.</subfield>
+    <subfield code="t">Mean-flow scaling of turbulent pipe flow</subfield>
+    <subfield code="v">373</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Fluid Mech.,373,33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Owen, J.M.</subfield>
+    <subfield code="h">Pincombe, J.R.</subfield>
+    <subfield code="t">Vortex breakdown in a rotating cylindrical cavity</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Fluid Mech.,90,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farthing, P.R.</subfield>
+    <subfield code="h">Long, C.A.</subfield>
+    <subfield code="h">Owen, J.M.</subfield>
+    <subfield code="h">Pincombe, J.R.</subfield>
+    <subfield code="t">Rotating cavity with axial throughflow of cooling air: flow structure</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Turbomach.,114,237</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farthing, P.R.</subfield>
+    <subfield code="h">Long, C.A.</subfield>
+    <subfield code="h">Owen, J.M.</subfield>
+    <subfield code="h">Pincombe, J.R.</subfield>
+    <subfield code="t">Rotating cavity with axial throughflow of cooling air: heat transfer</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Turbomach.,114,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tucker, P.G.</subfield>
+    <subfield code="h">Long, C.A.</subfield>
+    <subfield code="t">Numerical investigation into influence of geometry on flow in a rotating cavity with an axial throughflow</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Int.Commun.Heat Mass Transf.,23,335</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tucker, P.G.</subfield>
+    <subfield code="h">Long, C.A.</subfield>
+    <subfield code="t">CFD prediction of vortex breakdown in a rotating cavity with an axial throughflow of air</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Int.Commun.Heat Mass Transf.,22,639</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tian, S.</subfield>
+    <subfield code="h">Tao, Z.</subfield>
+    <subfield code="h">Ding, S.</subfield>
+    <subfield code="h">Xu, G.</subfield>
+    <subfield code="t">Computation of buoyancy-induced flow in a heated rotating cavity with an axial throughflow of cooling air</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,51,960</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Orlanski, I.</subfield>
+    <subfield code="t">A simple boundary condition for unbounded hyperbolic flows</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,21,251</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kempf, A.M.</subfield>
+    <subfield code="h">Klein, M.</subfield>
+    <subfield code="h">Janicka, J.</subfield>
+    <subfield code="t">Efficient generation of initial and inflow conditions for transient turbulent flows in arbitrary geometries</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Flow Turbul.Combust.,74,67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsubokura, M.</subfield>
+    <subfield code="h">Kobayashi, T.</subfield>
+    <subfield code="h">Taniguchi, N.</subfield>
+    <subfield code="h">Jones, W.P.</subfield>
+    <subfield code="t">A numerical study on the eddy structures of impinging jets excited at the inlet</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,24,500</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Orlandi, P.</subfield>
+    <subfield code="h">Fatica, M.</subfield>
+    <subfield code="t">Direct simulations of turbulent flow in a pipe rotating about its axis</subfield>
+    <subfield code="v">343</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Fluid Mech.,343,43</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115005203/S0021999115005203.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

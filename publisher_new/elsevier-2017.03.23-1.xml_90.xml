@@ -1,0 +1,656 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.05.003</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ling, Julia</subfield>
+    <subfield code="v">Sandia National Laboratories, 7011 East Avenue, Livermore, CA, 94550, United States</subfield>
+    <subfield code="m">jling@sandia.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Machine learning strategies for systems with invariance properties</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">14</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In many scientific fields, empirical models are employed to facilitate computational simulations of engineering systems. For example, in fluid mechanics, empirical Reynolds stress closures enable computationally-efficient Reynolds Averaged Navier Stokes simulations. Likewise, in solid mechanics, constitutive relations between the stress and strain in a material are required in deformation analysis. Traditional methods for developing and tuning empirical models usually combine physical intuition with simple regression techniques on limited data sets. The rise of high performance computing has led to a growing availability of high fidelity simulation data. These data open up the possibility of using machine learning algorithms, such as random forests or neural networks, to develop more accurate and general empirical models. A key question when using data-driven algorithms to develop these empirical models is how domain knowledge should be incorporated into the machine learning process. This paper will specifically address physical systems that possess symmetry or invariance properties. Two different methods for teaching a machine learning model an invariance property are compared. In the first method, a basis of invariant inputs is constructed, and the machine learning model is trained upon this basis, thereby embedding the invariance into the model. In the second method, the algorithm is trained on multiple transformations of the raw input data until the model learns invariance to that transformation. Results are discussed for two case studies: one in turbulence modeling and one in crystal elasticity. It is shown that in both cases embedding the invariance property into the input features yields higher performance at significantly reduced computational training costs.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Machine learning</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Turbulence models</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Constitutive models</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tensor invariants</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Jones, Reese</subfield>
+    <subfield code="v">Sandia National Laboratories, 7011 East Avenue, Livermore, CA, 94550, United States</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Templeton, Jeremy</subfield>
+    <subfield code="v">Sandia National Laboratories, 7011 East Avenue, Livermore, CA, 94550, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">22-35</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.2514/6.1992-439</subfield>
+    <subfield code="h">Spalart, P.</subfield>
+    <subfield code="h">Allmaras, S.</subfield>
+    <subfield code="t">A one-equation turbulence model for aerodynamic flows</subfield>
+    <subfield code="v">439</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">AIAA Pap.,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ogden, R.</subfield>
+    <subfield code="t">Large deformation isotropic elasticity-on the correlation of theory and experiment for incompressible rubberlike solids</subfield>
+    <subfield code="v">326</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.A, Math.Phys.Eng.Sci.,326,565</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Valanis, K.</subfield>
+    <subfield code="h">Landel, R.</subfield>
+    <subfield code="t">The strain energy function of a hyperelastic material in terms of the extension ratios</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Appl.Phys.,38,2997</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leclerc, H.</subfield>
+    <subfield code="h">Perie, J.</subfield>
+    <subfield code="h">Roux, S.</subfield>
+    <subfield code="h">Hild, F.</subfield>
+    <subfield code="t">Voxel-scale digital volume correlation</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Exp.Mech.,51,479</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bay, B.</subfield>
+    <subfield code="h">Smith, T.</subfield>
+    <subfield code="h">Fyhrie, D.</subfield>
+    <subfield code="h">Saad, M.</subfield>
+    <subfield code="t">Digital volume correlation: three-dimensional strain mapping using X-ray tomography</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Exp.Mech.,39,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scarano, F.</subfield>
+    <subfield code="t">Tomographic PIV: principles and practice</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Meas.Sci.Technol.,24,012001</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elkins, C.</subfield>
+    <subfield code="h">Alley, M.</subfield>
+    <subfield code="t">Magnetic resonance velocimetry: applications of magnetic resonance imaging in the measurement of fluid motion</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Exp.Fluids,43,823</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Milano, M.</subfield>
+    <subfield code="h">Koumoutsakos, P.</subfield>
+    <subfield code="t">Neural network modeling for near wall turbulent flow</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Comput.Phys.,182,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tracey, B.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="h">Alonso, J.</subfield>
+    <subfield code="t">Application of supervised learning to quantify uncertainties in turbulence and combustion modeling</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">AIAA Aerospace Sciences Meeting, AIAA-2013-0259</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tracey, B.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="h">Alonso, J.</subfield>
+    <subfield code="t">A machine learning strategy to assist turbulence model development</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA SciTech, AIAA-2015-1287</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="h">Shang, Z.</subfield>
+    <subfield code="h">Singh, A.</subfield>
+    <subfield code="t">New approaches in turbulence and transition modeling using data-driven techniques</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA SciTech, AIAA-2015-1284</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Z.</subfield>
+    <subfield code="h">Duraisamy, K.</subfield>
+    <subfield code="t">Machine learning methods for data-driven turbulence modeling</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA Aviation, AIAA-2015-2460</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elsheikh, A.</subfield>
+    <subfield code="h">Tavakoli, R.</subfield>
+    <subfield code="h">Wheeler, M.</subfield>
+    <subfield code="h">Hoteit, I.</subfield>
+    <subfield code="t">Boosting iterative stochastic ensemble method for nonlinear calibration of subsurface flow models</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,259,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ling, J.</subfield>
+    <subfield code="h">Templeton, J.</subfield>
+    <subfield code="t">Evaluation of machine learning algorithms for prediction of regions of high RANS uncertainty</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Fluids</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghaboussi, J.</subfield>
+    <subfield code="h">Garrett, J.</subfield>
+    <subfield code="h">Wu, X.</subfield>
+    <subfield code="t">Knowledge based modeling of material behavior with neural networks</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Eng.Mech.,117,132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghaboussi, J.</subfield>
+    <subfield code="h">Sidarta, D.</subfield>
+    <subfield code="t">New Nested Adaptive Neural Networks (NANN) for constitutive modeling</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Comput.Geotech.,22,29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ellis, G.</subfield>
+    <subfield code="h">Yao, C.</subfield>
+    <subfield code="h">Zhao, R.</subfield>
+    <subfield code="h">Penumadu, D.</subfield>
+    <subfield code="t">Stress–strain modeling of sands using artificial neural networks</subfield>
+    <subfield code="v">121</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Geotech.Eng.,121,429</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Furukawa, T.</subfield>
+    <subfield code="h">Yagawa, G.</subfield>
+    <subfield code="t">Implicit constitutive modelling for viscoplasticity using neural networks</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,43,195</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, Y.</subfield>
+    <subfield code="h">Zeng, W.</subfield>
+    <subfield code="h">Zhao, Y.</subfield>
+    <subfield code="h">Qi, Y.</subfield>
+    <subfield code="h">Ma, X.</subfield>
+    <subfield code="h">Han, Y.</subfield>
+    <subfield code="t">Development of constitutive relationship model of Ti600 alloy using artificial neural network</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Comput.Mater.Sci.,48,686</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jung, S.</subfield>
+    <subfield code="h">Ghaboussi, J.</subfield>
+    <subfield code="t">Neural network constitutive model for rate-dependent materials</subfield>
+    <subfield code="v">84</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Struct.,84,955</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Feng, X.</subfield>
+    <subfield code="h">Yang, C.</subfield>
+    <subfield code="t">Genetic evolution of nonlinear material constitutive models</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,5957</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shen, Y.</subfield>
+    <subfield code="h">Chandrashekhara, K.</subfield>
+    <subfield code="h">Breig, W.</subfield>
+    <subfield code="h">Oliver, L.</subfield>
+    <subfield code="t">Finite element analysis of V-ribbed belts using neural network based hyperelastic material model</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Non-Linear Mech.,40,875</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liang, G.</subfield>
+    <subfield code="h">Chandrashekhara, K.</subfield>
+    <subfield code="t">Neural network based constitutive model for elastomeric foams</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Eng.Struct.,30,2002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Piatetsky-Shapiro, G.</subfield>
+    <subfield code="t">Knowledge discovery in real databases: a report on the IJCAI-89 workshop</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">AI Mag.,11,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Michalski, R.</subfield>
+    <subfield code="t">Understanding the nature of learning: issues and research directions</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Mach.Learn., Artif.Intell.Approach,2,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Grzes, M.</subfield>
+    <subfield code="h">Kudenko, D.</subfield>
+    <subfield code="t">Plan-based reward shaping for reinforcement learning</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.Syst.,2,10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Noether, E.</subfield>
+    <subfield code="t">Invariante variationsprobleme</subfield>
+    <subfield code="y">1918</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Nachr.Ges.Wiss.Gött.Math.-Phys.Kl.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">t.A. Deriglazov</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lefik, M.</subfield>
+    <subfield code="h">Schrefler, B.</subfield>
+    <subfield code="t">Artificial neural network as an incremental non-linear constitutive model for a finite element code</subfield>
+    <subfield code="v">192</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,192,3265</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Baird, H.</subfield>
+    <subfield code="t">Document image defect models</subfield>
+    <subfield code="p">Berlin: Springer</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="q">Structure Document Image Analysis</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simard, P.</subfield>
+    <subfield code="h">Victorri, B.</subfield>
+    <subfield code="h">Cun, Y.L.</subfield>
+    <subfield code="h">Denker, J.</subfield>
+    <subfield code="t">Tangent prop—a formalism for specifying selected invariances in an adaptive network</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Adv.Neural Inf.Process.Syst.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Decoste, D.</subfield>
+    <subfield code="h">Scholkopf, B.</subfield>
+    <subfield code="t">Training invariant support vector machines</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Mach.Learn.,46,161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farfade, S.</subfield>
+    <subfield code="h">Saberian, M.</subfield>
+    <subfield code="h">Li, L.</subfield>
+    <subfield code="r">arXiv:1502.02766</subfield>
+    <subfield code="t">Multi-view face detection using deep convolutional neural networks</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">International Conference on Multimedia Retrieval</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wood, J.</subfield>
+    <subfield code="t">Invariant pattern recognition: a review</subfield>
+    <subfield code="v">29</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Pattern Recognit.,29,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hamermesh, M.</subfield>
+    <subfield code="t">Group Theory and Its Application to Physical Problems</subfield>
+    <subfield code="p">Courier Corporation</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cahn, R.</subfield>
+    <subfield code="t">Semi-Simple Lie Algebras and Their Representations</subfield>
+    <subfield code="p">Courier Corporation</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boehler, J.</subfield>
+    <subfield code="t">Applications of Tensor Functions in Solid Mechanics</subfield>
+    <subfield code="p">Springer Wien</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hilbert, D.</subfield>
+    <subfield code="h">Sturmfels, B.</subfield>
+    <subfield code="t">Theory of Algebraic Invariants</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Johnson, R.</subfield>
+    <subfield code="t">The Handbook of Fluid Dynamics</subfield>
+    <subfield code="p">CRC Press</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spencer, A.</subfield>
+    <subfield code="h">Rivlin, R.</subfield>
+    <subfield code="t">Isotropic integrity bases for vectors and second-order tensors</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1962</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Arch.Ration.Mech.Anal.,9,45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Smith, G.</subfield>
+    <subfield code="t">On isotropic integrity bases</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Arch.Ration.Mech.Anal.,18,282</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spencer, A.</subfield>
+    <subfield code="t">Isotropic polynomial invariants and tensor functions</subfield>
+    <subfield code="p">Vienna: Springer</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="q">Applications of Tensor Functions in Solid Mechanics</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, Q.</subfield>
+    <subfield code="t">Theory of representations for tensor functions—a unified invariant approach to constitutive equations</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Appl.Mech.Rev.,47,545</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pedregosa, F.</subfield>
+    <subfield code="h">Varoquaux, G.</subfield>
+    <subfield code="h">Gramfort, A.</subfield>
+    <subfield code="h">Michel, V.</subfield>
+    <subfield code="h">Thirion, B.</subfield>
+    <subfield code="h">Grisel, O.</subfield>
+    <subfield code="h">Blondel, M.</subfield>
+    <subfield code="h">Prettenhofer, P.</subfield>
+    <subfield code="h">Weiss, R.</subfield>
+    <subfield code="h">Dubourg, V.</subfield>
+    <subfield code="h">Vanderplas, J.</subfield>
+    <subfield code="h">Passos, A.</subfield>
+    <subfield code="h">Cournapeau, D.</subfield>
+    <subfield code="h">Brucher, M.</subfield>
+    <subfield code="h">Perrot, M.</subfield>
+    <subfield code="h">Duchesnay, E.</subfield>
+    <subfield code="t">Scikit-learn: machine learning in Python</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">J.Mach.Learn.Res.,12,2825</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Steinberg, D.</subfield>
+    <subfield code="h">Colla, P.</subfield>
+    <subfield code="t">CART: classification and regression trees</subfield>
+    <subfield code="p">Boca Raton, FL: Chapman and Hall</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="q">The Top Ten Algorithms in Data Mining</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Breiman, L.</subfield>
+    <subfield code="t">Random forests</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Mach.Learn.,45,5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Banfield, R.</subfield>
+    <subfield code="h">Hall, L.</subfield>
+    <subfield code="h">Bowyer, K.</subfield>
+    <subfield code="h">Bhadoria, D.</subfield>
+    <subfield code="h">Kegelmeyer, W.</subfield>
+    <subfield code="h">Eschrich, S.</subfield>
+    <subfield code="t">A comparison of ensemble creation techniques</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Mult.Classif.Syst.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Provost, F.</subfield>
+    <subfield code="h">Kolluri, V.</subfield>
+    <subfield code="t">A survey of methods for scaling up inductive algorithms</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Data Min.Knowl.Discov.,2,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bishop, C.</subfield>
+    <subfield code="t">Neural Networks for Pattern Recognition</subfield>
+    <subfield code="p">Oxford University Press Cambridge, UK</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gurney, K.</subfield>
+    <subfield code="t">An Introduction to Neural Networks</subfield>
+    <subfield code="p">CRC Press New York</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wojciechowski, M.</subfield>
+    <subfield code="t">Feed-forward neural network for python</subfield>
+    <subfield code="p">Technical University of Lodz Lodz, Poland</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">Tech. rep.</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gallant, S.</subfield>
+    <subfield code="t">Neural Network Learning and Expert Systems</subfield>
+    <subfield code="p">MIT Press Boston</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prechelt, L.</subfield>
+    <subfield code="t">Automatic early stopping using cross validation: quantifying the criteria</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Neural Netw.,11,761</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gorle, C.</subfield>
+    <subfield code="h">Larsson, J.</subfield>
+    <subfield code="h">Emory, M.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">The deviation from parallel shear flow as an indicator of linear eddy-viscosity model inaccuracy</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Phys.Fluids,26,051702</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.</subfield>
+    <subfield code="t">A more general effective-viscosity hypothesis</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Fluid Mech.,72,331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Craft, T.</subfield>
+    <subfield code="h">Launder, B.</subfield>
+    <subfield code="h">Suga, K.</subfield>
+    <subfield code="t">Development and application of a cubic eddy-viscosity model of turbulence</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,17,108</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abe, K.</subfield>
+    <subfield code="h">Jang, Y.-J.</subfield>
+    <subfield code="h">Leschziner, M.</subfield>
+    <subfield code="t">An investigation of wall-anisotropy expressions and length-scale equations for non-linear eddy-viscosity models</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,24,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Speziale, C.</subfield>
+    <subfield code="t">A consistency condition for non-linear algebraic Reynolds stress models in turbulence</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Int.J.Non-Linear Mech.,33,579</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossi, R.</subfield>
+    <subfield code="h">Philips, D.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">A numerical study of scalar dispersion downstream of a wall-mounted cube using direct simulations and algebraic flux models</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,31,805</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossi, R.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">Numerical analysis and modeling of a plume meandering in passive scalar dispersion downstream of a wall-mounted cube</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Int.J.Heat Fluid Flow,43,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rivlin, R.</subfield>
+    <subfield code="t">Non-Linear Continuum Theories in Mechanics and Physics and Their Applications</subfield>
+    <subfield code="p">Springer Heidelberg, Germany</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Spencer, A.</subfield>
+    <subfield code="t">Continuum Mechanics</subfield>
+    <subfield code="p">Longman Group UK Limited Essex, England</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kambouchev, N.</subfield>
+    <subfield code="h">Fernandez, J.</subfield>
+    <subfield code="h">Radovitzky, R.</subfield>
+    <subfield code="t">A polyconvex model for materials with cubic symmetry</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Model.Simul.Mater.Sci.Eng.,15,451</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Foiles, S.</subfield>
+    <subfield code="h">Baskes, M.</subfield>
+    <subfield code="h">Daw, M.</subfield>
+    <subfield code="t">Embedded-atom-method functions for the fcc metals Cu, Ag, Au, Ni, Pd, Pt, and their alloys</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Phys.Rev.,B33,7983</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00113/S0021999116301309/S0021999116301309.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

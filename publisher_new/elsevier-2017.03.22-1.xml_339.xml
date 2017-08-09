@@ -1,0 +1,803 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.10.030</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cho, H.</subfield>
+    <subfield code="j">ORCID:0000-0002-1784-1290</subfield>
+    <subfield code="v">Department of Mathematics, University of Maryland College Park, College Park, MD, 20742, USA</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Numerical methods for high-dimensional probability density function equations</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-01-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">21</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper we address the problem of computing the numerical solution to kinetic partial differential equations involving many phase variables. These types of equations arise naturally in many different areas of mathematical physics, e.g., in particle systems (Liouville and Boltzmann equations), stochastic dynamical systems (Fokker–Planck and Dostupov–Pugachev equations), random wave theory (Malakhov–Saichev equations) and coarse-grained stochastic systems (Mori–Zwanzig equations). We propose three different classes of new algorithms addressing high-dimensionality: The first one is based on separated series expansions resulting in a sequence of low-dimensional problems that can be solved recursively and in parallel by using alternating direction methods. The second class of algorithms relies on truncation of interaction in low-orders that resembles the Bogoliubov–Born–Green–Kirkwood–Yvon (BBGKY) framework of kinetic gas theory and it yields a hierarchy of coupled probability density function equations. The third class of algorithms is based on high-dimensional model representations, e.g., the ANOVA method and probabilistic collocation methods. A common feature of all these approaches is that they are reducible to the problem of computing the solution to high-dimensional equations via a sequence of low-dimensional problems. The effectiveness of the new algorithms is demonstrated in numerical examples involving nonlinear stochastic dynamical systems and partial differential equations, with up to 120 variables.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order numerical methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Proper generalized decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Uncertainty quantification</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Stochastic dynamical systems</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Kinetic partial differential equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">ANOVA decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Venturi, D.</subfield>
+    <subfield code="v">Department of Applied Mathematics and Statistics, University of California Santa Cruz, Santa Cruz, CA, 95064, USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Karniadakis, G.E.</subfield>
+    <subfield code="v">Division of Applied Mathematics, Brown University, Providence, RI, 02912, USA</subfield>
+    <subfield code="m">gk@dam.brown.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">817-837</subfield>
+    <subfield code="v">305</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cercignani, C.</subfield>
+    <subfield code="t">The Boltzmann Equation and Its Applications</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cercignani, C.</subfield>
+    <subfield code="h">Gerasimenko, U.I.</subfield>
+    <subfield code="h">Petrina, D.Y.</subfield>
+    <subfield code="t">Many Particle Dynamics and Kinetic Equations</subfield>
+    <subfield code="p">Kluwer Academic Publishers</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Markovich, P.</subfield>
+    <subfield code="h">Ringhofer, C.</subfield>
+    <subfield code="h">Schmeiser, C.</subfield>
+    <subfield code="t">Semiconductor Equations</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Noise in Nonlinear Dynamical Systems, vol. 1: Theory of Continuous Fokker–Planck Systems</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="e">Moss,F.</subfield>
+    <subfield code="e">McClintock,P.V.E.</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Noise in Nonlinear Dynamical Systems, vol. 2: Theory of Noise Induced Processes in Special Applications</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="e">Moss,F.</subfield>
+    <subfield code="e">McClintock,P.V.E.</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="t">Noise in Nonlinear Dynamical Systems, vol. 3: Experiments and Simulations</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="e">Moss,F.</subfield>
+    <subfield code="e">McClintock,P.V.E.</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sobczyk, K.</subfield>
+    <subfield code="t">Stochastic Differential Equations: With Applications to Physics and Engineering</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lucor, D.</subfield>
+    <subfield code="h">Su, C.H.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Generalized polynomial chaos and random oscillators</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,60,571</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cho, H.</subfield>
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Adaptive discontinuous Galerkin method for response-excitation PDF equations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,B890</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Sapsis, T.P.</subfield>
+    <subfield code="h">Cho, H.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">A computable evolution equation for the probability density function of stochastic dynamical systems</subfield>
+    <subfield code="v">468</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Proc.R.Soc.,A468,759</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, J.</subfield>
+    <subfield code="h">Chen, J.-B.</subfield>
+    <subfield code="t">Stochastic Dynamics of Structures</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shlesinger, M.F.</subfield>
+    <subfield code="h">Swean, T.</subfield>
+    <subfield code="t">Stochastically Excited Nonlinear Ocean Structures</subfield>
+    <subfield code="p">World Scientific</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bolotin, V.V.</subfield>
+    <subfield code="t">Statistical Methods in Structural Mechanics</subfield>
+    <subfield code="p">Holden-Day San Francisco</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Malakhov, A.N.</subfield>
+    <subfield code="h">Saichev, A.I.</subfield>
+    <subfield code="t">Kinetic equations in the theory of random waves</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Radiophys.Quantum Electron.,17,526</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Klyatskin, V.I.</subfield>
+    <subfield code="t">Dynamics of Stochastic Systems</subfield>
+    <subfield code="p">Elsevier Publishing Company</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Convolutionless Nakajima–Zwanzig equations for stochastic analysis in nonlinear dynamical systems</subfield>
+    <subfield code="v">470</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Proc.R.Soc.,A470,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">New evolution equations for the joint response-excitation probability density function of stochastic solutions to first-order nonlinear PDEs</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7450</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cho, H.</subfield>
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Statistical analysis and simulation of random shocks in Burgers equation</subfield>
+    <subfield code="v">260</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Proc.R.Soc.,A260,20140080</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monin, A.S.</subfield>
+    <subfield code="h">Yaglom, A.M.</subfield>
+    <subfield code="t">Statistical Fluid Mechanics, vol. I: Mechanics of Turbulence</subfield>
+    <subfield code="p">Dover</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monin, A.S.</subfield>
+    <subfield code="h">Yaglom, A.M.</subfield>
+    <subfield code="t">Statistical Fluid Mechanics, vol. II: Mechanics of Turbulence</subfield>
+    <subfield code="p">Dover</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Frisch, U.</subfield>
+    <subfield code="t">Turbulence: The Legacy of A.N. Kolmogorov</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Lagrangian PDF methods for turbulent flows</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,26,23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nozaki, D.</subfield>
+    <subfield code="h">Mar, D.J.</subfield>
+    <subfield code="h">Grigg, P.</subfield>
+    <subfield code="h">Collins, J.J.</subfield>
+    <subfield code="t">Effects of colored noise on stochastic resonance in sensory neurons</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.Lett.,82,2402</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zeng, C.</subfield>
+    <subfield code="h">Wang, H.</subfield>
+    <subfield code="t">Colored noise enhanced stability in a tumor cell growth system under immune response</subfield>
+    <subfield code="v">141</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">J.Stat.Phys.,141,889</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fiasconaro, A.</subfield>
+    <subfield code="h">Spagnolo, B.</subfield>
+    <subfield code="h">Ochab-Marcinek, A.</subfield>
+    <subfield code="h">Gudowska-Nowak, E.</subfield>
+    <subfield code="t">Co-occurrence of resonant activation and noise-enhanced stability in a model of cancer growth in the presence of immune response</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Rev.,E74,041904</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Risken, H.</subfield>
+    <subfield code="t">The Fokker–Planck Equation: Methods of Solution and Applications, Math. Sci. Eng., vol. 60</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="v">vol. 60</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stratonovich, R.L.</subfield>
+    <subfield code="t">Some Markov methods in the theory of stochastic processes in nonlinear dynamical systems</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="e">Moss,F.</subfield>
+    <subfield code="e">McClintock,P.V.E.</subfield>
+    <subfield code="q">Noise in Nonlinear Dynamical Systems, vol. 1</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Villani, C.</subfield>
+    <subfield code="t">A review of mathematical topics in collisional kinetic theory</subfield>
+    <subfield code="p">North-Holland</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="e">Friedlander,S.</subfield>
+    <subfield code="e">Serre,D.</subfield>
+    <subfield code="q">Handbook of Mathematical Fluid Mechanics, vol. 1</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dostupov, B.G.</subfield>
+    <subfield code="h">Pugachev, V.S.</subfield>
+    <subfield code="t">The equation for the integral of a system of ordinary differential equations containing random parameters</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1957</subfield>
+    <subfield code="m">(in Russian)</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Automat.Telemekh.,18,620</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zwanzig, R.</subfield>
+    <subfield code="t">Memory effects in irreversible thermodynamics</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Rev.,124,983</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dimarco, G.</subfield>
+    <subfield code="h">Paresci, L.</subfield>
+    <subfield code="t">Numerical methods for kinetic equations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Acta Numer.,23,369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kanwal, R.P.</subfield>
+    <subfield code="t">Generalized Functions: Theory and Technique</subfield>
+    <subfield code="p">Birkhäuser Boston</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, Y.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Discontinuous Galerkin method for hyperbolic equations involving δ -singularities: negative-order norm error estimates and applications</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Numer.Math.,124,753</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Simple models of turbulent flows</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Phys.Fluids,23,011301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">A Monte Carlo method for the PDF equations of turbulent reactive flow</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Combust.Sci.Technol.,25,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Muradoglu, M.</subfield>
+    <subfield code="h">Jenny, P.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="h">Caughey, D.A.</subfield>
+    <subfield code="t">A consistent hybrid finite-volume/particle method for the PDF equations of turbulent reactive flows</subfield>
+    <subfield code="v">154</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,154,342</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Valino, L.</subfield>
+    <subfield code="t">A field Monte Carlo formulation for calculating the probability density function of a single scalar in a turbulent flow</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Flow Turbul.Combust.,60,157</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fox, R.O.</subfield>
+    <subfield code="t">Computational Models for Turbulent Reactive Flows</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bird, G.A.</subfield>
+    <subfield code="t">Molecular Gas Dynamics and Direct Numerical Simulation of Gas Flows</subfield>
+    <subfield code="p">Clarendon Press</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rjasanow, S.</subfield>
+    <subfield code="h">Wagner, W.</subfield>
+    <subfield code="t">Stochastic Numerics for the Boltzmann Equation</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Filbet, F.</subfield>
+    <subfield code="h">Russo, G.</subfield>
+    <subfield code="t">High-order numerical methods for the space non-homogeneous Boltzmann equations</subfield>
+    <subfield code="v">186</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,186,457</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, Y.</subfield>
+    <subfield code="h">Gamba, I.M.</subfield>
+    <subfield code="h">Majorana, A.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A discontinuous Galerkin solver for Boltzmann–Poisson systems in nano devices</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,198,3130</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cheng, Y.</subfield>
+    <subfield code="h">Gamba, I.M.</subfield>
+    <subfield code="h">Majorana, A.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">A brief survey of the discontinuous Galerkin method for the Boltzmann–Poisson equations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">SeMA J.,54,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cockburn, B.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Discontinuous Galerkin Methods, Lect. Notes Comput. Sci. Eng., vol. 11</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="v">vol. 11</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Remacle, J.-F.</subfield>
+    <subfield code="h">Flaherty, J.E.</subfield>
+    <subfield code="h">Shephard, M.S.</subfield>
+    <subfield code="t">An adaptive discontinuous Galerkin technique with an orthogonal basis applied to compressible flow problems</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">SIAM Rev.,45,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chinesta, F.</subfield>
+    <subfield code="h">Ammar, A.</subfield>
+    <subfield code="h">Cueto, E.</subfield>
+    <subfield code="t">Recent advances and new challenges in the use of the proper generalized decomposition for solving multidimensional models</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,17,327</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leonenko, G.</subfield>
+    <subfield code="h">Phillips, T.</subfield>
+    <subfield code="t">On the solution of the Fokker–Planck equation using a high-order reduced basis approximation</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,158</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nouy, A.</subfield>
+    <subfield code="t">Proper generalized decompositions and separated representations for the numerical solution of high dimensional stochastic problems</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,17,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nouy, A.</subfield>
+    <subfield code="t">A priori model reduction through proper generalized decomposition for solving time-dependent partial differential equations</subfield>
+    <subfield code="v">199</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,1603</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Montgomery, D.</subfield>
+    <subfield code="t">A BBGKY framework for fluid turbulence</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1976</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Fluids,19,802</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, G.</subfield>
+    <subfield code="h">Wang, S.-W.</subfield>
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="h">Wang, S.</subfield>
+    <subfield code="h">Jaffé, P.</subfield>
+    <subfield code="t">Global uncertainty assessments by high dimensional model representations (HDMR)</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Chem.Eng.Sci.,57,4445</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gao, Z.</subfield>
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="t">On ANOVA expansions and strategies for choosing the anchor point</subfield>
+    <subfield code="v">217</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Appl.Math.Comput.,217,3274</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cao, Y.</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Gunzbuger, M.</subfield>
+    <subfield code="t">ANOVA expansions and efficient sampling methods for parameter dependent nonlinear PDEs</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Int.J.Numer.Anal.Model.,6,256</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Z.</subfield>
+    <subfield code="h">Choi, M.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Error estimates for the ANOVA method with polynomial chaos interpolation: tensor product functions</subfield>
+    <subfield code="v">34</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,34,1165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ammar, A.</subfield>
+    <subfield code="h">Mokdad, B.</subfield>
+    <subfield code="h">Chinesta, F.</subfield>
+    <subfield code="h">Keunings, R.</subfield>
+    <subfield code="t">A new family of solvers for some classes of multidimensional partial differential equations encountered in kinetic theory modelling of complex fluids: Part II: Transient simulation using space–time separated representations</subfield>
+    <subfield code="v">144</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">J.Non-Newton.Fluid Mech.,144,98</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nouy, A.</subfield>
+    <subfield code="h">Maître, O.P.L.</subfield>
+    <subfield code="t">Generalized spectral decomposition for stochastic nonlinear problems</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Comput.Phys.,228,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="h">Mohlenkamp, M.J.</subfield>
+    <subfield code="t">Algorithms for numerical analysis in high dimensions</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,26,2133</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="h">Garcke, J.</subfield>
+    <subfield code="h">Mohlenkamp, M.J.</subfield>
+    <subfield code="t">Multivariate regression and machine learning with sums of separable functions</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,1840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Doostan, A.</subfield>
+    <subfield code="h">Iaccarino, G.</subfield>
+    <subfield code="t">A least-squares approximation of partial differential equations with high-dimensional random inputs</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,228,4332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sobol, I.M.</subfield>
+    <subfield code="t">Global sensitivity indices for nonlinear mathematical models and their Monte Carlo estimates</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Math.Comput.Simul.,55,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saltelli, A.</subfield>
+    <subfield code="h">Chan, K.</subfield>
+    <subfield code="h">Scott, M.</subfield>
+    <subfield code="t">Sensitivity Analysis</subfield>
+    <subfield code="p">John Wiley</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venturi, D.</subfield>
+    <subfield code="h">Choi, M.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Supercritical quasi-conduction states in stochastic Rayleigh–Bénard convection</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Int.J.Heat Mass Transf.,55,3732</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wan, X.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">An adaptive multi-element generalized polynomial chaos method for stochastic differential equations</subfield>
+    <subfield code="v">209</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,209,617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Choi, M.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Adaptive ANOVA decomposition of stochastic incompressible and compressible fluid flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,231,1587</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Griebel, M.</subfield>
+    <subfield code="t">Sparse grids and related approximation schemes for higher dimensional problems</subfield>
+    <subfield code="p">Foundations of Computational Mathematics, vol. 331, Santander 2005, 2006</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rabitz, H.</subfield>
+    <subfield code="h">Aliş, Ö.F.</subfield>
+    <subfield code="h">Shorter, J.</subfield>
+    <subfield code="h">Shim, K.</subfield>
+    <subfield code="t">Efficient input–output model representations</subfield>
+    <subfield code="v">117</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Comput.Phys.Commun.,117,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhang, Z.</subfield>
+    <subfield code="h">Choi, M.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Anchor points matter in ANOVA decomposition</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="e">Ronquist,E.</subfield>
+    <subfield code="e">Hesthaven,J.</subfield>
+    <subfield code="q">Proceedings of ICOSAHOM'09</subfield>
+    <subfield code="o">67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Foo, J.</subfield>
+    <subfield code="h">Karniadakis, G.E.</subfield>
+    <subfield code="t">Multi-element probabilistic collocation method in high dimensions</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1536</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rhee, H.-K.</subfield>
+    <subfield code="h">Aris, R.</subfield>
+    <subfield code="h">Amundson, N.R.</subfield>
+    <subfield code="t">First-order Partial Differential Equations, vol. 1: Theory and Applications of Single Equations</subfield>
+    <subfield code="p">Dover</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">69</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lorenz, E.N.</subfield>
+    <subfield code="t">Predictability – a problem partly solved</subfield>
+    <subfield code="p">ECMWF Seminar on Predictability: vol. 1, Reading, 1996</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">70</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Karimi, A.</subfield>
+    <subfield code="h">Paul, M.R.</subfield>
+    <subfield code="t">Extensive chaos in the Lorenz-96 model</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Chaos,20,043105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, P.C.</subfield>
+    <subfield code="h">Siggia, E.D.</subfield>
+    <subfield code="h">Rose, H.A.</subfield>
+    <subfield code="t">Statistical dynamics of classical systems</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Phys.Rev.,A8,423</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jouvet, B.</subfield>
+    <subfield code="h">Phythian, R.</subfield>
+    <subfield code="t">Quantum aspects of classical and statistical fields</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Phys.Rev.,A19,1350</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Phythian, R.</subfield>
+    <subfield code="t">The functional formalism of classical statistical dynamics</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Phys.A, Math.Gen.,10,777</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Waclawczyk, M.</subfield>
+    <subfield code="h">Staffolani, N.</subfield>
+    <subfield code="h">Oberlack, M.</subfield>
+    <subfield code="h">Rosteck, A.</subfield>
+    <subfield code="h">Wilczek, M.</subfield>
+    <subfield code="h">Friedrich, R.</subfield>
+    <subfield code="t">Statistical symmetries of the Lundgren–Monin–Novikov hierarchy</subfield>
+    <subfield code="v">90</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Phys.Rev.,E90,013022</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lundgren, T.S.</subfield>
+    <subfield code="t">Distribution functions in the statistical theory of turbulence</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">Phys.Fluids,10,969</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Halko, N.</subfield>
+    <subfield code="h">Martinsson, P.-G.</subfield>
+    <subfield code="h">Tropp, J.A.</subfield>
+    <subfield code="t">Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">SIAM Rev.,53,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Biagioni, D.J.</subfield>
+    <subfield code="h">Beylkin, D.</subfield>
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="t">Randomized interpolative decomposition of separated representations</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Phys.,281,116</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Oseledets, I.V.</subfield>
+    <subfield code="t">Tensor–train decomposition</subfield>
+    <subfield code="v">33</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,33,2295</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hesthaven, J.S.</subfield>
+    <subfield code="h">Gottlieb, S.</subfield>
+    <subfield code="h">Gottlieb, D.</subfield>
+    <subfield code="t">Spectral Methods for Time-Dependent Problems</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">80</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00222/S0021999115007068/S0021999115007068.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

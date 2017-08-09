@@ -1,0 +1,447 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">A validated methodology for the 3D reconstruction of cochlea geometries using human microCT images</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Accurate reconstruction of the inner ear is a prerequisite for the modelling and understanding of the inner ear mechanics. In this study, we present a semi-automated methodology for accurate reconstruction of the major inner ear structures (scalae, basilar membrane, stapes and semicircular canals). For this purpose, high resolution microCT images of a human specimen were used. The segmentation methodology is based on an iterative level set algorithm which provides the borders of the structures of interest. An enhanced coupled level set method which allows the simultaneous multiple image labeling without any overlapping regions has been developed for this purpose. The marching cube algorithm was applied in order to extract the surface from the segmented volume. The reconstructed geometries are then post-processed to improve the basilar membrane geometry to realistically represent physiologic dimensions. The final reconstructed model is compared to the available data from the literature. The results show that our generated inner ear structures are in good agreement with the published ones, while our approach is the most realistic in terms of the basilar membrane thickness and width reconstruction.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Measur.Sci.Tech.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">054001</subfield>
+  <subfield code="v">28</subfield>
+  <subfield code="n">5</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6501/aa5f18</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">11</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-03</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Sakellarios, A.I.</subfield>
+  <subfield code="v">Institute of Communications and Computer Systems (ICCS) - National Technical U. of Athens (NTUA) - GR 15773 Zografou - Greece</subfield>
+  <subfield code="v">Department of Materials Science - Unit of Medical Technology and Intelligent Information Systems - U. of Ioannina - GR 45110 Ioannina - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Tachos, N.S.</subfield>
+  <subfield code="v">Institute of Communications and Computer Systems (ICCS) - National Technical U. of Athens (NTUA) - GR 15773 Zografou - Greece</subfield>
+  <subfield code="v">Department of Materials Science - Unit of Medical Technology and Intelligent Information Systems - U. of Ioannina - GR 45110 Ioannina - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Rigas, G.</subfield>
+  <subfield code="v">Department of Materials Science - Unit of Medical Technology and Intelligent Information Systems - U. of Ioannina - GR 45110 Ioannina - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Bibas, T.</subfield>
+  <subfield code="v">1st Department of Otolaryngology-Head &amp; Neck Surgery - National &amp; Kapodistrian U. of Athens - Hippockrateio Hospital - GR 11527 Athens - Greece</subfield>
+  <subfield code="v">UCL Ear Institute - 332 Grays Inn Road - London WC1X 8EE - United Kingdom</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Ni, G.</subfield>
+  <subfield code="v">Institute of Sound and Vibration Research - U. of Southampton - Highfield Campus - Southampton SO17 1BJ - United Kingdom</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Böhnke, F.</subfield>
+  <subfield code="v">Department of Otorhinolaryngology - Klinikum rechts der Isar of the Technical U. Munich - Ismaningerstr. 22 - 81664 Munich - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Fotiadis, D.I.</subfield>
+  <subfield code="v">Department of Materials Science - Unit of Medical Technology and Intelligent Information Systems - U. of Ioannina - GR 45110 Ioannina - Greece</subfield>
+  <subfield code="v">Department of Biomedical Research—FORTH - Institute of Molecular Biology and Biotechnology - U. Campus of Ioannina - 45110 - Ioannina - Greece</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">i. Coupled level sets are applied with small \mu = 0.2, in order to allow fast growth of the level set interface and to detect small objects</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">ii. Morphological operations (filling holes and removing small areas) are applied in order to fill holes and remove small isolated regions</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iii. Coupled level sets are applied with large \mu = 2, enforcing a smoother segmentation of the cochlea</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">i. Threshold initial volume (figure, 4(A): #mstaa5f18f04) to keep only bone regions (&gt;6000 Hounsfield Unit (HU)). The threshold was estimated based on the HU histogram of the specific dataset in order to discriminate bone from other lesions in the area near the vestibule, however a more automated method [, 22: #mstaa5f18bib022] could be used</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">ii. Repeat a number (, 2: #mstaa5f18eqn002) of erosions and dilations. Then perform hole filling. The resulting volume ({{V}_{1}}) is the one containing the vestibule (figure, 4(B): #mstaa5f18f04)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iii. Threshold the initial volume (&lt;5000 HU), let {{V}_{2}}, and calculate the intersection of {{V}_{1}} and {{V}_{2}}, let {{V}_{3}} (figure, 4(C): #mstaa5f18f04). The threshold was estimated based on the HU histogram of the specific dataset. This intersection removes pixels corresponding to bone and pixels outside the cochlea ROI</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iv. Find the connected components of volume {{V}_{3}}. The identified connected components correspond to the different major cavities of the cochlea, the largest corresponding to the vestibule. Therefore, the largest connected component corresponds to the vestibule (figure, 4(D): #mstaa5f18f04)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">i. ROI selection</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">ii. Level set initial mask selection for the two level sets corresponding to the two areas separated by the round window (figure, 5(A): #mstaa5f18f05)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iii. Application of the coupled Level (let {{R}_{1}} and {{R}_{2}}) with \mu = 0.2. The Euclidean distance transforms of {{R}_{1}} and {{R}_{2}} are calculated, let be D_{1}^{R} and D_{2}^{R} respectively</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iv. The mask of the round window volume is given by:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\text{St}(i,j,k)=\left\{\begin{array}{*{35}{l}} 1 &amp; \text{if}\,D_{1}^{R}(i,j,k) &lt; {{t}_{\text{d}}}\,\text{and}\,D_{2}^{R}(i,j,k) &lt; {{t}_{\text{d}}}\,\text{and}\,I(i,j,k) &lt; {{t}_{\text{h}}} \\ 0 &amp; \text{otherwise} \end{array}~,~\right. \end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 11 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where I(i,j,k) the intensity of voxel (i,j,k), {{t}_{\text{d}}} a distance threshold = 3 and {{t}_{\text{h}}} an HU threshold = 5000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">i. Select volume ROI including the stapes (figure, 6(A): #mstaa5f18f06)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">ii. Threshold image to extract a volume mask \text{S}{{\text{T}}_{0}} corresponding to bone regions. The threshold for the specific dataset was set to 7000 HU. The threshold was estimated based on the HU histogram of the specific dataset in order to discriminate bone from other lesions in the area near the stapes</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iii. Perform a number of image erosions in order to separate the connected regions. For the specific dataset 3 erosion operators having a 3-3-3 mask was applied (figure, 6(B): #mstaa5f18f06)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">iv. Find the connected components of the volume (figure, 6(C): #mstaa5f18f06, let \text{S}{{\text{T}}_{1}}. If the ROI selection is appropriate the largest connected component should correspond to the stapes. Otherwise, a user intervention may be needed</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">v. Perform a number of dilation operations in the volume (\text{S}{{\text{T}}_{1}}) in order to cover all the stapes area (\text{S}{{\text{T}}_{2}}). For the specific dataset 3 dilation operators with a 3-3-3 mask was applied. Find the intersection of \text{S}{{\text{T}}_{0}} and \text{S}{{\text{T}}_{2}}, let \text{S}{{\text{T}}_{3}}, with background voxels included by dilation, removed. Perform a dilation and an erosion operation on \text{S}{{\text{T}}_{3}} to remove very small components with a 3-3-3 mask (\left. \text{S}{{\text{T}}_{4}}\right). The result of this step is depicted in figure, 6(D): #mstaa5f18f06</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">vi. Again find the largest connected region \text{S}{{\text{T}}_{5}} which corresponds to the stapes (figure, 5(E): #mstaa5f18f05)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">STL: STereoLithography file format</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Erixon E, Hogstorp H, Wadin K and Rask-Andersen H</subfield>
+  <subfield code="m">Variational anatomy of the human cochlea: implications for cochlear implantation Otol. Neurotol. 30 14-22, Crossref:</subfield>
+  <subfield code="a">doi:10.1097/MAO.0b013e31818a08e8</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Liu W, Atturo F, Aldaya R, Santi P, Cureoglu S, Obwegeser S, Glueckert R, Pfaller K, Schrott-Fischer A and Rask-Andersen H</subfield>
+  <subfield code="m">Macromolecular organization and fine structure of the human basilar membrane-RELEVANCE for cochlear implantation Cell Tissue Res. 360 245-62, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00441-014-2098-z</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Rask-Andersen H, Liu W, Erixon E, Kinnefors A, Pfaller K, Schrott-Fischer A and Glueckert R</subfield>
+  <subfield code="m">Human cochlea: anatomical characteristics and their relevance for cochlear implantation Anat. Rec. 295 1791-811, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/ar.22599</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Rask-Andersen H, Liu W and Linthicum F</subfield>
+  <subfield code="m">Ganglion cell and ‘dendrite’ populations in electric acoustic stimulation ears Adv. Otorhinolaryngol. 67 14-27</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Finley C C, Holden T A, Holden L K, Whiting B R, Chole R A, Neely G J, Hullar T E and Skinner M W</subfield>
+  <subfield code="m">Role of electrode placement as a contributor to variability in cochlear implant outcomes Otol. Neurotol. 29 920-8, Crossref:</subfield>
+  <subfield code="a">doi:10.1097/MAO.0b013e318184f492</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Goldwyn J H, Bierer S M and Bierer J A</subfield>
+  <subfield code="m">Modeling the electrode-neuron interface of cochlear implants: effects of neural survival, electrode placement, and the partial tripolar configuration Hear. Res. 268 93-104, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2010.05.005</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Kalkman R K, Briaire J J and Frijns J H M</subfield>
+  <subfield code="m">Current focussing in cochlear implants: an analysis of neural recruitment in a computational model Hear. Res. 322 89-98, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2014.12.004</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">Xu L F Ta N, Rao Z S and Tian J B Finite element modeling of the human cochlea using fluid-structure interaction method J. Mech Med. Biol. 15 1550039, Crossref:</subfield>
+  <subfield code="h">Huang X S</subfield>
+  <subfield code="a">doi:10.1142/S0219519415500396</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">Ni G J Finite-element model of the active organ of Corti J. R Soc. Interface 13 431-9, Crossref:</subfield>
+  <subfield code="h">Elliott S J and Baumgart J</subfield>
+  <subfield code="a">doi:10.1098/rsif.2015.0913</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Vogel U</subfield>
+  <subfield code="m">New approach for 3D imaging and geometry modeling of the human inner ear Orl. J Otorhinolaryngol. 61 259-67, Crossref:</subfield>
+  <subfield code="a">doi:10.1159/000027683</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Poznyakovskiy A A, Zahnert T, Kalaidzidis Y, Schmidt R, Fischer B, Baumgart J and Yarin Y M</subfield>
+  <subfield code="m">The creation of geometric three-dimensional models of the inner ear based on micro computer tomography data Hear. Res. 243 95-104, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2008.06.008</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Poznyakovskiy A A, Zahnert T, Kalaidzidis Y, Lazurashvili N, Schmidt R, Hardtke H J, Fischer B and Yarin Y M</subfield>
+  <subfield code="m">A segmentation method to obtain a complete geometry model of the hearing organ Hear. Res. 282 25-34, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2011.06.009</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Lareida A, Beckmann F, Schrott-Fischer A, Glueckert R, Freysinger W and Muller B</subfield>
+  <subfield code="m">High-resolution x-ray tomography of the human inner ear: synchrotron radiation-based study of nerve fibre bundles, membranes and ganglion cells J. MicroscOxford 234 95-102, Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1365-2818.2009.03143.x</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Verbist B M, Ferrarini L, Briaire J J, Zarowski A, Admiraal-Behloul F, Olofsen H, Reiber J H C and Frijns J H M</subfield>
+  <subfield code="m">Anatomic considerations of cochlear morphology and its implications for insertion trauma in cochlear implant surgery Otol. Neurotol. 30 471-7, Crossref:</subfield>
+  <subfield code="a">doi:10.1097/MAO.0b013e3181a32c0d</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Noble J H, Labadie R F, Majdani O and Dawant B M</subfield>
+  <subfield code="m">Automatic segmentation of intracochlear anatomy in conventional CT Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,58,2625-32</subfield>
+  <subfield code="a">doi:10.1109/TBME.2011.2160262</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Sakellarios A, Tachos T, Rigas G, Bibas T</subfield>
+  <subfield code="m">Ni G, Böhnke F and Fotiadis D 3D reconstruction of cochlea geometries using human microCT images XIV Mediterranean Conf. on Medical and Biological Engineering and Computing E Kyriacou (eds.) (New York: pp 320-5</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Braun K, Bohnke F and Stark T</subfield>
+  <subfield code="m">Three-dimensional representation of the human cochlea using micro-computed tomography data: presenting an anatomical model for further numerical calculations Acta Otolaryngol. 132 603-13, Crossref:</subfield>
+  <subfield code="a">doi:10.3109/00016489.2011.653670</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Kroon D and Slump C H</subfield>
+  <subfield code="m">Coherence filtering to enhance the mandibular canal in cone-beam CT data Annual Symp. of the -EMBS Benelux Chapter(Enschede: -EMBS Benelux Chapter) pp 41-4</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Chan T F and Vese L A</subfield>
+  <subfield code="m">Active contours without edges Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Image Process.,10,266-77</subfield>
+  <subfield code="a">doi:10.1109/83.902291</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Sethian J A</subfield>
+  <subfield code="m">Evolution, implementation, and application of level set and fast marching methods for advancing fronts Crossref:</subfield>
+  <subfield code="s">J.Comput.Phys.,169,503-55</subfield>
+  <subfield code="a">doi:10.1006/jcph.2000.6657</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Caselles V, Catte F, Coll T and Dibos F</subfield>
+  <subfield code="m">A geometric model for active contours in image-processing Crossref:</subfield>
+  <subfield code="s">Numer.Math.,66,1-31</subfield>
+  <subfield code="a">doi:10.1007/BF01385685</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Otsu N</subfield>
+  <subfield code="m">A threshold selection method from gray-level histograms Trans. Syst. Man. Cyber 9 62, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TSMC.1979.4310076</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Zhao H K, Chan T, Merriman B and Osher S</subfield>
+  <subfield code="m">Variational level set approach to multiphase motion Crossref:</subfield>
+  <subfield code="s">J.Comput.Phys.,127,179-95</subfield>
+  <subfield code="a">doi:10.1006/jcph.1996.0167</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Huang F</subfield>
+  <subfield code="m">and Su JMultiple face contour detection based on geometric active contours 6th Int. Conf. on Automatic Face and Gesture Recognition pp 385-90</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Lorensen W and Cline H</subfield>
+  <subfield code="m">Marching cubes: a high resolution 3D surface construction algorithm 14th Annual Conf. on Computer Graphics and Interactive Techniques (New York,) pp 163-9</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Bohnke F and Arnold W</subfield>
+  <subfield code="m">3D-finite element model of the human cochlea including fluid-structure couplings Orl J. OtoRhinoLary 61 305-10, Crossref:</subfield>
+  <subfield code="a">doi:10.1159/000027688</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Liu W, Rui G and Andersen R</subfield>
+  <subfield code="m">Morphological study of surgically obtained human cochlear specimens—technical aspects J. Otol 9 52-7, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S1672-2930(14)50010-4</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Stakhovskaya O, Sridhar D, Bonham B H and Leake P A</subfield>
+  <subfield code="m">Frequency map for the human cochlear spiral ganglion: implications for cochlear implants J. Assoc Res. Otolaryngol. 8 220-33, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s10162-007-0076-9</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Bhatt K A, Liberman M C and Nadol J B</subfield>
+  <subfield code="m">Morphometric analysis of age-related changes in the human basilar membrane Ann. Otolaryngol. Rhinol. Laryngol. 110 1147-53, Crossref:</subfield>
+  <subfield code="a">doi:10.1177/000348940111001212</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Rau T S, Wurfel W, Lenarz T and Majdani O</subfield>
+  <subfield code="m">Three-dimensional histological specimen preparation for accurate imaging and spatial reconstruction of the middle and inner ear Int. J Comput. Assist. Radiol. Surg. 8 481-509, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s11548-013-0825-7</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Gan R Z, Feng B and Sun Q</subfield>
+  <subfield code="m">Three-dimensional finite element modeling of human ear for sound transmission Ann. Biomed. Eng. 32 847-59, Crossref:</subfield>
+  <subfield code="a">doi:10.1023/B:ABME.0000030260.22737.53</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Dai C, Cheng T, Wood M W and Gan R Z</subfield>
+  <subfield code="m">Fixation and detachment of superior and anterior malleolar ligaments in human middle ear: experiment and modeling Hear. Res. 230 24-33, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2007.03.006</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Gan R Z, Cheng T, Dai C K, Yang F and Wood M W</subfield>
+  <subfield code="m">Finite element modeling of sound transmission with perforations of tympanic membrane Crossref:</subfield>
+  <subfield code="s">J.Acoust.Soc.Am.,126,243-53</subfield>
+  <subfield code="a">doi:10.1121/1.3129129</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Gan R Z, Dai C K, Wang X L, Nakmali D and Wood M W</subfield>
+  <subfield code="m">A totally implantable hearing system—design and function characterization in 3D computational model and temporal bones Hear. Res. 263 138-44, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.heares.2009.09.003</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Kikidis D and Bibas A</subfield>
+  <subfield code="m">A clinically oriented introduction and review on finite element models of the human cochlea Biomed. Res. Int. 13 239-58</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Special Section on Imaging Systems and Techniques 2016</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Special Section on Imaging Systems and Techniques 2016</subfield>
+ </datafield>
+</record>

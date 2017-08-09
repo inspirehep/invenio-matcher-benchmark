@@ -1,0 +1,851 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.06.046</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Rycroft, Chris H.</subfield>
+    <subfield code="v">Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, 02138, United States</subfield>
+    <subfield code="v">Department of Mathematics, Lawrence Berkeley Laboratory, Berkeley, CA, 94720, United States</subfield>
+    <subfield code="m">chr@seas.harvard.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">An Eulerian projection method for quasi-static elastoplasticity</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">31</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A well-established numerical approach to solve the Navier–Stokes equations for incompressible fluids is Chorin's projection method [1] , whereby the fluid velocity is explicitly updated, and then an elliptic problem for the pressure is solved, which is used to orthogonally project the velocity field to maintain the incompressibility constraint. In this paper, we develop a mathematical correspondence between Newtonian fluids in the incompressible limit and hypo-elastoplastic solids in the slow, quasi-static limit. Using this correspondence, we formulate a new fixed-grid, Eulerian numerical method for simulating quasi-static hypo-elastoplastic solids, whereby the stress is explicitly updated, and then an elliptic problem for the velocity is solved, which is used to orthogonally project the stress to maintain the quasi-staticity constraint. We develop a finite-difference implementation of the method and apply it to an elasto-viscoplastic model of a bulk metallic glass based on the shear transformation zone theory. We show that in a two-dimensional plane strain simple shear simulation, the method is in quantitative agreement with an explicit method. Like the fluid projection method, it is efficient and numerically robust, making it practical for a wide variety of applications. We also demonstrate that the method can be extended to simulate objects with evolving boundaries. We highlight a number of correspondences between incompressible fluid mechanics and quasi-static elastoplasticity, creating possibilities for translating other numerical methods between the two classes of physical problems.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluid mechanics</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Chorin-type projection method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Plasticity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Elastoplasticity</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sui, Yi</subfield>
+    <subfield code="v">Department of Mathematics, Simon Fraser University, Burnaby, British Columbia, V5A 1S6, Canada</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bouchbinder, Eran</subfield>
+    <subfield code="v">Chemical Physics Department, Weizmann Institute of Science, Rehovot, 76100, Israel</subfield>
+    <subfield code="m">eran.bouchbinder@weizmann.ac.il</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">136-166</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1090/S0025-5718-1968-0242392-2</subfield>
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">Numerical solution of the Navier–Stokes equations</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1968</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Math.Comput.,22,745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0749-6419(89)90027-2</subfield>
+    <subfield code="h">Lipinski, P.</subfield>
+    <subfield code="h">Berveiller, M.</subfield>
+    <subfield code="t">Elastoplasticity of micro-inhomogeneous metals at large strains</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Int.J.Plast.,5,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1126/science.1081042</subfield>
+    <subfield code="h">Champion, Y.</subfield>
+    <subfield code="h">Langlois, C.</subfield>
+    <subfield code="h">Guérin-Mailly, S.</subfield>
+    <subfield code="h">Langlois, P.</subfield>
+    <subfield code="h">Bonnentien, J.-L.</subfield>
+    <subfield code="h">Hÿtch, M.J.</subfield>
+    <subfield code="t">Near-perfect elastoplasticity in pure nanocrystalline copper</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Science,300,310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1073/pnas.1219153110</subfield>
+    <subfield code="h">Henann, D.L.</subfield>
+    <subfield code="h">Kamrin, K.</subfield>
+    <subfield code="t">A predictive, size-dependent continuum model for dense granular flows</subfield>
+    <subfield code="v">110</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Proc.Natl.Acad.Sci.USA,110,6730</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.124471</subfield>
+    <subfield code="h">Moner-Girona, M.</subfield>
+    <subfield code="h">Roig, A.</subfield>
+    <subfield code="h">Molins, E.</subfield>
+    <subfield code="h">Martínez, E.</subfield>
+    <subfield code="h">Esteve, J.</subfield>
+    <subfield code="t">Micromechanical properties of silica aerogels</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">Appl.Phys.Lett.,75,653</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S1359-6454(01)00263-4</subfield>
+    <subfield code="h">Vaidyanathan, R.</subfield>
+    <subfield code="h">Dao, M.</subfield>
+    <subfield code="h">Ravichandran, G.</subfield>
+    <subfield code="h">Suresh, S.</subfield>
+    <subfield code="t">Study of mechanical deformation in bulk metallic glass through instrumented indentation</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Acta Mater.,49,3781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s00707-005-0282-7</subfield>
+    <subfield code="h">Xiao, H.</subfield>
+    <subfield code="h">Bruhns, O.</subfield>
+    <subfield code="h">Meyers, A.</subfield>
+    <subfield code="t">Elastoplasticity beyond small deformations</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Acta Mech.,182,31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lubliner, J.</subfield>
+    <subfield code="t">Plasticity Theory</subfield>
+    <subfield code="p">Dover New York</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gurtin, M.E.</subfield>
+    <subfield code="h">Fried, E.</subfield>
+    <subfield code="h">Anand, L.</subfield>
+    <subfield code="t">The Mechanics and Thermodynamics of Continua</subfield>
+    <subfield code="p">Cambridge University Press Cambridge</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF00281393</subfield>
+    <subfield code="h">Kröner, E.</subfield>
+    <subfield code="t">Allgemeine kontinuumstheorie der versetzungen und eigenspannungen</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1959</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Arch.Ration.Mech.Anal.,4,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.3564580</subfield>
+    <subfield code="h">Lee, E.H.</subfield>
+    <subfield code="t">Elastic–plastic deformation at finite strains</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">1969</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Appl.Mech.,36,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jmps.2004.12.006</subfield>
+    <subfield code="h">Anand, L.</subfield>
+    <subfield code="h">Su, C.</subfield>
+    <subfield code="t">A theory for amorphous viscoplastic materials undergoing finite deformations, with application to metallic glasses</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,53,1362</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.actamat.2005.08.040</subfield>
+    <subfield code="h">Su, C.</subfield>
+    <subfield code="h">Anand, L.</subfield>
+    <subfield code="t">Plane strain indentation of a Zr-based metallic glass: experiments and numerical simulation</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Acta Mater.,54,179</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jmps.2006.11.008</subfield>
+    <subfield code="h">Thamburaja, P.</subfield>
+    <subfield code="h">Ekambaram, R.</subfield>
+    <subfield code="t">Coupled thermo-mechanical modelling of bulk-metallic glasses: theory, finite-element simulations and experimental verification</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,55,1236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jmps.2014.01.014</subfield>
+    <subfield code="h">Reina, C.</subfield>
+    <subfield code="h">Conti, S.</subfield>
+    <subfield code="t">Kinematic description of crystal plasticity in the finite kinematic framework: a micromechanical understanding of <math altimg="si1.gif" display="inline" overflow="scroll"><mi mathvariant="bold">F</mi><mo>=</mo><msub><mrow><mi mathvariant="bold">F</mi></mrow><mrow><mi>e</mi></mrow></msub><msub><mrow><mi mathvariant="bold">F</mi></mrow><mrow><mi>p</mi></mrow></msub></math></subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,67,40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Truesdell, C.</subfield>
+    <subfield code="t">Hypo-elasticity</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1955</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Indiana Univ.Math.J.,4,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0022-5096(58)90029-2</subfield>
+    <subfield code="h">Hill, R.</subfield>
+    <subfield code="t">A general theory of uniqueness and stability in elastic–plastic solids</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,6,236</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Prager, W.</subfield>
+    <subfield code="t">An elementary discussion of definitions of stress rate</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1960</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Q.Appl.Math.,18,403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620170103</subfield>
+    <subfield code="h">Nagtegaal, J.C.</subfield>
+    <subfield code="h">De Jong, J.E.</subfield>
+    <subfield code="t">Some computational aspects of elastic–plastic large strain analysis</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,17,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/BF01379008</subfield>
+    <subfield code="h">Dienes, J.</subfield>
+    <subfield code="t">On the analysis of rotation and stress rate in deforming bodies</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Acta Mech.,32,217</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7949(87)90247-1</subfield>
+    <subfield code="h">Kojić, M.</subfield>
+    <subfield code="h">Bathe, K.-J.</subfield>
+    <subfield code="t">Studies of finite element procedures—stress solution of a closed elastic strain path with stretching and shearing using the updated Lagrangian Jaumann formulation</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Comput.Struct.,26,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620300602</subfield>
+    <subfield code="h">Eterovic, A.L.</subfield>
+    <subfield code="h">Bathe, K.-J.</subfield>
+    <subfield code="t">A hyperelastic-based large strain elasto-plastic constitutive formulation with combined isotropic–kinematic hardening using the logarithmic stress and strain measures</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,30,1099</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620151210</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="h">Winget, J.</subfield>
+    <subfield code="t">Finite rotation effects in numerical integration of rate constitutive equations arising in large-deformation analysis</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,15,1862</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tannehill, J.C.</subfield>
+    <subfield code="t">Computational Fluid Mechanics and Heat Transfer</subfield>
+    <subfield code="p">Taylor and Francis</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, J.-D.</subfield>
+    <subfield code="h">Sakai, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">A coupled level set projection method applied to ink jet simulation</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Interfaces Free Bound.,5,459</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1007/s002050100158</subfield>
+    <subfield code="h">Liu, C.</subfield>
+    <subfield code="h">Walkington, N.J.</subfield>
+    <subfield code="t">An Eulerian description of fluids containing visco-elastic particles</subfield>
+    <subfield code="v">159</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">Arch.Ration.Mech.Anal.,159,229</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0196-8858(88)90025-5</subfield>
+    <subfield code="h">Plohr, B.J.</subfield>
+    <subfield code="h">Sharp, D.H.</subfield>
+    <subfield code="t">A conservative Eulerian formulation of the equations for elastic flow</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Adv.Appl.Math.,9,481</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/cpa.3160440103</subfield>
+    <subfield code="h">Trangenstein, J.A.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">A higher-order Godunov method for modeling finite deformation in elastic–plastic solids</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,44,41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kamrin, K.</subfield>
+    <subfield code="t">Stochastic and deterministic models for dense granular flow</subfield>
+    <subfield code="p">Massachusetts Institute of Technology</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1051/m2an:2008013</subfield>
+    <subfield code="h">Cottet, G.-H.</subfield>
+    <subfield code="h">Maitre, E.</subfield>
+    <subfield code="h">Milcent, T.</subfield>
+    <subfield code="t">Eulerian formulation and level set models for incompressible fluid–structure interaction</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,42,471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.mcm.2008.07.026</subfield>
+    <subfield code="h">Maitre, E.</subfield>
+    <subfield code="h">Milcent, T.</subfield>
+    <subfield code="h">Cottet, G.-H.</subfield>
+    <subfield code="h">Raoult, A.</subfield>
+    <subfield code="h">Usson, Y.</subfield>
+    <subfield code="t">Applications of level set methods in computational biophysics</subfield>
+    <subfield code="v">49</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Math.Comput.Model.,49,2161</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jmps.2012.06.003</subfield>
+    <subfield code="h">Kamrin, K.</subfield>
+    <subfield code="h">Rycroft, C.H.</subfield>
+    <subfield code="h">Nave, J.-C.</subfield>
+    <subfield code="t">Reference map technique for finite-strain elasticity and fluid–solid interaction</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,60,1952</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1021/am501130t</subfield>
+    <subfield code="h">Chen, B.</subfield>
+    <subfield code="h">Lu, J.J.</subfield>
+    <subfield code="h">Yang, C.H.</subfield>
+    <subfield code="h">Yang, J.H.</subfield>
+    <subfield code="h">Zhou, J.</subfield>
+    <subfield code="h">Chen, Y.M.</subfield>
+    <subfield code="h">Suo, Z.</subfield>
+    <subfield code="t">Highly stretchable and transparent ionogels as nonvolatile conductors for dielectric elastomer transducers</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">ACS Appl.Mater.Interfaces,6,7840</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620080102</subfield>
+    <subfield code="h">Zienkiewicz, O.C.</subfield>
+    <subfield code="h">Godbole, P.N.</subfield>
+    <subfield code="t">Flow of plastic and visco-plastic solids with special reference to extrusion and forming processes</subfield>
+    <subfield code="v">8</subfield>
+    <subfield code="y">1974</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,8,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2003.07.023</subfield>
+    <subfield code="h">Tran, L.B.</subfield>
+    <subfield code="h">Udaykumar, H.S.</subfield>
+    <subfield code="t">A particle-level set-based sharp interface cartesian grid method for impact, penetration, and void collapse</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Comput.Phys.,193,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2011.10.009</subfield>
+    <subfield code="h">Rycroft, C.H.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="t">Simulations of a stretching bar using a plasticity model from the shear transformation zone theory</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,231,2155</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0020-7683(70)90048-X</subfield>
+    <subfield code="h">Hibbitt, H.</subfield>
+    <subfield code="h">Marcal, P.</subfield>
+    <subfield code="h">Rice, J.</subfield>
+    <subfield code="t">A finite element formulation for problems of large strain and large displacement</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Int.J.Solids Struct.,6,1069</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0020-7683(75)90033-5</subfield>
+    <subfield code="h">McMeeking, R.</subfield>
+    <subfield code="h">Rice, J.</subfield>
+    <subfield code="t">Finite-element formulations for problems of large elastic–plastic deformation</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Int.J.Solids Struct.,11,601</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7949(85)90074-4</subfield>
+    <subfield code="h">Needleman, A.</subfield>
+    <subfield code="t">On finite element formulations for large elastic–plastic deformations</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Comput.Struct.,20,247</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0749-6419(00)00097-8</subfield>
+    <subfield code="h">Ponthot, J.</subfield>
+    <subfield code="t">Unified stress update algorithms for the numerical simulation of large deformation elasto-plastic and elasto-viscoplastic processes</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Int.J.Plast.,18,91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wilkins, M.L.</subfield>
+    <subfield code="t">Calculation of elastic–plastic flow</subfield>
+    <subfield code="p">Lawrence Radiation Laboratory</subfield>
+    <subfield code="y">1963</subfield>
+    <subfield code="m">Tech. Rep. UCRL-7322</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0045-7825(83)90018-X</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="h">Pinsky, P.M.</subfield>
+    <subfield code="h">Taylor, R.L.</subfield>
+    <subfield code="t">Operator split methods for the numerical solution of the elastoplastic dynamic problem</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,39,137</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620210902</subfield>
+    <subfield code="h">Ortiz, M.</subfield>
+    <subfield code="h">Popov, E.P.</subfield>
+    <subfield code="t">Accuracy and stability of integration algorithms for elastoplastic constitutive relations</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,21,1561</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/nme.1620220310</subfield>
+    <subfield code="h">Simo, J.C.</subfield>
+    <subfield code="h">Taylor, R.L.</subfield>
+    <subfield code="t">A return mapping algorithm for plane stress elastoplasticity</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1986</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,22,649</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0749-6419(94)90037-X</subfield>
+    <subfield code="h">Bruhns, O.</subfield>
+    <subfield code="h">Rott, U.</subfield>
+    <subfield code="t">A viscoplastic model with a smooth transition to describe rate-independent plasticity</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Int.J.Plast.,10,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Simo, J.C.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Computational Inelasticity</subfield>
+    <subfield code="p">Springer New York</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.57.7192</subfield>
+    <subfield code="h">Falk, M.L.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="t">Dynamics of viscoplastic deformation in amorphous solids</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Phys.Rev.,E57,7192</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.75.036107</subfield>
+    <subfield code="h">Bouchbinder, E.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="h">Procaccia, I.</subfield>
+    <subfield code="t">Athermal shear-transformation-zone theory of amorphous plastic deformation. I. Basic principles</subfield>
+    <subfield code="v">75</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Phys.Rev.,E75,036107</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.80.031131</subfield>
+    <subfield code="h">Bouchbinder, E.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="t">Nonequilibrium thermodynamics of driven amorphous materials. I. Internal degrees of freedom and volume deformation</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Rev.,E80,031131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.78.026124</subfield>
+    <subfield code="h">Bouchbinder, E.</subfield>
+    <subfield code="h">Lo, T.-S.</subfield>
+    <subfield code="h">Procaccia, I.</subfield>
+    <subfield code="h">Shtilerman, E.</subfield>
+    <subfield code="t">Stability of an expanding circular cavity and the failure of amorphous solids</subfield>
+    <subfield code="v">78</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Rev.,E78,026124</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0001-6160(77)90232-2</subfield>
+    <subfield code="h">Spaepen, F.</subfield>
+    <subfield code="t">A microscopic mechanism for steady state inhomogeneous flow in metallic glasses</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1977</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Acta Metall.,25,407</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/S0022-5096(01)00115-6</subfield>
+    <subfield code="h">Huang, R.</subfield>
+    <subfield code="h">Suo, Z.</subfield>
+    <subfield code="h">Prevost, J.</subfield>
+    <subfield code="h">Nix, W.</subfield>
+    <subfield code="t">Inhomogeneous deformation in metallic glasses</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Mech.Phys.Solids,50,1011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.actamat.2006.11.027</subfield>
+    <subfield code="h">Gao, Y.</subfield>
+    <subfield code="h">Yang, B.</subfield>
+    <subfield code="h">Nieh, T.</subfield>
+    <subfield code="t">Thermomechanical instability analysis of inhomogeneous deformation in amorphous alloys</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Acta Mater.,55,2319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(88)90002-2</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Fronts propagating with curvature-dependent speed: algorithms based on Hamilton–Jacobi formulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,79,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">Level Set Methods and Fast Marching Methods</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.J.</subfield>
+    <subfield code="h">Fedkiw, R.P.</subfield>
+    <subfield code="t">Level Set Methods and Dynamic Implicit Surfaces</subfield>
+    <subfield code="p">Springer-Verlag New York</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevLett.109.194301</subfield>
+    <subfield code="h">Rycroft, C.H.</subfield>
+    <subfield code="h">Bouchbinder, E.</subfield>
+    <subfield code="t">Fracture toughness of metallic glasses: annealing-induced embrittlement</subfield>
+    <subfield code="v">109</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Phys.Rev.Lett.,109,194301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1115/1.3408976</subfield>
+    <subfield code="h">Bažant, Z.P.</subfield>
+    <subfield code="t">A correlation study of formulations of incremental deformation and stability of continuous bodies</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1971</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Appl.Mech.,38,919</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(67)90037-X</subfield>
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="t">A numerical method for solving incompressible viscous flow problems</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">J.Comput.Phys.,2,12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chorin, A.J.</subfield>
+    <subfield code="h">Marsden, J.E.</subfield>
+    <subfield code="t">A Mathematical Introduction to Fluid Mechanics</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">1979</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Slaughter, W.</subfield>
+    <subfield code="t">The Linearized Theory of Elasticity</subfield>
+    <subfield code="p">Birkhäuser Boston</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.77.021502</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="t">Shear-transformation-zone theory of plastic deformation near the glass transition</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Phys.Rev.,E77,021502</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.80.031132</subfield>
+    <subfield code="h">Bouchbinder, E.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="t">Nonequilibrium thermodynamics of driven amorphous materials. II. Effective-temperature theory</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Phys.Rev.,E80,031132</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.76.056106</subfield>
+    <subfield code="h">Manning, M.L.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="h">Carlson, J.M.</subfield>
+    <subfield code="t">Strain localization in a shear transformation zone model for amorphous solids</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Phys.Rev.,E76,056106</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1103/PhysRevE.79.016110</subfield>
+    <subfield code="h">Manning, M.L.</subfield>
+    <subfield code="h">Daub, E.G.</subfield>
+    <subfield code="h">Langer, J.S.</subfield>
+    <subfield code="h">Carlson, J.M.</subfield>
+    <subfield code="t">Rate-dependent shear bands in a shear-transformation-zone model of amorphous solids</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Phys.Rev.,E79,016110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(88)90177-5</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="t">Efficient implementation of essentially non-oscillatory shock-capturing schemes</subfield>
+    <subfield code="v">77</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Comput.Phys.,77,439</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1994.1155</subfield>
+    <subfield code="h">Sussman, M.</subfield>
+    <subfield code="h">Smereka, P.</subfield>
+    <subfield code="h">Osher, S.J.</subfield>
+    <subfield code="t">A level set method for computing solutions to incompressible two-phase flow</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Comput.Phys.,114,146</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2003.08.001</subfield>
+    <subfield code="h">Aslam, T.D.</subfield>
+    <subfield code="t">A partial differential equation approach to multidimensional extrapolation</subfield>
+    <subfield code="v">193</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,193,349</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S106482750037617X</subfield>
+    <subfield code="h">Chopp, D.L.</subfield>
+    <subfield code="t">Some improvements of the fast marching method</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,230</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/cpa.3160350503</subfield>
+    <subfield code="h">Klainerman, S.</subfield>
+    <subfield code="h">Majda, A.</subfield>
+    <subfield code="t">Compressible and incompressible fluids</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,35,629</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/00102208508960376</subfield>
+    <subfield code="h">Majda, A.</subfield>
+    <subfield code="h">Sethian, J.A.</subfield>
+    <subfield code="t">The derivation and numerical solution of the equations for zero Mach number combustion</subfield>
+    <subfield code="v">42</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">Combust.Sci.Technol.,42,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1080/03605308708820526</subfield>
+    <subfield code="h">Embid, P.</subfield>
+    <subfield code="t">Well-posedness of the nonlinear equations for zero Mach number combustion</subfield>
+    <subfield code="v">12</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Commun.Partial Differ.Equ.,12,1227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(89)90151-4</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Glaz, H.M.</subfield>
+    <subfield code="t">A second-order projection method for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">85</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">J.Comput.Phys.,85,257</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/0021-9991(92)90011-M</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Marcus, D.L.</subfield>
+    <subfield code="t">A second-order projection method for variable-density flows</subfield>
+    <subfield code="v">101</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">J.Comput.Phys.,101,334</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.1996.5590</subfield>
+    <subfield code="h">Puckett, E.G.</subfield>
+    <subfield code="h">Almgren, A.S.</subfield>
+    <subfield code="h">Bell, J.B.</subfield>
+    <subfield code="h">Marcus, D.L.</subfield>
+    <subfield code="h">Rider, W.J.</subfield>
+    <subfield code="t">A high-order projection method for tracking fluid interfaces in variable density incompressible flows</subfield>
+    <subfield code="v">130</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">J.Comput.Phys.,130,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1006/jcph.2001.6715</subfield>
+    <subfield code="h">Brown, D.L.</subfield>
+    <subfield code="h">Cortez, R.</subfield>
+    <subfield code="h">Minion, M.L.</subfield>
+    <subfield code="t">Accurate projection methods for the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">168</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">J.Comput.Phys.,168,464</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1137/S1064827593244213</subfield>
+    <subfield code="h">Almgren, A.</subfield>
+    <subfield code="h">Bell, J.</subfield>
+    <subfield code="h">Szymczak, W.</subfield>
+    <subfield code="t">A numerical method for the incompressible Navier–Stokes equations based on an approximate projection</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,17,358</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1016/j.jcp.2006.07.019</subfield>
+    <subfield code="h">Min, C.</subfield>
+    <subfield code="h">Gibou, F.</subfield>
+    <subfield code="t">A second order accurate projection method for the incompressible Navier–Stokes equations on non-graded adaptive grids</subfield>
+    <subfield code="v">219</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">J.Comput.Phys.,219,912</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115004453/S0021999115004453.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

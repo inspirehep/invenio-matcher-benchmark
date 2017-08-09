@@ -1,0 +1,414 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.015</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Ehrlacher, Virginie</subfield>
+    <subfield code="v">CERMICS, Ecole des Ponts Paristech, INRIA Matherials team-project, France</subfield>
+    <subfield code="m">ehrlachv@cermics.enpc.fr</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A dynamical adaptive tensor method for the Vlasov–Poisson system</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-12</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A numerical method is proposed to solve the full-Eulerian time-dependent Vlasov–Poisson system. The algorithm relies on the construction of a tensor decomposition of the solution whose rank is adapted at each time step. This decomposition is obtained through the use of an efficient modified Progressive Generalized Decomposition (PGD) method, whose convergence is proved. We suggest in addition a symplectic time-discretization splitting scheme that preserves the Hamiltonian properties of the system. This scheme is naturally obtained by considering the tensor structure of the approximation. The proposed approach is illustrated through time-dependent 1D–1D, 2D–2D and 3D–3D numerical examples.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">© 2017 Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Vlasov–Poisson</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Tensor</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hamiltonian</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High dimension</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lombardi, Damiano</subfield>
+    <subfield code="v">INRIA, Paris, France</subfield>
+    <subfield code="m">damiano.lombardi@inria.fr</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Luigi Ambrosio, Maria Colombo, and Alessio Figalli. On the lagrangian structure of transport equations: the Vlasov-Poisson system. arXiv preprint</subfield>
+    <subfield code="r">arXiv:1412.3608</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Aleksei Alekseevich Arsenev. Existence in the large of a weak solution to the Vlasov system of equations. Zhurnal Vychislitelnoi Matematiki i Matematicheskoi Fiziki, 15:136-147</subfield>
+    <subfield code="y">1975</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Claude Bardos and Pierre Degond. Global existence for the Vlasov-Poisson equation in 3 space variables with small initial data. In Annales de l'IHP Analyse non linéaire, volume 2, pages 101-118</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">JU Brackbill. On energy and momentum conservation in particle-in-cell plasma simulation</subfield>
+    <subfield code="s">J.Comput.Phys.,317,405-427</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Eric Cances, Virginie Ehrlacher, and Tony Lelievre. Convergence of a greedy algorithm for high-dimensional convex nonlinear problems. Mathematical Models and Methods in</subfield>
+    <subfield code="s">Appl.Sciences,21,2433-2467</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Eric Cances, Virginie Ehrlacher, and Tony Lelievre. Greedy algorithms for high-dimensional non-symmetric linear problems. In ESAIM: Proceedings, volume 41, pages 95-131. EDP Sciences</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Fernando Casas, Nicolas Crouseilles, Erwan Faou, and Michel Mehrenberger. High-order hamiltonian splitting for Vlasov-Poisson equations. arXiv preprint</subfield>
+    <subfield code="r">arXiv:1510.01841</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Paul Cazeaux and Jan S Hesthaven. Multiscale time-integration for particle-in-cell methods. Technical report</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Frédérique Charles, Bruno Després, and Michel Mehrenberger. Enhanced convergence estimates for semi-lagrangian schemes application to the Vlasov-Poisson equation</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,51,840-863</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Francisco Chinesta, Amine Ammar, and Elías Cueto. Recent advances and new challenges in the use of the proper generalized decomposition for solving multidimensional models. Archives of Computational methods in Engineering, 17(4):327-350</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Francisco Chinesta, Pierre Ladeveze, and Elías short review on model order reduction based on proper generalized decomposition. Archives of Computational Methods in Engineering, 18(4):395-404</subfield>
+    <subfield code="h">Cueto. A</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H Cho, D Venturi</subfield>
+    <subfield code="m">and GE Karniadakis. Numerical methods for high-dimensional probability density function equations</subfield>
+    <subfield code="s">J.Comput.Phys.,305,817-837</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Nicolas Crouseilles, Guillaume Latu, and Eric parallel Vlasov solver based on local cubic spline interpolation on patches</subfield>
+    <subfield code="h">Sonnendrücker. A</subfield>
+    <subfield code="s">J.Comput.Phys.,228,1429-1446</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Nicolas Crouseilles, Michel Mehrenberger, and Eric Sonnendrücker. Conservative semi-lagrangian schemes for Vlasov equations</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1927-1953</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Lieven De Lathauwer, Bart De Moor, and Joos multilinear singular value decomposition journal on Matrix</subfield>
+    <subfield code="h">Vandewalle. A</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="s">Anal.Appl.,21,1253-1278</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Pierre Degond, Lorenzo Pareschi, and Giovanni Russo. Modeling and computational methods for kinetic equations Science &amp; Business Media</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Laurent Desvillettes and Jean Dolbeault. On long time asymptotics of the Vlasov—Poisson—Boltzmann equation</subfield>
+    <subfield code="s">Commun.Part.Diff.Eq.,16,451-489</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Sergey Dolgov and Boris Khoromskij. Simultaneous state-time approximation of the chemical master equation using tensor product formats</subfield>
+    <subfield code="s">Num.Lin.Alg.Appl.,22,197-219</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Mike Espig and Aram Khachatryan. Convergence of alternating least squares optimisation for rank-one approximation to high order tensors. arXiv preprint</subfield>
+    <subfield code="r">arXiv:1503.05431</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Antonio Falco and Anthony proper generalized decomposition for the solution of elliptic problems in abstract form by using a functional eckart-young approach</subfield>
+    <subfield code="h">Nouy. A</subfield>
+    <subfield code="s">J.Math.Anal.Appl.,376,469-480</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Antonio Falcó and Anthony Nouy. Proper generalized decomposition for nonlinear convex problems in tensor banach spaces</subfield>
+    <subfield code="s">Numer.Math.,121,503-530</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leonardo E Figueroa</subfield>
+    <subfield code="m">and Endre Süli. Greedy approximation of high-dimensional Ornstein-Uhlenbeck operators. Foundations of Computational Mathematics, 12(5):573-623</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Francis Filbet and Eric Sonnendrücker. Comparison of eulerian vlasov solvers</subfield>
+    <subfield code="s">Comput.Phys.Commun.,150,247-266</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Kai Germaschewski, William Fox, Stephen Abbott, Narges Ahmadi, Kristofor Maynard, Liang Wang, Hartmut Ruhl, and Amitava Bhattacharjee. The plasma simulation code: A modern particle-in-cell code with patch-based load-balancing</subfield>
+    <subfield code="s">J.Comput.Phys.,318,305-326</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Robert T Glassey</subfield>
+    <subfield code="m">The Cauchy problem in kinetic theory</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Alexandre Grothendieck. Résumé de la théorie métrique des produits tensoriels topologiques. Resenhas do Instituto de Matemática e Estatística da Universidade de São Paulo, 2(4):401-481</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Wolfgang Hackbusch. Tensor spaces and numerical tensor calculus, volume 42 Science &amp; Business Media</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Wolfgang Hackbusch Approximate iterations for structured matrices</subfield>
+    <subfield code="h">Boris N Khoromskij, and Eugene E Tyrtyshnikov</subfield>
+    <subfield code="s">Numer.Math.,109,365-383</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ernst Hairer, Christian Lubich, and Gerhard Wanner. Geometric numerical integration illustrated by the Störmer-Verlet method</subfield>
+    <subfield code="s">Acta Numer.,12,399-450</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ernst Hairer, Christian Lubich, and Gerhard Wanner. Geometric numerical integration: structure-preserving algorithms for ordinary differential equations, volume 31 Science &amp; Business Media</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Hyung Ju Hwang. Regularity for the Vlasov-Poisson system in a convex domain journal on mathematical</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="s">Analysis,36,121-171</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Venera Khoromskaia and Boris N Khoromskij. Tensor numerical methods in quantum chemistry: from hartree-fock to excitation energies</subfield>
+    <subfield code="s">Phys.Chem.Chem.Phys.,17,31491-31509</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boris N Khoromskij</subfield>
+    <subfield code="m">Tensor numerical methods for multidimensional pdes: theoretical analysis and initial applications. ESAIM: Proceedings and Surveys, 48:1-28</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tamara G Kolda and Brett W Bader</subfield>
+    <subfield code="m">Tensor decompositions and applications</subfield>
+    <subfield code="s">SIAM Rev.,51,455-500</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Katharina semi-lagrangian Vlasov solver in tensor train format</subfield>
+    <subfield code="h">Kormann. A</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,37,B613-B632</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Pierre Passieux, and David Néron. The latin multiscale computational method and the proper generalized decomposition</subfield>
+    <subfield code="h">Ladeveze, J-C</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,1287-1296</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Claude Le Bris, Tony Lelievre, and Yvon Maday. Results and questions on a nonlinear approximation approach for solving high-dimensional partial differential equations</subfield>
+    <subfield code="s">Constructive Approx.,30,621-651</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">PIERRE-LOUIS Lions and BENÔIT Perthame. Propagation of moments and regularity for the 3-dimensional Vlasov-Poisson system</subfield>
+    <subfield code="s">Invent.Math.,105,415-430</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Éric Madaule, Marco Restelli, and Eric Sonnendrücker. Energy conserving discontinuous Galerkin spectral element method for the Vlasov-Poisson system</subfield>
+    <subfield code="s">J.Comput.Phys.,279,261-288</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jerrold E. Marsden</subfield>
+    <subfield code="m">and Alan Weinstein. The hamiltonian structure of the Maxwell-Vlasov equations. Physica D: Nonlinear Phenomena, 4(3):394 - 406</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">PJ Morrison. Hamiltonian and action principle formulations of plasma physicsa). Physics of Plasmas (-present), 12(5):058102, 2005</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Anthony priori model reduction through proper generalized decomposition for solving time-dependent partial differential equations</subfield>
+    <subfield code="h">Nouy. A</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,199,1603-1626</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Martin Campos Pinto and Michel Mehrenberger. Convergence of an adaptive semi-lagrangian scheme for the Vlasov-Poisson system</subfield>
+    <subfield code="s">Numer.Math.,108,407-444</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Thorsten Rohwedder and André Uschmajew. On local convergence of alternating schemes for optimization of convex problems in the tensor train format</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,51,1134-1162</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vladimir N Temlyakov</subfield>
+    <subfield code="m">Greedy approximation</subfield>
+    <subfield code="s">Acta Numer.,17,235-409</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">André Uschmajew. Local convergence of the alternating least squares algorithm for canonical tensor approximation Journal on Matrix</subfield>
+    <subfield code="p">SIAM</subfield>
+    <subfield code="s">Anal.Appl.,33,639-652</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Victor Vedenyapin, Alexander Sinitsyn, and Eugene Dulov. Kinetic Boltzmann, Vlasov and Related Equations</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Xingyu Wang, Roman Samulyak, Xiangmin Jiao, and Kwangmin Yu. AP-Cloud: Adaptive Particle-in-Cloud method for optimal solutions to Vlasov-Poisson equation</subfield>
+    <subfield code="s">J.Comput.Phys.,316,682-699</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Jin Xu Brahim Mustapha, and Jerry Nolen. Scalable direct vlasov solver with discontinuous galerkin method on unstructured mesh</subfield>
+    <subfield code="h">Peter N Ostroumov</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,32,3476-3494</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302024/S0021999117302024.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

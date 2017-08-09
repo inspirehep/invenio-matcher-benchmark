@@ -1,7 +1,7 @@
 import argparse
+import datetime
 import glob
 import os
-import sys
 
 from dojson.contrib.marc21.utils import create_record as marc_create_record
 
@@ -13,56 +13,107 @@ from inspirehep.utils.record import get_value
 from inspirehep.factory import create_app
 
 
-def generate_match_map():
+def generate_doi_map():
     with open('test_matches_clean.txt', 'r') as fd:
         result = {}
         for line in fd:
             doi, recid = line.split('--')
             recid = recid.strip()
-            if recid.endswith('N'):
-                recid = recid[:-1]
             result[doi.strip()] = recid
         return result
 
 
-def main(args):
-    app = create_app()
+def generate_recid_map():
+    with open('manual_matches.txt', 'r') as fd:
+        result = {}
+        for line in fd:
+            recid1, recid2 = line.split('--')
+            recid2 = recid2.strip()
+            result[recid1.strip()] = recid2
+        return result
 
+
+def generate_no_match_list():
+    with open('no_match.txt', 'r') as fd:
+        return fd.read().splitlines()
+
+
+def get_mlt_record(inspire_record):
+    match_record = {}
+    if inspire_record.get('titles'):
+        match_record['titles'] = inspire_record['titles']
+    if inspire_record.get('abstracts'):
+        match_record['abstracts'] = inspire_record['abstracts']
+    if inspire_record.get('authors'):
+        match_record['authors'] = inspire_record['authors'][:3]
+    return match_record
+
+
+def is_good_match(doi_match_map, recid_match_map, dois, control_number, matched_recid):
+    def _got_match(dictionary, key, value):
+        return dictionary.get(key) == value
+
+    if any([_got_match(doi_match_map, str(matched_recid), doi) for doi in dois]):
+        return True
+
+    if _got_match(recid_match_map, str(control_number), str(matched_recid)):
+        return True
+
+    return False
+
+
+def write(content, filename):
+    with open(filename, 'w') as fd:
+        fd.write(content)
+
+
+def main(args):
+    total = 0
     true_positives = 0
     false_positives = 0
     false_negatives = 0
     true_negatives = 0
     multiple_exact = 0  # Keep track of cases where multiple records match a exact query
+    doi_match_map = generate_doi_map()
+    recid_match_map = generate_recid_map()
+    no_match_list = generate_no_match_list()
 
-    with app.app_context():
+    filenames = []
 
-        if os.path.isfile(args.name):
-            filenames = [args.name]
+    for filename in args.names:
+        if os.path.isfile(filename):
+            filenames.append(filename)
         else:
-            filenames = glob.glob(args.name + '/*.xml')
+            filenames.extend(glob.glob(filename + '/*.xml'))
 
-        correct_match_map = generate_match_map()
+    if args.output:
+        false_positives_dir = 'false_positives_{0}'.format(datetime.datetime.now().isoformat())
+        false_negatives_dir = 'false_negatives_{0}'.format(datetime.datetime.now().isoformat())
+        os.makedirs(false_positives_dir)
+        os.makedirs(false_negatives_dir)
 
-        total = 0  # Total number of records found in test_matches_clean
+    app = create_app()
+    with app.app_context():
 
         for filename in filenames:
             with open(filename, 'r') as fd:
                 for i, marcxml in enumerate(split_stream(fd)):
-                    marc_record = marc_create_record(
-                        marcxml, keep_singletons=False)
-                    inspire_record = overdo_marc_dict(marc_record)
+                    marc_record = marc_create_record(marcxml, keep_singletons=False)
+                    try:
+                        inspire_record = overdo_marc_dict(marc_record)
+                    except TypeError:
+                        # Some bad metadata in the record - skip
+                        pass
+                    control_number = get_value(inspire_record, 'control_number')
                     dois = get_value(inspire_record, 'dois.value')
+                    arxiv_eprints = get_value(inspire_record, 'arxiv_eprints.value')                    
 
-                    if not dois:
+                    if not dois or not control_number:
+                        # FIXME all the correct/incorrect match files are based on doi
                         continue
-                    
-                    if set(dois) & correct_match_map.viewkeys() == set():
-                        print "DOI {} not found in test_matches_clean.txt".format(dois)
-                        continue
-                    
+
                     total += 1
-                    arxiv_eprints = get_value(
-                        inspire_record, 'arxiv_eprints.value')
+
                     print 'Going to match DOIs: ', dois
                     print 'Going to match arXiv eprints: ', arxiv_eprints
 
@@ -72,7 +123,6 @@ def main(args):
                         {'type': 'exact', 'match': 'arxiv_eprints.value.raw',
                             'values': arxiv_eprints}
                     ]
-
                     matched_exact_records = list(_match(
                         inspire_record,
                         queries=queries_,
@@ -82,38 +132,30 @@ def main(args):
 
                     if len(matched_exact_records) == 1:
                         matched_recid = matched_exact_records[0].record.get('control_number')
-                        if any([got_match(correct_match_map, str(matched_recid), doi) for doi in dois]):
+                        if is_good_match(doi_match_map, recid_match_map, dois, control_number, matched_recid):
                             true_positives += 1
                             print '++ Got a good match! with recid: ', matched_recid
                         else:
                             false_positives += 1
+                            if args.output:
+                                write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
                             print '-- Got a wrong match', matched_exact_records[0].record.get('control_number')
-                            with open('false_positives/{0}.xml'.format(i), 'w') as fd:
-                                fd.write(marcxml)
                         continue
                     elif len(matched_exact_records) > 1:
-                        #FIXME Do we treat multiple matches as a false positive?
+                        # FIXME Do we treat multiple matches as a false positive?
                         false_positives += 1
                         multiple_exact += 1
+                        if args.output:
+                            write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
                         print '-- More than one match found: ', [m.record.get('control_number') for m in matched_exact_records]
-                        with open('false_positives/{0}.xml'.format(i), 'w') as fd:
-                            fd.write(marcxml)
                         continue
                         
                     print 'Did not find a match for DOIs or arXiv ePrints'
                     # Step 2 - apply fuzzy queries
                     print 'Executing mlt query...'
 
-                    match_record = {}
-                    if inspire_record.get('titles'):
-                        match_record['titles'] = inspire_record['titles']
-                    if inspire_record.get('abstracts'):
-                        match_record['abstracts'] = inspire_record['abstracts']
-                    if inspire_record.get('authors'):
-                        match_record['authors'] = inspire_record['authors'][:3]
-
+                    match_record = get_mlt_record(inspire_record)
                     queries_ = [{'type': 'fuzzy', 'match': match_record}]
-
                     matched_fuzzy_records = list(_match(
                         inspire_record,
                         queries=queries_,
@@ -121,38 +163,26 @@ def main(args):
                         doc_type='hep'
                     ))
 
-                    import ipdb; ipdb.set_trace()
-
-                    if len(matched_fuzzy_records) == 1:
-                        first_result = matched_fuzzy_records[0]                      
-                        matched_recid = first_result.record.get('control_number')
-                        if any([got_match(correct_match_map, str(matched_recid), doi) for doi in dois]):
-                            true_positives += 1
-                            print '++ Got a good match! with recid: ', matched_recid
-                    elif len(matched_fuzzy_records) > 1:
+                    if len(matched_fuzzy_records) >= 1:
                         first_result = matched_fuzzy_records[0]
-                        second_result = matched_fuzzy_records[1]
-                        ratio = first_result.score/second_result.score
-                        # if ratio > 2 and first_result.score > 2:  # These numbers need to be learned
                         matched_recid = first_result.record.get('control_number')
                         print '++ Fuzzy result found: ', matched_recid
-                        if any([got_match(correct_match_map, str(matched_recid), doi) for doi in dois]):
+                        if is_good_match(doi_match_map, recid_match_map, dois, control_number, matched_recid):
                             true_positives += 1
                             print '++ Got a good match! with recid: ', matched_recid
                         else:
                             false_positives += 1
-                            with open('false_positives/{0}.xml'.format(i), 'w') as fd:
-                                fd.write(marcxml)
-                        # else:
-                        #     with open('false_negatives/{0}.xml'.format(i), 'w') as fd:
-                        #         fd.write(marcxml)
-                        #     false_negatives += 1
-                        #     print '-- No matches were found '
+                            if args.output:
+                                write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
+                        continue
+
+                    # No record matched, check if it was a true negative
+                    if set(no_match_list) & set(dois) != set():
+                        true_negatives += 1
                     else:
-                        with open('false_negatives/{0}.xml'.format(i), 'w') as fd:
-                            fd.write(marcxml)
                         false_negatives += 1
-                        print '-- No matches were found '
+                        if args.output:
+                            write(marcxml, false_negatives_dir + os.path.sep + str(total) + '.xml')
 
                     print '\n'
 
@@ -160,7 +190,9 @@ def main(args):
         print 'Total analyzed: ', total
         print 'True positives: ', true_positives
         print 'False positives: ', false_positives
+        print 'True negatives: ', true_negatives
         print 'False negatives: ', false_negatives
+        print 'Duplicate exact match: ', multiple_exact
         print '------------------------'
         if true_positives + false_positives > 0:
             precision = true_positives/float(true_positives + false_positives)
@@ -176,15 +208,9 @@ def main(args):
             print 'F1 Score: ', 2.0/(1/precision + 1/recall)
 
 
-
-
-
-def got_match(correct_match_map, recid, doi):
-    return correct_match_map.get(doi) == recid
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test invenio-matcher.')
-    parser.add_argument('name', help='File or directory to run matcher against.')
+    parser.add_argument('names', nargs='+', help='File(s) or directory(ies) to run matcher against.')
+    parser.add_argument('--output', help='Output files with false positives and false negatives', action='store_true')
     args = parser.parse_args()
     main(args)

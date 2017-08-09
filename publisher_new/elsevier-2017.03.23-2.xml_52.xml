@@ -1,0 +1,793 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.03.058</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Fakhari, Abbas</subfield>
+    <subfield code="j">ORCID:0000-0003-3279-715X</subfield>
+    <subfield code="v">Department of Civil and Environmental Engineering and Earth Sciences, University of Notre Dame, Notre Dame, IN, 46556, USA</subfield>
+    <subfield code="m">afakhari@nd.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A mass-conserving lattice Boltzmann method with dynamic grid refinement for immiscible two-phase flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-06-15</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A mass-conserving lattice Boltzmann method (LBM) for multiphase flows is presented in this paper. The proposed LBM improves a previous model (Lee and Liu, 2010 [21] ) in terms of mass conservation, speed-up, and efficiency, and also extends its capabilities for implementation on non-uniform grids. The presented model consists of a phase-field lattice Boltzmann equation (LBE) for tracking the interface between different fluids and a pressure-evolution LBM for recovering the hydrodynamic properties. In addition to the mass conservation property and the simplicity of the algorithm, the advantages of the current phase-field LBE are that it is an order of magnitude faster than the previous interface tracking LBE proposed by Lee and Liu (2010) [21] and it requires less memory resources for data storage. Meanwhile, the pressure-evolution LBM is equipped with a multi-relaxation-time (MRT) collision operator to facilitate attainability of small relaxation rates thereby allowing simulation of multiphase flows at higher Reynolds numbers.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mass-conserving lattice Boltzmann method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Conservative phase-field</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multiphase flow</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Adaptive mesh refinement</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Rising bubble</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Falling droplet</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Kelvin–Helmholtz instability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dynamic grid adaptation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Geier, Martin</subfield>
+    <subfield code="v">TU Braunschweig, Institute for Computational Modeling in Civil Engineering (iRMB), TU-Braunschweig, Pockelsstr. 3, Braunschweig, 38106, Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, Taehun</subfield>
+    <subfield code="v">Department of Mechanical Engineering, The City College of the City University of New York, New York, NY, 10031, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">434-457</subfield>
+    <subfield code="v">315</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anderson, D.M.</subfield>
+    <subfield code="h">McFadden, G.B.</subfield>
+    <subfield code="h">Wheeler, A.A.</subfield>
+    <subfield code="t">Diffuse-interface methods in fluid mechanics</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,30,139</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Scardovelli, R.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="t">Direct numerical simulation of free-surface and interfacial flow</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,31,567</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jamet, D.</subfield>
+    <subfield code="h">Lebaigue, O.</subfield>
+    <subfield code="h">Coutris, N.</subfield>
+    <subfield code="h">Delhaye, J.</subfield>
+    <subfield code="t">The second gradient method for the direct numerical simulation of liquid–vapor flows with phase change</subfield>
+    <subfield code="v">169</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">J.Comput.Phys.,169,624</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Theory of the lattice Boltzmann method: from the Boltzmann equation to the lattice Boltzmann equation</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Phys.Rev.,E56,6811</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Lattice Boltzmann model for the incompressible Navier–Stokes equation</subfield>
+    <subfield code="v">88</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Stat.Phys.,88,927</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Doolen, G.</subfield>
+    <subfield code="t">Lattice Boltzmann method for fluid flows</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,30,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Unified theory of lattice Boltzmann models for nonideal gases</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.Lett.,81,1618</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Shan, X.</subfield>
+    <subfield code="h">Doolen, G.D.</subfield>
+    <subfield code="t">A discrete Boltzmann equation model for non-ideal gases</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Phys.Rev.,E57,R13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Theory of the lattice Boltzmann method: lattice Boltzmann models for nonideal gases</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Rev.,E62,4982</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="h">Girimaji, S.S.</subfield>
+    <subfield code="t">Theory of the lattice Boltzmann method: two-fluid model for binary mixtures</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Phys.Rev.,E67,036302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, D.</subfield>
+    <subfield code="h">Mei, R.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="h">Shyy, W.</subfield>
+    <subfield code="t">Viscous flow computations with the method of lattice Boltzmann equation</subfield>
+    <subfield code="v">39</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Prog.Aerosp.Sci.,39,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gunstensen, A.K.</subfield>
+    <subfield code="h">Rothman, D.H.</subfield>
+    <subfield code="h">Zaleski, S.</subfield>
+    <subfield code="h">Zanetti, G.</subfield>
+    <subfield code="t">Lattice Boltzmann model of immiscible fluids</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Phys.Rev.,A43,4320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shan, X.</subfield>
+    <subfield code="h">Chen, H.</subfield>
+    <subfield code="t">Lattice Boltzmann model for simulating flows with multiple phases and components</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Phys.Rev.,E47,1815</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shan, X.</subfield>
+    <subfield code="h">Doolen, G.D.</subfield>
+    <subfield code="t">Multicomponent lattice-Boltzmann model with interparticle interaction</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Stat.Phys.,81,379</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Swift, M.R.</subfield>
+    <subfield code="h">Orlandini, E.</subfield>
+    <subfield code="h">Osborn, W.R.</subfield>
+    <subfield code="h">Yeomans, J.M.</subfield>
+    <subfield code="t">Lattice Boltzmann simulations of liquid–gas and binary fluid systems</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Phys.Rev.,E54,5041</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">He, X.</subfield>
+    <subfield code="h">Chen, S.</subfield>
+    <subfield code="h">Zhang, R.</subfield>
+    <subfield code="t">A lattice Boltzmann scheme for incompressible multiphase flow and its application in simulation of Rayleigh–Taylor instability</subfield>
+    <subfield code="v">152</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,152,642</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Inamuro, T.</subfield>
+    <subfield code="h">Ogata, T.</subfield>
+    <subfield code="h">Tajima, S.</subfield>
+    <subfield code="h">Konishi, N.</subfield>
+    <subfield code="t">A lattice Boltzmann method for incompressible two-phase flows with large density differences</subfield>
+    <subfield code="v">198</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,198,628</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="h">Lin, C.-L.</subfield>
+    <subfield code="t">A stable discretization of the lattice Boltzmann equation for simulation of incompressible two-phase flows at high density ratio</subfield>
+    <subfield code="v">206</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,206,16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lallemand, P.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="h">Peng, Y.</subfield>
+    <subfield code="t">A lattice Boltzmann front-tracking method for interface dynamics with surface tension in two dimensions</subfield>
+    <subfield code="v">226</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,226,1367</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Rahimian, M.H.</subfield>
+    <subfield code="t">Phase-field modeling by the method of lattice Boltzmann equations</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Phys.Rev.,E81,036707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="h">Liu, L.</subfield>
+    <subfield code="t">Lattice Boltzmann simulations of micron-scale drop impact on dry surfaces</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8045</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Multiple-relaxation-time lattice Boltzmann method for immiscible fluids at high Reynolds numbers</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Rev.,E87,023304</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Guo, Z.</subfield>
+    <subfield code="h">Zheng, C.</subfield>
+    <subfield code="h">Shi, B.</subfield>
+    <subfield code="t">Force imbalance in lattice Boltzmann equation for two-phase flows</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Rev.,E83,036707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhatnagar, P.L.</subfield>
+    <subfield code="h">Gross, E.P.</subfield>
+    <subfield code="h">Krook, M.</subfield>
+    <subfield code="t">A model for collision processes in gases. I. Small amplitude processes in charged and neutral one-component systems</subfield>
+    <subfield code="v">94</subfield>
+    <subfield code="y">1954</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Rev.,94,511</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="h">Oliger, J.</subfield>
+    <subfield code="t">Adaptive mesh refinement for hyperbolic partial differential equations</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,53,484</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berger, M.J.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">Local adaptive mesh refinement for shock hydrodynamics</subfield>
+    <subfield code="v">82</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,82,64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Zeeuw, D.</subfield>
+    <subfield code="h">Powell, K.G.</subfield>
+    <subfield code="t">An adaptively refined Cartesian mesh solver for the Euler equations</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,104,56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khokhlov, A.M.</subfield>
+    <subfield code="t">Fully threaded tree algorithms for adaptive refinement fluid dynamics simulations</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,143,519</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ji, H.</subfield>
+    <subfield code="h">Lien, F.-S.</subfield>
+    <subfield code="h">Yee, E.</subfield>
+    <subfield code="t">A new adaptive mesh refinement data structure with an application to detonation</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,229,8981</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Finite-difference lattice Boltzmann method with a block-structured adaptive-mesh-refinement technique</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Rev.,E89,033310</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">MacNeice, P.</subfield>
+    <subfield code="h">Olson, K.</subfield>
+    <subfield code="h">Mobarry, C.</subfield>
+    <subfield code="h">de Fainchtein, R.</subfield>
+    <subfield code="h">Packer, C.</subfield>
+    <subfield code="t">PARAMESH: a parallel adaptive mesh refinement community toolkit</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Comput.Phys.Commun.,126,330</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Teyssier, R.</subfield>
+    <subfield code="t">Cosmological hydrodynamics with adaptive mesh refinement: a new high resolution code called RAMSES</subfield>
+    <subfield code="v">385</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Astron.Astrophys.,385,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Popinet, S.</subfield>
+    <subfield code="t">Gerris: a tree-based adaptive solver for the incompressible Euler equations in complex geometries</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,190,572</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Matsumoto, T.</subfield>
+    <subfield code="t">Self-gravitational magnetohydrodynamics with adaptive mesh refinement for protostellar collapse</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Publ.Astron.Soc.Jpn.,59,905</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ziegler, U.</subfield>
+    <subfield code="t">The NIRVANA code: parallel computational MHD with adaptive mesh refinement</subfield>
+    <subfield code="v">179</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">Comput.Phys.Commun.,179,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, R.-L.</subfield>
+    <subfield code="h">Fang, C.</subfield>
+    <subfield code="h">Chen, P.-F.</subfield>
+    <subfield code="t">A new MHD code with adaptive mesh refinement and parallelization for astrophysics</subfield>
+    <subfield code="v">183</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Phys.Commun.,183,1617</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rantakokko, J.</subfield>
+    <subfield code="h">Thuné, M.</subfield>
+    <subfield code="t">Parallel Computing</subfield>
+    <subfield code="p">Springer London</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tölke, J.</subfield>
+    <subfield code="h">Freudiger, S.</subfield>
+    <subfield code="h">Krafczyk, M.</subfield>
+    <subfield code="t">An adaptive scheme using hierarchical grids for lattice Boltzmann multi-phase flow simulations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Comput.Fluids,35,820</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, Z.</subfield>
+    <subfield code="h">Fan, L.-S.</subfield>
+    <subfield code="t">An interaction potential based lattice Boltzmann method with adaptive mesh refinement (AMR) for two-phase flow simulation</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6456</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Numerics of the lattice Boltzmann method on nonuniform grids: standard LBM and finite-difference LBM</subfield>
+    <subfield code="v">107</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Comput.Fluids,107,205</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, H.W.</subfield>
+    <subfield code="h">Shu, C.</subfield>
+    <subfield code="h">Chew, Y.T.</subfield>
+    <subfield code="t">Lattice Boltzmann interface capturing method for incompressible flows</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Phys.Rev.,E72,056705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zu, Y.Q.</subfield>
+    <subfield code="h">He, S.</subfield>
+    <subfield code="t">Phase-field-based lattice Boltzmann model for incompressible binary fluid systems with density and viscosity contrasts</subfield>
+    <subfield code="v">87</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Phys.Rev.,E87,043301</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liang, H.</subfield>
+    <subfield code="h">Shi, B.C.</subfield>
+    <subfield code="h">Guo, Z.L.</subfield>
+    <subfield code="h">Chai, Z.H.</subfield>
+    <subfield code="t">Phase-field-based multiple-relaxation-time lattice Boltzmann model for incompressible multiphase flows</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Phys.Rev.,E89,053320</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cahn, J.W.</subfield>
+    <subfield code="h">Hilliard, J.E.</subfield>
+    <subfield code="t">Free energy of a nonuniform system. I. Interfacial free energy</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Chem.Phys.,28,258</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rowlinson, J.S.</subfield>
+    <subfield code="h">Widom, B.</subfield>
+    <subfield code="t">Molecular Theory of Capillarity</subfield>
+    <subfield code="p">Clarendon Press Oxford</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, L.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="h">Guo, Z.</subfield>
+    <subfield code="h">Rumschitzki, D.</subfield>
+    <subfield code="t">Shrinkage of bubbles/drops in the lattice Boltzmann equation method for nonideal gases</subfield>
+    <subfield code="v">89</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Phys.Rev.,E89,033302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sun, Y.</subfield>
+    <subfield code="h">Beckermann, C.</subfield>
+    <subfield code="t">Sharp interface tracking using the phase-field equation</subfield>
+    <subfield code="v">220</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Phys.,220,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chiu, P.-H.</subfield>
+    <subfield code="h">Lin, Y.-T.</subfield>
+    <subfield code="t">A conservative phase field method for solving incompressible two-phase flows</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Phys.,230,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Geier, M.</subfield>
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Lee, T.</subfield>
+    <subfield code="t">Conservative phase-field lattice Boltzmann model for interface tracking equation</subfield>
+    <subfield code="v">91</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">Phys.Rev.,E91,063309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lallemand, P.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Theory of the lattice Boltzmann method: dispersion, dissipation, isotropy, Galilean invariance, and stability</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">Phys.Rev.,E61,6546</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">d'Humiéres, D.</subfield>
+    <subfield code="h">Ginzburg, I.</subfield>
+    <subfield code="h">Krafczyk, M.</subfield>
+    <subfield code="h">Lallemand, P.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="t">Multiple-relaxation-time lattice Boltzmann models in three dimensions</subfield>
+    <subfield code="v">360</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">Philos.Trans.R.Soc.Lond.,A360,437</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="t">A continuous surface tension force formulation for diffuse-interface models</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,204,784</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lagrava, D.</subfield>
+    <subfield code="h">Malaspinas, O.</subfield>
+    <subfield code="h">Latt, J.</subfield>
+    <subfield code="h">Chopard, B.</subfield>
+    <subfield code="t">Advances in multi-domain lattice Boltzmann grid refinement</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">J.Comput.Phys.,231,4808</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="t">Phase-field modeling of multiphase flows using the lattice Boltzmann method with adaptive mesh refinement</subfield>
+    <subfield code="p">The City College of the City University of New York</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">Ph.D. thesis</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Khatavkar, V.V.</subfield>
+    <subfield code="h">Anderson, P.D.</subfield>
+    <subfield code="h">Meijer, H.E.H.</subfield>
+    <subfield code="t">On scaling of diffuse-interface models</subfield>
+    <subfield code="v">61</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">Chem.Eng.Sci.,61,2364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Magaletti, F.</subfield>
+    <subfield code="h">Picano, F.</subfield>
+    <subfield code="h">Chinappi, M.</subfield>
+    <subfield code="h">Marino, L.</subfield>
+    <subfield code="h">Casciola, C.M.</subfield>
+    <subfield code="t">The sharp-interface limit of the Cahn–Hilliard/Navier–Stokes model for binary fluids</subfield>
+    <subfield code="v">714</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">J.Fluid Mech.,714,95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Clift, R.</subfield>
+    <subfield code="h">Grace, J.R.</subfield>
+    <subfield code="h">Weber, M.E.</subfield>
+    <subfield code="t">Bubbles, Drops, and Particles</subfield>
+    <subfield code="p">Academic Press New York</subfield>
+    <subfield code="y">1978</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bhaga, D.</subfield>
+    <subfield code="h">Weber, M.E.</subfield>
+    <subfield code="t">Bubbles in viscous liquids: shapes, wakes and velocities</subfield>
+    <subfield code="v">105</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">J.Fluid Mech.,105,61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Rahimian, M.H.</subfield>
+    <subfield code="t">Simulation of an axisymmetric rising bubble by a multiple relaxation time lattice Boltzmann method</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Int.J.Mod.Phys.,B23,4907</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Han, J.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">Secondary breakup of axisymmetric liquid drops. I. Acceleration by a constant body force</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Phys.Fluids,11,3650</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Rahimian, M.H.</subfield>
+    <subfield code="t">Simulation of falling droplet by the lattice Boltzmann method</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Commun.Nonlinear Sci.Numer.Simul.,14,3046</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fakhari, A.</subfield>
+    <subfield code="h">Rahimian, M.H.</subfield>
+    <subfield code="t">Investigation of deformation and breakup of a falling droplet using a multiple-relaxation-time lattice Boltzmann method</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">62</subfield>
+    <subfield code="s">Comput.Fluids,40,156</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jalaal, M.</subfield>
+    <subfield code="h">Mehravaran, K.</subfield>
+    <subfield code="t">Fragmentation of falling liquid droplets in bag breakup mode</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,47,115</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, X.</subfield>
+    <subfield code="h">Lowengrub, J.</subfield>
+    <subfield code="h">Anderson, A.</subfield>
+    <subfield code="h">Cristini, V.</subfield>
+    <subfield code="t">Adaptive unstructured volume remeshing – II: application to two- and three-dimensional level-set simulations</subfield>
+    <subfield code="v">208</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,208,626</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Blanchette, F.</subfield>
+    <subfield code="h">Bigioni, T.P.</subfield>
+    <subfield code="t">Partial coalescence of drops at liquid interfaces</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">Nat.Phys.,2,254</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yue, P.</subfield>
+    <subfield code="h">Zhou, C.</subfield>
+    <subfield code="h">Feng, J.J.</subfield>
+    <subfield code="t">A computational study of the coalescence between a drop and an interface in Newtonian and viscoelastic fluids</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Phys.Fluids,18,102102</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davis, R.H.</subfield>
+    <subfield code="h">Schonberg, J.F.</subfield>
+    <subfield code="h">Rallison, J.M.</subfield>
+    <subfield code="t">The lubrication force between two viscous drops</subfield>
+    <subfield code="v">1</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Phys.Fluids,A1,77</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bozzano, G.</subfield>
+    <subfield code="h">Dente, M.</subfield>
+    <subfield code="t">Modelling the drop coalescence at the interface of two liquids</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">Comput.Chem.Eng.,35,901</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tauber, W.</subfield>
+    <subfield code="h">Unverdi, S.O.</subfield>
+    <subfield code="h">Tryggvason, G.</subfield>
+    <subfield code="t">The nonlinear behavior of a sheared immiscible fluid interface</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Phys.Fluids,14,2871</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ceniceros, H.D.</subfield>
+    <subfield code="h">Roma, A.M.</subfield>
+    <subfield code="t">Study of the long-time dynamics of a viscous vortex sheet with a fully adaptive nonstiff method</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Phys.Fluids,16,4285</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="h">Li, Z.</subfield>
+    <subfield code="h">He, G.-W.</subfield>
+    <subfield code="t">A smoothing technique for discrete delta functions with application to immersed boundary method in moving boundary simulations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,228,7821</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yu, H.</subfield>
+    <subfield code="h">Luo, L.-S.</subfield>
+    <subfield code="h">Girimaji, S.S.</subfield>
+    <subfield code="t">LES of turbulent square jet flow using an MRT lattice Boltzmann model</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Comput.Fluids,35,957</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Redapangu, P.R.</subfield>
+    <subfield code="h">Sahu, K.C.</subfield>
+    <subfield code="h">Vanka, S.P.</subfield>
+    <subfield code="t">A study of pressure-driven displacement flow of two immiscible liquids using a multiphase lattice Boltzmann approach</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Phys.Fluids,24,102110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, L.-P.</subfield>
+    <subfield code="h">Ayala, O.</subfield>
+    <subfield code="h">Gao, H.</subfield>
+    <subfield code="h">Andersen, C.</subfield>
+    <subfield code="h">Mathews, K.L.</subfield>
+    <subfield code="t">Study of forced turbulence and its modulation by finite-size solid particles using the lattice Boltzmann approach</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Comput.Math.Appl.,67,363</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00083/S0021999116300237/S0021999116300237.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

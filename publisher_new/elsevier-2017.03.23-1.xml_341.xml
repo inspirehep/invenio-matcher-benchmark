@@ -1,0 +1,459 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.04.034</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Horwitz, J.A.K.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Stanford University, United States</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Accurate calculation of Stokes drag for point–particle tracking in two-way coupled flows</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">25</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this work, we propose and test a method for calculating Stokes drag applicable to particle–laden fluid flows where two-way momentum coupling is important. In the point–particle formulation, particle dynamics are coupled to fluid dynamics via a source term that appears in the respective momentum equations. When the particle Reynolds number is small and the particle diameter is smaller than the fluid scales, it is common to approximate the momentum coupling source term as the Stokes drag. The Stokes drag force depends on the difference between the undisturbed fluid velocity evaluated at the particle location, and the particle velocity. However, owing to two-way coupling, the fluid velocity is modified in the neighborhood of a particle, relative to its undisturbed value. This causes the computed Stokes drag force to be underestimated in two-way coupled point–particle simulations. We develop estimates for the drag force error as function of the particle size relative to the grid size. Because the disturbance field created by the particle contaminates the surrounding fluid, correctly calculating the drag force cannot be done solely by direct interpolation of the fluid velocity. Instead, we develop a correction method that calculates the undisturbed fluid velocity from the computed disturbed velocity field by adding an estimate of the velocity disturbance created by the particle. The correction scheme is tested for a particle settling in an otherwise quiescent fluid and is found to reduce the error in computed settling velocity by an order of magnitude compared with common interpolation schemes.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Point–particles</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Particle–laden turbulence</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Two-way coupling</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mani, A.</subfield>
+    <subfield code="v">Department of Mechanical Engineering, Stanford University, United States</subfield>
+    <subfield code="m">alimani@stanford.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">85-109</subfield>
+    <subfield code="v">318</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Basset, A.B.</subfield>
+    <subfield code="t">A Treatise on Hydrodynamics: With Numerous Examples, vol. 2</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1888</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Paris, A.D.</subfield>
+    <subfield code="t">Turbulence attenuation in a particle–laden channel flow</subfield>
+    <subfield code="p">Stanford University</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">Dissertation</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1532731</subfield>
+    <subfield code="h">Ferrante, A.</subfield>
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="t">On the physical mechanisms of two-way coupling in particle–laden isotropic turbulence</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Fluids,15,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/jfm.2016.102</subfield>
+    <subfield code="h">Frankel, A.</subfield>
+    <subfield code="h">Pouransari, H.</subfield>
+    <subfield code="h">Coletti, F.</subfield>
+    <subfield code="h">Mani, A.</subfield>
+    <subfield code="t">Settling of heated particles in homogeneous turbulence paper</subfield>
+    <subfield code="v">792</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">J.Fluid Mech.,792,869</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/CBO9780511809187</subfield>
+    <subfield code="h">Katok, A.</subfield>
+    <subfield code="h">Hasselblatt, B.</subfield>
+    <subfield code="t">Introduction to the Modern Theory of Dynamical Systems</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vie, A.</subfield>
+    <subfield code="h">Pouransari, H.</subfield>
+    <subfield code="h">Zamansky, R.</subfield>
+    <subfield code="h">Mani, A.</subfield>
+    <subfield code="t">Particle–laden flows forced by the disperse phase: comparison between Lagrangian and Eulerian simulations</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,79,144</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/jfm.2011.174</subfield>
+    <subfield code="h">Ray, B.</subfield>
+    <subfield code="h">Collins, L.R.</subfield>
+    <subfield code="t">Preferential concentration and relative velocity statistics in inertial particles in Navier–Stokes turbulence with and without filtering</subfield>
+    <subfield code="v">680</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Fluid Mech.,680,488</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rouson, D.W.I.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">On the preferential concentration of solid particles in turbulent channel flow</subfield>
+    <subfield code="v">428</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Fluid Mech.,428,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112009006880</subfield>
+    <subfield code="h">Calzavarini, E.</subfield>
+    <subfield code="h">Volk, R.</subfield>
+    <subfield code="h">Bourgoin, M.</subfield>
+    <subfield code="h">Leveque, E.</subfield>
+    <subfield code="h">Pinton, J.-F.</subfield>
+    <subfield code="h">Toschi, F.</subfield>
+    <subfield code="t">Acceleration statistics of finite-sized particles in turbulent flow: the role of Faxen forces</subfield>
+    <subfield code="v">630</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">J.Fluid Mech.,630,179</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stokes, G.G.</subfield>
+    <subfield code="t">On the effect of the inertial friction of fluids on the motion of pendulums</subfield>
+    <subfield code="v">IX</subfield>
+    <subfield code="y">1850</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Trans.Camb.Philos.Soc.,IX,8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batchelor, G.K.</subfield>
+    <subfield code="t">Sedimentation in a dilute dispersion of spheres</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1972</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Fluid Mech.,52,245</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pouransari, H.</subfield>
+    <subfield code="h">Mani, A.</subfield>
+    <subfield code="t">Towards understanding of particle-based solar receivers: impact of preferential concentration on heat transfer statistics</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Bull.Am.Phys.Soc.,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Capecelatro, J.</subfield>
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="t">An Euler–Lagrange strategy for simulating particle–laden flows</subfield>
+    <subfield code="v">238</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,238,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/jfm.2014.194</subfield>
+    <subfield code="h">Capecelatro, J.</subfield>
+    <subfield code="h">Desjardins, O.</subfield>
+    <subfield code="h">Fox, R.O.</subfield>
+    <subfield code="t">Numerical study of collisional particle dynamics in cluster-induced turbulence</subfield>
+    <subfield code="v">747</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Fluid Mech.,747,R2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Segura, J.C.</subfield>
+    <subfield code="t">Predictive capabilities of particle–laden large eddy simulation</subfield>
+    <subfield code="p">Stanford University</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="m">Thesis</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kulick, J.D.</subfield>
+    <subfield code="h">Fessler, J.R.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Particle response and turbulence modification in fully developed channel flow</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Fluid Mech.,277,109</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.857620</subfield>
+    <subfield code="h">Squires, K.D.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Particle response and turbulence modification in isotropic turbulence</subfield>
+    <subfield code="v">2</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Phys.Fluids,A2,1191</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.858045</subfield>
+    <subfield code="h">Squires, K.D.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Preferential concentration of particles by turbulence</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Phys.Fluids,A3,1169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112093002708</subfield>
+    <subfield code="h">Wang, L-P.</subfield>
+    <subfield code="h">Maxey, M.R.</subfield>
+    <subfield code="t">Settling velocity and concentration distribution of heavy particles in homogeneous isotropic turbulence</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Fluid Mech.,256,27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boivin, M.</subfield>
+    <subfield code="h">Simonin, O.</subfield>
+    <subfield code="h">Squires, K.D.</subfield>
+    <subfield code="t">Direct numerical simulation of turbulence modulation by particles in isotropic turbulence</subfield>
+    <subfield code="v">375</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Fluid Mech.,375,235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stimson, M.</subfield>
+    <subfield code="h">Jeffrey, G.B.</subfield>
+    <subfield code="t">The motion of two spheres in a viscous fluid</subfield>
+    <subfield code="v">111</subfield>
+    <subfield code="y">1926</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">Proc.R.Soc.,A111,110</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.864230</subfield>
+    <subfield code="h">Maxey, M.R.</subfield>
+    <subfield code="h">Riley, J.J.</subfield>
+    <subfield code="t">Equation of motion for a small rigid sphere in a nonuniform flow</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Phys.Fluids,26,883</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Druzhinin, O.A.</subfield>
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="t">On the decay rate of isotropic turbulence laden with microparticles</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Phys.Fluids,11,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1415735</subfield>
+    <subfield code="h">Druzhinin, O.A.</subfield>
+    <subfield code="t">The influence of particle inertia on the two-way coupling and modification of isotropic turbulence by microparticles</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Phys.Fluids,13,3738</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.1616031</subfield>
+    <subfield code="h">Bagchi, P.</subfield>
+    <subfield code="h">Balachandar, S.</subfield>
+    <subfield code="t">Effect of turbulence on the drag and lift of a particle</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Phys.Fluids,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saffman, P.G.</subfield>
+    <subfield code="t">The lift on a small sphere in a slow shear flow</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">1965</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Fluid Mech.,22,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yeung, P.K.</subfield>
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">An algorithm for tracking fluid particles in numerical simulations of homogeneous turbulence</subfield>
+    <subfield code="v">79</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">J.Comput.Phys.,79,373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R.A. Castleman</subfield>
+    <subfield code="m">The resistance to the steady motion of small spheres in fluids,, Tech. Notes NACA, No. 231</subfield>
+    <subfield code="y">1926</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gore, R.A.</subfield>
+    <subfield code="h">Crowe, C.T.</subfield>
+    <subfield code="t">Effect of particle size on modulating turbulent intensity</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Int.J.Multiph.Flow,15,279</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.4890296</subfield>
+    <subfield code="h">Zamansky, R.</subfield>
+    <subfield code="h">Coletti, F.</subfield>
+    <subfield code="h">Massot, M.</subfield>
+    <subfield code="h">Mani, A.</subfield>
+    <subfield code="t">Radiation induces turbulence in particle–laden fluids</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">Phys.Fluids,26,071701</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balachandar, S.</subfield>
+    <subfield code="h">Maxey, M.R.</subfield>
+    <subfield code="t">Methods for evaluating fluid velocities in spectral simulations of turbulence</subfield>
+    <subfield code="v">83</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">J.Comput.Phys.,83,96</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pope, S.B.</subfield>
+    <subfield code="t">Turbulent Flows</subfield>
+    <subfield code="p">Cambridge Univ. Press</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1063/1.858854</subfield>
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="h">Truesdell, G.C.</subfield>
+    <subfield code="t">On the twoway interaction between homogeneous turbulence and dispersed solid particles. 1: turbulence modification</subfield>
+    <subfield code="v">5</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Phys.Fluids,A5,1790</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elghobashi, S.</subfield>
+    <subfield code="t">On predicting particle–laden turbulent flows</subfield>
+    <subfield code="v">52</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Appl.Sci.Res.,52,309</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strogatz, S.H.</subfield>
+    <subfield code="t">Nonlinear Dynamics and Chaos</subfield>
+    <subfield code="p">Westview Press</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sundaram, S.</subfield>
+    <subfield code="h">Collins, L.R.</subfield>
+    <subfield code="t">Numerical considerations in simulating a turbulent suspension of finite-volume particles</subfield>
+    <subfield code="v">124</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,124,337</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112098003073</subfield>
+    <subfield code="h">Sundaram, S.</subfield>
+    <subfield code="h">Collins, L.R.</subfield>
+    <subfield code="t">A numerical study of the modulation of isotropic turbulence by suspended particles</subfield>
+    <subfield code="v">379</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">J.Fluid Mech.,379,105</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1146/annurev-fluid-010313-141344</subfield>
+    <subfield code="h">Tenneti, S.</subfield>
+    <subfield code="h">Subramaniam, S.</subfield>
+    <subfield code="t">Particle-resolved direct numerical simulation for gas–solid flow model development</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Annu.Rev.Fluid Mech.,46,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112005006889</subfield>
+    <subfield code="h">Burton, T.M.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Fully resolved simulations of particle–turbulence interaction</subfield>
+    <subfield code="v">545</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">J.Fluid Mech.,545,67</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1017/S0022112009992023</subfield>
+    <subfield code="h">Tanaka, T.</subfield>
+    <subfield code="h">Eaton, J.K.</subfield>
+    <subfield code="t">Sub-Kolmogorov resolution particle image velocimetry measurements of particle–laden forced turbulence</subfield>
+    <subfield code="v">643</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Fluid Mech.,643,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Faxen, v.H.</subfield>
+    <subfield code="t">Der Widerstand gegen die Bewegung einer starren Kugel in einer zahen Flussigkeit, die zwischen zwei parallelen ebenen Wanden eingeschlossen ist</subfield>
+    <subfield code="v">373</subfield>
+    <subfield code="y">1922</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Ann.Phys.,373,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yamamoto, Y.</subfield>
+    <subfield code="h">Potthoff, M.</subfield>
+    <subfield code="h">Tanaka, T.</subfield>
+    <subfield code="h">Kajishima, T.</subfield>
+    <subfield code="h">Tsuji, Y.</subfield>
+    <subfield code="t">Large-eddy simulation of turbulent gas–particle flow in a vertical channel: effect of considering inter-particle collisions</subfield>
+    <subfield code="v">442</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">J.Fluid Mech.,442,303</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00113/S0021999116300808/S0021999116300808.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,144 @@
+<record>
+  <controlfield tag="001">1197087</controlfield>
+  <controlfield tag="005">20130122154007.0</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">Colombo:2012vva</subfield>
+    <subfield code="9">INSPIRETeX</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">CDS</subfield>
+    <subfield code="a">1460432</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">ATL-DAQ-PROC-2012-042</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">ATL-COM-DAQ-2012-127</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Colombo, T.</subfield>
+    <subfield code="u">Università degli Studi di Pavia and CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vandelli, W.</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Novel, Highly-Parallel Software for the Online Storage System of the ATLAS Experiment at CERN: Design and Performances</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="b">CERN</subfield>
+    <subfield code="a">Geneva</subfield>
+    <subfield code="c">2012-07-08</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">6</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Abstract--- The ATLAS experiment observes proton-proton collisions delivered by the LHC accelerator at CERN. The ATLAS Trigger and Data Acquisition (TDAQ) system selects interesting events on-line in a three-level trigger system in order to store them at a budgeted rate of several hundred Hz, for an average event size of ~1.5 MB. This paper focuses on the TDAQ data-logging system and in particular on the implementation and performance of a novel software design, reporting on the effort of exploiting the full power of multi-core hardware. In this respect, the main challenge presented by the data-logging workload is the conflict between the largely parallel nature of the event processing, including the recently introduced on-line event-compression, and the constraint of sequential file writing and checksum evaluation. This is further complicated by the necessity of operating in a fully data-driven mode, to cope with continuously evolving trigger and detector configurations. In this paper we will briefly discuss our development experience using recent concurrency-oriented libraries. We will then concentrate on the results of performance measurements performed on the current data-logging hardware. We will show that, even in the worst workload, the new parallel design is able to compete with the previous single-threaded one, while it is outperforming it in more favourable, realistic workloads. We will as well demonstrate the minimal overhead introduced by the above parallel techniques, considering the whole data-logging software performances with respect to the bare processing speed on the same hardware. Finally, we will discuss the effects of simultaneous multi-threading technologies, as found on recent CPUs. The data-logging operation in fact, mixing data processing and I/O, allows to efficiently exploit the features provided by these technologies.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="a">Instrumentation</subfield>
+    <subfield code="2">INSPIRE</subfield>
+  </datafield>
+  <datafield tag="693" ind1=" " ind2=" ">
+    <subfield code="a">CERN LHC</subfield>
+    <subfield code="e">CERN-LHC-ATLAS</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="u">http://cdsweb.cern.ch/record/1460432/files/ATL-DAQ-PROC-2012-042.pdf</subfield>
+    <subfield code="y">Fulltext</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="u">http://inspirehep.net/record/1197087/files/ATL-DAQ-PROC-2012-042.pdf</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">NOTE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">CORE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">ConferencePaper</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">1</subfield>
+    <subfield code="c">ATLAS Collaboration</subfield>
+    <subfield code="t">The ATLAS experiment at the CERN large hadron collider</subfield>
+    <subfield code="s">JINST,3,S08003</subfield>
+    <subfield code="m">Online]. Available</subfield>
+    <subfield code="u">http://iopscience.iop.org/1748-0221/3/08/S08003</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">2</subfield>
+    <subfield code="t">ATLAS high-level trigger, data-acquisition and controls</subfield>
+    <subfield code="m">CERN, Technical Design Report 2003. [Online]. Available</subfield>
+    <subfield code="r">ATL-TDR-016</subfield>
+    <subfield code="r">CERN-LHCC-2003-022</subfield>
+    <subfield code="u">http://cdsweb.cern.ch/record/616089/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">3</subfield>
+    <subfield code="h">A. Battaglia, H. P. Beck, M. Dobson, S. Gadomski, K. Kordas, and W. Vandelli</subfield>
+    <subfield code="t">The Data-Logging system of the trigger and data acquisition for the ATLAS experiment at CERN</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,55,2607</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">4</subfield>
+    <subfield code="h">J. Reinders</subfield>
+    <subfield code="m">Intel Threading Building Blocks. O’Reilly Media, Jul. 2007</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">5</subfield>
+    <subfield code="m">Intel Corporation Mar. 2012. [Online]. Available</subfield>
+    <subfield code="t">Threading building blocks</subfield>
+    <subfield code="u">http://threadingbuildingblocks.org/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">6</subfield>
+    <subfield code="h">P. W. Katz</subfield>
+    <subfield code="t">String searcher, and compressor using same</subfield>
+    <subfield code="m">United States Patent and Trademark Office, Patent 5051745, Sep. 1991. [Online]. Available</subfield>
+    <subfield code="u">http://www.google.com/patents/US5051745</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">7</subfield>
+    <subfield code="m">P Internet Engineering Task Force, Request for Comments 1951, May 1996. [Online]. Available</subfield>
+    <subfield code="p">Deutsch</subfield>
+    <subfield code="t">DEFLATE compressed data format specification version 1.3</subfield>
+    <subfield code="u">http://www.ietf.org/rfc/rfc1951.txt</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">8</subfield>
+    <subfield code="m">P and J. Gailly Internet Engineering Task Force, Request for Comments 1950, May 1996. [Online]. Available</subfield>
+    <subfield code="p">Deutsch</subfield>
+    <subfield code="t">ZLIB compressed data format specification version 3.3</subfield>
+    <subfield code="u">http://www.ietf.org/rfc/rfc1950.txt</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">9</subfield>
+    <subfield code="m">J.-l. Gailly and M. Adler Mar. 2012. [Online]. Available</subfield>
+    <subfield code="t">zlib</subfield>
+    <subfield code="u">http://zlib.net/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="o">10</subfield>
+    <subfield code="h">D. T. Marr, F. Binns, D. L. Hill, G. Hinton, D. A. Kouftay, J. A. Miller, and M. Upton</subfield>
+    <subfield code="t">Hyper-Threading technology architecture and microarchitecture</subfield>
+    <subfield code="m">Intel Technology Journal, vol. 3, no. 1, pp. 4-15, Feb. 2002. [Online]. Available</subfield>
+    <subfield code="u">http://www.intel.com/technology/itj/archive/2002.htm</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-1-1-0-0</subfield>
+    <subfield code="t">2012-11-23 02:07:48</subfield>
+    <subfield code="v">Invenio/1.0.0.1200-3a901 refextract/1.5.11</subfield>
+  </datafield>
+</record>

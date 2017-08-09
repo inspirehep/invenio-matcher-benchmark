@@ -1,0 +1,592 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.03.040</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Zhao, Ying</subfield>
+    <subfield code="j">ORCID:0000-0002-6439-1843</subfield>
+    <subfield code="v">Graduate School of Computational Engineering, Technische Universität Darmstadt, Germany</subfield>
+    <subfield code="v">Mechanics of Functional Materials Division, Dept. of Materials Science, Technische Universität Darmstadt, Germany</subfield>
+    <subfield code="m">zhao@gsc.tu-darmstadt.de</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Variational boundary conditions based on the Nitsche method for fitted and unfitted isogeometric discretizations of the mechanically coupled Cahn–Hilliard equation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-24</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The primal variational formulation of the fourth-order Cahn–Hilliard equation requires Image 1 1 -continuous finite element discretizations, e.g., in the context of isogeometric analysis. In this paper, we explore the variational imposition of essential boundary conditions that arise from the thermodynamic derivation of the Cahn–Hilliard equation in primal variables. Our formulation is based on the symmetric variant of Nitsche's method, does not introduce additional degrees of freedom and is shown to be variationally consistent. In contrast to strong enforcement, the new boundary condition formulation can be naturally applied to any mapped isogeometric parametrization of any polynomial degree. In addition, it preserves full accuracy, including higher-order rates of convergence, which we illustrate for boundary-fitted discretizations of several benchmark tests in one, two and three dimensions. Unfitted Cartesian B-spline meshes constitute an effective alternative to boundary-fitted isogeometric parametrizations for constructing Image 1 1 -continuous discretizations, in particular for complex geometries. We combine our variational boundary condition formulation with unfitted Cartesian B-spline meshes and the finite cell method to simulate chemical phase segregation in a composite electrode. This example, involving coupling of chemical fields with mechanical stresses on complex domains and coupling of different materials across complex interfaces, demonstrates the flexibility of variational boundary conditions in the context of higher-order unfitted isogeometric discretizations.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Variational boundary conditions</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">the Nitsche method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Cahn–Hilliard equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Isogeometric analysis</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite cell method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Composite electrode</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schillinger, Dominik</subfield>
+    <subfield code="v">Department of Civil, Environmental, and Geo-Engineering, University of Minnesota, Minneapolis, USA</subfield>
+    <subfield code="m">dominik@umn.edu</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, Bai-Xiang</subfield>
+    <subfield code="v">Mechanics of Functional Materials Division, Dept. of Materials Science, Technische Universität Darmstadt, Germany</subfield>
+    <subfield code="m">xu@mfm.tu-darmstadt.de</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. W. Cahn, J. E. Hilliard</subfield>
+    <subfield code="m">Free Energy of a Nonuniform System. I Interfacial Free Energy</subfield>
+    <subfield code="s">J.Chem.Phys.,28,258-267</subfield>
+    <subfield code="y">1958</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. W. Cahn</subfield>
+    <subfield code="m">On spinodal decomposition</subfield>
+    <subfield code="s">Acta Metall.,9,795-801</subfield>
+    <subfield code="y">1961</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">2</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. L. J. M. Ubachs, P. J. G. Schreurs, M. G. D. Geers</subfield>
+    <subfield code="m">A nonlocal diffuse interface model for microstructure evolution of tin-lead solder, Journal of the Mechanics and Physics of Solids 52  1763-1792</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Miehe, F. E. Hildebrand, L. Böger</subfield>
+    <subfield code="m">Mixed variational potentials and inherent symmetries of the Cahn-Hilliard theory of diffusive phase separation, Proceedings of the Royal Society of London A : Mathematical, Physical and Engineering Sciences 470  20130641</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. N. Wells, E. Kuhl, K. Garikipati</subfield>
+    <subfield code="m">A discontinuous Galerkin method for the Cahn-Hilliard equation</subfield>
+    <subfield code="s">J.Comput.Phys.,218,860-877</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Xia, Y. Xu, C.-W. Shu</subfield>
+    <subfield code="m">Local discontinuous Galerkin methods for the Cahn-Hilliard type equations</subfield>
+    <subfield code="s">J.Comput.Phys.,227,472-491</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Guo, Y. Xu, Z. Xu</subfield>
+    <subfield code="m">Local discontinuous Galerkin methods for the functionalized Cahn-Hilliard equation</subfield>
+    <subfield code="s">J.Sci.Comput.,63,913-937</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">7</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Hughes, J. Cottrell, Y. Bazilevs</subfield>
+    <subfield code="m">Isogeometric analysis: CAD, finite elements, NURBS, exact geometry and mesh refinement</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,194,4135-4195</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Gómez, V. M. Calo, Y. Bazilevs, T. J. R. Hughes</subfield>
+    <subfield code="m">Isogeometric analysis of the Cahn-Hilliard phase-field model</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,4333-4352</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Liu, L. Dedè, J. A. Evans, M. J. Borden, T. J. R. Hughes</subfield>
+    <subfield code="m">Isogeometric analysis of the advective Cahn-Hilliard equation: Spinodal decomposition under shear flow</subfield>
+    <subfield code="s">J.Comput.Phys.,242,321-350</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">10</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Zhao, P. Stein, B.-X. Xu</subfield>
+    <subfield code="m">Isogeometric analysis of mechanically coupled Cahn-Hilliard phase segregation in hyperelastic electrodes of Li-ion batteries</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,297,325-347</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Zhao, B.-X. Xu, P. Stein, D. Gross</subfield>
+    <subfield code="m">Phase-field study of electrochemical reactions at exterior and interior interfaces in li-ion battery electrode particles, Computer Methods in Applied Mechanics and Engineering (in press)</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Gómez, A. Reali, G. Sangalli</subfield>
+    <subfield code="m">Accurate, efficient, and (iso)geometrically flexible collocation methods for phase-field models</subfield>
+    <subfield code="s">J.Comput.Phys.,262,153-171</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">13</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Dalcin, N. Collier, P. Vignal, A. M. A. Côrtes, V. M. Calo</subfield>
+    <subfield code="m">PetIGA: A framework for high-performance isogeometric analysis</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,308,151-181</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Kaessmair, P. Steinmann</subfield>
+    <subfield code="m">Comparative computational analysis of the Cahn-Hilliard equation with emphasis on C 1 -continuous methods</subfield>
+    <subfield code="s">J.Comput.Phys.,322,783-803</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Anders, C. Hesch, K. Weinberg</subfield>
+    <subfield code="m">Computational modeling of phase separation and coarsening in solder alloys</subfield>
+    <subfield code="s">Int.J.Solids Struc.,49,1557-1572</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">16</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Nitsche</subfield>
+    <subfield code="m">Über ein Variationsprinzip zur Lösung von Dirichlet-Problemen bei Verwendung von Teilräumen, die keinen Randbedingungen unterworfen sind, Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg 36  9-15</subfield>
+    <subfield code="y">1970</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">17</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Griebel, M. Schweitzer</subfield>
+    <subfield code="m">A particle-partition of unity method. Part V : boundary conditions., in: S. Hildebrandt, H. Karcher (eds.) Geometric Analysis and Nonlinear Partial Differential Equations pp. 519-542</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Hansbo, P. Hansbo</subfield>
+    <subfield code="m">An unfitted finite element method, based on Nitsche's method, for elliptic interface problems</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,191,537-552</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Bazilevs, T. Hughes</subfield>
+    <subfield code="m">Weak imposition of Dirichlet boundary conditions in fluid mechanics, Computers &amp; Fluids 36  12-26</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">20</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Evans, T. Hughes</subfield>
+    <subfield code="m">Explicit trace inequalities for isogeometric analysis and parametric hexahedral finite elements</subfield>
+    <subfield code="s">Numer.Math.,123,259-290</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, M. Ruess, N. Zander, Y. Bazilevs, A. Düster, E. Rank</subfield>
+    <subfield code="m">Small and large deformation analysis with the p - and B-spline versions of the Finite Cell Method, Computational Mechanics 50(4)  445-478</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, M. Ruess</subfield>
+    <subfield code="m">The Finite Cell Method: A review in the context of higher-order structural analysis of CAD and image-based geometric models, Archives of Computational Methods in Engineering 22(3)  391-455</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Embar, J. Dolbow, I. Harari</subfield>
+    <subfield code="m">Imposing Dirichlet boundary conditions with Nitsche's method and spline-based finite elements</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Eng.,83,877-898</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">I. Harari, E. Grosu</subfield>
+    <subfield code="m">A unified approach for embedded boundary conditions for fourth-order elliptic problems</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Eng.,104,655-675</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">W.-J. Zhang</subfield>
+    <subfield code="m">Lithium insertion/extraction mechanism in alloy anodes for lithium-ion batteries</subfield>
+    <subfield code="s">J.Power Sources,196,877-885</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">26</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Delmas, M. Maccario, L. Croguennec, F. Le Cras, F. Weill</subfield>
+    <subfield code="m">Lithium deintercalation in LiFePO 4 nanoparticles via a domino-cascade model</subfield>
+    <subfield code="s">Nature Materials,7,665-671</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">27</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">E. Guggenheim</subfield>
+    <subfield code="m">Mixtures: The Theory of the Equlibrium Properties of Some Simple Classes of Mixtures Solutions and Alloys, The International series of monographs on physics Press</subfield>
+    <subfield code="p">Clarendon</subfield>
+    <subfield code="u">https://books.google.de/books?id=1tXQAAAAMAAJ</subfield>
+    <subfield code="y">1952</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Ruess, D. Schillinger, A. Özcan, E. Rank</subfield>
+    <subfield code="m">Weak coupling for isogeometric analysis of non-matching and trimmed multi-patch geometries</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,269,46-71</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Cottrell, T. Hughes, Y. Bazilevs</subfield>
+    <subfield code="m">Isogeometric analysis: Towards Integration of CAD and FEA, John &amp; Sons</subfield>
+    <subfield code="p">Wiley</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">30</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Grossmann, B. Jüttler, H. Schlusnus, J. Barner, A. Vuong</subfield>
+    <subfield code="m">Isogeometric simulation of turbine blades for aircraft engines</subfield>
+    <subfield code="s">Comput.Aided Geom.Des.,29,519-531</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, J. Evans, A. Reali, M. Scott, T. Hughes</subfield>
+    <subfield code="m">Isogeometric collocation: Cost comparison with Galerkin methods and extension to adaptive hierarchical NURBS discretizations</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,267,170-232</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Cottrell, A. Reali, Y. Bazilevs, T. Hughes</subfield>
+    <subfield code="m">Isogeometric analysis of structural vibrations</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,195,5257-5296</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">33</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Hughes, A. Reali, G. Sangalli</subfield>
+    <subfield code="m">Duality and unified analysis of discrete approximations in structural dynamics and wave propagation: Comparison of p -method finite elements with k -method NURBS</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,4104-4124</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. Hughes, J. Evans, A. Reali</subfield>
+    <subfield code="m">Finite element and NURBS approximations of eigenvalue, boundary-value, and initial-value problems</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,272,290-320</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Verhoosel, M. Scott, M. Borden, T. Hughes, R. de Borst</subfield>
+    <subfield code="m">Discretization of higher-order gradient damage models using isogeometric finite elements</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,2976-2988</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">36</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Kiendl, F. Auricchio, T. Hughes, A. Reali</subfield>
+    <subfield code="m">Single-variable formulations and isogeometric discretizations for shear deformable beams</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,284,988-1004</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">L. Piegl, W. Tiller</subfield>
+    <subfield code="m">The NURBS Book</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">38</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Borden, M. Scott, J. Evans, T. Hughes</subfield>
+    <subfield code="m">Isogeometric finite element data structures based on Bézier extraction of NURBS</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Eng.,87,15-47</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, P. Ruthala, L. Nguyen</subfield>
+    <subfield code="m">Lagrange extraction and projection for spline basis functions: a direct link between isogeometric and standard nodal finite element formulations, International Journal for Numerical Methods in Engineering</subfield>
+    <subfield code="a">doi:10.1002/nme.5216</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Liu, C. Landis, H. Gomez, T. Hughes</subfield>
+    <subfield code="m">Liquid-vapor phase transition: Thermomechanical theory, entropy stable numerical formulation, and boiling simulations</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,297,476-553</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">41</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Cools</subfield>
+    <subfield code="m">Monomial cubature rules since : A compilation - Part 2</subfield>
+    <subfield code="t">Stroud</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,112,21-27</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">42</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">C. Felippa</subfield>
+    <subfield code="m">Advanced Finite Element Methods [Lecture notes]</subfield>
+    <subfield code="u">http://www.colorado.edu/engineering/CAS/courses.d/AFEM.d/Home.html</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Düster, J. Parvizian, Z. Yang, E. Rank</subfield>
+    <subfield code="m">The finite cell method for three-dimensional problems of solid mechanics</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,197,3768-3782</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Xu, D. Schillinger, D. Kamensky, V. Varduhn, C. Wang, M.-C. Hsu</subfield>
+    <subfield code="m">The tetrahedral finite cell method for fluids: Immersogeometric analysis of turbulent flow around complex geometries, Computers &amp; Fluids</subfield>
+    <subfield code="a">doi:10.1016/j.compfluid.2015.08.027</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">45</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">V. Varduhn, M.-C. Hsu, M. Ruess, D. Schillinger</subfield>
+    <subfield code="m">The tetrahedral finite cell method: Higher-order immersogeometric analysis on adaptive non-boundary-fitted meshes, International Journal for Numerical Methods in Engineering</subfield>
+    <subfield code="a">doi:10.1002/nme.5207</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, L. Dedè, M. Scott, J. Evans, M. Borden, E. Rank, T. Hughes</subfield>
+    <subfield code="m">An isogeometric design-through-analysis methodology based on adaptive hierarchical refinement of NURBS, immersed boundary methods, and T-spline CAD surfaces 116-150</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,249,250</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. L. Taylor</subfield>
+    <subfield code="m">FEAP - Finite Element Analysis Program</subfield>
+    <subfield code="u">http://www.ce.berkeley.edu/projects/feap</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">48</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Stein, B. Xu</subfield>
+    <subfield code="m">3D Isogeometric Analysis of intercalation-induced stresses in Li-ion battery electrode particles</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,268,225-244</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Kang, G. Ceder</subfield>
+    <subfield code="m">Battery materials for ultrafast charging and discharging</subfield>
+    <subfield code="s">Nature,458,190-193</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Li, D.-B. Le, P. P. Ferguson, J. R. Dahn</subfield>
+    <subfield code="m">Lithium polyacrylate as a binder for tin-cobalt-carbon negative electrodes in lithium-ion batteries</subfield>
+    <subfield code="s">Electrochim.Acta,55,2991-2995</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">51</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Liu, S. Xun, N. Vukmirovic, X. Song, P. Olalde-Velasco, H. Zheng, V. S. Battaglia, L. Wang, W. Yang</subfield>
+    <subfield code="m">Polymers with Tailored Electronic Structure for High Capacity Lithium Battery Electrodes</subfield>
+    <subfield code="s">Adv.Mater.,23,4679-4683</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">G. Liu, H. Zheng, X. Song, V. S. Battaglia</subfield>
+    <subfield code="m">Particles and Polymer Binder Interaction: A Controlling Factor in Lithium-Ion Electrode Performance, Journal of The Electrochemical Society 159  A214-A221</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">M. Doyle, T. F. Fuller, J. Newman</subfield>
+    <subfield code="m">Modeling of Galvanostatic Charge and Discharge of the Lithium/Polymer/Insertion Cell, Journal of The Electrochemical Society 140  1526-1533</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">54</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Bower, P. Guduru, V. Sethuraman</subfield>
+    <subfield code="m">A finite strain model of stress, diffusion, plastic flow, and electrochemical reactions in a lithium-ion half-cell, Journal of the Mechanics and Physics of Solids 59  804-828</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">A. Salvadori, D. Grazioli, M. G. D. Geers</subfield>
+    <subfield code="m">Governing equations for a two-scale analysis of Li-ion battery cells</subfield>
+    <subfield code="s">Int.J.Solids Struc.,59,90-109</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Lee, A. M. Sastry, J. Park</subfield>
+    <subfield code="m">Study on microstructures of electrodes in lithium-ion batteries using variational multi-scale enrichment</subfield>
+    <subfield code="s">J.Power Sources,315,96-110</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">57</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. A. Roberts, V. E. Brunini, K. N. Long, A. M. Grillet, A Framework for Three-Dimensional</subfield>
+    <subfield code="m">Mesoscale Modeling of Anisotropic Swelling and Mechanical Deformation in Lithium-Ion Electrodes, Journal of The Electrochemical Society 161  F3052-F3059</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">H. Mendoza, S. A. Roberts, V. E. Brunini, A. M. Grillet</subfield>
+    <subfield code="m">Mechanical and Electrochemical Response of a LiCoO2 Cathode using Reconstructed Microstructures</subfield>
+    <subfield code="s">Electrochim.Acta,190,1-15</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. R. Noble, E. P. Newren, J. B. Lechman</subfield>
+    <subfield code="m">A conformal decomposition finite element method for modeling stationary fluid interface problems</subfield>
+    <subfield code="s">Int.J.Numer.Meth.Fluids,63,725-742</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">B. Orvananos, H.-C. Yu, A. Abdellahi, R. Malik, C. P. Grey, G. Ceder, K. Thornton</subfield>
+    <subfield code="m">Kinetics of Nanoparticle Interactions in Battery Electrodes, Journal of The Electrochemical Society 162  A965-A973</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">61</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Stein, Y. Zhao, B.-X. Xu</subfield>
+    <subfield code="m">Effects of surface tension and electrochemical reactions in Li-ion battery electrode nanoparticles</subfield>
+    <subfield code="s">J.Power Sources,332,154-169</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Schillinger, I. Harari, M.-C. Hsu, D. Kamensky, K. F. Stoter, Y. Yu, Y. Zhao</subfield>
+    <subfield code="m">The non-symmetric nitsche method for the parameter-free imposition of weak boundary and coupling conditions in immersed finite elements</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,309,625-652</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">J. Schöberl</subfield>
+    <subfield code="m">NETGEN An advancing front 2d/3d-mesh generator based on abstract rules, Computing and Visualization in</subfield>
+    <subfield code="s">Science,1,41-52</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">64</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">T. J. R. Hughes</subfield>
+    <subfield code="m">The Finite Element Method: Linear Static and Dynamic Finite Element Analysis pp. 109-184</subfield>
+    <subfield code="p">Dover</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">P. Jarzebski, K. Wisniewski, R. L. Taylor</subfield>
+    <subfield code="m">On parallelization of the loop over elements in FEAP, Computational Mechanics 56  77-86</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">66</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117302358/S0021999117302358.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

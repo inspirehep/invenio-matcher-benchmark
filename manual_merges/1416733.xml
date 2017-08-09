@@ -1,0 +1,370 @@
+<record>
+  <controlfield tag="001">1416733</controlfield>
+  <controlfield tag="005">20160802162002.0</controlfield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="2">DOI</subfield>
+    <subfield code="9">IEEE</subfield>
+    <subfield code="a">10.1109/TNS.2015.2428891</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">INSPIRETeX</subfield>
+    <subfield code="a">CamporaPerez:2015vvg</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">DESY</subfield>
+    <subfield code="z">DA16-kp04bf</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="9">CDS</subfield>
+    <subfield code="a">2159204</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Cámpora Pérez, Daniel Hugo</subfield>
+    <subfield code="u">CERN</subfield>
+    <subfield code="v">PH Dept., CERN, Geneva, Switzerland</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Protocol-Independent Event Building Evaluator for the LHCb DAQ System</subfield>
+  </datafield>
+  <datafield tag="246" ind1=" " ind2=" ">
+    <subfield code="a">Protocol-Independent Event Building Evaluator for the LHCb DAQ System</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">5</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="9">IEEE</subfield>
+    <subfield code="a">The Data Acquisition (DAQ) system of LHCb is a complex real-time system. It will be upgraded to provide LHCb with an all-software, trigger-free readout starting from 2020. Consequently, more CPU power in the form of servers will be needed and the DAQ network will grow to a capacity of 40 Tbps. A PC-based readout system would receive data incoming from the detector, which would then be scattered across builder nodes, and further distributed to a computing farm for data filtering. The design bandwidth of such a DAQ system requires rates as high as 400 Gbps single-duplex per node. These builder nodes will be connected with cost-effective, high-bandwidth data-centre switches in order to minimize the system cost. The behaviour of such an Event Building network can of course be studied in simulation but experience tells us that it is crucial to test, in particular to find out limitations in the switches themselves and to which extent various Event Building protocols can mitigate these limitations. We present a protocol, topology and transport independent emulation software named DAQ Protocol-Independent Performance Evaluator (DAQPIPE). It allows us to test different communication architectures, such as push or pull, with regards to the initiator of the communication. Different topologies and transport protocols can also be tested. We present throughput and stress tests on an InfiniBand FDR multi-rail based LAN network setup, with a focus on the network performance. Large tests on the current system LHCb DAQ are shown to demonstrate the scalability of DAQPIPE itself and its capability to be deployed on any kind of large, tightly interconnected network to test its suitability for Event Building applications.</subfield>
+  </datafield>
+  <datafield tag="541" ind1=" " ind2=" ">
+    <subfield code="a">IEEE</subfield>
+    <subfield code="c">batchupload</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="a">L</subfield>
+    <subfield code="d">2016-01-28</subfield>
+    <subfield code="s">abs</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="a">L</subfield>
+    <subfield code="d">2016-01-31</subfield>
+    <subfield code="s">printed</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2="D">
+    <subfield code="d">2016-02-08</subfield>
+    <subfield code="a">L</subfield>
+    <subfield code="s">final</subfield>
+    <subfield code="a">L</subfield>
+  </datafield>
+  <datafield tag="595" ind1=" " ind2=" ">
+    <subfield code="c">CDS</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">Computing</subfield>
+  </datafield>
+  <datafield tag="650" ind1="1" ind2="7">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">Instrumentation</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">data acquisition</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">high energy physics instrumentation computing</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">local area networks</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">protocols</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">readout electronics</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">topology</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">CPU power</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">DAQ network</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">DAQ protocol-independent performance evaluator</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">DAQPIPE</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Event Building network</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Event Building protocols</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">InfiniBand FDR multirail based LAN network setup</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">LHCb DAQ system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">PC-based readout system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">all-software trigger-free readout</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">complex real-time system</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">data filtering</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">design bandwidth</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">high-bandwidth data-centre switches</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">protocol-independent event building evaluator</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">receive data</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">single-duplex per node</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">transport independent emulation software</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">transport protocols</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Buildings</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Data acquisition</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Protocols</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Scalability</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Servers</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Software</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Throughput</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">Computer networks</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">message passing</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">next generation networking</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="9">author</subfield>
+    <subfield code="a">parallel programming;</subfield>
+  </datafield>
+  <datafield tag="693" ind1=" " ind2=" ">
+    <subfield code="e">CERN-LHC-LHCb</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">performance</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">computer: network</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">data acquisition</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">LHC-B</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">programming</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">computer: communications</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="2">INSPIRE</subfield>
+    <subfield code="a">upgrade</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schwemmer, Rainer</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Neufeld, Niko</subfield>
+    <subfield code="u">CERN</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="c">1110-1114</subfield>
+    <subfield code="n">3</subfield>
+    <subfield code="p">IEEE Trans.Nucl.Sci.</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="w">C14-05-26.2</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:inspirehep.net:1416733</subfield>
+    <subfield code="p">INSPIRE:HEP</subfield>
+    <subfield code="p">ForCDS</subfield>
+    <subfield code="p">CDS</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">CORE</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">ConferencePaper</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="6">
+    <subfield code="a">0-0-0-0-1-0-1</subfield>
+    <subfield code="t">2016-02-09 14:32:54</subfield>
+    <subfield code="v">Invenio/1.1.2.1260-aa76f refextract/1.5.44</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">796248</subfield>
+    <subfield code="h">Collaboration et al.</subfield>
+    <subfield code="m">The LHCb</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">JINST,3,S08005</subfield>
+    <subfield code="t">The LHCb detector at the LHC</subfield>
+    <subfield code="y">2008</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Collaboration et al.</subfield>
+    <subfield code="m">The LHCb</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="r">CERN-LHCC-2014-016</subfield>
+    <subfield code="t">LHCb Trigger and Online Upgrade Tech. Design Rep.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">LHCB-TDR-016</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="y">2014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">MPI Forum website, Message Pass ing Interface [Online]. Available:</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="u">http://www.mpi-forum.org/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">N. Neufeld et al.</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,58,1877-1884</subfield>
+    <subfield code="t">The LHCb eventbuilder: Design, implementation and operational experience</subfield>
+    <subfield code="y">2011</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="m">Wikipedia, Zero-copy [Online]. Available: rg/ wiki/Zero-copy</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="u">https://en.wikipedia.org/wiki/Zero-copy</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="0">276588</subfield>
+    <subfield code="h">M. Bowden et al.</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">IEEE Trans.Nucl.Sci.,36,760-764</subfield>
+    <subfield code="t">A high-throughput data acquisition architecture based on serial interconnects</subfield>
+    <subfield code="y">1989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">The Open MPI Project website, Open MPI: Open Source High Performance Computing [Online]. Available:</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="u">http://www.open-mpi.org/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Ibta website, InfiniBand Trade Association [Online]. Available:</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="u">http://www.infinibandta.org/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Mellanox Technologies</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="t">Performance tuning guidelines for Mellanox network adapters</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">The Open MPI Project website, Tuning the run-time characteristics of MPI OpenFabrics communications [Online]. Available:</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="u">http://www.open-mpi.org/faq/?category=openfabrics</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Wikipedia, Ivy Bridge (microarchitecture) [Online]. Available: ht tps:/ /en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)</subfield>
+    <subfield code="o">11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="9">CURATOR</subfield>
+    <subfield code="m">OpenFabrics Alliance (OFA) website, OpenFabrics Alliance, OpenFabrics Enterprise Distribution [Online]. Available:</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="u">https://www.openfabrics.org/</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="m">Wikipedia, Sandy Bridge (microarchitecture) [Online]. Available: (microarchitecture)</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="u">https://en.wikipedia.org/wiki/Sandy_Bridge_</subfield>
+  </datafield>
+</record>

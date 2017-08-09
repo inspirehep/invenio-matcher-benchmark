@@ -1,0 +1,655 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2017.02.042</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Su, Xiao-Xing</subfield>
+    <subfield code="v">Institute of Engineering Mechanics, Beijing Jiaotong University, Beijing, 100044, China</subfield>
+    <subfield code="m">xxsu@bjtu.edu.cn</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A matrix-exponential decomposition based time-domain method for calculating the defect states of scalar waves in two-dimensional periodic structures</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2017-03-03</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A time-domain method for calculating the defect states of scalar waves in two-dimensional (2D) periodic structures is proposed. In the time-stepping process of the proposed method, the column vector containing the spatially sampled field values is updated by multiplying with an iteration matrix, which is written in a matrix-exponential form. The matrix-exponential is first computed by using the Suzuki's decomposition based technique of the fourth order, in which the Floquet–Bloch boundary conditions are incorporated. The obtained iteration matrix is then squared to enlarge the time-step that can be used in the time-stepping process (namely, the squaring technique), and the small nonzero elements in the iteration matrix is finally pruned to improve the sparse structure of the matrix (namely, the pruning technique). The numerical examples of the super-cell calculation for 2D defect-containing phononic crystal structures show that, the fourth order decomposition based technique for the matrix-exponential computation is much more efficient than the frequently used precise integration technique (PIT) if the PIT is of an order greater than 2. Although it is not unconditionally stable, the proposed time-domain method is particularly efficient for the super-cell calculations of the defect states in a 2D periodic structure containing a defect with a wave speed much higher than those of the background materials. For this kind of defect-containing structures, the time-stepping process can run stably for a sufficiently large number of the time-steps with a time-step much larger than the Courant–Friedrichs–Lewy (CFL) upper limit, and consequently the overall efficiency of the proposed time-domain method can be significantly higher than that of the conventional finite-difference time-domain (FDTD) method. Some physical interpretations on the properties of the band structures and the defect states of the calculated periodic structures are also presented.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Periodic structures</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Scalar waves</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Defect states</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Time-domain method</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Matrix-exponential decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wang, Yue-Sheng</subfield>
+    <subfield code="v">Institute of Engineering Mechanics, Beijing Jiaotong University, Beijing, 100044, China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, Chuanzeng</subfield>
+    <subfield code="v">Department of Civil Engineering, University of Siegen, Siegen, D-57068, Germany</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yablonovitch, E.</subfield>
+    <subfield code="t">Inhibited spontaneous emission in solid-state physics and electronics</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">Phys.Rev.Lett.,58,2059</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">John, S.</subfield>
+    <subfield code="t">Strong localization of photons in certain disordered dielectric superlattices</subfield>
+    <subfield code="v">58</subfield>
+    <subfield code="y">1987</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">Phys.Rev.Lett.,58,2486</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kushwaha, M.S.</subfield>
+    <subfield code="h">Halevi, P.</subfield>
+    <subfield code="h">Dobrzynski, L.</subfield>
+    <subfield code="h">Djafari-Rouhani, B.</subfield>
+    <subfield code="t">Acoustic band structure of periodic elastic composites</subfield>
+    <subfield code="v">71</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Phys.Rev.Lett.,71,2022</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ma, T.X.</subfield>
+    <subfield code="h">Zou, K.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="h">Su, X.X.</subfield>
+    <subfield code="t">Acousto-optical interaction of surface acoustic and optical waves in a two-dimensional phoxonic crystal hetero-structure cavity</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Opt.Express,22,028443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ma, T.X.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="h">Su, X.X.</subfield>
+    <subfield code="t">Simultaneous guiding of slow elastic and light waves in three-dimensional topology-type phoxonic crystals with a line defect</subfield>
+    <subfield code="v">16</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Opt.,16,085002</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ho, K.M.</subfield>
+    <subfield code="h">Chan, C.T.</subfield>
+    <subfield code="h">Soukoulis, C.M.</subfield>
+    <subfield code="t">Existence of a photonic gap in periodic dielectric structures</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">Phys.Rev.Lett.,65,3152</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Leung, K.M.</subfield>
+    <subfield code="h">Qiu, Y.</subfield>
+    <subfield code="t">Multiple-scattering calculation of the two-dimensional photonic band structure</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Phys.Rev.,B48,7767</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Liu, Z.</subfield>
+    <subfield code="h">Chan, C.T.</subfield>
+    <subfield code="h">Sheng, P.</subfield>
+    <subfield code="h">Goertzen, A.L.</subfield>
+    <subfield code="h">Page, J.H.</subfield>
+    <subfield code="t">Elastic wave scattering by periodic structures of spherical objects: theory and experiment</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">Phys.Rev.,B62,2446</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, Z.Y.</subfield>
+    <subfield code="h">Lin, L.L.</subfield>
+    <subfield code="t">Photonic band structures solved by a plane-wave-based transfer-matrix method</subfield>
+    <subfield code="v">67</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Phys.Rev.,E67,046607</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, A.L.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Guo, Y.F.</subfield>
+    <subfield code="h">Wang, Z.D.</subfield>
+    <subfield code="t">Band structures of Fibonacci phononic quasicrystals</subfield>
+    <subfield code="v">145</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Solid State Commun.,145,103</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Checoury, X.</subfield>
+    <subfield code="h">Lourtioz, J.M.</subfield>
+    <subfield code="t">Wavelet method for computing band diagrams of 2D photonic crystals</subfield>
+    <subfield code="v">259</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Opt.Commun.,259,360</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yan, Z.Z.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="t">Wavelet method for calculating the defect states of two-dimensional phononic crystals</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">Acta Mech.Solida Sin.,21,104</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Burr, G.W.</subfield>
+    <subfield code="h">Farjadpour, A.</subfield>
+    <subfield code="t">Balancing accuracy against computation time: 3-D FDTD for nanophotonics device optimization</subfield>
+    <subfield code="v">5733</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Proc.SPIE,5733,336</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stark, G.A.</subfield>
+    <subfield code="h">Mishrikey, M.</subfield>
+    <subfield code="h">Robin, F.</subfield>
+    <subfield code="h">Jaeckel, H.</subfield>
+    <subfield code="h">Hafner, C.</subfield>
+    <subfield code="h">Vahldieck, R.</subfield>
+    <subfield code="h">Erni, D.</subfield>
+    <subfield code="t">Positional dependence of FDTD mode detection in photonic crystal systems</subfield>
+    <subfield code="v">22</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Int.J.Numer.Model.Electron.Netw.Devices Fields,22,201</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ma, Z.T.</subfield>
+    <subfield code="h">Ogusu, K.</subfield>
+    <subfield code="t">FDTD analysis of 2D triangular-lattice photonic crystals with arbitrary-shape inclusions based on unit cell transformation</subfield>
+    <subfield code="v">282</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">Opt.Commun.,282,1322</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tanaka, Y.</subfield>
+    <subfield code="h">Tomoyasu, Y.</subfield>
+    <subfield code="h">Tamura, S.</subfield>
+    <subfield code="t">Band structure of acoustic waves in phononic lattices: two-dimensional composites with large acoustic mismatch</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Phys.Rev.,B62,7387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hsieh, P.F.</subfield>
+    <subfield code="h">Wu, T.T.</subfield>
+    <subfield code="h">Sun, J.H.</subfield>
+    <subfield code="t">Three-dimensional phononic band gap calculations using the FDTD method and a PC cluster system</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">IEEE Trans.Ultrason.Ferroelectr.Freq.Control,53,148</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kelmelis, E.J.</subfield>
+    <subfield code="h">Durbano, J.P.</subfield>
+    <subfield code="h">Humphrey, J.R.</subfield>
+    <subfield code="h">Ortiz, F.E.</subfield>
+    <subfield code="h">Curt, P.F.</subfield>
+    <subfield code="t">Modeling and simulation of nanoscale devices with a desktop supercomputer</subfield>
+    <subfield code="v">6328</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">Proc.SPIE,6328,632804</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Song, W.</subfield>
+    <subfield code="t">Modelling of Electromagnetic Bandgap Structures Using an Alternating Direction Implicit (ADI)/Conformal Finite-Difference Time-Domain Method</subfield>
+    <subfield code="p">Queen Mary University of London</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">19</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Su, X.X.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="t">A postprocessing method based on chirp Z transform for FDTD calculation of point defect states in two-dimensional phononic crystals</subfield>
+    <subfield code="v">405</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">Physica B, Condens.Matter,405,3645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Contu, P.</subfield>
+    <subfield code="h">Van Der Mee, C.</subfield>
+    <subfield code="h">Seatzu, S.</subfield>
+    <subfield code="t">A finite element frequency domain method for 2D photonic crystals</subfield>
+    <subfield code="v">236</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,236,3956</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, J.B.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="t">Dispersion relations of a periodic array of fluid-filled holes embedded in an elastic solid</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Acoust.,20,1250014</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, F.L.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="t">Boundary element method for bandgap computation of photonic crystals</subfield>
+    <subfield code="v">285</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">Opt.Commun.,285,527</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, F.L.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="h">Yu, G.L.</subfield>
+    <subfield code="t">Bandgap calculations of two-dimensional solid–fluid phononic crystals with boundary element method</subfield>
+    <subfield code="v">50</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Wave Motion,50,525</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Taflove, A.</subfield>
+    <subfield code="h">Hagness, S.C.</subfield>
+    <subfield code="t">Computational Electromagnetics: Finite-Difference Time-Domain Method</subfield>
+    <subfield code="p">Artech House Norwood</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Courant, R.</subfield>
+    <subfield code="h">Friedrichs, K.</subfield>
+    <subfield code="h">Lewy, H.</subfield>
+    <subfield code="t">On the partial difference equations of mathematical physics</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">1967</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">IBM J.Res.Dev.,11,215</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="a">10.1002/jnm.2141</subfield>
+    <subfield code="h">Su, X.X.</subfield>
+    <subfield code="h">Wang, Y.S.</subfield>
+    <subfield code="h">Zhang, Ch.</subfield>
+    <subfield code="h">Yu, Y.</subfield>
+    <subfield code="t">A matrix-exponential decomposition based time-domain method for band structure calculation of one-dimensional periodic structures</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">published online</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Numer.Model.Electron.Netw.Devices Fields</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Namiki, T.</subfield>
+    <subfield code="t">A new FDTD algorithm based on alternating-direction implicit method</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">IEEE Trans.Microw.Theory Tech.,47,2003</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zheng, F.</subfield>
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="t">A finite-difference time-domain method without the Courant stability conditions</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">IEEE Trans.Microw.Theory Tech.,9,441</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rao, H.</subfield>
+    <subfield code="h">Scarmozzino, R.</subfield>
+    <subfield code="h">Osgood, R.M.</subfield>
+    <subfield code="t">An improved ADI-FDTD method and its application to photonic simulations</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">IEEE Photonics Technol.Lett.,14,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jung, K.Y.</subfield>
+    <subfield code="h">Teixeira, F.L.</subfield>
+    <subfield code="h">Lee, R.</subfield>
+    <subfield code="t">Complex envelope PML-ADI-FDTD method for lossy anisotropic dielectrics</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">IEEE Antennas Wirel.Propag.Lett.,6,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tan, E.L.</subfield>
+    <subfield code="h">Heh, D.Y.</subfield>
+    <subfield code="t">ADI-FDTD method with fourth order accuracy in time</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">IEEE Microw.Wirel.Compon.Lett.,18,296</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Botchev, M.A.</subfield>
+    <subfield code="h">Faragó, I.</subfield>
+    <subfield code="h">Horváth, R.</subfield>
+    <subfield code="t">Application of operator splitting to the Maxwell equations including a source term</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Appl.Numer.Math.,59,522</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fu, W.</subfield>
+    <subfield code="h">Tan, E.L.</subfield>
+    <subfield code="t">Development of split-step FDTD method with higher order spatial accuracy</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Electron.Lett.,40,1252</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heh, D.Y.</subfield>
+    <subfield code="h">Tan, E.L.</subfield>
+    <subfield code="t">Split-step finite-difference time-domain method with fourth order accuracy in time</subfield>
+    <subfield code="p">Asia-Pacific Symposium on Electromagnetic Compatibility, APEMC, 2008</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tan, E.L.</subfield>
+    <subfield code="t">Acceleration of LOD-FDTD method using fundamental scheme on graphics processor units</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">IEEE Microw.Wirel.Compon.Lett.,20,648</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bauke, H.</subfield>
+    <subfield code="h">Keitel, H.</subfield>
+    <subfield code="t">Accelerating the Fourier split operator method via graphics processing units</subfield>
+    <subfield code="v">182</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">Comput.Phys.Commun.,182,2454</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kong, Y.D.</subfield>
+    <subfield code="h">Chu, Q.X.</subfield>
+    <subfield code="t">High-order split-step unconditionally-stable FDTD methods and numerical analysis</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">IEEE Trans.Antennas Propag.,59,3280</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kole, J.S.</subfield>
+    <subfield code="h">Figge, M.T.</subfield>
+    <subfield code="h">De Raedt, H.</subfield>
+    <subfield code="t">Unconditionally stable algorithms to solve the time-dependent Maxwell equations</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Phys.Rev.,E64,066705</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kole, J.S.</subfield>
+    <subfield code="t">New Methods for the Numerical Solution of Maxwell's Equations</subfield>
+    <subfield code="p">University of Groningen</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">40</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Faragó, I.</subfield>
+    <subfield code="h">Horváth, R.</subfield>
+    <subfield code="h">Schilders, W.H.A.</subfield>
+    <subfield code="t">Investigation of numerical time-integrations of Maxwell's equations using the staggered grid spatial discretization</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">Int.J.Numer.Model.Electron.Netw.Devices Fields</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Heh, D.Y.</subfield>
+    <subfield code="h">Tan, E.L.</subfield>
+    <subfield code="t">FDTD modeling for dispersive media using matrix exponential method</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">IEEE Microw.Wirel.Compon.Lett.,19,53</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, J.</subfield>
+    <subfield code="h">Lee, J.H.</subfield>
+    <subfield code="h">Liu, Q.H.</subfield>
+    <subfield code="t">A high-precision integration scheme for the spectral-element time-domain method in electromagnetic simulation</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">IEEE Trans.Antennas Propag.,57,3223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suzuki, M.</subfield>
+    <subfield code="t">Fractal decomposition of exponential operators with applications to many-body theories and Monte Carlo simulations</subfield>
+    <subfield code="v">146</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">Phys.Lett.,A146,319</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Suzuki, M.</subfield>
+    <subfield code="t">General theory of higher-order decomposition of exponential operators and symplectic integrators</subfield>
+    <subfield code="v">165</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Phys.Lett.,A165,387</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hatano, N.</subfield>
+    <subfield code="h">Suzuki, M.</subfield>
+    <subfield code="t">Finding exponential product formulas of higher orders</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="q">Quantum Annealing and Other Optimization Methods</subfield>
+    <subfield code="o">46</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kittel, C.</subfield>
+    <subfield code="t">Introduction to Solid State Physics</subfield>
+    <subfield code="p">John Wiley &amp; Sons Inc</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zhong, W.X.</subfield>
+    <subfield code="t">On precise integration method</subfield>
+    <subfield code="v">163</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,163,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moler, C.</subfield>
+    <subfield code="h">Loan, C.V.</subfield>
+    <subfield code="t">Nineteen dubious ways to compute the exponential of a matrix, twenty-five years later</subfield>
+    <subfield code="v">45</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">SIAM Rev.,45,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gentle, J.E.</subfield>
+    <subfield code="t">Matrix Algebra: Theory, Computations, and Applications in Statistics</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">50</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Higham, N.J.</subfield>
+    <subfield code="t">The scaling and squaring method for the matrix exponential revisited</subfield>
+    <subfield code="v">26</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,26,1179</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Weber, M.J.</subfield>
+    <subfield code="t">Handbook of Optical Materials</subfield>
+    <subfield code="p">CRC Press Inc</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">52</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Venkatarayalu, N.</subfield>
+    <subfield code="h">Gan, Y.B.</subfield>
+    <subfield code="h">Li, L.W.</subfield>
+    <subfield code="t">Investigation of numerical stability of 2D FE/FDTD hybrid algorithm for different hybridization schemes</subfield>
+    <subfield code="v">E88-B</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">IEICE Trans.Commun.,E88-B,2341</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abenius, E.</subfield>
+    <subfield code="h">Andersson, U.</subfield>
+    <subfield code="h">Edelvik, F.</subfield>
+    <subfield code="h">Eriksson, L.</subfield>
+    <subfield code="h">Ledfelt, G.</subfield>
+    <subfield code="t">Hybrid time domain solvers for the Maxwell equations in 2D</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,53,2185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hwang, C.T.</subfield>
+    <subfield code="h">Wu, R.B.</subfield>
+    <subfield code="t">Treating late-time instability of hybrid finite element/finite-difference time-domain method</subfield>
+    <subfield code="v">47</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">IEEE Trans.Antennas Propag.,47,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gao, L.</subfield>
+    <subfield code="h">Brossier, R.</subfield>
+    <subfield code="h">Virieux, J.</subfield>
+    <subfield code="t">Using time filtering to control the long-time instability in seismic wave simulation</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Geophys.J.Int.,204,1443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ghrist, M.</subfield>
+    <subfield code="h">Fornberg, B.</subfield>
+    <subfield code="h">Driscoll, T.A.</subfield>
+    <subfield code="t">Staggered time integrators for wave equations</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,38,718</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hwang, K.P.</subfield>
+    <subfield code="t">A fourth-order accurate FDTD scheme with long-time stability</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">IEEE Microw.Wirel.Compon.Lett.,15,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Shin, J.</subfield>
+    <subfield code="h">Shen, J.T.</subfield>
+    <subfield code="h">Fan, S.</subfield>
+    <subfield code="t">Three-dimensional metamaterials with an ultrahigh effective refractive index over a broad bandwidth</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Phys.Rev.Lett.,102,093903</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Choi, M.</subfield>
+    <subfield code="h">Lee, S.H.</subfield>
+    <subfield code="h">Kim, Y.</subfield>
+    <subfield code="h">Kang, S.B.</subfield>
+    <subfield code="h">Shin, J.</subfield>
+    <subfield code="h">Kwak, M.H.</subfield>
+    <subfield code="h">Kang, K.Y.</subfield>
+    <subfield code="h">Lee, Y.H.</subfield>
+    <subfield code="h">Park, N.</subfield>
+    <subfield code="h">Min, B.</subfield>
+    <subfield code="t">A terahertz metamaterial with unnaturally high refractive index</subfield>
+    <subfield code="v">470</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">Nature,470,369</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Yang, X.</subfield>
+    <subfield code="h">Yao, J.</subfield>
+    <subfield code="h">Rho, J.</subfield>
+    <subfield code="h">Yin, X.</subfield>
+    <subfield code="h">Zhang, X.</subfield>
+    <subfield code="t">Experimental realization of three-dimensional indefinite cavities at the nanoscale with anomalous scaling laws</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Nat.Photonics,6,450</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/aip/S0021999117301456/S0021999117301456.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

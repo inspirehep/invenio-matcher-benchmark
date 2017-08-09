@@ -1,0 +1,420 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.07.054</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Mazaheri, Alireza</subfield>
+    <subfield code="j">ORCID:0000-0003-1128-6705</subfield>
+    <subfield code="v">NASA Langley Research Center, Hampton, VA, 23681, USA</subfield>
+    <subfield code="m">ali.r.mazaheri@nasa.gov</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Improved second-order hyperbolic residual-distribution scheme and its extension to third-order on arbitrary triangular grids</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2015-11-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">37</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">In this paper, we construct second- and third-order hyperbolic residual-distribution schemes for general advection–diffusion problems on arbitrary triangular grids. We demonstrate that the accuracy of the second-order hyperbolic schemes in [J. Comput. Phys. 227 (2007) 315–352] and [J. Comput. Phys. 229 (2010) 3989–4016] can be greatly improved by requiring the scheme to preserve exact quadratic solutions. The improved second-order scheme can be easily extended to a third-order scheme by further requiring the exactness for cubic solutions. These schemes are constructed based on the SUPG methodology formulated in the framework of the residual-distribution method, and thus can be considered as economical and powerful alternatives to high-order finite-element methods. For both second- and third-order schemes, we construct a fully implicit solver by the exact residual Jacobian of the proposed second-order scheme, and demonstrate rapid convergence, typically with no more than 10–15 Newton iterations (and about 200–800 linear relaxations per Newton iteration), to reduce the residuals by ten orders of magnitude. We also demonstrate that these schemes can be constructed based on a separate treatment of the advective and diffusive terms, which paves the way for the construction of hyperbolic residual-distribution schemes for the compressible Navier–Stokes equations. Numerical results show that these schemes produce exceptionally accurate and smooth solution gradients on highly skewed and anisotropic triangular grids even for a curved boundary problem, without introducing curved elements. A quadratic reconstruction of the curved boundary normals and a high-order integration technique on curved boundaries are also provided in details.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Published by Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Higher-order</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">SUPG</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fluctuation splitting</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Finite volume</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Navier–Stokes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Quadratic reconstruction</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Hermite polynomial</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-order integration</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishikawa, Hiroaki</subfield>
+    <subfield code="v">National Institute of Aerospace, Hampton, VA, 23666, USA</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">455-491</subfield>
+    <subfield code="v">300</subfield>
+    <subfield code="y">2015</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gnoffo, P.A.</subfield>
+    <subfield code="t">Multi-dimensional, inviscid flux reconstruction for simulation of hypersonic heating on tetrahedral grids</subfield>
+    <subfield code="p">Proc. of 47th AIAA Aerospace Sciences Meeting Including The New Horizons Forum and Aerospace Exposition, Orlando, Florida, 2009</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="m">AIAA Paper 2009-599</subfield>
+    <subfield code="o">1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kitamura, K.</subfield>
+    <subfield code="h">Shima, E.</subfield>
+    <subfield code="h">Nakamura, Y.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Evaluation of Euler fluxes for hypersonic heating computations</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">AIAA J.,48,763</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Z.J.</subfield>
+    <subfield code="h">Fidkowski, K.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Bassi, F.</subfield>
+    <subfield code="h">Caraeni, D.</subfield>
+    <subfield code="h">Cary, A.</subfield>
+    <subfield code="h">Deconinck, H.</subfield>
+    <subfield code="h">Hartmann, R.</subfield>
+    <subfield code="h">Hillewaert, K.</subfield>
+    <subfield code="h">Huynh, H.T.</subfield>
+    <subfield code="h">Kroll, N.</subfield>
+    <subfield code="h">May, G.</subfield>
+    <subfield code="h">Persson, P.-O.</subfield>
+    <subfield code="h">Van Leer, B.</subfield>
+    <subfield code="h">Visbal, M.</subfield>
+    <subfield code="t">High–order CFD methods: current status and perspective</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,72,811</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Park, M.A.</subfield>
+    <subfield code="h">Vatsa, V.N.</subfield>
+    <subfield code="h">Khorram, M.R.</subfield>
+    <subfield code="h">Lockard, D.P.</subfield>
+    <subfield code="t">Aeroacoustic simulation of nose landing gear on adaptive unstructured grids with FUN3D</subfield>
+    <subfield code="p">Proc. of 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 2011</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA Paper 2013-2071</subfield>
+    <subfield code="o">4</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rossiello, G.</subfield>
+    <subfield code="h">De Palma, P.</subfield>
+    <subfield code="h">Pascazio, G.</subfield>
+    <subfield code="h">Napolitano, M.</subfield>
+    <subfield code="t">Third-order-accurate fluctuation-splitting schemes for unsteady hyperbolic problems</subfield>
+    <subfield code="v">222</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,222,332</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ricchiuto, M.</subfield>
+    <subfield code="h">Villedieu, N.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Deconinck, H.</subfield>
+    <subfield code="t">On uniformly high-order accurate residual distribution schemes for advection–diffusion</subfield>
+    <subfield code="v">215</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,215,547</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Caraeni, D.</subfield>
+    <subfield code="h">Fuchs, L.</subfield>
+    <subfield code="t">Compact third-order multidimensional upwind scheme for Navier–Stokes simulations</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Appl.Math.,15,373</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="h">Rad, M.</subfield>
+    <subfield code="h">Roe, P.</subfield>
+    <subfield code="t">A third-order fluctuation-splitting scheme that preserves potential flow</subfield>
+    <subfield code="p">Proc. of 15th AIAA Computational Fluid Dynamics Conference, Anaheim, CA, 2001</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="m">AIAA Paper 01-2595</subfield>
+    <subfield code="o">8</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">On high-order fluctuation-splitting schemes for Navier–Stokes equations</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="e">Groth,C.</subfield>
+    <subfield code="e">Zingg,D.W.</subfield>
+    <subfield code="q">Computational Fluid Dynamics 2004</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">De Santis, D.</subfield>
+    <subfield code="t">Linear and non-linear high order accurate residual distribution schemes for the discretization of the steady compressible Navier–Stokes equations</subfield>
+    <subfield code="v">283</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,283,329</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">A review of residual distribution schemes for hyperbolic and parabolic problems: the July 2010 state of the art</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Commun.Comput.Phys.,11,1043</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">R. Abgrall, D. De Santis, M. Ricchiuto</subfield>
+    <subfield code="m">High order residual distribution scheme for the RANS equations, in: Proc. of 7th International Conference on Computational Fluid Dynamics (ICCFD7), ICCFD7-2802, Big Island, Hawaii, July 9-13</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Congedo, P.M.</subfield>
+    <subfield code="h">De Santis, D.</subfield>
+    <subfield code="h">Razzaly, N.</subfield>
+    <subfield code="t">A non-linear residual distribution scheme for real-gas computations</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">Comput.Fluids,102,148</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dante De Santis</subfield>
+    <subfield code="t">Development of a high-order residual distribution method for Navier–Stokes and RANS equation</subfield>
+    <subfield code="p">Institut de Mathématiques, Université de Bordeaux</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">14</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">De Santis, D.</subfield>
+    <subfield code="h">Ricchiuto, M.</subfield>
+    <subfield code="t">High-order preserving residual distribution schemes for advection–diffusion scalar problems on arbitrary grids</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,A955</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">A first-order system approach for diffusion equation. I: Second order residual distribution schemes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,227,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">A first-order system approach for diffusion equation. II: Unification of advection and diffusion</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,229,3989</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">New-generation hyperbolic Navier–Stokes schemes: <math altimg="si348.gif" display="inline" overflow="scroll"><mi>O</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">/</mo><mi>h</mi><mo stretchy="false">)</mo></math> speed-up and accurate viscous/heat fluxes</subfield>
+    <subfield code="p">Proc. of 20th AIAA Computational Fluid Dynamics Conference, Honolulu, Hawaii, 2011</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="m">AIAA Paper 2011-3043</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First-, second-, and third-order finite-volume schemes for diffusion</subfield>
+    <subfield code="v">256</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,256,791</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First, second, and third order finite-volume schemes for advection–diffusion</subfield>
+    <subfield code="v">273</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,273,287</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First, second, and third order finite-volume schemes for Navier–Stokes equations</subfield>
+    <subfield code="p">Proc. of 7th AIAA Theoretical Fluid Mechanics Conference, AIAA Aviation and Aeronautics Forum and Exposition 2014, Atlanta, GA, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">AIAA Paper 2014-2091</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Active flux for diffusion</subfield>
+    <subfield code="p">Proc. of 7th AIAA Theoretical Fluid Mechanics Conference, AIAA Aviation and Aeronautics Forum and Exposition 2014, Atlanta, GA, 2014</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">AIAA Paper 2014-2092</subfield>
+    <subfield code="o">22</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">First-order hyperbolic system method for time-dependent advection–diffusion problems</subfield>
+    <subfield code="p">NASA</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="m">Technical Report TM-2014-218175</subfield>
+    <subfield code="o">23</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Very efficient high-order hyperbolic schemes for time-dependent advection–diffusion problems: third-, fourth-, and sixth-order</subfield>
+    <subfield code="v">102</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">Comput.Fluids,102,131</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Krivodonova, L.</subfield>
+    <subfield code="h">Berger, M.</subfield>
+    <subfield code="t">High-order accurate implementation of solid wall boundary conditions in curved geometries</subfield>
+    <subfield code="v">211</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">J.Comput.Phys.,211,492</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Accuracy-preserving boundary flux quadrature for finite-volume discretization on unstructured grids</subfield>
+    <subfield code="v">281</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,281,518</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">Multigrid third-order least-squares solution of Cauchy–Riemann equations on unstructured triangular grids</subfield>
+    <subfield code="v">53</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,53,443</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mazaheri, A.</subfield>
+    <subfield code="h">Nishikawa, H.</subfield>
+    <subfield code="t">High-order hyperbolic residual-distribution schemes on arbitrary triangular grids</subfield>
+    <subfield code="p">Proc. of, 22nd AIAA Computational Fluid Dynamics Conference, Dallas, Texas, 2015</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="m">AIAA Paper 2015-2445</subfield>
+    <subfield code="o">28</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brooks, A.</subfield>
+    <subfield code="h">Hughes, T.J.R.</subfield>
+    <subfield code="t">Streamline upwind Petrov–Galerkin formulation for convection dominated flows with particular emphasis on the incompressible Navier–Stokes equations</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,32,199</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">De Palma, A.</subfield>
+    <subfield code="h">Pascazio, G.</subfield>
+    <subfield code="h">Rubino, D.T.</subfield>
+    <subfield code="h">Napolitano, M.</subfield>
+    <subfield code="t">Residual-distribution schemes for advection and advection–diffusion problems on quadrilateral cells</subfield>
+    <subfield code="v">218</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,218,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">D. Caraeni, L. Fuchs</subfield>
+    <subfield code="m">A new compact high order multidimensional upwind discretization, in: Proc. of 4th World CSCC Conference, Vouliagmeni, Greece, July 10-15</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">31</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Masatsuka, Katate</subfield>
+    <subfield code="t">I Do Like CFD, vol. 1</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">Self published</subfield>
+    <subfield code="o">32</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Toward the ultimate conservative scheme: following the quest</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,167,277</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">High-order fluctuation schemes on triangular meshes</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">J.Sci.Comput.,19,3</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Nishikawa, Hiroaki</subfield>
+    <subfield code="t">Higher-order discretization of diffusion terms in residual-distribution methods</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">VKI Lecture Series</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, Li</subfield>
+    <subfield code="h">Kyle Anderson, W.</subfield>
+    <subfield code="h">Taylor Erwin, J.</subfield>
+    <subfield code="h">Kapadia, Sagar</subfield>
+    <subfield code="t">Discontinuous Galerkin and Petrov Galerkin methods for compressible viscous flows</subfield>
+    <subfield code="v">100</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">Comput.Fluids,100,13</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00179/S0021999115005070/S0021999115005070.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>

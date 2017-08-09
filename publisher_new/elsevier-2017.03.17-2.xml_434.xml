@@ -1,0 +1,979 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2015.11.040</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Zepeda-Núñez, Leonardo</subfield>
+    <subfield code="v">Department of Mathematics and Earth Resources Laboratory, Massachusetts Institute of Technology, United States</subfield>
+    <subfield code="m">lzepeda@math.mit.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The method of polarized traces for the 2D Helmholtz equation</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-03-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">42</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We present a solver for the 2D high-frequency Helmholtz equation in heterogeneous acoustic media, with online parallel complexity that scales optimally as <math altimg="si1.gif" display="inline" overflow="scroll"><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mfrac><mi>N</mi><mi>L</mi></mfrac><mo stretchy="false">)</mo></math> , where N is the number of volume unknowns, and L is the number of processors, as long as L grows at most like a small fractional power of N . The solver decomposes the domain into layers, and uses transmission conditions in boundary integral form to explicitly define “polarized traces”, i.e., up- and down-going waves sampled at interfaces. Local direct solvers are used in each layer to precompute traces of local Green's functions in an embarrassingly parallel way (the offline part), and incomplete Green's formulas are used to propagate interface data in a sweeping fashion, as a preconditioner inside a GMRES loop (the online part). Adaptive low-rank partitioning of the integral kernels is used to speed up their application to interface data. The method uses second-order finite differences. The complexity scalings are empirical but motivated by an analysis of ranks of off-diagonal blocks of oscillatory integrals. They continue to hold in the context of standard geophysical community models such as BP and Marmousi 2, where convergence occurs in 5 to 10 GMRES iterations. While the parallelism in this paper stems from decomposing the domain, we do not explore the alternative of parallelizing the systems solves with distributed linear algebra routines.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Domain decomposition</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Helmholtz equation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Integral equations</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">High-frequency</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Fast methods</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Demanet, Laurent</subfield>
+    <subfield code="v">Department of Mathematics and Earth Resources Laboratory, Massachusetts Institute of Technology, United States</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">347-388</subfield>
+    <subfield code="v">308</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ambikasaran, S.</subfield>
+    <subfield code="h">Darve, E.</subfield>
+    <subfield code="t">An <math altimg="si605.gif" display="inline" overflow="scroll"><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mi>n</mi><mi mathvariant="normal">log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></math> fast direct solver for partial hierarchically semi-separable matrices</subfield>
+    <subfield code="v">57</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">J.Sci.Comput.,57,477</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Amestoy, P.R.</subfield>
+    <subfield code="h">Duff, I.S.</subfield>
+    <subfield code="h">Koster, J.</subfield>
+    <subfield code="h">L'Excellent, J.-Y.</subfield>
+    <subfield code="t">A fully asynchronous multifrontal solver using distributed dynamic scheduling</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,23,15</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Babuska, I.</subfield>
+    <subfield code="h">Melenk, J.M.</subfield>
+    <subfield code="t">The partition of unity method</subfield>
+    <subfield code="v">40</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Int.J.Numer.Methods Eng.,40,727</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ballard, G.</subfield>
+    <subfield code="h">Demmel, J.</subfield>
+    <subfield code="h">Holtz, O.</subfield>
+    <subfield code="h">Schwartz, O.</subfield>
+    <subfield code="t">Minimizing communication in numerical linear algebra</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,32,866</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bebendorf, M.</subfield>
+    <subfield code="t">Hierarchical Matrices: A Means to Efficiently Solve Elliptic Boundary Value Problems, Lecture Notes in Computational Science and Engineering (LNCSE), vol. 63</subfield>
+    <subfield code="p">Springer-Verlag</subfield>
+    <subfield code="v">vol. 63</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">5</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bélanger-Rioux, R.</subfield>
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="r">arXiv:1401.4421 [math.NA]</subfield>
+    <subfield code="t">Compressed absorbing boundary conditions via matrix probing</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">6</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Benamou, J.-D.</subfield>
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">A domain decomposition method for the Helmholtz equation and related optimal control problems</subfield>
+    <subfield code="v">136</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">J.Comput.Phys.,136,68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bérenger, J.-P.</subfield>
+    <subfield code="t">A perfectly matched layer for the absorption of electromagnetic waves</subfield>
+    <subfield code="v">114</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,114,185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Berkhout, A.J.</subfield>
+    <subfield code="t">Seismic Migration: Imaging of Acoustic Energy by Wave Field Extrapolation</subfield>
+    <subfield code="p">Elsevier</subfield>
+    <subfield code="y">1980</subfield>
+    <subfield code="o">9</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bevilacqua, R.</subfield>
+    <subfield code="h">Codenotti, B.</subfield>
+    <subfield code="h">Romani, F.</subfield>
+    <subfield code="t">Parallel solution of block tridiagonal linear systems</subfield>
+    <subfield code="v">104</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">Linear Algebra Appl.,104,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="h">Sandberg, K.</subfield>
+    <subfield code="t">Wave propagation using bases for bandlimited functions</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="m">Special issue in honor of the 75th birthday of A.T. de Hoop</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">Wave Motion,41,263</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Billette, F.</subfield>
+    <subfield code="h">Brandsberg-Dahl, S.</subfield>
+    <subfield code="t">The 2004 BP Velocity Benchmark</subfield>
+    <subfield code="p">EAGE</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">12</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bollhöfer, M.</subfield>
+    <subfield code="h">Grote, M.</subfield>
+    <subfield code="h">Schenk, O.</subfield>
+    <subfield code="t">Algebraic multilevel preconditioner for the Helmholtz equation in heterogeneous media</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,31,3781</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brandt, A.</subfield>
+    <subfield code="h">Livshits, I.</subfield>
+    <subfield code="t">Wave-ray multigrid method for standing wave equations</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">Electron.Trans.Numer.Anal.,6,162</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Bruno, O.</subfield>
+    <subfield code="h">Elling, T.</subfield>
+    <subfield code="h">Paffenroth, R.</subfield>
+    <subfield code="h">Turc, C.</subfield>
+    <subfield code="t">Electromagnetic integral equations requiring small numbers of Krylov-subspace iterations</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,228,6169</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Calandra, H.</subfield>
+    <subfield code="h">Gratton, S.</subfield>
+    <subfield code="h">Pinel, X.</subfield>
+    <subfield code="h">Vasseur, X.</subfield>
+    <subfield code="t">An improved two-grid preconditioner for the solution of three-dimensional Helmholtz problems in heterogeneous media</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,20,663</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Candès, E.</subfield>
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">A fast butterfly algorithm for the computation of Fourier integral operators</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">Multiscale Model.Simul.,7,1727</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cessenat, O.</subfield>
+    <subfield code="t">Application d'une nouvelle formulation variationnelle aux équations d'ondes harmoniques</subfield>
+    <subfield code="p">Université Paris IX Dauphine Paris, France</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="m">PhD thesis</subfield>
+    <subfield code="o">18</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cessenat, O.</subfield>
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">Application of an ultra weak variational formulation of elliptic pdes to the two-dimensional Helmholtz problem</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,35,255</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cessenat, O.</subfield>
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">Using plane waves as base functions for solving time harmonic equations with the ultra weak variational formulation</subfield>
+    <subfield code="v">11</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Acoust.,11,227</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandler-Wilde, S.N.</subfield>
+    <subfield code="t">Boundary value problems for the Helmholtz equation in a half-plane</subfield>
+    <subfield code="y">1995</subfield>
+    <subfield code="q">Proceedings of the 3rd International Conference on Mathematical and Numerical Aspects of Wave Propagation</subfield>
+    <subfield code="o">21</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chandler-Wilde, S.N.</subfield>
+    <subfield code="h">Graham, I.G.</subfield>
+    <subfield code="h">Langdon, S.</subfield>
+    <subfield code="h">Spence, E.A.</subfield>
+    <subfield code="t">Numerical-asymptotic boundary integral methods in high-frequency acoustic scattering</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">Acta Numer.,21,89</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Cheng, D.</subfield>
+    <subfield code="h">Wu, T.</subfield>
+    <subfield code="t">A dispersion minimizing finite difference scheme and preconditioned solver for the 3D Helmholtz equation</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.,231,8152</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Xiang, X.</subfield>
+    <subfield code="t">A source transfer domain decomposition method for Helmholtz equations in unbounded domain</subfield>
+    <subfield code="v">51</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">24</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,51,2331</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Chen, Z.</subfield>
+    <subfield code="h">Xiang, X.</subfield>
+    <subfield code="t">A source transfer domain decomposition method for Helmholtz equations in unbounded domain part II: extensions</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">Numer.Math.,6,538</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Conen, L.</subfield>
+    <subfield code="h">Dolean, V.</subfield>
+    <subfield code="h">Krause, R.</subfield>
+    <subfield code="h">Nataf, F.</subfield>
+    <subfield code="t">A coarse space for heterogeneous Helmholtz problems based on the Dirichlet-to-Neumann operator</subfield>
+    <subfield code="v">271</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Appl.Math.,271,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cools, S.</subfield>
+    <subfield code="h">Reps, B.</subfield>
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="t">A new level-dependent coarse grid correction scheme for indefinite Helmholtz problems</subfield>
+    <subfield code="v">21</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,21,513</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Cools, S.</subfield>
+    <subfield code="h">Vanroose, W.</subfield>
+    <subfield code="t">Local Fourier analysis of the complex shifted Laplacian preconditioner for Helmholtz problems</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,20,575</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Cools, W. Vanroose</subfield>
+    <subfield code="m">Generalization of the complex shifted Laplacian: on the class of expansion preconditioners for Helmholtz problems, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">29</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Davis, T.A.</subfield>
+    <subfield code="t">Algorithm 832: UMFPACK v4.3—an unsymmetric-pattern multifrontal method</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,30,196</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Hoop, M.V.</subfield>
+    <subfield code="h">Wang, S.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="t">On 3D modeling of seismic wave propagation via a structured parallel multifrontal direct Helmholtz solver</subfield>
+    <subfield code="v">59</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Geophys.Prospect.,59,857</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">de Hoop, M.V.</subfield>
+    <subfield code="h">Le Rousseau, J.H.</subfield>
+    <subfield code="h">Wu, R.-S.</subfield>
+    <subfield code="t">Generalization of the phase-screen approximation for the scattering of acoustic waves</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Wave Motion,31,43</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Fast wave computation via Fourier integral operators</subfield>
+    <subfield code="v">81</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">Math.Comput.,81,1455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Demmel, J.</subfield>
+    <subfield code="h">Grigori, L.</subfield>
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Xiang, H.</subfield>
+    <subfield code="t">Communication avoiding rank revealing QR factorization with column pivoting</subfield>
+    <subfield code="p">EECS Department, University of California Berkeley</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="m">Technical Report UCB/EECS-2013-46</subfield>
+    <subfield code="o">34</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Després, B.</subfield>
+    <subfield code="t">Décomposition de domaine et problème de Helmholtz</subfield>
+    <subfield code="v">311</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">C.R.Acad.Sci., Ser.1 Math.,311,313</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Duff, I.S.</subfield>
+    <subfield code="h">Reid, J.K.</subfield>
+    <subfield code="t">The multifrontal solution of indefinite sparse symmetric linear</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">1983</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">ACM Trans.Math.Softw.,9,302</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Elman, H.</subfield>
+    <subfield code="h">Ernst, O.</subfield>
+    <subfield code="h">O'Leary, D.</subfield>
+    <subfield code="t">A multigrid method enhanced by Krylov subspace iteration for discrete Helmholtz equations</subfield>
+    <subfield code="v">23</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,23,1291</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Sweeping preconditioner for the Helmholtz equation: hierarchical matrix representation</subfield>
+    <subfield code="v">64</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">Commun.Pure Appl.Math.,64,697</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Sweeping preconditioner for the Helmholtz equation: moving perfectly matched layers</subfield>
+    <subfield code="v">9</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Multiscale Model.Simul.,9,686</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erlangga, Y.A.</subfield>
+    <subfield code="t">Advances in iterative methods and preconditioners for the Helmholtz equation</subfield>
+    <subfield code="v">15</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">Arch.Comput.Methods Eng.,15,37</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Erlangga, Y.A.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">A novel multigrid based preconditioner for heterogeneous Helmholtz problems</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,27,1471</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ernst, O.G.</subfield>
+    <subfield code="h">Gander, M.J.</subfield>
+    <subfield code="t">Why it is difficult to solve Helmholtz problems with classical iterative methods</subfield>
+    <subfield code="v">vol. 83</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 83,325</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Farhat, C.</subfield>
+    <subfield code="h">Harari, I.</subfield>
+    <subfield code="h">Franca, L.P.</subfield>
+    <subfield code="t">The discontinuous enrichment method</subfield>
+    <subfield code="v">190</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,190,6455</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fishman, L.</subfield>
+    <subfield code="h">de Hoop, M.V.</subfield>
+    <subfield code="h">van Stralen, M.J.N.</subfield>
+    <subfield code="t">Exact constructions of square-root Helmholtz operator symbols: the focusing quadratic profile</subfield>
+    <subfield code="v">41</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Math.Phys.,41,4881</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gander, M.</subfield>
+    <subfield code="h">Nataf, F.</subfield>
+    <subfield code="t">AILU for Helmholtz problems: a new preconditioner based on an analytic factorization</subfield>
+    <subfield code="v">331</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">C.R.Acad.Sci., Ser.1 Math.,331,261</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gander, M.J.</subfield>
+    <subfield code="h">Kwok, F.</subfield>
+    <subfield code="t">Optimal interface conditions for an arbitrary decomposition into subdomains</subfield>
+    <subfield code="v">vol. 78</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">Lecture Notes in Computational Science and Engineering,vol. 78,101</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gander, M.J.</subfield>
+    <subfield code="h">Nataf, F.</subfield>
+    <subfield code="t">AILU for Helmholtz problems: a new preconditioner based on the analytic parabolic factorization</subfield>
+    <subfield code="v">09</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">J.Comput.Acoust.,09,1499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gander, M.J.</subfield>
+    <subfield code="h">Graham, I.G.</subfield>
+    <subfield code="h">Spence, E.A.</subfield>
+    <subfield code="t">Applying GMRES to the Helmholtz equation with shifted Laplacian preconditioning: what is the largest shift for which wavenumber-independent convergence is guaranteed?</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">Numer.Math.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">George, A.</subfield>
+    <subfield code="t">Nested dissection of a regular finite element mesh</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,10,345</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gillman, A.</subfield>
+    <subfield code="h">Barnett, A.H.</subfield>
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="t">A spectrally accurate direct solution technique for frequency-domain scattering problems with variable media</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">BIT Numer.Math.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gittelson, C.J.</subfield>
+    <subfield code="h">Hiptmair, R.</subfield>
+    <subfield code="h">Perugia, I.</subfield>
+    <subfield code="t">Plane wave discontinuous Galerkin methods: analysis of the h-version</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,43,297</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Haber, E.</subfield>
+    <subfield code="h">MacLachlan, S.</subfield>
+    <subfield code="t">A fast method for the solution of the Helmholtz equation</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4403</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hiptmair, R.</subfield>
+    <subfield code="h">Jerez-Hanckes, C.</subfield>
+    <subfield code="t">Multiple traces boundary integral formulation for Helmholtz transmission problems</subfield>
+    <subfield code="v">37</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">Adv.Comput.Math.,37,39</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Hoffman, A.</subfield>
+    <subfield code="h">Martin, M.</subfield>
+    <subfield code="h">Rose, D.</subfield>
+    <subfield code="t">Complexity bounds for regular finite difference and finite element grids</subfield>
+    <subfield code="v">10</subfield>
+    <subfield code="y">1973</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,10,364</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gu, M.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Chandrasekaran, S.</subfield>
+    <subfield code="h">Li, X.S.</subfield>
+    <subfield code="t">Superfast multifrontal method for large structured linear systems of equations</subfield>
+    <subfield code="v">31</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">55</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,31,1382</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">S. Johnson</subfield>
+    <subfield code="m">Notes on perfectly matched layers (PMLs), March</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">56</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jones, P.</subfield>
+    <subfield code="h">Ma, J.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast direct algorithm for the solution of the Laplace equation on regions with fractal boundaries</subfield>
+    <subfield code="v">113</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">J.Comput.Phys.,113,35</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kress, R.</subfield>
+    <subfield code="t">Linear integral equations</subfield>
+    <subfield code="p">Springer</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="q">Applied Mathematical Sciences</subfield>
+    <subfield code="o">58</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kuzmin, A.</subfield>
+    <subfield code="h">Luisier, M.</subfield>
+    <subfield code="h">Schenk, O.</subfield>
+    <subfield code="t">Fast methods for computing selected elements of the Greens function in massively parallel nanoelectronic device simulations</subfield>
+    <subfield code="v">vol. 8097</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Lect.Notes Comput.Sci.,vol. 8097,533</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Y. Li, H. Yang, E. Martin, K. Ho, L. Ying</subfield>
+    <subfield code="m">Butterfly factorization, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">60</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Lin, L.</subfield>
+    <subfield code="h">Lu, J.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Fast construction of hierarchical matrix representation from matrix–vector multiplication</subfield>
+    <subfield code="v">230</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">J.Comput.Phys.,230,4071</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Liu, L. Ying</subfield>
+    <subfield code="m">Additive sweeping preconditioner for the Helmholtz equation, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F. Liu, L. Ying</subfield>
+    <subfield code="m">Recursive sweeping preconditioner for the 3D Helmholtz equation, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">63</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Luo, S.</subfield>
+    <subfield code="h">Qian, J.</subfield>
+    <subfield code="h">Burridge, R.</subfield>
+    <subfield code="t">Fast Huygens sweeping methods for Helmholtz equations in inhomogeneous media in the high frequency regime</subfield>
+    <subfield code="v">270</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">J.Comput.Phys.,270,378</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martin, G.</subfield>
+    <subfield code="h">Wiley, R.</subfield>
+    <subfield code="h">Marfurt, K.</subfield>
+    <subfield code="t">An Elastic Upgrade for Marmousi, The Leading Edge, Society for Exploration Geophysics, vol. 25</subfield>
+    <subfield code="v">vol. 25</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">65</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">A fast direct solver for scattering problems involving elongated structures</subfield>
+    <subfield code="v">221</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">J.Comput.Phys.,221,288</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Martinsson, P.G.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="h">Tygert, M.</subfield>
+    <subfield code="t">A randomized algorithm for the decomposition of matrices</subfield>
+    <subfield code="v">30</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,30,47</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McLean, W.</subfield>
+    <subfield code="t">Strongly Elliptic Systems and Boundary Integral Equations</subfield>
+    <subfield code="p">Cambridge University Press</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">68</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meurant, G.</subfield>
+    <subfield code="t">A review on the inverse of symmetric tridiagonal and block tridiagonal matrices</subfield>
+    <subfield code="v">13</subfield>
+    <subfield code="y">1992</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">SIAM J.Matrix Anal.Appl.,13,707</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moiola, A.</subfield>
+    <subfield code="h">Hiptmair, R.</subfield>
+    <subfield code="h">Perugia, I.</subfield>
+    <subfield code="t">Plane wave approximation of homogeneous Helmholtz solutions</subfield>
+    <subfield code="v">62</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Z.Angew.Math.Phys.,62,809</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Moiola, A.</subfield>
+    <subfield code="h">Spence, E.</subfield>
+    <subfield code="t">Is the Helmholtz equation really sign-indefinite?</subfield>
+    <subfield code="v">56</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">SIAM Rev.,56,274</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Monk, P.</subfield>
+    <subfield code="h">Wang, D.-Q.</subfield>
+    <subfield code="t">A least-squares method for the Helmholtz equation</subfield>
+    <subfield code="v">175</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Comput.Methods Appl.Mech.Eng.,175,121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">O'Neil, M.</subfield>
+    <subfield code="h">Woolfe, F.</subfield>
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">An algorithm for the rapid evaluation of special function transforms</subfield>
+    <subfield code="v">28</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="m">Special issue on continuous wavelet transform in memory of Jean Morlet, part I</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Appl.Comput.Harmon.Anal.,28,203</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plessix, R.-E.</subfield>
+    <subfield code="t">A Helmholtz iterative solver for 3D seismic-imaging problems</subfield>
+    <subfield code="v">72</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">74</subfield>
+    <subfield code="s">Geophysics,72,SM185</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Plessix, R.-E.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">Separation-of-variables as a preconditioner for an iterative Helmholtz solver</subfield>
+    <subfield code="v">44</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">75</subfield>
+    <subfield code="s">Appl.Numer.Math.,44,385</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poulson, J.</subfield>
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="h">Maxwell, N.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">A parallel butterfly algorithm</subfield>
+    <subfield code="v">36</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">76</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,36,C49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Poulson, J.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Li, S.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">A parallel sweeping preconditioner for heterogeneous 3D Helmholtz equations</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">77</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,C194</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Qian, J.</subfield>
+    <subfield code="h">Luo, S.</subfield>
+    <subfield code="h">Burridge, R.</subfield>
+    <subfield code="t">Fast Huygens' sweeping methods for multiarrival Green's functions of Helmholtz equations in the high-frequency regime</subfield>
+    <subfield code="v">80</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">78</subfield>
+    <subfield code="s">Geophysics,80,T91</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Riyanti, C.D.</subfield>
+    <subfield code="h">Kononov, A.</subfield>
+    <subfield code="h">Erlangga, Y.A.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="h">Oosterlee, C.W.</subfield>
+    <subfield code="h">Plessix, R.-E.</subfield>
+    <subfield code="h">Mulder, W.A.</subfield>
+    <subfield code="t">A parallel multigrid-based preconditioner for the 3D heterogeneous high-frequency Helmholtz equation</subfield>
+    <subfield code="v">224</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="m">Special issue dedicated to Professor Piet Wesseling on the occasion of his retirement from Delft University of Technology</subfield>
+    <subfield code="o">79</subfield>
+    <subfield code="s">J.Comput.Phys.,224,431</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Rokhlin, V.</subfield>
+    <subfield code="t">Rapid solution of integral equations of classical potential theory</subfield>
+    <subfield code="v">60</subfield>
+    <subfield code="y">1985</subfield>
+    <subfield code="o">80</subfield>
+    <subfield code="s">J.Comput.Phys.,60,187</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">F.-H. Rouet, X.S. Li, P. Ghysels, A. Napov</subfield>
+    <subfield code="m">A distributed-memory package for dense hierarchically semi-separable matrix computations using randomization, ArXiv e-prints</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="9">refextract</subfield>
+    <subfield code="o">81</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Saad, Y.</subfield>
+    <subfield code="t">Iterative Methods for Sparse Linear Systems</subfield>
+    <subfield code="p">Society for Industrial and Applied Mathematics</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">82</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sandberg, K.</subfield>
+    <subfield code="h">Beylkin, G.</subfield>
+    <subfield code="t">Full-wave-equation depth extrapolation for migration</subfield>
+    <subfield code="v">74</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">83</subfield>
+    <subfield code="s">Geophysics,74,WCA121</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Sheikh, A.H.</subfield>
+    <subfield code="h">Lahaye, D.</subfield>
+    <subfield code="h">Vuik, C.</subfield>
+    <subfield code="t">On the convergence of shifted Laplace preconditioner combined with multilevel deflation</subfield>
+    <subfield code="v">20</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">84</subfield>
+    <subfield code="s">Numer.Linear Algebra Appl.,20,645</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stoffa, P.L.</subfield>
+    <subfield code="h">Fokkema, J.T.</subfield>
+    <subfield code="h">de Luna Freire, R.M.</subfield>
+    <subfield code="h">Kessinger, W.P.</subfield>
+    <subfield code="t">Split-step Fourier migration</subfield>
+    <subfield code="v">55</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="o">85</subfield>
+    <subfield code="s">Geophysics,55,410</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stolk, C.</subfield>
+    <subfield code="t">A rapidly converging domain decomposition method for the Helmholtz equation</subfield>
+    <subfield code="v">241</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">86</subfield>
+    <subfield code="s">J.Comput.Phys.,241,240</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stolk, C.</subfield>
+    <subfield code="h">de Hoop, M.</subfield>
+    <subfield code="t">Modeling of seismic data in the downward continuation approach</subfield>
+    <subfield code="v">65</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">87</subfield>
+    <subfield code="s">SIAM J.Appl.Math.,65,1388</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Stolk, C.C.</subfield>
+    <subfield code="h">Ahmed, M.</subfield>
+    <subfield code="h">Bhowmik, S.K.</subfield>
+    <subfield code="r">arXiv:1304.4103 [math.NA]</subfield>
+    <subfield code="t">A multigrid method for the Helmholtz equation with optimized coarse grid corrections</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">88</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Strang, G.</subfield>
+    <subfield code="h">Nguyen, T.</subfield>
+    <subfield code="t">The interplay of ranks of submatrices</subfield>
+    <subfield code="v">46</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">89</subfield>
+    <subfield code="s">SIAM Rev.,46,637</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Thakur, R.</subfield>
+    <subfield code="h">Rabenseifner, R.</subfield>
+    <subfield code="h">Gropp, W.</subfield>
+    <subfield code="t">Optimization of collective communication operations in MPICH</subfield>
+    <subfield code="v">19</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">90</subfield>
+    <subfield code="s">Int.J.High Perform.Comput.Appl.,19,49</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsuji, P.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">A sweeping preconditioner for time-harmonic Maxwell's equations with finite elements</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">91</subfield>
+    <subfield code="s">J.Comput.Phys.,231,3770</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsuji, P.</subfield>
+    <subfield code="h">Poulson, J.</subfield>
+    <subfield code="h">Engquist, B.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">Sweeping preconditioners for elastic wave propagation with spectral element methods</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">92</subfield>
+    <subfield code="s">ESAIM: Math.Model.Numer.Anal.,48,433</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tsuji, P.</subfield>
+    <subfield code="h">Ying, L.</subfield>
+    <subfield code="t">A sweeping preconditioner for Yee's finite difference approximation of time-harmonic Maxwell's equations</subfield>
+    <subfield code="v">7</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">93</subfield>
+    <subfield code="s">Front.Math.China,7,347</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Usmani, R.A.</subfield>
+    <subfield code="t">Inversion of Jacobi's tridiagonal matrix</subfield>
+    <subfield code="v">27</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">94</subfield>
+    <subfield code="s">Comput.Math.Appl.,27,59</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vion, A.</subfield>
+    <subfield code="h">Bélanger-Rioux, R.</subfield>
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="h">Geuzaine, C.</subfield>
+    <subfield code="t">A DDM double sweep preconditioner for the Helmholtz equation with matrix probing of the DTN map</subfield>
+    <subfield code="p">Mathematical and Numerical Aspects of Wave Propagation, WAVES 2013, 2013</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">95</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vion, A.</subfield>
+    <subfield code="h">Geuzaine, C.</subfield>
+    <subfield code="t">Double sweep preconditioner for optimized Schwarz methods applied to the Helmholtz problem</subfield>
+    <subfield code="v">266</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">96</subfield>
+    <subfield code="s">J.Comput.Phys.,266,171</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wang, S.</subfield>
+    <subfield code="h">Li, X.S.</subfield>
+    <subfield code="h">Xia, J.</subfield>
+    <subfield code="h">Situ, Y.</subfield>
+    <subfield code="h">de Hoop, M.V.</subfield>
+    <subfield code="t">Efficient scalable algorithms for solving dense linear systems with hierarchically semiseparable structures</subfield>
+    <subfield code="v">35</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">97</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,35,C519</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zepeda-Núñez, L.</subfield>
+    <subfield code="h">Hewett, R.J.</subfield>
+    <subfield code="h">Demanet, L.</subfield>
+    <subfield code="t">Preconditioning the 2D Helmholtz equation with polarized traces</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="q">SEG Technical Program Expanded Abstracts 2014</subfield>
+    <subfield code="o">98</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999115X00258/S0021999115007809/S0021999115007809.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>
