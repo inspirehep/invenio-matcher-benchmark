@@ -1,0 +1,209 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Faint Object Detection in Multi-Epoch Observations via Catalog Data Fusion</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Astronomy in the time-domain era faces several new challenges. One of them is the efficient use of observations obtained at multiple epochs. The work presented here addresses faint object detection and describes an incremental strategy for separating real objects from artifacts in ongoing surveys. The idea is to produce low-threshold single-epoch catalogs and to accumulate information across epochs. This is in contrast to more conventional strategies based on co-added or stacked images. We adopt a Bayesian approach, addressing object detection by calculating the marginal likelihoods for hypotheses asserting that there is no object or one object in a small image patch containing at most one cataloged source at each epoch. The object-present hypothesis interprets the sources in a patch at different epochs as arising from a genuine object, the no-object hypothesis interprets candidate sources as spurious, arising from noise peaks. We study the detection probability for constant-flux objects in a Gaussian noise setting, comparing results based on single and stacked exposures to results based on a series of single-epoch catalog summaries. Our procedure amounts to generalized cross-matching: it is the product of a factor accounting for the matching of the estimated fluxes of the candidate sources and a factor accounting for the matching of their estimated directions. We find that probabilistic fusion of multi-epoch catalogs can detect sources with similar sensitivity and selectivity compared to stacking. The probabilistic cross-matching framework underlying our approach plays an important role in maintaining detection sensitivity and points toward generalizations that could accommodate variability and complex object structure.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">astrometry</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">catalogs</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">galaxies: photometry</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: statistical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">surveys</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">52</subfield>
+  <subfield code="v">838</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/1538-4357/aa6335</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">10</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-23</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-7034-4621</subfield>
+  <subfield code="a">Budavári, Tam</subfield>
+  <subfield code="v">Department of Physics and Astronomy - The Johns Hopkins U. - 3400 North Charles Street - Baltimore - MD 21218 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Szalay, Alexander S.</subfield>
+  <subfield code="v">Department of Physics and Astronomy - The Johns Hopkins U. - 3400 North Charles Street - Baltimore - MD 21218 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Loredo, Thomas J.</subfield>
+  <subfield code="v">Cornell Center for Astrophysics and Planetary Science - Cornell U. - Ithaca - NY 14853 - USA</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Care should be taken in reporting and interpreting {\delta }_{\epsilon }, because direction is a two-dimensional quantity. If {\delta }_{\epsilon } is the single-coordinate standard deviation, the angular radius of a 68.3% (1\sigma) confidence region or flat-prior credible region is \approx 1.52{\delta }_{\epsilon }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">We are presuming the use of a fixed source detection algorithm, e.g., fixed apertures. If the algorithm is adaptive, its tuning parameters need to be accounted for in this probability</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">The integral is over possible measured flux values, {\hat{f}}_{\epsilon }, not true flux</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">in the Gaussian regime assumed here, the measured value may be negative, albeit with small probability. The estimated flux would be constrained to be positive via the prior density, \pi (f), which would multiply the flux likelihood when computing posterior flux estimates</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">In reality, the direction uncertainty will be roughly constant for bright sources, when the estimation error is dominated by systematic uncertainty, but for dim-source candidates, it will grow with magnitude (i.e., as estimated flux decreases). This will decrease the values of the Bayes factors for dim sources but does not qualitatively impact the findings described below</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Adler R. J.</subfield>
+  <subfield code="m">The Geometry of Random Fields (Chichester: Crossref: ADS:</subfield>
+  <subfield code="p">Wiley</subfield>
+  <subfield code="a">doi:10.1137/1.9780898718980</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1981grf..book.....A</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bardeen J. M., Bond J. R., Kaiser N. and Szalay A. S.</subfield>
+  <subfield code="s">Astrophys.J.,304,15</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/164143</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1986ApJ...304...15B</subfield>
+  <subfield code="y">1986</subfield>
+  <subfield code="0">17182</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bond J. R. and Efstathiou G.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,226,655</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/226.3.655</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1987MNRAS.226..655B</subfield>
+  <subfield code="y">1987</subfield>
+  <subfield code="0">244576</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Budavári T.</subfield>
+  <subfield code="m">Statistical Challenges in Modern Astronomy V ed E. D. Feigelson and G. J. Babu (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Budavári T. and Loredo T. J.</subfield>
+  <subfield code="m">Annual Review of Statistics and Its Application 2 113, Crossref:</subfield>
+  <subfield code="a">doi:10.1146/annurev-statistics-010814-020231</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Budavári T. and Szalay A. S.</subfield>
+  <subfield code="s">Astrophys.J.,679,301</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/679/1/301</subfield>
+  <subfield code="m">ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...679..301B</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">755537</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Budavári T. and Szalay A. S.</subfield>
+  <subfield code="m">adass XXIII 485 207, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014adass..23..207B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kaiser N.</subfield>
+  <subfield code="m">The Likelihood of Point Sources in Pixellated Images, Pan-STARRS Internal Rep. PSDC-002-010-xx</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Loredo T. J.</subfield>
+  <subfield code="m">Statistical Challenges in Modern Astronomy V ed E. D. Feigelson and G. J. Babu (New York:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lund J. and Rudemo M.</subfield>
+  <subfield code="s">Biometrika,87,235</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1093/biomet/87.2.235</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Madau P. and Thompson C.</subfield>
+  <subfield code="s">Astrophys.J.,534,239</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/534/1/239</subfield>
+  <subfield code="m">ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...534..239M</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="0">519181</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Press W. H.</subfield>
+  <subfield code="m">in Proc. Conf. in Honor of John Bahcall, Unsolved Problems in Astrophysics (Princeton, NJ: Princeton Univ. Press) 49 arXiv: ADS: Preprint:</subfield>
+  <subfield code="r">astro-ph/9604126</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1996astro.ph..4126P</subfield>
+  <subfield code="r">arXiv:astro-ph/9604126</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">417931</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Szalay A. S., Connolly A. J. and Szokoly G. P.</subfield>
+  <subfield code="s">Astron.J.,117,68</subfield>
+  <subfield code="a">doi:10.1088/1538-3881/117/1/68</subfield>
+  <subfield code="m">ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999AJ....117...68S</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="0">490924</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Wolfram Research, Inc.Mathematica Version 11.0 (Champaign, IL: Wolfram Research, Inc.)</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

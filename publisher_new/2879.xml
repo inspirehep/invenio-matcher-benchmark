@@ -1,0 +1,314 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The determination of the post-Newtonian parameter γ during the cruise phase of BepiColombo</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">The post-Newtonian parameter γ, unity in general relativity, controls the delay and the deflection of photons induced by the space-time curvature produced by any mass. A precise determination of this parameter can be attained by exploiting the Shapiro time delay and the corresponding Doppler shift affecting the propagation of radio signals between a ground antenna and a spacecraft near a superior solar conjunction. In its cruise phase to Mercury (from October 2018 to December 2025), the spacecraft BepiColombo will experience eleven superior solar conjunctions, thus offering an excellent opportunity to test general relativity. The experiment will benefit from very accurate range and Doppler measurements, enabled by a multi-frequency radio link in X and Ka bands (8 and 34 GHz) and a high rate (24 Mcps) pseudo-noise ranging code. The multi-frequency link configuration allows the suppression of the plasma noise due to the solar corona. In this paper, we report the results of a comprehensive analysis based on the latest spacecraft trajectory and numerical simulations. The ultimate accuracies will be determined by operational constraints, number of exploitable conjunctions, and dynamical noise acting on the spacecraft. We find that γ can be determined up to $6.2\times {{10}^{-6}}$ with just one conjunction in July 2022, thus improving by a factor of 4 the result obtained by the Cassini mission in 2002. This accuracy can be further increased by selecting a limited number of favourable superior solar conjunctions, down to $2.5\times {{10}^{-6}}$ when all of them are combined.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Class.Quant.Grav.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">075002</subfield>
+  <subfield code="v">34</subfield>
+  <subfield code="n">7</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6382/aa606d</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">16</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-13</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Imperi, Luigi</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Iess, Luciano</subfield>
+  <subfield code="v">Sapienza U. of Rome - Dipartimento di Ingegneria Meccanica e Aerospaziale - via Eudossiana 18 - 00184 Rome - Italy</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Follow the standard assumptions given in section, 4.2: #cqgaa606ds4-2, but using a &apos;wrong&apos; hermean ephemeris and gravity field in the fit, different from those used in the data generation stage. The references ephemeris are the JPL DE430 and DE432 [, 26: #cqgaa606dbib026,, 27: #cqgaa606dbib027], which include some MESSENGER data. Uncertainties in the gravity field are provided in [, 25: #cqgaa606dbib025]</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Use the assumptions of case (i), but including Mercury&apos;s state vector in the global solution</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) assume the epoch state just after the flyby, at the penalty of a shorter data arc</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">The SPICE kernel of the cruise trajectory adopted for the analysis is available on the website :</subfield>
+  <subfield code="u">http://radioscience.dima.uniroma1.it/publications.php</subfield>
+  <subfield code="u">http://radioscience.dima.uniroma1.it/publications.php</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">According to Gaussian statistics, the standard deviation can be rescaled at different integration times. These values are equivalent to an Allan deviation of 10-14 at 1000 s for Doppler and the acquisition of one range measurement with an accuracy of 20 cm every 10 min (a realistic assumption)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">To simplify, we considered SSC when SEPS is scheduled to be used &lt;30% of the observation window, i.e. SSC #1, #3, #4, #5 and #8</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">A new 34 m antenna is being built in Japan, also in view of MMO tracking. In principle it could be upgraded to Ka uplink</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Benkhoff J, Casteren J V, Hayakawa H, Fujimoto M, Laakso H, Novara M, Ferri P, Middleton H R and Ziethe R</subfield>
+  <subfield code="m">BepiColombo-comprehensive exploration of mercury: mission overview and science goals Comprehensive Science Investigations of Mercury: The scientific goals of the joint ESA/JAXA mission BepiColombo, Crossref:</subfield>
+  <subfield code="s">Planet.Space Sci.,58,2-20</subfield>
+  <subfield code="a">doi:10.1016/j.pss.2009.09.020</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Iess L and Boscagli G</subfield>
+  <subfield code="m">Advanced radio science instrumentation for the mission BepiColombo to mercury Crossref:</subfield>
+  <subfield code="s">Planet.Space Sci.,49,1597-608</subfield>
+  <subfield code="a">doi:10.1016/S0032-0633(01)00096-4</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Iess L, Asmar S and Tortora P</subfield>
+  <subfield code="m">MORE: an advanced tracking experiment for the exploration of mercury with the mission BepiColombo Crossref:</subfield>
+  <subfield code="s">Acta Astronaut.,65,666-75</subfield>
+  <subfield code="a">doi:10.1016/j.actaastro.2009.01.049</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Cicalò S, Schettino G, Di Ruzza S, Alessi E M, Tommei G and Milani A</subfield>
+  <subfield code="m">The BepiColombo more gravimetry and rotation experiments with the orbit14 software Crossref:</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,457,666-75</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv2993</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1393039</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Milani A, Vokrouhlický D, Villani D, Bonanno C and Rossi A</subfield>
+  <subfield code="m">Testing general relativity with the BepiColombo radio science experiment Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,D66,082001</subfield>
+  <subfield code="a">doi:10.1103/PhysRevD.66.082001</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">601561</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Will C M</subfield>
+  <subfield code="m">Theory and Experiment in Gravitational Physics (Cambridge: Cambridge University Press), Crossref:</subfield>
+  <subfield code="a">doi:10.1017/CBO9780511564246</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Misner C W, Thorne K S and Wheeler J A</subfield>
+  <subfield code="m">Gravitation (New York: W H Freeman part 3</subfield>
+  <subfield code="y">1973</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Shapiro I I</subfield>
+  <subfield code="m">Fourth test of general relativity Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,13,789-91</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.13.789</subfield>
+  <subfield code="y">1964</subfield>
+  <subfield code="0">45148</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Bertotti B, Iess L and Tortora P</subfield>
+  <subfield code="m">A test of general relativity using radio links with the Cassini spacecraft Crossref:</subfield>
+  <subfield code="s">Nature,425,374-6</subfield>
+  <subfield code="a">doi:10.1038/nature01997</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">639311</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Lambert S B and Le Poncin-Lafitte C</subfield>
+  <subfield code="m">Improved determination of γ by VLBI Crossref:</subfield>
+  <subfield code="s">Astron.Astrophys.,529,A70</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201016370</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Mignard F and Klioner S A</subfield>
+  <subfield code="m">Gaia: relativistic modelling and testing Relativity in Fundamental Astronomy: Dynamics, Reference Frames and Data Analysis (Proc. of the Int. Astronomical Union vol 5) (Cambridge: Cambridge University Press) pp 306-14, Crossref:</subfield>
+  <subfield code="a">doi:10.1017/S174392130999055X</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Mariotti G and Tortora P</subfield>
+  <subfield code="m">Experimental validation of a dual uplink multifrequency dispersive noise calibration scheme for deep space tracking Radio Sci. 48.2 111-7, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/rds.20024</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Tortora P, Iess L and Ekelund J E</subfield>
+  <subfield code="m">Accurate navigation of deep space probes using multifrequency links: the Cassini breakthrough during solar conjunction experiments IAF Abstracts, 34th COSPAR Scientific Assembly The Second World Space Congress, Houston, TX, USA vol. 1 p 675</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Tortora P, Iess L, Bordi J J, Ekelund J E and Roth D C</subfield>
+  <subfield code="m">Precise Cassini navigation during solar conjunctions through multifrequency plasma calibrations Crossref:</subfield>
+  <subfield code="s">J.Guid.Control Dyn.,27,251-7</subfield>
+  <subfield code="a">doi:10.2514/1.997</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Jehn R</subfield>
+  <subfield code="m">BepiColombo Mercury Cornerstone Mission Analysis: The October 2018 Launch Option (MAS Working Paper vol 609) (Darmstadt: European Space Operation Center) BC-ESC-RP-500014, Issue 2.0. Robert-Bosh-Str. 5, 64293</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Will C M</subfield>
+  <subfield code="m">Propagation speed of gravity and the relativistic time delay</subfield>
+  <subfield code="s">Astrophys.J.,590,683</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/590/2/683</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">611324</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Ashby N and Bertotti B</subfield>
+  <subfield code="m">Accurate light-time correction due to a gravitating mass</subfield>
+  <subfield code="s">Class.Quant.Grav.,27,145013</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/27/14/145013</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">840063</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Milani A, Tommei G, Vokrouhlický D, Latorre E and Cicalò S</subfield>
+  <subfield code="m">Relativistic models for the BepiColombo radioscience experiment Relativity in Fundamental Astronomy: Dynamics, Reference Frames and Data Analysis (IAU Symp. vol 261) S A Klioner (eds.) (Cambridge: Cambridge University Press) pp 356-65</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Teyssandier P and Le Poncin-Lafitte C</subfield>
+  <subfield code="m">General post-minkowskian expansion of time transfer functions</subfield>
+  <subfield code="s">Class.Quant.Grav.,25,145020</subfield>
+  <subfield code="a">doi:10.1088/0264-9381/25/14/145020</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">780556</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Moyer T D</subfield>
+  <subfield code="m">Formulation for Observed and Computed Values of Deep Space Network Data Types for Navigation (JPL Deep-Space Communications and Navigation Series) (New York:</subfield>
+  <subfield code="p">Wiley</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Iess L, Di Benedetto M, James N, Mercolino M, Simone L and Tortora P</subfield>
+  <subfield code="m">Astra: interdisciplinary study on enhancement of the end-to-end accuracy for spacecraft tracking techniques Crossref:</subfield>
+  <subfield code="s">Acta Astron.,94,699-707</subfield>
+  <subfield code="a">doi:10.1016/j.actaastro.2013.06.011</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Iafolla V, Fiorenza E, Lefevre C, Morbidini A, Nozzle S, Peron R, Persichini M, Reale A and Santoli F</subfield>
+  <subfield code="m">Italian Spring Accelerometer (ISA): a fundamental support to BepiColombo radio science experiments Crossref:</subfield>
+  <subfield code="s">Planet.Space Sci.,58,300-8</subfield>
+  <subfield code="a">doi:10.1016/j.pss.2009.04.005</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Milani A and Gronchi G</subfield>
+  <subfield code="m">Theory of Orbit Determination (Cambridge: Cambridge University Press)</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Tapley B, Schutz B and Born G H</subfield>
+  <subfield code="m">Statistical Orbit Determination (Amsterdam:</subfield>
+  <subfield code="p">Elsevier</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Mazarico E, Genova A, Goossens S, Lemoine F G, Neumann G A, Zuber M T, Smith D E and Solomon S C</subfield>
+  <subfield code="m">The gravity field, orientation, and ephemeris of mercury from messenger observations after three years in orbit J. Geophys Res.: Planet. 119 2417-36, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/2014JE004675</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Folkner W M, Williams J G, Boggs D H, Park R S and Kuchynka P</subfield>
+  <subfield code="m">The planetary and lunar ephemerides DE430 and DE431 Interplanet. Netw. Prog. Rep. 196 1-81</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Folkner W M</subfield>
+  <subfield code="m">Planetary Ephemeris DE432 (California: Jet Propulsion Laboratory)</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Imperi L and Iess L</subfield>
+  <subfield code="m">Testing general relativity during the cruise phase of the BepiColombo mission to mercury Metrology for Aerospace pp 135-40, Crossref:</subfield>
+  <subfield code="a">doi:10.1109/MetroAeroSpace.2015.7180641</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

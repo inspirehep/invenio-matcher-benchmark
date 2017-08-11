@@ -1,0 +1,473 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The Joker: A Custom Monte Carlo Sampler for Binary-star and Exoplanet Radial Velocity Data</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Given sparse or low-quality radial velocity measurements of a star, there are often many qualitatively different stellar or exoplanet companion orbit models that are consistent with the data. The consequent multimodality of the likelihood function leads to extremely challenging search, optimization, and Markov chain Monte Carlo (MCMC) posterior sampling over the orbital parameters. Here we create a custom Monte Carlo sampler for sparse or noisy radial velocity measurements of two-body systems that can produce posterior samples for orbital parameters even when the likelihood function is poorly behaved. The six standard orbital parameters for a binary system can be split into four nonlinear parameters (period, eccentricity, argument of pericenter, phase) and two linear parameters (velocity amplitude, barycenter velocity). We capitalize on this by building a sampling method in which we densely sample the prior probability density function (pdf) in the nonlinear parameters and perform rejection sampling using a likelihood function marginalized over the linear parameters. With sparse or uninformative data, the sampling obtained by this rejection sampling is generally multimodal and dense. With informative data, the sampling becomes effectively unimodal but too sparse: in these cases we follow the rejection sampling with standard MCMC. The method produces correct samplings in orbital parameters for data that include as few as three epochs. The Joker can therefore be used to produce proper samplings of multimodal pdfs, which are still informative and can be used in hierarchical (population) modeling. We give some examples that show how the posterior pdf depends sensitively on the number and time coverage of the observations and their uncertainties.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">binaries: spectroscopic</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: data analysis</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: statistical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">planets and satellites: fundamental parameters</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">surveys</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">techniques: radial velocities</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">20</subfield>
+  <subfield code="v">837</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/1538-4357/aa5e50</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">14</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-28</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0003-0872-7098</subfield>
+  <subfield code="a">Price-Whelan, Adrian M.</subfield>
+  <subfield code="v">Department of Astrophysical Sciences - Princeton U. - Princeton - NJ 08544 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0003-2866-9403</subfield>
+  <subfield code="a">Hogg, David W.</subfield>
+  <subfield code="v">Center for Cosmology and Particle Physics - Department of Physics - New York U. - 726 Broadway - New York - NY 10003 - USA</subfield>
+  <subfield code="v">Center for Data Science - New York U. - 60 Fifth Avenue - New York - NY 10011 - USA</subfield>
+  <subfield code="v">Max-Planck-Institut für Astronomie - Königstuhl 17 - D-69117 Heidelberg - Germany</subfield>
+  <subfield code="v">Flatiron Institute - Simons Foundation - 162 Fifth Avenue - New York - NY 10010 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-9328-5652</subfield>
+  <subfield code="a">Foreman-Mackey, Daniel</subfield>
+  <subfield code="v">Astronomy Department - U. of Washington - Seattle - WA 98195 - USA</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0003-4996-9069</subfield>
+  <subfield code="a">Rix, Hans-Walter</subfield>
+  <subfield code="v">Max-Planck-Institut für Astronomie - Königstuhl 17 - D-69117 Heidelberg - Germany</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">We have measurements of the radial velocity of a star, and that the time dependence of the expectation of that radial velocity is well described by the gravitational orbit of a pair of point masses (the two-body problem). We assume that the uncertainties in the observation epochs are negligible and specified in an inertial frame (e.g., solar system barycentric Julian date). We only consider the case of a single-line spectroscopic binary system, where we do not have measurements of the (fainter) companion&apos;s projected orbit</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Each star has exactly one companion, and that the radial velocity measurements are not contaminated by or affected by any other bodies. Our analysis allows the effective mass of the exactly one companion to go to zero with finite probability</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">this encompasses the case of no companion</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">The noise contributions to individual radial velocity measurements are well described as samples from zero-mean normal (Gaussian) distributions with correctly known variances convolved with a zero-mean normal distribution with an additional variance, s2. We assume that there are no outliers beyond this flexible noise model</subfield>
+  <subfield code="t">jitter</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">We can put particular, fairly sensible but not highly restrictive, prior probability density functions (pdfs) on all the orbital parameters, as we describe below</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">There are both linear and nonlinear parameters, and we can treat them differently</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">in particular, it is possible to analytically marginalize out the linear parameters (provided that the noise model is well behaved and the prior pdf is conjugate)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">There is a finite, time-sampling-imposed minimum size or resolution—in the period—of any features in the likelihood function. That is, there cannot be arbitrarily narrow modes in the multimodal posterior pdf</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">For each sample j in the prior pdf sampling of the four nonlinear parameters, there is a (linear, not logarithmic) marginal likelihood value Lj (a probability for the data given the nonlinear parameters)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">There is a maximum value {L}_{\max } that is the largest value of Lj found across all of the samples in the prior sampling</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">For each sample j, choose a random number rj between 0 and {L}_{\max }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">Reject the sample j if {L}_{j}\lt {r}_{j}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">The number of samples that survive the rejection is (hereafter) M</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">M\geqslant {M}_{\min } samples survive the rejection. In this case, we are done</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">M\lt {M}_{\min } samples survive the rejection, and these samples have a root variance (rms) in the period parameter P that is smaller than Δ (i.e., they give no indication of period ambiguity). In this case we assume that the posterior pdf is effectively unimodal, and we use the surviving samples (or sample) to initialize an MCMC sampling using the emcee package : #apjaa5e50bib10)</subfield>
+  <subfield code="h">Foreman-Mackey et al.</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">M\lt {M}_{\min } samples survive the rejection, and these samples span a period range larger than this case, we iterate the rejection-sampling procedure: we generate new prior pdf samplings and rejection-sample until the number of surviving samples is larger than {M}_{\min }. This is expensive</subfield>
+  <subfield code="h">Δ. In</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Randomly generate {M}_{\min } sets of parameters {{\boldsymbol{\theta }}}_{m} (linear and nonlinear parameters) in a small, Gaussian ball around the highest-Qj sample from the rejection sampling</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Run emcee on this ensemble (with {M}_{\min } walkers) for 216 steps (this number is arbitrary and can be tuned if the walkers converge much faster or slower)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Take the final state of the {M}_{\min }-element ensemble as an independent sampling of the posterior pdf</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Anglada-Escudé G., Amado P. J., Barnes J. et al.</subfield>
+  <subfield code="s">Nature,536,437</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1038/nature19106</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016Natur.536..437A</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Astropy Collaboration Crossref: ADS:</subfield>
+  <subfield code="h">Robitaille T. P., Tollerud E. J. et al.</subfield>
+  <subfield code="s">Astron.Astrophys.,558,A33</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201322068</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013A&amp;A...558A..33A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1244242</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Brewer B. J. and Donovan C. P.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,448,3206</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stv199</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015MNRAS.448.3206B</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Brewer B. J., Foreman-Mackey D. and Hogg D. W.</subfield>
+  <subfield code="s">Astron.J.,146,7</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/146/1/7</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013AJ....146....7B</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1203784</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Brewer B. J., Marshall P. J., Auger M. W. et al.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,437,1950</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnras/stt2026</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014MNRAS.437.1950B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="0">1261525</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Brewer B. J., Pártay L. B. and Csányi G.</subfield>
+  <subfield code="r">arXiv:0912.2380</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:0912.2380</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">852140</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">De Lee N.</subfield>
+  <subfield code="m">Ge J., Crepp J. R. et al Crossref: ADS:</subfield>
+  <subfield code="s">Astron.J.,145,155</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/145/6/155</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013AJ....145..155D</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1227745</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Eisenstein D. J., Weinberg D. H., Agol E. et al.</subfield>
+  <subfield code="s">Astron.J.,142,72</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/142/3/72</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011AJ....142...72E</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">883805</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Ford E. B.</subfield>
+  <subfield code="s">Publ.Astron.Soc.Pac.,116,1083</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/426726</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004PASP..116.1083F</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">667000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Foreman-Mackey D., Hogg D. W., Lang D. and Goodman J.</subfield>
+  <subfield code="s">Publ.Astron.Soc.Pac.,125,306</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/670067</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013PASP..125..306F</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1089369</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Foreman-Mackey D., Hogg D. W. and Morton T. D.</subfield>
+  <subfield code="s">Astrophys.J.,795,64</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/795/1/64</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...795...64F</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gregory P. C.</subfield>
+  <subfield code="s">Astrophys.J.,631,1198</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/432594</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2005ApJ...631.1198G</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hogg D. W., Bovy J. and Lang D.</subfield>
+  <subfield code="m">a Preprint:</subfield>
+  <subfield code="r">arXiv:1008.4686</subfield>
+  <subfield code="r">arXiv:1008.4686</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">866460</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hogg D. W., Myers A. D. and Bovy J.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,725,2166</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/725/2/2166</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010ApJ...725.2166H</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">866226</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Holtzman J. A., Shetrone M., Johnson J. A. et al.</subfield>
+  <subfield code="s">Astron.J.,150,148</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/150/5/148</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015AJ....150..148H</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hunter J. D.</subfield>
+  <subfield code="m">CSE 9 90, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007CSE.....9...90H</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kepler J.</subfield>
+  <subfield code="m">1609 Astronomia Nova (Heidelberg: Voegelin)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kipping D. M.</subfield>
+  <subfield code="s">Mon.Not.Roy.Astron.Soc.,434,L51</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1093/mnrasl/slt075</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013MNRAS.434L..51K</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1239449</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Loredo T. J.</subfield>
+  <subfield code="m">AIP Conf. Ser. 707, Bayesian Inference and Maximum Entropy Methods in Science and Engineering G. J. Erickson and Y. Zhai (eds.) (Melville, NY: AIP) 330, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004AIPC..707..330L</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Majewski S. R., Schiavon R. P., Frinchaboy P. M. et al.</subfield>
+  <subfield code="r">arXiv:1509.05420</subfield>
+  <subfield code="m">Preprint:</subfield>
+  <subfield code="r">arXiv:1509.05420</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mandel K. S., Narayan G. and Kirshner R. P.</subfield>
+  <subfield code="s">Astrophys.J.,731,120</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/731/2/120</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011ApJ...731..120M</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">878837</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Murray C. D. and Correia A. C. M.</subfield>
+  <subfield code="m">Exoplanets S. Seager (eds.) (Tucson, AZ: Univ. of Arizona Press) 15</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Nidever D. L., Holtzman J. A.</subfield>
+  <subfield code="m">Allende Prieto C. et al Crossref: ADS:</subfield>
+  <subfield code="s">Astron.J.,150,173</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/150/6/173</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015AJ....150..173N</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Pérez F. and Granger B. E.</subfield>
+  <subfield code="m">CSE 9 21</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Price-Whelan A. and Hogg D. W.</subfield>
+  <subfield code="m">adrn/thejoker Release v0.1, doi:</subfield>
+  <subfield code="a">doi:10.5281/zenodo.264481:</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="a">doi:10.5281/zenodo.264481</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Raghavan D., McAlister H. A., Henry T. J. et al.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,190,1</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/190/1/1</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010ApJS..190....1R</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="0">860339</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">SDSS Collaboration Allende Prieto C. et al Preprint:</subfield>
+  <subfield code="h">Albareti F. D.</subfield>
+  <subfield code="r">arXiv:1608.02013</subfield>
+  <subfield code="r">arXiv:1608.02013</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1480071</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Skilling J.</subfield>
+  <subfield code="m">AIP Conf. Ser. 735 R. Fischer, R. Preuss and U. V. Toussaint (eds.) (Melville, NY: AIP) 395</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Strader J., Brodie J. P. and Forbes D. A.</subfield>
+  <subfield code="s">Astron.J.,127,3431</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/420995</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004AJ....127.3431S</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">645794</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tokovinin A.</subfield>
+  <subfield code="s">Astron.J.,147,86</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-6256/147/4/86</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014AJ....147...86T</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Towns J., Cockerill T., Dahan M. et al.</subfield>
+  <subfield code="m">CSE 16 62</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Troup N. W., Nidever D. L., De Lee N. et al.</subfield>
+  <subfield code="s">Astron.J.,151,85</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.3847/0004-6256/151/3/85</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016AJ....151...85T</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Van CSE 13 22, Crossref:</subfield>
+  <subfield code="h">der Walt S., Colbert S. C. and Varoquaux G.</subfield>
+  <subfield code="a">doi:10.1109/mcse.2011.37</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">von Neumann J.</subfield>
+  <subfield code="m">JRNBS 12 36</subfield>
+  <subfield code="y">1951</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

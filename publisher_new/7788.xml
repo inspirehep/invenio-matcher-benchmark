@@ -1,0 +1,551 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">A new and accurate continuum description of moving fronts</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Processes that involve moving fronts of populations are prevalent in ecology and cell biology. A common approach to describe these processes is a lattice-based random walk model, which can include mechanisms such as crowding, birth, death, movement and agent–agent adhesion. However, these models are generally analytically intractable and it is computationally expensive to perform sufficiently many realisations of the model to obtain an estimate of average behaviour that is not dominated by random fluctuations. To avoid these issues, both mean-field (MF) and corrected mean-field (CMF) continuum descriptions of random walk models have been proposed. However, both continuum descriptions are inaccurate outside of limited parameter regimes, and CMF descriptions cannot be employed to describe moving fronts. Here we present an alternative description in terms of the dynamics of groups of contiguous occupied lattice sites and contiguous vacant lattice sites. Our description provides an accurate prediction of the average random walk behaviour in all parameter regimes. Critically, our description accurately predicts the persistence or extinction of the population in situations where previous continuum descriptions predict the opposite outcome. Furthermore, unlike traditional MF models, our approach provides information about the spatial clustering within the population and, subsequently, the moving front.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">New J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">033010</subfield>
+  <subfield code="v">19</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1367-2630/aa5bf5</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">18</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-06</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="540" ind1=" " ind2=" ">
+  <subfield code="a">cc-by</subfield>
+  <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Johnston, S.T.</subfield>
+  <subfield code="v">Mathematical Sciences - Queensland U. of Technology - Brisbane - Australia</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Baker, R.E.</subfield>
+  <subfield code="v">Mathematical Institute - U. of Oxford - Oxford - United Kingdom</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0001-6254-313X</subfield>
+  <subfield code="a">Simpson, M.J.</subfield>
+  <subfield code="v">Mathematical Sciences - Queensland U. of Technology - Brisbane - Australia</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SB1: A single agent at site i places a daughter agent at site i-1, where the gap that includes site i-1 is greater than length one. {C}_{i}^{1} and {G}_{j}^{i-j} decrease, {C}_{i-1}^{2} and {G}_{j}^{i-j-1} increase (figure, 1: #njpaa5bf5f1(b))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SB2: A single agent at site i places a daughter agent at site i+1, where the gap that includes site i+1 is greater than length one. {C}_{i}^{1} and {G}_{i+1}^{j} decrease, {C}_{i}^{2} and {G}_{i+2}^{j-1} increase (figure, 1: #njpaa5bf5f1(c))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SB3: A single agent at site i places a daughter agent at site i-1, where the gap that includes site i-1 is of length one. {C}_{i}^{1}, {G}_{i-1}^{1} and {C}_{j}^{i-j-1} decrease, {C}_{j}^{i-j+1} increases (figure, 1: #njpaa5bf5f1(d))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SB4: A single agent at site i places a daughter agent at site i+1, where the gap that includes site i+1 is of length one. {C}_{i}^{1}, {G}_{i+1}^{1} and {C}_{i+2}^{j} decrease, {C}_{i}^{j+2} increases (figure, 1: #njpaa5bf5f1(e))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EB1: An edge agent at site i places a daughter agent at site i-1, where the gap that includes site i-1 is greater than length one. {C}_{i}^{j} and {G}_{k}^{i-k} decrease, {C}_{i-1}^{j+1} and {G}_{k}^{i-k-1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(f))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EB2: An edge agent at site i places a daughter agent at site i+1, where the gap that includes site i+1 is greater than length one. {C}_{j}^{i-j+1} and {G}_{i+1}^{k} decrease, {C}_{j}^{i-j+2} and {G}_{i+2}^{k-1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(g))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EB3: An edge agent at site i places a daughter agent at site i-1, where the gap that includes site i-1 is of length one. {C}_{i}^{j}, {G}_{i-1}^{1} and {C}_{k}^{i-k-1} decrease, {C}_{k}^{i+j-k} increases, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(h))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EB4: An edge agent at site i places a daughter agent at site i+1, where the gap that includes site i+1 is of length one. {C}_{j}^{i-j+1}, {G}_{i+1}^{1} and {C}_{i+2}^{k} decrease, {C}_{j}^{i-j+k+2} increases, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(i))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SM1: A single agent at site i moves to site i-1, where the gap that includes site i-1 is greater than length one. {C}_{i}^{1}, {G}_{j}^{i-j} and {G}_{i+1}^{k} decrease, {C}_{i-1}^{1}, {G}_{j}^{i-j-1} and {G}_{i}^{k+1} increase (figure, 1: #njpaa5bf5f1(j))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SM2: A single agent at site i moves to site i+1, where the gap that includes site i+1 is greater than length one. {C}_{i}^{1}, {G}_{j}^{i-j} and {G}_{i+1}^{k} decrease, {C}_{i+1}^{1}, {G}_{j}^{i-j+1} and {G}_{i+2}^{k-1} increase (figure, 1: #njpaa5bf5f1(k))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SM3: A single agent at site i moves to site i-1, where the gap that includes site i-1 is of length one. {C}_{i}^{1}, {G}_{i-1}^{1}, {G}_{i+1}^{j} and {C}_{k}^{i-k-1} decrease, {C}_{k}^{i-k} and {G}_{i}^{j+1} increase (figure, 1: #njpaa5bf5f1(l))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SM4: A single agent at site i moves to site i+1, where the gap that includes site i+1 is of length one. {C}_{i}^{1}, {G}_{i+1}^{1}, {G}_{j}^{i-j} and {C}_{i+2}^{k} decrease, {C}_{i+1}^{k+1} and {G}_{j}^{i-j+1} increase (figure, 1: #njpaa5bf5f1(m))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EM1: An edge agent at site i moves to site i-1, where the gap that includes site i-1 is greater than length one. {C}_{i}^{j} and {G}_{k}^{i-k} decrease, {C}_{i-1}^{1}, {G}_{i}^{1}, {C}_{i+1}^{j-1} and {G}_{k}^{i-k-1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(n))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EM2: An edge agent at site i moves to site i+1, where the gap that includes site i+1 is greater than length one. {C}_{j}^{i-j+1} and {G}_{i+1}^{k} decrease, {C}_{i+1}^{1}, {G}_{i}^{1}, {C}_{j}^{i-j} and {G}_{i+2}^{k-1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(o))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EM3: An edge agent at site i moves to site i-1, where the gap that includes site i-1 is of length one. {C}_{i}^{j}, {G}_{i-1}^{1} and {C}_{k}^{i-k-1} decrease, {C}_{i+1}^{j-1}, {G}_{i}^{1} and {C}_{k}^{i-k} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(p))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event EM4: An edge agent at site i moves to site i+1, where the gap that includes site i+1 is of length one. {C}_{j}^{i-j+1}, {G}_{i+1}^{1} and {C}_{i+2}^{k} decrease, {C}_{j}^{i-j}, {G}_{i}^{1} and {C}_{i+1}^{k+1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(q))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event SD1: A single agent at site i dies. {C}_{i}^{1}, {G}_{j}^{i-j} and {G}_{i+1}^{k} decrease, {G}_{j}^{i+k-j+1} increases (figure, 1: #njpaa5bf5f1(r))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event MD1: A middle agent at site i dies. {C}_{j}^{k} decreases, {C}_{j}^{i-j}, {C}_{i+1}^{j+k-i-1} and {G}_{i}^{1} increase, where j\geqslant 3 (figure, 1: #njpaa5bf5f1(s))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event ED1: An edge agent at site i dies, where site i+1 is occupied and site i-1 is vacant. {C}_{i}^{j} and {G}_{k}^{i-k} decrease, {C}_{i+1}^{j-1} and {G}_{k}^{i-k+1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(t))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Event ED2: An edge agent at site i dies, where site i-1 is occupied and site i+1 is vacant. {C}_{j}^{i-j+1} and {G}_{i+1}^{k} decrease, {C}_{j}^{i-j} and {G}_{i}^{k+1} increase, where j\geqslant 2 (figure, 1: #njpaa5bf5f1(u))</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Alvord E C Jr and Shaw C M</subfield>
+  <subfield code="m">Neoplasms Affecting the Nervous System of the Elderly (Oxford: Oxford University Press)</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Clavero M and García-Berthou E</subfield>
+  <subfield code="m">Trends Ecol. Evol. 20 110, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.tree.2005.01.003</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Gabriely G, Wurdinger T, Kesari S, Esau C C, Burchard J, Linsley P S and Krichevsky A M</subfield>
+  <subfield code="m">Mol. Cell. Biol. 28 5369-80, Crossref:</subfield>
+  <subfield code="a">doi:10.1128/MCB.00479-08</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Gerlee P and Nelander S</subfield>
+  <subfield code="m">PLoS Comput. Biol. 8 e1002556, Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pcbi.1002556</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Gerlee P and Nelander S</subfield>
+  <subfield code="s">Math.Biosci.,276,75-81</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.mbs.2016.03.004</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Johnston S T, Simpson M J and McElwain D L S</subfield>
+  <subfield code="m">J. R. Soc Interface 110325, Crossref:</subfield>
+  <subfield code="a">doi:10.1098/rsif.2014.0325</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Martin P</subfield>
+  <subfield code="s">Science,276,75-81</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1126/science.276.5309.75</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Nnetu K D, Knorr M, Käs J and Zink M</subfield>
+  <subfield code="s">New J.Phys.,14,115012</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/14/11/115012</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Phillips B L, Brown G P, Greenlees M, Webb J K and Shine R</subfield>
+  <subfield code="m">Austral Ecol. 32 169-76, Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1442-9993.2007.01664.x</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Poujade M, Grasland-Mongrain E, Hertzog A, Jouanneau J, Chavrier P, Ladoux B, Buguin A and Silberzan P</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,104,15988-93</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1073/pnas.0705062104</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Sherratt J A, Lewis M A and Fowler A C</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,92,2524-8</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1073/pnas.92.7.2524</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Swanson K R, Bridge C, Murray J and Alvord E C Jr</subfield>
+  <subfield code="m">J. Neurol Crossref:</subfield>
+  <subfield code="s">Science,216,1-10</subfield>
+  <subfield code="a">doi:10.1016/j.jns.2003.06.001</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Townsend C R</subfield>
+  <subfield code="m">Biol. Conservation 78 13-22, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/0006-3207(96)00014-6</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Mungomery R</subfield>
+  <subfield code="m">Cane Growers Q. Bull 3 21-7</subfield>
+  <subfield code="y">1935</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Fort J and Sole R V</subfield>
+  <subfield code="s">New J.Phys.,15,055001</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/15/5/055001</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Deroulers C, Aubert M, Badoual M and Grammaticos B</subfield>
+  <subfield code="s">Phys.Rev.,E79,031917</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.79.031917</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Fort J and Pujol T</subfield>
+  <subfield code="s">New J.Phys.,9,234</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/9/7/234</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Illien P, Bénichou O, Mejía-Monasterio C, Oshanin G and Voituriez R</subfield>
+  <subfield code="s">Phys.Rev.Lett.,111,038102</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.111.038102</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Khain E, Katakowski M, Charteris N, Jiang F and Chopp M</subfield>
+  <subfield code="s">Phys.Rev.,E86,011904</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.86.011904</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Simpson M J, Landman K A and Hughes B D</subfield>
+  <subfield code="s">Physica,A389,3779-90</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physa.2010.05.020</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Simpson M J, Treloar K K, Binder B J, Haridas P, Manton K J, Leavesley D I, McElwain D L S and Baker R E</subfield>
+  <subfield code="m">J. R. Soc Interface 100007, Crossref:</subfield>
+  <subfield code="a">doi:10.1098/rsif.2013.0007</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Simpson M J and Baker R E</subfield>
+  <subfield code="s">Phys.Rev.,E83,051922</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.83.051922</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Anguige K and Schmeiser C</subfield>
+  <subfield code="s">J.Math.Biol.,58,395-427</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00285-008-0197-8</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Baker R E and Simpson M J</subfield>
+  <subfield code="s">Phys.Rev.,E82,041905</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.82.041905</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Fernando A E, Landman K A and Simpson M J</subfield>
+  <subfield code="s">Phys.Rev.,E81,011903</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.81.011903</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Johnston S T, Simpson M J and Baker R E</subfield>
+  <subfield code="s">Phys.Rev.,E85,051922</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.85.051922</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Johnston S T, Simpson M J and Baker R E</subfield>
+  <subfield code="s">J.Theor.Biol.,370,81-92</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2015.01.025</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Johnston S T, Baker R E and Simpson M J</subfield>
+  <subfield code="s">Phys.Rev.,E93,042413</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.93.042413</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Middleton A M, Fleck C and Grima R</subfield>
+  <subfield code="s">J.Theor.Biol.,359,220-32</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2014.06.011</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Turner S, Sherratt J A, Painter K J and Savill N J</subfield>
+  <subfield code="s">Phys.Rev.,E69,021910</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.69.021910</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Grima R</subfield>
+  <subfield code="m">Curr. Top. Dev. Biol. 81 435-60, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0070-2153(07)81015-5</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Sharkey K J, Fernandez C, Morgan K L, Peeler E, Thrush M, Turnbull J F and Bowers R G</subfield>
+  <subfield code="s">J.Math.Biol.,53,61-85</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00285-006-0377-3</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Wilkinson R R and Sharkey K J</subfield>
+  <subfield code="s">Phys.Rev.,E89,022808</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.89.022808</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Law R, Purves D W, Murrell D J and Dieckmann U</subfield>
+  <subfield code="m">Br. Ecol. Soc. 14 21-44</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Murrell D J</subfield>
+  <subfield code="m">Ecology 91 1605-16, Crossref:</subfield>
+  <subfield code="a">doi:10.1890/09-0832.1</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Chowdhury D, Schadschneider A and Nishinari K</subfield>
+  <subfield code="s">Phys.Life Rev.,2,318-52</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.plrev.2005.09.001</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Hedayati M et al.</subfield>
+  <subfield code="m">Nanomedicine 8 29-41, Crossref:</subfield>
+  <subfield code="a">doi:10.2217/nnm.12.98</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Johnston S T, Baker R E, McElwain D L S and Simpson M J</subfield>
+  <subfield code="s">Sci.Rep.,7,42134</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1038/srep42134</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Fisher R A</subfield>
+  <subfield code="s">Annals Eugen.,7,355-69</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1111/j.1469-1809.1937.tb02153.x</subfield>
+  <subfield code="y">1937</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Kolmogorov A N, Petrovsky I G and Piskunov N S</subfield>
+  <subfield code="m">Mosc. Univ. Math. Bull. 1 1-25</subfield>
+  <subfield code="y">1937</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Gillespie D T</subfield>
+  <subfield code="s">J.Phys.Chem.,81,2340-61</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1021/j100540a008</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Liang C C, Park A Y and Guan J L</subfield>
+  <subfield code="m">Nat. Protocols 2 329-33, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nprot.2007.30</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Johnston S T, Shah E T, Chopin L K, McElwain D L S and Simpson M J</subfield>
+  <subfield code="m">BMC Syst. Biol. 9 38, Crossref:</subfield>
+  <subfield code="a">doi:10.1186/s12918-015-0182-y</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Simpson M J, Binder B J, Haridas P, Wood B K, Treloar K K, McElwain D L S and Baker R E</subfield>
+  <subfield code="s">Bull.Math.Biol.,75,871-89</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s11538-013-9839-0</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Hiebeler D E, Houle J, Drummond F, Bilodeau P and Merckens J</subfield>
+  <subfield code="s">J.Theor.Biol.,407,212-24</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2016.07.031</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Markham D C, Simpson M J and Baker R E</subfield>
+  <subfield code="s">Phys.Rev.,E87,062702</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.87.062702</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Brown R G, James A F, Pitchford J W and Plank M J</subfield>
+  <subfield code="s">J.Theor.Biol.,310,231-8</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2012.06.033</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Johnston S T, Ross J V, Binder B J, McElwain D L S, Haridas P and Simpson M J</subfield>
+  <subfield code="s">J.Theor.Biol.,400,19-31</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jtbi.2016.04.012</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Press W H, Teukolsky S A, Vetterling W T and Flannery B P</subfield>
+  <subfield code="m">Numerical Recipes 3rd Edition: The Art of Scientific Computing (Cambridge: Cambridge University Press)</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

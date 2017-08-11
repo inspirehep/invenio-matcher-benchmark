@@ -1,0 +1,528 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Optimised resource construction for verifiable quantum computation</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Recent developments have brought the possibility of achieving scalable quantum networks and quantum devices closer. From the computational point of view these emerging technologies become relevant when they are no longer classically simulatable. Hence a pressing challenge is the construction of practical methods to verify the correctness of the outcome produced by universal or non-universal quantum devices. A promising approach that has been extensively explored is the scheme of verification via encryption through blind quantum computation. We present here a new construction that simplifies the required resources for any such verifiable protocol. We obtain an overhead that is linear in the size of the input (computation), while the security parameter remains independent of the size of the computation and can be made exponentially small (with a small extra cost). Furthermore our construction is generic and could be applied to any universal or non-universal scheme with a given underlying graph.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">145306</subfield>
+  <subfield code="v">A50</subfield>
+  <subfield code="n">14</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1751-8121/aa5dac</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">25</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-08</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="540" ind1=" " ind2=" ">
+  <subfield code="a">cc-by</subfield>
+  <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Kashefi, Elham</subfield>
+  <subfield code="v">School of Informatics - U. of Edinburgh - 10 Crichton Street - Edinburgh EH8 9AB - United Kingdom</subfield>
+  <subfield code="v">Departement Informatique et Reseaux - CNRS LTCI - Telecom ParisTech - Paris CEDEX 13 - France</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Wallden, Petros</subfield>
+  <subfield code="v">School of Informatics - U. of Edinburgh - 10 Crichton Street - Edinburgh EH8 9AB - United Kingdom</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) In section, 2: #aaa5dacs2, inspired by the dotted-complete graph state introduced in [, 4: #aaa5dacbib004], we give a generic construction where for any given (universal or non-universal graph state resource) multiple trap qubits isolated from the computation qubits can be added. Unlike the dotted-complete graph state the overhead of the new construction is only linear (instead of quadratic) in the size of the specific computation that will be performed. Furthermore the traps are uniformly distributed and their positions are essentially independent from each other</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) We use this construction to obtain a new universal VBQC protocol (section, 3: #aaa5dacs3) that has a lower cost. Since we are using a different resource, the proof technique had to be adapted accordingly. Our protocol even before adding any boosting mechanism has a constant security parameter and thus allows a straightforward one-shot experiment</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) When the output of the quantum computation is classical, we use a repetition technique to boost the security of our protocol to arbitrarily small (section, 4.1: #aaa5dacs4-1). Importantly, we can achieve this using a constant number of repetitions which is independent of the size of the computation and scales with the desired security parameter leading to an overall cost O\left(\log \frac{1}{\epsilon}\right)\times O(N). In previous VBQC protocols the number of repetitions that were required increased with the size of the computation</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) For the general quantum output case, we use a fault-tolerant encoding of the computation to boost the security to arbitrary small while at the same time we still requiring only a linear, in the size of the computation, overhead (section, 4.2: #aaa5dacs4-2) with a moderate extra cost that depends on the security parameter and scales as O\left(\log \frac{1}{\epsilon}\right) depending on the fault-tolerant encoding used. The overhead of previous VBQC protocols (except [, 7: #aaa5dacbib007]) is quadratic (on top of the security-parameter logarithmic dependency)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) We are given a base graph G that has vertices v\in V(G) and edges e\in E(G), as in figure, 1(a): #aaa5dacf01. In the following steps we will give the new graph DT(G), called dotted-triple graph and specify its vertices and edges</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) For each vertex vi, we define a set of three new vertices {{P}_{{{v}_{i}}}}=\left\{\,p_{1}^{{{v}_{i}}},p_{2}^{{{v}_{i}}},p_{3}^{{{v}_{i}}}\right\}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Corresponding to each edge e\left({{v}_{i}},{{v}_{j}}\right)\in E(G) of the base graph that connects the base vertices vi and vj, we introduce a set of nine edges {{E}_{e\left({{v}_{i}},{{v}_{j}}\right)}} that connect each of the vertices in the set {{P}_{{{v}_{i}}}} with each of the vertices in the set {{P}_{{{v}_{j}}}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) The graph that its vertices are {{{\cup}^{}}_{{{v}_{i}}\in V(G)}}{{P}_{{{v}_{i}}}} and the edges are defined as in the previous step is called triple-graph T(G), as in figure, 1(b): #aaa5dacf01</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(v) We perform the dotting operator D on the triple graph T(G) to obtain the dotted triple-graph DT(G). An example of dotted triple-graph can be seen in figure, 1(c): #aaa5dacf01</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Primary vertices are coloured in one of the three colours of white, black or green</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Added vertices are coloured in one of the four colours of white, black, green or red</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) In each primary set Pv there is exactly one vertex of each colour</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) Colouring the primary vertices fixes the colours of the added vertices: added vertices that connect primary vertices of different colour are red. Added vertices that connect primary vertices of the same colour get that colour</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Step 1: First we note that after tracing out the prover&apos;s register, the unitary \Omega becomes a completely positive trace preserving map (CPTP), and can be expressed in terms of the Kraus operators \left\{{{\chi}_{k}}\right\}, where {\sum}_{k}{{\chi}_{k}}\chi _{k}^{\dagger}=\mathbb{I}. Moreover we express each Kraus operator as linear combination of Pauli operators {{\chi}_{k}}={\sum}_{i}{{\alpha}_{ki}}{{\sigma}_{i}} and {\sum}_{k,i}{{\alpha}_{ki}}\alpha _{ki}^{\ast}=1. The matrix {{\sigma}_{i}} is a tensor product of Pauli matrices, where if we want to specify the Pauli acting on qubit γ we will denote it as {{\sigma}_{i|\gamma}}. We then get \begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; = &amp; \underset{\nu}{\sum}\,p(\nu )\text{Tr}\left(P_{\text{incorrect}}^{\nu}{{B}_{j}}(\nu )\right) \\ {} &amp; = &amp; \underset{b,i,j,k}{\sum}\,\text{Tr}\left(\underset{\nu}{\sum}\,p(\nu ){{\alpha}_{ki}}\alpha _{kj}^{\ast}\left({{P}_{\bot}}{{\otimes}_{t\in T}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|\right)|b+{{c}_{r}}\rangle \langle b|{{C}_{{{\nu}_{C}},b}}{{\sigma}_{i}}\mathcal{P}|{{ \Psi }^{\nu,b}}\rangle \langle {{ \Psi }^{\nu,b}}|{{\mathcal{P}}^{\dagger}}{{\sigma}_{j}}C_{{{\nu}_{C}},b}^{\dagger}|b\rangle \langle b+{{c}_{r}}|\right). \end{array}\end{eqnarray} \end{align*} \tag{ C.4 } \end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Step 2: Again following [, 4: #aaa5dacbib004], we can see that only terms that satisfy</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\begin{array}{*{35}{l}} \text{Tr}\left({{P}_{\bot}}{{\sigma}_{i}}\mathcal{P}|{{ \Psi }^{\nu,b}}\rangle \langle {{ \Psi }^{\nu,b}}|{{\mathcal{P}}^{\dagger}}{{\sigma}_{j}}\right)\ne 0 \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.5 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">contribute to the {{p}_{\text{fail}}}. The terms that obey this are those necessarily within those that |{{B}_{i}}|+|{{C}_{i}}|+|D_{i}^{O}|\geqslant 1, which we will denote as i\in {{E}_{i}} (and similarly j\in {{E}_{j}}), where the sets are defined as:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{A}_{i}} &amp; = &amp; \left\{\gamma ~\text{s}.\text{t}.~{{\sigma}_{i|\gamma}}=I~\text{and}~\gamma ~~\text{qubit}~\text{of}~\text{the}~\text{dotted}~\text{triple}-\text{graph}\right\} \\ {{B}_{i}} &amp; = &amp; \left\{\gamma ~\text{s}.\text{t}.~{{\sigma}_{i|\gamma}}=X~\text{and}~\gamma ~\text{qubit}~\text{of}~\text{the}~\text{dotted}~\text{triple}-\text{graph}\right\} \\ {{C}_{i}} &amp; = &amp; \left\{\gamma ~\text{s}.\text{t}.~{{\sigma}_{i|\gamma}}=Y~\text{and}~\gamma ~\text{qubit}~\text{of}~\text{the}~\text{dotted}~\text{triple}-\text{graph}\right\} \\ {{D}_{i}} &amp; = &amp; \left\{\gamma ~\text{s}.\text{t}.~{{\sigma}_{i|\gamma}}=Z~\text{and}~\gamma ~\text{qubit}~\text{of}~\text{the}~\text{dotted}~\text{triple}-\text{graph}\right\} \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.6 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">and the superscript O denotes subset of those sets that the γ is output qubit. In other words, to corrupt the computation one either needs to flip the outcome of a measured qubit, or make any Pauli (other than the identity) if the attack is on the quantum output.We have now imposed that the attacks {{\sigma}_{i}} that contribute have at least one non-trivial Pauli attack at a qubit of the DT(G). This is not a sufficient condition to corrupt the computation in general (and send it to the {{P}_{\bot}} subspace), but is a necessary condition. To see this, we note that if we consider a {{\sigma}_{i}} where i\notin {{E}_{i}}, then there is no choice of the secret parameters that would bring the state in the {{P}_{\bot}} subspace. Here we take the worse-case scenario, where we assume that if there is some choice of secret parameters that a given attack could corrupt the computation, then we assume that it already is in the subspace {{P}_{\bot}} and we only check what is the probability that this attack did not trigger any trap. For protocol, 1: #aaa5dactTA1 it is a single attack that could corrupt the computation. We then replace the projection on the {{P}_{\bot}} subspace, with a restriction on the possible attacks, i.e. at the sum we only have terms corresponding to attacks that belong to the set Ei. Note, that if the computation was encoded in an fault-tolerant way (as is done in section, 4.2: #aaa5dacs4-2), then the set Ei requires greater number of non-trivial attacks. For now we take the more conservative view.We then obtain the following expression:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; \leqslant &amp; \underset{k,{{b}^{\prime}}}{\sum}\,\underset{\nu}{\sum}\,p(\nu )\times \text{Tr}\left(\left({{\otimes}_{t\in T}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|\otimes |{{b}^{\prime}}\rangle \langle {{b}^{\prime}}|\right) \right. \\ {} &amp; {} &amp; \left. \left(\underset{i\in {{E}_{i}}}{\sum}\,{{\alpha}_{ki}}{{\sigma}_{i}}\right)\mathcal{P}|{{ \Psi }^{\nu,{{b}^{\prime}}}}\rangle \langle {{ \Psi }^{\nu,{{b}^{\prime}}}}|{{\mathcal{P}}^{\dagger}}{{\left(\underset{i\in {{E}_{i}}}{\sum}\,{{\alpha}_{ki}}{{\sigma}_{i}}\right)}^{\dagger}}\right) \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.7 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where {{b}^{\prime}}={{\left\{{{b}_{i}}\right\}}_{i\notin T}} a substring of b that excludes the value for the trap measurements (and we used that \langle \eta _{t}^{{{\nu}^{T}}}||{{b}_{t}}\rangle ={{\delta}_{\eta _{t}^{{{\nu}_{T}}},{{b}_{t}}}})</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Step 3: The next step is to exploit the fact that summing over the secret parameters of the verifier result to the prover being blind, and show that the only attacks that contribute are Pauli attacks, i.e. attacks that {{\sigma}_{i|\gamma}}={{\sigma}_{j|\gamma}} for all γ. Summing over {{\nu}_{C}} we obtain</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; \leqslant &amp; \underset{k,{{\nu}_{T}}}{\sum}\,\underset{i\in {{E}_{i}}}{\sum}\,\underset{j\in {{E}_{j}}}{\sum}\,{{\alpha}_{ik}}\alpha _{jk}^{\ast}p\left({{\nu}_{T}}\right) \\ {} &amp; \times &amp; \text{Tr}\left({{\otimes}_{t\in T}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i}}\left({{\otimes}_{t\in T}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|{{\otimes}_{t\in T}}|{{\delta}_{t}}\rangle \langle {{\delta}_{t}}|\otimes \frac{I}{\text{Tr}(I)}\right){{\sigma}_{j}}\right). \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.8 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} As all Pauli matrices but the identity are traceless, all terms in the sum are zero unless {{\sigma}_{i|\gamma}}={{\sigma}_{j|\gamma}} apart from the case that \gamma \in we use the fact that</subfield>
+  <subfield code="h">T. Then</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\begin{array}{*{35}{l}} \underset{{{\theta}_{t}},{{r}_{t}}}{\sum}\,\text{Tr}\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{j}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)=0 \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.9 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">unless {{\sigma}_{i|t}}={{\sigma}_{j|t}} in the case that t\in O and that for measured traps it suffices to sum over rt, i.e. {\sum}_{{{r}_{t}}}\text{Tr}\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i}}|\eta _{t}^{{{\nu}_{T}}}\rangle \langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{j}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)=0 unless {{\sigma}_{i|t}}={{\sigma}_{j|t}}. We then conclude that only terms that contribute are those that {{\sigma}_{i}}={{\sigma}_{j}}. We thus obtain:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; \leqslant &amp; \underset{k}{\sum}\,\underset{i\in {{E}_{i}}}{\sum}\,|{{\alpha}_{ki}}{{|}^{2}}\underset{T}{\sum}\,p(T)\underset{t\in T}{\prod}\,\left(\underset{{{\theta}_{t}},{{r}_{t}}}{\sum}\,p\left({{\theta}_{t}}\right)p\left({{r}_{t}}\right){{\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i|t}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)}^{2}}\right) \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.10 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where we broke the sum of {{\nu}_{T}} to the choice of positions T, and the random choices of {{\theta}_{t}},{{r}_{t}}, and we have taken the product of all those terms corresponding to the various white and black traps</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Step 4: In this step, we will prove that to maximise the value of the bound of the probability of {{p}_{\text{fail}}}, the best strategy is to do the least number of attacks allowed by the constraint obtained at step 2, which in our case, is a single attack. Then at the next step we will bound this maximum value. We have</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; \leqslant &amp; \underset{k}{\sum}\,\underset{i\in {{E}_{i}}}{\sum}\,|{{\alpha}_{ki}}{{|}^{2}}f(i) \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.11 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">where f(i):={\sum}_{T}p(T){\prod}_{t\in T}\left({\sum}_{{{\theta}_{t}},{{r}_{t}}}p\left({{\theta}_{t}}\right)p\left({{r}_{t}}\right){{\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i|t}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)}^{2}}\right). From {\sum}_{ik}|{{\alpha}_{ik}}{{|}^{2}}=1 we conclude that {{p}_{\text{fail}}} is maximised when |{{a}_{ik}}|\,=0 for all i\notin {{E}_{i}}. Then we have a convex combination of values f(i). Let f(m)={{\max}_{i\in {{E}_{i}}}}f(i), then and it follows that if this is maximum for the single value m, then by choosing |{{a}_{ik}}|=0 for all i\ne m the bound for {{p}_{\text{fail}}} is maximised</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} {{p}_{\text{fail}}} &amp; \leqslant &amp; f(m)=\underset{i\in {{E}_{i}}}{{\max}}\,f(i) \\ {} &amp; \leqslant &amp; \underset{i\in {{E}_{i}}}{{\max}}\,\underset{T}{\sum}\,p(T)\underset{t\in T}{\prod}\,\left(\underset{{{\theta}_{t}},{{r}_{t}}}{\sum}\,p\left({{\theta}_{t}}\right)p\left({{r}_{t}}\right){{\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i|t}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)}^{2}}\right). \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.12 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} In other words, we obtain a bound by considering a single {{\sigma}_{i}} that belongs to the set Ei and maximises the expression we have. The following expression involves a product of positive numbers, that are all less or equal to unity:</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\begin{array}{*{35}{l}} \underset{t\in T}{\prod}\,\left(\underset{{{\theta}_{t}},{{r}_{t}}}{\sum}\,p\left({{\theta}_{t}}\right)p\left({{r}_{t}}\right){{\left(\langle \eta _{t}^{{{\nu}_{T}}}|{{\sigma}_{i|t}}|\eta _{t}^{{{\nu}_{T}}}\rangle \right)}^{2}}\right). \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ C.13 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} In particular we can see that the terms in the product of equation (, C.13: #aaa5daceqn013) are unity for all trap positions that {{\sigma}_{i|t}} is trivial, i.e. {{\sigma}_{i|k}}\notin \left\{X,Y\right\} if k is not output, or {{\sigma}_{i|k}}\notin \left\{X,Y,Z\right\} if k is an output qubit. It is clear that this expression is bigger the more terms contain trivial attacks on traps. In other words, if we have two possible attacks {{\sigma}_{i}} and {{\sigma}_{{{i}^{\prime}}}}, where for all γ that {{\sigma}_{i|\gamma}} is non-trivial it is equal to {{\sigma}_{{{i}^{\prime}}|\gamma}} (but there are γ that {{\sigma}_{{{i}^{\prime}}|\gamma}} is non-trivial while {{\sigma}_{i|\gamma}} is trivial), then f(i)\geqslant f\left({{i}^{\prime}}\right). Therefore the term that maximises {{p}_{\text{fail}}} corresponds to an attack {{\sigma}_{i}} that has the fewest (possible, i.e. compatible with Ei) non-trivial terms.From step 2 we obtained that the set Ei has at least one non-trivial Pauli attack, so it follows that the bound of the {{p}_{\text{fail}}} we compute is maximised when there is exactly one non-trivial Pauli attack. It is important to note however, that the set Ei will be different in section, 4.2: #aaa5dacs4-2 where we consider fault-tolerant encoding of the computation and the corresponding {{\sigma}_{i}} will involve greater number of non-trivial attacks. In that case, the set of attacks that can possibly corrupt the computation (and thus send it to {{P}_{\bot}} subspace) changes (i.e. Ei differs)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Step 5: We will now use the partition of the qubits of the dotted triple-graph, to the subsets {{P}_{v}},{{A}_{e}} corresponding to vertices and edges of the base graph. The way that this partition is chosen does not reveal any new information to the prover and does not depend on the choice of trap-colouring, i.e. on the positions of the traps.We have established that the optimal strategy for the prover in order to maximise the value of the bound for the {{p}_{\text{fail}}} we compute, is to make a single non-trivial attack at one qubit of the dotted triple-graph. Let us assume that this single position is β and we know that it belongs to either a set {{P}_{{{v}_{\beta}}}} or a set {{A}_{{{e}_{\beta}}}} depending on whether the non-trivial attack is done on a qubit belonging to a primary set {{P}_{{{v}_{\beta}}}} or an added set {{A}_{{{e}_{\beta}}}}. When it is not clear if the set is primary or added, we will use {{F}_{\beta}} which simply means that {{F}_{\beta}}={{P}_{{{v}_{\beta}}}} if β is at a primary location and {{F}_{\beta}}={{A}_{{{e}_{\beta}}}} if β is at an added location</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Note however, that in the specific case of search algorithms, they belong to NP, and thus are classically verifiable without the need for a quantum verification protocol</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">The dotting operation is also known as edge subdivision</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">The break operator is also known as vertex deletion</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">Also known as isomorphic graphs</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Note again, that here we are dealing with D(G) and not DT(G), and thus we are dealing with a set of base-locations and not of vertices of the DT(G)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="m">It is important to note here, that \delta /2 is the number of different base-locations with non-trivial attacks, and not the number of qubits with non-trivial attacks</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">It turns out that the not-unity term, is zero for measured qubits, while it can be up to 1/2 for output qubits</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Bremner M, Jozsa R and Shepherd D</subfield>
+  <subfield code="m">Classical simulation of commuting quantum computations implies collapse of the polynomial hierarchy Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A467,459</subfield>
+  <subfield code="a">doi:10.1098/rspa.2010.0301</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Aaronson S and Arkhipov A</subfield>
+  <subfield code="m">The computational complexity of linear optics Proc. of the 43rd Annual ACM Symp. on Theory of Computing p 333</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Aharonov D, Jones V and Landau Z</subfield>
+  <subfield code="m">A polynomial quantum algorithm for approximating the Jones polynomial Proc. of the 38th Annual ACM Symp. on Theory of Computing p 427</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Fitzsimons J F and Kashefi E</subfield>
+  <subfield code="m">Unconditionally verifiable blind computation Preprint:</subfield>
+  <subfield code="r">arXiv:1203.5217</subfield>
+  <subfield code="r">arXiv:1203.5217</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Aharonov D, Ben-Or M and Eban E</subfield>
+  <subfield code="m">Interactive proofs for quantum computations Proc. of Innovations in Computer Science p 453</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Barz S, Fitzsimons J F, Kashefi E and Walther P</subfield>
+  <subfield code="m">Experimental verification of quantum computation Nat. Phys. 9 727-31, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nphys2763</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Kapourniotis T, Dunjko V and Kashefi E</subfield>
+  <subfield code="m">On optimising quantum communication in verifiable quantum computingProc. of the 15th Asian Quantum Information Science Conf. pp 23-5</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Kapourniotis T, Kashefi E and Datta A</subfield>
+  <subfield code="m">Blindness and verification of quantum computation with one pure qubit 9th Conf. on the Theory of Quantum Computation, Communication and Cryptography</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Morimae T</subfield>
+  <subfield code="m">Verification for measurement-only blind quantum computing Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A89,060302</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.89.060302</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Hayashi M and Morimae T</subfield>
+  <subfield code="m">Verifiable measurement-only blind quantum computing with stabilizer testing Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,115,220502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.115.220502</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Reichardt B W, Unger R F and Vazirani U</subfield>
+  <subfield code="m">Classical command of quantum systems Crossref:</subfield>
+  <subfield code="s">Nature,496,456-60</subfield>
+  <subfield code="a">doi:10.1038/nature12035</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">McKague M</subfield>
+  <subfield code="m">Interactive proofs for BQP via self-tested graph states Theory Comput. 12 1-42, Crossref:</subfield>
+  <subfield code="a">doi:10.4086/toc.2016.v012a003</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Gheorghiu A, Kashefi E and Wallden P</subfield>
+  <subfield code="m">Robustness and device independence of verifiable blind quantum computing Crossref:</subfield>
+  <subfield code="s">New J.Phys.,17,083040</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/17/8/083040</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Hajdušek M, Pérez-Delgado C A and Fitzsimons J F</subfield>
+  <subfield code="m">Device-independent verifiable blind quantum computation Preprint:</subfield>
+  <subfield code="r">arXiv:1502.02563</subfield>
+  <subfield code="r">arXiv:1502.02563</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Dunjko V, Fitzsimons J F, Portmann C and Renner R</subfield>
+  <subfield code="m">Composable security of delegated quantum computation Advances in Cryptology (Lecture Notes in Computer Science vol 8874) P Sarkar and T Iwata (eds.) (Berlin: pp 406-25, Crossref:</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="a">doi:10.1007/978-3-662-45608-8_22</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Broadbent A</subfield>
+  <subfield code="m">How to verify a quantum computation Preprint:</subfield>
+  <subfield code="r">arXiv:1509.09180</subfield>
+  <subfield code="r">arXiv:1509.09180</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Pappa A, Chailloux A, Wehner S, Diamanti E and Kerenidis I</subfield>
+  <subfield code="m">Multipartite entanglement verification resistant against dishonest parties Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,108,260502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.108.260502</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Markham D and Marin A</subfield>
+  <subfield code="m">Practical sharing of quantum secrets over untrusted channels Information Theoretic Security (Lecture Notes in Computer Science vol 9063) A Lehmann and S Wolf (eds.) (New York: pp 1-14</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Bell B A, Markham D, Herrera-Mart D A, Marin A, Wadsworth W J, Rarity J G</subfield>
+  <subfield code="m">and Tame November M S Experimental demonstration of graph-state quantum secret sharing Nat. Commun. 5 5480, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/ncomms6480</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Broadbent A, Gutoski G and Stebila D</subfield>
+  <subfield code="m">Quantum one-time programs Advances in Cryptology CRYPTO(Lecture Notes in Computer Science vol 8043) R Canetti and J A Garay (eds.) (Berlin: pp 344-60</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Aliferis P and Leung D W</subfield>
+  <subfield code="m">Computation by measurements: a unifying picture Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A70,062314</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.70.062314</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Danos V, Kashefi E and Panangaden P</subfield>
+  <subfield code="m">The measurement calculus J. ACM 548, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/1219092.1219096</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Raussendorf R and Briegel H J</subfield>
+  <subfield code="m">A one-way quantum computer Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,86,5188-91</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.86.5188</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Childs A M, Leung D W and Nielsen M A</subfield>
+  <subfield code="m">Unified derivations of measurement-based schemes for quantum computation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A71,032318</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.71.032318</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Hein M, Eisert J and Briegel H J</subfield>
+  <subfield code="m">Multiparty entanglement in graph states Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A69,062311</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.69.062311</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Broadbent A, Fitzsimons J and Kashefi E</subfield>
+  <subfield code="m">Universal blind quantum computation Proc. of the 50th Annual Symp. on Foundations of Computer Science pp 517-26</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Kashefi E and Wallden P</subfield>
+  <subfield code="m">Extending the delegated verifiable blind quantum computation functionality Preprint:</subfield>
+  <subfield code="r">arXiv:1606.06931</subfield>
+  <subfield code="r">arXiv:1606.06931</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="m">Networked quantum information technologies hub. (, www.nqit.ox.ac.uk:</subfield>
+  <subfield code="u">http://www.nqit.ox.ac.uk</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Raussendorf R, Harrington J and Goyal K</subfield>
+  <subfield code="m">Topological fault-tolerance in cluster state quantum computation Crossref:</subfield>
+  <subfield code="s">New J.Phys.,9,199</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/9/6/199</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

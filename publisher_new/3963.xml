@@ -1,0 +1,321 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">The role of direct links for link prediction in evolving networks</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Link prediction is the problem of predicting the existence and location of unknown links from uncertain structural information of a network. Most existing accuracy measures do not consider the role of time evolution within the network. Moreover, almost all existing methods use indirect links to infer and evaluate the validity of links. We introduce time as a parameter for link prediction accuracy measures, and we modify the structure of the link prediction algorithms to exploit information of the known direct links for link prediction. We find that the direct link algorithm performs better than the indirect link algorithm for a range of time varying networks. We show that the network structure plays a more important role than weights for links prediction. In addition, our analysis finds that the number of common neighbours also plays an important role for the so-called weak-ties phenomenon.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Europhys.Lett.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">28002</subfield>
+  <subfield code="v">117</subfield>
+  <subfield code="n">2</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1209/0295-5075/117/28002</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">7</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-15</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Shang, Ke-ke</subfield>
+  <subfield code="v">School of Marine Science and Technology - Northwestern Polytechnical U. - Xi&apos;an 710072 - PRC</subfield>
+  <subfield code="v">School of Mathematics and Statistics - The U. of Western Australia - Crawley - WA - 6009 - Australia</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Small, Michael</subfield>
+  <subfield code="v">School of Mathematics and Statistics - The U. of Western Australia - Crawley - WA - 6009 - Australia</subfield>
+  <subfield code="v">Mineral Resources - CSIRO - Kensington - WA - 6151 - Australia</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Xu, Xiao-ke</subfield>
+  <subfield code="v">College of Information and Communication Engineering - Dalian Minzu U. - Dalian - Liaoning 116600 - PRC</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Yan, Wei-sheng</subfield>
+  <subfield code="v">School of Marine Science and Technology - Northwestern Polytechnical U. - Xi&apos;an 710072 - PRC</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">These fractions are arbitrary, we provide numbers here as this is the typical treatment of these sets in the literature</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Different search keywords will get different datasets, here, we use the University of Western Australia as the search keywords. The citation network data uncovered a small number of papers with a very large number of authors. While the inclusion of these papers did not change our qualitative results, it did slow down our computational work and significantly skewed the degree distribution. To overcome this we only include manuscripts with fewer than 30 authors and report the results for analysis of that data in this paper</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">As described in a previous study [, 18: #epl18390bib18], choosing a small number of pairs of nodes (links) to compare is a benefit to observe the fluctuation of precision with the varying of α. Here, to distinguish the accuracies of different algorithms and observe their fluctuation, we choose the top 5% (or top m) pair of nodes to test</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">For the evolving networks, if we change the point-in-time to earlier, there are not enough links for training, and so the accuracies of all algorithms will decrease to a similar value</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">if we change the point-in-time to later, there are not enough links to test, and so the accuracies of all algorithms will decrease to a similar value</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">The E_{\textit{sample}} of the Facebook network includes 500 nodes, the remaining three networks include 100 nodes</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Redner S.</subfield>
+  <subfield code="s">Nature,453,47</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1038/453047a</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Clauset A., Moore C. and Newman M. E. J.</subfield>
+  <subfield code="s">Nature,453,98</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nature06830</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Stumpf M. P. H. et al.</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,105,6959</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1073/pnas.0708078105</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Amaral L. A. N.</subfield>
+  <subfield code="s">Proc.Nat.Acad.Sci.,105,6795</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1073/pnas.0802459105</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Adamic L. A. and Adar E.</subfield>
+  <subfield code="m">Soc. Netw. 25 211, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0378-8733(03)00009-1</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Zhang Z. K. et al.</subfield>
+  <subfield code="s">Europhys.Lett.,92,28002</subfield>
+  <subfield code="a">doi:10.1088/0295-5075/92/2/28002</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Zeng A. and Cimini G.</subfield>
+  <subfield code="s">Phys.Rev.,E85,036101</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.85.036101</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Shang K. K., Yan W. S. and Small M.</subfield>
+  <subfield code="m">Phys. A: Stat. Mech. Appl. 455 120, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physa.2016.02.067</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="m">Lü L. Y. and Zhou T.Phys. A: Stat. Mech. Appl. 390 1150, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physa.2010.11.027</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Holme P. and Saramäki J.</subfield>
+  <subfield code="s">Phys.Rept.,519,97</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physrep.2012.03.001</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Shang K. K., Yan W. S.</subfield>
+  <subfield code="m">and Xu X. K Crossref:</subfield>
+  <subfield code="s">Int.J.Mod.Phys.,C25,1450056</subfield>
+  <subfield code="a">doi:10.1142/S0129183114500569</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Bliss C. A. et al.</subfield>
+  <subfield code="m">J. Comput Crossref:</subfield>
+  <subfield code="s">Science,5,750</subfield>
+  <subfield code="a">doi:10.1016/j.jocs.2014.01.003</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Potgieter A. et al.</subfield>
+  <subfield code="m">Emerg. Complex. Organ. 11 69</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Soares P. R. S. and Prudêncio R. B. C.</subfield>
+  <subfield code="m">Expert Syst. Appl. 40 6652, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.eswa.2013.06.016</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Barzel B. and Barabási A.</subfield>
+  <subfield code="m">Nat. Biotechnol. 31 720, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nbt.2601</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Teschendorff A. E., Sollich P. and Kuehn R.</subfield>
+  <subfield code="m">Methods 67 282, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.ymeth.2014.03.013</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Shang K. K., Small M. and Yan W. S.</subfield>
+  <subfield code="m">Phys. A: Stat. Mech. Appl. 469 767, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physa.2016.11.129</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="m">Lü L. Y. and Zhou T</subfield>
+  <subfield code="s">Europhys.Lett.,89,18001</subfield>
+  <subfield code="a">doi:10.1088/0295-5075/89/1/18001</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Viswanath B. et al.</subfield>
+  <subfield code="m">Proceedings of the 2nd ACM Workshop on Online Social Networks (Barcelona, Spain: ACM Press)</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="u">http://apps.webofknowledge.com/</subfield>
+  <subfield code="m">:</subfield>
+  <subfield code="u">http://apps.webofknowledge.com/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Mastrandrea R., Fournet J. and Barrat A.</subfield>
+  <subfield code="s">PLoS One,10,e0136497</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1371/journal.pone.0136497</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="u">http://www.sociopatterns.org/</subfield>
+  <subfield code="m">:</subfield>
+  <subfield code="u">http://www.sociopatterns.org/</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Jure L. and Andrej K.</subfield>
+  <subfield code="m">SNAP Datasets: Stanford Large Network Dataset Collection :</subfield>
+  <subfield code="u">http://snap.stanford.edu/data/email-Eu-core.html</subfield>
+  <subfield code="u">http://snap.stanford.edu/data/email-Eu-core.html</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Herlocker J. L. et al.</subfield>
+  <subfield code="m">ACM Trans Crossref:</subfield>
+  <subfield code="s">Inf.Syst.,22,5</subfield>
+  <subfield code="a">doi:10.1145/963770.963772</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Liben-Nowell D. and Kleinberg J.</subfield>
+  <subfield code="m">J. Am Soc. Inf. Sci. Technol. 58 1019, Crossref:</subfield>
+  <subfield code="a">doi:10.1002/asi.20591</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Murata T. and Moriyasu S.</subfield>
+  <subfield code="m">Web Intelligence /WIC/ACM International Conference (Fremont, Cal.: Press)</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Shang K. K.</subfield>
+  <subfield code="m">and Xu X. K. J. Univ Electron. Sci. Technol. China 43 7</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Maslov S. and Sneppen K.</subfield>
+  <subfield code="s">Science,296,910</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1126/science.1065103</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="m">Li M. et alPhys. A: Stat. Mech. Appl. 350 643, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.physa.2004.11.039</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

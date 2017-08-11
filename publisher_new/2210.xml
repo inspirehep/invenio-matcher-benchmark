@@ -1,0 +1,289 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Industrial Scale Particle Simulations on the GPU Using the Blaze-DEM Code</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Numerical simulation of particulate materials is required in many industrial processes with applications ranging from ball mills in mining to powder mixers in pharmaceuticals. While the discrete element method (DEM) has become the defacto standard for numerical simulation of particulate materials, the large computational cost associated with the method limits the number of particles that can be simulated in a realistic time frame on a typical computer to less than a million. Simulations of millions of particles are only possible on expensive clusters which are typically not accessible to the majority of users. However, the computational architecture plays a significant role on the performance that can be realized. In the last few years the trend of increasing Central Processing Unit (CPU) clock speed resulting in more computations being performed in the same time period has stopped due to the physical limits on the materials used in the manufacturing of computer hardware. While computational power still scales with Moore’s Law, this scaling is now achieved through increasing the number of computing cores on a single chip as opposed to make a single core faster. Leading this evolution from multi core to many core processing chips is the Graphical Processor Unit (GPU) that can perform billions arithmetic operations in parallel. In this paper we present the GPU based code Blaze-DEM that allows for tens of millions of particles to be simulated on a single computer.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">10</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Springer Proc.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">1379-1388</subfield>
+  <subfield code="v">188</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/978-981-10-1926-5_142</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">ConferencePaper</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Govender, Nicolin</subfield>
+  <subfield code="v">Center for High Performance Computing CSIR - Cape Town - 7700 - South Africa</subfield>
+  <subfield code="v">RCPE - 8010 - Graz - Austria</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Wilke, Daniel N.</subfield>
+  <subfield code="v">Department of Mechanical U. and Aeronautical Engineering - Pretoria - Pretoria - 0001 - South Africa</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Pizette, Patrick</subfield>
+  <subfield code="v">Ecole Mines Douai - Douai - France</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Rajamani, Raj K.</subfield>
+  <subfield code="v">Utah U. - Salt Lake City - USA</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Cundall, P.A., Strack, O.D.L.</subfield>
+  <subfield code="m">: A discrete numerical model for granular assemblies</subfield>
+  <subfield code="s">Geotech.,29,47-65</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Cleary, P.W.</subfield>
+  <subfield code="m">: The filling of dragline buckets. Math. Eng. Ind. 7, 1-24</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Mishra, B.K., Rajamani, R.K.</subfield>
+  <subfield code="m">: Simulation of charge motion in ball mills. Part 1: experimental verifications. Int. J Miner. Process 40, 171-186</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Radeke, C.A., Glasser, B.J., Khinast, J.G.</subfield>
+  <subfield code="m">: Large-scale powder mixer simulations using massively parallel GPU architectures</subfield>
+  <subfield code="s">Chem.Eng.Sci.,65,6435-6442</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Cleary, P.W., Sawley, M.L.</subfield>
+  <subfield code="m">: DEM modelling of industrial granular flows: 3D case studies and the effect of particle shape on hopper discharge. Appl. Math. Model. 26, 89-111</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Latham, J.P., Munjiza, A.</subfield>
+  <subfield code="m">: The modelling of particle systems with real shapes. Philos. Trans. R Soc. Lond. Ser. A Math. Phys</subfield>
+  <subfield code="s">Eng.Sci.,362,1953-1972</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Abou-Chakra, H., Baxter, J., Tuzun, U.</subfield>
+  <subfield code="m">: Three-dimensional particle shape descriptors for computer simulation of non-spherical particulate assemblies. Adv. Powder Technol. 15, 63-77</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Hohner, D., Wirtz, S.</subfield>
+  <subfield code="m">Scherer Emden, H.K : Comparison of the multi-sphere and polyhedral approach to simulate non-spherical particles within the discrete element method. Powder Technol. 208, 643-656</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Markauska, D.</subfield>
+  <subfield code="m">: Investigation of adequacy of multi-sphere approximation of elliptical particles for DEM simulations. Granul. Matter 12, 107-123</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Zhao, D., Nezami, E.G., Hashash, Y.</subfield>
+  <subfield code="m">Jamshid Ghaboussi, J : Three-dimensional discrete element simulation for granular materials. Comput. Aided Eng. Comput. Int. J Eng. Softw. 749-770</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Mack, S., Langston, P., Webb, C., York, T.</subfield>
+  <subfield code="m">: Experimental validation of polyhedral discrete element model. Powder Technol. 214, 431-442</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Munjiza, A.</subfield>
+  <subfield code="m">: A combined finite-discrete element method in transient dynamics of fracturing solids. Int. J Eng. Comput. 12, 145-174</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Cundall, P.A.</subfield>
+  <subfield code="m">: Formulation of a three-dimensional distinct element model—Part I: a scheme to detect and represent contacts in a system composed of many polyhedral blocks. Int. J Rock Mech. 25, 107-116</subfield>
+  <subfield code="y">1988</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Hlungwani, O., Rikhotso, J., Dong, H., Moys, M.H.</subfield>
+  <subfield code="m">: Further validation of DEM modeling of milling: effects of liner profile and mill speed. Miner. Eng. 16, 993-998</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Langston, P.</subfield>
+  <subfield code="m">: Distinct element modelling of non-spherical frictionless particle flow</subfield>
+  <subfield code="s">Chem.Eng.Sci.,59,425-435</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Venugopal, R., Rajamani, R.K.</subfield>
+  <subfield code="m">: 3D simulation of charge motion in tumbling mills by the discrete element method. Powder Technol. 115, 157-166</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Sanders, J., Kandrot, E.</subfield>
+  <subfield code="m">: CUDA by example</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Govender, N., Wilke, D., Kok, S., Els, R.</subfield>
+  <subfield code="m">: Development of a convex polyhedral discrete element simulation framework for NVIDIA Kepler based GPUs</subfield>
+  <subfield code="s">J.Comput.Appl.Math.,270,63-77</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Govender, N., Wilke, D., Kok, S.</subfield>
+  <subfield code="m">: Collision detection of convex polyhedra on the NVIDIA GPU architecture for the discrete element method. J</subfield>
+  <subfield code="s">Appl.Math.Comput.,267,810-829</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Govender, N., Rajamani, R.K., Wilke, D., Kok, S.</subfield>
+  <subfield code="m">: Discrete element simulation of mill charge in 3D using the BLAZE-DEM GPU framework. J. Miner Eng. 79, 152-168</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="m">Xu, J., et al.: Quasi-real-time simulation of rotating drum using discrete element method with parallel GPU computing. Particuology 9, 446-450</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Shigeto, Y., Sakai, M.</subfield>
+  <subfield code="m">: Parallel computing of discrete element method on multi-core processors. Particuology 9, 389-405</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Longmore, J.P., Marais, P., Kuttel, M.</subfield>
+  <subfield code="m">: Towards realistic and interactive sand simulation: a GPU-based framework. Powder Technol. 235, 983-1000</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Hromnik, M.</subfield>
+  <subfield code="m">: A GPGPU implementation of the discrete element method applied to modeling the dynamic particulate environment inside a tumbling mill. Masters thesis, University of Cape Town</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Cleary, P.W.</subfield>
+  <subfield code="m">: Recent advances in DEM modelling of tumbling mills. Miner. Eng. 14, 1295-1319</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Bell, N.</subfield>
+  <subfield code="m">Yu, Y.: Particle-based simulation of granular materials. In: Eurographics/ACM SIGGRAPH Symposium on Computer Animation, pp. 29-31</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Nassauer, B., Liedke, T.</subfield>
+  <subfield code="m">: Polyhedral particles for the discrete element method. Granul. Matter 15, 85-93</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Boon, C.W., Houlsby, G.T., Utili, S.</subfield>
+  <subfield code="m">: A new algorithm for contact detection between convex polygonal and polyhedral particles in the discrete element method. Comput</subfield>
+  <subfield code="s">Geotech.,44,73-82</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Grunbaum, B.</subfield>
+  <subfield code="m">: Convex Polytopes, 2nd edn. (Volker Kaibel) New York</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Jaelee, S.</subfield>
+  <subfield code="m">: Developments in large scale discrete element with polyhedral particles simulations. Ph.D. thesis, University of Illinois at Urbana-Champaign</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Harada, T.</subfield>
+  <subfield code="m">: Real-time rigid body simulation on GPUs. In: GPU Gems 3</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Neubauer, G., Radek, C.A.</subfield>
+  <subfield code="m">: GPU based particle simulation framework with fluid coupling ability. In: NVIDIA GTC, San Jose, USA</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="m">NVIDIA: CUDA 6</subfield>
+  <subfield code="u">http://www.nvidia.com/cuda</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

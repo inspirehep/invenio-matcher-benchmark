@@ -1,0 +1,690 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">A review for compact model of graphene field-effect transistors</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Chin.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">036804</subfield>
+  <subfield code="v">B26</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1674-1056/26/3/036804</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">18</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-06</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Review</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="q">卢 年端</subfield>
+  <subfield code="a">Lu, Nianduan</subfield>
+  <subfield code="v">Key Laboratory of Microelectronic Devices &amp; Integrated Technology - Institute of Microelectronics - Chinese Academy of Sciences - Beijing 100029 - China</subfield>
+  <subfield code="v">U. of Chinese Academy of Sciences - Beijing 100049 - China</subfield>
+  <subfield code="v">Jiangsu National Synergetic Innovation Center for Advanced Materials (SICAM) - Nanjing 210009 - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="q">汪 令飞</subfield>
+  <subfield code="a">Wang, Lingfei</subfield>
+  <subfield code="v">Key Laboratory of Microelectronic Devices &amp; Integrated Technology - Institute of Microelectronics - Chinese Academy of Sciences - Beijing 100029 - China</subfield>
+  <subfield code="v">Jiangsu National Synergetic Innovation Center for Advanced Materials (SICAM) - Nanjing 210009 - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="q">李 泠</subfield>
+  <subfield code="a">Li, Ling</subfield>
+  <subfield code="v">Key Laboratory of Microelectronic Devices &amp; Integrated Technology - Institute of Microelectronics - Chinese Academy of Sciences - Beijing 100029 - China</subfield>
+  <subfield code="v">U. of Chinese Academy of Sciences - Beijing 100049 - China</subfield>
+  <subfield code="v">Jiangsu National Synergetic Innovation Center for Advanced Materials (SICAM) - Nanjing 210009 - China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="q">刘 明</subfield>
+  <subfield code="a">Liu, Ming</subfield>
+  <subfield code="v">Key Laboratory of Microelectronic Devices &amp; Integrated Technology - Institute of Microelectronics - Chinese Academy of Sciences - Beijing 100029 - China</subfield>
+  <subfield code="v">U. of Chinese Academy of Sciences - Beijing 100049 - China</subfield>
+  <subfield code="v">Jiangsu National Synergetic Innovation Center for Advanced Materials (SICAM) - Nanjing 210009 - China</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Must represent consistently the behavior of FET device</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Must be symmetrical to reflect the symmetry of FET structure</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Has to be analytical, without differentials or integrals. Could be in a matrix format but must not be a finite element model</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) Has to be simple and easily derivable. No compromises with the overall FET behavior but some freedom for simplifications should be allowed, neglecting details that deviate from experimental trends, are insignificant in magnitude, or are not reproducible in identical devices and measurements. In other words, one should have a generic model</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(v) Has to have parameters that can be characterized relatively easy, or even guessed</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(vi) Has to be upgradable and reducible. Consequently, different portions and dependences (e.g., on temperature) in the model can be replaced with different models. Thus, the different portions in the model are extensions of each other, and the portions communicate between each other only by the values of the parameters or the quantities but the relations in the different portions must remain separated</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(vii) Has to have relations that can be physically justified</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(viii) Should have similar form and correspondence to compact models for other FETs</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ix) Should be tunable to inaccurate (or uncertain) experimental data. Consequently, scaling rules can be left external, since these rules can be obscured by individual devices and different measurements</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">*</subfield>
+  <subfield code="m">Project supported by the Opening Project of Key Laboratory of Microelectronics Devices and Integrated Technology, Institute of Microelectronics, Chinese Academy of Sciences, the National Natural Science Foundation of China (Grant No. 61574166), the National Basic Research Program of China (Grant No.CBA01604), the National Key Research and Development Program of China (Grant No. 2016YFA0201802), and the Beijing Training Project for the Leading Talents in S&amp;T, China (Grant No. Z151100000315008)</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Novoselov K S, Geim A K, Morozov S V, Jiang D, Zhang Y, Dubonos S V, Grigorieva I V and Firsov A A</subfield>
+  <subfield code="s">Science,306,666</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Novoselov K S, Geim A K, Morozov S V, Jiang D, Katsnelson M I, Grigorieva I V, Dubonos S V and Firsov A A</subfield>
+  <subfield code="s">Nature,438,197</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">692484</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Zhang Y B, Tan Y W, Stormer H L and Kim P</subfield>
+  <subfield code="s">Nature,438,201</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="0">921546</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Geim A K and Novoselov K S</subfield>
+  <subfield code="m">Nat. Mater. 6 183</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Lin Y M, Dimitrakopoulos C, Jenkins K A, Farmer D B, Chiu H Y, Grill A and Avouris P</subfield>
+  <subfield code="s">Science,327,662</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Liu M, Yin X B, Ulin-Avila E, Geng B S, Zentgraf T</subfield>
+  <subfield code="m">Lu L, Wang F and Zhang X</subfield>
+  <subfield code="s">Nature,474,64</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Kim S J, Choi K, Lee B, Kim Y and Hong B H</subfield>
+  <subfield code="m">Annu. Rev. Mater. Res. 45 63</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Hao F and Chen X</subfield>
+  <subfield code="m">Mater. Res. Express 2 105016</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Liu X J, Cao W Q, Huang Z H, Yuan J, Fang X Y and Cao M S</subfield>
+  <subfield code="s">Chin.Phys.Lett.,32,036802</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Wang J, Liang M, Fang Y, Qiu T, Zhang J and Zhi L</subfield>
+  <subfield code="s">Adv.Mater.,24,2874</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Schwierz F</subfield>
+  <subfield code="m">Nat. Nanotech. 5 487</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Danijel D, Ninoslav S, Zoran P, Ivica M, Vojakn D, Aneta P, Snezana D V and Snezana G</subfield>
+  <subfield code="s">Chin.Phys.,B24,106601</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Han M Y, Özyilmaz B, Zhang Y and Kim P</subfield>
+  <subfield code="s">Phys.Rev.Lett.,98,206805</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">Ni Z H, Yu T, Lu Y H ACS Nano 2 2301</subfield>
+  <subfield code="h">Wang Y Y, Feng Y P and Shen Z X</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Zhou S Y, Gweon G H, Fedorov A V, First P N, de Heer W A et al.</subfield>
+  <subfield code="m">Nat. Mater. 6 770</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Kim B J, Lee S K, Kang M S, Ahn J H and Cho J H</subfield>
+  <subfield code="m">ACS Nano 6 8646</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Park J U, Nam S, Lee M S and Lieber C M</subfield>
+  <subfield code="m">Nat. Mater. 11 120</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Mehmood F, Pachter R</subfield>
+  <subfield code="m">Lu W and Boeckl J J</subfield>
+  <subfield code="s">J.Phys.Chem.,C117,10366</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="h">Zong Z W</subfield>
+  <subfield code="m">Li L, Jang J Lu N D and Liu M</subfield>
+  <subfield code="s">J.Appl.Phys.,117,215705</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="m">Lu N D, Li L</subfield>
+  <subfield code="h">Sun P X and Liu M</subfield>
+  <subfield code="s">Chem.Phys.Lett.,614,27</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Moaiyeri M, Sedighiani S, Sharifi F and Navi K</subfield>
+  <subfield code="m">Frontiers of Information Technology &amp;</subfield>
+  <subfield code="s">Electron.Eng.,17,1056</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="m">Lu N D Li L, Liu Q, Long S B Lv H B and Liu M</subfield>
+  <subfield code="h">Sun P X</subfield>
+  <subfield code="s">Chin.Phys.,B25,056501</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Buccella P, Stefanucci C, Zou H, Moursy Y, Iskander R, Sallese J M and Kayal M</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="m">Transaction on Computer-Aided Design of Integrated Circuits and Systems 35 1489</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Marinov O, Deen M J, Zschieschang U and Klauk H</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,56,2952</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Marinov O, Deen M J and Datars R</subfield>
+  <subfield code="s">J.Appl.Phys.,106,064501</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Krishnamoorthy S and Chowdhury M H</subfield>
+  <subfield code="m">Integrated Computer-Aided Energeering 16 131</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="u">https://www.src.org/program/grc/ds/research-needs/2003/compact-modeling.pdf</subfield>
+  <subfield code="m">:</subfield>
+  <subfield code="u">https://www.src.org/program/grc/ds/research-needs/2003/compact-modeling.pdf</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Kacprzak T and Materka A</subfield>
+  <subfield code="s">IEEE J.Solid State Circuits,18,211</subfield>
+  <subfield code="y">1983</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="m">Li L</subfield>
+  <subfield code="h">Marien H, Genoe J, Steyaert M and Heremans P</subfield>
+  <subfield code="s">IEEE Electron.Dev.Lett.,31,210</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Zhao W S, Duval J, Ravelosona D, Klein J O and Kim J V</subfield>
+  <subfield code="s">J.Appl.Phys.,109,07</subfield>
+  <subfield code="m">501</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Sarkhel S, Bagga N and Sarkar S K</subfield>
+  <subfield code="m">J. Comp Electron. 15 104</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Aguirre-Morales J D, Fregonese S, Mukherjee C and Maneux C</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,62,4327</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Hur J, Moon D I, Choi J M, Seol M L, Jeong U S and Jeon C H</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,62,2285</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Meric I, Baklistskaya N, Kim P and Shepard K L</subfield>
+  <subfield code="m">Electronic Devices Meeting</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Meric I, Han M Y, Young A F, Ozyilmaz B, Kim P and Shepard K L</subfield>
+  <subfield code="m">Nat. Nanotech. 3 653</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Wang H, Hus A, Kong J, Antoniadis D A and Palacios T</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,58,1523</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Henry M B and Das S</subfield>
+  <subfield code="m">Circuits and Systems (ISCAS) International Symposium on</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Lee J and Shin H</subfield>
+  <subfield code="s">J.Korean Phys.Soc.,61,1797</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Frégonśe S, Meng N, Nguyen H N and Majek C</subfield>
+  <subfield code="m">Solid-State Electronic 73 27</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Fuchs E, Dollfus P, Carval G L, Barraud S, Villanueva D, Salvetti F, Jaouen H and Skotnicki T</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,52,2280</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Jiménez D</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,58,4377</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Jiménez D and Moldovan O</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,58,4049</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Zebrev G I, Tselykovskiy A A, Batmanova D K and Melnik E V</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,60,1799</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Iannazzo M, Muzzo V L, Rodriguez S, Pandey H, Rusu A, Lemme M and Alarcon E</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,62,3870</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Pasadas F and Jiménez D</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,63,2942</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Scott B W and Leburton J P</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="m">Trans. Nanotech. 10 1113</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Wang L F, Peng S A, Zong Z W</subfield>
+  <subfield code="m">Li L, Wang W Xu G W, Lu N D, Ji Z Y, Jin Z and Liu M Electron Devices Meeting International</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Wang L F, Peng S A, Wang W</subfield>
+  <subfield code="m">Xu G W, Lu N D, Ji Z Y, Lu N D, Li L and Liu M</subfield>
+  <subfield code="s">J.Appl.Phys.,120,084509</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Aguirre-Morales J D, Frégonśe S, Mukherjee C, Maneux C and Zimmer T</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,62,4333</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="h">Aguirre-Morales J D, Frégonśe S, Mukherjee C, Maneux C and Zimmer T</subfield>
+  <subfield code="m">Solid-State Device Research Conference,46th European</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Aguirre-Morales J D, Frégonśe S, Mukherjee C, Maneux C and Zimmer T</subfield>
+  <subfield code="m">Solid-State Device Research Conference,46th European</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">Rubén M B, Cristina G N J G H and Félix Z</subfield>
+  <subfield code="m">Nanoscale 3 20</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="h">Zhang Y, Zhang L Y and Zhou C W</subfield>
+  <subfield code="s">Accounts Chem.Res.,46,2329</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="m">Xu M S Chemical Reviews 113 3766</subfield>
+  <subfield code="h">Liang T, Shi M M and Chen H Z</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="h">Gupta A, Sakthivel T and Seal S</subfield>
+  <subfield code="m">Process in Materials</subfield>
+  <subfield code="s">Science,73,44</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="h">Niu T C</subfield>
+  <subfield code="m">and Li AProcess in Materials</subfield>
+  <subfield code="s">Science,90,21</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">Novoselov K S, Mishchenko A, Carvalho A and Neto A H C</subfield>
+  <subfield code="s">Science,353,6298</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">Sah C T and Pao H C</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,13,393</subfield>
+  <subfield code="y">1966</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">Brews J R</subfield>
+  <subfield code="m">Solid-State Electrons 21 345</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">Hess K</subfield>
+  <subfield code="m">Advanced Theory of Semiconductor Devices (New York: - Press)</subfield>
+  <subfield code="p">Wiley</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">Chen J H</subfield>
+  <subfield code="s">Solid State Commun.,149,1080</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">Fratini S and Ginea F</subfield>
+  <subfield code="s">Phys.Rev.,B77,195415</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">Rostron R W</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,19,1024</subfield>
+  <subfield code="y">1972</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">Baranovskii S D, Faber T, Hensel F, Thomas P and Adriaenssens G J</subfield>
+  <subfield code="m">J. Non-Cryst Solids 198-200 214</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="m">Castro</subfield>
+  <subfield code="h">Neto A H, Guinea F, Peres N M R, Novoselov K S and Geim A K</subfield>
+  <subfield code="s">Rev.Mod.Phys.,81,109</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">864370</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">Zhu W, Perebeinos V, Freitag M and Avouris P</subfield>
+  <subfield code="s">Phys.Rev.,B80,235402</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="h">Gildenblat G</subfield>
+  <subfield code="m">Wu W M, L X, Langevelde R, van Scholten A J, Smit G D J and Klaassen D B M Compact Modeling (Netherlands: 4</subfield>
+  <subfield code="p">Springer</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="h">Brews J</subfield>
+  <subfield code="s">Solid State Electron.,21,345</subfield>
+  <subfield code="y">1978</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="h">Canali C, Majni G, Minder R and Ottaviani G</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,22,1045</subfield>
+  <subfield code="y">1975</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">Chauhan J and Guo J</subfield>
+  <subfield code="s">Appl.Phys.Lett.,95,023120</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">Xia J., Cheng F</subfield>
+  <subfield code="m">Li J and Tao NNat</subfield>
+  <subfield code="s">Nanotechnol.,4,505</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="h">Kedzierski J, Hsu P L, Reina A, Kong J, Healey P, Wyatt P and Keast C</subfield>
+  <subfield code="s">IEEE Electron.Dev.Lett.,30,745</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">Thiele S A and Schwierz F</subfield>
+  <subfield code="s">J.Appl.Phys.,107,094505</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">Szafranek B N, Schall D, Neumaier D and Kurz H</subfield>
+  <subfield code="s">Nano Lett.,12,1324</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="m">Li Q</subfield>
+  <subfield code="h">Hwang E H and Das Sarma S</subfield>
+  <subfield code="s">Phys.Rev.,B82,235126</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">Wang L F, Wang W</subfield>
+  <subfield code="m">Xu G W, Ji Z, Lu N D, Li L and Liu M</subfield>
+  <subfield code="s">Appl.Phys.Lett.,108,013503</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="m">Li Q</subfield>
+  <subfield code="h">Hwang E and Sarma S D</subfield>
+  <subfield code="s">Phys.Rev.,B84,115442</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">Bendix P, Rakers P, Wagh P, Lemaitre L, Grabinski W, McAndrew C</subfield>
+  <subfield code="m">Gu X and Gildenblat GCustom Integrated Circuits Conference</subfield>
+  <subfield code="s">IEEE Proc.,9,12</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">McAndrew C C</subfield>
+  <subfield code="s">IEEE Trans.Electron.Dev.,53,2202</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="m">Joaquıīn Int. J Numer. Model 23 88</subfield>
+  <subfield code="h">Alvarado Ã, Iniguez B, Estrada M, Flandre D and Cerdeira A</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Project supported by the Opening Project of Key Laboratory of Microelectronics Devices and Integrated Technology, Institute of Microelectronics, Chinese Academy of Sciences, the National Natural Science Foundation of China (Grant No. 61574166), the National Basic Research Program of China (Grant No. 2013CBA01604), the National Key Research and Development Program of China (Grant No. 2016YFA0201802), and the Beijing Training Project for the Leading Talents in S</subfield>
+ </datafield>
+</record>

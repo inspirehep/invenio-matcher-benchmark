@@ -1,0 +1,71 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Toroidal figures of equilibrium from a second-order accurate, accelerated SCF method with subgrid approach</subfield>
+  <subfield code="9">Oxford University Press</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">We compute the structure of a self-gravitating torus with polytropic equation of state (EOS) rotating in an imposed centrifugal potential. The Poisson solver is based on isotropic multigrid with optimal covering factor (fluid section-to-grid area ratio). We work at second order in the grid resolution for both finite difference and quadrature schemes. For soft EOS (i.e. polytropic index n ≥ 1), the underlying second order is naturally recovered for boundary values and any other integrated quantity sensitive to the mass density (mass, angular momentum, volume, virial parameter, etc.), i.e. errors vary with the number N of nodes per direction as ∼1/N^2. This is, however, not observed for purely geometrical quantities (surface area, meridional section area, volume), unless a subgrid approach is considered (i.e. boundary detection). Equilibrium sequences are also much better described, especially close to critical rotation. Yet another technical effort is required for hard EOS (n &lt; 1), due to infinite mass density gradients at the fluid surface. We fix the problem by using kernel splitting. Finally, we propose an accelerated version of the self-consistent field (SCF) algorithm based on a node-by-node pre-conditioning of the mass density at each step. The computing time is reduced by a factor of 2 typically, regardless of the polytropic index. There is a priori no obstacle to applying these results and techniques to ellipsoidal configurations and even to 3D configurations.</subfield>
+  <subfield code="9">Oxford University Press</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">equation of state</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">gravitation</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: analytical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: numerical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Mon.Not.Roy.Astron.Soc.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">4761-4776-4776</subfield>
+  <subfield code="v">464</subfield>
+  <subfield code="n">4</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1093/mnras/stw2569</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Oxford University Press</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-01</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="037" ind1=" " ind2=" ">
+  <subfield code="a">arXiv:1610.05953</subfield>
+  <subfield code="9">arXiv</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">arXiv</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Huré, J.M.</subfield>
+  <subfield code="v">Univ. Bordeaux, LAB, UMR 5804, F-33615 Pessac, France</subfield>
+  <subfield code="v">CNRS, LAB, UMR 5804, F-33615 Pessac, France</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Hersant, F.</subfield>
+  <subfield code="v">Univ. Bordeaux, LAB, UMR 5804, F-33615 Pessac, France</subfield>
+  <subfield code="v">CNRS, LAB, UMR 5804, F-33615 Pessac, France</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">Articles</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">arXiv number from ADS (not from publisher!)</subfield>
+ </datafield>
+</record>

@@ -1,0 +1,375 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Nonlinear Force-free Coronal Magnetic Stereoscopy</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Insights into the 3D structure of the solar coronal magnetic field have been obtained in the past by two completely different approaches. The first approach are nonlinear force-free field (NLFFF) extrapolations, which use photospheric vector magnetograms as boundary condition. The second approach uses stereoscopy of coronal magnetic loops observed in EUV coronal images from different vantage points. Both approaches have their strengths and weaknesses. Extrapolation methods are sensitive to noise and inconsistencies in the boundary data, and the accuracy of stereoscopy is affected by the ability of identifying the same structure in different images and by the separation angle between the view directions. As a consequence, for the same observational data, the 3D coronal magnetic fields computed with the two methods do not necessarily coincide. In an earlier work (Paper I) we extended our NLFFF optimization code by including stereoscopic constrains. The method was successfully tested with synthetic data, and within this work, we apply the newly developed code to a combined data set from SDO/HMI, SDO/AIA, and the two STEREO spacecraft. The extended method (called S-NLFFF) contains an additional term that monitors and minimizes the angle between the local magnetic field direction and the orientation of the 3D coronal loops reconstructed by stereoscopy. We find that when we prescribe the shape of the 3D stereoscopically reconstructed loops, the S-NLFFF method leads to a much better agreement between the modeled field and the stereoscopically reconstructed loops. We also find an appreciable decrease by a factor of two in the angle between the current and the magnetic field. This indicates the improved quality of the force-free solution obtained by S-NLFFF.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">methods: numerical</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Sun: corona</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Sun: magnetic fields</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Astrophys.J.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">10</subfield>
+  <subfield code="v">837</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.3847/1538-4357/aa5b9a</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">7</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-27</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="j">ORCID:0000-0002-5481-9228</subfield>
+  <subfield code="a">Chifu, Iulia</subfield>
+  <subfield code="v">Max-Planck-Institut für Sonnensystemforschung - Justus-von-Liebig-Weg 3 - D-37077 Göttingen - Germany</subfield>
+  <subfield code="v">Astronomical Institute of Romanian Academy - Cutitul de Argint 5 - Bucharest - Romania</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Wiegelmann, Thomas</subfield>
+  <subfield code="v">Max-Planck-Institut für Sonnensystemforschung - Justus-von-Liebig-Weg 3 - D-37077 Göttingen - Germany</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Inhester, Bernd</subfield>
+  <subfield code="v">Max-Planck-Institut für Sonnensystemforschung - Justus-von-Liebig-Weg 3 - D-37077 Göttingen - Germany</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Setup 1: Starting from {{\boldsymbol{B}}}_{\mathrm{pot}}, we iterate the force-free solution using the NLFFF on the final 480 × 272 × 240 grid without loop data. This is the conventional approach</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Setup 2: Starting from {{\boldsymbol{B}}}_{\mathrm{pot}}, we use on the final grid, i.e., we include the loop data from the beginning of the iterations</subfield>
+  <subfield code="h">S-NLFFF</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Setup 3: We use the solution from Setup 1 as initial field for an iteration with</subfield>
+  <subfield code="h">S-NLFFF</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Setup 4: We start from {{\boldsymbol{B}}}_{\mathrm{pot}} on the coarse grid and interpolate the coarse-grid force-free solution as initial field ({{\boldsymbol{B}}}_{\mathrm{NLFFF}}^{\mathrm{coarse}}) for NLFFF on the final grid. No loop data are used</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Setup 5: We use the interpolated coarse-grid field from Setup 4 as initial field ({{\boldsymbol{B}}}_{\mathrm{NLFFF}}^{\mathrm{coarse}}) for</subfield>
+  <subfield code="h">S-NLFFF</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J.</subfield>
+  <subfield code="m">LRSP 8 5, Crossref: DOI: 10.12942/lrsp--5, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011LRSP....8....5A</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J.</subfield>
+  <subfield code="m">a SoPh 287 323, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-012-0069-7</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013SoPh..287..323A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1122122</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J.</subfield>
+  <subfield code="m">b Crossref: ADS:</subfield>
+  <subfield code="s">Astrophys.J.,763,115</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/763/2/115</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJ...763..115A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1207204</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J.</subfield>
+  <subfield code="m">c SoPh 287 369, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-012-0203-6</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013SoPh..287..369A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1199226</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,224,25</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.3847/0067-0049/224/2/25</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2016ApJS..224...25A</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J. and Malanushenko A.</subfield>
+  <subfield code="m">SoPh 287 345, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-012-0070-1</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013SoPh..287..345A</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="0">1122124</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J., Newmark J. S., Delaboudinière J.-P. et al.</subfield>
+  <subfield code="s">Astrophys.J.,515,842</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/307036</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1999ApJ...515..842A</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J., Sun X. and Liu Y.</subfield>
+  <subfield code="s">Astrophys.J.,785,34</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/785/1/34</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...785...34A</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Aschwanden M. J., Wuelser J.-P., Nitta N. V. et al.</subfield>
+  <subfield code="s">Astrophys.J.,756,124</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/756/2/124</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...756..124A</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1122126</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Bobra M. G., Sun X., Hoeksema J. T. et al.</subfield>
+  <subfield code="m">SoPh 289 3549, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-014-0529-3</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014SoPh..289.3549B</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Carcedo L., Brown D. S., Hood A. W., Neukirch T. and Wiegelmann T.</subfield>
+  <subfield code="m">SoPh 218 29, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1023/B:SOLA.0000013045.65499.da</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2003SoPh..218...29C</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chifu I.</subfield>
+  <subfield code="m">PhD thesis Technischen Universität Braunschweig</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Chifu I., Inhester B. and Wiegelmann T.</subfield>
+  <subfield code="s">Astron.Astrophys.,577,A123</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201322548</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2015A&amp;A...577A.123C</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">De Rosa M. L., Schrijver C. J., Barnes G. et al.</subfield>
+  <subfield code="s">Astrophys.J.,696,1780</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/696/2/1780</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2009ApJ...696.1780D</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="0">812724</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Druckmüller M.</subfield>
+  <subfield code="s">Astrophys.J.Suppl.,207,25</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0067-0049/207/2/25</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2013ApJS..207...25D</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Feng L., Inhester B., Solanki S. K. et al.</subfield>
+  <subfield code="s">Astrophys.J.,671,L205</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/525525</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2007ApJ...671L.205F</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="0">773624</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gary G. A.</subfield>
+  <subfield code="s">Mem.Soc.Ast.It.,61,457</subfield>
+  <subfield code="m">ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/1990MmSAI..61..457G</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gary G. A.</subfield>
+  <subfield code="m">SoPh 203 71, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1023/A:1012722021820</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2001SoPh..203...71G</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Inhester B.</subfield>
+  <subfield code="m">arXiv: ADS: Preprint:</subfield>
+  <subfield code="r">astro-ph/0612649</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006astro.ph.12649I</subfield>
+  <subfield code="r">arXiv:astro-ph/0612649</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">735373</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Lemen J. R., Title A. M., Akin D. J. et al.</subfield>
+  <subfield code="m">SoPh 275 17, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-011-9776-8</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012SoPh..275...17L</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Malanushenko A., Schrijver C. J., DeRosa M. L. and Wheatland M. S.</subfield>
+  <subfield code="s">Astrophys.J.,783,102</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/783/2/102</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2014ApJ...783..102M</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Malanushenko A., Schrijver C. J., DeRosa M. L., Wheatland M. S. and Gilchrist S. A.</subfield>
+  <subfield code="s">Astrophys.J.,756,153</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1088/0004-637X/756/2/153</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012ApJ...756..153M</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1090375</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Metcalf T. R., De Rosa M. L., Schrijver C. J. et al.</subfield>
+  <subfield code="m">SoPh 247 269, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-007-9110-7</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008SoPh..247..269M</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Stenborg G., Vourlidas A. and Howard R. A.</subfield>
+  <subfield code="s">Astrophys.J.,674,1201</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/525556</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008ApJ...674.1201S</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tadesse T., Wiegelmann T., Inhester B. and Pevtsov A.</subfield>
+  <subfield code="s">Astron.Astrophys.,527,A30</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201015491</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2011A&amp;A...527A..30T</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">878690</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wheatland M. S., Sturrock P. A. and Roumeliotis G.</subfield>
+  <subfield code="s">Astrophys.J.,540,1150</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1086/309355</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2000ApJ...540.1150W</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T.</subfield>
+  <subfield code="m">SoPh 219 87, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1023/B:SOLA.0000021799.39465.36</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004SoPh..219...87W</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="0">778638</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T.</subfield>
+  <subfield code="m">JGRA 113 A03S02, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1029/2007JA012432</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2008JGRA..113.3S02W</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="0">777727</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T. and Inhester B.</subfield>
+  <subfield code="m">SoPh 236 25, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1007/s11207-006-0153-y</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2006SoPh..236...25W</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="0">735360</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T. and Inhester B.</subfield>
+  <subfield code="s">Astron.Astrophys.,516,A107</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1051/0004-6361/201014391</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2010A&amp;A...516A.107W</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T. and Neukirch T.</subfield>
+  <subfield code="m">SoPh 208 233, Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1023/A:1020537403934</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2002SoPh..208..233W</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="0">777841</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wiegelmann T. and Sakurai T.</subfield>
+  <subfield code="m">LRSP 9 5, Crossref: DOI: 10.12942/lrsp--5, ADS:</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2012LRSP....9....5W</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wuelser J.-P., Lemen J. R., Tarbell T. D. et al.</subfield>
+  <subfield code="s">Proc.SPIE Int.Soc.Opt.Eng.,5171,111</subfield>
+  <subfield code="m">Crossref: ADS:</subfield>
+  <subfield code="a">doi:10.1117/12.506877</subfield>
+  <subfield code="u">http://adsabs.harvard.edu/abs/2004SPIE.5171..111W</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

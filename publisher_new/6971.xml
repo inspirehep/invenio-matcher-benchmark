@@ -1,0 +1,130 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Meso-Scale Radioactive Dispersion Modelling using GPU</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Lagrangian Particle Dispersion Method (LPDM) is applied to model atmospheric dispersion of radioactive material in a meso-scale of a few tens of kilometers for site study purpose. Empirical relationships are used to determine the dispersion coefficient for various atmospheric stabilities. Diagnostic 3-D wind field is created based on data from a meteorological station using mass-conservation principle. Particles imitating radioactive pollutant are dispersed in the wind-field as a point source. Time-integrated air concentration is calculated using kernel density estimator (KDE) in the lowest layer of the atmosphere. Parallel code is developed for GTX-660Ti GPU with a total of 1344 scalar processors using CUDA programming. Significant speedup of about 20 times is achieved compared to the serial version of the code while accuracy is kept at reasonable level. Only small differences in particle positions and grid doses are observed when using the same sets of random number and meteorological data in both CPU and GPU versions of the code.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Phys.Conf.Ser.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">012020</subfield>
+  <subfield code="v">799</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1742-6596/799/1/012020</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">8</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-02-27</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">ConferencePaper</subfield>
+ </datafield>
+ <datafield tag="540" ind1=" " ind2=" ">
+  <subfield code="a">cc-by</subfield>
+  <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Sunarko,</subfield>
+  <subfield code="v">BATAN - Jl. Kuningan Barat - Jakarta 10270 - Indonesia</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Suud, Zaki</subfield>
+  <subfield code="v">ITB - Jl. Ganesha 10 - Bandung 50254 - Indonesia</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Molnar F Jr., Szakaly T, Meszaros R and Lagzi L</subfield>
+  <subfield code="m">Computer Physics Communication 181 105, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.cpc.2009.09.008</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Sherman C A</subfield>
+  <subfield code="s">J.Appl.Meteor.,17,312</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1175/1520-0450(1978)017&lt;0312:AMCMFW&gt;2.0.CO;2</subfield>
+  <subfield code="y">1977</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">NVIDIA CUDA programming Guide Version 2.3.1 NVIDIA Corporation</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">NVIDIA programming Guide Version 4.2 NVIDIA Corporation</subfield>
+  <subfield code="h">CUDA C</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Uliasz M</subfield>
+  <subfield code="m">Lagrangian Particle Dispersion Modeling in Mesoscale Applications. Environmental Modelling II P. Zannetti (eds.) (Southampton, Boston: Computational Mechanics Publication) 71</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">SunarkoModel dispersi partikel untuk perhitungan lepasan radioaktif (Studi kasus semenanjung Muria-Jawa Tengah) (Institut Teknologi Bandung: Master-Thesis)</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Jimenez J</subfield>
+  <subfield code="m">and Ruiz de Miras J Computer Methods and Programs in Biomedicine 108 1229, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.cmpb.2012.07.005</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Kalantzis G and Tachibana H</subfield>
+  <subfield code="m">Computer Methods and Programs in Biomedicine 113 116, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.cmpb.2013.09.009</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Zeng J, Matsunaga T and Mukai H</subfield>
+  <subfield code="m">Using NVIDIA GPU for Modelling the Lagrangian Particle Dispersion in the Atmosphere, International Environmental Modelling and Software Society (iEMSs) (Ottawa, Canada: International Congress on Environmental Modelling and Software Modelling for Environment’s Sake, Fifth Biennial Meeting)</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Matsumoto M and Nishimura T</subfield>
+  <subfield code="u">http://www.math.sci.hiroshima-u.ac.jp/∼m-mat/MT/emt.html</subfield>
+  <subfield code="m">:</subfield>
+  <subfield code="u">http://www.math.sci.hiroshima-u.ac.jp/∼m-mat/MT/emt.html</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Caughey S J, Wyngaard J C and Kaimal J C</subfield>
+  <subfield code="s">J.Atmos.Sci.,36,1041</subfield>
+  <subfield code="m">Crossref:</subfield>
+  <subfield code="a">doi:10.1175/1520-0469(1979)036&lt;1041:TITESB&gt;2.0.CO;2</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

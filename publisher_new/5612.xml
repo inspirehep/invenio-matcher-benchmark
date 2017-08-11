@@ -1,0 +1,139 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">GPU-based low-level trigger system for the standalone reconstruction of the ring-shaped hit patterns in the RICH Cherenkov detector of NA62 experiment</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">This project aims to exploit the parallel computing power of a commercial Graphics Processing Unit (GPU) to implement fast pattern matching in the Ring Imaging Cherenkov (RICH) detector for the level 0 (L0) trigger of the NA62 experiment. In this approach, the ring-fitting algorithm is seedless, being fed with raw RICH data, with no previous information on the ring position from other detectors. Moreover, since the L0 trigger is provided with a more elaborated information than a simple multiplicity number, it results in a higher selection power. Two methods have been studied in order to reduce the data transfer latency from the readout boards of the detector to the GPU, i.e., the use of a dedicated NIC device driver with very low latency and a direct data transfer protocol from a custom FPGA-based NIC to the GPU. The performance of the system, developed through the FPGA approach, for multi-ring Cherenkov online reconstruction obtained during the NA62 physics runs is presented.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">JINST</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">C03005</subfield>
+  <subfield code="v">12</subfield>
+  <subfield code="n">03</subfield>
+  <subfield code="w">C16-10-03</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1748-0221/12/03/C03005</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-01</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Ammendola, R.</subfield>
+  <subfield code="v">INFN Sezione di Roma Tor Vergata - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Biagioni, A.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Chiozzi, S.</subfield>
+  <subfield code="v">INFN Sezione di Ferrara - Ferrara - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Cretaro, P.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Ramusino, A.Cotta</subfield>
+  <subfield code="v">INFN Sezione di Ferrara - Ferrara - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Lorenzo, S.Di</subfield>
+  <subfield code="v">INFN Sezione di Pisa - Pisa - Italy</subfield>
+  <subfield code="v">Università degli Studi di Pisa - Pisa - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Fantechi, R.</subfield>
+  <subfield code="v">INFN Sezione di Pisa - Pisa - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Fiorini, M.</subfield>
+  <subfield code="v">INFN Sezione di Ferrara - Ferrara - Italy</subfield>
+  <subfield code="v">Università degli Studi di Ferrara - Ferrara - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Frezza, O.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Gianoli, A.</subfield>
+  <subfield code="v">INFN Sezione di Ferrara - Ferrara - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Lamanna, G.</subfield>
+  <subfield code="v">INFN - Laboratori Nazionali di Frascati - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Cicero, F.Lo</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Lonardo, A.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Martinelli, M.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Neri, I.</subfield>
+  <subfield code="v">INFN Sezione di Ferrara - Ferrara - Italy</subfield>
+  <subfield code="v">Università degli Studi di Ferrara - Ferrara - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Paolucci, P.S.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Pastorelli, E.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Piandani, R.</subfield>
+  <subfield code="v">INFN Sezione di Pisa - Pisa - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Piccini, M.</subfield>
+  <subfield code="v">INFN Sezione di Perugia - Perugia - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Pontisso, L.</subfield>
+  <subfield code="v">INFN Sezione di Pisa - Pisa - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Rossetti, D.</subfield>
+  <subfield code="v">NVIDIA Corp. - Santa Clara - CA - U.S.A.</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Simula, F.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Sozzi, M.</subfield>
+  <subfield code="v">INFN Sezione di Pisa - Pisa - Italy</subfield>
+  <subfield code="v">Università degli Studi di Pisa - Pisa - Italy</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Vicini, P.</subfield>
+  <subfield code="v">INFN Sezione di Roma - Roma - Italy</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">14th Topical Seminar on Innovative Particle and Radiation Detectors (IPRD16)</subfield>
+ </datafield>
+ <datafield tag="599" ind1=" " ind2=" ">
+  <subfield code="a">IPRD16</subfield>
+ </datafield>
+</record>

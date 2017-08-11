@@ -1,0 +1,297 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Analysis and compensation of synchronous measurement error for multi-channel laser interferometer</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Dual-frequency laser interferometer has been widely used in precision motion system as a displacement sensor, to achieve nanoscale positioning or synchronization accuracy. In a multi-channel laser interferometer synchronous measurement system, signal delays are different in the different channels, which will cause asynchronous measurement, and then lead to measurement error, synchronous measurement error (SME). Based on signal delay analysis of the measurement system, this paper presents a multi-channel SME framework for synchronous measurement, and establishes the model between SME and motion velocity. Further, a real-time compensation method for SME is proposed. This method has been verified in a self-developed laser interferometer signal processing board (SPB). The experiment result showed that, using this compensation method, at a motion velocity 0.89 m s(−)(1), the max SME between two measuring channels in the SPB is 1.1 nm. This method is more easily implemented and applied to engineering than the method of directly testing smaller signal delay.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Measur.Sci.Tech.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">055201</subfield>
+  <subfield code="v">28</subfield>
+  <subfield code="n">5</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6501/aa5f0c</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">7</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-03</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Du, Shengwu</subfield>
+  <subfield code="v">State Key Laboratory of Tribology - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+  <subfield code="v">Beijing Key Lab of Precision/Ultra-precision Manufacturing Equipment and Control - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Hu, Jinchun</subfield>
+  <subfield code="v">State Key Laboratory of Tribology - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+  <subfield code="v">Beijing Key Lab of Precision/Ultra-precision Manufacturing Equipment and Control - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Zhu, Yu</subfield>
+  <subfield code="v">State Key Laboratory of Tribology - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+  <subfield code="v">Beijing Key Lab of Precision/Ultra-precision Manufacturing Equipment and Control - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Hu, Chuxiong</subfield>
+  <subfield code="v">State Key Laboratory of Tribology - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+  <subfield code="v">Beijing Key Lab of Precision/Ultra-precision Manufacturing Equipment and Control - Department of Mechanical Engineering - Tsinghua U. - Beijing 100084 - People’s Republic of China</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">Sources of time synchronization errorIn the laser interferometer system, signal delays include optical signal delay, electric signal delay and signal processing delay. As shown in figure, 3: #mstaa5f0cf03, optical signals are transmitted through air and optical fiber, and received by photoelectric converters, which convert the optical signals into electrical signals and send the signals to SPB. The speed of light va in air and optical fiber are nearly a same constant, va = c/n, c is 3\times {{10}^{8}} m s-1, n denotes the refractive index of the optical fiber and air, so the optical signal transfer delay denoted as {{\tau}_{od}}, is proportional to optical path \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\tau}_{od}}=\left({{l}_{a}}+{{l}_{f}}\right)/{{v}_{a}}={{k}_{od}}\left({{l}_{a}}+{{l}_{f}}\right)\end{eqnarray} \end{align*} \tag{ 5 } \end{equation*} where kod is the scale factor, la is the transmission length in air and lf is the transmission length in optical fiber. Clearly, {{\tau}_{od}} is independent of signal frequency. So, {{\tau}_{od}} is a constant in a certain measurement system. Meanwhile, for a measurement system, its signal processing (including data processing) delay is also a constant, denoted as {{\tau}_{rd}}.The electric signal delay is mainly caused in cables and SPB. As the cable is a certain length in system, the former are constant, according to Electromagnetic transmission principle [, 18: #mstaa5f0cbib018]. But in SPB, the electric signal delay is not constant. Because there are many capacitors, inductors, gates switch and integrated chips. Their impedances are related with signal frequency, and will lead to signal delay. However it is rather difficult to get an accurate model between delay and signal frequency. Considering that the frequencies of the reference signal, measurement signal and sampling signal are megahertz-order, belonging to high frequency signal, the relationship between the signal frequency and the delay is established as the following function in this paper, which is \begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;{{\tau}_{ed}}={{k}_{ed}}/f+m\end{eqnarray} \end{align*} \tag{ 6 } \end{equation*} where {{\tau}_{ed}} denotes the electric signal delay in SPB, f is signal frequency, ked is scale factor and m is a delay constant. Because the higher order of signal frequency have less effect on delay, this function only includes first order</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Modeling and compensation of multi-channel SMEAccording to above analysis, for measuring channel i, its total signal delay \tau _{d}^{i} is</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}&amp;&amp;\tau _{d}^{i}=\tau _{od}^{i}+\tau _{rd}^{i}+\tau _{ed}^{i}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 7 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} The relative delay \Delta \tau _{d}^{ji} between channel j and i is</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} \Delta \tau _{d}^{ji} &amp; =\left(\tau _{od}^{j}-\tau _{od}^{i}\right)+\left(\tau _{rd}^{j}-\tau _{rd}^{i}\right)+\left(\tau _{ed}^{j}-\tau _{ed}^{i}\right) \\ {} &amp; = \Delta \tau _{od}^{ji}+ \Delta \tau _{rd}^{ji}+ \Delta \tau _{ed}^{ji} \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 8 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} {{\tau}_{od}} and {{\tau}_{rd}} are constant. Hence \Delta \tau _{od}^{ji} and \Delta \tau _{rd}^{ji} are also constant. Assuming that channel i is the reference channel, the SME \Delta D for channel j is</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray}\begin{array}{*{35}{l}} \Delta {{D}^{ji}} &amp; =v(t) \Delta \tau _{d}^{ji} \\ {} &amp; =v(t)\left(\Delta \tau _{od}^{ji}+ \Delta \tau _{rd}^{ji}\right)+v(t)\left(\tau _{ed}^{j}-\tau _{ed}^{i}\right) \\ {} &amp; =v(t)\left(\Delta \tau _{od}^{ji}+ \Delta \tau _{rd}^{ji}\right) \\ {} &amp; \,\,\,\,\,\,+\,\,v(t)\left(k_{ed}^{j}/f-k_{ed}^{i}/f+{{m}^{j}}-{{m}^{i}}\right) \end{array}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 9 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*} It can be seen from equations (, 1: #mstaa5f0ceqn001), the relationship between the measurement signal frequency f and the motion velocity v(t) is linear. Then the SME model equations (, 9: #mstaa5f0ceqn009) could be simplified the following form</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\begin{equation*} \begin{align*} \begin{eqnarray} &amp;&amp;\Delta {{D}^{ji}}={{a}^{ji}}v(t)+{{b}^{ji}}\end{eqnarray} \end{align*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\tag{ 10 }</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">\end{equation*}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">All measuring channels are installed to measure the motion stage displacement in the same direction</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Let motion stage move with uniform acceleration, from 0 to vset</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">vset is the maximum velocity. And all channels measure the corresponding displacement values</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="m">Set channel i as displacement reference channel, and calculate the SME \Delta {{D}^{ji}} between channel j and channel i</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="m">Identify the parameters aji and bji of SME models using experimental data v and \Delta {{D}^{ji}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">Repeat steps 3, 4 for each channel</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="m">Store the SME model parameters in ROM on the SPB</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Calculate the error values in the data output module and compensate in real time, according to the models and measuring velocity</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Bobroff N</subfield>
+  <subfield code="m">Recent advances in displacement measuring interferometry Crossref:</subfield>
+  <subfield code="s">Measur.Sci.Tech.,4,907-26</subfield>
+  <subfield code="a">doi:10.1088/0957-0233/4/9/001</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Chin C S and Ngoi B K A</subfield>
+  <subfield code="m">Self-compensated heterodyne laser interferometer Int. J Adv. Manuf. Technol. 16 217-9, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s001700050030</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Tang S Z, Wang Z, Jiang Z X, Gao J M and Guo J J</subfield>
+  <subfield code="m">A new measuring method for circular motion accuracy of NC machine tools based on dual-frequency laser interferometer Int. Symp. on Assembly and Manufacturing (Tampere, Finland,) pp 1-6</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Teng W and Liu Y B</subfield>
+  <subfield code="m">A five degree-of-freedom laser measurement model on wafer stage of scanning lithography Proc. of the 29th Chinese Control Conf. (Beijing, China,) 3209-13</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">Gao H M, Fang F Z and Zhang X D</subfield>
+  <subfield code="m">Reverse analysis on the geometric errors of ultra-precision machine Int. J Adv. Manuf. Technol. 73 1615-24, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s00170-014-5931-3</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Butler H</subfield>
+  <subfield code="m">Position control in lithographic equipment Control Syst. Mag. 31 28-47, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/MCS.2011.941882</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="m">Van Lithographic apparatus for step-and-scan imaging of mask pattern with interferometer mirrors on the mask and wafer holders Patent 6084673, USA</subfield>
+  <subfield code="h">Den Brink M A and Straaijer A</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Gao Z Y</subfield>
+  <subfield code="m">Hu J C, Zhu Y and Duan G H A new 6-degree-of-freedom measurement method of X-Y stages based on additional information Precis. Eng. 37 606-20, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.precisioneng.2013.01.006</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Eom T B, Kim J A, Kang C S, Park B C and Kim J W</subfield>
+  <subfield code="m">A simple phase-encoding electronics for reducing the nonlinearity error of a heterodyne interferometer Crossref:</subfield>
+  <subfield code="s">Measur.Sci.Tech.,19,075302</subfield>
+  <subfield code="a">doi:10.1088/0957-0233/19/7/075302</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Yan L, Chen B, Zhang C, Zhang E and Yang Y</subfield>
+  <subfield code="m">Analysis and verification of the nonlinear error resulting from the misalignment of a polarizing beam splitter in a heterodyne interferometer Crossref:</subfield>
+  <subfield code="s">Measur.Sci.Tech.,26,085006</subfield>
+  <subfield code="a">doi:10.1088/0957-0233/26/8/085006</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Cosijns S, Haitjema H and Schellekens P H J</subfield>
+  <subfield code="m">Modeling and verifying non-linearities in heterodyne displacement interferometry Precis. Eng. 26 448-55, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0141-6359(02)00150-2</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Haitjema H, Cosijns S, Roset N J J and Jansen M J</subfield>
+  <subfield code="m">Improving a commercially available heterodyne laser interferometer to sub-nm uncertainty Crossref:</subfield>
+  <subfield code="s">Proc.SPIE Int.Soc.Opt.Eng.,5190,347</subfield>
+  <subfield code="a">doi:10.1117/12.508542</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Demarest C</subfield>
+  <subfield code="m">High-resolution, high-speed, low data age uncertainty heterodyne displacement measuring interferometer electronics Crossref:</subfield>
+  <subfield code="s">Measur.Sci.Tech.,9,1024-30</subfield>
+  <subfield code="a">doi:10.1088/0957-0233/9/7/003</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Pan H H</subfield>
+  <subfield code="m">Li X Q and Zhou Y FSynchronous sampling for multi-axis laser displacement measurement J. Huazhong Univ Nature Science Edition</subfield>
+  <subfield code="s">Sci.Technol.,35,89-92</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="m">Zygo CorporationZMI 4100 Series Measurement Board Manual (Middlefield, CT: Zygo Corporation) ch 3 pp 31-2</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Liu J</subfield>
+  <subfield code="m">Mu H H, Sun Y F and Zhou Y F Error analysis and compensation in laser interferometry Mach. Tool Hydraul. 9 181-4</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Fan K C and Chen M J</subfield>
+  <subfield code="m">A 6-degree-of-freedom measurement system for the accuracy of XY stages Precis. Eng. 24 15-23, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0141-6359(99)00021-5</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Huang Y L and Liang M</subfield>
+  <subfield code="m">Telecommunications Transport Theory 1st edn (Beijing: Beijing University of Posts and Telecommunications Press) pp 6-64</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

@@ -1,0 +1,850 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Commuting quantum circuits and complexity of Ising partition functions</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Instantaneous quantum polynomial-time (IQP) computation is a class of quantum computation consisting only of commuting two-qubit gates and is not universal. Nevertheless, it has been shown that if there is a classical algorithm that can simulate IQP efficiently, the polynomial hierarchy collapses to the third level, which is highly implausible. However, the origin of the classical intractability is still less understood. Here we establish a relationship between IQP and computational complexity of calculating the imaginary-valued partition functions of Ising models. We apply the established relationship in two opposite directions. One direction is to find subclasses of IQP that are classically efficiently simulatable by using exact solvability of certain types of Ising models. Another direction is applying quantum computational complexity of IQP to investigate (im)possibility of efficient classical approximations of Ising partition functions with imaginary coupling constants. Specifically, we show that a multiplicative approximation of Ising partition functions is #P-hard for almost all imaginary coupling constants even on planar lattices of a bounded degree.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">New J.Phys.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">033003</subfield>
+  <subfield code="v">19</subfield>
+  <subfield code="n">3</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1367-2630/aa5fdb</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">24</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-01</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="540" ind1=" " ind2=" ">
+  <subfield code="a">cc-by</subfield>
+  <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Fujii, Keisuke</subfield>
+  <subfield code="v">The Hakubi Center for Advanced Research - Kyoto U. Yoshida-Ushinomiya-cho - Sakyo-ku - Kyoto 606-8302 - Japan</subfield>
+  <subfield code="v">Graduate School of Informatics - Kyoto U. Yoshida Honmachi - Sakyo-ku - Kyoto 606-8501 - Japan</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Morimae, Tomoyuki</subfield>
+  <subfield code="v">ASRLD Unit - Gunma U. 1-5-1 Tenjin-cho Kiryu-shi Gunma-ken - 376-0052 Japan</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) We reformulate IQP from a viewpoint of computational complexity of calculating Ising partition functions. The probability distribution of the output of IQP including its marginal distributions is mapped into an Ising partition function with imaginary coupling constants (theorems, 1: #njpaa5fdbproc15 and, 2: #njpaa5fdbproc17)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) By using the above relation, we specify classically simulatable classes of IQP, which correspond to exactly solvable Ising models (theorems, 3: #njpaa5fdbproc23 and, 4: #njpaa5fdbproc29). For example, IQP that consists only of nearest-neighbor two-qubit commuting gates in two-dimensions (2D) is classically simulatable, at least in the weak sense, irrespective of their rotational angles</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) We show that a multiplicative approximation of the Ising partition functions with almost all imaginary coupling constants is #P-hard even on 2D planar lattices with a bounded degree (theorem, 5: #njpaa5fdbproc31). So there is no polynomial-time approximation scheme unless the PH collapses completely</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) if w\in L then \mathrm{Prob}({{ \mathcal O }}_{w}=1| {{ \mathcal P }}_{w}=00...0)\geqslant 1/2+\delta</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) if w\notin L then \mathrm{Prob}({{ \mathcal O }}_{w}=1| {{ \mathcal P }}_{w}=00...0)\leqslant 1/2-\delta</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="h">Shor P W</subfield>
+  <subfield code="m">Algorithms for quantum computation: discrete logarithms and factoring Proc. 35th Annual Symp. on Foundations of Computer Science, FOCS ’94 (Washington, DC: Computer Society) pp 124-34, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/SFCS.1994.365700</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="h">Aharonov D, Jones V and Landau Z</subfield>
+  <subfield code="m">A polynomial quantum algorithm for approximating the Jones polynomial Crossref:</subfield>
+  <subfield code="s">Algorithmica,55,395-421</subfield>
+  <subfield code="a">doi:10.1007/s00453-008-9168-0</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Aharonov D and Arad I</subfield>
+  <subfield code="m">The BQP-hardness of approximating the Jones polynomial arXiv: Preprint:</subfield>
+  <subfield code="r">quant-ph/0605181</subfield>
+  <subfield code="r">arXiv:quant-ph/0605181</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Aharonov D, Arad I, Eban E and Landau Z</subfield>
+  <subfield code="m">Polynomial quantum algorithms for additive approximations of the Potts model and other points of the Tutte plane arXiv: Preprint:</subfield>
+  <subfield code="r">quant-ph/0702008</subfield>
+  <subfield code="r">arXiv:quant-ph/0702008</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="m">De van den Nest M and Martin-Delgado M Quantum algorithms for classical lattice models Crossref:</subfield>
+  <subfield code="h">las Cuevas G, Dür W</subfield>
+  <subfield code="s">New J.Phys.,13,093021</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/13/9/093021</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="0">896326</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Iblisdir S, Cirio M, Boada O and Brennen G</subfield>
+  <subfield code="m">Low depth quantum circuits for ising models Crossref:</subfield>
+  <subfield code="s">Annals Phys.,340,205-51</subfield>
+  <subfield code="a">doi:10.1016/j.aop.2013.11.001</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Matsuo A, Fujii K and Imoto N</subfield>
+  <subfield code="m">Quantum algorithm for an additive approximation of ising partition functions Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A90,022304</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.90.022304</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Bernstein E and Vazirani U</subfield>
+  <subfield code="m">Quantum complexity theory Proc. 25th Annual ACM Symp. on Theory of Computing (New York: ACM) pp 11-20</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Arora S and Barak B</subfield>
+  <subfield code="m">Computational Complexity: A Modern Approach 1st edn (New York: Cambridge University Press)</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Papadimitriou C H</subfield>
+  <subfield code="m">Computational Complexity (Reading, MA:</subfield>
+  <subfield code="p">Addison-Wesley</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">Aaronson S</subfield>
+  <subfield code="m">BQP and the polynomial hierarchy Proc. 42nd ACM Symp. Theory of Computing, STOC ’10 (New York: ACM) pp 141-50</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Turing A M</subfield>
+  <subfield code="m">On computable numbers, with an application to the Entscheidungsproblem Proc. London Math. Soc. 42 230-65</subfield>
+  <subfield code="y">1936</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">Church A</subfield>
+  <subfield code="m">A set of postulates for the foundation of logic Crossref:</subfield>
+  <subfield code="s">Annals Math.,33,346-66</subfield>
+  <subfield code="a">doi:10.2307/1968337</subfield>
+  <subfield code="y">1932</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="h">Preskill J</subfield>
+  <subfield code="m">Quantum computing and the entanglement frontier Preprint:</subfield>
+  <subfield code="r">arXiv:1203.5813</subfield>
+  <subfield code="r">arXiv:1203.5813</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="0">1095436</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Aaronson S and Arkhipov A</subfield>
+  <subfield code="m">The computational complexity of linear optics Proc. 43rd Annual ACM Symp. Theory of Computing, STOC’11 (New York: ACM) pp 333-42, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/1993636.1993682</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Valiant L G</subfield>
+  <subfield code="m">The complexity of computing the permanent Crossref:</subfield>
+  <subfield code="s">Theor.Comput.Sci.,8,189-201</subfield>
+  <subfield code="a">doi:10.1016/0304-3975(79)90044-6</subfield>
+  <subfield code="y">1979</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Aaronson S</subfield>
+  <subfield code="m">A linear-optical proof that the permanent is# p-hard</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A467,3393-405</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">Toda S</subfield>
+  <subfield code="m">PP is as hard as the polynomial-time hierarchy Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,20,865-77</subfield>
+  <subfield code="a">doi:10.1137/0220053</subfield>
+  <subfield code="y">1991</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="m">van Classical simulation of quantum computation, the Gottesman-Knill theorem, and slightly beyond Quant. Inf. Comp. 10 0258-71</subfield>
+  <subfield code="h">den Nest M</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Jozsa R</subfield>
+  <subfield code="m">and van den Nest M Classical simulation complexity of extended Clifford circuits Preprint:</subfield>
+  <subfield code="r">arXiv:1305.6190</subfield>
+  <subfield code="r">arXiv:1305.6190</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Broome M A, Fedrizzi A, Rahimi-Keshari S, Dove J, Aaronson S, Ralph T C and White A G</subfield>
+  <subfield code="m">Photonic boson sampling in a tunable circuit Crossref:</subfield>
+  <subfield code="s">Science,339,794-8</subfield>
+  <subfield code="a">doi:10.1126/science.1231440</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="h">Spring J B et al.</subfield>
+  <subfield code="m">Boson sampling on a photonic chip Crossref:</subfield>
+  <subfield code="s">Science,339,798-801</subfield>
+  <subfield code="a">doi:10.1126/science.1231692</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="h">Tillmann M</subfield>
+  <subfield code="m">Daki&amp;cacute</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">B Experimental boson sampling Nat. Photon. 7 540-4, Crossref:</subfield>
+  <subfield code="h">Heilmann R, Nolte S, Szameit A and Walther P</subfield>
+  <subfield code="a">doi:10.1038/nphoton.2013.102</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">Crespi A, Osellame R, Ramponi R, Brod D J, Galvão E F, Spagnolo N, Vitelli C, Maiorino E, Mataloni P and Sciarrino F</subfield>
+  <subfield code="m">Integrated multimode interferometers with arbitrary designs for photonic boson sampling Nat. Photon. 7 545-9, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nphoton.2013.112</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Carolan J et al.</subfield>
+  <subfield code="m">On the experimental verification of quantum complexity in linear optics Nat. Photon. 8 621-6, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nphoton.2014.152</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Spagnolo N et al.</subfield>
+  <subfield code="m">Experimental validation of photonic boson sampling Nat. Photon. 8 615-20, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/nphoton.2014.135</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">Bentivegna M et al.</subfield>
+  <subfield code="m">Experimental scattershot boson sampling Sci. Adv. 1 e1400255, Crossref:</subfield>
+  <subfield code="a">doi:10.1126/sciadv.1400255</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Carolan J et al.</subfield>
+  <subfield code="m">Universal linear optics Crossref:</subfield>
+  <subfield code="s">Science,349,711-6</subfield>
+  <subfield code="a">doi:10.1126/science.aab3642</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Shepherd D and Bremner M J</subfield>
+  <subfield code="m">Temporally unstructured quantum computation Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A465,1413-39</subfield>
+  <subfield code="a">doi:10.1098/rspa.2008.0443</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">Aaronson S</subfield>
+  <subfield code="m">Quantum computing, postselection, and probabilistic polynomial-time Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A461,3473-82</subfield>
+  <subfield code="a">doi:10.1098/rspa.2005.1546</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Aaronson S and Arkhipov A</subfield>
+  <subfield code="m">Bosonsampling is far from uniform Preprint:</subfield>
+  <subfield code="r">arXiv:1309.7460</subfield>
+  <subfield code="r">arXiv:1309.7460</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Barahona F</subfield>
+  <subfield code="m">On the computational complexity of Ising spin glass models J. Phy A: Crossref:</subfield>
+  <subfield code="s">J.Phys.,A15,3241</subfield>
+  <subfield code="a">doi:10.1088/0305-4470/15/10/028</subfield>
+  <subfield code="y">1982</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Jerrum M and Sinclair A</subfield>
+  <subfield code="m">Polynomial-time approximation algorithms for the ising model Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,22,1087-116</subfield>
+  <subfield code="a">doi:10.1137/0222066</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Raussendorf R and Briegel H J</subfield>
+  <subfield code="m">A one-way quantum computer Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,86,5188-91</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.86.5188</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Hein M, Dür W, Eisert J, Raussendorf R</subfield>
+  <subfield code="m">van den Nest M and Briegel H Quantum computers, algorithms and chaos Int. School of Physics Enrico Fermi vol 162</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">Kasteleyn P W</subfield>
+  <subfield code="m">The statistics of dimers on a lattice: I. The number of dimer arrangements on a quadratic lattice Crossref:</subfield>
+  <subfield code="s">Physica,27,1209-25</subfield>
+  <subfield code="a">doi:10.1016/0031-8914(61)90063-5</subfield>
+  <subfield code="y">1961</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Fisher M E</subfield>
+  <subfield code="m">On the dimer solution of planar ising models Crossref:</subfield>
+  <subfield code="s">J.Math.Phys.,7,1776</subfield>
+  <subfield code="a">doi:10.1063/1.1704825</subfield>
+  <subfield code="y">1966</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Bremner M J, Jozsa R and Shepherd D J</subfield>
+  <subfield code="m">Classical simulation of commuting quantum computations implies collapse of the polynomial hierarchy Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A467,459-72</subfield>
+  <subfield code="a">doi:10.1098/rspa.2010.0301</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">Drucker A and de Wolf R</subfield>
+  <subfield code="m">Quantum proofs for classical theorems Theory Comput. Libr. Grad. Surv. 2 1-54, Crossref:</subfield>
+  <subfield code="a">doi:10.4086/toc.gs.2011.002</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Kuperberg G</subfield>
+  <subfield code="m">How hard is it to approximate the Jones polynomial Preprint:</subfield>
+  <subfield code="r">arXiv:0908.0512</subfield>
+  <subfield code="r">arXiv:0908.0512</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">41</subfield>
+  <subfield code="h">Hoban M J, Wallman J J, Anwar H, Usher N, Raussendorf R and Browne D E</subfield>
+  <subfield code="m">Measurement-based classical computation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,112,140505</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.112.140505</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">42</subfield>
+  <subfield code="h">Gottesman D</subfield>
+  <subfield code="m">Stabilizer codes and quantum error correction PhD Thesis California Institute of Technology</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">43</subfield>
+  <subfield code="h">Nielsen M A and Chuang I L</subfield>
+  <subfield code="m">Quantum Computation and Quantum Information (Cambridge: Cambridge university press)</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">44</subfield>
+  <subfield code="h">Knill E and Laflamme R</subfield>
+  <subfield code="m">Power of one bit of quantum information Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,81,5672</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.81.5672</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="0">467137</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">45</subfield>
+  <subfield code="h">Han Y, Hemaspaandra L A and Thierauf T</subfield>
+  <subfield code="m">Threshold computation and cryptographic security Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,26,59-78</subfield>
+  <subfield code="a">doi:10.1137/S0097539792240467</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">46</subfield>
+  <subfield code="h">Broadbent A, Fitzsimons J and Kashefi E</subfield>
+  <subfield code="m">Universal blind quantum computation 50th Annual Symp. Foundations of Computer Science,, FOCS’09 (Piscataway, NJ: pp 517-26, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/FOCS.2009.36</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">47</subfield>
+  <subfield code="h">Morimae T and Fujii K</subfield>
+  <subfield code="m">Blind quantum computation protocol in which Alice only makes measurements Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A87,050301</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.87.050301</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">48</subfield>
+  <subfield code="h">Beigel R, Reingold N and Spielman D</subfield>
+  <subfield code="m">Pp is closed under intersection Crossref:</subfield>
+  <subfield code="s">J.Comput.Syst.Sci.,50,191-202</subfield>
+  <subfield code="a">doi:10.1006/jcss.1995.1017</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">49</subfield>
+  <subfield code="h">Knill E, Laflamme R and Milburn G J</subfield>
+  <subfield code="m">A scheme for efficient quantum computation with linear optics Crossref:</subfield>
+  <subfield code="s">Nature,409,46-52</subfield>
+  <subfield code="a">doi:10.1038/35051009</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">50</subfield>
+  <subfield code="m">Ni X and van Commuting quantum circuits: efficient classical simulations versus hardness results</subfield>
+  <subfield code="h">den Nest M</subfield>
+  <subfield code="s">Quant.Inf.Comput.,13,0054-72</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">51</subfield>
+  <subfield code="h">Bremner M J, Montanaro A and Shepherd D J</subfield>
+  <subfield code="m">Average-case complexity versus approximate simulation of commuting quantum computations Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,117,080501</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.117.080501</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">52</subfield>
+  <subfield code="h">Nakata Y and Murao M</subfield>
+  <subfield code="m">Diagonal quantum circuits: their computational power and applications Crossref:</subfield>
+  <subfield code="s">Eur.Phys.J.Plus,129,152</subfield>
+  <subfield code="a">doi:10.1140/epjp/i2014-14152-9</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">53</subfield>
+  <subfield code="h">Nakata Y and Murao M</subfield>
+  <subfield code="m">Diagonal-unitary 2-design and their implementations by quantum circuits Int. J Quantum Inf. 11 1350062, Crossref:</subfield>
+  <subfield code="a">doi:10.1142/S0219749913500627</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">54</subfield>
+  <subfield code="h">Nakata Y, Koashi M and Murao M</subfield>
+  <subfield code="m">Generating a state t-design by diagonal quantum circuits Crossref:</subfield>
+  <subfield code="s">New J.Phys.,16,053043</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/16/5/053043</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">55</subfield>
+  <subfield code="h">Sen P</subfield>
+  <subfield code="m">2005 Random measurement bases, quantum state distinction and applications to the hidden subgroup problem 21st Annual Conf. Computational Complexity,, CCC(Piscataway, NJ: p 14, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/CCC.2006.37</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">56</subfield>
+  <subfield code="h">Radhakrishnan J, Rötteler M and Sen P</subfield>
+  <subfield code="m">Random measurement bases, quantum state distinction and applications to the hidden subgroup problem Crossref:</subfield>
+  <subfield code="s">Algorithmica,55,490-516</subfield>
+  <subfield code="a">doi:10.1007/s00453-008-9231-x</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">57</subfield>
+  <subfield code="h">Dankert C, Cleve R, Emerson J and Livine E</subfield>
+  <subfield code="m">Exact and approximate unitary 2-designs and their application to fidelity estimation Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A80,012304</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.80.012304</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">58</subfield>
+  <subfield code="h">Jerrum M and Sinclair A</subfield>
+  <subfield code="m">Polynomial-time approximation algorithms for the ising model Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,22,1087-116</subfield>
+  <subfield code="a">doi:10.1137/0222066</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">59</subfield>
+  <subfield code="h">Goldberg L A and Jerrum M</subfield>
+  <subfield code="m">The complexity of ferromagnetic ising with local fields Crossref:</subfield>
+  <subfield code="s">Comb.Probab.Comput.,16,43-61</subfield>
+  <subfield code="a">doi:10.1017/S096354830600767X</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">60</subfield>
+  <subfield code="h">Zuckerman D</subfield>
+  <subfield code="m">On unapproximable versions of np-complete problems Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,25,1293-304</subfield>
+  <subfield code="a">doi:10.1137/S0097539794266407</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">61</subfield>
+  <subfield code="h">Sly A and Sun N</subfield>
+  <subfield code="m">The computational hardness of counting in two-spin models on d-regular graphs 53rd Annual Symp. Foundations of Computer Science FOCS (Piscataway, NJ: pp 361-9, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/FOCS.2012.56</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">62</subfield>
+  <subfield code="h">Goldberg L A and Guo H</subfield>
+  <subfield code="m">The complexity of approximating complex-valued ising and tutte partition functions Preprint:</subfield>
+  <subfield code="r">arXiv:1409.5627</subfield>
+  <subfield code="r">arXiv:1409.5627</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">63</subfield>
+  <subfield code="h">Lidar D A and Biham O</subfield>
+  <subfield code="m">Simulating ising spin glasses on a quantum computer Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,E56,3661</subfield>
+  <subfield code="a">doi:10.1103/PhysRevE.56.3661</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="0">426241</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">64</subfield>
+  <subfield code="h">Lidar D A</subfield>
+  <subfield code="m">On the quantum computational complexity of the ising spin glass partition function and of knot invariants Crossref:</subfield>
+  <subfield code="s">New J.Phys.,6,167</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/6/1/167</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">65</subfield>
+  <subfield code="h">Knill E and Laflamme R</subfield>
+  <subfield code="m">Quantum computing and quadratically signed weight enumerators Inf. Process. Lett. 79 173-9, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/S0020-0190(00)00222-2</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">66</subfield>
+  <subfield code="h">Geraci J and Lidar D A</subfield>
+  <subfield code="m">Classical ising model test for quantum circuits Crossref:</subfield>
+  <subfield code="s">New J.Phys.,12,075026</subfield>
+  <subfield code="a">doi:10.1088/1367-2630/12/7/075026</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">67</subfield>
+  <subfield code="m">van Quantum algorithms for spin models and simulable gate sets for quantum computation Crossref:</subfield>
+  <subfield code="h">den Nest M, Dür W, Raussendorf R and Briegel H J</subfield>
+  <subfield code="s">Phys.Rev.,A80,052334</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.80.052334</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">68</subfield>
+  <subfield code="m">van Classical spin models and the quantum-stabilizer formalism Crossref:</subfield>
+  <subfield code="h">den Nest M, Dür W and Briegel H J</subfield>
+  <subfield code="s">Phys.Rev.Lett.,98,117207</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.98.117207</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">69</subfield>
+  <subfield code="m">van Completeness of the classical 2d ising model and universal quantum computation Crossref:</subfield>
+  <subfield code="h">den Nest M, Dür W and Briegel H J</subfield>
+  <subfield code="s">Phys.Rev.Lett.,100,110501</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.100.110501</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">70</subfield>
+  <subfield code="h">Fujii K</subfield>
+  <subfield code="m">Quantum information and statistical mechanics: an introduction to frontier Interdiscip. Inf Crossref:</subfield>
+  <subfield code="s">Science,19,1-15</subfield>
+  <subfield code="a">doi:10.4036/iis.2013.1</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">71</subfield>
+  <subfield code="h">Master C P, Yamaguchi F and Yamamoto Y</subfield>
+  <subfield code="m">Efficiency of free-energy calculations of spin lattices by spectral quantum algorithms Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A67,032311</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.67.032311</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">72</subfield>
+  <subfield code="m">De Simple universal models capture all classical spin physics Crossref:</subfield>
+  <subfield code="h">las Cuevas G and Cubitt T S</subfield>
+  <subfield code="s">Science,351,1180-3</subfield>
+  <subfield code="a">doi:10.1126/science.aab3326</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="0">1302463</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">73</subfield>
+  <subfield code="h">Istrail S</subfield>
+  <subfield code="m">Statistical mechanics, three-dimensionality and NP-completeness: I. Universality of intracatability for the partition function of the Ising model across non-planar surfaces Proc. 32nd Annual ACM Symp. Theory of Computing STOC (New York: ACM) pp 87-96</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">74</subfield>
+  <subfield code="h">Goff L and Raussendorf R</subfield>
+  <subfield code="m">Classical simulation of measurement-based quantum computation on higher-genus surface-code states Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A86,042301</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.86.042301</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">75</subfield>
+  <subfield code="h">Kitaev A Y</subfield>
+  <subfield code="m">Fault-tolerant quantum computation by anyons Crossref:</subfield>
+  <subfield code="s">Annals Phys.,303,2-30</subfield>
+  <subfield code="a">doi:10.1016/S0003-4916(02)00018-0</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="0">445447</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">76</subfield>
+  <subfield code="h">Bravyi S and Raussendorf R</subfield>
+  <subfield code="m">Measurement-based quantum computation with the toric code states Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A76,022304</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.76.022304</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">77</subfield>
+  <subfield code="h">Valiant L G</subfield>
+  <subfield code="m">Quantum circuits that can be simulated classically in polynomial time Crossref:</subfield>
+  <subfield code="s">SIAM J.Comput.,31,1229-54</subfield>
+  <subfield code="a">doi:10.1137/S0097539700377025</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">78</subfield>
+  <subfield code="h">Terhal B M and DiVincenzo D P</subfield>
+  <subfield code="m">Classical simulation of noninteracting-fermion quantum circuits Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A65,032325</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.65.032325</subfield>
+  <subfield code="y">2002</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">79</subfield>
+  <subfield code="h">Knill E</subfield>
+  <subfield code="m">Fermionic linear optics and matchgates arXiv: Preprint:</subfield>
+  <subfield code="r">quant-ph/0108033</subfield>
+  <subfield code="r">arXiv:quant-ph/0108033</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">80</subfield>
+  <subfield code="h">Jozsa R and Miyake A</subfield>
+  <subfield code="m">Matchgates and classical simulation of quantum circuits Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A464,3089-106</subfield>
+  <subfield code="a">doi:10.1098/rspa.2008.0189</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">81</subfield>
+  <subfield code="h">Jozsa R, Kraus B, Miyake A and Watrous J</subfield>
+  <subfield code="m">Matchgate and space-bounded quantum computations are equivalent Crossref:</subfield>
+  <subfield code="s">Proc.Roy.Soc.Lond.,A466,809-30</subfield>
+  <subfield code="a">doi:10.1098/rspa.2009.0433</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">82</subfield>
+  <subfield code="h">Fujii K and Tamate S</subfield>
+  <subfield code="m">Computational quantum-classical boundary of noisy commuting quantum circuits Sci. Rep. 6, Crossref:</subfield>
+  <subfield code="a">doi:10.1038/srep25598</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">83</subfield>
+  <subfield code="h">Aharonov D, Kitaev A and Nisan N</subfield>
+  <subfield code="m">Quantum circuits with mixed states Proc. 30th Annual ACM Symp. Theory of Computing STOC (New York: ACM) pp 20-30, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/276698.276708</subfield>
+  <subfield code="y">1998</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">84</subfield>
+  <subfield code="h">Aharonov D and Ben-Or M</subfield>
+  <subfield code="m">Fault-tolerant quantum computation with constant error Proc. 29th Annual ACM Symp.Theory of Computing STOC (New York: ACM) pp 176-88, Crossref:</subfield>
+  <subfield code="a">doi:10.1145/258533.258579</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">85</subfield>
+  <subfield code="h">Raussendorf R</subfield>
+  <subfield code="m">Measurement-based quantum computation with cluster states PhD Thesis Ludwig-Maximillians Universität München</subfield>
+  <subfield code="y">2003</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">86</subfield>
+  <subfield code="h">Nielsen M A and Dawson C M</subfield>
+  <subfield code="m">Fault-tolerant quantum computation with cluster states Crossref:</subfield>
+  <subfield code="s">Phys.Rev.,A71,042323</subfield>
+  <subfield code="a">doi:10.1103/PhysRevA.71.042323</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">87</subfield>
+  <subfield code="h">Fujii K</subfield>
+  <subfield code="m">Noise threshold of quantum supremacy Preprint:</subfield>
+  <subfield code="r">arXiv:1610.03632</subfield>
+  <subfield code="r">arXiv:1610.03632</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">88</subfield>
+  <subfield code="h">Sinclair A, Srivastava P and Thurley M</subfield>
+  <subfield code="m">Approximation algorithms for two-state anti-ferromagnetic spin systems on bounded degree graphs Proc. 23rd Annual ACM- Symp. Discrete Algorithms SODA (Philadelphia: pp 941-53, Crossref:</subfield>
+  <subfield code="p">SIAM</subfield>
+  <subfield code="p">SIAM</subfield>
+  <subfield code="a">doi:10.1137/1.9781611973099.75</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">89</subfield>
+  <subfield code="h">Gao X, Wang S-T and Duan L M</subfield>
+  <subfield code="m">Quantum Supremacy for Simulating a Translation-Invariant Ising Spin Model Crossref:</subfield>
+  <subfield code="s">Phys.Rev.Lett.,118,040502</subfield>
+  <subfield code="a">doi:10.1103/PhysRevLett.118.040502</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

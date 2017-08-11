@@ -1,0 +1,450 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Analysis and Evaluation of Scheduling Policies for Consolidated I/O Operations</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">Hypervisors’ smooth operation and efficient performance has an immediate effect in the supported Cloud services. We investigate scheduling algorithms that match I/O requests originated from virtual resources, to the physical CPUs that do the actual processing. We envisage a new paradigm of virtualized resource consolidation, where I/O resources required by several Virtual Machines (VMs) in different physical hosts, are provided by one (or more) external powerful dedicated appliance(s), namely the I/O Hypervisor (IOH). For this reason I/O operations are transferred from the VMs to the IOH, where they are executed. We propose and evaluate a number of scheduling algorithms for this hypervisor model, concentrating on providing guaranteed fairness among the virtual resources. A simulator has been built that describes this model and is used for the implementation and the evaluation of the algorithms. We also analyze the performance of the different hypervisor models and highlight the importance of fair scheduling.</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">I/O hypervisor</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Cloud computing</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Virtualization</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="653" ind1="1" ind2=" ">
+  <subfield code="a">Scheduling</subfield>
+  <subfield code="9">author</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">19</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">J.Grid Comput.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">107-125</subfield>
+  <subfield code="v">15</subfield>
+  <subfield code="n">1</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1007/s10723-017-9392-4</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">Springer</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-01-20</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Kontodimas, Konstantinos</subfield>
+  <subfield code="v">Department of Computer Engineering and Informatics - U. Campus - Patras - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Kokkinos, Panagiotis</subfield>
+  <subfield code="v">Department of Computer Engineering and Informatics - U. Campus - Patras - Greece</subfield>
+  <subfield code="v">Computer Technology Institute &amp; Press “Diophantus” - U. Campus - Patras - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Kuperman, Yossi</subfield>
+  <subfield code="v">IBM Research and Development - Haifa - Israel</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Houbavlis, Athanasios</subfield>
+  <subfield code="v">Computer Technology Institute &amp; Press “Diophantus” - U. Campus - Patras - Greece</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Varvarigos, Emmanouel</subfield>
+  <subfield code="v">Computer Technology Institute &amp; Press “Diophantus” - U. Campus - Patras - Greece</subfield>
+  <subfield code="v">School of Electrical U. and Computer Engineering - National Technical Athens - Athens - Greece</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">1</subfield>
+  <subfield code="m">OpenStack Accessed 8 Jan 2017</subfield>
+  <subfield code="t">OpenStack Open Source Cloud Computing Software</subfield>
+  <subfield code="u">https://www.openstack.org/</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">2</subfield>
+  <subfield code="m">Orbit Project Accessed 8 Jan 2017</subfield>
+  <subfield code="t">ORBIT - Business Continuity as a Service</subfield>
+  <subfield code="u">http://www.orbitproject.eu/</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">3</subfield>
+  <subfield code="h">Kuperman, Y., Moscovici, E., Nider, J., Ladelsky, R., Gordon, A., Tsafrir, D.</subfield>
+  <subfield code="m">: Paravirtual remote I/O. In: Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems, pp 49-65. ACM</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">4</subfield>
+  <subfield code="h">Sugerman, J., Venkitachalam, G., Lim, B.-H.</subfield>
+  <subfield code="m">: Virtualizing I/O devices on VMware Workstation’s hosted virtual machine Monitor. In: USENIX Annual Technical Conference, General Track, pp 1-14</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="h">R Russell</subfield>
+  <subfield code="m">virtio: towards a de-facto standard for virtual I/O devices ACM SIGOPS Operating Systems Review 42 5 95 103 Russell, R : virtio: towards a de-facto standard for virtual I/O devices. ACM SIGOPS Operating Systems Review 42(5), 95-103</subfield>
+  <subfield code="a">doi:10.1145/1400097.1400108</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">5</subfield>
+  <subfield code="a">doi:10.1145/1400097.1400108</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">6</subfield>
+  <subfield code="h">Fraser, K., Hand, S., Neugebauer, R., Pratt, I., Warfield, A., Williamson, M.</subfield>
+  <subfield code="m">: Safe hardware access with the Xen virtual machine monitor. In: 1st Workshop on Operating System and Architectural Support for the on demand IT InfraStructure (OASIS), pp 1-1</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">7</subfield>
+  <subfield code="h">Yassour, B.-A., Ben-Yehuda, M., Wasserman, O.</subfield>
+  <subfield code="m">: Direct device assignment for untrusted fully-virtualized virtual machines. Tech. rep. . IBM Research Report H-0263, Tech. Rep</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">8</subfield>
+  <subfield code="h">Gordon, A., Har’El, N., Landau, A., Ben-Yehuda, M., Traeger, A.</subfield>
+  <subfield code="m">: Towards exitless and efficient paravirtual I/O. In: Proceedings of the 5th Annual International Systems and Storage Conference, p 10. ACM</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">9</subfield>
+  <subfield code="h">Dong, Y.</subfield>
+  <subfield code="m">Yu, Z., Rose, G : SR-IOV networking in Xen: Architecture, design and implementation. In: Workshop on I/O Virtualization</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">10</subfield>
+  <subfield code="h">Ongaro, D., Cox, A. L., Rixner, S.</subfield>
+  <subfield code="m">: Scheduling I/O in virtual machine monitors. In: Proceedings of the 4th ACM SIGPLAN/SIGOPS international conference on Virtual execution environments, pp 1-10. ACM</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="h">L Cherkasova D Gupta A Vahdat</subfield>
+  <subfield code="m">Comparison of the three CPU schedulers in Xen SIGMETRICS Performance Evaluation Review 35 2 42 51 Cherkasova, L., Gupta, D., Vahdat, A : Comparison of the three CPU schedulers in Xen. SIGMETRICS Performance Evaluation Review 35(2), 42-51</subfield>
+  <subfield code="a">doi:10.1145/1330555.1330556</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">11</subfield>
+  <subfield code="a">doi:10.1145/1330555.1330556</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">12</subfield>
+  <subfield code="h">Cherkasova, L., Gupta, D., Vahdat, A.</subfield>
+  <subfield code="m">: When virtual is harder than real: Resource allocation challenges in virtual machine based it environments Hewlett. Packard Laboratories, Tech. Rep. HPL--25</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="h">A Demers S Keshav S Shenker</subfield>
+  <subfield code="m">Analysis and simulation of a fair queueing algorithm ACM SIGCOMM Computer Communication Review 19 4 1 12 Demers, A., Keshav, S., Shenker, S : Analysis and simulation of a fair queueing algorithm. ACM SIGCOMM Computer Communication Review 19(4), 1-12</subfield>
+  <subfield code="a">doi:10.1145/75247.75248</subfield>
+  <subfield code="y">1989</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">13</subfield>
+  <subfield code="a">doi:10.1145/75247.75248</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="m">AK Parekh RG GallagerA generalized processor sharing approach to flow control in integrated services networks: the single-node case /ACM Transactions on Networking (ToN) 1 3 344 357 : A generalized processor sharing approach to flow control in integrated services networks: the single-node case /ACM Transactions on Networking (ToN) 1(3), 344-357</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/90.234856</subfield>
+  <subfield code="h">Parekh, A. K., Gallager, R. G.</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">1993</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">14</subfield>
+  <subfield code="a">doi:10.1109/90.234856</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">15</subfield>
+  <subfield code="h">Bennett, J. C., Zhang, H.</subfield>
+  <subfield code="m">: WF(2)Q: worst-case fair weighted fair queueing. In: INFOCOM’96. 15th Annual Joint Conference of the Computer Societies. Networking the Next Generation. Proceedings vol. 1, pp 120-128</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">16</subfield>
+  <subfield code="h">Goyal, P., Vin, H. M., Chen, H.</subfield>
+  <subfield code="m">: Start-time fair queueing: a scheduling algorithm for integrated services packet switching networks. In: ACM SIGCOMM Computer Communication Review, vol. 26, pp 157-168. ACM</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">17</subfield>
+  <subfield code="h">Duda, K. J., Cheriton, D. R.</subfield>
+  <subfield code="m">: Borrowed-virtual-time (BVT) scheduling: supporting latency-sensitive threads in a general-purpose scheduler. In: ACM SIGOPS Operating Systems Review, vol. 33, pp 261-276. ACM</subfield>
+  <subfield code="y">1999</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="h">M Shreedhar G Varghese</subfield>
+  <subfield code="m">Efficient fair queuing using deficit round-robin /ACM Trans. Networking 4 3 375 385 Shreedhar, M., Varghese, G : Efficient fair queuing using deficit round-robin /ACM Trans. Networking 4(3), 375-385</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/90.502236</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">18</subfield>
+  <subfield code="a">doi:10.1109/90.502236</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="m">YJ ZhangA multi-server scheduling framework for resource allocation in wireless multi-carrier networks Trans. Wirel. Commun. 6 11 3884 3891 : A multi-server scheduling framework for resource allocation in wireless multi-carrier networks Trans. Wirel. Commun. 6(11), 3884-3891</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TWC.2007.060288</subfield>
+  <subfield code="h">Zhang, Y. J.</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">19</subfield>
+  <subfield code="a">doi:10.1109/TWC.2007.060288</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">20</subfield>
+  <subfield code="h">Chandra, A., Adler, M., Goyal, P., Shenoy, P.</subfield>
+  <subfield code="m">: Surplus fair scheduling: A proportional-share CPU scheduling algorithm for symmetric multiprocessors. In: Proceedings of the 4th conference on Symposium on Operating System Design &amp; Implementation-Volume 4, pp 4-4. USENIX Association</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">21</subfield>
+  <subfield code="h">Mohanty, S. R., Bhuyan, L. N.</subfield>
+  <subfield code="m">: Fair scheduling over multiple servers with flow-dependent server rate. In: Proceedings31st Conference on Local Computer Networks, pp 73-80</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">22</subfield>
+  <subfield code="m">Li, T : Efficient and scalable multiprocessor fair scheduling using distributed weighted round-robin. In: ACM Sigplan Notices, vol. 44, pp 65-74. ACM</subfield>
+  <subfield code="h">Baumberger, D., Hahn, S.</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="m">AK Parekh RG GallagherA generalized processor sharing approach to flow control in integrated services networks: the multiple node case /ACM Transactions on Networking (TON) 2 2 137 150 : A generalized processor sharing approach to flow control in integrated services networks: the multiple node case /ACM Transactions on Networking (TON) 2 (2), 137-150</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/90.298432</subfield>
+  <subfield code="h">Parekh, A. K., Gallagher, R. G.</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">23</subfield>
+  <subfield code="a">doi:10.1109/90.298432</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="h">JM Blanquer B</subfield>
+  <subfield code="m">ÖzdenFair queuing for aggregated multiple links ACM SIGCOMM Computer Communication Review 31 4 189 197 Blanquer, J. M., Özden, B : Fair queuing for aggregated multiple links. ACM SIGCOMM Computer Communication Review 31(4), 189-197</subfield>
+  <subfield code="a">doi:10.1145/964723.383074</subfield>
+  <subfield code="y">2001</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">24</subfield>
+  <subfield code="a">doi:10.1145/964723.383074</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">25</subfield>
+  <subfield code="h">Verma, A., Kaushal, S.</subfield>
+  <subfield code="m">: Cost-time efficient scheduling plan for executing workflows in the cloud. Journal of Grid</subfield>
+  <subfield code="s">Computing,1,12</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">26</subfield>
+  <subfield code="h">Tang, Z.</subfield>
+  <subfield code="m">Qi, L., Cheng, Z Li, K., Khan, S. U Li, K.: An energy-efficient task scheduling algorithm in dvfs-enabled cloud environment. Journal of Grid</subfield>
+  <subfield code="s">Computing,1,20</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="h">K Li</subfield>
+  <subfield code="m">Optimal load distribution for multiple heterogeneous blade servers in a cloud computing environment Journal of grid 27 46 Li, K.: Optimal load distribution for multiple heterogeneous blade servers in a cloud computing environment. Journal of grid</subfield>
+  <subfield code="s">Computing,11,1</subfield>
+  <subfield code="a">doi:10.1007/s10723-012-9239-y</subfield>
+  <subfield code="s">Computing,11,27-46</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">27</subfield>
+  <subfield code="a">doi:10.1007/s10723-012-9239-y</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">28</subfield>
+  <subfield code="h">Caprita, B., Nieh, J., Stein, C.</subfield>
+  <subfield code="m">: Grouped distributed queues: distributed queue, proportional share multiprocessor scheduling. In: Proceedings of the 25th annual ACM symposium on Principles of distributed computing, pp 72-81. ACM</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">29</subfield>
+  <subfield code="h">Ghodsi, A., Zaharia, M., Hindman, B., Konwinski, A., Shenker, S., Stoica, I.</subfield>
+  <subfield code="m">: Dominant resource fairness: Fair allocation of multiple resource types. In: NSDI, vol. 11, pp 24-24</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="h">A Ghodsi V Sekar M Zaharia I Stoica</subfield>
+  <subfield code="m">Multi-resource fair queueing for packet processing ACM SIGCOMM Computer Communication Review 42 4 1 12 Ghodsi, A., Sekar, V., Zaharia, M., Stoica, I : Multi-resource fair queueing for packet processing. ACM SIGCOMM Computer Communication Review 42(4), 1-12</subfield>
+  <subfield code="a">doi:10.1145/2377677.2377679</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">30</subfield>
+  <subfield code="a">doi:10.1145/2377677.2377679</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">31</subfield>
+  <subfield code="h">Yap, K.-K., McKeown, N., Katti, S.</subfield>
+  <subfield code="m">: Multi-server generalized processor sharing. In: Proceedings of the 24th International Teletraffic Congress, p 29. International Teletraffic Congress</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">32</subfield>
+  <subfield code="h">Zeldes, Y., Feitelson, D. G.</subfield>
+  <subfield code="m">: On-line fair allocations based on bottlenecks and global priorities. In: Proceedings of the 4th ACM/SPEC International Conference on Performance Engineering, pp 229-240. ACM</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">33</subfield>
+  <subfield code="h">Lai, C. A., Wang, Q., Kimball, J.</subfield>
+  <subfield code="m">Li, J., Park, J Pu, C.: IO performance interference among consolidated n-tier applications: Sharing is better than isolation for disks. In: 7th International Conference on Cloud Computing, pp 24-31</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="y">2014</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">34</subfield>
+  <subfield code="h">Kim, H., Lim, H., Jeong, J.</subfield>
+  <subfield code="m">Jo, H., Lee, J : Task-aware virtual machine scheduling for i/o performance. In: Proceedings of theACM SIGPLAN/SIGOPS international conference on Virtual execution environments, pp 101-110. ACM</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">35</subfield>
+  <subfield code="h">Tan, H.</subfield>
+  <subfield code="m">Li, C., He, Z., Li, K., Hwang, K : VMCD: A virtual multi-channel disk i/o scheduling method for virtual machines</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="h">D Nikolova C Blondia</subfield>
+  <subfield code="m">Bonded deficit round robin scheduling for multi-channel networks Comput. Netw. 55 15 3503 3516 Nikolova, D., Blondia, C : Bonded deficit round robin scheduling for multi-channel networks. Comput. Netw. 55(15), 3503-3516</subfield>
+  <subfield code="a">doi:10.1016/j.comnet.2011.07.007</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">36</subfield>
+  <subfield code="a">doi:10.1016/j.comnet.2011.07.007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">37</subfield>
+  <subfield code="h">Yap, K.-K., Huang, T.-Y., Yiakoumis, Y., Chinchali, S., McKeown, N., Katti, S.</subfield>
+  <subfield code="m">: Scheduling packets over multiple interfaces while respecting user preferences. In: Proceedings of the ninth ACM conference on Emerging networking experiments and technologies, pp 109-120. ACM</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">38</subfield>
+  <subfield code="h">Bertsekas, D. P., Gallager, R. G., Humblet, P.</subfield>
+  <subfield code="m">: Data networks, vol. 2 International, New Jersey</subfield>
+  <subfield code="p">Prentice-Hall</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="h">M Shreedhar G Varghese</subfield>
+  <subfield code="m">Efficient fair queueing using deficit round robin SIGCOMM 231 242 Shreedhar, M., Varghese, G : Efficient fair queueing using deficit round robin. SIGCOMM</subfield>
+  <subfield code="s">Comput.Commun.Rev.,25,4</subfield>
+  <subfield code="a">doi:10.1145/217391.217453</subfield>
+  <subfield code="s">Comput.Commun.Rev.,25,231-242</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">39</subfield>
+  <subfield code="a">doi:10.1145/217391.217453</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="o">40</subfield>
+  <subfield code="h">Shreedhar, M., Varghese, G.</subfield>
+  <subfield code="m">: Efficient fair queueing using deficit round robin. In: Proceedings of the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication, ser. SIGCOMM ’95. [Online]. Available pp 231-242. ACM, New York, NY, USA</subfield>
+  <subfield code="a">doi:10.1145/217382.217453</subfield>
+  <subfield code="y">1995</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>

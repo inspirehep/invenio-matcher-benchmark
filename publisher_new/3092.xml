@@ -1,0 +1,379 @@
+<record>
+ <datafield tag="245" ind1=" " ind2=" ">
+  <subfield code="a">Image reconstruction in EIT with unreliable electrode data using random sample consensus method</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="520" ind1=" " ind2=" ">
+  <subfield code="a">In electrical impedance tomography (EIT), it is important to acquire reliable measurement data through EIT system for achieving good reconstructed image. In order to have reliable data, various methods for checking and optimizing the EIT measurement system have been studied. However, most of the methods involve additional cost for testing and the measurement setup is often evaluated before the experiment. It is useful to have a method which can detect the faulty electrode data during the experiment without any additional cost. This paper presents a method based on random sample consensus (RANSAC) to find the incorrect data on fault electrode in EIT data. RANSAC is a curve fitting method that removes the outlier data from measurement data. RANSAC method is applied with Gauss Newton (GN) method for image reconstruction of human thorax with faulty data. Numerical and phantom experiments are performed and the reconstruction performance of the proposed RANSAC method with GN is compared with conventional GN method. From the results, it can be noticed that RANSAC with GN has better reconstruction performance than conventional GN method with faulty electrode data.</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="773" ind1=" " ind2=" ">
+  <subfield code="p">Measur.Sci.Tech.</subfield>
+  <subfield code="y">2017</subfield>
+  <subfield code="c">055403</subfield>
+  <subfield code="v">28</subfield>
+  <subfield code="n">5</subfield>
+ </datafield>
+ <datafield tag="024" ind1="7" ind2=" ">
+  <subfield code="a">10.1088/1361-6501/aa5ae9</subfield>
+  <subfield code="2">DOI</subfield>
+  <subfield code="9">IOP</subfield>
+ </datafield>
+ <datafield tag="300" ind1=" " ind2=" ">
+  <subfield code="a">15</subfield>
+ </datafield>
+ <datafield tag="260" ind1=" " ind2=" ">
+  <subfield code="c">2017-03-16</subfield>
+  <subfield code="t">published</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">Published</subfield>
+ </datafield>
+ <datafield tag="100" ind1=" " ind2=" ">
+  <subfield code="a">Jeon, Min Ho</subfield>
+  <subfield code="v">Division of Artificial Systems Science - Department of Mechanical Engineering - Chiba U. - Chiba-shi 263-0022 - Japan</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Khambampati, Anil Kumar</subfield>
+  <subfield code="v">BK21  +  Clean Energy Convergence and Integration Center for Human Resources Training and Education - Jeju National U. - Jeju 63243 - Republic of Korea</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Kim, Bong Seok</subfield>
+  <subfield code="v">Faculty of Lift Engineering - Korea Lift College - Gyeongsangnam-do 50141 - Republic of Korea</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Kang, Suk In</subfield>
+  <subfield code="v">Faculty of Applied Energy System - Major of Electronic Engineering - Jeju National U. - Jeju 63243 - Republic of Korea</subfield>
+ </datafield>
+ <datafield tag="700" ind1=" " ind2=" ">
+  <subfield code="a">Kim, Kyung Youn</subfield>
+  <subfield code="v">Department of Electronic Engineering - Jeju National U. - Jeju 63243 - Republic of Korea</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(i) Iteration number K and the number of samples are calculated based on the number of fault electrodes using equation (, 14: #mstaa5ae9eqn014) and threshold value th is set as half standard deviation of the residual error</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(ii) Electrode combination is sampled and defined as l</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iii) Image is reconstructed using only measured data through electrode sample {{l}_{i}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(iv) Residual error {{ \Gamma }_{i}} of reconstructed image is calculated using equation (, 17: #mstaa5ae9eqn017)</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(v) Repeat steps 3-4 for all iterations K</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(vi) The number of elements {{M}_{i}} satisfying threshold th is counted in {{ \Gamma }_{i}}</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">(vii) Electrode combination having the largest {{M}_{i}} in matrix M is found and determined as optimal sample</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Adler A</subfield>
+  <subfield code="m">Accounting for erroneous electrode data in electrical impedance tomography</subfield>
+  <subfield code="s">Physiol.Meas.,25,227-38</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/25/1/028</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Adler A and Guardo R</subfield>
+  <subfield code="m">Electrical impedance tomography: regularized imaging and contrast detection Trans. Med Imaging 15 170-9, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/42.491418</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Asfaw Y and Adler A</subfield>
+  <subfield code="m">Automatic detection of detached and erroneous electrodes in electrical impedance tomography</subfield>
+  <subfield code="s">Physiol.Meas.,26,175-83</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/26/2/017</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Asfaw Y and Adler A</subfield>
+  <subfield code="m">Detection of unreliable measurements in multi-sensor devices Proc. IEEE Int. Workshop on Medical Measurement and Applications (Ottawa, ON, Canada,) vol 56 pp 81-6, Crossref:</subfield>
+  <subfield code="a">doi:10.1109/MEMEA.2008.4543003</subfield>
+  <subfield code="y">2008</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Balleza-Ordaz M, Alday-Perez E, Vargas-Luna M, Kashina S, Huerta-Franco M R, Torres-González L A and Riu-Costa P J</subfield>
+  <subfield code="m">Tidal volume monitoring by a set of tetrapolar impedance measurements selected from the 16-electrodes arrangement used in electrical impedance tomography (EIT) technique. Calibration equations in a group of healthy males Biomed. Signal Process. Control 27 68-76, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.bspc.2016.02.001</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Balleza-Ordaz M, Perez-Alday E, Vargas-Luna M and Riu J P</subfield>
+  <subfield code="m">Tidal volume monitoring by electrical impedance tomography (EIT) using different regions of interest (ROI): calibration equations Biomed. Signal Process. Control 18 102-9, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.bspc.2014.12.004</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Boverman G, Isaacson D, Saulnier G and Newell J</subfield>
+  <subfield code="m">Methods for compensating for variable electrode contact in EIT Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,56,2762-72</subfield>
+  <subfield code="a">doi:10.1109/TBME.2009.2027129</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Czaplik M, Antink C H, Rossaint R and Leonhardt S</subfield>
+  <subfield code="m">Application of internal electrodes to the oesophageal and tracheal tube in an animal trial: evaluation of its clinical and technical potentiality in electrical impedance tomography J. Clin Monit. Comput. 28 299-308, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s10877-013-9536-4</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Demidenko E, Borsic A, Wan Y, Halter R J and Hartov A</subfield>
+  <subfield code="m">Statistical estimation of EIT electrode contact impedance using a magic Toeplitz matrix Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,58,2194-201</subfield>
+  <subfield code="a">doi:10.1109/TBME.2011.2125790</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Dickin F and Wang M</subfield>
+  <subfield code="m">Electrical resistance tomography for process applications</subfield>
+  <subfield code="s">Measur.Sci.Tech.,7,247</subfield>
+  <subfield code="a">doi:10.1088/0957-0233/7/3/005</subfield>
+  <subfield code="y">1996</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Fischler M A and Bolles R C</subfield>
+  <subfield code="m">Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography Crossref:</subfield>
+  <subfield code="s">Commun.ACM,24,381-95</subfield>
+  <subfield code="a">doi:10.1145/358669.358692</subfield>
+  <subfield code="y">1981</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gaggero P O, Adler A, Waldmann A D, Mamatjan Y, Justiz J and Koch V M</subfield>
+  <subfield code="m">Automated robust test framework for electrical impedance tomography</subfield>
+  <subfield code="s">Physiol.Meas.,36,1227-44</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/36/6/1227</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Gagnon H, Cousineau M, Adler A and Hartinger A E</subfield>
+  <subfield code="m">A resistive mesh phantom for assessing the performance of EIT systems Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,57,2257-66</subfield>
+  <subfield code="a">doi:10.1109/TBME.2010.2052618</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Grychtol B, Lionheart W R, Bodenstein M, Wolf G K and Adler A</subfield>
+  <subfield code="m">Impact of model shape mismatch on reconstruction quality in electrical impedance tomography Trans. Med Imaging 31 1754-60, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TMI.2012.2200904</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Hartinger A, Guardo R, Adler A and Gagnon H</subfield>
+  <subfield code="m">Real-time management of faulty electrodes in electrical impedance tomography Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,56,369-77</subfield>
+  <subfield code="a">doi:10.1109/TBME.2008.2003103</subfield>
+  <subfield code="y">2009</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Holder D S</subfield>
+  <subfield code="m">Electrical Impedance Tomography: Methods, History and Applications (Bristol: Publishing)</subfield>
+  <subfield code="p">IOP</subfield>
+  <subfield code="y">2005</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Khambampati A K, Kim S and Kim K Y</subfield>
+  <subfield code="m">An EM algorithm for dynamic estimation of interfacial boundary in stratified flow of immiscible liquids using EIT Flow Meas Crossref:</subfield>
+  <subfield code="s">J.Sci.Instrum.,22,517-28</subfield>
+  <subfield code="a">doi:10.1016/j.flowmeasinst.2011.09.003</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kim B S, Kim K Y, Kao T J, Newell J C, Isaacson D and Saulnier G J</subfield>
+  <subfield code="m">Dynamic electrical impedance imaging of a chest phantom using the Kalman filter</subfield>
+  <subfield code="s">Physiol.Meas.,27,S81-91</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/27/5/S07</subfield>
+  <subfield code="y">2006</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Kim B S, Isaacson D, Xia H, Kao T J, Newell J C and Saulnier G J</subfield>
+  <subfield code="m">A method for analyzing electrical impedance spectroscopy data from breast cancer patients</subfield>
+  <subfield code="s">Physiol.Meas.,28,S237-46</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/28/7/S17</subfield>
+  <subfield code="y">2007</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="m">Lv Y Li Z, Liu W and Cao J A new robust 2D camera calibration method using RANSAC Crossref:</subfield>
+  <subfield code="h">Feng J</subfield>
+  <subfield code="s">Optik,126,4910-15</subfield>
+  <subfield code="a">doi:10.1016/j.ijleo.2015.09.117</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mamatjan Y, Grychtol B, Gaggero P, Justiz J, Koch V M and Adler A</subfield>
+  <subfield code="m">2013 Evaluation and real-time monitoring of data quality in electrical impedance tomography Trans. Med Imaging 32-2005, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TMI.2013.2269867</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Marsetic A, Ostir K and Fras M K</subfield>
+  <subfield code="m">Automatic orthorectification of high-resolution optical satellite images using vector roads Trans. Geosci. Remote Sens. 53 6035-47, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TGRS.2015.2431434</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Mufti F, Mahony R and Heinzmann J</subfield>
+  <subfield code="m">Robust estimation of planar surfaces using spatio-temporal RANSAC for applications in autonomous vehicle navigation Robot. Auton. Syst. 60 16-28, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.robot.2011.08.009</subfield>
+  <subfield code="y">2012</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Raguram R, Chum O, Pollefeys M, Matas J and Frahm J M</subfield>
+  <subfield code="m">2013 USAC: a universal framework for random sample consensus Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Pattern Anal.Machine Intell.,35,38</subfield>
+  <subfield code="a">doi:10.1109/TPAMI.2012.257</subfield>
+  <subfield code="y">2022</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Rashid A, Khambampati A K, Kim B S, Kim S, Kang M J and Kim K Y</subfield>
+  <subfield code="m">An EKF based estimation scheme for sedimentation processes in vessels using EIT-type measurement data Flow Meas Crossref:</subfield>
+  <subfield code="s">J.Sci.Instrum.,21,521-30</subfield>
+  <subfield code="a">doi:10.1016/j.flowmeasinst.2010.09.002</subfield>
+  <subfield code="y">2010</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Rashid A, Kim B S, Khambampati A K, Kim S and Kim K Y</subfield>
+  <subfield code="m">An oppositional biogeography-based optimization technique to reconstruct organ boundaries in the human thorax using electrical impedance tomography</subfield>
+  <subfield code="s">Physiol.Meas.,32,767-96</subfield>
+  <subfield code="a">doi:10.1088/0967-3334/32/7/S04</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Scaramuzza D</subfield>
+  <subfield code="m">1-point-RANSAC structure from motion for vehicle-mounted cameras by exploiting non-holonomic constraints Int. J Comput. Vis. 95 74-85, Crossref:</subfield>
+  <subfield code="a">doi:10.1007/s11263-011-0441-3</subfield>
+  <subfield code="y">2011</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Schlebusch T and Leonhardt S</subfield>
+  <subfield code="m">Effect of electrode arrangements on bladder volume estimation by electrical impedance tomography J. Phys.: Conf. Ser. 434 012080</subfield>
+  <subfield code="a">doi:10.1088/1742-6596/434/1/012080</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Schlebusch T, Nienke S, Santos S A and Leonhardt S</subfield>
+  <subfield code="m">Bladder volume estimation from electrical impedance tomography 35th Annual Int. Conf. of the Engineering in Medicine and Biology Society (EMBC)</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="u">https://doi.org/</subfield>
+  <subfield code="a">doi:10.1109/EMBC.2013.6611029:</subfield>
+  <subfield code="u">https://doi.org/</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="a">doi:10.1109/EMBC.2013.6611029</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Tong X</subfield>
+  <subfield code="m">Ye Z, Xu Y, Liu S Li L, Xie H and Li TA novel subpixel phase correlation method using singular value decomposition and unified random sample consensus Trans. Geosci. Remote Sens. 53 4143-56, Crossref:</subfield>
+  <subfield code="p">IEEE</subfield>
+  <subfield code="a">doi:10.1109/TGRS.2015.2391999</subfield>
+  <subfield code="y">2015</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Torr P H S and Zisserman A</subfield>
+  <subfield code="m">MLESAC: a new robust estimator with application to estimating image geometry Comput. Vis. Image Underst. 78 138-56, Crossref:</subfield>
+  <subfield code="a">doi:10.1006/cviu.1999.0832</subfield>
+  <subfield code="y">2000</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Vauhkonen M</subfield>
+  <subfield code="m">Electrical impedance tomography and prior information PhD Thesis University of Kuopio, Finland</subfield>
+  <subfield code="y">1997</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wang H and Suter D</subfield>
+  <subfield code="m">MDPE: a very robust estimator for model fitting and range image segmentation Int. J Comput. Vis. 59 139-66, Crossref:</subfield>
+  <subfield code="a">doi:10.1023/B:VISI.0000022287.61260.b0</subfield>
+  <subfield code="y">2004</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Wang Y, Zheng J</subfield>
+  <subfield code="m">Xu Q-Z, Li B and Hu H-MAn improved RANSAC based on the scale variation homogeneity J. Vis Commun. Image Represent. 40 751-64, Crossref:</subfield>
+  <subfield code="a">doi:10.1016/j.jvcir.2016.08.019</subfield>
+  <subfield code="y">2016</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Webster J G</subfield>
+  <subfield code="m">Electrical Impedance Tomography (Bristol: Adam</subfield>
+  <subfield code="p">Hilger</subfield>
+  <subfield code="y">1990</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Woo E J, Hua P, Webster J G and Tompkins W J</subfield>
+  <subfield code="m">Measuring lung resistivity using electrical impedance tomography Crossref:</subfield>
+  <subfield code="s">IEEE Trans.Biomed.Eng.,39,756-60</subfield>
+  <subfield code="a">doi:10.1109/10.142651</subfield>
+  <subfield code="y">1992</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Zhou F, Cui Y, Wang Y, Liu L and Gao H</subfield>
+  <subfield code="m">Accurate and robust estimation of camera parameters using RANSAC Crossref:</subfield>
+  <subfield code="s">Opt.Lasers Eng.,51,197-212</subfield>
+  <subfield code="a">doi:10.1016/j.optlaseng.2012.10.012</subfield>
+  <subfield code="y">2013</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="999" ind1="C" ind2="5">
+  <subfield code="h">Zubal I G, Harrell C R, Smith E O, Rattner Z, Gindi G and Hoffer P B</subfield>
+  <subfield code="m">Computerized three-dimensional segmented human anatomy Crossref:</subfield>
+  <subfield code="s">Med.Phys.,21,299-302</subfield>
+  <subfield code="a">doi:10.1118/1.597290</subfield>
+  <subfield code="y">1994</subfield>
+  <subfield code="9">refextract</subfield>
+ </datafield>
+ <datafield tag="980" ind1=" " ind2=" ">
+  <subfield code="a">HEP</subfield>
+ </datafield>
+</record>
