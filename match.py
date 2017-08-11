@@ -80,10 +80,13 @@ def validator(record, result):
 
     author_score = 0.5
     if record.get('authors') and result.record.get('authors'):
-        number_of_authors = len(record['authors'])
-        matches = len(AuthorComparator(record['authors'], result.record['authors']).matches)
-        author_score = matches/float(number_of_authors)
-
+        number_of_authors = min(len(record['authors']), 5)
+        try:
+            matches = len(AuthorComparator(record['authors'][:4], result.record['authors'][:4]).matches)
+            author_score = matches/float(number_of_authors)
+        except:
+            #FIXME json_merger fails internally in some author comparison
+            pass
     title_max_score = 0.5
     if record.get('titles') and result.record.get('titles'):
         record_titles = [r['title'].lower() for r in record['titles']]
@@ -219,7 +222,6 @@ def main(args):
                         doc_type='hep',
                         validator=validator
                     ))
-
 
                     if len(matched_fuzzy_records) >= 1:
                         first_result = matched_fuzzy_records[0]
