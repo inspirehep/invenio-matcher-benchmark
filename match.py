@@ -3,7 +3,6 @@ import datetime
 import glob
 import os
 
-import editdistance
 from itertools import product
 
 from dojson.contrib.marc21.utils import create_record as marc_create_record
@@ -80,9 +79,14 @@ def validator(record, result):
 
     author_score = 0.5
     if record.get('authors') and result.record.get('authors'):
-        number_of_authors = min(len(record['authors']), 5)
+        number_of_authors = 5
         try:
-            matches = len(AuthorComparator(record['authors'][:4], result.record['authors'][:4]).matches)
+            matches = len(
+                AuthorComparator(
+                    record['authors'][:number_of_authors],
+                    result.record['authors'][:number_of_authors]
+                ).matches
+            )
             author_score = matches/float(number_of_authors)
         except:
             #FIXME json_merger fails internally in some author comparison
@@ -99,6 +103,18 @@ def validator(record, result):
             if title_score > title_max_score:
                 title_max_score = title_score
 
+    # reference_num_diff = 0.5
+    # if record.get('references') and result.record.get('references'):
+    #     record_references = len(record['references'])
+    #     result_references = len(result.record['references'])
+    #     ref_diff_number = abs(record_references - result_references)
+    #     if ref_diff_number > 5:
+    #         # Too many different references
+    #         reference_num_diff = 0.0
+    #     elif ref_diff_number == 0:
+    #         reference_num_diff = 1.0
+
+    # if (author_score + title_max_score + reference_num_diff)/3 > 0.5:
     if (author_score + title_max_score)/2 > 0.5:
         return True
     else:
