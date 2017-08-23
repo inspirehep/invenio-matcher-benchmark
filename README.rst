@@ -27,26 +27,26 @@ Run the benchmark:
 
     $ docker-compose run --rm web python match.py publisher_updates --output
 
-After running all the files present in the folder `publisher_updates` a final output will be produced:
+After running all the files present in the folder `publisher_updates`, a final output will be produced:
 
 
     #### STATS ####
 
     Total analyzed:  2258
 
-    True positives:  1616
+    True positives:  1928
 
-    False positives:  12
+    False positives:  7
 
     True negatives:  0
 
-    False negatives:  630
-
+    False negatives:  323
+    
     Duplicate exact match:  0
 
-    Precision:  0.992628992629
+    Precision:  0.996382428941
+    
+    Recall:  0.85650821857
 
-    Recall:  0.719501335708
-
-    F1 Score:  0.834279814146
+    F1 Score:  0.921165790731
 
