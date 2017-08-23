@@ -3,8 +3,6 @@ import datetime
 import glob
 import os
 
-from itertools import product
-
 from dojson.contrib.marc21.utils import create_record as marc_create_record
 
 from invenio_matcher.api import match as _match
@@ -13,6 +11,8 @@ from inspire_dojson.processors import overdo_marc_dict
 from inspirehep.modules.migrator.tasks.records import split_stream
 from inspirehep.utils.record import get_value
 from inspirehep.factory import create_app
+
+from config import get_exact_queries, get_fuzzy_queries, validator
 
 
 def generate_doi_map():
@@ -38,87 +38,6 @@ def generate_recid_map():
 def generate_no_match_list():
     with open('no_match.txt', 'r') as fd:
         return fd.read().splitlines()
-
-
-def get_mlt_record(inspire_record):
-    records = []
-
-    if inspire_record.get('titles'):
-        records.append(
-            {
-                'titles': inspire_record['titles'],
-                'boost': 20
-            }
-        )
-    if inspire_record.get('abstracts'):
-        records.append(
-            {
-                'abstracts': inspire_record['abstracts'],
-                'boost': 20
-            }
-        )
-    if inspire_record.get('report_numbers'):
-        records.append(
-            {
-                'report_numbers': inspire_record['report_numbers'],
-                'boost': 10
-            }
-        )
-    if inspire_record.get('authors'):
-        records.append(
-            {
-                'authors': inspire_record['authors'][:3]
-            }
-        )
-    return records
-
-
-def validator(record, result):
-    """Validate results to avoid false positives."""
-    from inspire_json_merger.comparators import AuthorComparator
-
-    author_score = 0.5
-    if record.get('authors') and result.record.get('authors'):
-        number_of_authors = 5
-        try:
-            matches = len(
-                AuthorComparator(
-                    record['authors'][:number_of_authors],
-                    result.record['authors'][:number_of_authors]
-                ).matches
-            )
-            author_score = matches/float(number_of_authors)
-        except:
-            #FIXME json_merger fails internally in some author comparison
-            pass
-    title_max_score = 0.5
-    if record.get('titles') and result.record.get('titles'):
-        record_titles = [r['title'].lower() for r in record['titles']]
-        result_titles = [r['title'].lower() for r in result.record['titles']]
-
-        for titles in product(record_titles, result_titles):
-            record_tokens = set(titles[0].split())
-            result_tokens = set(titles[1].split())
-            title_score = len(record_tokens & result_tokens)/float(len(record_tokens | result_tokens))
-            if title_score > title_max_score:
-                title_max_score = title_score
-
-    # reference_num_diff = 0.5
-    # if record.get('references') and result.record.get('references'):
-    #     record_references = len(record['references'])
-    #     result_references = len(result.record['references'])
-    #     ref_diff_number = abs(record_references - result_references)
-    #     if ref_diff_number > 5:
-    #         # Too many different references
-    #         reference_num_diff = 0.0
-    #     elif ref_diff_number == 0:
-    #         reference_num_diff = 1.0
-
-    # if (author_score + title_max_score + reference_num_diff)/3 > 0.5:
-    if (author_score + title_max_score)/2 > 0.5:
-        return True
-    else:
-        return False
 
 
 def is_good_match(doi_match_map, recid_match_map, dois, control_number, matched_recid):
@@ -180,8 +99,7 @@ def main(args):
 
                     control_number = get_value(inspire_record, 'control_number')
                     dois = get_value(inspire_record, 'dois.value')
-                    arxiv_eprints = get_value(inspire_record, 'arxiv_eprints.value')        
-                    report_numbers = get_value(inspire_record, 'report_numbers.value')
+                    arxiv_eprints = get_value(inspire_record, 'arxiv_eprints.value') 
 
                     if not dois and not control_number:
                         # FIXME all the correct/incorrect match files are based on doi
@@ -193,11 +111,7 @@ def main(args):
                     print 'Going to match arXiv eprints: ', arxiv_eprints
 
                     # Step 1 - apply exact matches
-                    queries_ = [
-                        {'type': 'exact', 'match': 'dois.value.raw', 'values': dois},
-                        {'type': 'exact', 'match': 'arxiv_eprints.value.raw', 'values': arxiv_eprints},
-                        {'type': 'exact', 'match': 'report_numbers.value.raw', 'values': report_numbers}
-                    ]
+                    queries_ = get_exact_queries(inspire_record)
                     matched_exact_records = list(_match(
                         inspire_record,
                         queries=queries_,
@@ -229,8 +143,7 @@ def main(args):
                     # Step 2 - apply fuzzy queries
                     print 'Executing mlt query...'
 
-                    match_record = get_mlt_record(inspire_record)
-                    queries_ = [{'type': 'fuzzy', 'match': match_record}]
+                    queries_ = get_fuzzy_queries(inspire_record)
                     matched_fuzzy_records = list(_match(
                         inspire_record,
                         queries=queries_,

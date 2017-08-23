@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+#
+# This file is part of INSPIRE.
+# Copyright (C) 2016 CERN.
+#
+# INSPIRE is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# INSPIRE is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with INSPIRE. If not, see <http://www.gnu.org/licenses/>.
+#
+# In applying this licence, CERN does not waive the privileges and immunities
+# granted to it by virtue of its status as an Intergovernmental Organization
+# or submit itself to any jurisdiction.
+
+version: '2.2'
+
+services:
+  base:
+    image: inspirehep/python-base
+    tty: true
+    environment:
+      - BASE_USER_UID=${BASE_USER_UID:-1000}
+      - BASE_USER_GIT=${BASE_USER_GIT:-1000}
+      - LANG=en_US.UTF-8
+      - LC_CTYPE=en_US.UTF-8
+      - LC_NUMERIC=en_US.UTF-8
+      - LC_TIME=en_US.UTF-8
+      - LC_COLLATE=en_US.UTF-8
+      - LC_MONETARY=en_US.UTF-8
+      - LC_MESSAGES=en_US.UTF-8
+      - LC_PAPER=en_US.UTF-8
+      - LC_NAME=en_US.UTF-8
+      - LC_ADDRESS=en_US.UTF-8
+      - LC_TELEPHONE=en_US.UTF-8
+      - LC_MEASUREMENT=en_US.UTF-8
+      - LC_IDENTIFICATION=en_US.UTF-8
+      - LC_ALL=
+
+  indexer:
+    image: inspirehep/matcher-es
+    environment:
+      - ES_HEAP_SIZE=2g
+  database:
+    image: postgres:9.4.5
+    environment:
+      - POSTGRES_PASSWORD=dbpass123
+      - POSTGRES_USER=inspirehep
+      - PGDATA=/var/lib/postgresql/data/pgdata
+  static:
+    image: busybox
+    volumes:
+        - ".:/code"
+        - "${DOCKER_DATA}/tmp/virtualenv:/virtualenv"

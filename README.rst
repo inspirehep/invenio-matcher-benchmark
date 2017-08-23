@@ -4,37 +4,49 @@ Invenio-matcher benchmark
 
 This repository contains test data and scripts in order to evaluate the accuracy of https://github.com/inveniosoftware-contrib/invenio-matcher with INSPIRE data.
 
-How to run the script
-=====================
+How to run the benchmark
+========================
 
-The file `match.py` is the CLI to run the tests.
+First, make sure your system has installed **docker** and **docker-compose**.
 
-.. code-block:: bash
-    python match_file.py -h                                                                                                  
+Get the latest version of the Docker images:
 
-    usage: match_file.py [-h] [--output] names [names ...]
+.. code-block:: console
 
-    Test invenio-matcher.
+    $ docker-compose pull
 
-    positional arguments:
-        names       File(s) or directory(ies) to run matcher against.
+Start all the Docker containers:
 
-        optional arguments:
-            -h, --help  show this help message and exit
-                --output    Output files with false positives and false negatives
+.. code-block:: console
 
-And the output provided:
+    $ docker-compose up -d
 
-```
-#### STATS ####
-Total analyzed:  2258
-True positives:  1616
-False positives:  12
-True negatives:  0
-False negatives:  630
-Duplicate exact match:  0
-------------------------
-Precision:  0.992628992629
-Recall:  0.719501335708
-F1 Score:  0.834279814146
-```
+Run the benchmark:
+
+.. code-block:: console
+
+    $ docker-compose run --rm web python match.py publisher_updates --output
+
+After running all the files present in the folder `publisher_updates` a final output will be produced:
+
+
+    #### STATS ####
+
+    Total analyzed:  2258
+
+    True positives:  1616
+
+    False positives:  12
+
+    True negatives:  0
+
+    False negatives:  630
+
+    Duplicate exact match:  0
+
+    Precision:  0.992628992629
+
+    Recall:  0.719501335708
+
+    F1 Score:  0.834279814146
+
