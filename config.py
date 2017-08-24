@@ -61,15 +61,16 @@ def validator(record, result):
 
     author_score = 0.5
     if record.get('authors') and result.record.get('authors'):
-        number_of_authors = 5
         try:
+            authors_record = min(len(record['authors']), 5)
+            authors_match_record = min(len(result.record['authors']), 5)
             matches = len(
                 AuthorComparator(
-                    record['authors'][:number_of_authors],
-                    result.record['authors'][:number_of_authors]
+                    record['authors'][:authors_record],
+                    result.record['authors'][:authors_match_record]
                 ).matches
             )
-            author_score = matches / float(number_of_authors)
+            author_score = matches / float(max(authors_record, authors_match_record))
         except:
             # FIXME json_merger fails internally in some author comparison
             pass

@@ -162,6 +162,7 @@ def main(args):
                         else:
                             false_positives += 1
                             if args.output:
+                                print '-- False positive - check {0} file'.format(str(total) + '.xml')
                                 write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
                         continue
 
@@ -171,6 +172,7 @@ def main(args):
                     else:
                         false_negatives += 1
                         if args.output:
+                            print '-- False negative - check {0} file'.format(str(total) + '.xml')
                             write(marcxml, false_negatives_dir + os.path.sep + str(total) + '.xml')
 
                     print '\n'
