@@ -9,11 +9,30 @@ How to run the benchmark
 
 First, make sure your system has installed **docker** and **docker-compose**.
 
+Clone this repository:
+
+.. code-block:: console
+
+    $ git clone https://github.com/inspirehep/invenio-matcher-benchmark.git
+    $ cd invenio-matcher-benchmark
+
 Get the latest version of the Docker images:
 
 .. code-block:: console
 
     $ docker-compose pull
+
+Export variable to store Docker persistent data:
+
+.. code-block:: console
+
+    $ export DOCKER_DATA=~/inspirehep_docker_data/
+
+Install all dependencies from INSPIRE (this can take ~10 minutes):
+
+.. code-block:: console
+
+    $ docker-compose -f docker-compose.deps.yml run --rm pip
 
 Start all the Docker containers:
 
@@ -21,7 +40,7 @@ Start all the Docker containers:
 
     $ docker-compose up -d
 
-Run the benchmark:
+Run the benchmark (specify folder(s) to run after `match.py`):
 
 .. code-block:: console
 
