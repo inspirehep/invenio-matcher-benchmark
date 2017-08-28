@@ -2,6 +2,7 @@ import argparse
 import datetime
 import glob
 import os
+import json
 
 from dojson.contrib.marc21.utils import create_record as marc_create_record
 
@@ -128,6 +129,7 @@ def main(args):
                             false_positives += 1
                             if args.output:
                                 write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
+                                write(json.dumps(matched_exact_records[0].record), false_positives_dir + os.path.sep + str(total) + '_in.json')
                             print '-- Got a wrong match', matched_exact_records[0].record.get('control_number')
                         continue
                     elif len(matched_exact_records) > 1:
@@ -136,6 +138,8 @@ def main(args):
                         multiple_exact += 1
                         if args.output:
                             write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
+                            write(json.dumps(matched_exact_records[0].record), false_positives_dir + os.path.sep + str(total) + '_in.json')
+                            
                         print '-- More than one match found: ', [m.record.get('control_number') for m in matched_exact_records]
                         continue
 
@@ -164,6 +168,7 @@ def main(args):
                             if args.output:
                                 print '-- False positive - check {0} file'.format(str(total) + '.xml')
                                 write(marcxml, false_positives_dir + os.path.sep + str(total) + '.xml')
+                                write(json.dumps(first_result.record), false_positives_dir + os.path.sep + str(total) + '_in.json')
                         continue
 
                     # No record matched, check if it was a true negative
