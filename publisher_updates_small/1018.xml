@@ -1,0 +1,760 @@
+<record>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.jcp.2016.02.001</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Balsara, Dinshaw S.</subfield>
+    <subfield code="v">Physics Department, University of Notre Dame, USA</subfield>
+    <subfield code="m">dbalsara@nd.edu</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">A subluminal relativistic magnetohydrodynamics scheme with ADER-WENO predictor and multidimensional Riemann solver-based corrector</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-05-01</subfield>
+    <subfield code="t">published</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">28</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The relativistic magnetohydrodynamics (RMHD) set of equations has recently seen an increased use in astrophysical computations. Even so, RMHD codes remain fragile. The reconstruction can sometimes yield superluminal velocities in certain parts of the mesh. The current generation of RMHD codes does not have any particularly good strategy for avoiding such an unphysical situation. In this paper we present a reconstruction strategy that overcomes this problem by making a single conservative to primitive transformation per cell followed by higher order WENO reconstruction on a carefully chosen set of primitives that guarantee subluminal reconstruction of the flow variables. For temporal evolution via a predictor step we also present second, third and fourth order accurate ADER methods that keep the velocity subluminal during the predictor step. The methods presented here are very general and should apply to other PDE systems where physical realizability is most easily asserted in the primitive variables.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Elsevier Inc.</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Relativistic MHD</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Higher order Godunov schemes</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">WENO</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">ADER</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Multidimensional Riemann solvers</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Physical realizability</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kim, Jinho</subfield>
+    <subfield code="v">Physics Department, University of Notre Dame, USA</subfield>
+    <subfield code="m">jkim46@nd.edu</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">J.Comput.Phys.</subfield>
+    <subfield code="c">357-384</subfield>
+    <subfield code="v">312</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">HEP</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Citeable</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Published</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Approximation du problème de Riemann vraiment multidimensionnel des équations d'Euler par une méthode de type Roe, I: la linéarisation</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">1</subfield>
+    <subfield code="s">C.R.Acad.Sci.Ser.,I319,499</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Approximation du problème de Riemann vraiment multidimensionnel des équations d'Euler par une méthode de type Roe, II: solution du problème de Riemann approché</subfield>
+    <subfield code="v">319</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">2</subfield>
+    <subfield code="s">C.R.Acad.Sci.Ser.,I319,625</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Aloy, M.A.</subfield>
+    <subfield code="h">Ibanez, J.M.</subfield>
+    <subfield code="h">Marti, J.M.</subfield>
+    <subfield code="t">GENESIS: a high resolution code for three-dimensional general relativistic hydrodynamics</subfield>
+    <subfield code="v">166</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">3</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,166,122</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Anton, L.</subfield>
+    <subfield code="h">Miralles, J.A.</subfield>
+    <subfield code="h">Marti, J.M.</subfield>
+    <subfield code="h">Ibanez, J.M.</subfield>
+    <subfield code="h">Aloy, J.M.</subfield>
+    <subfield code="h">Mimica, P.</subfield>
+    <subfield code="t">Relativistic MHD: renormalized eigenvectors and full wave decomposition Riemann solver</subfield>
+    <subfield code="v">188</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">4</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,188,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Spicer, D.S.</subfield>
+    <subfield code="t">A staggered mesh algorithm using high order Godunov fluxes to ensure solenoidal magnetic fields in magnetohydrodynamic simulations</subfield>
+    <subfield code="v">149</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">5</subfield>
+    <subfield code="s">J.Comput.Phys.,149,270</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Monotonicity preserving weighted non-oscillatory schemes with increasingly high order of accuracy</subfield>
+    <subfield code="v">160</subfield>
+    <subfield code="y">2000</subfield>
+    <subfield code="o">6</subfield>
+    <subfield code="s">J.Comput.Phys.,160,405</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Total variation diminishing scheme for relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">132</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">7</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,132,83</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Divergence-free adaptive mesh refinement for magnetohydrodynamics</subfield>
+    <subfield code="v">174</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">8</subfield>
+    <subfield code="s">J.Comput.Phys.,174,614</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Second-order-accurate schemes for magnetohydrodynamics with divergence-free reconstruction</subfield>
+    <subfield code="v">151</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">9</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,151,149</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Divergence-free reconstruction of magnetic fields and WENO schemes for magnetohydrodynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">10</subfield>
+    <subfield code="s">J.Comput.Phys.,228,5040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Rumpf, T.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">Efficient, high-accuracy ADER-WENO schemes for hydrodynamics and divergence-free magnetohydrodynamics</subfield>
+    <subfield code="v">228</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">11</subfield>
+    <subfield code="s">J.Comput.Phys.,228,2480</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional HLLE Riemann solver, application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">229</subfield>
+    <subfield code="y">2010</subfield>
+    <subfield code="o">12</subfield>
+    <subfield code="s">J.Comput.Phys.,229,1970</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Self-Adjusting positivity preserving high order schemes for hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">13</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7504</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A two-dimensional HLLC Riemann solver for conservation laws: application to Euler and magnetohydrodynamic flows</subfield>
+    <subfield code="v">231</subfield>
+    <subfield code="y">2012</subfield>
+    <subfield code="o">14</subfield>
+    <subfield code="s">J.Comput.Phys.,231,7476</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Meyer, C.</subfield>
+    <subfield code="h">Du, H.</subfield>
+    <subfield code="h">Xu, Z.</subfield>
+    <subfield code="t">Efficient implementation of ADER schemes for Euler and magnetohydrodynamic flow on structured meshes – comparison with Runge–Kutta methods</subfield>
+    <subfield code="v">235</subfield>
+    <subfield code="y">2013</subfield>
+    <subfield code="o">15</subfield>
+    <subfield code="s">J.Comput.Phys.,235,934</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Abgrall, R.</subfield>
+    <subfield code="t">Multidimensional HLL and HLLC Riemann solvers for unstructured meshes – with application to Euler and MHD flows</subfield>
+    <subfield code="v">261</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">16</subfield>
+    <subfield code="s">J.Comput.Phys.,261,172</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure – Part I – application to hyperbolic conservation laws on structured meshes</subfield>
+    <subfield code="v">277</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">17</subfield>
+    <subfield code="s">J.Comput.Phys.,277,163</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Multidimensional Riemann problem with self-similar internal structure – Part II – application to hyperbolic conservation laws on unstructured meshes</subfield>
+    <subfield code="v">287</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">18</subfield>
+    <subfield code="s">J.Comput.Phys.,287,269</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Divergence-free MHD on unstructured meshes using high order finite volume schemes based on multidimensional Riemann solvers</subfield>
+    <subfield code="v">299</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">19</subfield>
+    <subfield code="s">J.Comput.Phys.,299,687</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">Three dimensional HLL Riemann solver for structured meshes; application to Euler and MHD flow</subfield>
+    <subfield code="v">295</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">20</subfield>
+    <subfield code="s">J.Comput.Phys.,295,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Vides, J.</subfield>
+    <subfield code="h">Gurski, K.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Garain, S.</subfield>
+    <subfield code="h">Audit, E.</subfield>
+    <subfield code="t">A two-dimensional Riemann solver with self-similar sub-structure – alternative formulation based on least squares projection</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">21</subfield>
+    <subfield code="s">J.Comput.Phys.,304,138</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Amano, T.</subfield>
+    <subfield code="h">Garain, S.</subfield>
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="t">High order accuracy divergence-free scheme for the electrodynamics of relativistic plasmas with multidimensional Riemann solvers</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">submitted</subfield>
+    <subfield code="o">22</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">Formulating multidimensional Riemann solvers in similarity variables – part III: a multidimensional analogue of the HLLEM Riemann solver for conservative hyperbolic systems</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="m">in preparation</subfield>
+    <subfield code="o">23</subfield>
+    <subfield code="s">J.Comput.Phys.</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Barth, T.J.</subfield>
+    <subfield code="h">Frederickson, P.O.</subfield>
+    <subfield code="t">Higher order solution of the Euler equations on unstructured grids using quadratic reconstruction</subfield>
+    <subfield code="y">1990</subfield>
+    <subfield code="m">AIAA Paper No. 90-0013</subfield>
+    <subfield code="q">28th Aerospace Sciences Meeting</subfield>
+    <subfield code="o">24</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Batten, P.</subfield>
+    <subfield code="h">Clarke, N.</subfield>
+    <subfield code="h">Lambert, C.</subfield>
+    <subfield code="h">Causon, D.M.</subfield>
+    <subfield code="t">On the choice of wavespeeds for the HLLC Riemann solver</subfield>
+    <subfield code="v">18</subfield>
+    <subfield code="y">1997</subfield>
+    <subfield code="o">25</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,18,1553</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Lagrangian ADER-WENO finite volume schemes on unstructured triangular meshes based on genuinely multidimensional HLL Riemann solvers</subfield>
+    <subfield code="v">267</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">26</subfield>
+    <subfield code="s">J.Comput.Phys.,267,112</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Boscheri, W.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">High order Lagrangian ADER-WENO schemes on unstructured meshes – application of several node solvers to hydrodynamics and magnetohydrodynamics</subfield>
+    <subfield code="v">76</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">27</subfield>
+    <subfield code="s">Int.J.Numer.Methods Fluids,76,737</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Brio, M.</subfield>
+    <subfield code="h">Zakharian, A.R.</subfield>
+    <subfield code="h">Webb, G.M.</subfield>
+    <subfield code="t">Two-dimensional Riemann solver for Euler equations of gas dynamics</subfield>
+    <subfield code="v">167</subfield>
+    <subfield code="y">2001</subfield>
+    <subfield code="o">28</subfield>
+    <subfield code="s">J.Comput.Phys.,167,177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Woodward, P.</subfield>
+    <subfield code="t">The piecewise parabolic method (PPM) for gas dynamical simulations</subfield>
+    <subfield code="v">54</subfield>
+    <subfield code="y">1984</subfield>
+    <subfield code="o">29</subfield>
+    <subfield code="s">J.Comput.Phys.,54,174</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="h">Sekora, J.</subfield>
+    <subfield code="t">A limiter for PPM that preserves accuracy at smooth extrema</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">30</subfield>
+    <subfield code="s">J.Comput.Phys.,227,7069</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Zanna, L.</subfield>
+    <subfield code="h">Bucciantini, N.</subfield>
+    <subfield code="h">Londrillo, P.</subfield>
+    <subfield code="t">An efficient shock-capturing central-type scheme for multidimensional relativistic flows</subfield>
+    <subfield code="v">400</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">31</subfield>
+    <subfield code="s">Astron.Astrophys.,400,397</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Del Zanna, L.</subfield>
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Bucciantini, N.</subfield>
+    <subfield code="h">Londrillo, P.</subfield>
+    <subfield code="t">ECHO: a Eulerian conservative high-order scheme for general relativistic magnetohydrodynamics and magnetodynamics</subfield>
+    <subfield code="v">473</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">32</subfield>
+    <subfield code="s">Astron.Astrophys.,473,11</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="t">A unified framework for the construction of one-step finite volume and discontinuous Galerkin schemes on unstructured meshes</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">33</subfield>
+    <subfield code="s">J.Comput.Phys.,227,8209</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Castro, M.</subfield>
+    <subfield code="h">Pares, C.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">ADER schemes on unstructured meshes for nonconservative hyperbolic systems: applications to geophysical flows</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">34</subfield>
+    <subfield code="s">Comput.Fluids,38,1731</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">A simple extension of the Osher Riemann solver to non-conservative hyperbolic systems</subfield>
+    <subfield code="v">48</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">35</subfield>
+    <subfield code="s">J.Sci.Comput.,48,88</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A new, efficient formulation of the HLLEM Riemann solver for general conservative and non-conservative hyperbolic systems</subfield>
+    <subfield code="v">304</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">36</subfield>
+    <subfield code="s">J.Comput.Phys.,304,275</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="t">On Godunov-type methods for gas dynamics</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">1988</subfield>
+    <subfield code="o">37</subfield>
+    <subfield code="s">SIAM J.Numer.Anal.,25,294</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Einfeldt, B.</subfield>
+    <subfield code="h">Munz, C.-D.</subfield>
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="h">Sjogreen, B.</subfield>
+    <subfield code="t">On Godunov-type methods near low densities</subfield>
+    <subfield code="v">92</subfield>
+    <subfield code="y">1991</subfield>
+    <subfield code="o">38</subfield>
+    <subfield code="s">J.Comput.Phys.,92,273</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Etienne, Z.B.</subfield>
+    <subfield code="h">Paschalidis, V.</subfield>
+    <subfield code="h">Haas, R.</subfield>
+    <subfield code="h">Mösta, P.</subfield>
+    <subfield code="h">Shapiro, S.L.</subfield>
+    <subfield code="t">IllinoisGRMHD: an open-source, user-friendly GRMHD code for dynamical spacetimes</subfield>
+    <subfield code="v">32</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">39</subfield>
+    <subfield code="s">Class.Quantum Gravity,32,175009</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fey, M.</subfield>
+    <subfield code="t">Multidimensional upwinding 1. The method of transport for solving the Euler equations</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">40</subfield>
+    <subfield code="s">J.Comput.Phys.,143,159</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Fey, M.</subfield>
+    <subfield code="t">Multidimensional upwinding 2. Decomposition of the Euler equation into advection equation</subfield>
+    <subfield code="v">143</subfield>
+    <subfield code="y">1998</subfield>
+    <subfield code="o">41</subfield>
+    <subfield code="s">J.Comput.Phys.,143,181</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gammie, C.F.</subfield>
+    <subfield code="h">McKinney, J.C.</subfield>
+    <subfield code="h">Tóth, G.</subfield>
+    <subfield code="t">HARM: a numerical scheme for general relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">589</subfield>
+    <subfield code="y">2003</subfield>
+    <subfield code="o">42</subfield>
+    <subfield code="s">Astrophys.J.,589,444</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gardiner, T.</subfield>
+    <subfield code="h">Stone, J.M.</subfield>
+    <subfield code="t">An unsplit Godunov method for ideal MHD via constrained transport</subfield>
+    <subfield code="v">205</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">43</subfield>
+    <subfield code="s">J.Comput.Phys.,205,509</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gardiner, T.</subfield>
+    <subfield code="h">Stone, J.M.</subfield>
+    <subfield code="t">An unsplit Godunov method for ideal MHD via constrained transport in three dimensions</subfield>
+    <subfield code="v">227</subfield>
+    <subfield code="y">2008</subfield>
+    <subfield code="o">44</subfield>
+    <subfield code="s">J.Comput.Phys.,227,4123</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giacomazzo, B.</subfield>
+    <subfield code="h">Rezzolla, L.</subfield>
+    <subfield code="t">WhiskyMHD: a new numerical code for general relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">24</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">45</subfield>
+    <subfield code="s">Class.Quantum Gravity,24,S235</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Giacomazzo, B.</subfield>
+    <subfield code="h">Rezzolla, L.</subfield>
+    <subfield code="t">The exact solution of the Riemann problem in relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">562</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">46</subfield>
+    <subfield code="s">J.Fluid Mech.,562,223</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gilquin, H.</subfield>
+    <subfield code="h">Laurens, J.</subfield>
+    <subfield code="h">Rosier, C.</subfield>
+    <subfield code="t">Multidimensional Riemann problems for linear hyperbolic systems</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">47</subfield>
+    <subfield code="s">Notes Numer.Fluid Mech.,43,284</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Gurski, K.F.</subfield>
+    <subfield code="t">An HLLC-type approximate Riemann solver for ideal magnetohydrodynamics</subfield>
+    <subfield code="v">25</subfield>
+    <subfield code="y">2004</subfield>
+    <subfield code="o">48</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,25,2165</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Honkkila, V.</subfield>
+    <subfield code="h">Janhunen, P.</subfield>
+    <subfield code="t">HLLC solver for relativistic MHD</subfield>
+    <subfield code="v">223</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">49</subfield>
+    <subfield code="s">J.Comput.Phys.,223,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Jiang, G.-S.</subfield>
+    <subfield code="h">Shu, C.-W.</subfield>
+    <subfield code="t">Efficient implementation of weighted ENO schemes</subfield>
+    <subfield code="v">126</subfield>
+    <subfield code="y">1996</subfield>
+    <subfield code="o">50</subfield>
+    <subfield code="s">J.Comput.Phys.,126,202</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Kim, J.</subfield>
+    <subfield code="h">Balsara, D.S.</subfield>
+    <subfield code="t">A stable HLLC Riemann solver for relativistic magnetohydrodynamics</subfield>
+    <subfield code="v">270</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">51</subfield>
+    <subfield code="s">J.Comput.Phys.,270,634</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komissarov, S.S.</subfield>
+    <subfield code="t">A Godunov-type scheme for relativistic MHD</subfield>
+    <subfield code="v">303</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">52</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,303,343</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Komissarov, S.S.</subfield>
+    <subfield code="t">On some recent developments in numerical methods for relativistic MHD</subfield>
+    <subfield code="v">856</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">53</subfield>
+    <subfield code="s">AIP Conf.Proc.,856,129</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Li, S.-T.</subfield>
+    <subfield code="t">An HLLC Riemann solver for magnetohydrodynamics</subfield>
+    <subfield code="v">203</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">54</subfield>
+    <subfield code="s">J.Comput.Phys.,203,344</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Meadows, K.R.</subfield>
+    <subfield code="h">Kumar, A.</subfield>
+    <subfield code="h">Hussaini, M.Y.</subfield>
+    <subfield code="t">A computational study of the interaction between a vortex and a shock wave</subfield>
+    <subfield code="y">1989</subfield>
+    <subfield code="m">AIAA Paper 89-1043</subfield>
+    <subfield code="o">55</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McCorquodale, P.</subfield>
+    <subfield code="h">Colella, P.</subfield>
+    <subfield code="t">A high order finite volume method for conservation laws on locally refined grids</subfield>
+    <subfield code="v">6</subfield>
+    <subfield code="y">2011</subfield>
+    <subfield code="o">56</subfield>
+    <subfield code="s">Commun.Appl.Math.Comput.Sci.,6,1</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">McKinney, J.C.</subfield>
+    <subfield code="h">Tchekhovskoy, A.</subfield>
+    <subfield code="h">Sadowski, A.</subfield>
+    <subfield code="h">Narayan, R.</subfield>
+    <subfield code="t">Three-dimensional general relativistic radiation magnetohydrodynamical simulation of super-Eddington accretion, using a new code HARMRAD with M1 closure</subfield>
+    <subfield code="v">441</subfield>
+    <subfield code="y">2014</subfield>
+    <subfield code="o">57</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,441,3177</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">An HLLC Riemann solver for relativistic flows II – magnetohydrodynamics</subfield>
+    <subfield code="v">368</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">58</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,368,1040</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Mignone, A.</subfield>
+    <subfield code="h">Ugliano, M.</subfield>
+    <subfield code="h">Bodo, G.</subfield>
+    <subfield code="t">A five-wave HLL Riemann solver for relativistic MHD</subfield>
+    <subfield code="v">393</subfield>
+    <subfield code="y">2009</subfield>
+    <subfield code="o">59</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,393,1141</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Miyoshi, T.</subfield>
+    <subfield code="h">Kusano, K.</subfield>
+    <subfield code="t">A multi-state HLL approximate Riemann solver for ideal magnetohydrodynamics</subfield>
+    <subfield code="v">208</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">60</subfield>
+    <subfield code="s">J.Comput.Phys.,208,315</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Osher, S.</subfield>
+    <subfield code="h">Solomon, F.</subfield>
+    <subfield code="t">Upwind difference schemes for hyperbolic systems of conservation laws</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1982</subfield>
+    <subfield code="o">61</subfield>
+    <subfield code="s">Math.Comput.,38,339</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Pao, S.P.</subfield>
+    <subfield code="h">Salas, M.D.</subfield>
+    <subfield code="t">A computational study of the interaction between a vortex and a shock wave</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="m">AIAA Paper 81-1205</subfield>
+    <subfield code="o">62</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Roe, P.L.</subfield>
+    <subfield code="t">Approximate Riemann solver, parameter vectors and difference schemes</subfield>
+    <subfield code="v">43</subfield>
+    <subfield code="y">1981</subfield>
+    <subfield code="o">63</subfield>
+    <subfield code="s">J.Comput.Phys.,43,357</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Ryu, D.</subfield>
+    <subfield code="h">Chattopadhyay, I.</subfield>
+    <subfield code="h">Choi, E.</subfield>
+    <subfield code="t">Equation of state in numerical relativistic hydrodynamics</subfield>
+    <subfield code="v">166</subfield>
+    <subfield code="y">2006</subfield>
+    <subfield code="o">64</subfield>
+    <subfield code="s">Astrophys.J.Suppl.,166,410</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Schulz-Rinne, C.W.</subfield>
+    <subfield code="h">Collins, J.P.</subfield>
+    <subfield code="h">Glaz, H.M.</subfield>
+    <subfield code="t">Numerical solution of the Riemann problem for two-dimensional gas dynamics</subfield>
+    <subfield code="v">14</subfield>
+    <subfield code="y">1993</subfield>
+    <subfield code="o">65</subfield>
+    <subfield code="s">SIAM J.Sci.Comput.,14,1394</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Tchekhovskoy, A.</subfield>
+    <subfield code="h">McKinney, J.C.</subfield>
+    <subfield code="h">Narayan, R.</subfield>
+    <subfield code="t">WHAM: a WENO-based general relativistic numerical scheme – I. Hydrodynamics</subfield>
+    <subfield code="v">379</subfield>
+    <subfield code="y">2007</subfield>
+    <subfield code="o">66</subfield>
+    <subfield code="s">Mon.Not.R.Astron.Soc.,379,469</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">ADER: arbitrary high order Godunov approach</subfield>
+    <subfield code="v">17</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">67</subfield>
+    <subfield code="s">J.Sci.Comput.,17,609</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="t">ADER schemes for three-dimensional nonlinear hyperbolic systems</subfield>
+    <subfield code="v">204</subfield>
+    <subfield code="y">2005</subfield>
+    <subfield code="o">68</subfield>
+    <subfield code="s">J.Comput.Phys.,204,715</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Titarev, V.A.</subfield>
+    <subfield code="t">Solution of the generalized Riemann problem for advection reaction equations</subfield>
+    <subfield code="v">458</subfield>
+    <subfield code="y">2002</subfield>
+    <subfield code="o">69</subfield>
+    <subfield code="s">Proc.R.Soc.Lond.Ser.,A458,271</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Toro, E.F.</subfield>
+    <subfield code="h">Spruce, M.</subfield>
+    <subfield code="h">Speares, W.</subfield>
+    <subfield code="t">Restoration of the contact surface in the Harten–Lax–van Leer Riemann solver</subfield>
+    <subfield code="v">4</subfield>
+    <subfield code="y">1994</subfield>
+    <subfield code="o">70</subfield>
+    <subfield code="s">Shock Waves(Germany),4,25</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Vides, J.</subfield>
+    <subfield code="h">Nkonga, B.</subfield>
+    <subfield code="h">Audit, E.</subfield>
+    <subfield code="t">A simple two-dimensional extension of the HLL Riemann solver for hyperbolic conservation laws</subfield>
+    <subfield code="v">280</subfield>
+    <subfield code="y">2015</subfield>
+    <subfield code="o">71</subfield>
+    <subfield code="s">J.Comput.Phys.,280,643</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Wendroff, B.</subfield>
+    <subfield code="t">A two-dimensional HLLE Riemann solver and associated Godunov-type difference scheme for gas dynamics</subfield>
+    <subfield code="v">38</subfield>
+    <subfield code="y">1999</subfield>
+    <subfield code="o">72</subfield>
+    <subfield code="s">Comput.Math.Appl.,38,175</subfield>
+  </datafield>
+  <datafield tag="999" ind1="C" ind2="5">
+    <subfield code="h">Zanotti, O.</subfield>
+    <subfield code="h">Dumbser, M.</subfield>
+    <subfield code="t">Efficient conservative ADER schemes based on WENO reconstruction and space–time predictor in primitive variables</subfield>
+    <subfield code="v">3</subfield>
+    <subfield code="y">2016</subfield>
+    <subfield code="o">73</subfield>
+    <subfield code="s">Comput.Astrophys.Cosmol.,3,1</subfield>
+  </datafield>
+  <datafield tag="FFT" ind1=" " ind2=" ">
+    <subfield code="a">/afs/cern.ch/project/inspire/uploads/elsevier/consyn/consyn-files/0021-9991/S0021999116X00058/S0021999116000553/S0021999116000553.xml</subfield>
+    <subfield code="t">Elsevier</subfield>
+    <subfield code="o">HIDDEN</subfield>
+  </datafield>
+</record>
